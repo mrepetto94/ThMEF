@@ -42,7 +42,7 @@ tax pressure and the functional characterization of a certain entity. The soluti
 \end{abstract}
 
 \section{Introduction}
-After the Great Recession, multinational companies found themselves in a very different environment; thriving to survive with competition on one side and higher restriction imposed by countries running financial crises. This led multinationals with a great challenge which consequently boost cost engineering, in an attempt to survive in this new scenario. Another result was a new form of tax planning, most of the time barely legal in order to exploit the fiscal advantages of certain countries\cite{_after_tax_hedging_report.pdf_????}. Such problem forced the G20 to launch an inclusive framework on base erosion and profit shifting called "BEPS", bringing together about 100 countries in order to stop such unlawful tax planning. However, even if this action against such problem highlighted in a more specific way what should be considered as aggressive tax planning the border with legitimate cost engineering seems blurrier than ever\cite{feller_three_2017}.
+After the Great Recession, multinational companies found themselves in a very different environment; thriving to survive with competition on one side and higher restriction imposed by countries running financial crises. This led multinationals with a great challenge which consequently boost cost engineering, in an attempt to survive in this new scenario. Another result was a new form of tax planning, most of the time barely legal in order to exploit the fiscal advantages of certain countries\cite{_after_tax_hedging_report.pdf_????}. Such problems forced the G20 to launch an inclusive framework on base erosion and profit shifting called "BEPS", bringing together about 100 countries in order to stop such unlawful tax planning. However, even if this action against such problem highlighted in a more specific way what should be considered as aggressive tax planning the border with legitimate cost engineering seems blurrier than ever\cite{feller_three_2017}.
 In this paper, I'll try to build a model that given a set of criteria based on the accounting information of a specific multinational, it tries to perform the best allocation of its entities. The model will use both internal and external data and will follow three main objectives, namely minimize the costs, minimize the tax base and at the same time be compliant with its functional characterization, meaning that its profitability is in line with independent actor in the market \cite{_model_2015} and it's not a mere result of aggressive tax planning.
 
 \begin{figure}[htb!]
@@ -78,7 +78,7 @@ since we have more objective functions to deal with; its formulation is the foll
 Min[f_1(x),f_2(x),...,f_k(x)] \quad i=1,...,k \quad where \quad k\geq2
 \]
 
-This approach seems to fit better in reality since, in reality, we tend to have a more than one objective most of the time in contrast with one another. 
+This approach seems to fit better the real world since, in reality, we tend to have a more than one objective most of the time in contrast with one another. 
 A solution to a multi-criteria problem would be optimal if it'd respected the Pareto Efficient assumption, namely that no other feasible solution exists that is at least as good with respect to all objectives and strictly better with respect to at least one objective. Mathematically it means that $\left\{x_1,...x_k\right\}$ is a solution if $\not\exists \left\{x'_1,...x'_k\right\}$
 such that:
 \[
@@ -157,7 +157,7 @@ n_q,p_q\geq0 & q=1,...,Q
 \]
 
 \section{A state of the art review}
-As highlighted by Aouni\cite{aouni_goal_2017}, generally accountants are facing complex decision-making situations where they aggregate simultaneously several conflicting and incommensurable factors. This means that GP may become a very useful aid tool in hands of accountants to perform such decisions. Many GP models have been created to solve a broad range of accounting topis such as in audit sampling\cite{tayi_integration_1985} or other fields dealing with management accounting such as pricing\cite{tan_multipleobjective_2008}, costing\cite{dowlatshahi_product_2001}, capital budgeting and performance evaluation\cite{hung_integrated_2011}.
+As highlighted by Aouni\cite{aouni_goal_2017}, generally accountants are facing complex decision-making situations where they aggregate simultaneously several conflicting and incommensurable factors. This means that GP may become a very useful aid tool in hands of accountants to perform such decisions. Many GP models have been created to solve a broad range of accounting topics such as in audit sampling\cite{tayi_integration_1985} or other fields dealing with management accounting such as pricing\cite{tan_multipleobjective_2008}, costing\cite{dowlatshahi_product_2001}, capital budgeting and performance evaluation\cite{hung_integrated_2011}.
 This popularity is due to the fact that GP is easy to understand and to apply, plus it facilitates consideration of trade-off in the decision-making process.
 Aside from its popularity, the interest of academics in international tax planning never arose,
 it’s worth mentioning the work of Merville and Petty\cite{merville_transfer_1978} who tried to model an optimal pricing policy which is indeed useful to set a global tax
@@ -174,13 +174,17 @@ Min \quad \sum_{q=1}^{Q} (n_q+p_q)+ \sum_{i=1}^{N} (pn_i+pp_i)
 \end{equation}
 
 \begin{numcases}{Subject \quad to}
-   \sum_{k=1}^{N} (C_k(E,A,K))- p_1 = 0
+   \sum_{k=1}^{N} [C_k(E,A,K)]- p_1 = 0
    \\
-   \sum_{k=1}^{N} (T_k(R,E,A,K)) -p_2=0
+   \sum_{k=1}^{N} [T_k(R,E,A,K)] -p_2=0
    \\
    P_k(R,E,A,K)+nn_k-np_k=V_k  &  $\forall k \in \left\{1...N\right\}$
    \\
-   \highlight{\sum_{k=1}^{N} O(R_k,C_k(E,A,K))+n_3-p_3=\eta}
+    \sum_{k=1}^{N} f_1(R_k)+n_3-p_3 = w_1 R  
+   \\
+    \sum_{k=1}^{N} f_2(R_k)+n_4-p_4= w_2 R  
+   \\
+    \sum_{k=1}^{N} f_3(R_k)+n_5-p_5 = w_3 R  
    \\
    P_k(R,E,A,K) \geq L_k &  $\forall k \in \left\{1...N\right\}$
    \\
@@ -199,7 +203,7 @@ Min \quad \sum_{q=1}^{Q} (n_q+p_q)+ \sum_{i=1}^{N} (pn_i+pp_i)
    pn_n,pp_n\geq0 & n=1,...,N
 \end{numcases}
 
-As you can see the (2)(3)(4) belongs to the first category, where instead (5) belongs to the second category, the latter in fact depend on the strategy of the decision maker and it's not given by any environmental variable.
+As you can see the (2)(3)(4) belong to the first category, where instead (5)(6)(7) belong to the second category, the latter in fact depend on the strategy of the decision maker and it's not given by any environmental variable.
 
 \subsection{Data used to formulate the model}
 The data used in this particular model comes from different sources and they can be summarized in the following categories:
@@ -231,7 +235,7 @@ The second Macroeconomic data is the Gross National Income per capita. This kind
 \end{figure}
 
 Figure 4 shows a scatter plot of the normalized Corporate Tax (x axis) and GNI per capita (y axis), to such data I applied a K-mean cluster algorithm with K=5, this kind of algorithm randomly assigns each observation to a cluster, and finds the centroid of each cluster then, through iteration reassign data points to the cluster whose centroid is closest and calculate the new centroid of each cluster. The K was chosen with the "elbow method" with $R^2$ meaning that 5 was the number of cluster that return the best trade of in terms of $R^2$ increase and and cluster cluster numerosity. 
-The result were five clusters with the one highlighted by the circle indicating countries with both a low average cost of worker and a low taxation. However even if these may seem the best location to allocate the entities this is not always true, since the formula for taxation is the one proposed at section 4.2 and such entities have to be in the range proposed in section 4.3. 
+The result were five clusters with the one highlighted by the circle indicating countries with both a low average cost of worker and a low taxation. However even if these may seem the best locations to allocate the entities this is not always true, since the formula for taxation is the one proposed at section 4.2 and such entities have to be in the range proposed in section 4.3. 
 
 \begin{figure}[ht]
 \centering
@@ -264,7 +268,7 @@ C(E,A,K)=ce_k*E+ca_k*A+ck_k*K \quad \forall k \in \left\{1...N\right\}
 \]
 
 Where (1)$ce_n$ corresponds to the National Income per Capita, this index was chosen because of its availability through the nations at scope and because it's a good proxy for the cost of labour in each State; (2)$ca_n$ corresponds to the cost of running the assets and is derived as illustrate before by subtracting the wage cost to the operational expenses and then adjusting for the purchasing power; (3)$ck_n$ corresponds to the cost of capital calculated using data from comparable companies.
-Even if this three variable does not represent the full cost structure of each enterprise (cost of good sold was not mentioned) is helpful for the decision maker to take into account this three driver of cost since this information constitutes the main driver to address value adding activities in the overall value chain.
+Even if this three variables do not represent the full cost structure of each enterprise (cost of good sold was not mentioned) is helpful for the decision maker to take into account this three driver of cost since this information constitutes the main driver to address value adding activities in the overall value chain.
 
 \subsubsection{Tax base minimization}
 This objective is the crucial point of this work since an optimal tax strategy can be considered good for profit maximization. However, should be mentioned that this doesn't constitute any avoidance of taxes but a strategy to be competitive in the market. Such allocation result as the consolidate minimization of all the national tax base, which is given by subtracting from the revenues allocated to a particular State ($y_k \cdot R$) the cost allocated to the same State (here expressed as $x_k \cdot C(E, A,K)$. This residual forms the EBIT (namely Earnings Before Intrest and Taxes), by multiplying this the EBIT by the national corporate tax we get the Tax Base. The tax base function will look as follows:
@@ -294,6 +298,9 @@ The objective function returning such objective would be as follows:
 \end{cases}
 \]
 The basic idea behind this objetive is that for a moment we're forgetting about the group objective (the first and the second) that try to minimize the consolidated cost and tax base. In this case we're focusing on the profitability of each entity.
+
+\subsection{Revenue split}
+This objective is represented by the goals (5)(6)(7) and the methodology used to determine this type of split is mutuated from the profit split method used in transfer pricing analysis. In particular the transfer pricing profit split aims at: determining the division of profits that independent enterprises would have expected to realize from engaging in the transaction or transaction. In our case we'll use this method and particularly the contribution analysis to define the effort of each funtional category in the value chain. Secondly we'll use this value driver to split the revenues in order to have, at the end a structure that takes into account the internal value chain of the products.
 
 \subsubsection{Additional goal: numerosity control NOT WORKING AT THE TIME}
 In Addition to the first category of objectives comes the second category that aims at control the overall numerosity of the entities and also to control the numerosity of each functional characterization. This has the advantage to give a solution in line with the strategic choices of the management. An example of numerosity control may be the following:
