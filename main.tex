@@ -174,13 +174,17 @@ Min \quad \sum_{q=1}^{Q} (n_q+p_q)+ \sum_{i=1}^{N} (pn_i+pp_i)
 \end{equation}
 
 \begin{numcases}{Subject \quad to}
-   \sum_{k=1}^{N} (C_k(E,A,K))- p_1 = 0
+   \sum_{k=1}^{N} [C_k(E,A,K)]- p_1 = 0
    \\
-   \sum_{k=1}^{N} (T_k(R,E,A,K)) -p_2=0
+   \sum_{k=1}^{N} [T_k(R,E,A,K)] -p_2=0
    \\
    P_k(R,E,A,K)+nn_k-np_k=V_k  &  $\forall k \in \left\{1...N\right\}$
    \\
-   \highlight{\sum_{k=1}^{N} O(R_k,C_k(E,A,K))+n_3-p_3=\eta}
+    \sum_{k=1}^{N} f_1(R_k)+n_3-p_3 = w_1 R  
+   \\
+    \sum_{k=1}^{N} f_2(R_k)+n_4-p_4= w_2 R  
+   \\
+    \sum_{k=1}^{N} f_3(R_k)+n_5-p_5 = w_3 R  
    \\
    P_k(R,E,A,K) \geq L_k &  $\forall k \in \left\{1...N\right\}$
    \\
@@ -199,7 +203,9 @@ Min \quad \sum_{q=1}^{Q} (n_q+p_q)+ \sum_{i=1}^{N} (pn_i+pp_i)
    pn_n,pp_n\geq0 & n=1,...,N
 \end{numcases}
 
-As you can see the (2)(3)(4) belong to the first category, where instead (5) belongs to the second category, the latter in fact depend on the strategy of the decision maker and it's not given by any environmental variable.
+
+As you can see the (2)(3)(4) belong to the first category, where instead (5)(6)(7) belong to the second category, the latter in fact depend on the strategy of the decision maker and it's not given by any environmental variable.
+
 
 \subsection{Data used to formulate the model}
 The data used in this particular model comes from different sources and they can be summarized in the following categories:
@@ -294,6 +300,9 @@ The objective function returning such objective would be as follows:
 \end{cases}
 \]
 The basic idea behind this objetive is that for a moment we're forgetting about the group objective (the first and the second) that try to minimize the consolidated cost and tax base. In this case we're focusing on the profitability of each entity.
+
+\subsection{Revenue split}
+This objective is represented by the goals (5)(6)(7) and the methodology used to determine this type of split is mutuated from the profit split method used in transfer pricing analysis. In particular the transfer pricing profit split aims at: determining the division of profits that independent enterprises would have expected to realize from engaging in the transaction or transaction. In our case we'll use this method and particularly the contribution analysis to define the effort of each funtional category in the value chain. Secondly we'll use this value driver to split the revenues in order to have, at the end a structure that takes into account the internal value chain of the products.
 
 \subsubsection{Additional goal: numerosity control NOT WORKING AT THE TIME}
 In Addition to the first category of objectives comes the second category that aims at control the overall numerosity of the entities and also to control the numerosity of each functional characterization. This has the advantage to give a solution in line with the strategic choices of the management. An example of numerosity control may be the following:
