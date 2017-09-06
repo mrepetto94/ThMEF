@@ -88,6 +88,7 @@ The idea behind such method is very simple, and is based on distance minimizatio
 
 Such models may be represented algebraically as follows:
 
+
 \[
 Min \quad a=h(n,p) \quad s.t: \quad 
 \begin{cases}
@@ -166,11 +167,13 @@ The objectives are divided into two categories; the first one is given by three 
 The overall model algebraically looks as follows:
 
 \begin{equation}
-Min \quad \sum_{i=1}^{Q} (p_q \cdot w_q) + \sum_{i=1}^{N} (pn_i+pp_i)\cdot w_3 + \sum_{i=1}^{O} (nm_i+pm_i)\cdot w_4
+
+Min \quad \sum_{i=1}^{Q} (\sideset{_q}{_i}p \cdot w_i) + w_3 \cdot \sum_{i=1}^{N} ( \sideset{_n}{_i}n + \sideset{_n}{_i}p ) + w_4 \cdot \sum_{i=1}^{O} (\sideset{_o}{_i}n+\sideset{_o}{_i}p)
+
 \end{equation}
 
 \begin{numcases}{Subject \quad to}
-   \sum_{i=1}^{N} C_i(E,A,K) - p_1 = 0
+   \sum_{q=1}^{N} C_i(E,A,K) - p_1 = 0
    \\
    \sum_{i=1}^{N} T_i(R,E,A,K) - p_2 = 0 
    \\
