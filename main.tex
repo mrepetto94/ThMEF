@@ -6,6 +6,9 @@
 \usepackage{dcolumn}
 \usepackage{bm}
 \usepackage{amsmath}
+\usepackage{amstext}
+\usepackage{array}   
+\newcolumntype{L}{>{$}l<{$}}
 
 \usepackage{cases}
 
@@ -195,7 +198,7 @@ The second Macroeconomic data is the Gross National Income per capita. This kind
 \caption{K-mean cluster on standardized Corporate Tax and GNI per capita}
 \end{figure}
 
-Figure 4 shows a scatter plot of the normalized Corporate Tax (x axis) and GNI per capita (y axis), to such data I applied a K-mean cluster algorithm with K=5, this kind of algorithm randomly assigns each observation to a cluster, and finds the centroid of each cluster then, through iteration reassign data points to the cluster whose centroid is closest and calculate the new centroid of each cluster. The K was chosen with the "elbow method" with $R^2$ meaning that 5 was the number of cluster that return the best trade off in terms of $R^2$ increase and and cluster cluster numerosity. 
+Figure 4 shows a scatter plot of the normalized Corporate Tax (x axis) and GNI per capita (y axis), to such data I applied a K-mean cluster algorithm with K=5, this kind of algorithm randomly assigns each observation to a cluster, and finds the centroid of each cluster then, through iteration reassign data points to the cluster whose centroid is closest and calculate the new centroid of each cluster. The K was chosen with the "elbow method" with $R^2$ meaning that 5 was the number of cluster that return the best trade off in terms of $R^2$ increase and and cluster numerosity. 
 The result were five clusters with the one highlighted by the circle indicating countries with both a low average cost of worker and a low taxation. However even if these may seem the best locations to allocate the entities this is not always true, since the formula for taxation is the one proposed at section 4.2 and such entities have to be in the range proposed in section 4.3. 
 
 \subsubsection{Target enterprise data}
@@ -203,7 +206,7 @@ This data includes the information we got from our enterprise (the one in which 
 
 \subsubsection{Global enterprises data}
 This category contains all the data inherent the PLI of the specific functional enterprises operating in a certain State.
-A piece of this data is summarized by the following representation. Another important data that can be obtained is the cost of debt \cite{berman_financial_2013} even though such measure has to take into account the proportion of two types of funding (namely equity and debt) the data provided by the comparable enterprises serve as a good proxy for such measure if used in conjunction with financial databases as Blomberg. In our case, to obtain this data a private worldwide database was used called Orbis by Bureau Van Dijk.
+A piece of this data is summarized by the following representation. Another important data that can be obtained is the cost of debt \cite{berman_financial_2013} even though such measure has to take into account the proportion of two types of funding (namely equity and debt) the data provided by the comparable enterprises serve as a good proxy for such measure if used in conjunction with financial databases as Bloomberg. In our case, to obtain this data a private worldwide database was used called Orbis by Bureau Van Dijk.
 
 \begin{figure}[H]
 \centering
@@ -214,6 +217,13 @@ A piece of this data is summarized by the following representation. Another impo
 In this figure, we can see how the PLI interquartile range changes from country to country in such case the PLI we choose was an ROS applied on independent companies whose activities are based on distribution (from wholesale to retail). Such difference can play a major role in deciding the optimal profitability level of the allocated entities. The PLI, acronym of Profit Level Indicator is the a financial indicator (most of the time a ratio) that tracks the profitability of a certain function performed by the entity under scope of analysis.
 
 \subsection{Objectives}
+The data reported above will be used to set up the GP model and constitutes part of the objectives and constraints that will be presented below. In order to model the overall allocation we need to take into consideration the following:
+\begin{itemize}
+    \item The overall cost of production should be minimized;
+    \item The tax liability should be minimized;
+    \item The profit should be divided among the entities based on the contribution that such entity give to the overall process of value creation;
+    \item The functional characterization of each entity must fall within a range achieved by comparable non controlled entities.
+\end{itemize}
 
 \subsubsection{Cost minimization}
 This is a very basic objective in which we try to minimize the cost embodied in each national entity. The cost function for each entity is primarily given by three variables, namely employees (which constitute the major variable cost of an enterprise) then we have the specific cost of running the assets (machinery, offices etc...) and then we have the cost of capital (meaning the remuneration expected share holders and financiers). All these variables contribute to the determination of costs. The approximation function derived will look as follows:
@@ -233,7 +243,7 @@ T(R,E,A,K)= [R-(ce_k\cdot E+ca_k\cdot A+ck_k\cdot K)]\cdot tx_k \quad \forall k 
 \]
 
 \subsubsection{Functional allocation}
-This objective mutates from the TNMM technique used in accessing the transfer pricing goodness. The method is based on the examination of the net profit relative to an appropriate base (e.g. costs, sales, assets) that a local entity realizes from a controlled transaction (or in our case to the entity itself). Basically, we introduced this objective as a quality control that the overall process of maximization of profits as some confirmation also in the real market, made by independent actors. This is in certain sense a bond that helps the model in giving a solution viable also in an anti avoidance perspective.
+This objective derives from the TNMM technique used in accessing the transfer pricing goodness. The method is based on the examination of the net profit relative to an appropriate base (e.g. costs, sales, assets) that a local entity realizes from a controlled transaction (or in our case to the entity itself). Basically, we introduced this objective as a quality control that the overall process of maximization of profits as some confirmation also in the real market, made by independent actors. This is in certain sense a bond that helps the model in giving a solution viable also in an anti avoidance perspective.
 
 In order to do so we first need to identify which Profit Level Indicator to choose; this is an important choice that has to be made taking into account the functional characterization of such entity, that is, if an entity focuses on distribution the best PLI to test such entity is given by the ROS of its functional characteristics, that's because the sales are supposed to be the main element of a distributor (and not cost or assets). The main PLI used by practitioner are: Return on Sales, Full Cost Mark-up, Return on Asset, Return on Investment.
 
@@ -252,23 +262,13 @@ The objective function returning such objective would be as follows:
    \frac{R - C(E,A,K)}{E} & \text{if } q=4
 \end{cases}
 \]
-The basic idea behind this objetive is that for a moment we're forgetting about the group objective (the first and the second) that try to minimize the consolidated cost and tax base. In this case we're focusing on the profitability of each entity.
+The basic idea behind this objective is that for a moment we're forgetting about the group objective (the first and the second) that try to minimize the consolidated cost and tax base. In this case we're focusing on the profitability of each entity.
 
 \subsection{Profit split}
-This objective is represented by the goals (5)(6)(7) and the methodology used to determine this type of split is mutuated from the profit split method used in transfer pricing analysis. In particular the transfer pricing profit split aims at: determining the division of profits that independent enterprises would have expected to realize from engaging in the transaction \cite{oecd_split}. In our case we'll use this method and particularly the contribution analysis to define the effort of each funtional category in the value chain. Secondly we'll use this value driver to partition the profits in order to have, at the en, a structure that takes into account the internal value chain of the products and not just the information gained by independent comparable companies.
+This objective is represented by the goals (4)(5)(6) and the methodology used to determine this type of split derives from the profit split method used in transfer pricing analysis. In particular the transfer pricing profit split aims at: determining the division of profits that independent enterprises would have expected to realize from engaging in the transaction \cite{oecd_oecd_????}. In our case we'll use this method and particularly the contribution analysis to define the effort of each functional category in the value chain. Secondly we'll use this value driver to partition the profits in order to have, at the en, a structure that takes into account the internal value chain of the products and not just the information gained by independent comparable companies.
 
 \subsection{Constraints}
-Constraints represent the boundaries where the system will result unfeasible. Such constraints are expressed by the equation from (8) to (16); where the first two represent the boundaries on the PLI distribution namely the lower quartile and the upper quartile, outside this range the profitability may not be considered to be arm's length. The constraints (10)(11)(12)(13) represent the frontier of the possible allocable resources given by the company under the scope. The constraints (14) and (16) sets the positiveness of the deviation variables in order to avoid incorrectness of the overall GP model. 
-
-
-\section{Mathematical simulation: a case study}
-The simulation of the above-mentioned model was made using LINGO17. Even if the mathematical package was able to handle the total amount of data given by the model the simulation was done using a portion of this data. The limitations to the model were the following:
-
-\begin{itemize}
-    \item The PLI chosen to set the functional range were only 2, ROS and FCMU;
-    \item The cost of asset and equity was set to 0, meaning that the only cost driver was employees;
-    \item The functional characterization was reduced to 3, namely distributor, producer and principal (which acts as an active holding).
-\end{itemize}
+Constraints represent the boundaries where the system will result unfeasible. Such constraints are expressed by the equation from (7) to (15); where the first two represent the boundaries on the PLI distribution namely the lower quartile and the upper quartile, outside this range the profitability may not be considered to be arm's length. The constraints (10)(11)(12)(13) represent the frontier of the possible allocable resources given by the company under the scope. The constraints (13),(14) and (15) sets the positiveness of the deviation variables in order to avoid incorrectness of the overall GP model. 
 
 \subsection{Goal Programming Model}
 
@@ -277,21 +277,21 @@ The objectives are divided into two categories; the first one is given by three 
 
 The overall model algebraically looks as follows:
 
-\[ \min_{p,n} \quad \sum_{i=1}^{Q} (\sideset{_q}{_i}p \cdot w_i) + w_3 \cdot \sum_{i=1}^{N} ( \sideset{_n}{_i}n + \sideset{_n}{_i}p ) + w_4 \cdot \sum_{i=1}^{O} (\sideset{_o}{_i}n+\sideset{_o}{_i}p) \]
+\[ \min_{p,n} \quad \sum_{i=1}^{Q} (\sideset{_q}{_i}p \cdot w_i) + w_3 \cdot \sum_{i=1}^{O} (\sideset{_o}{_i}n) + w_4 \cdot \sum_{i=1}^{N} ( \sideset{_n}{_i}n + \sideset{_n}{_i}p )\]
 
 
 \begin{numcases}{Subject \quad to}
-   \sum_{q=1}^{N} C_q(E,A,K) - p_1 = 0
+   \sum_{q=1}^{N} C_q(E,A,K) - \sideset{_q}{_1}p = 0
    \\
-   \sum_{q=1}^{N} T_q(R,E,A,K) - p_2 = 0 
+   \sum_{q=1}^{N} T_q(R,E,A,K) - \sideset{_q}{_2}p = 0 
    \\
-   P_k(R,E,A,K)+nn_k-np_k=V_k  \qquad \forall k \in \left\{1...N\right\}
+   P_k(R,E,A,K)+\sideset{_n}{_k}n-\sideset{_n}{_k}p=V_k  \qquad \forall k \in \left\{1...N\right\}
    \\
-    \sum_{q=1}^{N} f_1\cdot(R_q-C_q(E,A,K))+nm_1-pm_1 = j_1\cdot \sum_{q=1}^{N} (R_q-C_q(E,A,K))  
+    \sum_{q=1}^{D} (R_q-C_q(E,A,K))+\sideset{_o}{_1}n = c_1\cdot \sum_{q=1}^{N} (R_q-C_q(E,A,K))  
    \\
-    \sum_{q=1}^{N} f_2\cdot(R_q-C_q(E,A,K))+nm_2-pm_2 = j_2\cdot \sum_{q=1}^{N} (R_q-C_q(E,A,K)) 
+    \sum_{q=1}^{P} (R_q-C_q(E,A,K))+\sideset{_o}{_2}n = c_2\cdot \sum_{q=1}^{N} (R_q-C_q(E,A,K)) 
    \\
-    \sum_{q=1}^{N} f_3\cdot(R_q-C_q(E,A,K))+nm_3-pm_3 = j_3\cdot \sum_{i=q}^{N} (R_q-C_q(E,A,K)) 
+    \sum_{q=1}^{M} (R_q-C_q(E,A,K))+\sideset{_o}{_3}n = c_3\cdot \sum_{i=q}^{N} (R_q-C_q(E,A,K)) 
    \\
    P_k(R,E,A,K) \geq L_k  \qquad \forall k \in \left\{1...N\right\}
    \\
@@ -307,15 +307,62 @@ The overall model algebraically looks as follows:
    \\
    \sideset{_q}{_i}p,\sideset{_q}{_i}n \geq 0 \qquad i=1,...,Q
    \\
-    \sideset{_n}{_i}p,\sideset{_n}{_i}n \geq 0 \qquad i=1,...,N
+   \sideset{_n}{_i}p,\sideset{_n}{_i}n \geq 0 \qquad i=1,...,N
    \\
    \sideset{_o}{_i}p,\sideset{_o}{_i}n \geq 0 \qquad i=1,...,O
  \end{numcases}
 
 
-As you can see the (2)(3)(4) belong to the first category, where instead (5)(6)(7) belong to the second category, the latter in fact depend on the strategy of the decision maker and it's not given by any environmental variable.
+As you can see the (1)(2)(3) belong to the first category, where instead (4)(5)(6) belong to the second, the latter in fact depend on the strategy of the decision maker and it's not given by any environmental variable.
 
-\section{Conclusions}
+\section{Mathematical simulation: a case study}
+The simulation of the above-mentioned model was made using LINGO17. Even if the mathematical package was able to handle the total amount of data given by the model the simulation was done using a portion of this data, avoiding countries in which the company doesn't operate at all. Other limitations where implemented in order to avoid any possible non linearity, resulting in an increase of the computational time to obtain a solution, this was possible by avoiding inserting the equation (3), when instead the correlated constraints, namely (7) and (8) were linearized. Other limitations to the model are exposed below:
+\begin{itemize}
+    \item The PLI chosen to set the functional range were only 2, ROS and FCMU;
+    \item The cost of asset and equity was set to 0, meaning that the only cost driver was employees;
+    \item The functional characterization was reduced to 3, namely distributor, producer and principal (which acts as an active holding);
+    \item The number of employees was assumed to be continuous, meaning that part-time work and non full year worker can be used by the firm.
+\end{itemize}
+
+Concerning the data, the financial were taken from a company operating mostly in Europe and western countries in general, plus this company tend to produce and store most of its products in Asian countries and tend to have less inventory in its western distribution sites. The company under scope was under performing at the time of this simulation its P/L statement registered a loss of roughly  6.960.502 USD. The revenues registered for the year under the scope were about 88.900.344,00 USD and the employees hired were 2.722,00.
+The weights were chosen in order to value firstly the tax minimization, then the contribution of each entity on the profit made by the company (profit split) and the cost minimization.
+
+\subsection{Conclusions}
+The results produced by the mathematical package are illustrated in the following table:
+
+\begin{center}
+ \begin{tabular}{||c c c c||} 
+ \hline
+ State & Function & Revenues allocation & Employees allocation \\ [0.5ex] 
+ \hline\hline
+ Cyprus & Distributor & 7.986.031 & 269,2824 \\ 
+ \hline
+ Denmark & Manufacturer & 5.464.000 & 57,5619 \\
+ \hline
+ Latvia & Principal & 64.144.930 & 2.295,3010 \\
+ \hline
+ Portugal & Principal & 11.305.390 & 99,8544 \\
+ \hline
+\end{tabular}
+\end{center}
+
+The financial data of the company shown an average consolidated tax burden of 21\% where instead using the model we achieved a rate of 17\% the only periods where such a ratio where lesser than the one achieved by the model where the one in which the company started to register losses (that caused a decrease on the tax burden). This model, fixing the PLI at a positive level doesn't allow any combination to result in an EBIT of 0 consequently the only achievable 0 rate may be in case of tax heaven.
+
+The deviation variables we used registered the following discrepancies:
+
+\begin{center}
+\begin{tabular}{|| L  L L ||}
+\hline
+\text{Variable} & \text{Amount} & \text{Description} \\
+\hline
+\sideset{_q}{_1}p & & \\
+\hline
+\sideset{_q}{_2}p & & \\
+\hline
+\end{tabular}
+\end{center}
+
+The model is far from been used as the only tool that decision makers can use to solve problems of business restructuring, however the result shows that multicriteria analysis and especially goal programming may constituetes one of the best tool that can be used to mesure such decision.
 
 
 \newpage
