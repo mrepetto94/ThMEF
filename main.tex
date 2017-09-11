@@ -316,7 +316,7 @@ The overall model algebraically looks as follows:
 As you can see the (1)(2)(3) belong to the first category, where instead (4)(5)(6) belong to the second, the latter in fact depend on the strategy of the decision maker and it's not given by any environmental variable.
 
 \section{Mathematical simulation: a case study}
-The simulation of the above-mentioned model was made using LINGO17. Even if the mathematical package was able to handle the total amount of data given by the model the simulation was done using a portion of this data, avoiding countries in which the company doesn't operate at all. Other limitations where implemented in order to avoid any possible non linearity, resulting in an increase of the computational time to obtain a solution, this was possible by avoiding inserting the equation (3), when instead the correlated constraints, namely (7) and (8) were linearized. Other limitations to the model are exposed below:
+The simulation of the above-mentioned model was made using LINGO17. Even if the mathematical package was able to handle the total amount of data given by the model the simulation was done using a portion of this data, avoiding countries in which the company doesn't operate at all. Other limitations were implemented in order to avoid any possible nonlinearity, resulting in an increase of the computational time to obtain a solution, this was possible by avoiding inserting the equation (3), when instead the correlated constraints, namely (7) and (8) were linearized. Other limitations to the model are exposed below:
 \begin{itemize}
     \item The PLI chosen to set the functional range were only 2, ROS and FCMU;
     \item The cost of asset and equity was set to 0, meaning that the only cost driver was employees;
@@ -346,7 +346,7 @@ The results produced by the mathematical package are illustrated in the followin
 \end{tabular}
 \end{center}
 
-The financial data of the company shown an average consolidated tax burden of 21\% where instead using the model we achieved a rate of 17\% the only periods where such a ratio where lesser than the one achieved by the model where the one in which the company started to register losses (that caused a decrease on the tax burden). This model, fixing the PLI at a positive level doesn't allow any combination to result in an EBIT of 0 consequently the only achievable 0 rate may be in case of tax heaven.
+The financial data of the company shown an average consolidated tax burden of 21\% where instead using the model we achieved a rate of 17\% the only periods where such a ratio where lesser than the one achieved by the model where the one in which the company started to register losses (that caused a decrease in the tax burden). This model, fixing the PLI at a positive level doesn't allow any combination to result in an EBIT of 0 consequently the only achievable 0 rate may be in case of a tax haven.
 
 The deviation variables we used registered the following discrepancies:
 
@@ -355,14 +355,20 @@ The deviation variables we used registered the following discrepancies:
 \hline
 \text{Variable} & \text{Amount} & \text{Description} \\
 \hline
-\sideset{_q}{_1}p & & \\
+\sideset{_q}{_1}p & 46.870.020,00 & \text{Consolidated cost of employees} \\
 \hline
-\sideset{_q}{_2}p & & \\
+\sideset{_q}{_2}p & 7.159.194,00 & \text{Consolidated tax liability} \\
+\hline
+\sideset{_o}{_1}n & 0,00 & \text{Distributor profit allocation} \\
+\hline
+\sideset{_o}{_2}n & 0,00 & \text{Manufacturer profit allocation} \\
+\hline
+\sideset{_o}{_3}n & 0,00 & \text{Principal profit allocation} \\
 \hline
 \end{tabular}
 \end{center}
 
-The model is far from been used as the only tool that decision makers can use to solve problems of business restructuring, however the result shows that multicriteria analysis and especially goal programming may constituetes one of the best tool that can be used to mesure such decision.
+The model is far from being used as the only tool that decision makers can use to solve problems of business restructuring, however, the result shows that multi criteria analysis and especially goal programming may constitutes one of the best tools that can be used to measure such decision.
 
 
 \newpage
