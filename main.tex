@@ -2,30 +2,17 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[a4paper, total={6in, 8in}]{geometry}
-\usepackage{graphicx}
-\usepackage{dcolumn}
-\usepackage{bm}
-\usepackage{amsmath}
-\usepackage{amstext}
-\usepackage{array}   
+\usepackage{amsmath,mathtools,amstext,array,cases,biblatex,float,tikz}
+\usepackage[T1]{fontenc} 
+\usepackage{microtype} 
+
 \newcolumntype{L}{>{$}l<{$}}
-
-\usepackage{cases}
-
-\usepackage{biblatex}
 \addbibresource{biblio.bib}
-
-\usepackage{float}
-\usepackage{tikz}
-
 \def\labelitemi{--}
-
-
-
 \usetikzlibrary{arrows,positioning}
 
-\begin{document}
 
+\begin{document}
 
 \title{Chapter 1}
 
@@ -164,7 +151,7 @@ The two main variants concerning GP in accounting are Lexicographic GP and Weigh
 \section{Model formulation}
 
 \subsection{Data used to formulate the model}
-The data used in this particular model comes from different sources and they can be summarized in the following categories:
+The data used in this particular GP model comes from different sources and they can be summarized in the following categories:
 \begin{itemize}
     \item Macroeconomic data;
     \item Target enterprise data;
@@ -277,21 +264,21 @@ The objectives are divided into two categories; the first one is given by three 
 
 The overall model algebraically looks as follows:
 
-\[ \min_{p,n} \quad \sum_{i=1}^{Q} (\sideset{_q}{_i}p \cdot w_i) + w_3 \cdot \sum_{i=1}^{O} (\sideset{_o}{_i}n) + w_4 \cdot \sum_{i=1}^{N} ( \sideset{_n}{_i}n + \sideset{_n}{_i}p )\]
+\[ \min_{p,n} \quad \sum_{i=1}^{Q} (\prescript{}{q}{p}_i \cdot w_i) + w_3 \cdot \sum_{i=1}^{O} (\prescript{}{o}{n}_i) + w_4 \cdot \sum_{i=1}^{N} ( \prescript{}{n}{n}_i + \prescript{}{n}{p}_i )\]
 
 
 \begin{numcases}{Subject \quad to}
-   \sum_{q=1}^{N} C_q(E,A,K) - \sideset{_q}{_1}p = 0
+   \sum_{q=1}^{N} C_q(E,A,K) - \prescript{}{q}{p}_1 = 0
    \\
-   \sum_{q=1}^{N} T_q(R,E,A,K) - \sideset{_q}{_2}p = 0 
+   \sum_{q=1}^{N} T_q(R,E,A,K) - \prescript{}{q}{p}_2 = 0 
    \\
-   P_k(R,E,A,K)+\sideset{_n}{_k}n-\sideset{_n}{_k}p=V_k  \qquad \forall k \in \left\{1...N\right\}
+   P_k(R,E,A,K)+\prescript{}{n}{n}_k-\prescript{}{n}{p}_k =V_k  \qquad \forall k \in \left\{1...N\right\}
    \\
-    \sum_{q=1}^{D} (R_q-C_q(E,A,K))+\sideset{_o}{_1}n = c_1\cdot \sum_{q=1}^{N} (R_q-C_q(E,A,K))  
+    \sum_{q=1}^{D} (R_q-C_q(E,A,K))+\prescript{}{o}{n}_1 = c_1\cdot \sum_{q=1}^{N} (R_q-C_q(E,A,K))  
    \\
-    \sum_{q=1}^{P} (R_q-C_q(E,A,K))+\sideset{_o}{_2}n = c_2\cdot \sum_{q=1}^{N} (R_q-C_q(E,A,K)) 
+    \sum_{q=1}^{P} (R_q-C_q(E,A,K))+\prescript{}{o}{n}_2 = c_2\cdot \sum_{q=1}^{N} (R_q-C_q(E,A,K)) 
    \\
-    \sum_{q=1}^{M} (R_q-C_q(E,A,K))+\sideset{_o}{_3}n = c_3\cdot \sum_{i=q}^{N} (R_q-C_q(E,A,K)) 
+    \sum_{q=1}^{M} (R_q-C_q(E,A,K))+\prescript{}{o}{n}_3 = c_3\cdot \sum_{i=q}^{N} (R_q-C_q(E,A,K)) 
    \\
    P_k(R,E,A,K) \geq L_k  \qquad \forall k \in \left\{1...N\right\}
    \\
@@ -305,18 +292,18 @@ The overall model algebraically looks as follows:
    \\
    \sum_{q=1}^{N} K_q = K^*
    \\
-   \sideset{_q}{_i}p,\sideset{_q}{_i}n \geq 0 \qquad i=1,...,Q
+   \prescript{}{q}{p}_i,\prescript{}{q}{n}_i \geq 0 \qquad i=1,...,Q
    \\
-   \sideset{_n}{_i}p,\sideset{_n}{_i}n \geq 0 \qquad i=1,...,N
+   \prescript{}{n}{p}_i,\prescript{}{n}{n}_i \geq 0 \qquad i=1,...,N
    \\
-   \sideset{_o}{_i}p,\sideset{_o}{_i}n \geq 0 \qquad i=1,...,O
+   \prescript{}{o}{p}_i,\prescript{}{o}{n}_i \geq 0 \qquad i=1,...,O
  \end{numcases}
 
 
 As you can see the (1)(2)(3) belong to the first category, where instead (4)(5)(6) belong to the second, the latter in fact depend on the strategy of the decision maker and it's not given by any environmental variable.
 
 \section{Mathematical simulation: a case study}
-The simulation of the above-mentioned model was made using LINGO17. Even if the mathematical package was able to handle the total amount of data given by the model the simulation was done using a portion of this data, avoiding countries in which the company doesn't operate at all. Other limitations where implemented in order to avoid any possible non linearity, resulting in an increase of the computational time to obtain a solution, this was possible by avoiding inserting the equation (3), when instead the correlated constraints, namely (7) and (8) were linearized. Other limitations to the model are exposed below:
+The simulation of the above-mentioned model was made using LINGO17. Even if the mathematical package was able to handle the total amount of data given by the model the simulation was done using a portion of this data, avoiding countries in which the company doesn't operate at all. Other limitations were implemented in order to avoid any possible nonlinearity, resulting in an increase of the computational time to obtain a solution, this was possible by avoiding inserting the equation (3), when instead the correlated constraints, namely (7) and (8) were linearized. Other limitations to the model are exposed below:
 \begin{itemize}
     \item The PLI chosen to set the functional range were only 2, ROS and FCMU;
     \item The cost of asset and equity was set to 0, meaning that the only cost driver was employees;
@@ -346,7 +333,7 @@ The results produced by the mathematical package are illustrated in the followin
 \end{tabular}
 \end{center}
 
-The financial data of the company shown an average consolidated tax burden of 21\% where instead using the model we achieved a rate of 17\% the only periods where such a ratio where lesser than the one achieved by the model where the one in which the company started to register losses (that caused a decrease on the tax burden). This model, fixing the PLI at a positive level doesn't allow any combination to result in an EBIT of 0 consequently the only achievable 0 rate may be in case of tax heaven.
+The financial data of the company shown an average consolidated tax burden of 21\% where instead using the model we achieved a rate of 17\% the only periods where such a ratio where lesser than the one achieved by the model where the one in which the company started to register losses (that caused a decrease in the tax burden). This model, fixing the PLI at a positive level doesn't allow any combination to result in an EBIT of 0 consequently the only achievable 0 rate may be in case of a tax haven.
 
 The deviation variables we used registered the following discrepancies:
 
@@ -355,17 +342,24 @@ The deviation variables we used registered the following discrepancies:
 \hline
 \text{Variable} & \text{Amount} & \text{Description} \\
 \hline
-\sideset{_q}{_1}p & & \\
+\prescript{}{q}{p}_1 & 46.870.020,00 & \text{Consolidated cost of employees} \\
 \hline
-\sideset{_q}{_2}p & & \\
+\prescript{}{q}{p}_2 & 7.159.194,00 & \text{Consolidated tax liability} \\
+\hline
+\prescript{}{o}{n}_1 & 0,00 & \text{Distributor profit allocation} \\
+\hline
+\prescript{}{o}{n}_2 & 0,00 & \text{Manufacturer profit allocation} \\
+\hline
+\prescript{}{o}{n}_3 & 0,00 & \text{Principal profit allocation} \\
 \hline
 \end{tabular}
 \end{center}
 
-The model is far from been used as the only tool that decision makers can use to solve problems of business restructuring, however the result shows that multicriteria analysis and especially goal programming may constituetes one of the best tool that can be used to mesure such decision.
+The model is far from being used as the only tool that decision makers can use to solve problems of business restructuring, however, the result shows that multi criteria analysis and especially goal programming may constitutes one of the best tools that can be used to measure such decision.
 
 
 \newpage
+\emergencystretch=1em
+\sloppy
 \printbibliography
-
 \end{document}
