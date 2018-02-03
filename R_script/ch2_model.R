@@ -1,3 +1,20 @@
 #Main script chapter 2 model
 #Using NEOS server for solving it
 
+library("rneos")
+Nping()
+
+template<-NgetSolverTemplate(category = "go", solvername = "BARON", inputMethod = "AMPL")
+
+modf <- paste(paste(readLines("modelch2.mod"), collapse = "\n"), "\n")
+datf <- paste(paste(readLines("modelch2.dat"), collapse = "\n"), "\n")
+comf <- paste(paste(readLines("modelch2.run"), collapse = "\n"), "\n")
+
+argslist <- list(model = modf, data = datf, commands = comf,
+                 comments = "")
+xmls <- CreateXmlString(neosxml = template, cdatalist = argslist)
+(test <- NsubmitJob(xmlstring = xmls, user = "mrepetto94@me.com", interface = "", id = 0))
+
+NgetJobStatus(obj = test)
+
+NgetFinalResults(obj = test)

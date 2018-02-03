@@ -1,13 +1,19 @@
-#Variables
-var x_1 >= 0;
-var x_2 >= 0;
-var dp_1 >= 0;
-var dn_1 >= 0;
+param n;
+param m;
 
-#Model
-minimize z: dp_1;
+set J := {1..n};
+set I := {1..m};
 
-#Constraints
-subject to tax: x_1*0.10 + x_2*0.20 - dp_1 = 0;
-#Hard constraints
-subject to ratio: x_1 + x_2 = 1i:;
+param A {I,J} >= 0;
+param B {I} >= 0;
+
+var X {J} >= 0;
+var DP {I} >= 0;
+# var dn {J} >= 0;
+
+minimize z: sum {i in I} DP[i];
+
+s.t. Constraint {i in I}:
+	sum {j in J} A[i,j] * X[j] - DP[i] = B[i];
+s.t. Ratio:
+	sum {j in J} X[j] = 1;

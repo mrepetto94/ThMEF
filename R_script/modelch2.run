@@ -1,0 +1,5 @@
+expand z, Constraint, Ratio;
+
+solve;
+
+display X, DP, z;
