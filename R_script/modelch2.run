@@ -1,5 +1,6 @@
-expand z, Constraint, Ratio;
+
+expand z, Inbound, Ratio, Binarity;
 
 solve;
 
-display X, DP, z;
+display X, u, DP, z;
