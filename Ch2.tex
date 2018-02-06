@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage{amsmath,mathtools,amstext,array,biblatex,float,tikz}
+
 \addbibresource{biblio-ch2.bib}
 
 \usetikzlibrary{calc,matrix,decorations.markings,decorations.pathreplacing}
@@ -13,7 +14,7 @@
 \definecolor{colsix}{gray}{0.9}
 \definecolor{colseven}{gray}{0.9}
 
-\tikzset{ 
+\tikzset{
 table/.style={
   matrix of nodes,
   row sep=-\pgflinewidth,
@@ -36,7 +37,7 @@ table/.style={
 
 \author{M. Repetto}
 
-\date{\today}
+\date{}
 
 \maketitle
 
@@ -46,7 +47,7 @@ In the following paper is proposed a multi-objective model for components alloca
 
 \section{Introduction}
 Global Supply Chain Management (GSCM) is probably one of the most used terms when we talk about how the firms are running their business nowadays. GSCM may be defined as the allocation of goods and services along a series of transnational companies' global network to maximize profits and minimize waste. Inside this very wide concept, we can find the concept of logistics which is in charge of the movement of goods, service and last but not least information from the sourcing of raw material, till it reaches the end customer.
-Along with these two concepts a third one stuck with them, the concept of Green Supply Chain (GSC). This concept brought to light by a more advanced concern about environmental matters of the developed countries forced the firms to be accountable for their negative externalities related to the environment in which they operate \cite{srivastava_green_2007}. 
+Along with these two concepts a third one stuck with them, the concept of Green Supply Chain (GSC). This concept brought to light by a more advanced concern about environmental matters of the developed countries forced the firms to be accountable for their negative externalities related to the environment in which they operate \cite{srivastava_green_2007}.
 
 However such legislations lack from a point of view of legal constraints, setting only a few qualitative restriction, poorly measurable toward enterprises or in some cases letting the customers pay for their environmental behavior toward waste disposition. These facts are inevitably leaving some degrees of freedom to the firms, on the other hand, is also important to notice that these are only seeds of legislation that shows us how the long-term trend will be about the tolerance given to the behavior of firms toward environmental concerns, a trend that in the future may require firms to set particular frameworks to be accountable for their environmental impact.
 
@@ -56,20 +57,20 @@ In our case, we chose the networking electronic appliance business (i.e. hub, sw
 
 \section{Green Supply Chain}
 Green Supply Chain may be defined as the series of interconnected activities across the border of different enterprises that adds value to the goods and services from the sourcing to the market. Wheresas Supply Chain Management sets its objective to maximize profits and minimize waste Green Supply Chain sets its objectives even further, posing has its ultimate mission to lower the ecological impact that a firm or a series of them has in their day to day operations. Such operation may involve:
-\begin{itemize}
+  \begin{itemize}
     \item Green manufacturing and remanufactoring: is the process of controlling and reutilizing of material in the manufacturing in order to limit waste creation\cite{urvashi_green_2013};
     \item Green design: is an approach put in place to promote the environmental quality of a certain product or service  by reducing negative impacts on the natural environment, an example could be the automatic switch of of the television after a period of idleness\cite{ceschin_evolution_2016};and
     \item Green operations in general: by green operation we mean any type of activity which does not fall into the two categories mentioned above but is characterized by a "green" attitude as for example the optimization of the offices consumption thorough a remote-working policy;
-\end{itemize}
+  \end{itemize}
 
 It's worth noting that even thoug CEO an Firms manager are looking for greener supply chain this doesn't mean that such interest was created by any increase in corporate social responsibility but more because of the legislation (in particular the european one) that seemed to be interesed in guarantees a certain level of environmental quality to its citizens.
 
 In the market under scope which is the European one there are several legislations concerning the environmental impact of certain e-products. The most important are:
-\begin{itemize}
+  \begin{itemize}
     \item Waste Electrical \& Electronic Equipment (WEEE);
     \item Restriction on Hazardous Substances (RoHS): ;and
     \item Ecodesign Requirement for Energy-using Product (EuP): :
-\end{itemize}
+  \end{itemize}
 
 Such legislation acts at different levels from the sourcing to the costumer involving community member States. The following flow chart illustrates this differences:
 
@@ -104,8 +105,7 @@ Such legislation acts at different levels from the sourcing to the costumer invo
 In the following sub section an additional overview is given to such legislations.
 
 \subsection{Waste Electrical \& Electronic Equipment}
-The Waste Electrical \& Electronic Equipment also calle WEEE is ruled in the European Community by Directive 2002/96/EC now repealed by the Directive 2012/19/EU. The objectives of the policy are, to preserve, protect and improve the quality of the environment, to protect human health and to utilise natural resources prudently and rationally. That policy is based on the precautionary principle meaning that the polluter should pay for its damage.
-
+The Waste Electrical \& Electronic Equipment also calle WEEE is ruled in the European Community by Directive 2002/96/EC now repealed by the Directive 2012/19/EU. The objectives of the policy are, to preserve, protect and improve the quality of the environment, to protect human health and to utilise natural resources prudently and rationally. That policy is based on the precautionary principle meaning that the polluter should pay for its damage. Is important to notice that in the European market such directive is impacting all the community members in non perfectly homogeneous ways because of the implementation which is remitted to the local authorities. This problem may incurr in potential elusive behavior as highlithed by  
 \subsection{Restriction on Hazardous Substances}
 \subsection{Ecodesign Requirement for Energy-using Product}
 
@@ -157,16 +157,16 @@ The Waste Electrical \& Electronic Equipment also calle WEEE is ruled in the Eur
 \fill[white] (mat-8-5.north east) -- (mat-5-6.north east) -- (mat-8-6.north east) -- cycle;
 
 % Draw the arrow tip
-\shade[top color=colfour!70,bottom color=colfour!70,middle color=colseven,draw=white,ultra thick] 
-  (mat-1-5.north) -- (mat-5-6.north) -- (mat-8-5.south) -- 
-  (mat-8-5.south east) -- (mat-5-6.north east) -- (mat-8-5.south east) -- 
+\shade[top color=colfour!70,bottom color=colfour!70,middle color=colseven,draw=white,ultra thick]
+  (mat-1-5.north) -- (mat-5-6.north) -- (mat-8-5.south) --
+  (mat-8-5.south east) -- (mat-5-6.north east) -- (mat-8-5.south east) --
   (mat-5-6.north east) -- (mat-1-5.north east) -- cycle;
 
 % "Margin" labels
 \begin{scope}[decoration={markings,mark=at position .5 with \node[transform shape] {Margin};}]
-\path[postaction={decorate}] 
+\path[postaction={decorate}]
   ( $ (mat-1-5.north)!0.5!(mat-1-5.north east) $ ) -- ( $ (mat-5-6.north)!0.5!(mat-5-6.north east) $ );
-\path[postaction={decorate}] 
+\path[postaction={decorate}]
   ( $ (mat-5-6.north)!0.5!(mat-5-6.north east) $ ) -- ( $ (mat-8-5.south)!0.5!(mat-8-5.south east) $ );
 \end{scope}
 
@@ -190,5 +190,3 @@ The Waste Electrical \& Electronic Equipment also calle WEEE is ruled in the Eur
 \printbibliography
 
 \end{document}
-
-
