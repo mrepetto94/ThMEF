@@ -1,6 +1,6 @@
-
-expand z, Inbound, Ratio, Binarity;
+#expand Transport;
+#solve;
+#display t, DT;
 
 solve;
-
-display X, u, DP, z;
+display Trans, u;

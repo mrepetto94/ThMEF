@@ -10,6 +10,8 @@ Nping()
 oldw <- getOption("warn")
 options(warn = -1)
 
+NlistSolversInCategory(category = "go")
+
 template<-NgetSolverTemplate(category = "go", solvername = "BARON", inputMethod = "AMPL")
 
 modf <- paste(paste(readLines("modelch2.mod"), collapse = "\n"), "\n")
@@ -21,6 +23,7 @@ xmls <- CreateXmlString(neosxml = template, cdatalist = argslist)
 
 (test <- NsubmitJob(xmlstring = xmls, user = "mrepetto94@me.com", interface = "", id = 0))
 
+Sys.sleep(20)
 NgetJobStatus(obj = test)
 
 NgetFinalResults(obj = test)
