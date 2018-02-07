@@ -24,6 +24,7 @@ xmls <- CreateXmlString(neosxml = template, cdatalist = argslist)
 (test <- NsubmitJob(xmlstring = xmls, user = "mrepetto94@me.com", interface = "", id = 0))
 
 Sys.sleep(20)
+
 NgetJobStatus(obj = test)
 
 NgetFinalResults(obj = test)
