@@ -1,0 +1,460 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{benjamin_analysis_1989}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7de556081cff62deb67d05092f9ea520}{%
+           family={Benjamin},
+           familyi={B\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7de556081cff62deb67d05092f9ea520}
+      \strng{fullhash}{7de556081cff62deb67d05092f9ea520}
+      \strng{authornamehash}{7de556081cff62deb67d05092f9ea520}
+      \strng{authorfullhash}{7de556081cff62deb67d05092f9ea520}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0041-1655, 1526-5447}
+      \field{journaltitle}{Transportation Science}
+      \field{month}{8}
+      \field{number}{3}
+      \field{title}{An {Analysis} of {Inventory} and {Transportation} {Costs} in a {Constrained} {Network}}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{23}
+      \field{year}{1989}
+      \field{urldateera}{ce}
+      \field{pages}{177\bibrangedash 183}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1287/trsc.23.3.177
+      \endverb
+      \verb{url}
+      \verb http://pubsonline.informs.org/doi/abs/10.1287/trsc.23.3.177
+      \endverb
+    \endentry
+    \entry{ceschin_evolution_2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f22fd110b3e40dcd2d6451a3579a6d26}{%
+           family={Ceschin},
+           familyi={C\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=88c7a582371cbd049992464d3701712d}{%
+           family={Gaziulusoy},
+           familyi={G\bibinitperiod},
+           given={Idil},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{38a8572cf418ada3e2905f3496c16c67}
+      \strng{fullhash}{38a8572cf418ada3e2905f3496c16c67}
+      \strng{authornamehash}{38a8572cf418ada3e2905f3496c16c67}
+      \strng{authorfullhash}{38a8572cf418ada3e2905f3496c16c67}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0142694X}
+      \field{journaltitle}{Design Studies}
+      \field{month}{11}
+      \field{shorttitle}{Evolution of design for sustainability}
+      \field{title}{Evolution of design for sustainability: {From} product design to design for system innovations and transitions}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{47}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{118\bibrangedash 163}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.1016/j.destud.2016.09.002
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0142694X16300631
+      \endverb
+    \endentry
+    \entry{jung_order_2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f47fe3e45e65f6bf49bcfb6ad62ba6b9}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Hosang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1002a59e1694b2b86f5c016bbbbe0fec}{%
+           family={Jeong},
+           familyi={J\bibinitperiod},
+           given={Bongju},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9737529d273b3760ea4fe715cc5a1f77}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Chi-Guhn},
+           giveni={C\bibinithyphendelim G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{bef7a53fd8b352d4aaedd34b1824679f}
+      \strng{fullhash}{bef7a53fd8b352d4aaedd34b1824679f}
+      \strng{authornamehash}{bef7a53fd8b352d4aaedd34b1824679f}
+      \strng{authorfullhash}{bef7a53fd8b352d4aaedd34b1824679f}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09255273}
+      \field{journaltitle}{International Journal of Production Economics}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{An order quantity negotiation model for distributor-driven supply chains}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{111}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{147\bibrangedash 158}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.ijpe.2006.12.054
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0925527307000138
+      \endverb
+    \endentry
+    \entry{mula_mathematical_2010}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1438c5eb19095d385a8c0871304f4ef8}{%
+           family={Mula},
+           familyi={M\bibinitperiod},
+           given={Josefa},
+           giveni={J\bibinitperiod}}}%
+        {{hash=163a13a52e1b2be749e8c031e2d19b3a}{%
+           family={Peidro},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3909f8a58c89141068488259e8141dd0}{%
+           family={D\x{fffd}\x{fffd}\x{fffd}\x{fffd}az-Madro\x{fffd}\x{fffd}\x{fffd}\x{fffd}ero},
+           familyi={D\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=666549d5bbf4b2850f86a66d0cfaa7f1}{%
+           family={Vicens},
+           familyi={V\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e494ef48eb3b36a928b8c3618d52f19f}
+      \strng{fullhash}{c271a9d7bc97ca31900e8232fc569c87}
+      \strng{authornamehash}{e494ef48eb3b36a928b8c3618d52f19f}
+      \strng{authorfullhash}{c271a9d7bc97ca31900e8232fc569c87}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03772217}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{month}{8}
+      \field{number}{3}
+      \field{title}{Mathematical programming models for supply chain production and transport planning}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{204}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{377\bibrangedash 390}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.ejor.2009.09.008
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0377221709005694
+      \endverb
+    \endentry
+    \entry{ongondo_how_2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=453b2b924a0949ef73520fafa6a26535}{%
+           family={Ongondo},
+           familyi={O\bibinitperiod},
+           given={F.O.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d67b1535c270f3ebf31315a5aaa101ed}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={I.D.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5abeb78e59f41465faae40d3c4291871}{%
+           family={Cherrett},
+           familyi={C\bibinitperiod},
+           given={T.J.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{a30d0fa2838fb3739b225f03571ae37d}
+      \strng{fullhash}{a30d0fa2838fb3739b225f03571ae37d}
+      \strng{authornamehash}{a30d0fa2838fb3739b225f03571ae37d}
+      \strng{authorfullhash}{a30d0fa2838fb3739b225f03571ae37d}
+      \field{sortinit}{O}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0956053X}
+      \field{journaltitle}{Waste Management}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shorttitle}{How are {WEEE} doing?}
+      \field{title}{How are {WEEE} doing? {A} global review of the management of electrical and electronic wastes}
+      \field{urlday}{6}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{31}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{714\bibrangedash 730}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.wasman.2010.10.023
+      \endverb
+      \verb{file}
+      \verb 1-s2.0-S0956053X10005659-main.pdf:/Users/marcorepetto/Zotero/storage/LXM57FT9/1-s2.0-S0956053X10005659-main.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0956053X10005659
+      \endverb
+    \endentry
+    \entry{romo_optimizing_2009}{article}{}
+      \name{author}{6}{}{%
+        {{hash=30e03c9e4dfe2d726d2a84a66048688f}{%
+           family={R\x{fffd}\x{fffd}mo},
+           familyi={R\bibinitperiod},
+           given={Frode},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e2c23fd5a7944934c43fa100cef3668b}{%
+           family={Tomasgard},
+           familyi={T\bibinitperiod},
+           given={Asgeir},
+           giveni={A\bibinitperiod}}}%
+        {{hash=708693bfc07ed9a8905b8f98b8296935}{%
+           family={Hellemo},
+           familyi={H\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod}}}%
+        {{hash=faf1da29cd44c3b020930986b9256e00}{%
+           family={Fodstad},
+           familyi={F\bibinitperiod},
+           given={Marte},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bd18c473522b214eee89f1ae061b08e9}{%
+           family={Eidesen},
+           familyi={E\bibinitperiod},
+           given={Bj\x{fffd}\x{fffd}rgulf\bibnamedelima Haukelids\x{fffd}\x{fffd}ter},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=1069b90cb51c09c36498c632297bb370}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={Birger},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8a101cbd6a36063922afcad3b31e5192}
+      \strng{fullhash}{11fcc1b0f9ec5ce5c89bfed09d7bbcf5}
+      \strng{authornamehash}{8a101cbd6a36063922afcad3b31e5192}
+      \strng{authorfullhash}{11fcc1b0f9ec5ce5c89bfed09d7bbcf5}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0092-2102, 1526-551X}
+      \field{journaltitle}{Interfaces}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Optimizing the {Norwegian} {Natural} {Gas} {Production} and {Transport}}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{39}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{46\bibrangedash 56}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1287/inte.1080.0414
+      \endverb
+      \verb{file}
+      \verb Optimizing_the_Norwegian_Natural_Gas_Production_an.pdf:/Users/marcorepetto/Zotero/storage/5ZZS4UWG/Optimizing_the_Norwegian_Natural_Gas_Production_an.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://pubsonline.informs.org/doi/abs/10.1287/inte.1080.0414
+      \endverb
+    \endentry
+    \entry{srivastava_green_2007}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4a3525225c30f57741f0d7cd1afb1be6}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={Samir\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4a3525225c30f57741f0d7cd1afb1be6}
+      \strng{fullhash}{4a3525225c30f57741f0d7cd1afb1be6}
+      \strng{authornamehash}{4a3525225c30f57741f0d7cd1afb1be6}
+      \strng{authorfullhash}{4a3525225c30f57741f0d7cd1afb1be6}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1460-8545, 1468-2370}
+      \field{journaltitle}{International Journal of Management Reviews}
+      \field{month}{3}
+      \field{number}{1}
+      \field{shorttitle}{Green supply-chain management}
+      \field{title}{Green supply-chain management: {A} state-of-the-art literature review}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{9}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{53\bibrangedash 80}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1111/j.1468-2370.2007.00202.x
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1111/j.1468-2370.2007.00202.x
+      \endverb
+    \endentry
+    \entry{torabi_interactive_2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9488592e6c5ac0132342f85df1cb08b7}{%
+           family={Torabi},
+           familyi={T\bibinitperiod},
+           given={S.A.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=662312608c94e40e7491c0af86ae32fc}{%
+           family={Hassini},
+           familyi={H\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f5d4ac45130f6a390c35f9081a04b78b}
+      \strng{fullhash}{f5d4ac45130f6a390c35f9081a04b78b}
+      \strng{authornamehash}{f5d4ac45130f6a390c35f9081a04b78b}
+      \strng{authorfullhash}{f5d4ac45130f6a390c35f9081a04b78b}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{01650114}
+      \field{journaltitle}{Fuzzy Sets and Systems}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{An interactive possibilistic programming approach for multiple objective supply chain master planning}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{159}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{193\bibrangedash 214}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1016/j.fss.2007.08.010
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0165011407003739
+      \endverb
+    \endentry
+    \entry{urvashi_green_2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ef4e75125594e349d7af02053d21924c}{%
+           family={{Urvashi}},
+           familyi={U\bibinitperiod}}}%
+        {{hash=bd38d24989d08b393e5b9c5c335ae67b}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={S.R.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1cf7de4c1345632e07c85cf249de3709}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ae2660788967329aaf610064adf84551}
+      \strng{fullhash}{ae2660788967329aaf610064adf84551}
+      \strng{authornamehash}{ae2660788967329aaf610064adf84551}
+      \strng{authorfullhash}{ae2660788967329aaf610064adf84551}
+      \field{sortinit}{U}
+      \field{sortinithash}{1554584e7f69d2b4fe0a645e73d50194}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{22120173}
+      \field{journaltitle}{Procedia Technology}
+      \field{title}{Green {Supply} {Chain} {Model} with {Product} {Remanufacturing} under {Volume} {Flexible} {Environment}}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{10}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{216\bibrangedash 226}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.protcy.2013.12.355
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S2212017313005094
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
