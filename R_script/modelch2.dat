@@ -6,12 +6,6 @@ param: ORIG:  ProcV :=  # defines set "ORIG" and param "supply"
 				Col3 	90
 				Col4	80;
 
-param  ProcF :=  # defines set "ORIG" and param "supply"
-				Col1	400
-				Col2 	600
-				Col3 	900
-				Col4	800;
-
 param: DEST:  demand :=  # defines "DEST" and "demand"
 				Col1	1900
 				Col2	1200
