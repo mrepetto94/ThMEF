@@ -2,12 +2,11 @@
 #Using NEOS server for solving it
 
 library("rneos")
-
-setwd("~/Documents/Git/ThMEF/R_script")
+library("fPortfolio")
 
 options(warn = -1)
 
-#Nping()
+Nping()
 
 #NlistSolversInCategory(category = "lp")
 
@@ -15,8 +14,8 @@ template<-NgetSolverTemplate(category = "lp", solvername = "MOSEK", inputMethod 
 
 # Model File:
   modf <- c(
-    "set ORIG;",
-    "set DEST;",   
+    "set ORIG := 1..4;",
+    "set DEST := 1..4;",   
     "param demand {DEST} >= 0;",
     "param K;",
     "param cost {ORIG,DEST} >= 0;",
@@ -36,9 +35,28 @@ template<-NgetSolverTemplate(category = "lp", solvername = "MOSEK", inputMethod 
     "s.t. Allocation2{i in ORIG}: sum {j in DEST} Trans[j,i] = supply2[i];"
   ) 
 
-datf <- paste(paste(readLines("modelch2.dat"), collapse = "\n"), "\n")
 # Data File:
+amplDataOpen("ampl") #clear the dat file
 
+  K<-2660
+  amplDataAddValue("K", K, "ampl")
+
+  ProcV <- c(40, 60, 90, 80)
+  demand <- c(1900, 1200, 1600, 600)
+  amplDataAddVector("ProcV", ProcV, "ampl")
+  amplDataAddVector("demand", demand, "ampl")
+
+  cost = matrix( 
+    c(0, 14, 11, 14,
+      27, 0, 12, 22,
+      24, 14, 0, 12,
+      10, 13, 3, 0),  
+      nrow=4,               
+      ncol=4,               
+      byrow = TRUE)
+  amplDataAddMatrix("cost",cost ,"ampl")
+
+datf <- paste(paste(readLines("ampl.dat"), collapse = "\n"), "\n")
 
 # Run File:
 comf <- c(
@@ -53,7 +71,8 @@ xmls <- CreateXmlString(neosxml = template, cdatalist = argslist)
 
 (test <- NsubmitJob(xmlstring = xmls, user = "mrepetto94", interface = "", id = 0))
 
-NgetJobStatus(obj = test)
+#NgetJobStatus(obj = test)
+
 NgetFinalResults(obj = test)
 
 

@@ -3,11 +3,11 @@
 \usepackage[utf8]{inputenc}
 \usepackage[a4paper, total={6in, 8in}]{geometry}
 \usepackage{amsmath,mathtools,amstext,array,cases,biblatex,float,tikz}
-\usepackage[T1]{fontenc} 
+\usepackage[T1]{fontenc}
 \usepackage{microtype}
 
 \newcolumntype{L}{>{$}l<{$}}
-\addbibresource{biblio-ch1.bib}
+\addbibresource{Bibliography/biblio-ch1.bib}
 \def\labelitemi{--}
 \usetikzlibrary{arrows,positioning}
 
@@ -64,7 +64,7 @@ since we have more objective functions to deal with; its formulation is the foll
 Min[f_1(x),f_2(x),...,f_k(x)] \quad i=1,...,k \quad where \quad k\geq2
 \]
 
-This approach seems to fit better the real world since, in reality, we tend to have a more than one objective most of the time in contrast with one another. 
+This approach seems to fit better the real world since, in reality, we tend to have a more than one objective most of the time in contrast with one another.
 A solution to a multi-criteria problem would be optimal if it'd respected the Pareto Efficient assumption, namely that no other feasible solution exists that is at least as good with respect to all objectives and strictly better with respect to at least one objective. Mathematically it means that $\left\{x_1,...x_k\right\}$ is a solution if $\not\exists \left\{x'_1,...x'_k\right\}$
 such that:
 \[
@@ -81,7 +81,7 @@ Such models may be represented algebraically as follows:
 
 
 \[
-Min \quad a=h(n,p) \quad s.t: \quad 
+Min \quad a=h(n,p) \quad s.t: \quad
 \begin{cases}
 f_q(x)+n_q-p_q=b_q \\
 x\in F \\
@@ -89,7 +89,7 @@ n_q,p_q\geq 0
 \end{cases}
 \]
 
-GP is vastly applied in many fields\cite{tamiz_goal_1998} such as management, engineering, and social sciences. Its origins are dated back to the 50's, firstly introduced by Abraham Charnes and William Cooper\cite{charnes_optimal_1955} with an article on the optimal estimation of executive compensation. 
+GP is vastly applied in many fields\cite{tamiz_goal_1998} such as management, engineering, and social sciences. Its origins are dated back to the 50's, firstly introduced by Abraham Charnes and William Cooper\cite{charnes_optimal_1955} with an article on the optimal estimation of executive compensation.
 
 In such approach, we can distinguish three main different categories, namely the lexicographic GP, the weighted GP and the Chebyshev GP.
 
@@ -159,7 +159,7 @@ The data used in this particular GP model comes from different sources and they 
 \end{itemize}
 
 \subsubsection{Macroeconomic data}
-The group of Macroeconomic data includes the Corporate Tax Rate defined as "the percentage on corporate income generated deemed to the State". The Figure 2 below shows how this rate is different from State to State. This means that different allocation of corporate entities may result in an advantage from a competitive perspective. For example, a new allocation from Germany to Estonia may result in a gain in terms of income of +30\% on net income that may be reinvested in the company.  
+The group of Macroeconomic data includes the Corporate Tax Rate defined as "the percentage on corporate income generated deemed to the State". The Figure 2 below shows how this rate is different from State to State. This means that different allocation of corporate entities may result in an advantage from a competitive perspective. For example, a new allocation from Germany to Estonia may result in a gain in terms of income of +30\% on net income that may be reinvested in the company.
 
 The second Macroeconomic data is the Gross National Income per capita. This kind of index is a good proxy for the average cost of an employee per year which instead is computed by dividing the national-accounts-based total wage bill by the average number of employees in the total economy, which is then multiplied by the ratio of the average usual weekly hours per full-time employee to the average usually weekly hours for all employees. The latter indicator was not chosen since it computed in very few countries (the OECD countries) and doesn't permit to obtain a full range of choice by the model. Figure 3 reported below shows the geographical distribution of such index from state to state.
 
@@ -185,11 +185,11 @@ The second Macroeconomic data is the Gross National Income per capita. This kind
 \caption{K-mean cluster on standardized Corporate Tax and GNI per capita}
 \end{figure}
 
-Figure 4 shows a scatter plot of the normalized Corporate Tax (x axis) and GNI per capita (y axis), to such data I applied a K-mean cluster algorithm with K=5, this kind of algorithm randomly assigns each observation to a cluster, and finds the centroid of each cluster then, through iteration reassign data points to the cluster whose centroid is closest and calculate the new centroid of each cluster. The K was chosen with the "elbow method" with $R^2$ meaning that 5 was the number of cluster that return the best trade off in terms of $R^2$ increase and and cluster numerosity. 
-The result were five clusters with the one highlighted by the circle indicating countries with both a low average cost of worker and a low taxation. However even if these may seem the best locations to allocate the entities this is not always true, since the formula for taxation is the one proposed at section 4.2 and such entities have to be in the range proposed in section 4.3. 
+Figure 4 shows a scatter plot of the normalized Corporate Tax (x axis) and GNI per capita (y axis), to such data I applied a K-mean cluster algorithm with K=5, this kind of algorithm randomly assigns each observation to a cluster, and finds the centroid of each cluster then, through iteration reassign data points to the cluster whose centroid is closest and calculate the new centroid of each cluster. The K was chosen with the "elbow method" with $R^2$ meaning that 5 was the number of cluster that return the best trade off in terms of $R^2$ increase and and cluster numerosity.
+The result were five clusters with the one highlighted by the circle indicating countries with both a low average cost of worker and a low taxation. However even if these may seem the best locations to allocate the entities this is not always true, since the formula for taxation is the one proposed at section 4.2 and such entities have to be in the range proposed in section 4.3.
 
 \subsubsection{Target enterprise data}
-This data includes the information we got from our enterprise (the one in which we're going to reallocate the entities). This piece of information are the revenues, the operating expenses. From the operating expenses less wages we can obtain the information inherent the cost of running the assets\cite{williams_financial_2008}, we can then adjust this information with the purchasing parity to obtain the cost of assets from country to country. 
+This data includes the information we got from our enterprise (the one in which we're going to reallocate the entities). This piece of information are the revenues, the operating expenses. From the operating expenses less wages we can obtain the information inherent the cost of running the assets\cite{williams_financial_2008}, we can then adjust this information with the purchasing parity to obtain the cost of assets from country to country.
 
 \subsubsection{Global enterprises data}
 This category contains all the data inherent the PLI of the specific functional enterprises operating in a certain State.
@@ -255,11 +255,11 @@ The basic idea behind this objective is that for a moment we're forgetting about
 This objective is represented by the goals (4)(5)(6) and the methodology used to determine this type of split derives from the profit split method used in transfer pricing analysis. In particular the transfer pricing profit split aims at: determining the division of profits that independent enterprises would have expected to realize from engaging in the transaction \cite{oecd_oecd_????}. In our case we'll use this method and particularly the contribution analysis to define the effort of each functional category in the value chain. Secondly we'll use this value driver to partition the profits in order to have, at the en, a structure that takes into account the internal value chain of the products and not just the information gained by independent comparable companies.
 
 \subsection{Constraints}
-Constraints represent the boundaries where the system will result unfeasible. Such constraints are expressed by the equation from (7) to (15); where the first two represent the boundaries on the PLI distribution namely the lower quartile and the upper quartile, outside this range the profitability may not be considered to be arm's length. The constraints (10)(11)(12)(13) represent the frontier of the possible allocable resources given by the company under the scope. The constraints (13),(14) and (15) sets the positiveness of the deviation variables in order to avoid incorrectness of the overall GP model. 
+Constraints represent the boundaries where the system will result unfeasible. Such constraints are expressed by the equation from (7) to (15); where the first two represent the boundaries on the PLI distribution namely the lower quartile and the upper quartile, outside this range the profitability may not be considered to be arm's length. The constraints (10)(11)(12)(13) represent the frontier of the possible allocable resources given by the company under the scope. The constraints (13),(14) and (15) sets the positiveness of the deviation variables in order to avoid incorrectness of the overall GP model.
 
 \subsection{Goal Programming Model}
 
-This model aims to find the best allocation of costs and budgeted revenue in order to maximize profits minimizing costs and tax base, at the same time the model provides the best multinational functional allocation strategy to achieve such goal using both internal and external data from independent companies. 
+This model aims to find the best allocation of costs and budgeted revenue in order to maximize profits minimizing costs and tax base, at the same time the model provides the best multinational functional allocation strategy to achieve such goal using both internal and external data from independent companies.
 The objectives are divided into two categories; the first one is given by three objectives namely cost minimization, tax base minimization, PLI coherence; the second focuses more on the control and limitations that the decision maker wants to implement in the model due to the specific characteristics of its business.
 
 The overall model algebraically looks as follows:
@@ -270,15 +270,15 @@ The overall model algebraically looks as follows:
 \begin{numcases}{Subject \quad to}
    \sum_{q=1}^{N} C_q(E,A,K) - \prescript{}{q}{p}_1 = 0
    \\
-   \sum_{q=1}^{N} T_q(R,E,A,K) - \prescript{}{q}{p}_2 = 0 
+   \sum_{q=1}^{N} T_q(R,E,A,K) - \prescript{}{q}{p}_2 = 0
    \\
    P_k(R,E,A,K)+\prescript{}{n}{n}_k-\prescript{}{n}{p}_k =V_k  \qquad \forall k \in \left\{1...N\right\}
    \\
-    \sum_{q=1}^{D} (R_q-C_q(E,A,K))+\prescript{}{o}{n}_1 = c_1\cdot \sum_{q=1}^{N} (R_q-C_q(E,A,K))  
+    \sum_{q=1}^{D} (R_q-C_q(E,A,K))+\prescript{}{o}{n}_1 = c_1\cdot \sum_{q=1}^{N} (R_q-C_q(E,A,K))
    \\
-    \sum_{q=1}^{P} (R_q-C_q(E,A,K))+\prescript{}{o}{n}_2 = c_2\cdot \sum_{q=1}^{N} (R_q-C_q(E,A,K)) 
+    \sum_{q=1}^{P} (R_q-C_q(E,A,K))+\prescript{}{o}{n}_2 = c_2\cdot \sum_{q=1}^{N} (R_q-C_q(E,A,K))
    \\
-    \sum_{q=1}^{M} (R_q-C_q(E,A,K))+\prescript{}{o}{n}_3 = c_3\cdot \sum_{i=q}^{N} (R_q-C_q(E,A,K)) 
+    \sum_{q=1}^{M} (R_q-C_q(E,A,K))+\prescript{}{o}{n}_3 = c_3\cdot \sum_{i=q}^{N} (R_q-C_q(E,A,K))
    \\
    P_k(R,E,A,K) \geq L_k  \qquad \forall k \in \left\{1...N\right\}
    \\
@@ -318,11 +318,11 @@ The weights were chosen in order to value firstly the tax minimization, then the
 The results produced by the mathematical package are illustrated in the following table:
 
 \begin{center}
- \begin{tabular}{||c c c c||} 
+ \begin{tabular}{||c c c c||}
  \hline
- State & Function & Revenues allocation & Employees allocation \\ [0.5ex] 
+ State & Function & Revenues allocation & Employees allocation \\ [0.5ex]
  \hline\hline
- Cyprus & Distributor & 7.986.031 & 269,2824 \\ 
+ Cyprus & Distributor & 7.986.031 & 269,2824 \\
  \hline
  Denmark & Manufacturer & 5.464.000 & 57,5619 \\
  \hline
