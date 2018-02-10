@@ -1,0 +1,20 @@
+param	K :=	2660;
+
+param: ORIG:  ProcV :=  # defines set "ORIG" and param "supply"
+				Col1	40
+				Col2 	60
+				Col3 	90
+				Col4	80;
+
+param: DEST:  demand :=  # defines "DEST" and "demand"
+				Col1	1900
+				Col2	1200
+				Col3	1600
+				Col4	600;
+
+param cost:
+						Col1  Col2  Col3	Col4  :=
+			Col1 	0 		14 		11		14
+			Col2 	27 		0 		12		22
+			Col3 	24 		14 		0 		12
+			Col4	10		13		3			0;

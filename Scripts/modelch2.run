@@ -1,0 +1,6 @@
+#expand Transport;
+#solve;
+#display t, DT;
+
+solve;
+display Trans, supply2, u2;
