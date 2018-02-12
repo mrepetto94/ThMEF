@@ -17,6 +17,7 @@ library("rneos")
 library("fPortfolio")
 library("telegram")
 library("here")
+library("ggplot2")
 
 ## Create the bot object
 bot <- TGBot$new(token = bot_token('RBot'))
@@ -28,7 +29,9 @@ options(warn = -1)
 
 Nping()
 
-mainmat <- matrix(nrow = 4, ncol = 10)
+n <- 10
+
+mainmat <- matrix(nrow = 4, ncol = n)
 i <- 1
 
 template<-NgetSolverTemplate(category = "lp", solvername = "MOSEK", inputMethod = "AMPL")
@@ -65,7 +68,7 @@ template<-NgetSolverTemplate(category = "lp", solvername = "MOSEK", inputMethod 
   )  
   
   
-for (i in 1:10){
+for (i in 1:n){
   # Data File:
   amplDataOpen("ampl") #clear the dat file
 
@@ -130,12 +133,17 @@ write.csv(mainmat, file = "mainmat.csv")
 
 storage.mode(mainmat) <- "numeric"
 
+
 png("test.png")
-hist(mainmat[1,], col='blue', xlim=c(0, 1))
-hist(mainmat[2,], col='red', add=T)
-hist(mainmat[3,], col='green', add=T)
-hist(mainmat[4,], col='yellow', add=T)
+loc1 <- data.frame(length = mainmat[1,])
+loc2 <- data.frame(length = mainmat[2,])
+loc3 <- data.frame(length = mainmat[3,])
+loc4 <- data.frame(length = mainmat[4,])
+loc1$name <- 'Location1'
+loc2$name <- 'Location2'
+loc3$name <- 'Location3'
+loc4$name <- 'Location4'
+locations <- rbind(loc1, loc2, loc3, loc4)
+ggplot(locations, aes(length, fill = name)) + geom_density(alpha = 0.2)
 dev.off()
 bot$sendPhoto("test.png", caption = "Resulting histogram")
-
-
