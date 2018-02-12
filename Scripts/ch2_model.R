@@ -1,14 +1,35 @@
+
+pricesimulation<-function (pzero, sigma){
+  initialPrice = pzero 
+  dailyDeviation = sigma  
+
+  n = 15 #number of days
+
+  prices = vector(mode = "numeric", length = 15)  
+  prices = initialPrice + cumsum(rnorm(n = n,mean = 0,sd = dailyDeviation))
+  return(prices)
+  }
+
 #Main script chapter 2 model
 #Using NEOS server for solving it
 
 library("rneos")
 library("fPortfolio")
+library("telegram")
+library("here")
+
+## Create the bot object
+bot <- TGBot$new(token = bot_token('RBot'))
+bot$set_default_chat_id(423034192)
+
+setwd(here())
 
 options(warn = -1)
 
 Nping()
 
-#NlistSolversInCategory(category = "lp")
+mainmat <- matrix(nrow = 4, ncol = 10)
+i <- 1
 
 template<-NgetSolverTemplate(category = "lp", solvername = "MOSEK", inputMethod = "AMPL")
 
@@ -35,13 +56,31 @@ template<-NgetSolverTemplate(category = "lp", solvername = "MOSEK", inputMethod 
     "s.t. Allocation2{i in ORIG}: sum {j in DEST} Trans[j,i] = supply2[i];"
   ) 
 
-# Data File:
-amplDataOpen("ampl") #clear the dat file
+  # Run File:
+  comf <- c(
+    "solve;",
+    "display supply;"
+    #"option display_1col 0;",
+    #"display Trans;"
+  )  
+  
+  
+for (i in 1:10){
+  # Data File:
+  amplDataOpen("ampl") #clear the dat file
 
   K<-2660
   amplDataAddValue("K", K, "ampl")
 
-  ProcV <- c(40, 60, 90, 80)
+  ProcV <- c(49, 52, 50, 55) #fixed part of variable cost
+  Price <- c(15,8,11,6) #medium price of commodity
+  Volatility <-c(0.5,1,2,0.7) #volatility of the commodity on the reference market
+  #Simulate ProcV as brownian motion
+  Priceforecast <- pricesimulation(10, 0.5)
+  Priceforecast <- mapply(pricesimulation, Price, Volatility)
+  orderlag <- 15 #the time in when we'll do the order
+  ProcV <- ProcV + Priceforecast[orderlag,] #add the price forcast to the other costs
+  
   demand <- c(1900, 1200, 1600, 600)
   amplDataAddVector("ProcV", ProcV, "ampl")
   amplDataAddVector("demand", demand, "ampl")
@@ -56,23 +95,43 @@ amplDataOpen("ampl") #clear the dat file
       byrow = TRUE)
   amplDataAddMatrix("cost",cost ,"ampl")
 
-datf <- paste(paste(readLines("ampl.dat"), collapse = "\n"), "\n")
+  datf <- paste(paste(readLines("ampl.dat"), collapse = "\n"), "\n")
 
-# Run File:
-comf <- c(
-  "solve;",
-  "display supply, supply2;",
-  "option display_1col 0;",
-  "display Trans;"
-  )
+  argslist <- list(model = modf, data = datf, commands = comf, comments = "")
+  xmls <- CreateXmlString(neosxml = template, cdatalist = argslist)
 
-argslist <- list(model = modf, data = datf, commands = comf, comments = "")
-xmls <- CreateXmlString(neosxml = template, cdatalist = argslist)
+  (test <- NsubmitJob(xmlstring = xmls, user = "mrepetto94", interface = "", id = 0))
 
-(test <- NsubmitJob(xmlstring = xmls, user = "mrepetto94", interface = "", id = 0))
+  #cleaning the result
+  result <- NgetFinalResults(obj = test)
+  string <- sub(".*:=\n", "", result@ans)
+  string <- sub("\n;\n\n", "", string)
+  string <- gsub("\n", " ", string)
+  string <- gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", string, perl = TRUE)
+  string <- strsplit(string, " ")
+  string <- unlist(string)
 
-#NgetJobStatus(obj = test)
+  mat <- matrix(string, nrow = 4, ncol = 2, byrow = TRUE)
 
-NgetFinalResults(obj = test)
+  mainmat[,i] <- mat[,2]
+  
+  if ( (i%%10) == 0){
+  bot$sendMessage(paste("Now processing number ", i))
+  }
+  Sys.sleep(5)
+  
+
+}
+
+bot$sendMessage(paste("The process is complete, the files are in: ", here()))
+
+write.csv(mainmat, file = "mainmat.csv")
+
+png("test.png")
+hist(mainmat[1,], col='blue', xlim=c(0, 1))
+hist(mainmat[2,], col='red', add=T)
+hist(mainmat[3,], col='green', add=T)
+hist(mainmat[4,], col='yellow', add=T)
+bot$sendPhoto("test.png", caption = "Resulting histogram")
 
 
