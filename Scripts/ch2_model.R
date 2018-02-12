@@ -127,11 +127,15 @@ bot$sendMessage(paste("The process is complete, the files are in: ", here()))
 
 write.csv(mainmat, file = "mainmat.csv")
 
+
+storage.mode(mainmat) <- "numeric"
+
 png("test.png")
 hist(mainmat[1,], col='blue', xlim=c(0, 1))
 hist(mainmat[2,], col='red', add=T)
 hist(mainmat[3,], col='green', add=T)
 hist(mainmat[4,], col='yellow', add=T)
+dev.off()
 bot$sendPhoto("test.png", caption = "Resulting histogram")
 
 
