@@ -139,11 +139,15 @@ loc1 <- data.frame(length = mainmat[1,])
 loc2 <- data.frame(length = mainmat[2,])
 loc3 <- data.frame(length = mainmat[3,])
 loc4 <- data.frame(length = mainmat[4,])
+
 loc1$name <- 'Location1'
 loc2$name <- 'Location2'
 loc3$name <- 'Location3'
 loc4$name <- 'Location4'
+
 locations <- rbind(loc1, loc2, loc3, loc4)
-ggplot(locations, aes(length, fill = name)) + geom_density(alpha = 0.2)
+
+ggplot(locations, aes(x=length, fill = name)) +
+  geom_histogram( alpha=0.6, position="identity", binwidth = 1)
 dev.off()
 bot$sendPhoto("test.png", caption = "Resulting histogram")
