@@ -1,7 +1,15 @@
 \documentclass{article}
-\usepackage{amsmath,mathtools,amstext,array,biblatex,float,tikz}
 
-  \addbibresource{Bibliography/biblio-ch2.bib}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amstext}
+\usepackage{array}
+\usepackage{biblatex}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage[colorinlistoftodos]{todonotes}
+
+  \addbibresource{Ch2.bib}
 
   \usetikzlibrary{calc,matrix,decorations.markings,decorations.pathreplacing}
   \usetikzlibrary{positioning}
@@ -42,18 +50,21 @@
 \maketitle
 
 \begin{abstract}
-  In the following paper is proposed a multi-objective model for components allocation in a Green Supply Chain framework. The model builds on the concept of the supply chain as suggested by Porter, and accounts for the costs of production using the Activity Based Cost accounting method (ABC). Such model is organized in blocks related to several moments in the value chain in a sequential fashion. Above each and every one of these blocks, we included a series of environmental constraints that the firm has to comply, with respect to specific country regulation or in case of a particular corporate policy...
+  In the following paper is proposed a multi-objective model for components allocation in a Green Supply Chain framework. The model builds on the concept of the supply chain as suggested by Porter, and accounts for the costs of production using the Activity Based Cost accounting method (ABC). Such model is organized in blocks related to several moments in the value chain, from the procurement to the end costumer. Above each and every one of these blocks, we included a series of environmental constraints that the firm has to comply, with respect to specific country regulation, or in case of a particular Corporate Environmental Responsability policy...\todo{Da continuare quando il modello è ultimato; inserire anche parte sui risultati}
 \end{abstract}
 
 \section{Introduction}
-  Global Supply Chain Management (GSCM) is probably one of the most used terms when we talk about how the firms are running their business nowadays. GSCM may be defined as the allocation of goods and services along a series of transnational companies' global network to maximize profits and minimize waste. Inside this very wide concept, we can find the concept of logistics which is in charge of the movement of goods, service and last but not least information from the sourcing of raw material, till it reaches the end customer.
+  Global Supply Chain Management (GSCM) is probably one of the most used terms when we talk about how the firms are running their business nowadays. GSCM may be defined as the allocation of goods and services along a series of transnational companies' global network to maximize profits and minimize waste. As the Supply Chain Professionals puts it, the goal of GSCM are threefold and are focused on delivering: (a) the right product (b) to the right place (c) at the right time.
+  Inside this very wide concept, we can find the concept of logistics which is in charge of the movement of goods, service and last but not least information from the sourcing of raw material, till it reaches the end customer.
   Along with these two concepts a third one stuck with them, the concept of Green Supply Chain (GSC). This concept brought to light by a more advanced concern about environmental matters of the developed countries forced the firms to be accountable for their negative externalities related to the environment in which they operate \cite{srivastava_green_2007}.
 
-  However such legislations lack from a point of view of legal constraints, setting only a few qualitative restriction, poorly measurable toward enterprises or in some cases letting the customers pay for their environmental behavior toward waste disposition. These facts are inevitably leaving some degrees of freedom to the firms, on the other hand, is also important to notice that these are only seeds of legislation that shows us how the long-term trend will be about the tolerance given to the behavior of firms toward environmental concerns, a trend that in the future may require firms to set particular frameworks to be accountable for their environmental impact.
+  However such legislations lack from a point of view of legal constraints, setting only a few qualitative restriction, poorly measurable by the enterprises or in some cases letting the customers pay for their environmental behavior toward waste disposition. These facts are inevitably leaving some degrees of freedom to the firms, on the other hand, is also important to notice that these are only seeds of legislation that shows us how the long-term trend will be about the tolerance given to the behavior of firms with environmental concerns, a trend that in the future may require firms to set particular frameworks to be accountable for their environmental impact. Nowadays such effort is not achived by the legal frameworks provided by the domestic legislators but by the Corporate Environmental Responsability (CER), meaning that are the stakeholder to impose the companies to be more responsible on their day to day operations.
 
-  Because of that we propose a Goal Programming model in order to address such problem, following what proposed by literature we try to enhance such model fixing quantitative constraints to the pollution generated by the production activity involved in the creation of a good and we also try to implement the benefits of a recycling program enacted by the firm apropos the WEEE directive.
+  Loking at the literature we can see that there is an emerging branch which deals with the Green Supply Chain Management, a new paradigm of Supply Chain Management whoose aim is to keep under controll the behavior of the firm during it's operation by applying policies such as Green Manufacturing and Remanufactoring, Green Design etc...
 
-  In our case, we chose the networking electronic appliance business (i.e. hub, switch or router). In order to measure such impact, we'll use the framework used by Activity Based Costing in order to assess the marginal environmental impact of any additional unit elaborated by the transnational firms in order to ultimately market the product on its reference market.
+  Because of that we propose a Goal Programming model in order to address such problem, following what proposed by literature we try to enhance such model fixing quantitative and qualitative constraints to the pollution generated by the value adding activities involved in the creation of the good and we also try to implement the benefits of a recycling program enacted by the firm apropos the WEEE directive.
+
+  In our case, we chose the networking electronic appliance business (i.e. hub, switch or router).\todo{Il business può cambiare ad oggi ho trovato pochissimi dati a riguardo non avendo pìù accesso ai database aziendali} In order to measure such impact, we'll use the framework used by Activity Based Costing in order to assess the marginal environmental impact of any additional unit elaborated by the transnational firms in order to ultimately market the product on its reference market.
 
 \section{Green Supply Chain}
   Green Supply Chain may be defined as the series of interconnected activities across the border of different enterprises that adds value to the goods and services from the sourcing to the market. Wheresas Supply Chain Management sets its objective to maximize profits and minimize waste Green Supply Chain sets its objectives even further, posing has its ultimate mission to lower the ecological impact that a firm or a series of them has in their day to day operations. Such operation may involve:
