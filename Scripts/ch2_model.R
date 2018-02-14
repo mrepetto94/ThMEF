@@ -12,7 +12,13 @@ pricesimulation<-function (pzero, sigma, l){
     prices[i] = initialPrice + cumsum(rnorm(n = n,mean = 0, sd = dailyDeviation))
   }
   return(prices)
-  }
+}
+
+demandsimulation<-function (lpl, mp, lpr, l){
+  demand <- rtriangle(l, lpl, lpr, mp)
+  return(demand)
+}
+
 
 #Main script chapter 2 model
 #Using NEOS server for solving it
@@ -21,6 +27,8 @@ library("fPortfolio")
 library("telegram")
 library("here")
 library("ggplot2")
+library("triangle")
+
 set.seed(200)
 
 # Create the bot object
@@ -34,7 +42,7 @@ options(warn = -1)
 Nping()
 
 # Setting the number of simulations
-n <- 100
+n <- 3
 
 # Commodity data
 Price <- c(15,8,11,6) #price at time zero
@@ -46,14 +54,14 @@ symmat <- t(mapply(pricesimulation, Price, Volatility, ncol(symmat)))
 mainmat <- matrix(nrow = 4, ncol = n)
 
 # Data File DECLARATION of unchanged variables
-K<-2660
+D<-demandsimulation(2000, 2600, 3000, ncol(symmat)) #number of components
 ProcAct <- c(49, 52, 50, 55) #Variable cost based on the production activities
 demand <- c(1900, 1200, 1600, 600)
 cost = matrix(
-  c(0, 14, 11, 14,
-    27, 0, 12, 22,
-    24, 14, 0, 12,
-    10, 13, 3, 0),
+  c(0,	30,	40,	60,
+    30,	0,	15,	30,
+    40,	15,	0,	15,
+    60,	30,	15,	0),
   nrow=4,
   ncol=4,
   byrow = TRUE)
@@ -96,6 +104,7 @@ template<-NgetSolverTemplate(category = "lp", solvername = "MOSEK", inputMethod 
 i <- 1
 for (i in 1:n){
   ProcV <- ProcAct + symmat[,i] #add the price forcast to the other costs
+  K<-D[i]
   
   # Data File:
   amplDataOpen("ampl") #clear the dat file
@@ -112,7 +121,6 @@ for (i in 1:n){
   (test <- NsubmitJob(xmlstring = xmls, user = "mrepetto94", interface = "", id = 0))
 
   #cleaning the result
-  Sys.sleep(2)
   result <- NgetFinalResults(obj = test)
   string <- sub(".*:=\n", "", result@ans)
   string <- sub("\n;\n\n", "", string)
@@ -123,7 +131,7 @@ for (i in 1:n){
 
   mainmat[,i] <- as.numeric(matrix(string, ncol = 2, nrow = 4, byrow = TRUE)[,2])
 
-  if ( (i%%1) == 0){
+  if ( (i%%10) == 0){
   bot$sendMessage(paste("Now processing number ", i))
   }
 
@@ -133,10 +141,10 @@ write.csv(mainmat, file = "mainmat.csv")
 storage.mode(mainmat) <- "numeric"
 
 png("test.png")
-loc1 <- data.frame(length = mainmat[1,])
-loc2 <- data.frame(length = mainmat[2,])
-loc3 <- data.frame(length = mainmat[3,])
-loc4 <- data.frame(length = mainmat[4,])
+loc1 <- data.frame(allocation = mainmat[1,])
+loc2 <- data.frame(allocation = mainmat[2,])
+loc3 <- data.frame(allocation = mainmat[3,])
+loc4 <- data.frame(allocation = mainmat[4,])
 
 loc1$name <- 'Location1'
 loc2$name <- 'Location2'
@@ -145,9 +153,10 @@ loc4$name <- 'Location4'
 
 locations <- rbind(loc1, loc2, loc3, loc4)
 
-ggplot(locations, aes(x=length, fill = name)) +
-  #geom_histogram( alpha=0.6, position="identity")
-  
+ggplot(locations, aes(x=allocation, fill = name)) +
+  geom_histogram(aes(y= ..density..) ,alpha=0.6) +
+  geom_density(alpha = 0.5)
 
 dev.off()
+
 bot$sendPhoto("test.png", caption = "Resulting histogram")
