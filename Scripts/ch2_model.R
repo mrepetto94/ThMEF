@@ -1,51 +1,57 @@
 
 pricesimulation<-function (pzero, sigma){
-  initialPrice = pzero 
-  dailyDeviation = sigma  
+  initialPrice = pzero
+  dailyDeviation = sigma
 
   n = 15 #number of days
 
-  prices = vector(mode = "numeric", length = 15)  
+  prices = vector(mode = "numeric", length = 15)
   prices = initialPrice + cumsum(rnorm(n = n,mean = 0,sd = dailyDeviation))
   return(prices)
   }
 
+start<-function(){
+  # Create the bot object
+  bot <- TGBot$new(token = bot_token('RBot'))
+  bot$set_default_chat_id(423034192)
+  # Start routine
+  setwd(here())
+  # Turn off warnings (for XML package)
+  options(warn = -1)
+  # Ping the neos server
+  Nping()
+}
+
 #Main script chapter 2 model
 #Using NEOS server for solving it
-
+se.seed(5)
 library("rneos")
 library("fPortfolio")
 library("telegram")
 library("here")
 library("ggplot2")
 
-## Create the bot object
-bot <- TGBot$new(token = bot_token('RBot'))
-bot$set_default_chat_id(423034192)
+start()
 
-setwd(here())
-
-options(warn = -1)
-
-Nping()
-
-n <- 10
-
+# Setting the number of simulations
+n <- 5
+# Initialize the matrix with the random prices
 mainmat <- matrix(nrow = 4, ncol = n)
 i <- 1
 
+# Get the template for the solver
 template<-NgetSolverTemplate(category = "lp", solvername = "MOSEK", inputMethod = "AMPL")
 
 # Model File:
   modf <- c(
     "set ORIG := 1..4;",
-    "set DEST := 1..4;",   
+    "set DEST := 1..4;",
     "param demand {DEST} >= 0;",
     "param K;",
     "param cost {ORIG,DEST} >= 0;",
     "param ProcV {ORIG} >= 0;",
     "check: K <= sum {j in DEST} demand[j];",
-    "var supply {ORIG} >= 0 integer;",   
+    "var supply {ORIG} >= 0 integer;",
     "var Trans {ORIG,DEST} >= 0 integer;",
     "var Dev >= 0;",
     "var Devp >= 0;",
@@ -57,7 +63,7 @@ template<-NgetSolverTemplate(category = "lp", solvername = "MOSEK", inputMethod 
     "s.t. Demand {j in DEST}: sum {i in ORIG} Trans[i,j] <= demand[j];",
     "s.t. Allocation: sum {i in ORIG} supply[i]= K;",
     "s.t. Allocation2{i in ORIG}: sum {j in DEST} Trans[j,i] = supply2[i];"
-  ) 
+  )
 
   # Run File:
   comf <- c(
@@ -65,9 +71,9 @@ template<-NgetSolverTemplate(category = "lp", solvername = "MOSEK", inputMethod 
     "display supply;"
     #"option display_1col 0;",
     #"display Trans;"
-  )  
-  
-  
+  )
+
+
 for (i in 1:n){
   # Data File:
   amplDataOpen("ampl") #clear the dat file
@@ -83,18 +89,18 @@ for (i in 1:n){
   Priceforecast <- mapply(pricesimulation, Price, Volatility)
   orderlag <- 15 #the time in when we'll do the order
   ProcV <- ProcV + Priceforecast[orderlag,] #add the price forcast to the other costs
-  
+
   demand <- c(1900, 1200, 1600, 600)
   amplDataAddVector("ProcV", ProcV, "ampl")
   amplDataAddVector("demand", demand, "ampl")
 
-  cost = matrix( 
+  cost = matrix(
     c(0, 14, 11, 14,
       27, 0, 12, 22,
       24, 14, 0, 12,
-      10, 13, 3, 0),  
-      nrow=4,               
-      ncol=4,               
+      10, 13, 3, 0),
+      nrow=4,
+      ncol=4,
       byrow = TRUE)
   amplDataAddMatrix("cost",cost ,"ampl")
 
@@ -117,12 +123,12 @@ for (i in 1:n){
   mat <- matrix(string, nrow = 4, ncol = 2, byrow = TRUE)
 
   mainmat[,i] <- mat[,2]
-  
+
   if ( (i%%10) == 0){
   bot$sendMessage(paste("Now processing number ", i))
   }
   Sys.sleep(5)
-  
+
 
 }
 
