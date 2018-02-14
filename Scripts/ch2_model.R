@@ -42,7 +42,7 @@ options(warn = -1)
 Nping()
 
 # Setting the number of simulations
-n <- 3
+n <- 100
 
 # Commodity data
 Price <- c(15,8,11,6) #price at time zero
@@ -54,21 +54,21 @@ symmat <- t(mapply(pricesimulation, Price, Volatility, ncol(symmat)))
 mainmat <- matrix(nrow = 4, ncol = n)
 
 # Data File DECLARATION of unchanged variables
-D<-demandsimulation(2000, 2600, 3000, ncol(symmat)) #number of components
+D<-demandsimulation(2600, 3000, 3100, ncol(symmat)) #number of components
 ProcAct <- c(49, 52, 50, 55) #Variable cost based on the production activities
 demand <- c(1900, 1200, 1600, 600)
 cost = matrix(
-  c(0,	30,	40,	60,
-    30,	0,	15,	30,
-    40,	15,	0,	15,
-    60,	30,	15,	0),
+  c(0,	6,	8,	12,
+    6,	0,	3,	6,
+    8,	3,	0,	3,
+    12,	6,	3,	0),
   nrow=4,
   ncol=4,
   byrow = TRUE)
 
 
 # Get the template for the solver
-template<-NgetSolverTemplate(category = "lp", solvername = "MOSEK", inputMethod = "AMPL")
+template<-NgetSolverTemplate(category = "go", solvername = "BARON", inputMethod = "AMPL")
 
 # Model File:
   modf <- c(
@@ -79,11 +79,11 @@ template<-NgetSolverTemplate(category = "lp", solvername = "MOSEK", inputMethod 
     "param cost {ORIG,DEST} >= 0;",
     "param ProcV {ORIG} >= 0;",
     "check: K <= sum {j in DEST} demand[j];",
-    "var supply {ORIG} >= 0 integer;",
-    "var Trans {ORIG,DEST} >= 0 integer;",
+    "var supply {ORIG} >= 0;",
+    "var Trans {ORIG,DEST} >= 0;",
     "var Dev >= 0;",
     "var Devp >= 0;",
-    "var supply2{ORIG} >= 0 integer;",
+    "var supply2{ORIG} >= 0;",
     "minimize Total_Deviation: Devp + Dev;",
     "s.t. Inbound: sum {i in ORIG} ProcV[i] * supply[i] - Devp = 0;",
     "s.t. Transport: sum {i in ORIG, j in DEST} cost[i,j] * Trans[i,j] - Dev = 0;",
@@ -118,7 +118,7 @@ for (i in 1:n){
   #Pass the AMPL files to the server
   argslist <- list(model = modf, data = datf, commands = comf, comments = "")
   xmls <- CreateXmlString(neosxml = template, cdatalist = argslist)
-  (test <- NsubmitJob(xmlstring = xmls, user = "mrepetto94", interface = "", id = 0))
+  (test <- NsubmitJob(xmlstring = xmls, user = "mrepetto94@me.com", interface = "", id = 0))
 
   #cleaning the result
   result <- NgetFinalResults(obj = test)
