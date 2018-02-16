@@ -40,7 +40,6 @@
 
 \begin{document}
 
-
   \title{Chapter 2}
 
   \author{M. Repetto}
@@ -150,7 +149,23 @@
 
 
 \section{Model formulation}
-  To formulate the model we'll use\todo{Pensavo di utilizzare lo schema di supply chain fatto da Porter e come modello matematico quello sviluppato da Santoso come citato nel paper di Aouni}
+The model we developed is based on what formulated by Porter on the concept of value chain \cite{} plus the mathematichal formulation adopted by Santoso in solving the strategic proglem of supply chain allocation in a stoachastic fashion.
+The model proposed by Santoso is formulated as follow:
+
+\begin{equation*}
+\begin{aligned}
+	min \sum_{i=1}^{P} c_i y_i  + \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k} \\
+  \text{Subject to} && y \in Y[0,1] \\
+\end{aligned}
+\end{equation*}
+
+It's worth noting that such model do not implement any support activities, whreas the Porter model mention them. Such activities are a foundamental part on the supply chain that serves as glue with the supply chain steps to the deliver the value to the end-customer. Therefore the hibrid model will looks like this:
+$$
+$$
+Finally we wanted to implement the concept of green supply chain from a poin of view of the legislations activated by the EU countries. However since such legislations, especially the WEEE does not impose any quantifiable level to be collected by the firms but is intended to be for the ultimate polluters (meaning the end customers) we need a way to proxy the potential of collection of each country in order to forecast the collected quantity that the firm expect to receive each year on the base of what is sold today. Because the electronic waste turns out to be a resource for the firm we need to model the fuzzines of such desire expressed by the DM, and therefore we implemented a Fuzzy set\cite{} defined as:
+$$
+$$
+Such set penalized the negative deviations from the target demanded by the decision maker, the \textit{ratio} behind this is given by the fact that a very low amount of collected electronical waste may turn out as higher cost of production because of the additional cost of buying new material. Conversely is also important to take
 
   \begin{figure}
     \centering
@@ -211,8 +226,6 @@
 
   \caption{Porter's Value Chain}
   \end{figure}
-
-\subsection{Data collection}
 
 \subsection{Objectives}
 
