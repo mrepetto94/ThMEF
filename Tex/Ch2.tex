@@ -7,6 +7,7 @@
 \usepackage{biblatex}
 \usepackage{float}
 \usepackage{tikz}
+\usepackage{txfonts}
 \usepackage[colorinlistoftodos]{todonotes}
 
   \addbibresource{Ch2.bib}
@@ -154,16 +155,56 @@ The model proposed by Santoso is formulated as follow:
 
 \begin{equation*}
 \begin{aligned}
-	min \sum_{i=1}^{P} c_i y_i  + \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k} \\
-  \text{Subject to} && y \in Y[0,1] \\
+	min \sum_{i=1}^{P} c_i y_i  + \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k}
+  \\
+  \text{Subject to}
+  \\
+  \sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k = 0 & \forall j \in P, \forall \in K
+  \\
+  \sum_{i=1}^{N} x_{ij}^k \geq d_{j}^k & \forall j \in C, \forall k \in K,
+  \\
+  \sum_{j=1}^{N} x_{ij}^{k} \leq s_{i}^{k}  & \forall i \in L, \forall k \in K,
+  \\
+  \sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N} \leq m_j y_i & \forall j \in P,
+  \\
+  x \in \varmathbb{R}^+
+  \\
+  y \in Y[0,1] \\
 \end{aligned}
 \end{equation*}
 
+Where...
+\\
 It's worth noting that such model do not implement any support activities, whreas the Porter model mention them. Such activities are a foundamental part on the supply chain that serves as glue with the supply chain steps to the deliver the value to the end-customer. Therefore the hibrid model will looks like this:
-$$
-$$
+
+\begin{equation*}
+\begin{aligned}
+	min \sum_{i=1}^{P} c_i y_i  + \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k}
+  \\
+  \text{Subject to}
+  \\
+  \sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k = 0 & \forall j \in P, \forall \in K
+  \\
+  \sum_{i=1}^{N} x_{ij}^k \geq d_{j}^k & \forall j \in C, \forall k \in K,
+  \\
+  \sum_{j=1}^{N} x_{ij}^{k} \leq s_{i}^{k}  & \forall i \in L, \forall k \in K,
+  \\
+  \sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N} \leq m_j y_i & \forall j \in P,
+  \\
+  x \in \varmathbb{R}^+
+  \\
+  y \in Y[0,1] \\
+\end{aligned}
+\end{equation*}
+
 Finally we wanted to implement the concept of green supply chain from a poin of view of the legislations activated by the EU countries. However since such legislations, especially the WEEE does not impose any quantifiable level to be collected by the firms but is intended to be for the ultimate polluters (meaning the end customers) we need a way to proxy the potential of collection of each country in order to forecast the collected quantity that the firm expect to receive each year on the base of what is sold today. Because the electronic waste turns out to be a resource for the firm we need to model the fuzzines of such desire expressed by the DM, and therefore we implemented a Fuzzy set\cite{} defined as:
 $$
+\mu [f_q(x)]=
+\begin{cases}
+1 & f_q(x) \geq b_q \\
+1-\frac{b_q-f_q(x)}{n_{max}} & b_q -n{max} \leq f_q(x) \leq b_q \\
+0 & f_q(x) \leq b_q - n_{max}
+\end{cases}
 $$
 Such set penalized the negative deviations from the target demanded by the decision maker, the \textit{ratio} behind this is given by the fact that a very low amount of collected electronical waste may turn out as higher cost of production because of the additional cost of buying new material. Conversely is also important to take
 
@@ -188,43 +229,43 @@ Such set penalized the negative deviations from the target demanded by the decis
     \draw[white,ultra thick] (mat-1-1.north west) -- (mat-1-6.north east);
     \draw[white,ultra thick] (mat-5-1.north west) -- (mat-5-6.north east);
 
-  \foreach \col in {2,3,4,5}
-  \draw[white] (mat-5-\col.north west) -- (mat-8-\col.south west);
+    \foreach \col in {2,3,4,5}
+    \draw[white] (mat-5-\col.north west) -- (mat-8-\col.south west);
 
-  \node[fill=colfour] at (mat-1-3) {Firm Infrastructure};
-  \node[fill=colfive] at (mat-2-3) {Human Resources Management};
-  \node[fill=colsix] at (mat-3-3) {Technology Development};
-  \node[fill=colseven] at (mat-4-3) {Procurement};
-  \node at ([yshift=-10pt]mat-6-1) {\parbox[t]{2cm}{\centering Inbound Logistics}};
-  \node at ([yshift=-10pt]mat-6-2) {\parbox[t]{2cm}{\centering Operations \\\mbox{}}};
-  \node at ([yshift=-10pt]mat-6-3) {\parbox[t]{2cm}{\centering Outbound Logistics}};
-  \node at ([yshift=-10pt]mat-6-4) {\parbox[t]{2cm}{\centering Marketing \& Sales}};
-  \node at ([yshift=-10pt]mat-6-5) {\parbox[t]{2cm}{\centering Service \\\mbox{}}};
-  \node[rotate = 90] at ([xshift=-52pt]mat-3-1.north) {SUPPORT ACTIVITIES};
-  \node at ([yshift=-19pt,xshift=-0.5cm]mat-8-3.south) {PRIMARY ACTIVITIES};
+    \node[fill=colfour] at (mat-1-3) {Firm Infrastructure};
+    \node[fill=colfive] at (mat-2-3) {Human Resources Management};
+    \node[fill=colsix] at (mat-3-3) {Technology Development};
+    \node[fill=colseven] at (mat-4-3) {Procurement};
+    \node at ([yshift=-10pt]mat-6-1) {\parbox[t]{2cm}{\centering Inbound Logistics}};
+    \node at ([yshift=-10pt]mat-6-2) {\parbox[t]{2cm}{\centering Operations \\\mbox{}}};
+    \node at ([yshift=-10pt]mat-6-3) {\parbox[t]{2cm}{\centering Outbound Logistics}};
+    \node at ([yshift=-10pt]mat-6-4) {\parbox[t]{2cm}{\centering Marketing \& Sales}};
+    \node at ([yshift=-10pt]mat-6-5) {\parbox[t]{2cm}{\centering Service \\\mbox{}}};
+    \node[rotate = 90] at ([xshift=-52pt]mat-3-1.north) {SUPPORT ACTIVITIES};
+    \node at ([yshift=-19pt,xshift=-0.5cm]mat-8-3.south) {PRIMARY ACTIVITIES};
 
-  \fill[white] (mat-1-5.north east) -- (mat-5-6.north east) -- (mat-1-6.north east) -- cycle;
-  \fill[white] (mat-8-5.north east) -- (mat-5-6.north east) -- (mat-8-6.north east) -- cycle;
+    \fill[white] (mat-1-5.north east) -- (mat-5-6.north east) -- (mat-1-6.north east) -- cycle;
+    \fill[white] (mat-8-5.north east) -- (mat-5-6.north east) -- (mat-8-6.north east) -- cycle;
 
-  \shade[top color=colfour!70,bottom color=colfour!70,middle color=colseven,draw=white,ultra thick]
-  (mat-1-5.north) -- (mat-5-6.north) -- (mat-8-5.south) --
-  (mat-8-5.south east) -- (mat-5-6.north east) -- (mat-8-5.south east) --
-  (mat-5-6.north east) -- (mat-1-5.north east) -- cycle;
+    \shade[top color=colfour!70,bottom color=colfour!70,middle color=colseven,draw=white,ultra thick]
+    (mat-1-5.north) -- (mat-5-6.north) -- (mat-8-5.south) --
+    (mat-8-5.south east) -- (mat-5-6.north east) -- (mat-8-5.south east) --
+    (mat-5-6.north east) -- (mat-1-5.north east) -- cycle;
 
-  \begin{scope}[decoration={markings,mark=at position .5 with \node[transform shape] {Margin};}]
-  \path[postaction={decorate}]
-  ( $ (mat-1-5.north)!0.5!(mat-1-5.north east) $ ) -- ( $ (mat-5-6.north)!0.5!(mat-5-6.north east) $ );
-  \path[postaction={decorate}]
-  ( $ (mat-5-6.north)!0.5!(mat-5-6.north east) $ ) -- ( $ (mat-8-5.south)!0.5!(mat-8-5.south east) $ );
-  \end{scope}
+    \begin{scope}[decoration={markings,mark=at position .5 with \node[transform shape] {Margin};}]
+    \path[postaction={decorate}]
+    ( $ (mat-1-5.north)!0.5!(mat-1-5.north east) $ ) -- ( $ (mat-5-6.north)!0.5!(mat-5-6.north east) $ );
+    \path[postaction={decorate}]
+    ( $ (mat-5-6.north)!0.5!(mat-5-6.north east) $ ) -- ( $ (mat-8-5.south)!0.5!(mat-8-5.south east) $ );
+    \end{scope}
 
-  \draw[decorate,decoration={brace,mirror,raise=6pt}]
-  (mat-1-1.north west) -- (mat-5-1.north west);
-  \draw[decorate,decoration={brace,mirror,raise=6pt}]
-  (mat-8-1.south west) -- (mat-8-5.south);
-  \end{tikzpicture}
+    \draw[decorate,decoration={brace,mirror,raise=6pt}]
+    (mat-1-1.north west) -- (mat-5-1.north west);
+    \draw[decorate,decoration={brace,mirror,raise=6pt}]
+    (mat-8-1.south west) -- (mat-8-5.south);
+    \end{tikzpicture}
 
-  \caption{Porter's Value Chain}
+    \caption{Porter's Value Chain}
   \end{figure}
 
 \subsection{Objectives}
@@ -234,6 +275,8 @@ Such set penalized the negative deviations from the target demanded by the decis
 \subsection{The Goal Programming model}
 
 \section{Results and Conclusion}
+
+\pagebreak
 
 \printbibliography
 
