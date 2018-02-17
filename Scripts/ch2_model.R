@@ -73,6 +73,7 @@ mainmat <- matrix(nrow = 4, ncol = n)
 supply <- list()
 supply2<- list()
 trans<-list()
+objective <- list()
 
 # Data File DECLARATION of unchanged variables
 D<-demandsimulation(2600, 3000, 3100, ncol(symmat)) #number of components
