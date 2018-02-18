@@ -150,7 +150,7 @@
 
 
 \section{Model formulation}
-The model we developed is based on what formulated by Porter on the concept of value chain \cite{} plus the mathematichal formulation adopted by Santoso in solving the strategic proglem of supply chain allocation in a stoachastic fashion.
+The hibrid model we developed is based on the supply chain concept developed by Santoso\cite{Santoso_Ahmed_Goetschalckx_Shapiro_2005}plus the integration of supporting activities as enunciated by Porter\cite{CompetitiveAdvantage}in his concept of value chain. Above the model, we created a fuzzy goal programming model that tries to capture the  DM preferences about the target collection rate that should be achieved by the company in order to foster sustainable operations and a Green Supply Chain.
 The model proposed by Santoso is formulated as follow:
 
 \begin{equation*}
@@ -159,45 +159,123 @@ The model proposed by Santoso is formulated as follow:
   \\
   \text{Subject to}
   \\
-  \sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k = 0 & \forall j \in P, \forall \in K
-  \\
-  \sum_{i=1}^{N} x_{ij}^k \geq d_{j}^k & \forall j \in C, \forall k \in K,
-  \\
-  \sum_{j=1}^{N} x_{ij}^{k} \leq s_{i}^{k}  & \forall i \in L, \forall k \in K,
-  \\
-  \sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N} \leq m_j y_i & \forall j \in P,
-  \\
-  x \in \varmathbb{R}^+
-  \\
-  y \in Y[0,1] \\
 \end{aligned}
 \end{equation*}
+\begin{equation}
+  \sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k = 0 \quad \forall j \in P, \forall \in K
+\end{equation}
+\begin{equation}
+  \sum_{i=1}^{N} x_{ij}^k \geq d_{j}^k \quad \forall j \in C, \forall k \in K,
+\end{equation}
+\begin{equation}
+  \sum_{j=1}^{N} x_{ij}^{k} \leq s_{i}^{k}  \quad \forall i \in L, \forall k \in K,
+\end{equation}
+\begin{equation}
+\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k \leq m_j y_i \quad \forall j \in P,
+\end{equation}
+\begin{equation}
+  x \in \varmathbb{R}^+ \quad \quad 
+  y \in Y[0,1] 
+\end{equation}
 
-Where...
+Where the objective function  is to minimize both the variable and fixed costs (here represented by the cost of bulding a plant) of a particular supply chain.
+The constraint posed in $(1)$ serves to maintain the flow constant in each passage(so called flow conservation); the second and third constraint here represented by $(2)$ and $(3)$ are respectively controlling the volume of the demand (receiver side) and the supply (supplier side) of the supply chain; whereas the fourth constraint is used to controll the capacity of each node. Lastly the we poses the $x$ variable indicating the flow of goods to be positive and the variable $y$ indicating the effective construction of the plant to assume a value between 0 and 1. 
 \\
-It's worth noting that such model do not implement any support activities, whreas the Porter model mention them. Such activities are a foundamental part on the supply chain that serves as glue with the supply chain steps to the deliver the value to the end-customer. Therefore the hibrid model will looks like this:
+It's worth noting that such model do not implement any support activities, whreas the Porter model mentions them. Therefre the hibrid model will contain a set of constraint indicating such activities an a new objective function embracing this change.
+
+\begin{figure}
+  \centering
+
+  \begin{tikzpicture}[scale=0.8, every node/.style={scale=0.6}]
+  \matrix (mat) [table]
+  {
+  |[fill=colfour]| & |[fill=colfour]| & |[fill=colfour]| & |[fill=colfour]| & |[fill=colfour]| &  \\
+  |[fill=colfive]| & |[fill=colfive]| & |[fill=colfive]| & |[fill=colfive]| & |[fill=colfive]| &  \\
+  |[fill=colsix]| & |[fill=colsix]| & |[fill=colsix]| & |[fill=colsix]| & |[fill=colsix]| & |[fill=colsix]| \\
+  |[fill=colseven]| & |[fill=colseven]| & |[fill=colseven]| & |[fill=colseven]| & |[fill=colseven]| & |[fill=colseven]| \\
+  |[fill=colone]| & |[fill=coltwo]| & |[fill=colthree]| & |[fill=coltwo]| & |[fill=colone]| & |[fill=colone]|  \\
+  |[fill=colone]| & |[fill=coltwo]| & |[fill=colthree]| & |[fill=coltwo]| & |[fill=colone]| & |[fill=colone]|  \\
+  |[fill=colone]| & |[fill=coltwo]| & |[fill=colthree]| & |[fill=coltwo]| & |[fill=colone]| & \\
+  |[fill=colone]| & |[fill=coltwo]| & |[fill=colthree]| & |[fill=coltwo]| & |[fill=colone]| &  \\
+  };
+
+  \foreach \row in {2,3,4}
+  \draw[white] (mat-\row-1.north west) -- (mat-\row-6.north east);
+  \draw[white,ultra thick] (mat-1-1.north west) -- (mat-1-6.north east);
+  \draw[white,ultra thick] (mat-5-1.north west) -- (mat-5-6.north east);
+
+  \foreach \col in {2,3,4,5}
+  \draw[white] (mat-5-\col.north west) -- (mat-8-\col.south west);
+
+  \node[fill=colfour] at (mat-1-3) {Firm Infrastructure};
+  \node[fill=colfive] at (mat-2-3) {Human Resources Management};
+  \node[fill=colsix] at (mat-3-3) {Technology Development};
+  \node[fill=colseven] at (mat-4-3) {Procurement};
+  \node at ([yshift=-10pt]mat-6-1) {\parbox[t]{2cm}{\centering Inbound Logistics}};
+  \node at ([yshift=-10pt]mat-6-2) {\parbox[t]{2cm}{\centering Operations \\\mbox{}}};
+  \node at ([yshift=-10pt]mat-6-3) {\parbox[t]{2cm}{\centering Outbound Logistics}};
+  \node at ([yshift=-10pt]mat-6-4) {\parbox[t]{2cm}{\centering Marketing \& Sales}};
+  \node at ([yshift=-10pt]mat-6-5) {\parbox[t]{2cm}{\centering Service \\\mbox{}}};
+  \node[rotate = 90] at ([xshift=-52pt]mat-3-1.north) {SUPPORT ACTIVITIES};
+  \node at ([yshift=-19pt,xshift=-0.5cm]mat-8-3.south) {PRIMARY ACTIVITIES};
+
+  \fill[white] (mat-1-5.north east) -- (mat-5-6.north east) -- (mat-1-6.north east) -- cycle;
+  \fill[white] (mat-8-5.north east) -- (mat-5-6.north east) -- (mat-8-6.north east) -- cycle;
+
+  \shade[top color=colfour!70,bottom color=colfour!70,middle color=colseven,draw=white,ultra thick]
+  (mat-1-5.north) -- (mat-5-6.north) -- (mat-8-5.south) --
+  (mat-8-5.south east) -- (mat-5-6.north east) -- (mat-8-5.south east) --
+  (mat-5-6.north east) -- (mat-1-5.north east) -- cycle;
+
+  \begin{scope}[decoration={markings,mark=at position .5 with \node[transform shape] {Margin};}]
+  \path[postaction={decorate}]
+  ( $ (mat-1-5.north)!0.5!(mat-1-5.north east) $ ) -- ( $ (mat-5-6.north)!0.5!(mat-5-6.north east) $ );
+  \path[postaction={decorate}]
+  ( $ (mat-5-6.north)!0.5!(mat-5-6.north east) $ ) -- ( $ (mat-8-5.south)!0.5!(mat-8-5.south east) $ );
+  \end{scope}
+
+  \draw[decorate,decoration={brace,mirror,raise=6pt}]
+  (mat-1-1.north west) -- (mat-5-1.north west);
+  \draw[decorate,decoration={brace,mirror,raise=6pt}]
+  (mat-8-1.south west) -- (mat-8-5.south);
+  \end{tikzpicture}
+
+  \caption{Porter's Value Chain}
+\end{figure}
+
+Such activities are a foundamental part on the supply chain that serves as glue with the supply chain steps to the deliver the value to the end-customer. Therefore the hibrid model will looks like this:
 
 \begin{equation*}
 \begin{aligned}
-	min \sum_{i=1}^{P} c_i y_i  + \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k}
-  \\
+	min \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k} + \sum_{i=1}^{P^\star} c_i q_i \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A}x_{ij}^{k} 
+\\
   \text{Subject to}
-  \\
-  \sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k = 0 & \forall j \in P, \forall \in K
-  \\
-  \sum_{i=1}^{N} x_{ij}^k \geq d_{j}^k & \forall j \in C, \forall k \in K,
-  \\
-  \sum_{j=1}^{N} x_{ij}^{k} \leq s_{i}^{k}  & \forall i \in L, \forall k \in K,
-  \\
-  \sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N} \leq m_j y_i & \forall j \in P,
-  \\
-  x \in \varmathbb{R}^+
-  \\
-  y \in Y[0,1] \\
+\\
 \end{aligned}
 \end{equation*}
+\begin{equation}
+  \sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k = 0 \quad \forall j \in P, \forall \in K
+\end{equation}
+\begin{equation}
+  \sum_{i=1}^{N} x_{ij}^k \geq d_{j}^k \quad \forall j \in C, \forall k \in K,
+\end{equation}
+\begin{equation}
+  \sum_{j=1}^{N} x_{ij}^{k} \leq s_{i}^{k}  \quad \forall i \in L, \forall k \in K,
+\end{equation}
+\begin{equation}
+	\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k \leq m_j y_i \quad \forall j \in P,
+\end{equation}
+\begin{equation}
+\sum_{i=1}^{N^\star} q_{i}^j = n_j \quad \forall j \in P,
+\end{equation}
+\begin{equation}
+  x \in \varmathbb{R}^+ \quad \quad 
+  y \in Y[0,1] \quad \quad  q \in Q[0,1]
+\end{equation}
 
-Finally we wanted to implement the concept of green supply chain from a poin of view of the legislations activated by the EU countries. However since such legislations, especially the WEEE does not impose any quantifiable level to be collected by the firms but is intended to be for the ultimate polluters (meaning the end customers) we need a way to proxy the potential of collection of each country in order to forecast the collected quantity that the firm expect to receive each year on the base of what is sold today. Because the electronic waste turns out to be a resource for the firm we need to model the fuzzines of such desire expressed by the DM, and therefore we implemented a Fuzzy set\cite{} defined as:
+In formulating our hybrid model we didn't took into account the the fixed cost of building a plant, this happened for two reasons. The first reason is that we can consider the cost of bulding a plant as a sunk cost and therefore it should not influence our economic decision on whether to allocate a particular quantity of goodson a specific pland. Secondly since were using the Activity Based Cost method our focus will be on the activities that contributes in creating the marginal cost of the good in the supply chain. 
+
+Finally we wanted to implement the concept of green supply chain from a poin of view of the legislations activated by the EU countries. However since such legislations, especially the WEEE does not impose any quantifiable level to be collected by the firms but is intended to be for the ultimate polluters (meaning the end customers) we need a way to proxy the potential of collection of each country in order to forecast the collected quantity that the firm expect to receive each year on the base of what is sold today. Because the electronic waste turns out to be a resource for the firm we need to model the fuzzines of such desire expressed by the DM, and therefore we implemented a Fuzzy set\cite{Zadeh_1965} defined as:
 $$
 \mu [f_q(x)]=
 \begin{cases}
@@ -206,75 +284,22 @@ $$
 0 & f_q(x) \leq b_q - n_{max}
 \end{cases}
 $$
-Such set penalized the negative deviations from the target demanded by the decision maker, the \textit{ratio} behind this is given by the fact that a very low amount of collected electronical waste may turn out as higher cost of production because of the additional cost of buying new material. Conversely is also important to take
+Such set penalized the negative deviations from the target demanded by the decision maker. In our case the \textit{ratio} behind this is given by the fact that a very low amount of collected electronical waste may turn out as higher cost of production because of the additional cost of buying new material. Conversely is also important to take
 
-  \begin{figure}
-    \centering
-
-    \begin{tikzpicture}[scale=0.8, every node/.style={scale=0.6}]
-    \matrix (mat) [table]
-    {
-    |[fill=colfour]| & |[fill=colfour]| & |[fill=colfour]| & |[fill=colfour]| & |[fill=colfour]| &  \\
-    |[fill=colfive]| & |[fill=colfive]| & |[fill=colfive]| & |[fill=colfive]| & |[fill=colfive]| &  \\
-    |[fill=colsix]| & |[fill=colsix]| & |[fill=colsix]| & |[fill=colsix]| & |[fill=colsix]| & |[fill=colsix]| \\
-    |[fill=colseven]| & |[fill=colseven]| & |[fill=colseven]| & |[fill=colseven]| & |[fill=colseven]| & |[fill=colseven]| \\
-    |[fill=colone]| & |[fill=coltwo]| & |[fill=colthree]| & |[fill=coltwo]| & |[fill=colone]| & |[fill=colone]|  \\
-    |[fill=colone]| & |[fill=coltwo]| & |[fill=colthree]| & |[fill=coltwo]| & |[fill=colone]| & |[fill=colone]|  \\
-    |[fill=colone]| & |[fill=coltwo]| & |[fill=colthree]| & |[fill=coltwo]| & |[fill=colone]| & \\
-    |[fill=colone]| & |[fill=coltwo]| & |[fill=colthree]| & |[fill=coltwo]| & |[fill=colone]| &  \\
-    };
-
-    \foreach \row in {2,3,4}
-    \draw[white] (mat-\row-1.north west) -- (mat-\row-6.north east);
-    \draw[white,ultra thick] (mat-1-1.north west) -- (mat-1-6.north east);
-    \draw[white,ultra thick] (mat-5-1.north west) -- (mat-5-6.north east);
-
-    \foreach \col in {2,3,4,5}
-    \draw[white] (mat-5-\col.north west) -- (mat-8-\col.south west);
-
-    \node[fill=colfour] at (mat-1-3) {Firm Infrastructure};
-    \node[fill=colfive] at (mat-2-3) {Human Resources Management};
-    \node[fill=colsix] at (mat-3-3) {Technology Development};
-    \node[fill=colseven] at (mat-4-3) {Procurement};
-    \node at ([yshift=-10pt]mat-6-1) {\parbox[t]{2cm}{\centering Inbound Logistics}};
-    \node at ([yshift=-10pt]mat-6-2) {\parbox[t]{2cm}{\centering Operations \\\mbox{}}};
-    \node at ([yshift=-10pt]mat-6-3) {\parbox[t]{2cm}{\centering Outbound Logistics}};
-    \node at ([yshift=-10pt]mat-6-4) {\parbox[t]{2cm}{\centering Marketing \& Sales}};
-    \node at ([yshift=-10pt]mat-6-5) {\parbox[t]{2cm}{\centering Service \\\mbox{}}};
-    \node[rotate = 90] at ([xshift=-52pt]mat-3-1.north) {SUPPORT ACTIVITIES};
-    \node at ([yshift=-19pt,xshift=-0.5cm]mat-8-3.south) {PRIMARY ACTIVITIES};
-
-    \fill[white] (mat-1-5.north east) -- (mat-5-6.north east) -- (mat-1-6.north east) -- cycle;
-    \fill[white] (mat-8-5.north east) -- (mat-5-6.north east) -- (mat-8-6.north east) -- cycle;
-
-    \shade[top color=colfour!70,bottom color=colfour!70,middle color=colseven,draw=white,ultra thick]
-    (mat-1-5.north) -- (mat-5-6.north) -- (mat-8-5.south) --
-    (mat-8-5.south east) -- (mat-5-6.north east) -- (mat-8-5.south east) --
-    (mat-5-6.north east) -- (mat-1-5.north east) -- cycle;
-
-    \begin{scope}[decoration={markings,mark=at position .5 with \node[transform shape] {Margin};}]
-    \path[postaction={decorate}]
-    ( $ (mat-1-5.north)!0.5!(mat-1-5.north east) $ ) -- ( $ (mat-5-6.north)!0.5!(mat-5-6.north east) $ );
-    \path[postaction={decorate}]
-    ( $ (mat-5-6.north)!0.5!(mat-5-6.north east) $ ) -- ( $ (mat-8-5.south)!0.5!(mat-8-5.south east) $ );
-    \end{scope}
-
-    \draw[decorate,decoration={brace,mirror,raise=6pt}]
-    (mat-1-1.north west) -- (mat-5-1.north west);
-    \draw[decorate,decoration={brace,mirror,raise=6pt}]
-    (mat-8-1.south west) -- (mat-8-5.south);
-    \end{tikzpicture}
-
-    \caption{Porter's Value Chain}
-  \end{figure}
-
-\subsection{Objectives}
-
-\subsection{Constraints}
 
 \subsection{The Goal Programming model}
+Since we are triying to model a set of different objectives we opted for the Goal Programming as a multicriteria analysis tool therefore the resulting model will be set as follow: 
+
+
+
+\subsubsection{Objective function}
+The objective function we're minimizing contains all the deviation from the soft constratins contained in equations ... 
+\subsubsection{Constraints}
+The hard constraints identified by the equations from ... to ... are summarized below 
+
 
 \section{Results and Conclusion}
+In order to test such model we took a fictitius example proposed by ...
 
 \pagebreak
 
