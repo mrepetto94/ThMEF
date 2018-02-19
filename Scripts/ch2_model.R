@@ -26,7 +26,7 @@ getresult <- function (result, name, nc, nr){
   var <- paste(name, " ", sep = "")
   resultvec <-unlist(strsplit(result@ans, "\n"))
   location <- grep(var, resultvec)
-  value <- resultvec[(location+k):(location+nrow+k-1)]
+  value <- resultvec[(location+k):(location+nr+k-1)]
   value <- gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", value, perl = TRUE)
   value <- paste(value,collapse=" ")
   mat<-matrix(scan(text= value), nrow = nr, ncol = nc+1, byrow = TRUE)
@@ -44,8 +44,11 @@ library("telegram")
 library("here")
 library("ggplot2")
 library("triangle")
+library("googlesheets")
 
 set.seed(200)
+
+
 
 # Create the bot object
 bot <- TGBot$new(token = bot_token('RBot'))
@@ -58,7 +61,12 @@ options(warn = -1)
 Nping()
 
 # Setting the number of simulations
-n <- 100
+n <- 1
+
+# Read the data from the Gsheet
+Sheet <- gs_url("https://docs.google.com/spreadsheets/d/1naneKBCuCWOJfBOnacVWGmNWvkRTb4oK2znkebMDPLo/edit?usp=sharing") 
+PocAct <- as.numeric(gs_read(ss = Sheet, ws = 1, range = "B3:E3", col_names = FALSE))	
+
 
 # Commodity data
 Price <- c(11,12,13,12) #price at time zero
@@ -77,7 +85,7 @@ objective <- list()
 
 # Data File DECLARATION of unchanged variables
 D<-demandsimulation(2600, 3000, 3100, ncol(symmat)) #number of components
-ProcAct <- c(40, 43, 46, 49) #Variable cost based on the procurement activities
+# ProcAct <- c(40, 43, 46, 49) #Variable cost based on the procurement activities
 ProdAct <- c(49, 46, 43, 40) #Variable cost based on the production activities
 capacity <- c(1000, 1500, 1500, 1000)
 cost = matrix(
