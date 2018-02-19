@@ -4,7 +4,8 @@
 \usepackage{mathtools}
 \usepackage{amstext}
 \usepackage{array}
-\usepackage{biblatex}
+\usepackage[backend=biber,
+            url=false]{biblatex}
 \usepackage{float}
 \usepackage{tikz}
 \usepackage{txfonts}
@@ -122,7 +123,7 @@
 
   \begin{figure}
   \centering
-  \includegraphics[width=0.5\linewidth]{Images/heatmap.png}
+  \includegraphics[width=0.8\linewidth]{Images/heatmap.png}
   \caption{Kilograms of WEEE collected per capita}
   \end{figure}
 
@@ -186,7 +187,7 @@ It's worth noting that such model do not implement any support activities, whrea
 \begin{figure}
   \centering
 
-  \begin{tikzpicture}[scale=0.8, every node/.style={scale=0.6}]
+  \begin{tikzpicture}[scale=0.8, every node/.style={scale=0.8}]
   \matrix (mat) [table]
   {
   |[fill=colfour]| & |[fill=colfour]| & |[fill=colfour]| & |[fill=colfour]| & |[fill=colfour]| &  \\
@@ -289,8 +290,10 @@ Such set penalized the negative deviations from the target demanded by the decis
 
 \subsection{The Goal Programming model}
 Since we are triying to model a set of different objectives we opted for the Goal Programming as a multicriteria analysis tool therefore the resulting model will be set as follow: 
+\\
+The model proposed takes into account only one commodity because of simplicity mattershowever it can be adjusted to allow more than one commodity by including the trasformation process of each production step. The additional rules to be implemented in the modell may derive from other supply chain management tool more focused on the operational level such as production tree, etc... An example of such integration is proposed below.
 
-
+In this case is possible to see how the two initial commodities are transformed passing through the production stage in one product that from now on will be used in the model for all the additional processes. From such simple example is evident that the process of transformation creates less goods passing from a stage to another, conversely the opposite contraddict the production tree assumptions and therefore will not be taken into account. 
 
 \subsubsection{Objective function}
 The objective function we're minimizing contains all the deviation from the soft constratins contained in equations ... 
@@ -299,7 +302,14 @@ The hard constraints identified by the equations from ... to ... are summarized 
 
 
 \section{Results and Conclusion}
-In order to test such model we took a fictitius example proposed by ...
+In order to test such model we took a fictitius example proposed by... Since we included more assumptions and contraints compared to what proposed by the author, such as the fuzzy goal in maintaining a target level of electrical waste collection) we implemented some rules in defining the additional data, such rules are:
+\begin{itemize}
+	\item
+	\item
+\end{itemize}
+The results we collected during the simulations are reported in the following tables.
+
+From this analysis we can conclude that...
 
 \pagebreak
 

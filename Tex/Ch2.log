@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.2.13)  18 FEB 2018 15:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.2.13)  19 FEB 2018 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -670,35 +670,35 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
  (./Ch2.aux)
 \openout1 = `Ch2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 42.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 42.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 43.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 43.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 42.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 42.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 43.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 43.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 42.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 42.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 43.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 43.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 42.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 42.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 43.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 43.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 42.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 43.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
@@ -711,8 +711,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Ch2.bbl' found.
  (./Ch2.bbl)
-Package biblatex Info: Reference section=0 on input line 42.
-Package biblatex Info: Reference segment=0 on input line 42.
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
  ABD: EveryShipout initializing macros (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count314
@@ -740,19 +740,19 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Try loading font information for U+txmia on input line 50.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 51.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 50.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 51.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 50.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 51.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 50.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 51.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
@@ -783,14 +783,14 @@ Missing character: There is no Ã in font txr!
 Missing character: There is no ² in font txr!
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¹ in font txr!
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 72.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 73.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 72.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 73.
  [2]
-Overfull \hbox (9.4638pt too wide) in paragraph at lines 108--109
+Overfull \hbox (9.4638pt too wide) in paragraph at lines 109--110
  [][] 
  []
 
@@ -806,17 +806,17 @@ Missing character: There is no ² in font txr!
 <Images/heatmap.png, id=22, 492.84125pt x 477.785pt>
 File: Images/heatmap.png Graphic file (type png)
 <use Images/heatmap.png>
-Package pdftex.def Info: Images/heatmap.png  used on input line 125. on input line 125.
-Package pdftex.def Info: Requested size: 172.5pt x 167.22725pt on input line 125.
- [4 <./Images/heatmap.png>] [5] [6] [7] [8]
-LaTeX Font Info:    Try loading font information for OT1+txtt on input line 306.
+Package pdftex.def Info: Images/heatmap.png  used on input line 126. on input line 126.
+Package pdftex.def Info: Requested size: 276.00105pt x 267.57964pt on input line 126.
+ [4 <./Images/heatmap.png>] [5] [6] [7] [8] [9]
+LaTeX Font Info:    Try loading font information for OT1+txtt on input line 316.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <to be read again> \edef \blx@tempa {96\x 
                                           {FFFD}\x {FFFD}\x {FFFD}115}
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -824,10 +824,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <to be read again> ...f \blx@tempa {96\x {FFFD}\x 
                                                   {FFFD}\x {FFFD}115}
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -835,10 +835,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <to be read again> ...mpa {96\x {FFFD}\x {FFFD}\x 
                                                   {FFFD}115}
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -846,10 +846,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 l.1 %%\x
          {FFF%}\x {FFF%}\x {FFF%}%%%
-l.307 ^^M
+l.317 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -857,10 +857,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 l.1 %%\x {FFF%}\x
                   {FFF%}\x {FFF%}%%%
-l.307 ^^M
+l.317 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -868,10 +868,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 l.1 %%\x {FFF%}\x {FFF%}\x
                            {FFF%}%%%
-l.307 ^^M
+l.317 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -879,10 +879,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <to be read again> \edef \blx@tempa {96\x 
                                           {FFFD}\x {FFFD}\x {FFFD}115}
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -890,10 +890,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <to be read again> ...f \blx@tempa {96\x {FFFD}\x 
                                                   {FFFD}\x {FFFD}115}
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -901,10 +901,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <to be read again> ...mpa {96\x {FFFD}\x {FFFD}\x 
                                                   {FFFD}115}
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -912,10 +912,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 l.1 %%\x
          {FFF%}\x {FFF%}\x {FFF%}%%%
-l.307 ^^M
+l.317 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -923,10 +923,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 l.1 %%\x {FFF%}\x
                   {FFF%}\x {FFF%}%%%
-l.307 ^^M
+l.317 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -934,10 +934,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 l.1 %%\x {FFF%}\x {FFF%}\x
                            {FFF%}%%%
-l.307 ^^M
+l.317 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -945,10 +945,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <argument> 96\x 
                 {fffd}\x {fffd}\x {fffd}115
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -956,10 +956,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <argument> 96\x {fffd}\x 
                          {fffd}\x {fffd}115
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -967,10 +967,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <argument> 96\x {fffd}\x {fffd}\x 
                                   {fffd}115
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -978,11 +978,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[9]
-./Ch2.tex:307: Undefined control sequence.
+[10]
+./Ch2.tex:317: Undefined control sequence.
 <to be read again> \edef \blx@tempa {338\x 
                                            {FFFD}\x {FFFD}\x {FFFD}353}
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -990,10 +990,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <to be read again> ... \blx@tempa {338\x {FFFD}\x 
                                                   {FFFD}\x {FFFD}353}
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1001,10 +1001,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <to be read again> ...pa {338\x {FFFD}\x {FFFD}\x 
                                                   {FFFD}353}
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1012,10 +1012,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 l.1 %%%\x
           {FFF%}\x {FFF%}\x {FFF%}%%%
-l.307 ^^M
+l.317 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1023,10 +1023,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 l.1 %%%\x {FFF%}\x
                    {FFF%}\x {FFF%}%%%
-l.307 ^^M
+l.317 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1034,10 +1034,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 l.1 %%%\x {FFF%}\x {FFF%}\x
                             {FFF%}%%%
-l.307 ^^M
+l.317 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1045,10 +1045,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <to be read again> \edef \blx@tempa {338\x 
                                            {FFFD}\x {FFFD}\x {FFFD}353}
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1056,10 +1056,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <to be read again> ... \blx@tempa {338\x {FFFD}\x 
                                                   {FFFD}\x {FFFD}353}
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1067,10 +1067,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <to be read again> ...pa {338\x {FFFD}\x {FFFD}\x 
                                                   {FFFD}353}
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1078,10 +1078,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 l.1 %%%\x
           {FFF%}\x {FFF%}\x {FFF%}%%%
-l.307 ^^M
+l.317 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1089,10 +1089,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 l.1 %%%\x {FFF%}\x
                    {FFF%}\x {FFF%}%%%
-l.307 ^^M
+l.317 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1100,10 +1100,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 l.1 %%%\x {FFF%}\x {FFF%}\x
                             {FFF%}%%%
-l.307 ^^M
+l.317 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1111,10 +1111,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <argument> 338\x 
                  {fffd}\x {fffd}\x {fffd}353
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1122,10 +1122,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <argument> 338\x {fffd}\x 
                           {fffd}\x {fffd}353
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1133,10 +1133,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Ch2.tex:307: Undefined control sequence.
+./Ch2.tex:317: Undefined control sequence.
 <argument> 338\x {fffd}\x {fffd}\x 
                                    {fffd}353
-l.307 
+l.317 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1145,28 +1145,28 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (38.51328pt too wide) in paragraph at lines 307--307
+Overfull \hbox (38.51328pt too wide) in paragraph at lines 317--317
 []\OT1/txr/m/n/10 L.A. Zadeh. ``Fuzzy sets''. In: \OT1/txr/m/it/10 In-for-ma-tion and Con-trol \OT1/txr/m/n/10 8.3 (June 1965), 338fffdfffdfffd353.
  []
 
-[10] (./Ch2.aux)
+[11] (./Ch2.aux)
 Package logreq Info: Writing requests to 'Ch2.run.xml'.
 \openout1 = `Ch2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21510 strings out of 492990
- 420560 string characters out of 6135005
- 818288 words of memory out of 5000000
- 24663 multiletter control sequences out of 15000+600000
+ 21514 strings out of 492990
+ 420631 string characters out of 6135005
+ 817335 words of memory out of 5000000
+ 24667 multiletter control sequences out of 15000+600000
  47892 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,16n,84p,1296b,1188s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,16n,84p,1296b,1190s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Ch2.pdf (10 pages, 120841 bytes).
+Output written on Ch2.pdf (11 pages, 120200 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  24 words of extra memory for PDF output out of 10000 (max. 10000000)
 
