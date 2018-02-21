@@ -352,9 +352,9 @@ INPUT ./Images/heatmap.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txmi.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txi.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxi.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txb.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm

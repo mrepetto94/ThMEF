@@ -183,6 +183,40 @@
       \verb 10.1016/j.cor.2006.02.022
       \endverb
     \endentry
+    \entry{Gupta_Maranas_2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=12f99fb583327492183593a3e6fb01a1}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Anshuman},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4f2cd81ba21c78d973f08be3b6d8a38a}{%
+           family={Maranas},
+           familyi={M\bibinitperiod},
+           given={Costas\bibnamedelima D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{04f1f4fff9f63c4b9133b7a42d64c1d8}
+      \strng{fullhash}{04f1f4fff9f63c4b9133b7a42d64c1d8}
+      \strng{authornamehash}{04f1f4fff9f63c4b9133b7a42d64c1d8}
+      \strng{authorfullhash}{04f1f4fff9f63c4b9133b7a42d64c1d8}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00981354}
+      \field{journaltitle}{Computers & Chemical Engineering}
+      \field{month}{9}
+      \field{number}{8\x{fffd}\x{fffd}\x{fffd}9}
+      \field{title}{Managing demand uncertainty in supply chain planning}
+      \field{volume}{27}
+      \field{year}{2003}
+      \field{pages}{1219\x{fffd}\x{fffd}\x{fffd}1227}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/S0098-1354(03)00048-6
+      \endverb
+    \endentry
     \entry{jung_order_2008}{article}{}
       \name{author}{3}{}{%
         {{hash=f47fe3e45e65f6bf49bcfb6ad62ba6b9}{%
@@ -264,6 +298,40 @@
       \range{pages}{-1}
       \verb{doi}
       \verb 10.1080/00207540500142332
+      \endverb
+    \endentry
+    \entry{Liang_Cheng_2009}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9419fc2e31be73f6fbb5370775b7eb20}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Tien-Fu},
+           giveni={T\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=3ae9d4e53c6edaf41d573ee70cda9995}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Hung-Wen},
+           giveni={H\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca668151ff0273939abc8c25c3342418}
+      \strng{fullhash}{ca668151ff0273939abc8c25c3342418}
+      \strng{authornamehash}{ca668151ff0273939abc8c25c3342418}
+      \strng{authorfullhash}{ca668151ff0273939abc8c25c3342418}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09574174}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{Application of fuzzy sets to manufacturing/distribution planning decisions with multi-product and multi-time period in supply chains}
+      \field{volume}{36}
+      \field{year}{2009}
+      \field{pages}{3367\x{fffd}\x{fffd}\x{fffd}3377}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.eswa.2008.01.002
       \endverb
     \endentry
     \entry{mula_mathematical_2010}{article}{}
