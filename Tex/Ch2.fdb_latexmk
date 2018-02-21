@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber Ch2"] 1519053966 "Ch2.bcf" "Ch2.bbl" "Ch2" 1519053973
-  "Ch2.bcf" 1519053971 96503 c607f5c5c5165a4e9823013bff39e2ee ""
-  "Ch2.bib" 1518978321 6795 9e0c78f94851af319f299f4c0e2c50c6 ""
+["biber Ch2"] 1519053966 "Ch2.bcf" "Ch2.bbl" "Ch2" 1519135264
+  "Ch2.bcf" 1519114132 96503 c607f5c5c5165a4e9823013bff39e2ee ""
+  "Ch2.bib" 1519114085 6795 9e0c78f94851af319f299f4c0e2c50c6 ""
   (generated)
   "Ch2.blg"
   "Ch2.bbl"
-["pdflatex"] 1519053973 "Ch2.tex" "Ch2.pdf" "Ch2" 1519053973
-  "/etc/texmf/web2c/texmf.cnf" 1518479459 475 c0e671620eb5563b2130f56340a5fde8 ""
+["pdflatex"] 1519114128 "Ch2.tex" "Ch2.pdf" "Ch2" 1519135264
+  "/etc/texmf/web2c/texmf.cnf" 1519084513 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm" 1480098718 1020 c53143d3e3747b5c1149bd9a5ecd7b55 ""
@@ -182,16 +182,16 @@
   "/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1480098843 4962 9c1069474ff71dbc47d5006555e352d3 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1503024366 32036 8f10cb8f6ef259fb5791f09c065d3d13 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1503024366 32036 8f10cb8f6ef259fb5791f09c065d3d13 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1518479628 2377213 8bc19c9e6d8db8e1c35694d1be199981 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1518479665 4127759 e6d3b422aa2839d55974b1c1cdeead69 ""
-  "Ch2.aux" 1519053970 6072 79b8dae19397445656cefd9b8f744a1f ""
-  "Ch2.bbl" 1519053968 21786 9042e830e1c0ee3bc559f44f03337d3a "biber Ch2"
-  "Ch2.run.xml" 1519053971 2291 81b253dd2d7ad578f2cae4b16af7f9f5 ""
-  "Ch2.tex" 1519053963 25715 ff98fe94991fc865f74935e2aada5c5f ""
-  "Images/heatmap.png" 1518370341 36633 d702794fa345167643691f5ba2c49cc5 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1519084654 2377213 8bc19c9e6d8db8e1c35694d1be199981 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1519084692 4142625 eae08669766c31d23bf862a7909ea48d ""
+  "Ch2.aux" 1519114132 6072 79b8dae19397445656cefd9b8f744a1f ""
+  "Ch2.bbl" 1519114085 21786 9042e830e1c0ee3bc559f44f03337d3a "biber Ch2"
+  "Ch2.run.xml" 1519114132 2291 81b253dd2d7ad578f2cae4b16af7f9f5 ""
+  "Ch2.tex" 1519114440 25715 ff98fe94991fc865f74935e2aada5c5f ""
+  "Images/heatmap.png" 1519114085 36633 d702794fa345167643691f5ba2c49cc5 ""
   (generated)
+  "Ch2.pdf"
   "Ch2.log"
   "Ch2.run.xml"
-  "Ch2.pdf"
-  "Ch2.bcf"
   "Ch2.aux"
+  "Ch2.bcf"
