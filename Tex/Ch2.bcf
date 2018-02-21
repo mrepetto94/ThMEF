@@ -2149,13 +2149,17 @@
     <bcf:citekey order="4">ongondo_how_2011</bcf:citekey>
     <bcf:citekey order="5">mula_mathematical_2010</bcf:citekey>
     <bcf:citekey order="6">jung_order_2008</bcf:citekey>
-    <bcf:citekey order="7">romo_optimizing_2009</bcf:citekey>
-    <bcf:citekey order="8">benjamin_analysis_1989</bcf:citekey>
-    <bcf:citekey order="9">torabi_interactive_2008</bcf:citekey>
-    <bcf:citekey order="10">azimian_supply_2017</bcf:citekey>
-    <bcf:citekey order="11">Santoso_Ahmed_Goetschalckx_Shapiro_2005</bcf:citekey>
-    <bcf:citekey order="12">CompetitiveAdvantage</bcf:citekey>
-    <bcf:citekey order="13">Zadeh_1965</bcf:citekey>
+    <bcf:citekey order="7">Oh_Karimi_2006</bcf:citekey>
+    <bcf:citekey order="8">Kanyalkar_2005</bcf:citekey>
+    <bcf:citekey order="9">romo_optimizing_2009</bcf:citekey>
+    <bcf:citekey order="10">Rizk_Martel2008</bcf:citekey>
+    <bcf:citekey order="11">benjamin_analysis_1989</bcf:citekey>
+    <bcf:citekey order="12">torabi_interactive_2008</bcf:citekey>
+    <bcf:citekey order="13">Chern_Hsieh_2007</bcf:citekey>
+    <bcf:citekey order="14">azimian_supply_2017</bcf:citekey>
+    <bcf:citekey order="15">Santoso_Ahmed_Goetschalckx_Shapiro_2005</bcf:citekey>
+    <bcf:citekey order="16">CompetitiveAdvantage</bcf:citekey>
+    <bcf:citekey order="17">Zadeh_1965</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

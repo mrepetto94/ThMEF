@@ -149,6 +149,40 @@
       \verb http://linkinghub.elsevier.com/retrieve/pii/S0142694X16300631
       \endverb
     \endentry
+    \entry{Chern_Hsieh_2007}{article}{}
+      \name{author}{2}{}{%
+        {{hash=842b19497462adb62d982ad1685f39f4}{%
+           family={Chern},
+           familyi={C\bibinitperiod},
+           given={C.-C.},
+           giveni={C\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=080ed464c47c4a6a18c0ad2b8be08d63}{%
+           family={Hsieh},
+           familyi={H\bibinitperiod},
+           given={J.-S.},
+           giveni={J\bibinithyphendelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ef1344601e10d911102ff8b024e8340}
+      \strng{fullhash}{0ef1344601e10d911102ff8b024e8340}
+      \strng{authornamehash}{0ef1344601e10d911102ff8b024e8340}
+      \strng{authorfullhash}{0ef1344601e10d911102ff8b024e8340}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03050548}
+      \field{journaltitle}{Computers & Operations Research}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{A heuristic algorithm for master planning that satisfies multiple objectives}
+      \field{volume}{34}
+      \field{year}{2007}
+      \field{pages}{3491\x{fffd}\x{fffd}\x{fffd}3513}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.cor.2006.02.022
+      \endverb
+    \endentry
     \entry{jung_order_2008}{article}{}
       \name{author}{3}{}{%
         {{hash=f47fe3e45e65f6bf49bcfb6ad62ba6b9}{%
@@ -196,6 +230,40 @@
       \endverb
       \verb{url}
       \verb http://linkinghub.elsevier.com/retrieve/pii/S0925527307000138
+      \endverb
+    \endentry
+    \entry{Kanyalkar_2005}{article}{}
+      \name{author}{2}{}{%
+        {{hash=03ba9c782d665b89a99ec45f3da0250f}{%
+           family={Kanyalkar},
+           familyi={K\bibinitperiod},
+           given={A.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=ed0b207bfa3604dbd6167cf01a2accb7}{%
+           family={Adil\bibnamedelima *},
+           familyi={A\bibinitperiod\bibinitdelim *\bibinitperiod},
+           given={G.\bibnamedelimi K.},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea2a4b19ceba7f0f0b15ee3eca3f22bf}
+      \strng{fullhash}{ea2a4b19ceba7f0f0b15ee3eca3f22bf}
+      \strng{authornamehash}{ea2a4b19ceba7f0f0b15ee3eca3f22bf}
+      \strng{authorfullhash}{ea2a4b19ceba7f0f0b15ee3eca3f22bf}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0020-7543, 1366-588X}
+      \field{journaltitle}{International Journal of Production Research}
+      \field{month}{10}
+      \field{number}{20}
+      \field{title}{An integrated aggregate and detailed planning in a multi-site production environment using linear programming}
+      \field{volume}{43}
+      \field{year}{2005}
+      \field{pages}{4431\x{fffd}\x{fffd}\x{fffd}4454}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1080/00207540500142332
       \endverb
     \endentry
     \entry{mula_mathematical_2010}{article}{}
@@ -250,6 +318,40 @@
       \endverb
       \verb{url}
       \verb http://linkinghub.elsevier.com/retrieve/pii/S0377221709005694
+      \endverb
+    \endentry
+    \entry{Oh_Karimi_2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a989a52a570696bf3ed01699d4d87774}{%
+           family={Oh},
+           familyi={O\bibinitperiod},
+           given={Hong-Choon},
+           giveni={H\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=322a90b1541a67ba2af073e727895333}{%
+           family={Karimi},
+           familyi={K\bibinitperiod},
+           given={I.\bibnamedelimi A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{71004cc8f8529967d9a1b3a5a4b07271}
+      \strng{fullhash}{71004cc8f8529967d9a1b3a5a4b07271}
+      \strng{authornamehash}{71004cc8f8529967d9a1b3a5a4b07271}
+      \strng{authorfullhash}{71004cc8f8529967d9a1b3a5a4b07271}
+      \field{sortinit}{O}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-1541, 1547-5905}
+      \field{journaltitle}{AIChE Journal}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Global multiproduct production-Distribution planning with duty drawbacks}
+      \field{volume}{52}
+      \field{year}{2006}
+      \field{pages}{595\x{fffd}\x{fffd}\x{fffd}610}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/aic.10669
       \endverb
     \endentry
     \entry{ongondo_how_2011}{article}{}
@@ -328,6 +430,45 @@
       \field{isbn}{0684841460,9780684841465}
       \field{title}{Competitive Advantage: Creating and Sustaining Superior Performance}
       \field{year}{1998}
+    \endentry
+    \entry{Rizk_Martel2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=daf35f9a290cba057bf2212b93bf0ffc}{%
+           family={Rizk},
+           familyi={R\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=dc42a525426f82a61c4d7747f7da89c8}{%
+           family={Martel},
+           familyi={M\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2ac24bd904681f9830a39102caac3a03}{%
+           family={D\x{fffd}\x{fffd}\x{fffd}Amours},
+           familyi={D\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ee27de692ca2b90d7f0356456cc5591}
+      \strng{fullhash}{1ee27de692ca2b90d7f0356456cc5591}
+      \strng{authornamehash}{1ee27de692ca2b90d7f0356456cc5591}
+      \strng{authorfullhash}{1ee27de692ca2b90d7f0356456cc5591}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0160-5682, 1476-9360}
+      \field{journaltitle}{Journal of the Operational Research Society}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Synchronized production\x{fffd}\x{fffd}\x{fffd}distribution planning in a single-plant multi-destination network}
+      \field{volume}{59}
+      \field{year}{2008}
+      \field{pages}{90\x{fffd}\x{fffd}\x{fffd}104}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1057/palgrave.jors.2602316
+      \endverb
     \endentry
     \entry{romo_optimizing_2009}{article}{}
       \name{author}{6}{}{%
