@@ -7,7 +7,7 @@
 \usepackage{microtype}
 
 \newcolumntype{L}{>{$}l<{$}}
-\addbibresource{Bibliography/biblio-ch1.bib}
+\addbibresource{Ch1.bib}
 \def\labelitemi{--}
 \usetikzlibrary{arrows,positioning}
 
@@ -23,47 +23,49 @@
 \maketitle
 
 \begin{abstract}
-This chapter deals with the problem of multinational entity allocation based on three main factors, namely the costs, the
-tax pressure and the functional characterization of a certain entity. The solution suggested is a goal programming model that embeds this limitation imposed by the environment and tries to find an optimal solution that permits the Decision Maker to be competitive \textit{vis-à-vis} multinational competitors.
+This chapter deals with the problem of multinational entity allocation based on three main factors, namely the costs, the tax pressure and the functional characterization of a certain entity. The solution suggested is a goal programming model that embeds this limitation imposed by the environment and tries to find an optimal solution that permits the Decision Maker to be competitive \textit{vis-à-vis} multinational competitors. The results obtained from such model are many times different from the ones putted into places by multinationals, which tend to focus on minimizing only the tax base without taking into account other information that may result in significant value added from a tax planning perspective. 
 \end{abstract}
 
 \section{Introduction}
 After the Great Recession, multinational companies found themselves in a very different environment; thriving to survive with competition on one side and higher restriction imposed by countries running financial crises. This led multinationals with a great challenge which consequently boost cost engineering, in an attempt to survive in this new scenario. Another result was a new form of tax planning, most of the time barely legal in order to exploit the fiscal advantages of certain countries\cite{_after_tax_hedging_report.pdf_????}. Such problems forced the G20 to launch an inclusive framework on base erosion and profit shifting called "BEPS", bringing together about 100 countries in order to stop such unlawful tax planning. However, even if this action against such problem highlighted in a more specific way what should be considered as aggressive tax planning the border with legitimate cost engineering seems blurrier than ever\cite{feller_three_2017}.
-In this paper, I'll try to build a model that given a set of criteria based on the accounting information of a specific multinational, it tries to perform the best allocation of its entities. The model will use both internal and external data and will follow three main objectives, namely minimize the costs, minimize the tax base and at the same time be compliant with its functional characterization, meaning that its profitability is in line with independent actor in the market \cite{_model_2015} and it's not a mere result of aggressive tax planning.
 
-\begin{figure}[htb!]
+In this paper, is proposed Goal Programming model, Figure\ref{fig:flowchart}, that given a set of criteria based on the accounting information of a specific multinational, it tries to perform the best allocation of its entities. The model will use both internal and external data and will follow three main objectives, namely minimize the costs, minimize the tax base and at the same time be compliant with the functional characterization of each and every entity constituting the multinational group. In other words the last objective impose that the multinational entity profitability has to be in line with independent actor in the market \cite{_model_2015} and should not be in any case a mere result of aggressive tax planning.
+
+\begin{figure}
 \centering
 \begin{tikzpicture}[
-squarednode/.style={rectangle, draw=black!60, minimum size=5mm},
+squarednode/.style={rectangle, draw=black!60, minimum height=10mm, minimum width=40mm},
 circlenode/.style={circle, draw=black!60, minimum size=5mm},
+blanknode/.style={rectangle, draw=white!60, minimum height=0mm, minimum width=10mm}
 ]
 
 \node[circlenode]      (maintopic)                              {GP Model};
+\node[blanknode]        (b1)       [left=of maintopic] {};
+\node[blanknode]        (b2)       [left=of b1] {};
 \node[squarednode]        (t1)       [above=of maintopic] {Target enterprise data};
 \node[squarednode]      (t2)       [right=of maintopic] {Optimal allocation};
-\node[squarednode]        (t3)       [left=of maintopic] {Global enterprises data};
-\node[squarednode]        (t4)       [above=of t3] {Macroeconomic data};
+\node[squarednode]        (t3)       [above=of b2] {Global enterprises data};
+\node[squarednode]        (t4)       [below=of b2] {Macroeconomic data};
 
 \draw[->] (t1.south) -- (maintopic.north);
-\draw[->] (t4.south) -- (maintopic.west);
-\draw[->] (t3.east) -- (maintopic.west);
+\draw[->] (t4.east) -- ++ (0.45cm,0) |- (maintopic.west);
+\draw[->] (t3.east) -- ++ (0.45cm,0) |- (maintopic.west);
 \draw[->] (maintopic.east) -- (t2.west);
 \end{tikzpicture}
 \caption{Model flowchart}
+\label{fig:flowchart}
 \end{figure}
 
-The following sections are organized as follows; the first part is an introduction to multi-criteria analysis and more specifically to the Goal Programming approach; the second part is a state of the art review of the fields in where GP was applied so far; the third part will be about the data that led to the model; the fourth will be about the formulation of such model taking into account the possible constraints and then the conclusion and possible limitations of such model.
+The following sections are organized as follows; the first part is an introduction to multi-criteria analysis and more specifically to the Goal Programming approach; the second part is a state of the art review of the fields in where GP was applied so far; the third part will be about the data that led to the model; and the fourth will be the formulation of such model taking into account the possible constraints, then the conclusion and possible limitations of model will be provided. In order to provide a better assessment of the weights applied to the objectives, a series of scenarios were taken into account.
 
 \section{Multi-criteria decision analysis}
 Even if the practice of decision making is old as man, we tend to date the roots of modern MCDA in the early 60's, the main focus at the time was to find the most preferred solution, or generating an approximation to the entire efficient frontier\cite{greco_multiple_2016}.
 \\
 Multi-criteria analysis may be defined as a problem of multiple-objective programming, that differs from a linear one,
 since we have more objective functions to deal with; its formulation is the following:
-
-\[
+$$
 Min[f_1(x),f_2(x),...,f_k(x)] \quad i=1,...,k \quad where \quad k\geq2
-\]
-
+$$
 This approach seems to fit better the real world since, in reality, we tend to have a more than one objective most of the time in contrast with one another.
 A solution to a multi-criteria problem would be optimal if it'd respected the Pareto Efficient assumption, namely that no other feasible solution exists that is at least as good with respect to all objectives and strictly better with respect to at least one objective. Mathematically it means that $\left\{x_1,...x_k\right\}$ is a solution if $\not\exists \left\{x'_1,...x'_k\right\}$
 such that:

@@ -1,0 +1,15 @@
+[0] Config.pm:354> INFO - This is Biber 2.7 (beta)
+[0] Config.pm:357> INFO - Logfile is 'Ch1.blg'
+[98] biber:303> INFO - === gio feb 22, 2018, 15:36:31
+[214] Biber.pm:360> INFO - Reading 'Ch1.bcf'
+[337] Biber.pm:836> INFO - Found 15 citekeys in bib section 0
+[363] Biber.pm:3671> INFO - Processing section 0
+[536] Biber.pm:3841> INFO - Looking for bibtex format file 'Ch1.bib' for section 0
+[556] bibtex.pm:1424> INFO - Decoding LaTeX character macros into UTF-8
+[601] bibtex.pm:1281> INFO - Found BibTeX data source 'Ch1.bib'
+[790] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[790] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[791] Biber.pm:3500> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[791] Biber.pm:3506> INFO - No sort tailoring available for locale 'en-US'
+[828] bbl.pm:608> INFO - Writing 'Ch1.bbl' with encoding 'UTF-8'
+[832] bbl.pm:712> INFO - Output to Ch1.bbl
