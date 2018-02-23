@@ -72,15 +72,18 @@
 	keywords = {{auditGP}}
 }
 
-@online{pricewaterhousecoopers_tax_????,
-	title = {Tax technology: turn data into insights},
-	url = {https://www.pwc.com/us/en/tax-technology.html},
-	shorttitle = {Tax technology},
-	abstract = {Find out how the businesses of tomorrow can benefit from a tax technology strategy.},
-	titleaddon = {{PwC}},
-	author = {{PricewaterhouseCoopers}},
-	urldate = {2017-04-12},
-	keywords = {taxtechnology}
+@Online{PwC_Tax_2018,
+  author     = {PricewaterhouseCoopers},
+  editor     = {PricewaterhouseCoopers US},
+  title      = {Tax technology: turn data into insights},
+  year       = {2018},
+  date       = {2018-01-01},
+  url        = {https://www.pwc.com/us/en/tax-technology.html},
+  titleaddon = {{PwC}},
+  urldate    = {2017-04-12},
+  abstract   = {Find out how the businesses of tomorrow can benefit from a tax technology strategy.},
+  keywords   = {taxtechnology},
+  shorttitle = {Tax technology},
 }
 
 @Online{BEPS_2012_about,
@@ -119,12 +122,16 @@
 	keywords = {{GPextensions}}
 }
 
-@online{_oecd_????,
-	title = {{OECD} Tax Database - {OECD}},
-	url = {http://www.oecd.org/tax/tax-policy/tax-database.htm#C_CorporateCaptial},
-	urldate = {2017-04-17},
-	keywords = {oecdtax},
-	file = {OECD Tax Database - OECD:C\:\\Users\\MREPETTO00\\Zotero\\storage\\FDV6NI2U\\tax-database.html:text/html}
+@Online{OECD_TaxBase_2018,
+  author   = {OECD},
+  editor   = {OECD Database},
+  title    = {{OECD} Tax Database - {OECD}},
+  year     = {2018},
+  date     = {2018-01-01},
+  url      = {http://www.oecd.org/tax/tax-policy/tax-database.htm#C_CorporateCaptial},
+  urldate  = {2017-04-17},
+  file     = {OECD Tax Database - OECD:C\:\\Users\\MREPETTO00\\Zotero\\storage\\FDV6NI2U\\tax-database.html:text/html},
+  keywords = {oecdtax},
 }
 
 @article{trivedi_hybrid_2017,
@@ -154,11 +161,15 @@
   publisher = {{OECD} Publishing},
 }
 
-@online{_flyer-implementing--beps-package-building--inclusive-framework.pdf_????,
-	title = {flyer-implementing-the-beps-package-building-an-inclusive-framework.pdf},
-	url = {http://www.oecd.org/tax/flyer-implementing-the-beps-package-building-an-inclusive-framework.pdf},
-	urldate = {2017-07-23},
-	file = {flyer-implementing-the-beps-package-building-an-inclusive-framework.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\C9RDAFCN\\flyer-implementing-the-beps-package-building-an-inclusive-framework.pdf:application/pdf}
+@Online{Inclusive_Framework_BEPS_2018,
+  author  = {OECD},
+  editor  = {OECD Publishing},
+  title   = {Implementing the BEPS package: building an Inclusive Framework},
+  year    = {2018},
+  date    = {2018-01-01},
+  url     = {http://www.oecd.org/tax/flyer-implementing-the-beps-package-building-an-inclusive-framework.pdf},
+  urldate = {2017-07-23},
+  file    = {flyer-implementing-the-beps-package-building-an-inclusive-framework.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\C9RDAFCN\\flyer-implementing-the-beps-package-building-an-inclusive-framework.pdf:application/pdf},
 }
 
 @article{christensen_social_2004,
@@ -201,11 +212,14 @@
 	note = {{DOI}: 10.1007/978-1-4939-3094-4}
 }
 
-@online{_earnings_????,
-	title = {Earnings and wages - Average wages - {OECD} Data},
-	url = {http://data.oecd.org/earnwage/average-wages.htm},
-	abstract = {Find, compare and share {OECD} data by indicator.},
-	titleaddon = {{theOECD}}
+@Online{OECD_earnings_2017,
+  author     = {OECD},
+  editor     = {OECD Database},
+  title      = {Earnings and wages - Average wages - {OECD} Data},
+  year       = {2017},
+  url        = {http://data.oecd.org/earnwage/average-wages.htm},
+  titleaddon = {{theOECD}},
+  abstract   = {Find, compare and share {OECD} data by indicator.},
 }
 
 @article{feller_three_2017,
@@ -224,15 +238,17 @@
 	langid = {english}
 }
 
-@book{_model_2015,
-	title = {Model Tax Convention on Income and on Capital 2014 (Full Version)},
-	isbn = {978-92-64-23902-9},
-	url = {http://www.oecd-ilibrary.org/taxation/model-tax-convention-on-income-and-on-capital-2015-full-version_9789264239081-en},
-	publisher = {{OECD} Publishing},
-	urldate = {2017-07-25},
-	date = {2015-10-30},
-	langid = {english},
-	note = {{DOI}: 10.1787/9789264239081-en}
+@Book{Model_Tax_Convention_2015,
+  author    = {OECD},
+  title     = {Model Tax Convention on Income and on Capital 2014},
+  year      = {2015},
+  date      = {2015-10-30},
+  note      = {{DOI}: 10.1787/9789264239081-en},
+  publisher = {{OECD} Publishing},
+  isbn      = {978-92-64-23902-9},
+  url       = {http://www.oecd-ilibrary.org/taxation/model-tax-convention-on-income-and-on-capital-2015-full-version_9789264239081-en},
+  urldate   = {2017-07-25},
+  langid    = {english},
 }
 
 @article{tamiz_goal_1998,

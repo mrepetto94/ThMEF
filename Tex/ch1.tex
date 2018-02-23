@@ -2,7 +2,7 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[a4paper, total={6in, 8in}]{geometry}
-\usepackage{amsmath,mathtools,amstext,array,cases,tikz}
+\usepackage{amsmath,rotating,mathtools,amstext,array,cases,tikz}
 \usepackage[T1]{fontenc}
 \usepackage{microtype}
 \usepackage[backend=bibier,
@@ -64,33 +64,33 @@ Even if the practice of decision making is old as man, we tend to date the roots
 \\
 Multi-criteria analysis may be defined as a problem of multiple-objective programming, that differs from a linear one,
 since we have more objective functions to deal with; its formulation is the following:
-$$
-Min[f_1(x),f_2(x),...,f_k(x)] \quad i=1,...,k \quad where \quad k\geq2
-$$
+	$$
+	Min[f_1(x),f_2(x),...,f_k(x)] \quad i=1,...,k \quad where \quad k\geq2
+	$$
 This approach seems to fit better the real world since, in reality, we tend to have more than one objective most of the time in contrast with one another.
 A solution to a multi-criteria problem would be optimal if it'd respected the Pareto Efficient assumption, namely that no other feasible solution exists that is at least as good with respect to all objectives and strictly better with respect to at least one objective. Mathematically it means that $\left\{x_1,...x_k\right\}$ is a solution if $\not\exists \left\{x'_1,...x'_k\right\}$
 such that:
-\[
-g(f_1(x),f_2(x),...,f_k(x)) \leq g(f_1(x'),f_2(x'),...,f_k(x')) \quad \forall n \quad \in  \left\{1...k\right\}
-\]
+	\[
+	g(f_1(x),f_2(x),...,f_k(x)) \leq g(f_1(x'),f_2(x'),...,f_k(x')) \quad \forall n \quad \in  \left\{1...k\right\}
+	\]
 However such increase in complexity given by multiple objectives is both the strenght and the weakness of such methodology, this is due to the fact that we have to deal with $N$ trade-offs deriving from the objectives we decided to include in our optimization problem. Because of this problem a lot of approaches and specific intelligent algorithms were proposed\cite{Cui2017}.
 
 Focusing the attention on the approaches suggested, four main categories emerge, namely:
+
 \begin{itemize}
-	\item A Priori methods:
-	\item Interactive methods:
-	\item Pareto-dominated methods:
-	\item New Dominance methods
+	\item A Priori methods: such methods are characterized by prior definition of the preference information, this category includes methods such as Weighted Sum Method, Constraints Method, Objective Programming Method, Dictionary Ordering Method and Analytic Ordering Method;   
+	\item Interactive methods: in this particular category the process is iterative, meaning that the decision maker interacts with the preference information he gave in search of the optimal solution, from this category belong two types od methods namely the Normal Boundary Intersection and the Normalized Normal Constraint;
+	\item Pareto-dominated methods: this methods divides the optimal solution seeking in two parts, at first they try to compose the efficient frontier of a given multi-criteria problem, then they try to find the Pareto Dominant\footnote{Given a vector of outcomes $\vec{S}$ that we identified as the Efficient Frontier $\vec{S}[s_1..._n]$ a solution $\star{s}$ of such vector is Pareto Dominant if $\nexists$ a $s_q$ that is Pareto superior to $s^{\star}$.} solution;
+	\item New Dominance methods: this methods may be considered as an extension of the Pareto-dominated methods, in that they try to build the efficient frontier, then they try to elimante the Pareto-dominated solutions however they tend to use fuzzy methods and other solutions to avoid the computational drawback of the former one.  
 \end{itemize}
 
-The Goal Programming (which develops from the concept of linear programming), belongs to the a priori category and will be used to model the problem of entity allocation proposed on the next chapters.
+From the set of the A Priori methods belongs the Goal Programming (which develops from the concept of linear programming) and will be used to model the problem of entities allocation proposed on the next chapters.
 \\
 Goal Programming, hereinafter GP, is a multi-criteria decision analysis approach which allows the decision maker to consider simultaneously several conflicting objectives.
 
 The idea behind such method is very simple, and is based on distance minimization; this means that at each objective function is associated a deviation variable that has to be minimized in batch with the other deviation variables coming from the other objective functions.
 
 Such models may be represented algebraically as follows:
-
 
 \[
 Min \quad a=h(n,p) \quad s.t: \quad
@@ -160,6 +160,7 @@ it’s worth mentioning the work of Merville and Petty\cite{merville_transfer_19
 strategy since the TP core is base on that.
 The two main variants concerning GP in accounting are Lexicographic GP and Weighted GP, with the first one over topping from the second.
 
+
 \section{Model formulation}
 
 \subsection{Data used to formulate the model}
@@ -207,11 +208,11 @@ This data includes the information we got from our enterprise (the one in which 
 This category contains all the data inherent the PLI of the specific functional enterprises operating in a certain State.
 A piece of this data is summarized by the following representation. Another important data that can be obtained is the cost of debt \cite{berman_financial_2013} even though such measure has to take into account the proportion of two types of funding (namely equity and debt) the data provided by the comparable enterprises serve as a good proxy for such measure if used in conjunction with financial databases as Bloomberg. In our case, to obtain this data a private worldwide database was used called Orbis by Bureau Van Dijk.
 
-\begin{figure}[H]
+\begin{sidewaysfigure}[ht]
 \centering
 \includegraphics[width=\textwidth]{Images/plidist.png}
 \caption{Interquartile range of distribution PLI sorted by country}
-\end{figure}
+\end{sidewaysfigure}
 
 In this figure, we can see how the PLI interquartile range changes from country to country in such case the PLI we choose was an ROS applied on independent companies whose activities are based on distribution (from wholesale to retail). Such difference can play a major role in deciding the optimal profitability level of the allocated entities. The PLI, acronym of Profit Level Indicator is the a financial indicator (most of the time a ratio) that tracks the profitability of a certain function performed by the entity under scope of analysis.
 
