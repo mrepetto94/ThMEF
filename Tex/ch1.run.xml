@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>Ch1.bcf</file>
+      <file>ch1.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>Ch1.bbl</file>
+      <file>ch1.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -64,22 +64,22 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>Ch1</infile>
+      <infile>ch1</infile>
     </cmdline>
     <input>
-      <file>Ch1.bcf</file>
+      <file>ch1.bcf</file>
     </input>
     <output>
-      <file>Ch1.bbl</file>
+      <file>ch1.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>Ch1.bbl</file>
+      <file>ch1.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>Ch1.bcf</file>
+      <file>ch1.bcf</file>
     </requires>
     <requires type="editable">
-      <file>Ch1.bib</file>
+      <file>ch1-2.bib</file>
     </requires>
   </external>
 </requests>

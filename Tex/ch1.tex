@@ -2,13 +2,14 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[a4paper, total={6in, 8in}]{geometry}
-\usepackage{amsmath,mathtools,amstext,array,cases,biblatex,float,tikz}
+\usepackage{amsmath,mathtools,amstext,array,cases,tikz}
 \usepackage[T1]{fontenc}
 \usepackage{microtype}
+\usepackage[backend=bibier,
+		url=false]{biblatex}
 
 \newcolumntype{L}{>{$}l<{$}}
-\addbibresource{Ch1.bib}
-\def\labelitemi{--}
+\addbibresource{ch1-2.bib}
 \usetikzlibrary{arrows,positioning}
 
 
@@ -27,9 +28,9 @@ This chapter deals with the problem of multinational entity allocation based on 
 \end{abstract}
 
 \section{Introduction}
-After the Great Recession, multinational companies found themselves in a very different environment; thriving to survive with competition on one side and higher restriction imposed by countries running financial crises. This led multinationals with a great challenge which consequently boost cost engineering, in an attempt to survive in this new scenario. Another result was a new form of tax planning, most of the time barely legal in order to exploit the fiscal advantages of certain countries\cite{_after_tax_hedging_report.pdf_????}. Such problems forced the G20 to launch an inclusive framework on base erosion and profit shifting called "BEPS", bringing together about 100 countries in order to stop such unlawful tax planning. However, even if this action against such problem highlighted in a more specific way what should be considered as aggressive tax planning the border with legitimate cost engineering seems blurrier than ever\cite{feller_three_2017}.
+After the Great Recession, multinational companies found themselves in a very different environment; thriving to survive with competition on one side and higher restriction imposed by countries running financial crises. This led multinationals with a great challenge which consequently boost cost engineering, in an attempt to survive in this new scenario. Another result was a new form of tax planning, most of the time barely legal in order to exploit the fiscal advantages of certain countries\cite{After_tax_hedging_report_2013}. Such problems forced the G20 to launch an inclusive framework on base erosion and profit shifting called "BEPS", bringing together about 100 countries in order to stop such unlawful tax planning. However, even if this action against such problem highlighted in a more specific way what should be considered as aggressive tax planning the border with legitimate cost engineering seems blurrier than ever\cite{feller_three_2017}.
 
-In this paper, is proposed Goal Programming model, Figure\ref{fig:flowchart}, that given a set of criteria based on the accounting information of a specific multinational, it tries to perform the best allocation of its entities. The model will use both internal and external data and will follow three main objectives, namely minimize the costs, minimize the tax base and at the same time be compliant with the functional characterization of each and every entity constituting the multinational group. In other words the last objective impose that the multinational entity profitability has to be in line with independent actor in the market \cite{_model_2015} and should not be in any case a mere result of aggressive tax planning.
+In this paper, is proposed Goal Programming model, Figure\ref{fig:flowchart}, that given a set of criteria based on the accounting information of a specific multinational, it tries to perform the best allocation of its entities. The model will use both internal and external data and will follow three main objectives, namely minimize the costs, minimize the tax base and at the same time be compliant with the functional characterization of each and every entity constituting the multinational group. In other words the last objective impose that the multinational entity profitability has to be in line with independent actor in the market\cite{Model_Tax_Convention_2015} and should not be in any case a mere result of aggressive tax planning.
 
 \begin{figure}
 \centering
@@ -72,8 +73,17 @@ such that:
 \[
 g(f_1(x),f_2(x),...,f_k(x)) \leq g(f_1(x'),f_2(x'),...,f_k(x')) \quad \forall n \quad \in  \left\{1...k\right\}
 \]
+However such increase in complexity given by multiple objectives is both the strenght and the weakness of such methodology, this is due to the fact that we have to deal with $N$ trade-offs deriving from the objectives we decided to include in our optimization problem. Because of this problem a lot of approaches and specific intelligent algorithms were proposed\cite{Cui2017}.
 
-Now that we grasped the concept of a multi-criteria problem it's worth saying that there are many approaches to solve such problem, one of these is the Goal Programming, which develops from the concept of linear programming.
+Focusing the attention on the approaches suggested, four main categories emerge, namely:
+\begin{itemize}
+	\item A Priori methods:
+	\item Interactive methods:
+	\item Pareto-dominated methods:
+	\item New Dominance methods
+\end{itemize}
+
+The Goal Programming (which develops from the concept of linear programming), belongs to the a priori category and will be used to model the problem of entity allocation proposed on the next chapters.
 \\
 Goal Programming, hereinafter GP, is a multi-criteria decision analysis approach which allows the decision maker to consider simultaneously several conflicting objectives.
 

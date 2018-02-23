@@ -2140,24 +2140,25 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex">Ch1.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">ch1-2.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">_after_tax_hedging_report.pdf_????</bcf:citekey>
+    <bcf:citekey order="1">After_tax_hedging_report_2013</bcf:citekey>
     <bcf:citekey order="2">feller_three_2017</bcf:citekey>
-    <bcf:citekey order="3">_model_2015</bcf:citekey>
+    <bcf:citekey order="3">Model_Tax_Convention_2015</bcf:citekey>
     <bcf:citekey order="4">greco_multiple_2016</bcf:citekey>
-    <bcf:citekey order="5">tamiz_goal_1998</bcf:citekey>
-    <bcf:citekey order="6">charnes_optimal_1955</bcf:citekey>
-    <bcf:citekey order="7">aouni_goal_2017</bcf:citekey>
-    <bcf:citekey order="8">tayi_integration_1985</bcf:citekey>
-    <bcf:citekey order="9">tan_multipleobjective_2008</bcf:citekey>
-    <bcf:citekey order="10">dowlatshahi_product_2001</bcf:citekey>
-    <bcf:citekey order="11">hung_integrated_2011</bcf:citekey>
-    <bcf:citekey order="12">merville_transfer_1978</bcf:citekey>
-    <bcf:citekey order="13">williams_financial_2008</bcf:citekey>
-    <bcf:citekey order="14">berman_financial_2013</bcf:citekey>
-    <bcf:citekey order="15">oecd_oecd_????</bcf:citekey>
+    <bcf:citekey order="5">Cui2017</bcf:citekey>
+    <bcf:citekey order="6">tamiz_goal_1998</bcf:citekey>
+    <bcf:citekey order="7">charnes_optimal_1955</bcf:citekey>
+    <bcf:citekey order="8">aouni_goal_2017</bcf:citekey>
+    <bcf:citekey order="9">tayi_integration_1985</bcf:citekey>
+    <bcf:citekey order="10">tan_multipleobjective_2008</bcf:citekey>
+    <bcf:citekey order="11">dowlatshahi_product_2001</bcf:citekey>
+    <bcf:citekey order="12">hung_integrated_2011</bcf:citekey>
+    <bcf:citekey order="13">merville_transfer_1978</bcf:citekey>
+    <bcf:citekey order="14">williams_financial_2008</bcf:citekey>
+    <bcf:citekey order="15">berman_financial_2013</bcf:citekey>
+    <bcf:citekey order="16">oecd_oecd_????</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

@@ -160,6 +160,51 @@
       \verb http://pubsonline.informs.org/doi/abs/10.1287/mnsc.1.2.138
       \endverb
     \endentry
+    \entry{Cui2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=81eb6228a879db7d01f1accc61e30a6b}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Yunfei},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7e6547c28b60a56475f487bfd87728a5}{%
+           family={Geng},
+           familyi={G\bibinitperiod},
+           given={Zhiqiang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=dd33e402ed7804a0d7cd2f444c531be2}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Qunxiong},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=22c4ea57efb1229d1d9908893e60aa53}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Yongming},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{672129824cb97212b326f5a3ca03fa8c}
+      \strng{fullhash}{54739005bf83d43c95620e357ad11313}
+      \strng{authornamehash}{672129824cb97212b326f5a3ca03fa8c}
+      \strng{authorfullhash}{54739005bf83d43c95620e357ad11313}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy}
+      \field{month}{4}
+      \field{title}{Review: Multi-objective optimization methods and application in energy saving}
+      \field{volume}{125}
+      \field{year}{2017}
+      \field{pages}{681\bibrangedash 704}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1016/j.energy.2017.02.174
+      \endverb
+    \endentry
     \entry{dowlatshahi_product_2001}{article}{}
       \name{author}{1}{}{%
         {{hash=6910be236ba485cdb6608ed2ef759492}{%
@@ -373,33 +418,52 @@
       \verb http://www.jstor.org/stable/246302
       \endverb
     \endentry
-    \entry{_model_2015}{book}{}
+    \entry{After_tax_hedging_report_2013}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={OECD},
+           familyi={O\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=301ef831a2dd43885e40c0cedefdb691}{%
+           family={Publishing},
+           familyi={P\bibinitperiod},
+           given={OECD},
+           giveni={O\bibinitperiod}}}%
+      }
       \list{publisher}{1}{%
         {{OECD} Publishing}%
       }
-      \field{sortinit}{M}
-      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{editornamehash}{301ef831a2dd43885e40c0cedefdb691}
+      \strng{editorfullhash}{301ef831a2dd43885e40c0cedefdb691}
+      \field{sortinit}{O}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{30}
-      \field{isbn}{978-92-64-23902-9}
-      \field{langid}{english}
-      \field{month}{10}
-      \field{note}{{DOI}: 10.1787/9789264239081-en}
-      \field{title}{Model Tax Convention on Income and on Capital 2014 (Full Version)}
-      \field{urlday}{25}
+      \field{day}{1}
+      \field{month}{1}
+      \field{title}{After Tax Hedging Report}
+      \field{urlday}{23}
       \field{urlmonth}{7}
       \field{urlyear}{2017}
-      \field{year}{2015}
+      \field{year}{2013}
       \field{dateera}{ce}
       \field{urldateera}{ce}
+      \verb{file}
+      \verb after_tax_hedging_report.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\E552BDK3\\after_tax_hedging_report.pdf:application/pdf
+      \endverb
       \verb{url}
-      \verb http://www.oecd-ilibrary.org/taxation/model-tax-convention-on-income-and-on-capital-2015-full-version_9789264239081-en
+      \verb https://www.oecd.org/tax/aggressive/after_tax_hedging_report.pdf
       \endverb
     \endentry
-    \entry{_after_tax_hedging_report.pdf_????}{online}{}
+    \entry{Model_Tax_Convention_2015}{book}{}
       \name{author}{1}{}{%
         {{hash=bdbed435a416a918aa494017fda4c7fb}{%
-           family={{OECD}},
+           family={OECD},
            familyi={O\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
@@ -413,16 +477,20 @@
       \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{After Tax Hedging Report}
-      \field{urlday}{23}
+      \field{day}{30}
+      \field{isbn}{978-92-64-23902-9}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{note}{{DOI}: 10.1787/9789264239081-en}
+      \field{title}{Model Tax Convention on Income and on Capital 2014}
+      \field{urlday}{25}
       \field{urlmonth}{7}
       \field{urlyear}{2017}
+      \field{year}{2015}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
-      \verb{file}
-      \verb after_tax_hedging_report.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\E552BDK3\\after_tax_hedging_report.pdf:application/pdf
-      \endverb
       \verb{url}
-      \verb https://www.oecd.org/tax/aggressive/after_tax_hedging_report.pdf
+      \verb http://www.oecd-ilibrary.org/taxation/model-tax-convention-on-income-and-on-capital-2015-full-version_9789264239081-en
       \endverb
     \endentry
     \entry{oecd_oecd_????}{article}{}
