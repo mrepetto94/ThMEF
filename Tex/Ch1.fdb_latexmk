@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber Ch1"] 1519310185 "Ch1.bcf" "Ch1.bbl" "Ch1" 1519318539
+["biber Ch1"] 1519377588 "Ch1.bcf" "Ch1.bbl" "Ch1" 1519377595
   "Ch1.bcf" 1519318539 96622 4c162f4627a5fb1ffce652e36f428eb4 ""
-  "Ch1.bib" 1519306617 16470 2d8f95ad8e107c52872936c3ad6b7f34 ""
+  "Ch1.bib" 1519377586 25415 77e7f13bfce8901cb326744e615839d0 ""
   (generated)
-  "Ch1.blg"
   "Ch1.bbl"
-["pdflatex"] 1519318536 "Ch1.tex" "Ch1.pdf" "Ch1" 1519318539
+  "Ch1.blg"
+["pdflatex"] 1519318536 "Ch1.tex" "Ch1.pdf" "Ch1" 1519377595
   "/etc/texmf/web2c/texmf.cnf" 1519084513 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1480098696 3584 1a7de6c99457381c64abc1a7c545505f ""
@@ -190,16 +190,16 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1519084654 2377213 8bc19c9e6d8db8e1c35694d1be199981 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1519084692 4142625 eae08669766c31d23bf862a7909ea48d ""
   "Ch1.aux" 1519318539 5934 77ee9c425ca77f01819d0b38d7392ff7 ""
-  "Ch1.bbl" 1519310191 26424 998a116dffee3f3630efd79320f25c8a "biber Ch1"
+  "Ch1.bbl" 1519377595 26424 998a116dffee3f3630efd79320f25c8a "biber Ch1"
   "Ch1.run.xml" 1519318539 2291 d9620c8f96a12407bd57606866704aaf ""
-  "Ch1.tex" 1519318532 27490 ed73315ae9a0ffb0098065e47028b1a5 ""
+  "Ch1.tex" 1519321738 27490 ed73315ae9a0ffb0098065e47028b1a5 ""
   "Images/CTworld.png" 1519114085 270045 2bb58726d6733ea970cc89b42f2afb00 ""
   "Images/Cluster-GNI-CT.png" 1519114085 69915 3f0840ad624dc61291ada99aebff0672 ""
   "Images/GNIworld.png" 1519114085 272950 4368605aa3d114ee5ed13e1099b81bf4 ""
   "Images/plidist.png" 1519114085 123840 285c4a65d4e83df130d62ea4a4221204 ""
   (generated)
-  "Ch1.bcf"
-  "Ch1.run.xml"
   "Ch1.aux"
   "Ch1.pdf"
+  "Ch1.run.xml"
+  "Ch1.bcf"
   "Ch1.log"
