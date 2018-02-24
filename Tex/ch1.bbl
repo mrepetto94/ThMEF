@@ -160,6 +160,59 @@
       \verb http://pubsonline.informs.org/doi/abs/10.1287/mnsc.1.2.138
       \endverb
     \endentry
+    \entry{colapinto_multi-criteria_2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ee4c6f70079979129517935337b7b3c4}{%
+           family={Colapinto},
+           familyi={C\bibinitperiod},
+           given={Cinzia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f2d44501d4c78fc024d38ee4c372cb38}{%
+           family={Jayaraman},
+           familyi={J\bibinitperiod},
+           given={Raja},
+           giveni={R\bibinitperiod}}}%
+        {{hash=944be478f4c7724c28bffb52680b9c4b}{%
+           family={Marsiglio},
+           familyi={M\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d004315d968494edb12db4857ec3b524}
+      \strng{fullhash}{d004315d968494edb12db4857ec3b524}
+      \strng{authornamehash}{d004315d968494edb12db4857ec3b524}
+      \strng{authorfullhash}{d004315d968494edb12db4857ec3b524}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0254-5330, 1572-9338}
+      \field{journaltitle}{Annals of Operations Research}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{1}
+      \field{shorttitle}{Multi-criteria decision analysis with goal programming in engineering, management and social sciences}
+      \field{title}{Multi-criteria decision analysis with goal programming in engineering, management and social sciences: a state-of-the art review}
+      \field{urlday}{10}
+      \field{urlmonth}{4}
+      \field{urlyear}{2017}
+      \field{volume}{251}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7\bibrangedash 40}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1007/s10479-015-1829-1
+      \endverb
+      \verb{file}
+      \verb Goal programming model for management accounting and auditing.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\BEW5TBXQ\\Goal programming model for management accounting and auditing.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10479-015-1829-1
+      \endverb
+      \keyw{{multicriteriaGP}}
+    \endentry
     \entry{Cui2017}{article}{}
       \name{author}{4}{}{%
         {{hash=81eb6228a879db7d01f1accc61e30a6b}{%
@@ -491,6 +544,64 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb http://www.oecd-ilibrary.org/taxation/model-tax-convention-on-income-and-on-capital-2015-full-version_9789264239081-en
+      \endverb
+    \endentry
+    \entry{Romero2014}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f7c92a0bfc8345472f8b2e0d902ec796}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pergamon}%
+      }
+      \strng{namehash}{f7c92a0bfc8345472f8b2e0d902ec796}
+      \strng{fullhash}{f7c92a0bfc8345472f8b2e0d902ec796}
+      \strng{authornamehash}{f7c92a0bfc8345472f8b2e0d902ec796}
+      \strng{authorfullhash}{f7c92a0bfc8345472f8b2e0d902ec796}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781483295114}
+      \field{title}{Handbook of Critical Issues in Goal Programming}
+      \field{year}{2014}
+      \verb{url}
+      \verb https://www.amazon.com/Handbook-Critical-Issues-Goal-Programming-ebook/dp/B01E54DW7E?SubscriptionId=0JYN1NVW651KCA56C102&tag=techkie-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01E54DW7E
+      \endverb
+    \endentry
+    \entry{Schniederjans1995}{article}{}
+      \name{author}{1}{}{%
+        {{hash=603a7b15de21d4357339704a808874a7}{%
+           family={Schniederjans},
+           familyi={S\bibinitperiod},
+           given={Marc\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute for Operations Research}%
+        {the Management Sciences ({INFORMS})}%
+      }
+      \strng{namehash}{603a7b15de21d4357339704a808874a7}
+      \strng{fullhash}{603a7b15de21d4357339704a808874a7}
+      \strng{authornamehash}{603a7b15de21d4357339704a808874a7}
+      \strng{authorfullhash}{603a7b15de21d4357339704a808874a7}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Operations Research}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{The Life Cycle of Goal Programming Research as Recorded in Journal Articles}
+      \field{volume}{43}
+      \field{year}{1995}
+      \field{pages}{551\bibrangedash 557}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1287/opre.43.4.551
       \endverb
     \endentry
     \entry{tamiz_goal_1998}{article}{}

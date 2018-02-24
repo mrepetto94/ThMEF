@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber ch1"] 1519393751 "ch1.bcf" "ch1.bbl" "ch1" 1519399971
-  "ch1-2.bib" 1519391068 26690 f17d78129765f8e5b4572271c51158e3 ""
-  "ch1.bcf" 1519399400 96683 a806b9ce1272e934c4cd7f30c9740253 ""
+["biber ch1"] 1519465435 "ch1.bcf" "ch1.bbl" "ch1" 1519468178
+  "ch1-2.bib" 1519462945 27643 c181c8edec4970b73dc4bbe08a78fa67 ""
+  "ch1.bcf" 1519465446 96868 755319af9e49acae1bb97020bada6707 ""
   (generated)
-  "ch1.blg"
   "ch1.bbl"
-["pdflatex"] 1519399971 "ch1.tex" "ch1.pdf" "ch1" 1519399971
+  "ch1.blg"
+["pdflatex"] 1519465443 "ch1.tex" "ch1.pdf" "ch1" 1519468178
   "/etc/texmf/web2c/texmf.cnf" 1519084513 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1480098696 3584 1a7de6c99457381c64abc1a7c545505f ""
@@ -203,13 +203,13 @@
   "Images/Cluster-GNI-CT.png" 1519114085 69915 3f0840ad624dc61291ada99aebff0672 ""
   "Images/GNIworld.png" 1519114085 272950 4368605aa3d114ee5ed13e1099b81bf4 ""
   "Images/plidist.png" 1519114085 123840 285c4a65d4e83df130d62ea4a4221204 ""
-  "ch1.aux" 1519399400 6008 4aca5a06ba1006b9280eaec8b6b3a791 ""
-  "ch1.bbl" 1519393757 27945 e354a22f12aa3ed938dbaa3a120eb3af "biber ch1"
-  "ch1.run.xml" 1519399400 2293 e38d23477ba90f8c6a1ca26365980fd0 ""
-  "ch1.tex" 1519399971 29434 3dab2401ede9c327844f04f0171c820d ""
+  "ch1.aux" 1519465446 7007 93a16a9c8fbfdf2d52c576ffba018918 ""
+  "ch1.bbl" 1519465437 32470 bb392b2a25989e294b2e090c94083667 "biber ch1"
+  "ch1.run.xml" 1519465446 2293 e38d23477ba90f8c6a1ca26365980fd0 ""
+  "ch1.tex" 1519468166 30269 e49028e867ecd418f3ba478ba9706a59 ""
   (generated)
-  "ch1.bcf"
+  "ch1.log"
+  "ch1.run.xml"
   "ch1.pdf"
   "ch1.aux"
-  "ch1.run.xml"
-  "ch1.log"
+  "ch1.bcf"
