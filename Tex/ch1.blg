@@ -1,19 +1,20 @@
 [0] Config.pm:354> INFO - This is Biber 2.7 (beta)
-[1] Config.pm:357> INFO - Logfile is 'ch1.blg'
-[53] biber:303> INFO - === sab feb 24, 2018, 10:43:57
-[76] Biber.pm:360> INFO - Reading 'ch1.bcf'
-[198] Biber.pm:836> INFO - Found 19 citekeys in bib section 0
-[224] Biber.pm:3671> INFO - Processing section 0
+[0] Config.pm:357> INFO - Logfile is 'ch1.blg'
+[53] biber:303> INFO - === sab feb 24, 2018, 18:18:06
+[75] Biber.pm:360> INFO - Reading 'ch1.bcf'
+[199] Biber.pm:836> INFO - Found 20 citekeys in bib section 0
+[225] Biber.pm:3671> INFO - Processing section 0
 [247] Biber.pm:3841> INFO - Looking for bibtex format file 'ch1-2.bib' for section 0
 [253] bibtex.pm:1424> INFO - Decoding LaTeX character macros into UTF-8
-[270] bibtex.pm:1281> INFO - Found BibTeX data source 'ch1-2.bib'
-[332] Utils.pm:164> WARN - month field 'apr' in entry 'Cui2017' is not an integer - this will probably not sort properly.
-[343] Utils.pm:164> WARN - month field 'aug' in entry 'Schniederjans1995' is not an integer - this will probably not sort properly.
-[373] Utils.pm:164> WARN - I didn't find a database entry for 'oecd_oecd_????' (section 0)
-[417] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[417] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[418] Biber.pm:3500> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
-[418] Biber.pm:3506> INFO - No sort tailoring available for locale 'en-US'
-[450] bbl.pm:608> INFO - Writing 'ch1.bbl' with encoding 'UTF-8'
-[456] bbl.pm:712> INFO - Output to ch1.bbl
-[457] Biber.pm:110> INFO - WARNINGS: 3
+[269] bibtex.pm:1281> INFO - Found BibTeX data source 'ch1-2.bib'
+[327] Utils.pm:164> WARN - month field 'apr' in entry 'Cui2017' is not an integer - this will probably not sort properly.
+[342] Utils.pm:164> WARN - month field 'aug' in entry 'Schniederjans1995' is not an integer - this will probably not sort properly.
+[368] Utils.pm:164> WARN - I didn't find a database entry for 'Inserirezarandi' (section 0)
+[368] Utils.pm:164> WARN - I didn't find a database entry for 'oecd_oecd_????' (section 0)
+[412] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[413] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[413] Biber.pm:3500> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[413] Biber.pm:3506> INFO - No sort tailoring available for locale 'en-US'
+[445] bbl.pm:608> INFO - Writing 'ch1.bbl' with encoding 'UTF-8'
+[451] bbl.pm:712> INFO - Output to ch1.bbl
+[451] Biber.pm:110> INFO - WARNINGS: 4

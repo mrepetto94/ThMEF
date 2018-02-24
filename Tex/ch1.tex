@@ -210,7 +210,17 @@ Figure 4 shows a scatter plot of the normalized Corporate Tax (x axis) and GNI p
 The result were five clusters with the one highlighted by the circle indicating countries with both a low average cost of worker and a low taxation. However even if these may seem the best locations to allocate the entities this is not always true, since the formula for taxation is the one proposed at section 4.2 and such entities have to be in the range proposed in section 4.3.
 
 \subsubsection{Target enterprise data}
-This data includes the information we got from our enterprise (the one in which we're going to reallocate the entities). This piece of information are the revenues, the operating expenses. From the operating expenses less wages we can obtain the information inherent the cost of running the assets\cite{williams_financial_2008}, we can then adjust this information with the purchasing parity to obtain the cost of assets from country to country.
+
+This data includes the information we got from our enterprise (the one in which we're going to reallocate the entities). Even though, the data that can be extracted from the enterprise are enourmous, the decision was to depict the most valuable information on the enterprise keeping under controll the numerosity of such parameters. The parameter identified are: 
+\begin{itemize}
+	\item Revenues: they represent the upper limit in which, whether crossed, our strategy will result not profitable, this element can be either forecasted or in case of a constant flow of revenues over the years we can use historical data;
+	\item Employees: this element is somehow tied to the revenues we expect to have, plus some limitations dictated by the labour unions depending by the countries (which were not modeled);
+	\item Cost of running the asset: this is a very crucial factor in case of business that rely heavily on machinery and industrial plant activities, in fact such parameter may be neglected or, take a secondary position in the decision process, in case of a business relying heavily on employees, as for example a software company or a consulting firm.
+
+		While obtaining the first two parameters is something not particularly intensive in terms of data gathering and may require some additional effort the forcasting part because of the uncertainty that some industries carry. In case of the cost of running the assets we have two choices, we can either use internal data coming from a unified ERP system or use the single entity financial data and try to forecast each single entity cost of running the asset and then scale it to a common base in order to do an "apple to apple" comparison. In order to extract such parameter we can use the operating expenses of the entity\cite{williams_financial_2008}, subtracting from the operating expenses the wages we can obtain the information inherent the cost of running the assets at a certain time $t_0$ for a certain volume of good $V_0$, dividing the cost of running the asset for $V_0$ will give a proxy of the marginal cost of asset given an increase of the production by one unit. This procedure has to be intended as measure of last resort in case of a non unified ERP system which still is the most reliable source of data in case of global entities located in very different countries. 
+\\
+\\
+It's worth noting that are part of the enterprise data other information which are not part of the above mentioned parameters, such data deals with the DM preferences andsome of them may involve limits in the numerosity of the number of entities. In some cases a large number of enterprise can result in a trade off between potential synergies and the cost of keeping a costant flow of goods and information to them. This prefecernce can narrow down till the functional characterization of an entity and may involve the localization in a particular country because of the public image of the Group.
 
 \subsubsection{Global enterprises data}
 This category contains all the data inherent the PLI of the specific functional enterprises operating in a certain State.
@@ -226,6 +236,7 @@ In the figure \ref{fig:interquartile}, we can see how the PLI interquartile rang
 
 \subsection{Objectives}
 The data reported above will be used to set up the GP model and constitutes part of the objectives and constraints that will be presented below. In order to model the overall allocation we need to take into consideration the following:
+
 \begin{itemize}
     \item The overall cost of production should be minimized;
     \item The tax liability should be minimized;
