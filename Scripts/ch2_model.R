@@ -1,23 +1,7 @@
-
-pricesimulation<-function (pzero, sigma, l){
-  initialPrice = pzero
-  dailyDeviation = sigma
-
-  n = 15 #number of days
-  
-  prices<-vector(mode = "numeric", length = l) 
-  
-  i <- 1
-  for(i in 1:l){  
-    prices[i] = initialPrice + cumsum(rnorm(n = n,mean = 0, sd = dailyDeviation))
-  }
-  return(prices)
-}
-
-demandsimulation<-function (lpl, mp, lpr, l){
-  demand <- rtriangle(l, lpl, lpr, mp)
-  return(demand)
-}
+##########################
+# The script creates 3 parts of the model in chapter 2, namely the .dat the .mod and the .run files
+# Then wrap it in an XML object and send it to neos server
+##########################
 
 getresult <- function (result, name, nc, nr){
   k<-1
@@ -33,22 +17,16 @@ getresult <- function (result, name, nc, nr){
   mat<-mat[,-1]
   
   return(mat)
-}
+}# The function isolate a specific parameter from the solution response in NEOS
 
-
-#Main script chapter 2 model
-#Using NEOS server for solving it
 library("rneos")
 library("fPortfolio")
 library("telegram")
 library("here")
 library("ggplot2")
-library("triangle")
 library("googlesheets")
 
 set.seed(200)
-
-
 
 # Create the bot object
 bot <- TGBot$new(token = bot_token('RBot'))
@@ -63,7 +41,7 @@ Nping()
 # Setting the number of simulations
 n <- 1
 
-# Read the data from the Gsheet
+# Read the data from the Gsheet EARLY IMPLEMENTATION
 Sheet <- gs_url("https://docs.google.com/spreadsheets/d/1naneKBCuCWOJfBOnacVWGmNWvkRTb4oK2znkebMDPLo/edit?usp=sharing") 
 PocAct <- as.numeric(gs_read(ss = Sheet, ws = 1, range = "B3:E3", col_names = FALSE))	
 
@@ -72,19 +50,8 @@ PocAct <- as.numeric(gs_read(ss = Sheet, ws = 1, range = "B3:E3", col_names = FA
 Price <- c(11,12,13,12) #price at time zero
 Volatility <-c(3,2,1.5,2.5) #volatility of the commodity on the reference market
 
-# Initialize the matrix with the random prices and the result matrix
-symmat <- matrix(nrow = 4, ncol = n)
-symmat <- t(mapply(pricesimulation, Price, Volatility, ncol(symmat)))
-mainmat <- matrix(nrow = 4, ncol = n)
-
-#cleaning the result lists
-supply <- list()
-supply2<- list()
-trans<-list()
-objective <- list()
-
 # Data File DECLARATION of unchanged variables
-D<-demandsimulation(2600, 3000, 3100, ncol(symmat)) #number of components
+D <- 3100  #number of components
 # ProcAct <- c(40, 43, 46, 49) #Variable cost based on the procurement activities
 ProdAct <- c(49, 46, 43, 40) #Variable cost based on the production activities
 capacity <- c(1000, 1500, 1500, 1000)
@@ -96,7 +63,6 @@ cost = matrix(
   nrow=4,
   ncol=4,
   byrow = TRUE)
-
 
 # Get the template for the solver
 template<-NgetSolverTemplate(category = "go", solvername = "BARON", inputMethod = "AMPL")
@@ -140,10 +106,7 @@ template<-NgetSolverTemplate(category = "go", solvername = "BARON", inputMethod 
     "display Trans;"
   )
 
-i <- 1
-for (i in 1:n){
-  ProcV <- ProcAct + symmat[,i] #add the price forcast to the other costs
-  K<-D[i]
+  ProcV <- ProcAct
   
   # Data File:
   amplDataOpen("ampl") #clear the dat file
@@ -164,38 +127,8 @@ for (i in 1:n){
   objective[[i]] <- 
   as.numeric(sub("Objective ", "", unlist(strsplit(result@ans, "\n"))[grep("Objective", unlist(strsplit(result@ans, "\n")))]))
   
-  supply[[i]] <-getresult(result, "supply", 1, 4)
-  supply2[[i]]<- getresult(result, "supply2", 1, 4)
-  trans[[i]]<-getresult(result, "Trans", 4, 4)
-
-  if ( (i%%10) == 0){
-  bot$sendMessage(paste("Now processing number ", i))
-  }
-
-}
+  supply <- getresult(result, "supply", 1, 4)
+  supply2 <- getresult(result, "supply2", 1, 4)
+  trans <- getresult(result, "Trans", 4, 4)
 
 bot$sendMessage(paste("The process is complete, the files are in: ", here()))
-resultdf<-data.frame()
-resultdf$supply<-supply
-save(resultdf,file="resultdf.Rda")
-
-png("test.png")
- loc1 <- data.frame(allocation = as.numeric(unlist(objective)))
-# loc2 <- data.frame(allocation = mainmat[2,])
-# loc3 <- data.frame(allocation = mainmat[3,])
-# loc4 <- data.frame(allocation = mainmat[4,])
-# 
- loc1$name <- 'Obj'
-# loc2$name <- 'Location2'
-# loc3$name <- 'Location3'
-# loc4$name <- 'Location4'
-# 
- locations <- rbind(loc1)
-# 
- ggplot(locations, aes(x=allocation, fill = name)) +
-   geom_histogram(aes(y= ..density..) ,alpha=0.6) +
-   geom_density(alpha = 0.5)
-# 
- dev.off()
-# 
- bot$sendPhoto("test.png", caption = "Resulting histogram")
