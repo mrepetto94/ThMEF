@@ -356,10 +356,10 @@
            familyi={E\bibinitperiod},
            given={Matthias},
            giveni={M\bibinitperiod}}}%
-        {{hash=386755895ed3f70e03178560eeaaa6ce}{%
+        {{hash=85fcc6b3f06c89a1afe8cbad8b22f35f}{%
            family={Figueira},
            familyi={F\bibinitperiod},
-           given={José\bibnamedelima Rui},
+           given={Jos\x{fffd}\x{fffd}\bibnamedelima Rui},
            giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
       \list{location}{1}{%
@@ -368,10 +368,10 @@
       \list{publisher}{1}{%
         {Springer New York}%
       }
-      \strng{namehash}{b148f21057e691752e433dddbcdba136}
-      \strng{fullhash}{b148f21057e691752e433dddbcdba136}
-      \strng{editornamehash}{b148f21057e691752e433dddbcdba136}
-      \strng{editorfullhash}{b148f21057e691752e433dddbcdba136}
+      \strng{namehash}{a3c9ab207d27aa28c4c02e106749de05}
+      \strng{fullhash}{a3c9ab207d27aa28c4c02e106749de05}
+      \strng{editornamehash}{a3c9ab207d27aa28c4c02e106749de05}
+      \strng{editorfullhash}{a3c9ab207d27aa28c4c02e106749de05}
       \field{sortinit}{G}
       \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
       \field{labelnamesource}{editor}
@@ -546,6 +546,30 @@
       \verb http://www.oecd-ilibrary.org/taxation/model-tax-convention-on-income-and-on-capital-2015-full-version_9789264239081-en
       \endverb
     \endentry
+    \entry{OECD_ProfitSplit_2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={OECD},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \field{sortinit}{O}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{BEPS newsfeed}
+      \field{month}{1}
+      \field{title}{OECD releases BEPS discussion drafts on attribution of profits to permanent establishments and transactional profit splits}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb http://www.oecd.org/ctp/oecd-releases-beps-discussion-drafts-on-attribution-of-profits-to-permanent-establishments-and-transactional-profit-splits.htm
+      \endverb
+    \endentry
     \entry{Romero2014}{book}{}
       \name{author}{1}{}{%
         {{hash=f7c92a0bfc8345472f8b2e0d902ec796}{%
@@ -690,7 +714,7 @@
       \field{langid}{english}
       \field{month}{5}
       \field{number}{4}
-      \field{title}{Multiple‐objective bidding strategy using goal programming technique}
+      \field{title}{Multiple\x{fffd}\x{fffd}\x{fffd}objective bidding strategy using goal programming technique}
       \field{urlday}{29}
       \field{urlmonth}{7}
       \field{urlyear}{2017}
@@ -790,7 +814,6 @@
       \keyw{Accounting}
     \endentry
   \endsortlist
-  \missing{oecd_oecd_????}
   \missing{Inserirezarandi}
 \endrefsection
 \endinput

@@ -1,14 +1,16 @@
 \documentclass{article}
 
-\usepackage[utf8]{inputenc}
-\usepackage[a4paper, total={6in, 8in}]{geometry}
-\usepackage{amsmath,rotating,mathtools,amstext,array,cases,tikz}
-\usepackage[T1]{fontenc}
-\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage{rotating}
+\usepackage{mathtools}
+\usepackage{amstext}
+\usepackage{array}
+\usepackage{cases}
+\usepackage{tikz}
+
 \usepackage[backend=bibier,
 		url=false]{biblatex}
 
-\newcolumntype{L}{>{$}l<{$}}
 \addbibresource{ch1-2.bib}
 \usetikzlibrary{arrows,positioning}
 
@@ -59,6 +61,7 @@ blanknode/.style={rectangle, draw=white!60, minimum height=0mm, minimum width=10
 
 The following sections are organized as follows; the first part is an introduction to multi-criteria analysis and more specifically to the Goal Programming approach; the second part is a state of the art review of the fields in where GP was applied so far; the third part will be about the data that led to the model; and the fourth will be the formulation of such model taking into account the possible constraints, then the conclusion and possible limitations of model will be provided. In order to provide a better assessment of the weights applied to the objectives, a series of scenarios were taken into account.
 
+\pagebreak 
 \section{Multi-criteria decision analysis}
 Even if the practice of decision making is old as man, we tend to date the roots of modern MCDA in the early 60's, the main focus at the time was to find the most preferred solution, or generating an approximation to the entire efficient frontier\cite{greco_multiple_2016}.
 \\
@@ -152,6 +155,8 @@ n_q,p_q\geq0 & q=1,...,Q
 \end{cases}
 \]
 
+\pagebreak 
+
 \section{A state of the art review: Goal Programming}
 The Goal Programming is probably one of the most used tool by academics and practitioners in solving multi criteria optimization problems, even though such preferences do not follow a linear path\cite{Romero2014}\cite{Schniederjans1995}. The main field of research and application of the Goal Programming paradigm are reported in the following sections.
 \subsection{Engineering}
@@ -161,6 +166,7 @@ In engineering the the Goal Programming techniques used the most are the one inv
 \subsection{Social sciences}
 
 \subsection{Accounting}
+Another important field of application of GP is the accounting field, where the model developed in this paper belong, in particular the model proposed belongs to the sub field of tax accounting. Accounting is defined as the process of recording and summarizing business and financial transactions, analyzing and reporting the results; altough this seems as passive process, sometimes accounting has reveled to be a very strong tool on the hands of the decision maker to enact decision in the most informade way possible.
 As highlighted by Aouni\cite{aouni_goal_2017}, generally accountants are facing complex decision-making situations where they aggregate simultaneously several conflicting and incommensurable factors. This means that GP may become a very useful aid tool in hands of accountants to perform such decisions. Many GP models have been created to solve a broad range of accounting topics such as in audit sampling\cite{tayi_integration_1985} or other fields dealing with management accounting such as pricing\cite{tan_multipleobjective_2008}, costing\cite{dowlatshahi_product_2001}, capital budgeting and performance evaluation\cite{hung_integrated_2011}.
 This popularity is due to the fact that GP is easy to understand and to apply, plus it facilitates consideration of trade-off in the decision-making process.
 Aside from its popularity, the interest of academics in international tax planning never arose,
@@ -168,6 +174,7 @@ it’s worth mentioning the work of Merville and Petty\cite{merville_transfer_19
 strategy since the TP core is base on that.
 The two main variants concerning GP in accounting are Lexicographic GP and Weighted GP, with the first one over topping from the second.
 
+\pagebreak
 
 \section{Model formulation}
 
@@ -216,8 +223,9 @@ This data includes the information we got from our enterprise (the one in which 
 	\item Revenues: they represent the upper limit in which, whether crossed, our strategy will result not profitable, this element can be either forecasted or in case of a constant flow of revenues over the years we can use historical data;
 	\item Employees: this element is somehow tied to the revenues we expect to have, plus some limitations dictated by the labour unions depending by the countries (which were not modeled);
 	\item Cost of running the asset: this is a very crucial factor in case of business that rely heavily on machinery and industrial plant activities, in fact such parameter may be neglected or, take a secondary position in the decision process, in case of a business relying heavily on employees, as for example a software company or a consulting firm.
+\end{itemize}
 
-		While obtaining the first two parameters is something not particularly intensive in terms of data gathering and may require some additional effort the forcasting part because of the uncertainty that some industries carry. In case of the cost of running the assets we have two choices, we can either use internal data coming from a unified ERP system or use the single entity financial data and try to forecast each single entity cost of running the asset and then scale it to a common base in order to do an "apple to apple" comparison. In order to extract such parameter we can use the operating expenses of the entity\cite{williams_financial_2008}, subtracting from the operating expenses the wages we can obtain the information inherent the cost of running the assets at a certain time $t_0$ for a certain volume of good $V_0$, dividing the cost of running the asset for $V_0$ will give a proxy of the marginal cost of asset given an increase of the production by one unit. This procedure has to be intended as measure of last resort in case of a non unified ERP system which still is the most reliable source of data in case of global entities located in very different countries. 
+While obtaining the first two parameters is something not particularly intensive in terms of data gathering and may require some additional effort the forcasting part because of the uncertainty that some industries carry. In case of the cost of running the assets we have two choices, we can either use internal data coming from a unified ERP system or use the single entity financial data and try to forecast each single entity cost of running the asset and then scale it to a common base in order to do an "apple to apple" comparison. In order to extract such parameter we can use the operating expenses of the entity\cite{williams_financial_2008}, subtracting from the operating expenses the wages we can obtain the information inherent the cost of running the assets at a certain time $t_0$ for a certain volume of good $V_0$, dividing the cost of running the asset for $V_0$ will give a proxy of the marginal cost of asset given an increase of the production by one unit. This procedure has to be intended as measure of last resort in case of a non unified ERP system which still is the most reliable source of data in case of global entities located in very different countries. 
 \\
 \\
 It's worth noting that are part of the enterprise data other information which are not part of the above mentioned parameters, such data deals with the DM preferences andsome of them may involve limits in the numerosity of the number of entities. In some cases a large number of enterprise can result in a trade off between potential synergies and the cost of keeping a costant flow of goods and information to them. This prefecernce can narrow down till the functional characterization of an entity and may involve the localization in a particular country because of the public image of the Group.
@@ -236,7 +244,6 @@ In the figure \ref{fig:interquartile}, we can see how the PLI interquartile rang
 
 \subsection{Objectives}
 The data reported above will be used to set up the GP model and constitutes part of the objectives and constraints that will be presented below. In order to model the overall allocation we need to take into consideration the following:
-
 \begin{itemize}
     \item The overall cost of production should be minimized;
     \item The tax liability should be minimized;
@@ -284,7 +291,8 @@ The objective function returning such objective would be as follows:
 The basic idea behind this objective is that for a moment we're forgetting about the group objective (the first and the second) that try to minimize the consolidated cost and tax base. In this case we're focusing on the profitability of each entity.
 
 \subsection{Profit split}
-This objective is represented by the goals (4)(5)(6) and the methodology used to determine this type of split derives from the profit split method used in transfer pricing analysis. In particular the transfer pricing profit split aims at: determining the division of profits that independent enterprises would have expected to realize from engaging in the transaction \cite{oecd_oecd_????}. In our case we'll use this method and particularly the contribution analysis to define the effort of each functional category in the value chain. Secondly we'll use this value driver to partition the profits in order to have, at the en, a structure that takes into account the internal value chain of the products and not just the information gained by independent comparable companies.
+This objective is represented by the goals (4)(5)(6) and the methodology used to determine this type of split derives from the profit split method used in transfer pricing analysis. In particular the transfer pricing profit split aims at: determining the division of profits that independent enterprises would have expected to realize from engaging in the transaction \cite{OECD_ProfitSplit_2017}. In our case we'll use this method and particularly the contribution analysis to define the effort of each functional category in the value chain. Secondly we'll use this value driver to partition the profits in order to have, at the en, a structure that takes into account the internal value chain of the products and not just the information gained by independent comparable companies.
+
 
 \subsection{Constraints}
 Constraints represent the boundaries where the system will result unfeasible. Such constraints are expressed by the equation from (7) to (15); where the first two represent the boundaries on the PLI distribution namely the lower quartile and the upper quartile, outside this range the profitability may not be considered to be arm's length. The constraints (10)(11)(12)(13) represent the frontier of the possible allocable resources given by the company under the scope. The constraints (13),(14) and (15) sets the positiveness of the deviation variables in order to avoid incorrectness of the overall GP model.
@@ -333,6 +341,8 @@ The overall model algebraically looks as follows:
 
 
 As you can see the (1)(2)(3) belong to the first category, where instead (4)(5)(6) belong to the second, the latter in fact depend on the strategy of the decision maker and it's not given by any environmental variable.
+
+\pagebreak
 
 \section{Mathematical simulation: a case study}
 The simulation of the above-mentioned model was made using LINGO17. Even if the mathematical package was able to handle the total amount of data given by the model the simulation was done using a portion of this data, avoiding countries in which the company doesn't operate at all. Other limitations were implemented in order to avoid any possible nonlinearity, resulting in an increase of the computational time to obtain a solution, this was possible by avoiding inserting the equation (3), when instead the correlated constraints, namely (7) and (8) were linearized. Other limitations to the model are exposed below:
