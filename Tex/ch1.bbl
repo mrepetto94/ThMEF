@@ -258,6 +258,42 @@
       \verb 10.1016/j.energy.2017.02.174
       \endverb
     \endentry
+    \entry{Davidson1961}{article}{}
+      \name{author}{2}{}{%
+        {{hash=27b1c0d4cba4000663a29e97a35af6bf}{%
+           family={Davidson},
+           familyi={D\bibinitperiod},
+           given={H.\bibnamedelimi Justin},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4ece85724d1b2785be7d92d893b5cc25}{%
+           family={Trueblood},
+           familyi={T\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Accounting Association}%
+      }
+      \strng{namehash}{8a095b3003581bf84929eb15652173ff}
+      \strng{fullhash}{8a095b3003581bf84929eb15652173ff}
+      \strng{authornamehash}{8a095b3003581bf84929eb15652173ff}
+      \strng{authorfullhash}{8a095b3003581bf84929eb15652173ff}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00014826}
+      \field{journaltitle}{The Accounting Review}
+      \field{number}{4}
+      \field{title}{Accounting for Decision-Making}
+      \field{volume}{36}
+      \field{year}{1961}
+      \field{pages}{577\bibrangedash 582}
+      \range{pages}{6}
+      \verb{url}
+      \verb http://www.jstor.org/stable/242682
+      \endverb
+    \endentry
     \entry{dowlatshahi_product_2001}{article}{}
       \name{author}{1}{}{%
         {{hash=6910be236ba485cdb6608ed2ef759492}{%

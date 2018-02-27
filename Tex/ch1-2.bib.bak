@@ -706,4 +706,17 @@
   publisher = {Institute for Operations Research and the Management Sciences ({INFORMS})},
 }
 
+@Article{Zarandi2011,
+  author    = {Mohammad Hossein Fazel Zarandi and Ali Haddad Sisakht and Soheil Davari},
+  title     = {Design of a closed-loop supply chain ({CLSC}) model using an interactive fuzzy goal programming},
+  journal   = {The International Journal of Advanced Manufacturing Technology},
+  year      = {2011},
+  volume    = {56},
+  number    = {5-8},
+  month     = {mar},
+  pages     = {809--821},
+  doi       = {10.1007/s00170-011-3212-y},
+  publisher = {Springer Nature},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

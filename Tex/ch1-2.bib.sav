@@ -719,4 +719,17 @@
   publisher = {Springer Nature},
 }
 
+@Article{10.2307/24268,
+  author    = {H. Justin Davidson and Robert M. Trueblood},
+  title     = {Accounting for Decision-Making},
+  journal   = {The Accounting Review},
+  year      = {1961},
+  volume    = {36},
+  number    = {4},
+  pages     = {577-582},
+  issn      = {00014826},
+  url       = {http://www.jstor.org/stable/242682},
+  publisher = {American Accounting Association},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
