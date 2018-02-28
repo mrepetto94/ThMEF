@@ -469,6 +469,31 @@
       \verb http://www.tandfonline.com/doi/abs/10.1080/00207543.2010.537387
       \endverb
     \endentry
+    \entry{ijiriy._amodel_1971}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d0ab94aa3f8fb3bbc3f03071a92a1060}{%
+           family={{Ijiri,Y.,}},
+           familyi={I\bibinitperiod}}}%
+        {{hash=d16c2d48e27e7bb9fcdc85bf591a45da}{%
+           family={{Kaplan, R. S.}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{5bbd40e88206df458d292ede25f02362}
+      \strng{fullhash}{5bbd40e88206df458d292ede25f02362}
+      \strng{authornamehash}{5bbd40e88206df458d292ede25f02362}
+      \strng{authorfullhash}{5bbd40e88206df458d292ede25f02362}
+      \field{sortinit}{I}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Accounting Research}
+      \field{title}{Amodel for integrating sampling objectives in auditing}
+      \field{year}{1971}
+      \field{dateera}{ce}
+      \field{pages}{73\bibrangedash 87}
+      \range{pages}{15}
+      \keyw{{auditGP}}
+    \endentry
     \entry{merville_transfer_1978}{article}{}
       \name{author}{2}{}{%
         {{hash=89a88198ac6d9d76a96a6cd9921e3ec0}{%
@@ -770,6 +795,42 @@
       \verb http://www.emeraldinsight.com/doi/10.1108/00251740810865111
       \endverb
     \endentry
+    \entry{Tayi1985}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d428671e7aceb53ece02ff4c47726e13}{%
+           family={Tayi},
+           familyi={T\bibinitperiod},
+           given={Giri\bibnamedelima Kumar},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=575a1a53ec2f9b5c2ab4b12e62527b1a}{%
+           family={Gangolly},
+           familyi={G\bibinitperiod},
+           given={Jagdish},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Informa {UK} Limited}%
+      }
+      \strng{namehash}{831eb5c395a1b30c4e55f5a337b60dd4}
+      \strng{fullhash}{831eb5c395a1b30c4e55f5a337b60dd4}
+      \strng{authornamehash}{831eb5c395a1b30c4e55f5a337b60dd4}
+      \strng{authorfullhash}{831eb5c395a1b30c4e55f5a337b60dd4}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Operational Research Society}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Integration of Auditor Preferences and Sampling Objectives: A Polynomial Goal-Programming Perspective}
+      \field{volume}{36}
+      \field{year}{1985}
+      \field{pages}{951\bibrangedash 957}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1057/jors.1985.166
+      \endverb
+    \endentry
     \entry{tayi_integration_1985}{article}{}
       \name{author}{2}{}{%
         {{hash=d428671e7aceb53ece02ff4c47726e13}{%
@@ -812,6 +873,37 @@
       \endverb
       \verb{url}
       \verb http://link.springer.com/10.1057/jors.1985.166
+      \endverb
+    \endentry
+    \entry{Welling1977}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0301537e771ea4011c44cc2534a95618}{%
+           family={Welling},
+           familyi={W\bibinitperiod},
+           given={Priscilla},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{0301537e771ea4011c44cc2534a95618}
+      \strng{fullhash}{0301537e771ea4011c44cc2534a95618}
+      \strng{authornamehash}{0301537e771ea4011c44cc2534a95618}
+      \strng{authorfullhash}{0301537e771ea4011c44cc2534a95618}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Accounting, Organizations and Society}
+      \field{month}{1}
+      \field{number}{4}
+      \field{title}{A goal programming model for human resource accounting in a {CPA} firm}
+      \field{volume}{2}
+      \field{year}{1977}
+      \field{pages}{307\bibrangedash 316}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/0361-3682(77)90020-4
       \endverb
     \endentry
     \entry{williams_financial_2008}{collection}{}

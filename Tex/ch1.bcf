@@ -2156,14 +2156,23 @@
     <bcf:citekey order="11">Inserirezarandi</bcf:citekey>
     <bcf:citekey order="12">Davidson1961</bcf:citekey>
     <bcf:citekey order="13">aouni_goal_2017</bcf:citekey>
-    <bcf:citekey order="14">tayi_integration_1985</bcf:citekey>
-    <bcf:citekey order="15">tan_multipleobjective_2008</bcf:citekey>
-    <bcf:citekey order="16">dowlatshahi_product_2001</bcf:citekey>
-    <bcf:citekey order="17">hung_integrated_2011</bcf:citekey>
-    <bcf:citekey order="18">merville_transfer_1978</bcf:citekey>
-    <bcf:citekey order="19">williams_financial_2008</bcf:citekey>
-    <bcf:citekey order="20">berman_financial_2013</bcf:citekey>
-    <bcf:citekey order="21">OECD_ProfitSplit_2017</bcf:citekey>
+    <bcf:citekey order="14">ijiriy._amodel_1971</bcf:citekey>
+    <bcf:citekey order="15">Tayi1985</bcf:citekey>
+    <bcf:citekey order="16">Tayi1985</bcf:citekey>
+    <bcf:citekey order="17">Welling1977</bcf:citekey>
+    <bcf:citekey order="18">Tayi1985</bcf:citekey>
+    <bcf:citekey order="19">Tayi1985</bcf:citekey>
+    <bcf:citekey order="20">Tayi1985</bcf:citekey>
+    <bcf:citekey order="21">Tayi1985</bcf:citekey>
+    <bcf:citekey order="22">Tayi1985</bcf:citekey>
+    <bcf:citekey order="23">tayi_integration_1985</bcf:citekey>
+    <bcf:citekey order="24">tan_multipleobjective_2008</bcf:citekey>
+    <bcf:citekey order="25">dowlatshahi_product_2001</bcf:citekey>
+    <bcf:citekey order="26">hung_integrated_2011</bcf:citekey>
+    <bcf:citekey order="27">merville_transfer_1978</bcf:citekey>
+    <bcf:citekey order="28">williams_financial_2008</bcf:citekey>
+    <bcf:citekey order="29">berman_financial_2013</bcf:citekey>
+    <bcf:citekey order="30">OECD_ProfitSplit_2017</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
