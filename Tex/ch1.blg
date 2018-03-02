@@ -1,23 +1,5 @@
 [0] Config.pm:354> INFO - This is Biber 2.7 (beta)
 [0] Config.pm:357> INFO - Logfile is 'ch1.blg'
-[96] biber:303> INFO - === mer feb 28, 2018, 13:48:33
-[213] Biber.pm:360> INFO - Reading 'ch1.bcf'
-[331] Biber.pm:836> INFO - Found 24 citekeys in bib section 0
-[356] Biber.pm:3671> INFO - Processing section 0
-[489] Biber.pm:3841> INFO - Looking for bibtex format file 'ch1-2.bib' for section 0
-[496] bibtex.pm:1424> INFO - Decoding LaTeX character macros into UTF-8
-[537] bibtex.pm:1281> INFO - Found BibTeX data source 'ch1-2.bib'
-[680] Utils.pm:164> WARN - month field 'apr' in entry 'Cui2017' is not an integer - this will probably not sort properly.
-[691] Utils.pm:164> WARN - month field 'aug' in entry 'Schniederjans1995' is not an integer - this will probably not sort properly.
-[704] Utils.pm:164> WARN - month field 'oct' in entry 'Tayi1985' is not an integer - this will probably not sort properly.
-[706] Utils.pm:164> WARN - month field 'jan' in entry 'Welling1977' is not an integer - this will probably not sort properly.
-[729] Utils.pm:164> WARN - I didn't find a database entry for 'Inserirezarandi' (section 0)
-[780] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[780] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[780] Biber.pm:3500> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
-[780] Biber.pm:3506> INFO - No sort tailoring available for locale 'en-US'
-[834] bbl.pm:608> INFO - Writing 'ch1.bbl' with encoding 'ascii'
-[841] Utils.pm:164> WARN - The entry 'greco_multiple_2016' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[847] Utils.pm:164> WARN - The entry 'tan_multipleobjective_2008' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[849] bbl.pm:712> INFO - Output to ch1.bbl
-[849] Biber.pm:110> INFO - WARNINGS: 7
+[50] biber:303> INFO - === ven mar  2, 2018, 22:32:07
+[72] Utils.pm:180> ERROR - ch1.bcf is malformed, last biblatex run probably failed. Deleted ch1.bbl
+[73] Biber.pm:114> INFO - ERRORS: 1

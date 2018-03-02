@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.2.20)  28 FEB 2018 13:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.1)  2 MAR 2018 22:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -632,19 +632,40 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ch1.bbl' found.
- (./ch1.bbl
+ (./ch1.bbl)
+Runaway argument?
+{page 
+./ch1.tex:18: File ended while scanning use of \range.
+<inserted text> 
+                \par 
+l.18 \begin{document}
+                     
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Inserirezarandi
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
 Package biblatex Info: Reference section=0 on input line 18.
 Package biblatex Info: Reference segment=0 on input line 18.
+./ch1.tex:28: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.28 \begin{abstract}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no √ in font cmti9!
 Missing character: There is no † in font cmti9!
+
+LaTeX Warning: Citation 'After_tax_hedging_report_2013' on page 1 undefined on input line 33.
+
+
+LaTeX Warning: Citation 'Model_Tax_Convention_2015' on page 1 undefined on input line 35.
+
 
 Overfull \hbox (8.90117pt too wide) in paragraph at lines 57--58
  [][] 
@@ -653,307 +674,69 @@ Overfull \hbox (8.90117pt too wide) in paragraph at lines 57--58
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 84.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
 
-Overfull \hbox (18.27852pt too wide) in paragraph at lines 84--85
-\OT1/cmr/m/n/10 Weighted Sum Method, Con-straints Method, Ob-jec-tive Pro-gram-ming Method,
- []
+LaTeX Warning: Citation 'greco_multiple_2016' on page 3 undefined on input line 66.
 
-./ch1.tex:86: Undefined control sequence.
-<recently read> \nexists 
+./ch1.tex:83: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.83 \begin{itemize}
+                    
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./ch1.tex:83: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.83 \begin{itemize}
+                    
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./ch1.tex:83: Missing \endcsname inserted.
+<to be read again> 
+                   \global 
+l.83 \begin{itemize}
+                    
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./ch1.tex:83: Undefined control sequence.
+<argument> \blx@bbl@data 
                          
-l.86 ...$ that is Pareto superior to $s^{\star}$.}
-                                                   solution;
+l.83 \begin{itemize}
+                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[3]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
- [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
-[]|\OT1/cmr/m/n/10 Ijiri and Ka-plan
- []
+./ch1.tex:83: Missing \endcsname inserted.
+<to be read again> 
+                   \global 
+l.83 \begin{itemize}
+                    
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
+./ch1.tex:83: TeX capacity exceeded, sorry [input stack size=5000].
+\font@name ->
+             \OMX/cmex/m/n/5 
+l.83 \begin{itemize}
+                    
+If you really absolutely need more capacity,
+you can ask a wizard to enlarge me.
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
-[]|\OT1/cmr/m/n/10 Tayi and Gan-golly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
-[]|\OT1/cmr/m/n/10 Tayi and Gan-golly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
-[]|\OT1/cmr/m/n/10 Tayi and Gan-golly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
-[]|\OT1/cmr/m/n/10 Tayi and Gan-golly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[]|\OT1/cmr/m/n/10 Tayi and Gan-golly
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
-[]|\OT1/cmr/m/n/10 Tayi and Gan-golly
- []
-
-[6]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [7] [8]
-<Images/CTworld.png, id=50, 1822.81pt x 1023.825pt>
-File: Images/CTworld.png Graphic file (type png)
-<use Images/CTworld.png>
-Package pdftex.def Info: Images/CTworld.png  used on input line 224. on input line 224.
-Package pdftex.def Info: Requested size: 172.5pt x 96.87383pt on input line 224.
-<Images/GNIworld.png, id=52, 1822.81pt x 1023.825pt>
-File: Images/GNIworld.png Graphic file (type png)
-<use Images/GNIworld.png>
-Package pdftex.def Info: Images/GNIworld.png  used on input line 230. on input line 230.
-Package pdftex.def Info: Requested size: 172.5pt x 96.87383pt on input line 230.
-<Images/Cluster-GNI-CT.png, id=53, 1003.75pt x 1003.75pt>
-File: Images/Cluster-GNI-CT.png Graphic file (type png)
-<use Images/Cluster-GNI-CT.png>
-Package pdftex.def Info: Images/Cluster-GNI-CT.png  used on input line 238. on input line 238.
-Package pdftex.def Info: Requested size: 276.00105pt x 275.99382pt on input line 238.
- [9 <./Images/CTworld.png> <./Images/GNIworld.png>] [10 <./Images/Cluster-GNI-CT.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 254--258
-
- []
-
-<Images/plidist.png, id=63, 1966.34625pt x 1105.12875pt>
-File: Images/plidist.png Graphic file (type png)
-<use Images/plidist.png>
-Package pdftex.def Info: Images/plidist.png  used on input line 264. on input line 264.
-Package pdftex.def Info: Requested size: 550.0pt x 309.11354pt on input line 264.
-[11] [12 <./Images/plidist.png>] [13] [14] [15] [16] [17]
-
-./ch1.tex:409: Package array Error:  Illegal pream-token (L): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.409 \begin{tabular}{|| L  L L ||}
-                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./ch1.tex:409: Package array Error:  Illegal pream-token (L): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.409 \begin{tabular}{|| L  L L ||}
-                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./ch1.tex:409: Package array Error:  Illegal pream-token (L): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.409 \begin{tabular}{|| L  L L ||}
-                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./ch1.tex:413: Missing $ inserted.
-<inserted text> 
-                $
-l.413 \prescript{}{q}{p}
-                        _1 & 46.870.020,00 & \text{Consolidated cost of empl...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./ch1.tex:413: Missing $ inserted.
-<inserted text> 
-                $
-l.413 \prescript{}{q}{p}_1 &
-                             46.870.020,00 & \text{Consolidated cost of empl...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./ch1.tex:415: Missing $ inserted.
-<inserted text> 
-                $
-l.415 \prescript{}{q}{p}
-                        _2 & 7.159.194,00 & \text{Consolidated tax liability...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./ch1.tex:415: Missing $ inserted.
-<inserted text> 
-                $
-l.415 \prescript{}{q}{p}_2 &
-                             7.159.194,00 & \text{Consolidated tax liability...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./ch1.tex:417: Missing $ inserted.
-<inserted text> 
-                $
-l.417 \prescript{}{o}{n}
-                        _1 & 0,00 & \text{Distributor profit allocation} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./ch1.tex:417: Missing $ inserted.
-<inserted text> 
-                $
-l.417 \prescript{}{o}{n}_1 &
-                             0,00 & \text{Distributor profit allocation} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./ch1.tex:419: Missing $ inserted.
-<inserted text> 
-                $
-l.419 \prescript{}{o}{n}
-                        _2 & 0,00 & \text{Manufacturer profit allocation} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./ch1.tex:419: Missing $ inserted.
-<inserted text> 
-                $
-l.419 \prescript{}{o}{n}_2 &
-                             0,00 & \text{Manufacturer profit allocation} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./ch1.tex:421: Missing $ inserted.
-<inserted text> 
-                $
-l.421 \prescript{}{o}{n}
-                        _3 & 0,00 & \text{Principal profit allocation} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./ch1.tex:421: Missing $ inserted.
-<inserted text> 
-                $
-l.421 \prescript{}{o}{n}_3 &
-                             0,00 & \text{Principal profit allocation} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[18]
-./ch1.tex:433: Undefined control sequence.
-\namepartgiven ->Jos\x 
-                       {fffd}\x {fffd}\bibnamedelima Rui
-l.433 \end
-          {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch1.tex:433: Undefined control sequence.
-\namepartgiven ->Jos\x {fffd}\x 
-                                {fffd}\bibnamedelima Rui
-l.433 \end
-          {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[19]
-./ch1.tex:433: Undefined control sequence.
-<argument> Multiple\x 
-                      {fffd}\x {fffd}\x {fffd}objective bidding strategy usi...
-l.433 \end
-          {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch1.tex:433: Undefined control sequence.
-<argument> Multiple\x {fffd}\x 
-                               {fffd}\x {fffd}objective bidding strategy usi...
-l.433 \end
-          {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch1.tex:433: Undefined control sequence.
-<argument> Multiple\x {fffd}\x {fffd}\x 
-                                        {fffd}objective bidding strategy usi...
-l.433 \end
-          {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[20] (./ch1.aux)
-Package logreq Info: Writing requests to 'ch1.run.xml'.
-\openout1 = `ch1.run.xml'.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 19716 strings out of 492990
- 386009 string characters out of 6135005
- 786577 words of memory out of 5000000
- 22955 multiletter control sequences out of 15000+600000
- 10790 words of font info for 39 fonts, out of 8000000 for 9000
+ 19617 strings out of 492990
+ 383258 string characters out of 6135006
+ 798811 words of memory out of 5000000
+ 22872 multiletter control sequences out of 15000+600000
+ 9668 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,14n,60p,1263b,1233s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ch1.pdf (20 pages, 716221 bytes).
-PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 5000i,8n,9991p,1173b,1145s stack positions out of 5000i,500n,10000p,200000b,80000s
+./ch1.tex:83:  ==> Fatal error occurred, no output PDF file produced!

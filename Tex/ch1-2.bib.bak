@@ -745,17 +745,16 @@
 }
 
 @Article{Tayi1985,
-  author        = {Giri Kumar Tayi and Jagdish Gangolly},
-  title         = {Integration of Auditor Preferences and Sampling Objectives: A Polynomial Goal-Programming Perspective},
-  journal       = {Journal of the Operational Research Society},
-  year          = {1985},
-  volume        = {36},
-  number        = {10},
-  month         = {oct},
-  pages         = {951--957},
-  doi           = {10.1057/jors.1985.166},
-  __markedentry = {[mrepetto94:6]},
-  publisher     = {Informa {UK} Limited},
+  author    = {Giri Kumar Tayi and Jagdish Gangolly},
+  title     = {Integration of Auditor Preferences and Sampling Objectives: A Polynomial Goal-Programming Perspective},
+  journal   = {Journal of the Operational Research Society},
+  year      = {1985},
+  volume    = {36},
+  number    = {10},
+  month     = {oct},
+  pages     = {951--957},
+  doi       = {10.1057/jors.1985.166},
+  publisher = {Informa {UK} Limited},
 }
 
 @Article{Welling1977,
@@ -769,6 +768,100 @@
   pages     = {307--316},
   doi       = {10.1016/0361-3682(77)90020-4},
   publisher = {Elsevier {BV}},
+}
+
+@Article{Killough1973,
+  author    = {Larry N. Killough and Thomas L. Souders},
+  title     = {A Goal Programming Model for Public Accounting Firms},
+  journal   = {The Accounting Review},
+  year      = {1973},
+  volume    = {48},
+  number    = {2},
+  pages     = {268-279},
+  issn      = {00014826},
+  url       = {http://www.jstor.org/stable/244917},
+  publisher = {American Accounting Association},
+}
+
+@Article{Kruger2006,
+  author    = {HA Kruger and JM Hattingh},
+  title     = {A combined {AHP}-{GP} model to allocate internal auditing time to projects},
+  journal   = {{ORiON}},
+  year      = {2006},
+  volume    = {22},
+  number    = {1},
+  month     = {jun},
+  doi       = {10.5784/22-1-33},
+  publisher = {Stellenbosch University},
+}
+
+@Article{Gardner1990,
+  author    = {John C. Gardner and Ronald J. Huefner and Vahid Lotfi},
+  title     = {A Multiperiod Audit Staff Planning Model Using Multiple Objectives: Development and Evaluation{\ast}},
+  journal   = {Decision Sciences},
+  year      = {1990},
+  volume    = {21},
+  number    = {1},
+  month     = {jan},
+  pages     = {154--170},
+  doi       = {10.1111/j.1540-5915.1990.tb00322.x},
+  publisher = {Wiley-Blackwell},
+}
+
+@Article{Kwak2003,
+  author    = {Wikil Kwak},
+  journal   = {Review of Quantitative Finance and Accounting},
+  year      = {2003},
+  volume    = {20},
+  number    = {3},
+  pages     = {277--290},
+  doi       = {10.1023/a:1023676529552},
+  publisher = {Springer Nature},
+}
+
+@Article{Zamfirescu2013,
+  author    = {Zamfirescu, Luminita and Zamfirescu, Constantin-Bala},
+  title     = {Goal programming as a decision model for performance-based budgeting},
+  journal   = {Procedia Computer Science},
+  year      = {2013},
+  volume    = {17},
+  pages     = {426--433},
+  publisher = {Elsevier},
+}
+
+@Article{Tan2008,
+  author    = {Tan, Yongtao and Shen, Liyin and Lu, Weisheng and Shen, Qiping},
+  title     = {Multiple-objective bidding strategy using goal programming technique},
+  journal   = {Management decision},
+  year      = {2008},
+  volume    = {46},
+  number    = {4},
+  pages     = {656--672},
+  publisher = {Emerald Group Publishing Limited},
+}
+
+@Article{Iranmanesh2008,
+  author        = {Iranmanesh, Hossein and Thomson, Vince},
+  title         = {Competitive advantage by adjusting design characteristics to satisfy cost targets},
+  journal       = {International Journal of Production Economics},
+  year          = {2008},
+  volume        = {115},
+  number        = {1},
+  pages         = {64--71},
+  __markedentry = {[mrepetto94:]},
+  publisher     = {Elsevier},
+}
+
+@Article{Iranmanesh2008a,
+  author        = {Iranmanesh, Hossein and Thomson, Vince},
+  title         = {Competitive advantage by adjusting design characteristics to satisfy cost targets},
+  journal       = {International Journal of Production Economics},
+  year          = {2008},
+  volume        = {115},
+  number        = {1},
+  pages         = {64--71},
+  __markedentry = {[mrepetto94:6]},
+  publisher     = {Elsevier},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
