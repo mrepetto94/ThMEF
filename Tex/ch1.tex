@@ -7,6 +7,7 @@
 \usepackage{array}
 \usepackage{cases}
 \usepackage{tikz}
+\usepackage[colorinlistoftodos]{todonotes}
 
 \usepackage[backend=bibier,
 		url=false]{biblatex}
@@ -14,6 +15,10 @@
 \addbibresource{ch1-2.bib}
 \usetikzlibrary{arrows,positioning}
 
+\def\firstcircle{(-2,6) circle (1.5cm)}
+\def\secondcircle{(2,6) circle (1.5cm)}
+\def\thirdcircle{(0,3.20) circle (1.5cm)}
+\def\fourthcircle{(0,4.5) circle (1.5cm)}
 
 \begin{document}
 
@@ -158,21 +163,36 @@ n_q,p_q\geq0 & q=1,...,Q
 \pagebreak 
 
 \section{A state of the art review: Goal Programming}
-The Goal Programming is probably one of the most used tool by academics and practitioners in solving multi criteria optimization problems, even though such preferences do not follow a linear path\cite{Romero2014}\cite{Schniederjans1995}. The main field of research and application of the Goal Programming are undubtefully three, namely engineering, social siencies and management\cite{colapinto_multi-criteria_2017}, whith the former one leading for the number of its applications.
-Especially in engineering the the GP techniques used the most are the one involving hibrid techniques (combining multiple different GP techniques) and Fuzzy Goal Programming (FGP) The models proposed tackle macroares such as supply chain and logistics management, with problems involving closed loop supply chain dealing with the treatment and recycling activities\cite{Inserirezarandi}. 
+The Goal Programming is probably one of the most used tool by academics and practitioners in solving multi criteria optimization problems, even though such preferences do not follow a linear path\cite{Romero2014}\cite{Schniederjans1995}. The main field of research and application of the Goal Programming are undubtefully three, namely engineering, social sciences and management\cite{colapinto_multi-criteria_2017}, with the former one leading for the number of its applications.
+Especially in engineering the GP techniques used the most are the ones involving hibrid techniques (combining multiple different GP approaches) and Fuzzy Goal Programming (FGP) The models proposed tackle macro-areas such as supply chain and logistics management, with problems involving closed loop supply chain, dealing with the treatment and recycling activities\cite{Zarandi2011}. 
 \\
-Then we have the application in social science that pertains, in the majority of the case to the field of economics. The last research in which is reported the use of Goal Programming where inherent... In the case of social science the most used approaches ar the plain vanilla ones of GP, ranging from lexicographic GP to wheighted GP.
+Quite the opposite occur in the applications of social sciences field, where, in the majority of the case to the field of economics. The last research in which is reported the use of Goal Programming was inherent the sub field of macroeconomics, analyzing the nature of the intergenerational equity and sustainable development in order to understand how the players involved can achieve their aim of maximizing social welfare in the short run without compromising the future possibilities. In the case of social science the most used approaches ar the plain vanilla ones of GP, ranging from lexicographic GP to wheighted GP.
 \\
-Lastly the management field which accounts for a great number of application, especially in the field of ... Concerning this field the brand new researches focuses on...
+Lastly the management field which accounts for a great number of applications, especially in the field of strategic management, portfolio selection and marketing where there is a great diversity between techniques that ranges from fuzzy sets\cite{Trenado2014} to wheigthed goal programming and hibryd approaches.
 \\
- \begin{tikzpicture}
- \draw (0,0) circle (1.25) (0,0)  node [text=black,above] {Engeneering}
-(3,0) circle (1.25) (3,0)  node [text=black,above] {Social sciences}
-(1.5,-3) circle (1.25) (1.5,-3) node [text=black,above] {Management} 
-(1.5,-1.15) circle (1.25) (1.5,-1.5) node [text=black,above] {Accounting} 	
+All the three fields proposed in case of corporation modeling has a commpon backbone (as exposed by Figure \ref{fig:accounting})  in which they gather information which is called accounting, embracing significant development in particular in areas dealing with, cost controlling, budgetting and operations planning; such cross literature will be treated in the following section.
+
+\begin{figure}
+\begin{center}
+\begin{tikzpicture}
+    \draw \firstcircle node[above] {Engeneering};
+    \draw \secondcircle node [above] {Social sciencies};
+    \draw \thirdcircle node [above] {Management};
+    \draw \fourthcircle node [above] {Accounting};
+
+    \begin{scope}
+      \clip \fourthcircle;
+      \fill[gray, fill opacity=0.5] \firstcircle;
+       \clip \fourthcircle;
+      \fill[gray, fill opacity=0.5] \secondcircle;
+      \clip \fourthcircle;
+      \fill[gray, fill opacity=0.5] \thirdcircle;
+      \end{scope}
+
 \end{tikzpicture}
-\\ 
-All the three fields proposed in case of corporation modeling has a commpon backbone in which they gather information which is called accounting, embracing significant development in particular in areas dealing with, cost controlling, budgetting and operations planning; such cross literature will be treated in the following section.
+\end{center}
+\caption{The ingerence of accounting in the three main field of application of Goal Programming} \label{fig:accounting}
+\end{figure}
 
 \subsection{Application in Accounting}
 The accounting field (where the model proposed belongs), as seen in the following year a brand new interest among researchers. It's worth start by defining what is meant for accounting, which may be defined as the process of recording and summarizing business and financial transactions, analyzing and reporting the results. Altough this seems as passive process, sometimes accounting has reveled to be a very strong tool on the hands of the decision maker\cite{Davidson1961} to enact decision in the most informed way possible. In fact, because of the nature of accounting which may be seen as a cross organizational field the DM has the possibility to test particular stategies having a series of objectives belonging from different departments, from the legal to the marketing and from the logistic to the production department.
@@ -398,7 +418,7 @@ The simulation of the above-mentioned model was made using LINGO17. Even if the 
 Concerning the data, the financial were taken from a company operating mostly in Europe and western countries in general, plus this company tend to produce and store most of its products in Asian countries and tend to have less inventory in its western distribution sites. The company under scope was under performing at the time of this simulation its P/L statement registered a loss of roughly  6.960.502 USD. The revenues registered for the year under the scope were about 88.900.344,00 USD and the employees hired were 2.722,00.
 The weights were chosen in order to value firstly the tax minimization, then the contribution of each entity on the profit made by the company (profit split) and the cost minimization.
 
-\subsection{Conclusions}
+\subsection{Conclusions \todo{to be integrated with sensitivity analysis and additional plots on the result when I'll receive the student licence key from LINGO}}
 The results produced by the mathematical package are illustrated in the following table:
 
 \begin{center}
