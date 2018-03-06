@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.1)  4 MAR 2018 11:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.1)  6 MAR 2018 11:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -348,6 +348,320 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
 \c@@todonotes@numberoftodonotes=\count124
+) (/usr/share/texlive/texmf-dist/tex/latex/optidef/optidef.sty
+Package: optidef 2017/06/21 - version=2.5, Package for defining optimization problems
+ (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)) (/usr/share/texlive/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+ (/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
+)) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count125
+) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2017/07/19 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2017/07/19 L3 programming layer (code)
+\c_max_int=\count126
+\l_tmpa_int=\count127
+\l_tmpb_int=\count128
+\g_tmpa_int=\count129
+\g_tmpb_int=\count130
+\g__intarray_font_int=\count131
+\g__prg_map_int=\count132
+\c_log_iow=\count133
+\l_iow_line_count_int=\count134
+\l__iow_line_target_int=\count135
+\l__iow_one_indent_int=\count136
+\l__iow_indent_int=\count137
+\c_zero_dim=\dimen171
+\c_max_dim=\dimen172
+\l_tmpa_dim=\dimen173
+\l_tmpb_dim=\dimen174
+\g_tmpa_dim=\dimen175
+\g_tmpb_dim=\dimen176
+\c_zero_skip=\skip54
+\c_max_skip=\skip55
+\l_tmpa_skip=\skip56
+\l_tmpb_skip=\skip57
+\g_tmpa_skip=\skip58
+\g_tmpb_skip=\skip59
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count138
+\c__fp_leading_shift_int=\count139
+\c__fp_middle_shift_int=\count140
+\c__fp_trailing_shift_int=\count141
+\c__fp_big_leading_shift_int=\count142
+\c__fp_big_middle_shift_int=\count143
+\c__fp_big_trailing_shift_int=\count144
+\c__fp_Bigg_leading_shift_int=\count145
+\c__fp_Bigg_middle_shift_int=\count146
+\c__fp_Bigg_trailing_shift_int=\count147
+\c__fp_rand_size_int=\count148
+\c__fp_rand_four_int=\count149
+\c__fp_rand_eight_int=\count150
+\l__sort_length_int=\count151
+\l__sort_min_int=\count152
+\l__sort_top_int=\count153
+\l__sort_max_int=\count154
+\l__sort_true_max_int=\count155
+\l__sort_block_int=\count156
+\l__sort_begin_int=\count157
+\l__sort_end_int=\count158
+\l__sort_A_int=\count159
+\l__sort_B_int=\count160
+\l__sort_C_int=\count161
+\l__tl_build_start_index_int=\count162
+\l__tl_build_index_int=\count163
+\l__tl_analysis_normal_int=\count164
+\l__tl_analysis_index_int=\count165
+\l__tl_analysis_nesting_int=\count166
+\l__tl_analysis_type_int=\count167
+\l__regex_internal_a_int=\count168
+\l__regex_internal_b_int=\count169
+\l__regex_internal_c_int=\count170
+\l__regex_balance_int=\count171
+\l__regex_group_level_int=\count172
+\l__regex_mode_int=\count173
+\c__regex_cs_in_class_mode_int=\count174
+\c__regex_cs_mode_int=\count175
+\l__regex_catcodes_int=\count176
+\l__regex_default_catcodes_int=\count177
+\c__regex_catcode_D_int=\count178
+\c__regex_catcode_S_int=\count179
+\c__regex_catcode_L_int=\count180
+\c__regex_catcode_O_int=\count181
+\c__regex_catcode_A_int=\count182
+\c__regex_all_catcodes_int=\count183
+\l__regex_show_lines_int=\count184
+\l__regex_min_state_int=\count185
+\l__regex_max_state_int=\count186
+\l__regex_left_state_int=\count187
+\l__regex_right_state_int=\count188
+\l__regex_capturing_group_int=\count189
+\l__regex_min_pos_int=\count190
+\l__regex_max_pos_int=\count191
+\l__regex_curr_pos_int=\count192
+\l__regex_start_pos_int=\count193
+\l__regex_success_pos_int=\count194
+\l__regex_curr_char_int=\count195
+\l__regex_curr_catcode_int=\count196
+\l__regex_last_char_int=\count197
+\l__regex_case_changed_char_int=\count198
+\l__regex_curr_state_int=\count199
+\l__regex_step_int=\count266
+\l__regex_min_active_int=\count267
+\l__regex_max_active_int=\count268
+\l__regex_replacement_csnames_int=\count269
+\l__regex_match_count_int=\count270
+\l__regex_min_submatch_int=\count271
+\l__regex_submatch_int=\count272
+\l__regex_zeroth_submatch_int=\count273
+\g__debug_trace_regex_int=\count274
+\c_empty_box=\box40
+\l_tmpa_box=\box41
+\l_tmpb_box=\box42
+\g_tmpa_box=\box43
+\g_tmpb_box=\box44
+\l__box_top_dim=\dimen177
+\l__box_bottom_dim=\dimen178
+\l__box_left_dim=\dimen179
+\l__box_right_dim=\dimen180
+\l__box_top_new_dim=\dimen181
+\l__box_bottom_new_dim=\dimen182
+\l__box_left_new_dim=\dimen183
+\l__box_right_new_dim=\dimen184
+\l__box_internal_box=\box45
+\l__coffin_internal_box=\box46
+\l__coffin_internal_dim=\dimen185
+\l__coffin_offset_x_dim=\dimen186
+\l__coffin_offset_y_dim=\dimen187
+\l__coffin_x_dim=\dimen188
+\l__coffin_y_dim=\dimen189
+\l__coffin_x_prime_dim=\dimen190
+\l__coffin_y_prime_dim=\dimen191
+\c_empty_coffin=\box47
+\l__coffin_aligned_coffin=\box48
+\l__coffin_aligned_internal_coffin=\box49
+\l_tmpa_coffin=\box50
+\l_tmpb_coffin=\box51
+\l__coffin_display_coffin=\box52
+\l__coffin_display_coord_coffin=\box53
+\l__coffin_display_pole_coffin=\box54
+\l__coffin_display_offset_dim=\dimen192
+\l__coffin_display_x_dim=\dimen193
+\l__coffin_display_y_dim=\dimen194
+\l__coffin_bounding_shift_dim=\dimen195
+\l__coffin_left_corner_dim=\dimen196
+\l__coffin_right_corner_dim=\dimen197
+\l__coffin_bottom_corner_dim=\dimen198
+\l__coffin_top_corner_dim=\dimen199
+\l__coffin_scaled_total_height_dim=\dimen256
+\l__coffin_scaled_width_dim=\dimen257
+) (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count275
+\l__driver_tmp_box=\box55
+))
+Package: xparse 2017/07/19 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count276
+\g__xparse_grabber_int=\count277
+\l__xparse_m_args_int=\count278
+\l__xparse_mandatory_args_int=\count279
+\l__xparse_v_nesting_int=\count280
+)
+\widthInit=\skip60
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bodyconst with sig. 'm G{}' on line 125.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bodyconstRight with sig. 'm G{} G{}' on line 158.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bodyconstOneAlign with sig. 'm G{} G{}' on line 172.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bodyconstOneAlignBelow with sig. 'm G{} G{}' on line 187.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bodyconstBelow with sig. 'm G{} G{}' on line 213.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bodyconstBelowMult with sig. 'm G{} G{}' on line 239.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bodyconstOneAlignBelowMult with sig. 'm G{} G{}' on line
+. 254.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addConstraint with sig. 'm G{} G{}' on line 299.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \standardAddConstraint with sig. 'm G{} G{}' on line 329.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \BelowAddConstraint with sig. 'm G{} G{}' on line 354.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \oneAlignAddConstraint with sig. 'm G{} G{}' on line 370.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \oneAlignBelowAddConstraint with sig. 'm G{} G{}' on line
+. 386.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \BelowAddConstraintMult with sig. 'm G{} G{}' on line 410.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \oneAlignBelowAddConstraintMult with sig. 'm G{} G{}' on
+. line 426.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-environment"
+. 
+. Defining environment 'mini' with sig. 'D||{\defaultProblemFormat } O{0} m m
+. m m' on line 548.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-environment"
+. 
+. Defining environment 'argmini' with sig. 'D||{\defaultProblemFormat } O{0} m
+. m m m' on line 556.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-environment"
+. 
+. Defining environment 'mini*' with sig. 'D||{\defaultProblemFormat } O{0} m m
+. m m' on line 566.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-environment"
+. 
+. Defining environment 'argmini*' with sig. 'D||{l} O{0} m m m m' on line 574.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-environment"
+. 
+. Defining environment 'mini!' with sig. 'D||{\defaultProblemFormat } O{0} m m
+. m m' on line 584.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-environment"
+. 
+. Defining environment 'argmini!' with sig. 'D||{\defaultProblemFormat } O{0}
+. m m m m' on line 592.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-environment"
+. 
+. Defining environment 'maxi' with sig. 'D||{\defaultProblemFormat } O{0} m m
+. m m' on line 606.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-environment"
+. 
+. Defining environment 'argmaxi' with sig. 'D||{\defaultProblemFormat } O{0} m
+. m m m' on line 614.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-environment"
+. 
+. Defining environment 'maxi*' with sig. 'D||{\defaultProblemFormat } O{0} m m
+. m m' on line 624.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-environment"
+. 
+. Defining environment 'argmaxi*' with sig. 'D||{l} O{0} m m m m' on line 632.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-environment"
+. 
+. Defining environment 'maxi!' with sig. 'D||{\defaultProblemFormat } O{0} m m
+. m m' on line 642.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-environment"
+. 
+. Defining environment 'argmaxi!' with sig. 'D||{\defaultProblemFormat } O{0}
+. m m m m' on line 650.
+.................................................
 ) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
@@ -366,9 +680,6 @@ Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count125
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
@@ -379,149 +690,150 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-))) (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count126
+\lrq@indent=\count281
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip11
+\Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write4
-\integerpart=\count127
-\decimalpart=\count128
+\integerpart=\count282
+\decimalpart=\count283
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count129
-\c@listtotal=\count130
-\c@listcount=\count131
-\c@liststart=\count132
-\c@liststop=\count133
-\c@citecount=\count134
-\c@citetotal=\count135
-\c@multicitecount=\count136
-\c@multicitetotal=\count137
-\c@instcount=\count138
-\c@maxnames=\count139
-\c@minnames=\count140
-\c@maxitems=\count141
-\c@minitems=\count142
-\c@citecounter=\count143
-\c@savedcitecounter=\count144
-\c@uniquelist=\count145
-\c@uniquename=\count146
-\c@refsection=\count147
-\c@refsegment=\count148
-\c@maxextratitle=\count149
-\c@maxextratitleyear=\count150
-\c@maxextrayear=\count151
-\c@maxextraalpha=\count152
-\c@abbrvpenalty=\count153
-\c@highnamepenalty=\count154
-\c@lownamepenalty=\count155
-\c@maxparens=\count156
-\c@parenlevel=\count157
-\blx@tempcnta=\count158
-\blx@tempcntb=\count159
-\blx@tempcntc=\count160
-\blx@maxsection=\count161
-\blx@maxsegment@0=\count162
-\blx@notetype=\count163
-\blx@parenlevel@text=\count164
-\blx@parenlevel@foot=\count165
-\blx@sectionciteorder@0=\count166
-\labelnumberwidth=\skip54
-\labelalphawidth=\skip55
-\biblabelsep=\skip56
-\bibitemsep=\skip57
-\bibnamesep=\skip58
-\bibinitsep=\skip59
-\bibparsep=\skip60
-\bibhang=\skip61
+\c@tabx@nest=\count284
+\c@listtotal=\count285
+\c@listcount=\count286
+\c@liststart=\count287
+\c@liststop=\count288
+\c@citecount=\count289
+\c@citetotal=\count290
+\c@multicitecount=\count291
+\c@multicitetotal=\count292
+\c@instcount=\count293
+\c@maxnames=\count294
+\c@minnames=\count295
+\c@maxitems=\count296
+\c@minitems=\count297
+\c@citecounter=\count298
+\c@savedcitecounter=\count299
+\c@uniquelist=\count300
+\c@uniquename=\count301
+\c@refsection=\count302
+\c@refsegment=\count303
+\c@maxextratitle=\count304
+\c@maxextratitleyear=\count305
+\c@maxextrayear=\count306
+\c@maxextraalpha=\count307
+\c@abbrvpenalty=\count308
+\c@highnamepenalty=\count309
+\c@lownamepenalty=\count310
+\c@maxparens=\count311
+\c@parenlevel=\count312
+\blx@tempcnta=\count313
+\blx@tempcntb=\count314
+\blx@tempcntc=\count315
+\blx@maxsection=\count316
+\blx@maxsegment@0=\count317
+\blx@notetype=\count318
+\blx@parenlevel@text=\count319
+\blx@parenlevel@foot=\count320
+\blx@sectionciteorder@0=\count321
+\labelnumberwidth=\skip61
+\labelalphawidth=\skip62
+\biblabelsep=\skip63
+\bibitemsep=\skip64
+\bibnamesep=\skip65
+\bibinitsep=\skip66
+\bibparsep=\skip67
+\bibhang=\skip68
 \blx@bcfin=\read2
 \blx@bcfout=\write5
-\c@mincomprange=\count167
-\c@maxcomprange=\count168
-\c@mincompwidth=\count169
+\c@mincomprange=\count322
+\c@maxcomprange=\count323
+\c@mincompwidth=\count324
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count170
-\c@savedafterword=\count171
-\c@annotator=\count172
-\c@savedannotator=\count173
-\c@author=\count174
-\c@savedauthor=\count175
-\c@bookauthor=\count176
-\c@savedbookauthor=\count177
-\c@commentator=\count178
-\c@savedcommentator=\count179
-\c@editor=\count180
-\c@savededitor=\count181
-\c@editora=\count182
-\c@savededitora=\count183
-\c@editorb=\count184
-\c@savededitorb=\count185
-\c@editorc=\count186
-\c@savededitorc=\count187
-\c@foreword=\count188
-\c@savedforeword=\count189
-\c@holder=\count190
-\c@savedholder=\count191
-\c@introduction=\count192
-\c@savedintroduction=\count193
-\c@namea=\count194
-\c@savednamea=\count195
-\c@nameb=\count196
-\c@savednameb=\count197
-\c@namec=\count198
-\c@savednamec=\count199
-\c@translator=\count266
-\c@savedtranslator=\count267
-\c@shortauthor=\count268
-\c@savedshortauthor=\count269
-\c@shorteditor=\count270
-\c@savedshorteditor=\count271
-\c@labelname=\count272
-\c@savedlabelname=\count273
-\c@institution=\count274
-\c@savedinstitution=\count275
-\c@lista=\count276
-\c@savedlista=\count277
-\c@listb=\count278
-\c@savedlistb=\count279
-\c@listc=\count280
-\c@savedlistc=\count281
-\c@listd=\count282
-\c@savedlistd=\count283
-\c@liste=\count284
-\c@savedliste=\count285
-\c@listf=\count286
-\c@savedlistf=\count287
-\c@location=\count288
-\c@savedlocation=\count289
-\c@organization=\count290
-\c@savedorganization=\count291
-\c@origlocation=\count292
-\c@savedoriglocation=\count293
-\c@origpublisher=\count294
-\c@savedorigpublisher=\count295
-\c@publisher=\count296
-\c@savedpublisher=\count297
-\c@language=\count298
-\c@savedlanguage=\count299
-\c@pageref=\count300
-\c@savedpageref=\count301
-\shorthandwidth=\skip62
-\shortjournalwidth=\skip63
-\shortserieswidth=\skip64
-\shorttitlewidth=\skip65
-\shortauthorwidth=\skip66
-\shorteditorwidth=\skip67
+\c@afterword=\count325
+\c@savedafterword=\count326
+\c@annotator=\count327
+\c@savedannotator=\count328
+\c@author=\count329
+\c@savedauthor=\count330
+\c@bookauthor=\count331
+\c@savedbookauthor=\count332
+\c@commentator=\count333
+\c@savedcommentator=\count334
+\c@editor=\count335
+\c@savededitor=\count336
+\c@editora=\count337
+\c@savededitora=\count338
+\c@editorb=\count339
+\c@savededitorb=\count340
+\c@editorc=\count341
+\c@savededitorc=\count342
+\c@foreword=\count343
+\c@savedforeword=\count344
+\c@holder=\count345
+\c@savedholder=\count346
+\c@introduction=\count347
+\c@savedintroduction=\count348
+\c@namea=\count349
+\c@savednamea=\count350
+\c@nameb=\count351
+\c@savednameb=\count352
+\c@namec=\count353
+\c@savednamec=\count354
+\c@translator=\count355
+\c@savedtranslator=\count356
+\c@shortauthor=\count357
+\c@savedshortauthor=\count358
+\c@shorteditor=\count359
+\c@savedshorteditor=\count360
+\c@labelname=\count361
+\c@savedlabelname=\count362
+\c@institution=\count363
+\c@savedinstitution=\count364
+\c@lista=\count365
+\c@savedlista=\count366
+\c@listb=\count367
+\c@savedlistb=\count368
+\c@listc=\count369
+\c@savedlistc=\count370
+\c@listd=\count371
+\c@savedlistd=\count372
+\c@liste=\count373
+\c@savedliste=\count374
+\c@listf=\count375
+\c@savedlistf=\count376
+\c@location=\count377
+\c@savedlocation=\count378
+\c@organization=\count379
+\c@savedorganization=\count380
+\c@origlocation=\count381
+\c@savedoriglocation=\count382
+\c@origpublisher=\count383
+\c@savedorigpublisher=\count384
+\c@publisher=\count385
+\c@savedpublisher=\count386
+\c@language=\count387
+\c@savedlanguage=\count388
+\c@pageref=\count389
+\c@savedpageref=\count390
+\shorthandwidth=\skip69
+\shortjournalwidth=\skip70
+\shortserieswidth=\skip71
+\shorttitlewidth=\skip72
+\shortauthorwidth=\skip73
+\shorteditorwidth=\skip74
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -543,13 +855,13 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count302
-\c@textcitetotal=\count303
-\c@textcitemaxnames=\count304
-\c@biburlnumpenalty=\count305
-\c@biburlucpenalty=\count306
-\c@biburllcpenalty=\count307
-\c@smartand=\count308
+\c@textcitecount=\count391
+\c@textcitetotal=\count392
+\c@textcitemaxnames=\count393
+\c@biburlnumpenalty=\count394
+\c@biburlucpenalty=\count395
+\c@biburllcpenalty=\count396
+\c@smartand=\count397
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -559,8 +871,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count309
-\c@bbx:relatedtotal=\count310
+\c@bbx:relatedcount=\count398
+\c@bbx:relatedtotal=\count399
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -582,46 +894,58 @@ Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
-)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+)
+
+/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty:13053: Package etoolbox Error: Invalid boolean value 'falsedoi'.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13053 \blx@processoptions
+                           
+Valid boolean values are 'true' and 'false'.
+
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen171
+\arrowsize=\dimen258
 ))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count311
-\@quotereset=\count312
+\@quotelevel=\count400
+\@quotereset=\count401
  (./ch1.aux)
 \openout1 = `ch1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count313
-\scratchdimen=\dimen172
-\scratchbox=\box40
-\nofMPsegments=\count314
-\nofMParguments=\count315
+\scratchcounter=\count402
+\scratchdimen=\dimen259
+\scratchbox=\box56
+\nofMPsegments=\count403
+\nofMParguments=\count404
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count316
-\MPscratchDim=\dimen173
-\MPnumerator=\count317
-\makeMPintoPDFobject=\count318
+\MPscratchCnt=\count405
+\MPscratchDim=\dimen260
+\MPnumerator=\count406
+\makeMPintoPDFobject=\count407
 \everyMPtoPDFconversion=\toks37
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -645,370 +969,14 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ch1.bbl' found.
- (./ch1.bbl)
-Package biblatex Info: Reference section=0 on input line 23.
-Package biblatex Info: Reference segment=0 on input line 23.
-Missing character: There is no √ in font cmti9!
-Missing character: There is no † in font cmti9!
+ (./ch1.bbl
 
-Overfull \hbox (8.90117pt too wide) in paragraph at lines 62--63
- [][] 
- []
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                tamiz_goal_1997
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
 
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 89.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
-
-Overfull \hbox (18.27852pt too wide) in paragraph at lines 89--90
-\OT1/cmr/m/n/10 Weighted Sum Method, Con-straints Method, Ob-jec-tive Pro-gram-ming Method,
- []
-
-./ch1.tex:91: Undefined control sequence.
-<recently read> \nexists 
-                         
-l.91 ...$ that is Pareto superior to $s^{\star}$.}
-                                                   solution;
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[3]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
- [4] [5] [6]
-Missing character: There is no √ in font cmr10!
-Missing character: There is no º in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
-[]|\OT1/cmr/m/n/10 Zamfirescu and Zam-
- []
-
-[7]
-Overfull \vbox (4.29996pt too high) has occurred while \output is active []
-
- [8]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [9]
-<Images/CTworld.png, id=52, 1822.81pt x 1023.825pt>
-File: Images/CTworld.png Graphic file (type png)
-<use Images/CTworld.png>
-Package pdftex.def Info: Images/CTworld.png  used on input line 260. on input line 260.
-Package pdftex.def Info: Requested size: 172.5pt x 96.87383pt on input line 260.
-<Images/GNIworld.png, id=54, 1822.81pt x 1023.825pt>
-File: Images/GNIworld.png Graphic file (type png)
-<use Images/GNIworld.png>
-Package pdftex.def Info: Images/GNIworld.png  used on input line 266. on input line 266.
-Package pdftex.def Info: Requested size: 172.5pt x 96.87383pt on input line 266.
-<Images/Cluster-GNI-CT.png, id=55, 1003.75pt x 1003.75pt>
-File: Images/Cluster-GNI-CT.png Graphic file (type png)
-<use Images/Cluster-GNI-CT.png>
-Package pdftex.def Info: Images/Cluster-GNI-CT.png  used on input line 274. on input line 274.
-Package pdftex.def Info: Requested size: 276.00105pt x 275.99382pt on input line 274.
- [10 <./Images/CTworld.png> <./Images/GNIworld.png>] [11 <./Images/Cluster-GNI-CT.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 290--294
-
- []
-
-<Images/plidist.png, id=66, 1966.34625pt x 1105.12875pt>
-File: Images/plidist.png Graphic file (type png)
-<use Images/plidist.png>
-Package pdftex.def Info: Images/plidist.png  used on input line 300. on input line 300.
-Package pdftex.def Info: Requested size: 550.0pt x 309.11354pt on input line 300.
-[12] [13] [14 <./Images/plidist.png>] [15] [16] [17] [18]
-
-./ch1.tex:445: Package array Error:  Illegal pream-token (L): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.445 \begin{tabular}{|| L  L L ||}
-                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./ch1.tex:445: Package array Error:  Illegal pream-token (L): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.445 \begin{tabular}{|| L  L L ||}
-                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./ch1.tex:445: Package array Error:  Illegal pream-token (L): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.445 \begin{tabular}{|| L  L L ||}
-                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./ch1.tex:449: Missing $ inserted.
-<inserted text> 
-                $
-l.449 \prescript{}{q}{p}
-                        _1 & 46.870.020,00 & \text{Consolidated cost of empl...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./ch1.tex:449: Missing $ inserted.
-<inserted text> 
-                $
-l.449 \prescript{}{q}{p}_1 &
-                             46.870.020,00 & \text{Consolidated cost of empl...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./ch1.tex:451: Missing $ inserted.
-<inserted text> 
-                $
-l.451 \prescript{}{q}{p}
-                        _2 & 7.159.194,00 & \text{Consolidated tax liability...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./ch1.tex:451: Missing $ inserted.
-<inserted text> 
-                $
-l.451 \prescript{}{q}{p}_2 &
-                             7.159.194,00 & \text{Consolidated tax liability...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./ch1.tex:453: Missing $ inserted.
-<inserted text> 
-                $
-l.453 \prescript{}{o}{n}
-                        _1 & 0,00 & \text{Distributor profit allocation} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./ch1.tex:453: Missing $ inserted.
-<inserted text> 
-                $
-l.453 \prescript{}{o}{n}_1 &
-                             0,00 & \text{Distributor profit allocation} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./ch1.tex:455: Missing $ inserted.
-<inserted text> 
-                $
-l.455 \prescript{}{o}{n}
-                        _2 & 0,00 & \text{Manufacturer profit allocation} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./ch1.tex:455: Missing $ inserted.
-<inserted text> 
-                $
-l.455 \prescript{}{o}{n}_2 &
-                             0,00 & \text{Manufacturer profit allocation} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./ch1.tex:457: Missing $ inserted.
-<inserted text> 
-                $
-l.457 \prescript{}{o}{n}
-                        _3 & 0,00 & \text{Principal profit allocation} \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./ch1.tex:457: Missing $ inserted.
-<inserted text> 
-                $
-l.457 \prescript{}{o}{n}_3 &
-                             0,00 & \text{Principal profit allocation} \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[19]
-./ch1.tex:469: Missing $ inserted.
-<inserted text> 
-                $
-l.469 \end
-          {document}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./ch1.tex:469: Extra }, or forgotten $.
-<argument> ...s: Development and Evaluation{\ast }
-                                                  
-l.469 \end
-          {document}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./ch1.tex:469: Missing $ inserted.
-<inserted text> 
-                $
-l.469 \end
-          {document}
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./ch1.tex:469: Missing } inserted.
-<inserted text> 
-                }
-l.469 \end
-          {document}
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./ch1.tex:469: Undefined control sequence.
-\namepartgiven ->Jos\x 
-                       {fffd}\x {fffd}\bibnamedelima Rui
-l.469 \end
-          {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch1.tex:469: Undefined control sequence.
-\namepartgiven ->Jos\x {fffd}\x 
-                                {fffd}\bibnamedelima Rui
-l.469 \end
-          {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[20]
-./ch1.tex:469: Undefined control sequence.
-<argument> ...bility in portfolio selection: A \x 
-                                                  {fffd}\x {fffd}\x {fffd}go...
-l.469 \end
-          {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch1.tex:469: Undefined control sequence.
-<argument> ... portfolio selection: A \x {fffd}\x 
-                                                  {fffd}\x {fffd}goal games\...
-l.469 \end
-          {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch1.tex:469: Undefined control sequence.
-<argument> ...o selection: A \x {fffd}\x {fffd}\x 
-                                                  {fffd}goal games\x {fffd}\...
-l.469 \end
-          {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch1.tex:469: Undefined control sequence.
-<argument> ...fffd}\x {fffd}\x {fffd}goal games\x 
-                                                  {fffd}\x {fffd}\x {fffd} a...
-l.469 \end
-          {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch1.tex:469: Undefined control sequence.
-<argument> ...fffd}\x {fffd}goal games\x {fffd}\x 
-                                                  {fffd}\x {fffd} against na...
-l.469 \end
-          {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch1.tex:469: Undefined control sequence.
-<argument> ...fffd}goal games\x {fffd}\x {fffd}\x 
-                                                  {fffd} against nature appr...
-l.469 \end
-          {document}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[21] [22] (./ch1.aux)
-Package logreq Info: Writing requests to 'ch1.run.xml'.
-\openout1 = `ch1.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 20196 strings out of 492990
- 395810 string characters out of 6135006
- 796162 words of memory out of 5000000
- 23421 multiletter control sequences out of 15000+600000
- 10790 words of font info for 39 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 55i,14n,84p,1263b,1233s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ch1.pdf (22 pages, 721651 bytes).
-PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Package biblatex Info: Reference section=0 on input line 26.
+Package biblatex Inf

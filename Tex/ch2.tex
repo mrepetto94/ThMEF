@@ -10,6 +10,7 @@
 \usepackage{tikz}
 \usepackage{txfonts}
 \usepackage[colorinlistoftodos]{todonotes}
+\usepackage[long]{optidef}
 
   \addbibresource{ch1-2.bib}
 
@@ -245,6 +246,13 @@ It's worth noting that such model do not implement any support activities, whrea
 \end{figure}
 
 Such activities are a foundamental part on the supply chain that serves as glue with the supply chain steps to the deliver the value to the end-customer. Therefore the hibrid model will looks like this:
+
+\begin{mini}
+  {w,u}{f(w)+ R(w+6x)+ H(100w-x*w/500)}{}{}
+  \breakObjective{-g(w^3-x^2*200+10000*w^5)}
+  \addConstraint{g(w_k)+h(w_k)}{=0,}{k=0,\ldots,N-1}
+  \addConstraint{l(w_k)}{=5u,\quad}{k=0,\ldots,N-1}
+\end{mini}
 
 \begin{equation*}
 \begin{aligned}

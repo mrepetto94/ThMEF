@@ -776,55 +776,6 @@
       \verb 10.1287/opre.43.4.551
       \endverb
     \endentry
-    \entry{tamiz_goal_1998}{article}{}
-      \name{author}{3}{}{%
-        {{hash=aca2fb1b1cb2bd4e752bb093852afb82}{%
-           family={Tamiz},
-           familyi={T\bibinitperiod},
-           given={Mehrdad},
-           giveni={M\bibinitperiod}}}%
-        {{hash=35785ea56eec6b9b4058827146fee500}{%
-           family={Jones},
-           familyi={J\bibinitperiod},
-           given={Dylan},
-           giveni={D\bibinitperiod}}}%
-        {{hash=664c819079f5fd85f7ebd65d9733ae15}{%
-           family={Romero},
-           familyi={R\bibinitperiod},
-           given={Carlos},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{5d36e88adf00c788803b4a45942aa7cb}
-      \strng{fullhash}{5d36e88adf00c788803b4a45942aa7cb}
-      \strng{authornamehash}{5d36e88adf00c788803b4a45942aa7cb}
-      \strng{authorfullhash}{5d36e88adf00c788803b4a45942aa7cb}
-      \field{sortinit}{T}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{03772217}
-      \field{journaltitle}{European Journal of Operational Research}
-      \field{langid}{english}
-      \field{month}{12}
-      \field{number}{3}
-      \field{shorttitle}{Goal programming for decision making}
-      \field{title}{Goal programming for decision making: An overview of the current state-of-the-art}
-      \field{urlday}{25}
-      \field{urlmonth}{7}
-      \field{urlyear}{2017}
-      \field{volume}{111}
-      \field{year}{1998}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{569\bibrangedash 581}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1016/S0377-2217(97)00317-2
-      \endverb
-      \verb{url}
-      \verb http://linkinghub.elsevier.com/retrieve/pii/S0377221797003172
-      \endverb
-    \endentry
     \entry{Tan2008}{article}{}
       \name{author}{4}{}{%
         {{hash=37836b26cbb14dc71a1e0de9a903e728}{%
@@ -1083,6 +1034,7 @@
       \endverb
     \endentry
   \endsortlist
+  \missing{tamiz_goal_1997}
 \endrefsection
 \endinput
 
