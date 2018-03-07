@@ -183,6 +183,45 @@
       \verb 10.1016/j.cor.2006.02.022
       \endverb
     \endentry
+    \entry{Diabat2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5b2bffd2ef5c25ee568e45426021350f}{%
+           family={Diabat},
+           familyi={D\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4f682bd3c8fe803d5acb358eab920f26}{%
+           family={Govindan},
+           familyi={G\bibinitperiod},
+           given={Kannan},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{207735d4fb6b02b35213ef37165d53de}
+      \strng{fullhash}{207735d4fb6b02b35213ef37165d53de}
+      \strng{authornamehash}{207735d4fb6b02b35213ef37165d53de}
+      \strng{authorfullhash}{207735d4fb6b02b35213ef37165d53de}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Resources, Conservation and Recycling}
+      \field{month}{4}
+      \field{number}{6}
+      \field{title}{An analysis of the drivers affecting the implementation of green supply chain management}
+      \field{volume}{55}
+      \field{year}{2011}
+      \field{pages}{659\bibrangedash 667}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.resconrec.2010.12.002
+      \endverb
+      \verb{file}
+      \verb :/home/mrepetto94/Documents/Biblio/0b61ebadf8a840a66ea705a0f4d038a2db7f.pdf:PDF
+      \endverb
+    \endentry
     \entry{Gupta_Maranas_2003}{article}{}
       \name{author}{2}{}{%
         {{hash=12f99fb583327492183593a3e6fb01a1}{%
@@ -777,6 +816,30 @@
       \verb{url}
       \verb http://linkinghub.elsevier.com/retrieve/pii/S2212017313005094
       \endverb
+    \endentry
+    \entry{Strobel18}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c9997c62f5810cb739e5de21abf5ca22}{%
+           family={Volker\bibnamedelima Strobel},
+           familyi={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Patrick\bibnamedelima Hofmann},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {GitHub}%
+      }
+      \strng{namehash}{c9997c62f5810cb739e5de21abf5ca22}
+      \strng{fullhash}{c9997c62f5810cb739e5de21abf5ca22}
+      \strng{authornamehash}{c9997c62f5810cb739e5de21abf5ca22}
+      \strng{authorfullhash}{c9997c62f5810cb739e5de21abf5ca22}
+      \field{sortinit}{V}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/Pold87/academic-keyword-occurrence}}
+      \field{journaltitle}{GitHub repository}
+      \field{title}{Academic Keyword Occurrence}
+      \field{year}{2018}
     \endentry
     \entry{Zadeh_1965}{article}{}
       \name{author}{1}{}{%

@@ -885,4 +885,18 @@
   publisher     = {Elsevier},
 }
 
+@Article{Diabat2011,
+  author    = {Ali Diabat and Kannan Govindan},
+  title     = {An analysis of the drivers affecting the implementation of green supply chain management},
+  journal   = {Resources, Conservation and Recycling},
+  year      = {2011},
+  volume    = {55},
+  number    = {6},
+  month     = {apr},
+  pages     = {659--667},
+  doi       = {10.1016/j.resconrec.2010.12.002},
+  file      = {:/home/mrepetto94/Documents/Biblio/0b61ebadf8a840a66ea705a0f4d038a2db7f.pdf:PDF},
+  publisher = {Elsevier {BV}},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

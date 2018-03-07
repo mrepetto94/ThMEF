@@ -52,31 +52,42 @@
 \maketitle
 
 \begin{abstract}
-  In the following paper is proposed a multi-objective model for components allocation in a Green Supply Chain framework. The model builds on the concept of the supply chain as suggested by Porter, and accounts for the costs of production using the Activity Based Cost accounting method (ABC). Such model is organized in blocks related to several moments in the value chain, from the procurement to the end customer. Above each and every one of these blocks, we included a series of environmental constraints that the firm has to comply, with respect to specific country regulation, or in case of a particular Corporate Environmental Responsibility policy...\todo{Da continuare quando il modello è ultimato; inserire anche parte sui risultati}
+  In the following paper is proposed a multi-objective model for components allocation in a Green Supply Chain framework. The model builds on the concept of the supply chain as suggested by Porter, and accounts for the costs of production using the Activity Based Cost accounting method (ABC). Such model is organized in blocks related to several moments in the value chain, from the procurement to the end customer. Above each and every one of these blocks, a series of environmental constraints have been included, and that the firm has to comply, with respect to specific country regulation, or in case of a particular Corporate Environmental Responsibility policy...\todo{to be continued when the model will be fully defined}
 \end{abstract}
 
 \section{Introduction}
-  Global Supply Chain Management (GSCM) is probably one of the most used terms when we talk about how the firms are running their business nowadays. GSCM may be defined as the allocation of goods and services along a series of transnational companies' global network to maximize profits and minimize waste. As the Supply Chain Professionals puts it, the goal of GSCM is threefold and focuses on delivering: (a) the right product (b) to the right place (c) at the right time.
-  Inside this very wide paradigm, we can find the concept of logistics which is in charge of the movement of goods, service and last but not least information from the sourcing of raw material, till it reaches the end customer.
-  Along with these two concepts a third one stucks with them, the Green Supply Chain (GSC). This idea, brought to light by a more advanced concern about environmental matters of the developed countries, forced the firms to be accountable for their negative externalities related to the environment in which they operate \cite{srivastava_green_2007}.
+  Global Supply Chain Management (GSCM) is probably one of the most used terms when the discussion of how the firms are running their business is brought to the table nowadays. GSCM may be defined as the allocation of goods and services along a series of transnational companies' global network to maximize profits and minimize waste. As the Supply Chain Professionals puts it, the goal of GSCM is threefold and focuses on delivering: (a)the right product; (b)to the right place; (c)at the right time.
+  Inside this very wide paradigm, the concept of logistics serves as the backbone; recalling that logistics is developed to be in charge of the movement of goods, service and last but not least information from the sourcing of raw material, till it reaches the end customer.
+  Along with these two concepts a third one sticks with them, the Green Supply Chain (GSC). This idea, brought to light by a more advanced concern about environmental matters of the developed countries, forced the firms to be accountable for their negative externalities related to the environment in which they operate \cite{srivastava_green_2007}.
 
   However such legislation lacks from a point of view of legal constraints, setting only a few qualitative restriction, poorly measurable by the enterprises or in some cases letting the customers pay for their environmental behavior toward waste disposition. These facts are inevitably leaving some degrees of freedom to the firms, on the other hand, is also important to notice that these are only seeds of legislation that show us how the long-term trend will be about the tolerance given to the behavior of firms with environmental concerns, a trend that in the future may require firms to set particular frameworks to be accountable for their environmental impact. Nowadays such effort is not achieved by the legal frameworks provided by the domestic legislators but by the Corporate Environmental Responsibility (CER), meaning that are the stakeholders to impose the companies to be more responsible on their day to day operations.
 
-  Looking at the literature, we can see that there is an emerging branch which deals with the Green Supply Chain Management, a new paradigm of Supply Chain Management whose aim is to keep under control the behavior of the firm during its operations, by applying policies such as Green Manufacturing and Remanufacturing, Green Design etc...
+  Speaking about the literature, is observable an emerging branch which deals with the Green Supply Chain Management, a new paradigm of Supply Chain Management whose aim is to keep under control the behavior of the firm during its operations, by applying policies such as Green Manufacturing and Re-manufacturing, Green Design etc... Because of that a Goal Programming model is proposed, in order to address such problems; following what proposed by literature, an enhanced model is proposed, such model, fixing quantitative and qualitative constraints to the pollution generated by the value adding activities, involved in the creation of the good, tries to implement the benefits of a recycling program enacted by the firm apropos the WEEE directive. In the case under scope, the choice was to pick a networking electronic appliance business (i.e. hubs, switches or routers).  In order to measure such impact, a framework provided by the Activity Based Costing is used; such approach is used in order to assess and address the marginal environmental impact of any additional unit elaborated by the transnational firms.
+\\
+\\
+The paper is organized in four parts where two of them are devoted to a review of the existing literature and the last two, which are a respectively model and result oriented. In the first of the literature sections a full overview of the Green Supply Chain framework will be given; at the same time the focus will be directed to the legal implications that are affecting both producer and distributors operating in the European Union. After this overview a deep analysis will be given on the state-of-the-art techniques used to model both Supply Chain Management and Logistics topics, focusing the attention on peculiar applications such as stochastic programming. Ultimately the two sections devoted to the model will be used to state the model proposed with its assumptions, and then to analyze its result through a scenario analysis.  
 
-  Because of that we propose a Goal Programming model in order to address such problems, following what proposed by literature we try to enhance such model fixing quantitative and qualitative constraints to the pollution generated by the value adding activities, involved in the creation of the good and we also try to implement the benefits of a recycling program enacted by the firm apropos the WEEE directive.
 
-  In our case, we chose the networking electronic appliance business (i.e. hub, switch or router).\todo{Il business può cambiare ad oggi ho trovato pochissimi dati a riguardo non avendo più accesso ai database aziendali}  In order to measure such impact, we'll use the framework provided by the Activity Based Costing, in order to assess and address the marginal environmental impact of any additional unit elaborated by the transnational firms.
+\pagebreak
 
 \section{Green Supply Chain}
-  Green Supply Chain may be defined as the series of interconnected activities across the border of different enterprises that adds value to the goods and services from the sourcing to the market. Its aim is to improve performance in measures of sustainability, cost reduction, emission reduction. Whereas Supply Chain Management sets its objectives to maximize profits and minimize waste, in economic terms, Green Supply Chain sets its objectives even further, posing as its ultimate mission to lower the ecological impact that a firm or a series of them has in their day to day operations. Such operations may involve:
-  \begin{itemize}
-    \item Green Manufacturing and Remanufactoring: is the process of controlling and reutilizing material in the manufacturing, in order to limit waste creation\cite{urvashi_green_2013};
-    \item Green Design: is an approach put in place to promote the environmental quality of a certain product or service,  by reducing negative impacts on the natural environment; an example could be the automatic switch of the television after a period of idleness\cite{ceschin_evolution_2016}; and
-    \item Green Operations in general: by green operation we mean any type of activity which does not fall into the two categories mentioned above but is characterized by a "green" attitude as for example the optimization of the offices consumption through a remote-working policy;
-  \end{itemize}
+Green Supply Chain saw a steady growth of interest in many enterprises\cite{Diabat2011} as well as by academics; a growth that, looking to the data\cite{Strobel18}, reached its hype between the 2012 and 2014 (Figure \ref{fig:occurrence}) and that may be strengthen in the next years because of the increasing environmental concern.
 
-  In the market under scope which is the European one, there are several legislation concerning the environmental impact of certain eProducts\footnote{for eProducts, we intend electrical and electronic equipment such as computers, TV-sets, fridges, cell phones and other electronic appliances}. The most important are:
+\begin{figure}
+	\includegraphics[width=\textwidth]{Images/occurence.png}
+	\caption{Occurrence of Green Supply Chain in papers indexed by Google Scholar}
+	\labe{fig:occurrence}
+\end{figure}
+Although Green Supply Chain manager is perceived as a game changer in order to unleash long term sustainability of a business, it's worth noting the lack of an univocal definition. In fact, some of the academics see GSCM ad a process, also called "greening process" from this school of thought belongs.
+
+Green Supply Chain may be defined as the series of interconnected activities across the border of different enterprises that adds value to the goods and services from the sourcing to the market. Its aim is to improve performance in measures of sustainability, cost reduction, emission reduction. Whereas Supply Chain Management sets its objectives to maximize profits and minimize waste, in economic terms, Green Supply Chain sets its objectives even further, posing as its ultimate mission to lower the ecological impact that a firm or a series of them has in their day to day operations. Such operations may involve:
+  \begin{itemize}
+    \item Green Manufacturing and Re-manufacturing: is the process of controlling and reutilizing material in the manufacturing, in order to limit waste creation\cite{urvashi_green_2013};
+    \item Green Design: is an approach put in place to promote the environmental quality of a certain product or service,  by reducing negative impacts on the natural environment; an example could be the automatic switch of the television after a period of idleness\cite{ceschin_evolution_2016}; and
+    \item Green Operations in general: by green operation is intended any type of activity which does not fall into the two categories mentioned above but is characterized by a "green" attitude as for example the optimization of the offices consumption through a remote-working policy;
+  \end{itemize}
+  \subsection{The legal framework: an European perspective}
+  In the market under scope which is the European one, there are several legislation concerning the environmental impact of certain e-Products\footnote{for e-Products, is intended an electrical or electronic equipment such as computers, TV-sets, fridges, cell phones and other electronic appliances}. The most important are:
   \begin{itemize}
     \item Waste Electrical \& Electronic Equipment (WEEE);
     \item Restriction on Hazardous Substances (RoHS): ;and
@@ -113,14 +124,14 @@
 
   In the following subsection, an additional overview is given to such legislation.
 
-\subsection{Waste Electrical \& Electronic Equipment}
-  The Waste Electrical \& Electronic Equipment also called WEEE is ruled in the European Community by Directive 2002/96/EC now repealed by the Directive 2012/19/EU \todo{Non ho citato esplicitamente la direttiva nelle fonti, nei paper che ho letto nessuno tende a farlo, nel caso fosse necessario provvederò a farlo}. The objectives of the policy are, to preserve, protect and improve the quality of the environment, to protect human health and to utilize natural resources prudently and rationally. That policy is based on the precautionary principle meaning that the polluter should pay for its damage. Is important to notice that in the European market such directive is impacting all the community members is not perfectly homogeneous ways because of the implementation which is remitted to the local authorities. This problem may incur in potential elusive behavior as highlighted by the German firms who exploited gaps in the law which have allowed them to move large amounts of WEEE declared for recycling to developing economies including India, China, Nigeria and Eastern Europe \cite{ongondo_how_2011}. Despite such cases, the overall impact of this directive is mostly positive as highlighted by the Eurostat data here exposed.
+\subsubsection{Waste Electrical \& Electronic Equipment}
+  The Waste Electrical \& Electronic Equipment also called WEEE is ruled in the European Community by Directive 2002/96/EC now repealed by the Directive 2012/19/EU \todo. The objectives of the policy are, to preserve, protect and improve the quality of the environment, to protect human health and to utilize natural resources prudently and rationally. That policy is based on the precautionary principle meaning that the polluter should pay for its damage. Is important to notice that in the European market such directive is impacting all the community members is not perfectly homogeneous ways because of the implementation which is remitted to the local authorities. This problem may incur in potential elusive behavior as highlighted by the German firms who exploited gaps in the law which have allowed them to move large amounts of WEEE declared for recycling to developing economies including India, China, Nigeria and Eastern Europe \cite{ongondo_how_2011}. Despite such cases, the overall impact of this directive is mostly positive as highlighted by the Eurostat data here exposed.
 
   The WEEE Directive currently sets a minimum collection target of 4 kg per year per inhabitant for WEEE from households. From 2016, the minimum collection rate shall be 45\% calculated on the basis of the total weight of WEEE collected. Where the WEEE is calculated with the following formula:
   $$
   W (n) = \sum{t = t_0}_{n} POM \cdot L^p(t,n)
   $$
-  Where $W(n)$ refers to the specific quantity of electrical and electronic waste for a specific year, $POM(n)$ is the quantity of new electrical component injected in the market and $L$ is the discard-based lifespan profile for the electrical component injected in the market. From the graph proposed below we can see how the target of minimum collection of 4 kg per year per inhabitant for WEEE from households was achieved by all the countries in the Eurozone however not all the countries has the same collection rate, meaning that some of them may have introduced legislation that comply only with the minimum target of the directive, leaving the households with the freedom to dispose of their WEEE in unconventional manner. Clearly this means for the enterprises less obbligation on the collection of eProducts, but at the same time less products to be recicled and less opportunity of remanufactuirng.
+  Where $W(n)$ refers to the specific quantity of electrical and electronic waste for a specific year, $POM(n)$ is the quantity of new electrical component injected in the market and $L$ is the discard-based lifespan profile for the electrical component injected in the market. From the graph proposed below is possible to see how the target of minimum collection of 4 kg per year per inhabitant for WEEE from households was achieved by all the countries in the Euro zone however not all the countries has the same collection rate, meaning that some of them may have introduced legislation that comply only with the minimum target of the directive, leaving the households with the freedom to dispose of their WEEE in unconventional manner. Clearly this means for the enterprises less obligations on the collection of e-Products, but at the same time less products to be recycled and less opportunity of remanufacturing.
 
   \begin{figure}
   \centering
@@ -128,17 +139,19 @@
   \caption{Kilograms of WEEE collected per capita}
   \end{figure}
 
-\subsection{Restriction on Hazardous Substances}
+\subsubsection{Restriction on Hazardous Substances}
   The Restriction on Hazardous Substances also called RoHS is represented by the Directive 2017/2102 (RoHS 2 recast). The scope is the restriction on the use of certain hazardous substances in electrical and electronic equipment (EEE) such as lead, mercury, cadmium, hexavalent chromium etc... In such case, as opposed to the WEEE the RoHS directive acts as a barrier to the products containing such minerals and not when they become waste. In considering such regulation is worth noting that there are no differences between the dimension of the distributing entity, meaning that small businesses, as well as large businesses, are equally affected by these restrictions. The only amendment is given to the batteries that may exceed such restriction.
 
-\subsection{Ecodesign Requirements for Energy-using Product}
-  The Directive 2009/125/EC is meant to deal with Ecodesign regulations, ecodesign regulations require manufacturers to decrease the energy consumption of their products by establishing minimum energy efficiency standards. In particular, The Ecodesign Directive provides a consistent legal framework for improving the environmental performance of products setting out a minimum mandatory requirement for the energy efficiency of theseProducts. In case of the design of IT networking products such as routers and switches the firms are obliged by such directive to implement some ecodesign features such as the maximum wattage of 1W in case of off mode or a standby maximum consumption of 2W. Such measure per se do not impact in any case the supply chain since they are just additional features that has to be implemented in theProducts sold in Europe.
+\subsubsection{Ecodesign Requirements for Energy-using Product}
+  The Directive 2009/125/EC is meant to deal with Ecodesign regulations. Ecodesign regulations require manufacturers to decrease the energy consumption of their products by establishing minimum energy efficiency standards. In particular, The Ecodesign Directive provides a consistent legal framework for improving the environmental performance of products setting out a minimum mandatory requirement for the energy efficiency of these products. In case of the design of IT networking products such as routers and switches the firms are obliged by such directive to implement some ecodesign features such as the maximum wattage of 1W in case of off mode or a standby maximum consumption of 2W. Such measure per se do not impact in any case the supply chain since they are just additional features that has to be implemented in the products sold in Europe.
 
-\section{A state of the art review \todo{Per ora ho riposrtato solo i paper che ho letto, man mano che li leggo li aggiungo}}
+\pagebreak 
+
+\section{A state-of-the-art review: mathematical modeling in SCM}
   As proposed by the Council of Supply Chain Management Professionals, the Supply Chain Management (SCM) is the planning and the management of all activities involved in sourcing and procurement, conversion, and logistics as well as coordination and collaboration with the entities. The problem arising from such activities seems to be well addressed by mathematical modeling, other advantages of such approach are the economic sustainability and the possibility to scale the model in order to address different situations.
-  From the comprehensive review built by Muna et al. \cite{mula_mathematical_2010} we discovered the methods used by the academic world and the specific situations the tried to model, which are:
+  From the comprehensive review built by Muna et al. \cite{mula_mathematical_2010} the methods used by the academic world and the specific situations they tried to model, are:
   \begin{itemize}
-	  \item Linear Programming: order quantinty definition by means of decentralization\cite{jung_order_2008}, production and distribution planning taking into account country specific regulations\cite{Oh_Karimi_2006}, multiple points of sales planning\cite{Kanyalkar_2005};
+	  \item Linear Programming: order quantity definition by means of decentralization\cite{jung_order_2008}, production and distribution planning taking into account country specific regulations\cite{Oh_Karimi_2006}, multiple points of sales planning\cite{Kanyalkar_2005};
 	  \item Mixed Integer Linear Programming: network optimization and routing configuration\cite{romo_optimizing_2009}, distribution planning in an environment with just a production plant and many distribution centers\cite{Rizk_Martel2008};
     \item Non Linear Programming: optimization of production, transport and inventories\cite{benjamin_analysis_1989};
     \item Multi Objective Programming: replenishment production and distribution planning with conflicting objectives simultaneously\cite{torabi_interactive_2008}, master planning\cite{Chern_Hsieh_2007};
@@ -148,11 +161,12 @@
     \item Hybrid Models.
   \end{itemize}
 
-  Is worth noting how the majority of the models pertain to the category of Mixed Integer Linear Programming, this may be due to the fact that is probably one of the simplest and most reliable methods that can be used to solve such problems, however, this simplicity comes with some costs such as the focus on a single linear objective function with linear constraints whereas we may face different objective functions as for example the manager preferences toward greener choices. Another interesting topic brought into light by Aouni \cite{azimian_supply_2017} is that such models are generally deterministic, where in reality such assumption does not hold most of the time, for example, the demand forecast can't be deterministic at all and derives from a stochastic process. This lack of deterministic variable lies also in case of the procurement where the price of a commodity is said to follow a sort of stochastic process and an order may be placed several days after the decision make it.
+  Is worth noting how the majority of the models pertain to the category of Mixed Integer Linear Programming, this may be due to the fact that is probably one of the simplest and most reliable methods that can be used to solve such problems, however, this simplicity comes with some costs such as the focus on a single linear objective function with linear constraints whereas in reality different objectives has to be taken into account as for example the manager preferences toward greener choices. Another interesting topic brought into light by Aouni \cite{azimian_supply_2017} is that such models are generally deterministic, where in reality such assumption does not hold most of the time, for example, the demand forecast can't be deterministic at all and derives from a stochastic process. This lack of deterministic variable lies also in case of the procurement where the price of a commodity is said to follow a sort of stochastic process and an order may be placed several days after the decision make it.
 
+  \pagebreak
 
 \section{Model formulation}
-The hibrid model we developed is based on the supply chain concept developed by Santoso\cite{Santoso_Ahmed_Goetschalckx_Shapiro_2005}plus the integration of supporting activities as enunciated by Porter\cite{CompetitiveAdvantage}in his concept of value chain. Above the model, we created a fuzzy goal programming model that tries to capture the  DM preferences about the target collection rate that should be achieved by the company in order to foster sustainable operations and a Green Supply Chain.
+The hybrid model developed is based on the supply chain concept developed by Santoso\cite{Santoso_Ahmed_Goetschalckx_Shapiro_2005}plus the integration of supporting activities as enunciated by Porter\cite{CompetitiveAdvantage}in his concept of value chain. Above the model, a fuzzy goal is created a fuzzy goal programming model that tries to capture the  DM preferences about the target collection rate that should be achieved by the company in order to foster sustainable operations and a Green Supply Chain.
 The model proposed by Santoso is formulated as follow:
 
 \begin{equation*}
@@ -180,10 +194,10 @@ The model proposed by Santoso is formulated as follow:
   y \in Y[0,1] 
 \end{equation}
 
-Where the objective function  is to minimize both the variable and fixed costs (here represented by the cost of bulding a plant) of a particular supply chain.
-The constraint posed in $(1)$ serves to maintain the flow constant in each passage(so called flow conservation); the second and third constraint here represented by $(2)$ and $(3)$ are respectively controlling the volume of the demand (receiver side) and the supply (supplier side) of the supply chain; whereas the fourth constraint is used to controll the capacity of each node. Lastly the we poses the $x$ variable indicating the flow of goods to be positive and the variable $y$ indicating the effective construction of the plant to assume a value between 0 and 1. 
+Where the objective function  is to minimize both the variable and fixed costs (here represented by the cost of building a plant) of a particular supply chain.
+The constraint posed in $(1)$ serves to maintain the flow constant in each passage(so called flow conservation); the second and third constraint here represented by $(2)$ and $(3)$ are respectively controlling the volume of the demand (receiver side) and the supply (supplier side) of the supply chain; whereas the fourth constraint is used to control the capacity of each node. Lastly the $x$ variable, indicating the flow of goods to be positive and the variable $y$ indicating the effective construction of the plant to assume a value between 0 and 1. 
 \\
-It's worth noting that such model do not implement any support activities, whreas the Porter model mentions them. Therefre the hibrid model will contain a set of constraint indicating such activities an a new objective function embracing this change.
+It's worth noting that such model do not implement any support activities, whereas the Porter model mentions them. Therefore the hybrid model will contain a set of constraint indicating such activities and a new objective function embracing this change.
 
 \begin{figure}
   \centering
@@ -245,7 +259,7 @@ It's worth noting that such model do not implement any support activities, whrea
   \caption{Porter's Value Chain}
 \end{figure}
 
-Such activities are a foundamental part on the supply chain that serves as glue with the supply chain steps to the deliver the value to the end-customer. Therefore the hibrid model will looks like this:
+Such activities are a fundamental part on the supply chain that serves as glue with the supply chain steps to the deliver the value to the end-customer. Therefore the hybrid model will looks like this:
 
 \begin{mini}
   {w,u}{f(w)+ R(w+6x)+ H(100w-x*w/500)}{}{}
@@ -282,9 +296,9 @@ Such activities are a foundamental part on the supply chain that serves as glue 
   y \in Y[0,1] \quad \quad  q \in Q[0,1]
 \end{equation}
 
-In formulating our hybrid model we didn't took into account the the fixed cost of building a plant, this happened for two reasons. The first reason is that we can consider the cost of bulding a plant as a sunk cost and therefore it should not influence our economic decision on whether to allocate a particular quantity of goodson a specific pland. Secondly since were using the Activity Based Cost method our focus will be on the activities that contributes in creating the marginal cost of the good in the supply chain. 
+In formulating our hybrid model is not taken into account the fixed cost of building a plant, this happened for two reasons. The first reason is the consideration of the cost of building a plant as a sunk cost and therefore it should not influence the economic decision on whether to allocate a particular quantity of goods on a specific plant. Secondly, because the Activity Based Cost method is used the focus will be on the activities that contributes in creating the marginal cost of the good in the supply chain. 
 
-Finally we wanted to implement the concept of green supply chain from a poin of view of the legislations activated by the EU countries. However since such legislations, especially the WEEE does not impose any quantifiable level to be collected by the firms but is intended to be for the ultimate polluters (meaning the end customers) we need a way to proxy the potential of collection of each country in order to forecast the collected quantity that the firm expect to receive each year on the base of what is sold today. Because the electronic waste turns out to be a resource for the firm we need to model the fuzzines of such desire expressed by the DM, and therefore we implemented a Fuzzy set\cite{Zadeh_1965} defined as:
+Finally the  implementation of the concept of green supply chain from a point of view of the legislation activated by the EU countries. However since such legislation, especially the WEEE does not impose any quantifiable level to be collected by the firms but is intended to be for the ultimate polluters (meaning the end customers) is necessary a way to proxy the potential of collection of each country in order to forecast the collected quantity that the firm expect to receive each year on the base of what is sold today. Because the electronic waste turns out to be a resource for the firm is necessary to model the fuzziness of such desire expressed by the DM, and therefore the implementation of a Fuzzy set\cite{Zadeh_1965} defined as:
 $$
 \mu [f_q(x)]=
 \begin{cases}
@@ -293,31 +307,30 @@ $$
 0 & f_q(x) \leq b_q - n_{max}
 \end{cases}
 $$
-Such set penalized the negative deviations from the target demanded by the decision maker. In our case the \textit{ratio} behind this is given by the fact that a very low amount of collected electronical waste may turn out as higher cost of production because of the additional cost of buying new material. Conversely is also important to take
+Such set penalized the negative deviations from the target demanded by the decision maker. In our case the \textit{ratio} behind this is given by the fact that a very low amount of collected electrical waste may turn out as higher cost of production because of the additional cost of buying new material. Conversely is also important to take
 
 
 \subsection{The Goal Programming model}
-Since we are triying to model a set of different objectives we opted for the Goal Programming as a multicriteria analysis tool therefore the resulting model will be set as follow: 
+Since the goals of the problem stated before are trying to model a set of different objectives the choices was to opt for the Goal Programming as a multi-criteria analysis tool therefore the resulting model will be set as follow: 
 \\
-The model proposed takes into account only one commodity because of simplicity mattershowever it can be adjusted to allow more than one commodity by including the trasformation process of each production step. The additional rules to be implemented in the modell may derive from other supply chain management tool more focused on the operational level such as production tree, etc... An example of such integration is proposed below.
+The model proposed takes into account only one commodity because of simplicity matters however it can be adjusted to allow more than one commodity by including the transformation process of each production step. The additional rules to be implemented in the model may derive from other supply chain management tool more focused on the operational level such as production tree, etc... An example of such integration is proposed below.
 
-In this case is possible to see how the two initial commodities are transformed passing through the production stage in one product that from now on will be used in the model for all the additional processes. From such simple example is evident that the process of transformation creates less goods passing from a stage to another, conversely the opposite contraddict the production tree assumptions and therefore will not be taken into account. 
+In this case is possible to see how the two initial commodities are transformed passing through the production stage in one product that from now on will be used in the model for all the additional processes. From such simple example is evident that the process of transformation creates less goods passing from a stage to another, conversely the opposite contradict the production tree assumptions and therefore will not be taken into account. 
 
 \subsubsection{Objective function}
-The objective function we're minimizing contains all the deviation from the soft constratins contained in equations ... 
+The objective function that has to be minimized contains all the deviation from the soft constraints contained in equations ... 
 \subsubsection{Constraints}
 The hard constraints identified by the equations from ... to ... are summarized below 
 
+\pagebreak
 
 \section{Results and Conclusion}
-In order to test such model we took a fictitius example proposed by... Since we included more assumptions and contraints compared to what proposed by the author, such as the fuzzy goal in maintaining a target level of electrical waste collection) we implemented some rules in defining the additional data, such rules are:
+In order to test such model a fictitious example is proposed by... Since some more assumptions were included as well as constraints compared to what proposed by the author, such as the fuzzy goal in maintaining a target level of electrical waste collection) additionally some some rules where implemented when defining the additional data, such rules are:
 \begin{itemize}
 	\item
 	\item
 \end{itemize}
-The results we collected during the simulations are reported in the following tables.
 
-From this analysis we can conclude that...
 
 \newpage 
 

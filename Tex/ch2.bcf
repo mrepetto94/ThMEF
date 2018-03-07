@@ -2144,24 +2144,26 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">srivastava_green_2007</bcf:citekey>
-    <bcf:citekey order="2">urvashi_green_2013</bcf:citekey>
-    <bcf:citekey order="3">ceschin_evolution_2016</bcf:citekey>
-    <bcf:citekey order="4">ongondo_how_2011</bcf:citekey>
-    <bcf:citekey order="5">mula_mathematical_2010</bcf:citekey>
-    <bcf:citekey order="6">jung_order_2008</bcf:citekey>
-    <bcf:citekey order="7">Oh_Karimi_2006</bcf:citekey>
-    <bcf:citekey order="8">Kanyalkar_2005</bcf:citekey>
-    <bcf:citekey order="9">romo_optimizing_2009</bcf:citekey>
-    <bcf:citekey order="10">Rizk_Martel2008</bcf:citekey>
-    <bcf:citekey order="11">benjamin_analysis_1989</bcf:citekey>
-    <bcf:citekey order="12">torabi_interactive_2008</bcf:citekey>
-    <bcf:citekey order="13">Chern_Hsieh_2007</bcf:citekey>
-    <bcf:citekey order="14">Liang_Cheng_2009</bcf:citekey>
-    <bcf:citekey order="15">Gupta_Maranas_2003</bcf:citekey>
-    <bcf:citekey order="16">azimian_supply_2017</bcf:citekey>
-    <bcf:citekey order="17">Santoso_Ahmed_Goetschalckx_Shapiro_2005</bcf:citekey>
-    <bcf:citekey order="18">CompetitiveAdvantage</bcf:citekey>
-    <bcf:citekey order="19">Zadeh_1965</bcf:citekey>
+    <bcf:citekey order="2">Diabat2011</bcf:citekey>
+    <bcf:citekey order="3">Strobel18</bcf:citekey>
+    <bcf:citekey order="4">urvashi_green_2013</bcf:citekey>
+    <bcf:citekey order="5">ceschin_evolution_2016</bcf:citekey>
+    <bcf:citekey order="6">ongondo_how_2011</bcf:citekey>
+    <bcf:citekey order="7">mula_mathematical_2010</bcf:citekey>
+    <bcf:citekey order="8">jung_order_2008</bcf:citekey>
+    <bcf:citekey order="9">Oh_Karimi_2006</bcf:citekey>
+    <bcf:citekey order="10">Kanyalkar_2005</bcf:citekey>
+    <bcf:citekey order="11">romo_optimizing_2009</bcf:citekey>
+    <bcf:citekey order="12">Rizk_Martel2008</bcf:citekey>
+    <bcf:citekey order="13">benjamin_analysis_1989</bcf:citekey>
+    <bcf:citekey order="14">torabi_interactive_2008</bcf:citekey>
+    <bcf:citekey order="15">Chern_Hsieh_2007</bcf:citekey>
+    <bcf:citekey order="16">Liang_Cheng_2009</bcf:citekey>
+    <bcf:citekey order="17">Gupta_Maranas_2003</bcf:citekey>
+    <bcf:citekey order="18">azimian_supply_2017</bcf:citekey>
+    <bcf:citekey order="19">Santoso_Ahmed_Goetschalckx_Shapiro_2005</bcf:citekey>
+    <bcf:citekey order="20">CompetitiveAdvantage</bcf:citekey>
+    <bcf:citekey order="21">Zadeh_1965</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
