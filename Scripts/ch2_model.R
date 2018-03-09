@@ -26,8 +26,6 @@ library("here")
 library("ggplot2")
 library("googlesheets")
 
-set.seed(200)
-
 # Create the bot object
 bot <- TGBot$new(token = bot_token('RBot'))
 bot$set_default_chat_id(423034192)
@@ -52,7 +50,7 @@ Volatility <-c(3,2,1.5,2.5) #volatility of the commodity on the reference market
 
 # Data File DECLARATION of unchanged variables
 D <- 3100  #number of components
-# ProcAct <- c(40, 43, 46, 49) #Variable cost based on the procurement activities
+
 ProdAct <- c(49, 46, 43, 40) #Variable cost based on the production activities
 capacity <- c(1000, 1500, 1500, 1000)
 cost = matrix(

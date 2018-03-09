@@ -863,26 +863,24 @@
 }
 
 @Article{Colapinto2017,
-  author        = {Colapinto, Cinzia and Liuzzi, Danilo and Marsiglio, Simone},
-  title         = {Sustainability and intertemporal equity: a multicriteria approach},
-  journal       = {Annals of Operations Research},
-  year          = {2017},
-  volume        = {251},
-  number        = {1-2},
-  pages         = {271--284},
-  __markedentry = {[mrepetto94:]},
-  publisher     = {Springer},
+  author    = {Colapinto, Cinzia and Liuzzi, Danilo and Marsiglio, Simone},
+  title     = {Sustainability and intertemporal equity: a multicriteria approach},
+  journal   = {Annals of Operations Research},
+  year      = {2017},
+  volume    = {251},
+  number    = {1-2},
+  pages     = {271--284},
+  publisher = {Springer},
 }
 
 @Article{Trenado2014,
-  author        = {Trenado, Manuel and Romero, Mar{\'\i}a and Cuadrado, Mar{\'\i}a L and Romero, Carlos},
-  title         = {Corporate social responsibility in portfolio selection: A “goal games” against nature approach},
-  journal       = {Computers \& Industrial Engineering},
-  year          = {2014},
-  volume        = {75},
-  pages         = {260--265},
-  __markedentry = {[mrepetto94:6]},
-  publisher     = {Elsevier},
+  author    = {Trenado, Manuel and Romero, Mar{\'\i}a and Cuadrado, Mar{\'\i}a L and Romero, Carlos},
+  title     = {Corporate social responsibility in portfolio selection: A “goal games” against nature approach},
+  journal   = {Computers \& Industrial Engineering},
+  year      = {2014},
+  volume    = {75},
+  pages     = {260--265},
+  publisher = {Elsevier},
 }
 
 @Article{Diabat2011,
@@ -907,6 +905,70 @@
   commit       = {9897d751fbe903bfe296bcbde8ff5410078734c0},
   journal      = {GitHub repository},
   publisher    = {GitHub},
+}
+
+@Article{Gilbert2001,
+  author  = {Gilbert, Sean},
+  title   = {Greening supply chain: Enhancing competitiveness through green productivity},
+  journal = {Tapei, Taiwan},
+  year    = {2001},
+  volume  = {16},
+  pages   = {1--6},
+}
+
+@Article{Kogg2003,
+  author    = {Kogg, Beatrice},
+  title     = {Greening a Cotton-textile Supply Chain.},
+  journal   = {Greener Management International},
+  year      = {2003},
+  number    = {43},
+  publisher = {JSTOR},
+}
+
+@Article{Zsidisin2001,
+  author    = {Zsidisin, George A and Siferd, Sue P},
+  title     = {Environmental purchasing: a framework for theory development},
+  journal   = {European Journal of Purchasing \& Supply Management},
+  year      = {2001},
+  volume    = {7},
+  number    = {1},
+  pages     = {61--73},
+  publisher = {Elsevier},
+}
+
+@Article{Zhu2008,
+  author    = {Zhu, Qinghua and Sarkis, Joseph and Lai, Kee-hung},
+  title     = {Confirmation of a measurement model for green supply chain management practices implementation},
+  journal   = {International journal of production economics},
+  year      = {2008},
+  volume    = {111},
+  number    = {2},
+  pages     = {261--273},
+  publisher = {Elsevier},
+}
+
+@Article{YolLee2007,
+  author        = {Yol Lee, Su and Rhee, Seung-Kyu},
+  title         = {The change in corporate environmental strategies: a longitudinal empirical study},
+  journal       = {Management Decision},
+  year          = {2007},
+  volume        = {45},
+  number        = {2},
+  pages         = {196--216},
+  __markedentry = {[mrepetto94:]},
+  publisher     = {Emerald Group Publishing Limited},
+}
+
+@Article{Shan2018,
+  author        = {Shan, Wei and Wang, Jingyi},
+  title         = {Mapping the Landscape and Evolutions of Green Supply Chain Management},
+  journal       = {Sustainability},
+  year          = {2018},
+  volume        = {10},
+  number        = {3},
+  pages         = {597},
+  __markedentry = {[mrepetto94:6]},
+  publisher     = {Multidisciplinary Digital Publishing Institute},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

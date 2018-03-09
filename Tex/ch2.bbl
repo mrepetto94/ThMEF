@@ -222,6 +222,29 @@
       \verb :/home/mrepetto94/Documents/Biblio/0b61ebadf8a840a66ea705a0f4d038a2db7f.pdf:PDF
       \endverb
     \endentry
+    \entry{Gilbert2001}{article}{}
+      \name{author}{1}{}{%
+        {{hash=22fc96bb5db4c931187e648b5a2fdf9e}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{22fc96bb5db4c931187e648b5a2fdf9e}
+      \strng{fullhash}{22fc96bb5db4c931187e648b5a2fdf9e}
+      \strng{authornamehash}{22fc96bb5db4c931187e648b5a2fdf9e}
+      \strng{authorfullhash}{22fc96bb5db4c931187e648b5a2fdf9e}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Tapei, Taiwan}
+      \field{title}{Greening supply chain: Enhancing competitiveness through green productivity}
+      \field{volume}{16}
+      \field{year}{2001}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
     \entry{Gupta_Maranas_2003}{article}{}
       \name{author}{2}{}{%
         {{hash=12f99fb583327492183593a3e6fb01a1}{%
@@ -688,6 +711,38 @@
       \verb 10.1016/j.ejor.2004.01.046
       \endverb
     \endentry
+    \entry{Shan2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=240d28f158cb7d0bb1aaa7695498c962}{%
+           family={Shan},
+           familyi={S\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=3bf3a752e474cb31e74ec87566570269}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jingyi},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{a519dcce42221b84dd85e95afec9df6e}
+      \strng{fullhash}{a519dcce42221b84dd85e95afec9df6e}
+      \strng{authornamehash}{a519dcce42221b84dd85e95afec9df6e}
+      \strng{authorfullhash}{a519dcce42221b84dd85e95afec9df6e}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{number}{3}
+      \field{title}{Mapping the Landscape and Evolutions of Green Supply Chain Management}
+      \field{volume}{10}
+      \field{year}{2018}
+      \field{pages}{597}
+      \range{pages}{1}
+    \endentry
     \entry{srivastava_green_2007}{article}{}
       \name{author}{1}{}{%
         {{hash=4a3525225c30f57741f0d7cd1afb1be6}{%
@@ -841,6 +896,38 @@
       \field{title}{Academic Keyword Occurrence}
       \field{year}{2018}
     \endentry
+    \entry{YolLee2007}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3a6c475c7a40e4f1351e6e1b78e7eb0f}{%
+           family={Yol\bibnamedelima Lee},
+           familyi={Y\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Su},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7c56fa73a82d270ee4007ce83141afc5}{%
+           family={Rhee},
+           familyi={R\bibinitperiod},
+           given={Seung-Kyu},
+           giveni={S\bibinithyphendelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Group Publishing Limited}%
+      }
+      \strng{namehash}{1e53cf495cb2ca6744bb569bfdea8aea}
+      \strng{fullhash}{1e53cf495cb2ca6744bb569bfdea8aea}
+      \strng{authornamehash}{1e53cf495cb2ca6744bb569bfdea8aea}
+      \strng{authorfullhash}{1e53cf495cb2ca6744bb569bfdea8aea}
+      \field{sortinit}{Y}
+      \field{sortinithash}{f86c10978eb0c0879609ce6a4f43da7b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management Decision}
+      \field{number}{2}
+      \field{title}{The change in corporate environmental strategies: a longitudinal empirical study}
+      \field{volume}{45}
+      \field{year}{2007}
+      \field{pages}{196\bibrangedash 216}
+      \range{pages}{21}
+    \endentry
     \entry{Zadeh_1965}{article}{}
       \name{author}{1}{}{%
         {{hash=e5b8aa9869d6febac84c8802e26a3e2c}{%
@@ -869,6 +956,75 @@
       \verb{doi}
       \verb 10.1016/S0019-9958(65)90241-X
       \endverb
+    \endentry
+    \entry{Zhu2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3c3b58db6aa5d894672acf8ac802b6d8}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Qinghua},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=d5649c7feb18cacda80c49d0b9376674}{%
+           family={Sarkis},
+           familyi={S\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ea1457f8c0538c9eedb2305c57ef2b22}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Kee-hung},
+           giveni={K\bibinithyphendelim h\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{94f03a9540e524a680b747b14574fa0d}
+      \strng{fullhash}{94f03a9540e524a680b747b14574fa0d}
+      \strng{authornamehash}{94f03a9540e524a680b747b14574fa0d}
+      \strng{authorfullhash}{94f03a9540e524a680b747b14574fa0d}
+      \field{sortinit}{Z}
+      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International journal of production economics}
+      \field{number}{2}
+      \field{title}{Confirmation of a measurement model for green supply chain management practices implementation}
+      \field{volume}{111}
+      \field{year}{2008}
+      \field{pages}{261\bibrangedash 273}
+      \range{pages}{13}
+    \endentry
+    \entry{Zsidisin2001}{article}{}
+      \name{author}{2}{}{%
+        {{hash=15469e54d20d020233c11c40c98108a5}{%
+           family={Zsidisin},
+           familyi={Z\bibinitperiod},
+           given={George\bibnamedelima A},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5f4d5505b11582bb9f19e9728bbb29d1}{%
+           family={Siferd},
+           familyi={S\bibinitperiod},
+           given={Sue\bibnamedelima P},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{16497346493190f109285b44c32ac74d}
+      \strng{fullhash}{16497346493190f109285b44c32ac74d}
+      \strng{authornamehash}{16497346493190f109285b44c32ac74d}
+      \strng{authorfullhash}{16497346493190f109285b44c32ac74d}
+      \field{sortinit}{Z}
+      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Purchasing \& Supply Management}
+      \field{number}{1}
+      \field{title}{Environmental purchasing: a framework for theory development}
+      \field{volume}{7}
+      \field{year}{2001}
+      \field{pages}{61\bibrangedash 73}
+      \range{pages}{13}
     \endentry
   \endsortlist
 \endrefsection
