@@ -1,7 +1,7 @@
-##########################
+############
 # The script creates 3 parts of the model in chapter 2, namely the .dat the .mod and the .run files
 # Then wrap it in an XML object and send it to neos server
-##########################
+############
 
 getresult <- function (result, name, nc, nr){
   k<-1
@@ -21,98 +21,82 @@ getresult <- function (result, name, nc, nr){
 
 library("rneos")
 library("fPortfolio")
-library("telegram")
-library("here")
 library("ggplot2")
+library("here")
 library("googlesheets")
 
-# Create the bot object
-bot <- TGBot$new(token = bot_token('RBot'))
-bot$set_default_chat_id(423034192)
 # Start routine
 setwd(here())
-# Turn off warnings (for XML package)
-options(warn = -1)
+
 # Ping the neos server
 Nping()
 
-# Setting the number of simulations
-n <- 1
-
 # Read the data from the Gsheet EARLY IMPLEMENTATION
-Sheet <- gs_url("https://docs.google.com/spreadsheets/d/1naneKBCuCWOJfBOnacVWGmNWvkRTb4oK2znkebMDPLo/edit?usp=sharing") 
-PocAct <- as.numeric(gs_read(ss = Sheet, ws = 1, range = "B3:E3", col_names = FALSE))	
+sheet<- gs_url("https://docs.google.com/spreadsheets/d/1naneKBCuCWOJfBOnacVWGmNWvkRTb4oK2znkebMDPLo/edit?usp=sharing") 
 
+data  <- gs_read(ss = sheet, ws = 1, range = "A1:AB11", col_names = TRUE)	
 
-# Commodity data
-Price <- c(11,12,13,12) #price at time zero
-Volatility <-c(3,2,1.5,2.5) #volatility of the commodity on the reference market
+n <- length(data$N_entity)
 
-# Data File DECLARATION of unchanged variables
-D <- 3100  #number of components
+q <- (length(data) - n + 1) : (length(data)) #index of the transportation matrix
 
-ProdAct <- c(49, 46, 43, 40) #Variable cost based on the production activities
-capacity <- c(1000, 1500, 1500, 1000)
-cost = matrix(
-  c(0,	6,	8,	12,
-    6,	0,	3,	6,
-    8,	3,	0,	3,
-    12,	6,	3,	0),
-  nrow=4,
-  ncol=4,
-  byrow = TRUE)
+demand  <- 2540000  #number of components
 
 # Get the template for the solver
 template<-NgetSolverTemplate(category = "go", solvername = "BARON", inputMethod = "AMPL")
 
 # Model File:
   modf <- c(
-    "set ORIG := 1..4;",
-    "set DEST := 1..4;",
-    "param capacity {DEST} >= 0;",
-    "param K;",
-    "param cost {ORIG,DEST} >= 0;",
-    "param ProcV {ORIG} >= 0;",
-    "param ProdV {ORIG} >= 0;",
-    "check: K <= sum {j in DEST} capacity[j];",
-    "var supply {ORIG} >= 0;",
-    "var supply2{ORIG} >= 0;",
-    "var Trans {ORIG,DEST} >= 0;",
-    "var DevT >= 0;",
-    "var DevProc >= 0;",
-    "var DevProd >= 0;",
+    paste("set ORIG := 1..",n,";"),
+    paste("set DEST := 1..",n,";"),
     "",
-    "minimize Total_Deviation: DevProc + DevT + DevProd;",
+    "param operation_capacity {DEST} >= 0;",
+    "param demand;",
+    "param transportation_cost {ORIG,DEST} >= 0;",
+    "param inbound_cost{ORIG} >= 0;",
+    "param operation_cost{ORIG} >= 0;",
     "",
-    "s.t. Inbound: sum {i in ORIG} ProcV[i] * supply[i] - DevProc = 0;",
-    "s.t. Transport: sum {i in ORIG, j in DEST} cost[i,j] * Trans[i,j] - DevT = 0;",
-    "s.t. Operations: sum {i in ORIG} ProdV[i] * supply2[i] - DevProd = 0;",
+    "check: demand <= sum {j in DEST} operation_capacity[j];",
     "",
-    "s.t. Supply {i in ORIG}: sum {j in DEST} Trans[i,j] = supply[i];",
-    "s.t. Capacity {j in DEST}: sum {i in ORIG} Trans[i,j] <= capacity[j];",
-    "s.t. Allocation: sum {i in ORIG} supply[i]= K;",
-    "s.t. Allocation2{i in ORIG}: sum {j in DEST} Trans[j,i] = supply2[i];"
+    "var inbound_supply {ORIG} >= 0;",
+    "var operation_supply {ORIG} >= 0;",
+    "",
+    "var trans_inbound_operation {ORIG,DEST} >= 0;",
+    #"var DevT >= 0;",
+    "var dev_inbound >= 0;",
+    "var dev_transportation_inb_opt >= 0;",
+    "var dev_operation >= 0;",
+    "",
+    "minimize Total_Deviation: dev_inbound + dev_operation  + dev_transportation_inb_opt;",
+    "",
+    "s.t. Inbound: sum {i in ORIG} inbound_cost[i] * inbound_supply[i] - dev_inbound = 0;",
+    "s.t. Operation: sum {i in ORIG} operation_cost[i] * operation_supply[i] - dev_operation = 0;",
+    "s.t. TransportInbound2Operation: sum {i in ORIG, j in DEST} transportation_cost[i,j] * trans_inbound_operation[i,j] - dev_transportation_inb_opt = 0;",
+        "",
+    #"s.t. Supply {i in ORIG}: sum {j in DEST} Trans[i,j] = supply[i];",
+    "s.t. Capacity {j in DEST}: sum {i in ORIG} trans_inbound_operation[i,j] <= operation_capacity[j];",
+    "s.t. Allocation1: sum {i in ORIG} inbound_supply[i]= demand;",
+    "s.t. Allocation2: sum {i in ORIG} operation_supply[i]= demand;"
+    #"s.t. Allocation2{i in ORIG}: sum {j in DEST} Trans[j,i] = supply2[i];"
   )
 
 # Run File:
   comf <- c(
     "solve;",
-    "display DevProc, DevProd, DevT;",
-    "display supply;", 
-    "display supply2;",
-    "option display_1col 0;",
-    "display Trans;"
+    "display dev_inbound;",
+    "display inbound_supply;",
+    "display operation_supply;",
+    "display trans_inbound_operation;"
   )
-
-  ProcV <- ProcAct
   
   # Data File:
-  amplDataOpen("ampl") #clear the dat file
-  amplDataAddValue("K", K, "ampl")
-  amplDataAddVector("ProcV", ProcV, "ampl")
-  amplDataAddVector("ProdV", ProcAct, "ampl")
-  amplDataAddVector("capacity", capacity, "ampl")
-  amplDataAddMatrix("cost",cost ,"ampl")
+  amplDataOpen("ampl") #clear the dat file 
+  amplDataAddValue("demand", demand, "ampl")
+  amplDataAddVector("inbound_cost", data$Inbound_cost, "ampl")
+  amplDataAddVector("operation_cost", data$Operation_cost, "ampl")
+  amplDataAddVector("operation_capacity", data$Operation_capacity, "ampl")
+ amplDataAddMatrix("transportation_cost",as.matrix(data[q]),"ampl")
+  
   # Write in the variable 
   datf <- paste(paste(readLines("ampl.dat"), collapse = "\n"), "\n")
 
@@ -120,13 +104,11 @@ template<-NgetSolverTemplate(category = "go", solvername = "BARON", inputMethod 
   argslist <- list(model = modf, data = datf, commands = comf, comments = "")
   xmls <- CreateXmlString(neosxml = template, cdatalist = argslist)
   (test <- NsubmitJob(xmlstring = xmls, user = "mrepetto94@me.com", interface = "", id = 0))
-  result <- NgetFinalResults(test)
-  #cleaning the result
-  objective[[i]] <- 
-  as.numeric(sub("Objective ", "", unlist(strsplit(result@ans, "\n"))[grep("Objective", unlist(strsplit(result@ans, "\n")))]))
   
-  supply <- getresult(result, "supply", 1, 4)
-  supply2 <- getresult(result, "supply2", 1, 4)
-  trans <- getresult(result, "Trans", 4, 4)
+  result <- NgetFinalResults(test)
+ 
+  #cleaning the result
+  #supply <- getresult(result, "supply", 1, 4)
+  #supply2 <- getresult(result, "supply2", 1, 4)
+  #trans <- getresult(result, "Trans", 4, 4)
 
-bot$sendMessage(paste("The process is complete, the files are in: ", here()))
