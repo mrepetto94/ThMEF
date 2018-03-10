@@ -1,0 +1,40 @@
+\documentclass[a4paper,12pt,twoside]{book}
+
+\usepackage{pacchetti}	%PACCHETTI USATI
+\usepackage{macro}	%MACRO IMPLEMENTATE
+%\makeindex																						%CREA INDICE ANALITICO
+
+\begin{document}  
+	\title{Titolo}	%CREA TITOLO
+	\author{Discente ZKJ \hfill xxxxxx}
+	\titolocorso{Master in Economics and Finance}
+	\annoaccademico{2017/2018}	% ANNO ACCADEMICO 
+	\relatore{Docente XY\hfill}	% RELATORE PRINCIPALE
+	\correlatore{Docente JK\hfill}	% CORRELATORE
+	
+	\maketitle
+	\salvastmpB
+	\clearpage{\pagestyle{empty}\cleardoublepage}
+	\tableofcontents
+	\salvastmpB	
+	\newpage	
+	\listoffigures		
+	\newpage	
+	\listoftables	%\lstlistoflistings
+	%===========================
+	\input{introduzione}
+	%===========================
+	\input{cap_1}
+	%===========================
+	\input{cap_2}
+	%===========================
+	%\appendix
+	%\input{codifica}
+	
+	\bibliographystyle{alpha}
+	\bibliography{bibliografia}
+	\addcontentsline{toc}{chapter}{Bibliografia}
+
+	%\printindex
+\end{document}
+% Eccetto dove diversamente specificato, i contenuti di questo sito sono rilasciati sotto Licenza Creative Commons Attribuzione 2.5. http://creativecommons.org/licenses/by/2.5/it/

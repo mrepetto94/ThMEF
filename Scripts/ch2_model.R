@@ -40,44 +40,42 @@ n <- length(data$N_entity)
 
 q <- (length(data) - n + 1) : (length(data)) #index of the transportation matrix
 
-demand  <- 2540000  #number of components
+demand  <- 1000  #number of components
 
 # Get the template for the solver
 template<-NgetSolverTemplate(category = "go", solvername = "BARON", inputMethod = "AMPL")
 
 # Model File:
   modf <- c(
-    paste("set ORIG := 1..",n,";"),
-    paste("set DEST := 1..",n,";"),
-    "",
-    "param operation_capacity {DEST} >= 0;",
-    "param demand;",
-    "param transportation_cost {ORIG,DEST} >= 0;",
-    "param inbound_cost{ORIG} >= 0;",
-    "param operation_cost{ORIG} >= 0;",
-    "",
-    "check: demand <= sum {j in DEST} operation_capacity[j];",
-    "",
-    "var inbound_supply {ORIG} >= 0;",
-    "var operation_supply {ORIG} >= 0;",
-    "",
-    "var trans_inbound_operation {ORIG,DEST} >= 0;",
-    #"var DevT >= 0;",
-    "var dev_inbound >= 0;",
-    "var dev_transportation_inb_opt >= 0;",
-    "var dev_operation >= 0;",
-    "",
-    "minimize Total_Deviation: dev_inbound + dev_operation  + dev_transportation_inb_opt;",
-    "",
-    "s.t. Inbound: sum {i in ORIG} inbound_cost[i] * inbound_supply[i] - dev_inbound = 0;",
-    "s.t. Operation: sum {i in ORIG} operation_cost[i] * operation_supply[i] - dev_operation = 0;",
-    "s.t. TransportInbound2Operation: sum {i in ORIG, j in DEST} transportation_cost[i,j] * trans_inbound_operation[i,j] - dev_transportation_inb_opt = 0;",
-        "",
-    #"s.t. Supply {i in ORIG}: sum {j in DEST} Trans[i,j] = supply[i];",
+	    paste("set ORIG := 1..",n,";"),
+	    paste("set DEST := 1..",n,";"),
+	    "param operation_capacity {DEST} >= 0;",
+	    "param demand;",
+	    "param transportation_cost {ORIG,DEST} >= 0;",
+	    "param inbound_cost{ORIG} >= 0;",
+	    "param operation_cost{ORIG} >= 0;",
+	    #Check that the demand do not overflow the capacities of each step
+	    "check: demand <= sum {j in DEST} operation_capacity[j];",
+	    #Decision variables
+	    "var inbound_supply {ORIG} >= 0;",
+	    "var operation_supply {ORIG} >= 0;",
+	    "var trans_inbound_operation {ORIG,DEST} >= 0;",
+	    #Deviational variables
+	    "var dev_inbound >= 0;",
+	    "var dev_transportation_inb_opt >= 0;",
+	    "var dev_operation >= 0;",
+	    #Minimize the deviations
+	    "minimize Total_Deviation: dev_inbound + dev_operation  + dev_transportation_inb_opt;",
+	    #Soft constraints
+	    "s.t. Inbound: sum {i in ORIG} inbound_cost[i] * inbound_supply[i] - dev_inbound = 0;",
+	    "s.t. Operation: sum {i in ORIG} operation_cost[i] * operation_supply[i] - dev_operation = 0;",
+	    "s.t. TransportInbound2Operation: sum {i in ORIG, j in DEST} transportation_cost[i,j] * trans_inbound_operation[i,j] - dev_transportation_inb_opt = 0;",
+	    #Hard constraints, the positivity if the deviation was already stated in the preamble
+    "s.t. Flowconservation_inbound {i in ORIG}: sum {j in DEST} trans_inbound_operation[i,j] = inbound_supply[i];",
+    "s.t. Flowconservation_operation {i in ORIG}: sum {j in DEST} trans_inbound_operation[i,j] = operation_supply[i];",
     "s.t. Capacity {j in DEST}: sum {i in ORIG} trans_inbound_operation[i,j] <= operation_capacity[j];",
-    "s.t. Allocation1: sum {i in ORIG} inbound_supply[i]= demand;",
-    "s.t. Allocation2: sum {i in ORIG} operation_supply[i]= demand;"
-    #"s.t. Allocation2{i in ORIG}: sum {j in DEST} Trans[j,i] = supply2[i];"
+    "s.t. Allocation_inbound: sum {i in ORIG} inbound_supply[i]= demand;",
+    "s.t. Allocation_operation: sum {i in ORIG} operation_supply[i]= demand;"
   )
 
 # Run File:

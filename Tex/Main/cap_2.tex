@@ -1,0 +1,87 @@
+\clearpage{\pagestyle{empty}\cleardoublepage}	
+\chapter{Modello applicato ad un singolo sistema}%Modello applicato alla singola macchina
+%\chapter{Come definire un modello in ambito locale}
+%\begin{flushright}\begin{small}\textit{I computer sono inutili, possono solo dare risposte.}\\
+%Pablo Picasso\\
+%\end{small}\end{flushright}
+\begin{flushright}\begin{small}\textit{Misura ciò che è misurabile, e rendi misurabile ciò che non lo è.}\\
+Galileo Galilei (1564 - 1642)\\
+\end{small}\end{flushright}
+
+\section{Definizione delle variabili}\label{sec:DefinizioneDiUnModello}
+
+\begin{doublespace}
+
+Il primo passo verso la costruzione del modello\index{modello}, è quello di definire le variabili\index{variabili} che useremo in futuro\index{futuro}.\\
+Nel contesto di affidabilità\index{affidabilità} Macintosh\index{Macintosh}\dots\\
+Tuttavi, useremo il contesto Unix\index{Unix} e definiremo solo tre variabili:
+\begin{itemize}
+	\item \texttt{ls}\index{ls}: con redirezione o pipe
+	\item \texttt{top}\index{top}: visione dei processi
+\end{itemize}
+\noindent Queste tre vengono rappresentate su una scale compresa tra $0-5$; $0$ quando il comando non è mai stato lanciato, $5$ il comando è stato lancia.
+
+\section{Tassonomia attaccanti}\label{sec:TassonomiaAttaccanti}
+
+Questa fase, è rappresentata della raccolta dei dati\index{dati}, al fine di delineare i possibili attaccanti\index{attaccanti}.\\
+I dati di questa fase verranno forniti come esempi e non come raccolta effettiva. Anche se sono già avviati dei progetti vedi Honeynet\index{Honeynet} chda una simulazione\index{simulazione} fatta ad hoc tramite alcune specifiche\index{specifiche}. Per la visualizzazione dei dati d'esempio, si faccia rifermento all'Appendice.\\
+I risultati della simulazione precedente ricordo che sono dati verosimili ma non veri, e che per semplicità useremo solo tre possibili pattern:
+\begin{enumerate}
+	\item \textbf{Attaccante 1}: $ls=5$; $grep=4.1$; $top=4.3$; $Tot.=13.4$\\
+		Il numero alto del comando ls indica una navigazione forte nella struttura del file system, il comando grep sottolinea una possibile ricerca all'interno di file di sistema per esempio di una qualche stringa; infine il comando top lanciato molte volte può indica
+	Il comando ls è stato lanciato qualche volta, mentre il comando\index{comando} grep non è stato mai toccato, quindi nessuna ricerca all'interno di file; anche l comando top non è in misura apprezzabile. Possiamo concludere che questo attaccante abbia solo visionato una parte del file system\index{file system}.
+\end{enumerate}
+
+In tabella \ref{tab:grado} a Pagina \pageref{tab:grado} viene riportata una graduatoria dei possibili attaccanti.
+
+%\begin{threeparttable}
+
+%\begin{center}
+\begin{longtable}{|c|l|c|}
+\caption{\small{Bontà attaccanti}}\label{tab:grado}\\
+\hline
+Numero& Etichetta attaccanti &Bontà\index{Bontà}  \\ 
+\hline
+\hline
+\endfirsthead
+\hline
+Numero& Etichetta attaccanti &Bontà  \\ 
+\hline
+\endhead
+ \multicolumn{3}{r}{Segue\dots}
+\endfoot
+%	\hline
+\endlastfoot
+\hline
+1 & Danger\index{Danger} & 12.5 - 15  \\ 
+\hline
+2& Warning\index{Warning} & 2 - 12.5  \\ 
+\hline
+3 & Loser\index{Loser} & 0 - 2  \\  
+\hline
+	\end{longtable}
+%	\begin{tablenotes}
+	%	\item[a] {\footnotesize Valore impianto meno l'ammortamento}
+	%	\item[b] {\footnotesize Obbligazioni azionarie}
+		%\item[c] {\footnotesize Calcolato come $\Delta\ Attivo - Passivo$}
+	%\end{tablenotes}
+%	\end{threeparttable}
+%\end{table}
+%\end{center}
+
+%Per esemplificazione riporto i grafici che rappresentano la tassonomia\index{tassonomia} dell'attaccante danger\index{danger} e warning\index{warning}.\\
+
+%\newpage
+
+
+\section{Memoria}\label{sec:Memoria}
+Il concetto di memoria\index{memoria}, ci porta a modellare un attaccante in modo reale, inoltre ci può risultare utile per rappresentare il concetto di \emph{apprendimento}\index{apprendimento}, a questo proposito è molto interessante  dove appunto viene preso in considerazione tale aspetto. Di seguito, viene riportata una descrizione dei sistemi con e senza memoria\index{senza memoria}.%\newpage
+\begin{itemize}
+	\item \textbf{Senza memoria}
+	quando l'attaccante deve fare una scelta, decide senza essere influenzato dalle operazionche un ciclo infinito tra $Iz$ e $ob1$.
+\end{itemize}
+
+Nel caso di una singola macchina compromessa, il fatto di imparare è sicuramente legato al concetto di memoria, in altre parole vengono rappresentati i suoi errori o i tentativi\index{tentativi} di accesso. Questo fatto è molto importante perché ci consente di introdurre il concetto di ``\emph{backtrack}''\index{backtrack}.
+
+
+\end{doublespace}

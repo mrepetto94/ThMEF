@@ -1,0 +1,74 @@
+% *********************************************************
+% *                       Macro                           *
+% *********************************************************
+
+% *                    \salvastmpB                        *
+
+% ? Produce un puntino del colore indicato in una pagina
+%   bianca, questo per evitare che il driver di stampa di 
+%   windows non riconosca la pagina bianca inserita 
+%   volontariamente e renda completamente errata la numera-
+%   zione del documento stampato
+
+\def\salvastmpB#1{\gdef\salvastmpB{#1}}
+\salvastmpB{\newpage\thispagestyle{empty}\textcolor{red}{.}}
+
+% #                   # Frontespizio #                    #
+
+% ? Macro usate nel frontespizio (\MIN, \ATENEO, \DIP, 
+%		\FAC, \LINE)
+
+% *                        \MIN                         *
+
+% ? Produce il logo dell'Università di Milano in conformi-
+%   tà con: http://www.unimi.it/ateneo/12902.htm
+
+%\newcommand\MIN{\includegraphics[width=4cm,height=4cm]{minerva}}
+\newcommand\MIN{\includegraphics[width=12.5cm,height=6.5cm]{centrato_piccolo_nero.jpg}}
+
+% *                       \ATENEO                       *
+
+% ? Produce la didascalia dell'ateneo:
+%   Università degli Studi di Milano
+%		
+
+\newcommand\ATENEO{\noindent\textsc{\Huge Università degli Studi}}
+\newcommand\MIL{\noindent\textsc{\Huge di Milano}}
+
+% *                         \DIP                        *
+
+% ? Produce la didascalia del dipartimento:
+%		Dipartimento di Tecnologie dell'Informazione
+
+\newcommand\DIP{\textsc{Dipartimento di Tecnologie dell'Informazione}}
+
+% *                         \FAC                        *
+
+% ? Produce la didascalia della Facoltà:
+%		Facoltà di Scienze Matematiche, Fisiche e Naturali
+
+\newcommand\FAC{Facoltà di Scienze Matematiche, Fisiche e Naturali}
+
+% *                         \MAG                        *
+
+% ? Produce la didascalia della Laurea Magistrale:
+%		Laurea Magistrale in Scienze e Tecnologie dell'In-
+%   formazione
+
+\newcommand\MAG{\textsl{Laurea Magistrale in Scienze e Tecnologie dell'Informazione}}
+
+% *                        \LINE                         *
+
+% ? Produce la linea orizzontale nel frontespizio:
+
+\newcommand\LINE{\rule{130mm}{0.01mm}}
+	
+% #                    # Documento #                     #
+
+% *                        \ds                           *
+
+% ? Produce \displaystyle nell'ambiente matematico:
+
+\newcommand\ds{\displaystyle}
+
+% Eccetto dove diversamente specificato, i contenuti di questo sito sono rilasciati sotto Licenza Creative Commons Attribuzione 2.5. http://creativecommons.org/licenses/by/2.5/it/
