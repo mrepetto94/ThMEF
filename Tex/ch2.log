@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.1)  10 MAR 2018 19:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.1)  12 MAR 2018 10:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1824,6 +1824,7 @@ Overfull \hbox (47.0597pt too wide) in paragraph at lines 338--338
 \OT1/txr/m/n/10 sup-ply chains''. In: \OT1/txr/m/it/10 Ex-pert Sys-tems with Ap-pli-ca-tions \OT1/txr/m/n/10 36.2 (Mar. 2009), 3367fffdfffdfffd3377.
  []
 
+[14]
 ./ch2.tex:338: Undefined control sequence.
 <to be read again> \edef \blx@tempa {595\x 
                                            {FFFD}\x {FFFD}\x {FFFD}610}
@@ -1999,7 +2000,17 @@ Overfull \hbox (28.47968pt too wide) in paragraph at lines 338--338
 \OT1/txr/m/n/10 plan-ning with duty draw-backs''. In: \OT1/txr/m/it/10 AIChE Jour-nal \OT1/txr/m/n/10 52.2 (Feb. 2006), 595fffdfffdfffd610.
  []
 
-[14]
+./ch2.tex:338: Undefined control sequence.
+<recently read> \mathsemicolon 
+                               
+l.338 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ./ch2.tex:338: Undefined control sequence.
 \namepartfamily ->D\x 
                       {fffd}\x {fffd}\x {fffd}Amours
@@ -2401,7 +2412,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
+[15]
 Overfull \hbox (1.01372pt too wide) in paragraph at lines 338--338
 []\OT1/txr/m/n/10 Su Yol Lee and Seung-Kyu Rhee. ``The change in cor-po-rate en-vi-ron-men-tal strate-
  []
@@ -2576,21 +2587,21 @@ Overfull \hbox (38.51328pt too wide) in paragraph at lines 338--338
 []\OT1/txr/m/n/10 L.A. Zadeh. ``Fuzzy sets''. In: \OT1/txr/m/it/10 In-for-ma-tion and Con-trol \OT1/txr/m/n/10 8.3 (June 1965), 338fffdfffdfffd353.
  []
 
-[15] [16] (./ch2.aux)
+[16] (./ch2.aux)
 Package logreq Info: Writing requests to 'ch2.run.xml'.
 \openout1 = `ch2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29810 strings out of 492990
- 594231 string characters out of 6135006
- 970496 words of memory out of 5000000
- 32924 multiletter control sequences out of 15000+600000
+ 29819 strings out of 492990
+ 594506 string characters out of 6135006
+ 969628 words of memory out of 5000000
+ 32933 multiletter control sequences out of 15000+600000
  574524 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,16n,76p,10402b,1190s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ch2.pdf (16 pages, 181635 bytes).
+Output written on ch2.pdf (16 pages, 185442 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream

@@ -222,6 +222,56 @@
       \verb :/home/mrepetto94/Documents/Biblio/0b61ebadf8a840a66ea705a0f4d038a2db7f.pdf:PDF
       \endverb
     \endentry
+    \entry{Diaz-Madronero2018}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7a0dab3167deb7ad56f6609b60825701}{%
+           family={D\'{\i{}}az-Madro\~{n}ero},
+           familyi={D\bibinithyphendelim M\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=49a8f6de18d84e8ffdf7950d20682d54}{%
+           family={P\'{e}rez-S\'{a}nchez},
+           familyi={P\bibinithyphendelim S\bibinitperiod},
+           given={Modesto},
+           giveni={M\bibinitperiod}}}%
+        {{hash=00b2f88aa6247293c44f0f051737e2d9}{%
+           family={Satorre-Aznar},
+           familyi={S\bibinithyphendelim A\bibinitperiod},
+           given={Jos\'{e}\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=1438c5eb19095d385a8c0871304f4ef8}{%
+           family={Mula},
+           familyi={M\bibinitperiod},
+           given={Josefa},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a22f69a854a827f064f2c2610e36bda4}{%
+           family={L\'{o}pez-Jim\'{e}nez},
+           familyi={L\bibinithyphendelim J\bibinitperiod},
+           given={P.\bibnamedelimi Amparo},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{b9277c3e02ec359225deb275e109c6f1}
+      \strng{fullhash}{c66cd4d317e3e76dcd519932eb637dba}
+      \strng{authornamehash}{b9277c3e02ec359225deb275e109c6f1}
+      \strng{authorfullhash}{c66cd4d317e3e76dcd519932eb637dba}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Cleaner Production}
+      \field{month}{4}
+      \field{title}{Analysis of a wastewater treatment plant using fuzzy goal programming as a management tool: A case study}
+      \field{volume}{180}
+      \field{year}{2018}
+      \field{pages}{20\bibrangedash 33}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.jclepro.2018.01.129
+      \endverb
+    \endentry
     \entry{Gilbert2001}{article}{}
       \name{author}{1}{}{%
         {{hash=22fc96bb5db4c931187e648b5a2fdf9e}{%
@@ -450,6 +500,52 @@
       \verb http://linkinghub.elsevier.com/retrieve/pii/S0377221709005694
       \endverb
     \endentry
+    \entry{Nomani2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5c246f5ddfc7bc078f4aedec47933046}{%
+           family={Nomani},
+           familyi={N\bibinitperiod},
+           given={Mohammad\bibnamedelima Asim},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1f262b8db98b1f765534b157e103f21a}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Irfan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=3f17d2cdf6a2fa252f0889053e73c7cb}{%
+           family={F\x{fffd}\x{fffd}genschuh},
+           familyi={F\bibinitperiod},
+           given={Armin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=edf4b041d1d3a018a34bee5d0c07b39f}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Aquil},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Informa {UK} Limited}%
+      }
+      \strng{namehash}{49249d3c8581a8df6e4f2636061068ca}
+      \strng{fullhash}{589821874ee6123229c3284ae63c6d3c}
+      \strng{authornamehash}{49249d3c8581a8df6e4f2636061068ca}
+      \strng{authorfullhash}{589821874ee6123229c3284ae63c6d3c}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Economics Letters}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{A fuzzy goal programming approach to analyse sustainable development goals of India}
+      \field{volume}{24}
+      \field{year}{2016}
+      \field{pages}{443\bibrangedash 447}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1080/13504851.2016.1200178
+      \endverb
+    \endentry
     \entry{Oh_Karimi_2006}{article}{}
       \name{author}{2}{}{%
         {{hash=a989a52a570696bf3ed01699d4d87774}{%
@@ -560,6 +656,38 @@
       \field{isbn}{0684841460,9780684841465}
       \field{title}{Competitive Advantage: Creating and Sustaining Superior Performance}
       \field{year}{1998}
+    \endentry
+    \entry{Rehman2017}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=a20aea40a39c78a35669cfbf58bcd233}{%
+           family={Rehman},
+           familyi={R\bibinitperiod},
+           given={Shafiqur},
+           giveni={S\bibinitperiod}}}%
+        {{hash=cbabbf61226fa40a21a8b227f2d3fdfd}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Salman\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2f8de21cd065d82273fba6069bb03a37}
+      \strng{fullhash}{2f8de21cd065d82273fba6069bb03a37}
+      \strng{authornamehash}{2f8de21cd065d82273fba6069bb03a37}
+      \strng{authorfullhash}{2f8de21cd065d82273fba6069bb03a37}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 6th {IIAI} International Congress on Advanced Applied Informatics ({IIAI}-{AAI})}
+      \field{month}{7}
+      \field{title}{Application of Fuzzy Goal Programming to Wind Turbine Selection with Multiple Criteria {\&}{\#}x2014$\mathsemicolon$ A Study of Three Potential Sites in Saudi Arabia}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1109/iiai-aai.2017.22
+      \endverb
     \endentry
     \entry{Rizk_Martel2008}{article}{}
       \name{author}{3}{}{%

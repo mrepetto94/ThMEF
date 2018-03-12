@@ -971,4 +971,39 @@
   publisher     = {Multidisciplinary Digital Publishing Institute},
 }
 
+@InProceedings{Rehman2017,
+  author    = {Shafiqur Rehman and Salman A. Khan},
+  title     = {Application of Fuzzy Goal Programming to Wind Turbine Selection with Multiple Criteria {\&}{\#}x2014$\mathsemicolon$ A Study of Three Potential Sites in Saudi Arabia},
+  booktitle = {2017 6th {IIAI} International Congress on Advanced Applied Informatics ({IIAI}-{AAI})},
+  year      = {2017},
+  publisher = {{IEEE}},
+  month     = {jul},
+  doi       = {10.1109/iiai-aai.2017.22},
+}
+
+@Article{Diaz-Madronero2018,
+  author    = {Manuel D{\'{\i}}az-Madro{\~{n}}ero and Modesto P{\'{e}}rez-S{\'{a}}nchez and Jos{\'{e}} R. Satorre-Aznar and Josefa Mula and P. Amparo L{\'{o}}pez-Jim{\'{e}}nez},
+  title     = {Analysis of a wastewater treatment plant using fuzzy goal programming as a management tool: A case study},
+  journal   = {Journal of Cleaner Production},
+  year      = {2018},
+  volume    = {180},
+  month     = {apr},
+  pages     = {20--33},
+  doi       = {10.1016/j.jclepro.2018.01.129},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Nomani2016,
+  author    = {Mohammad Asim Nomani and Irfan Ali and Armin Fügenschuh and Aquil Ahmed},
+  title     = {A fuzzy goal programming approach to analyse sustainable development goals of India},
+  journal   = {Applied Economics Letters},
+  year      = {2016},
+  volume    = {24},
+  number    = {7},
+  month     = {jul},
+  pages     = {443--447},
+  doi       = {10.1080/13504851.2016.1200178},
+  publisher = {Informa {UK} Limited},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
