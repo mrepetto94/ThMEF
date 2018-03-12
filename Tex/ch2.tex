@@ -4,6 +4,7 @@
 \usepackage{mathtools}
 \usepackage{amstext}
 \usepackage{array}
+\usepackage[long]{optidef}
 \usepackage[backend=biber,
             url=false]{biblatex}
 \usepackage{float}
@@ -184,30 +185,14 @@ Since the model proposed has it's aim in setting a Green Supply Chain network of
 The hybrid model developed is based on the supply chain concept developed by Santoso\cite{Santoso_Ahmed_Goetschalckx_Shapiro_2005}plus the integration of supporting activities as enunciated by Porter\cite{CompetitiveAdvantage}in his concept of value chain. Above the model, a fuzzy goal is created a fuzzy goal programming model that tries to capture the  DM preferences about the target collection rate that should be achieved by the company in order to foster sustainable operations and a Green Supply Chain.
 The model proposed by Santoso is formulated as follow:
 
-\begin{equation*}
-\begin{aligned}
-	min \sum_{i=1}^{P} c_i y_i  + \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k}
-  \\
-  \text{Subject to}
-  \\
-\end{aligned}
-\end{equation*}
-\begin{equation}
-  \sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k = 0 \quad \forall j \in P, \forall \in K
-\end{equation}
-\begin{equation}
-  \sum_{i=1}^{N} x_{ij}^k \geq d_{j}^k \quad \forall j \in C, \forall k \in K,
-\end{equation}
-\begin{equation}
-  \sum_{j=1}^{N} x_{ij}^{k} \leq s_{i}^{k}  \quad \forall i \in L, \forall k \in K,
-\end{equation}
-\begin{equation}
-\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k \leq m_j y_i \quad \forall j \in P,
-\end{equation}
-\begin{equation}
-  x \in \varmathbb{R}^+ \quad \quad 
-  y \in Y[0,1] 
-\end{equation}
+\begin{mini!}
+	{y,x}{\sum_{i=1}^{P} c_i y_i  + \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k}}{}{}
+	\addConstraint{\sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k}{=0,}{\forall j \in P, \forall k \in K}
+	\addConstraint{\sum_{i=1}^{N} x_{ij}^k}{\geq d_{j}^k,}{\forall j \in C, \forall k \in K}
+\addConstraint{\sum_{j=1}^{N} x_{ij}^{k}}{\leq s_{i}^{k},}{\forall i \in L, \forall k \in K}
+	\addConstraint{\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k}{\leq m_j y_i,}{\forall j \in P}
+	\addConstraint{x \in \varmathbb{R}^+}{y \in Y[0,1]}{}
+\end{mini!}
 
 Where the objective function  is to minimize both the variable and fixed costs (here represented by the cost of building a plant) of a particular supply chain.
 The constraint posed in $(1)$ serves to maintain the flow constant in each passage(so called flow conservation); the second and third constraint here represented by $(2)$ and $(3)$ are respectively controlling the volume of the demand (receiver side) and the supply (supplier side) of the supply chain; whereas the fourth constraint is used to control the capacity of each node. Lastly the $x$ variable, indicating the flow of goods to be positive and the variable $y$ indicating the effective construction of the plant to assume a value between 0 and 1. 
