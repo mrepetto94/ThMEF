@@ -7,11 +7,15 @@ set WR_LINKS := (BAR, LOC1)  (BAR,LOC2) (BAR,NOCO)
                 (MIL, LOC1)  (MIL,LOC2) (MIL,NOCO)
                 (PAR, LOC1)  (PAR,LOC2) (PAR,NOCO)
                 (BER, LOC1)  (BER,LOC2) (BER,NOCO);
+set WW_LINKS := (BAR, BAR)
+                (MIL, MIL)
+                (PAR, PAR)
+                (BER, BER);
 
 param p_supply := 400;
 param w_demand :=
 BAR 100, MIL 130,  PAR 130,  BER 80;
-param r_demand := 400;
+param r_demand := 120;
 
 param: pd_cost  pd_cap  :=
 DUB      2.5       250
@@ -43,10 +47,11 @@ BER LOC1  1.7      100
 BER LOC2  0.7      100
 BER NOCO    0      1000;
 
-param: rr_cost  rr_cap  rate1  rate2  limit1  goal :=
-LOC1      2.5    400      10    2       200    150
-LOC2      3.5    400      10    2       200    200
-NOCO        0    1000     0     0       200    0    ;
+
+param: rr_cost  rr_cap limit1    goal :=
+LOC1      2.5    400      60      120
+LOC2      3.5    400      60      120
+NOCO        0    1000     1         0 ;
 
 param production_cost := 5;
 param distribution_cost :=
@@ -58,4 +63,4 @@ LOC1 1, LOC2 2, NOCO 0;
 param reuse_cost := 2;
 
 param return_coefficient :=
-BAR 0.3, MIL 0.4,  PAR 0.5,  BER 0.4;
+BAR 0.2, MIL 0.4,  PAR 0.5,  BER 0.6;

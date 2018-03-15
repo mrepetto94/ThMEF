@@ -6,6 +6,14 @@ display DW_Ship;
 
 display WR_Ship;
 
+display WW_Ship;
+
 display RR_Ship;
 
 display collected;
+
+display waste;
+
+display nd_fuzzy;
+
+display mu;
