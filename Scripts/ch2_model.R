@@ -1,5 +1,5 @@
 ###########
-# The script creates 3 parts of the model in chapter 2, namely the .dat the .mod and the .run files
+# The script sends 3 part of the model in chapter 2, namely the .dat the .mod and the .run files
 # Then wrap it in an XML object and send it to neos server
 ####################################################################################################
 
