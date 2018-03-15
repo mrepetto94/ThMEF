@@ -1,0 +1,11 @@
+solve;
+
+display PD_Ship;
+
+display DW_Ship;
+
+display WR_Ship;
+
+display RR_Ship;
+
+display collected;

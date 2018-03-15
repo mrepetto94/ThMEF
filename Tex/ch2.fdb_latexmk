@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber ch2"] 1520845816 "ch2.bcf" "ch2.bbl" "ch2" 1520845824
-  "ch1-2.bib" 1520845789 37606 daf24fae41fef5fa9ba0495b2c0c6190 ""
-  "ch2.bcf" 1520845822 97508 c0c358cbdae184570c5051e3fbf6c33c ""
+["biber ch2"] 1520933099 "ch2.bcf" "ch2.bbl" "ch2" 1520935068
+  "ch1-2.bib" 1520933071 38139 ac132ec85c72e0b9a1df0875034c27d6 ""
+  "ch2.bcf" 1520935025 97687 05ac7cfd08116dfeb1eccfc5071d7e35 ""
   (generated)
-  "ch2.bbl"
   "ch2.blg"
-["pdflatex"] 1520845824 "ch2.tex" "ch2.pdf" "ch2" 1520845824
+  "ch2.bbl"
+["pdflatex"] 1520935068 "ch2.tex" "ch2.pdf" "ch2" 1520935068
   "/etc/texmf/web2c/texmf.cnf" 1519935680 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -200,13 +200,13 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1519935881 4126830 104924dbde5f7afd2e69a0356fe8c2b5 ""
   "Images/heatmap.png" 1519939673 36633 d702794fa345167643691f5ba2c49cc5 ""
   "Images/occurence.png" 1520441292 77219 5dbc02d3f0345ff7b4e122a00740a23a ""
-  "ch2.aux" 1520845822 7478 7c21da23183d44265d25b17e1a78dd99 ""
-  "ch2.bbl" 1520845818 44028 ad26c5c280b025b641d18bd49b3e5f68 "biber ch2"
-  "ch2.run.xml" 1520845822 2293 9dd5f28039772432aa2cae98e66af9bb ""
-  "ch2.tex" 1520845809 33214 15f563309c8f93252763210b394782df ""
+  "ch2.aux" 1520935025 7778 42fc78ab3ea362cb92546fe857d5a9a7 ""
+  "ch2.bbl" 1520933101 46802 23a4b080506e82b4b43ef1ea64b5d3f3 "biber ch2"
+  "ch2.run.xml" 1520935025 2293 9dd5f28039772432aa2cae98e66af9bb ""
+  "ch2.tex" 1520935067 34796 bf3b311390c093f343776e78d8a81563 ""
   (generated)
   "ch2.aux"
   "ch2.bcf"
-  "ch2.log"
   "ch2.run.xml"
+  "ch2.log"
   "ch2.pdf"

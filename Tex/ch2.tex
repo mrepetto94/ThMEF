@@ -176,7 +176,21 @@ Since the model proposed has it's aim in setting a Green Supply Chain network of
   Is worth noting how the majority of the models pertain to the category of Mixed Integer Linear Programming, this may be due to the fact that is probably one of the simplest and most reliable methods that can be used to solve such problems, however, this simplicity comes with some costs such as the focus on a single linear objective function with linear constraints whereas in reality different objectives has to be taken into account as for example the manager preferences toward greener choices. Another interesting topic brought into light by Aouni \cite{azimian_supply_2017} is that such models are generally deterministic, where in reality such assumption does not hold most of the time, for example, the demand forecast can't be deterministic at all and derives from a stochastic process. This lack of deterministic variable lies also in case of the procurement where the price of a commodity is said to follow a sort of stochastic process and an order may be placed several days after the decision make it. Both of these situations, namely the fuzziness of the DM and the stochastic process of the demand will be modeled using two variances from the plain vanilla GP, that are stochastic Goal Programming and Fuzzy Goal Programming. 
 
   \subsection{Stochastic Optimization: a Goal Programming perspective}
-  
+  As previously stated, deterministic models seems to be the preferred choice by practitioners and academics whereas in reality there's a certain level of uncertainty that comes into play when deciding over the setting of supply chain. When a decision maker is facing a multitude of random objectives is stated to face a multi objective stochastic program (MSP). Because of it's flexibility Goal Programming turned to be a very powerful tool in modeling multi objective deterministic problem. The formulation originally proposed by Charnes and Cooper\cite{charnes_optimal_1955} was built for deterministic scenarios, and with further development, starting from Contini\cite{Contini1968}, a newer branch was developed which accounted for non deterministic situations, namely stochastic Goal Programming. The resulting model is generalized as follow:
+\begin{mini!}
+	{\tilde{\delta^+},\tilde{\delta^-}}{\sum_{i=i}^{N}\tilde{\delta^+_i} +\tilde{\delta^-_i}}{}{}
+	\addConstraint{f_i(x)-\tilde{\delta^+_i}+\tilde{\delta^+_i}}{=\tilde{g_i},}{\forall i \in N}
+	\addConstraint{x\in h_s(x)}{\leq 0}{\forall s \in M}
+	\addConstraint{\tilde{\delta^+},\tilde{\delta^-}}{\geq 0}{}
+\end{mini!}
+Where the goal variable $\tilde{g}$ is said to follow a certain probability distribution. A very common solution to deal with such stochastic problem is transform the undeterministic problem into a deterministic one (also called deterministic equivalent formulation). Looking at the general formulation made before, if $\tilde{g}$(or the $\tilde{g_i}$ vector in our case) is said to follow a normal distribution $N(\mu;\sigma^2)$, therefore we can reformulate the program in its equivalent formulation\cite{azimian_supply_2017} 
+\begin{mini!}
+	{\tilde{\delta^+},\tilde{\delta^-}}{\sum_{i=i}^{N}\tilde{\delta^+_i} +\tilde{\delta^-_i}}{}{}
+	\addConstraint{f_i(x)-\tilde{\delta^+_i}+\tilde{\delta^+_i}}{=\mu_i,}{\forall i \in N}
+	\addConstraint{x\in h_s(x)}{\leq 0}{\forall s \in M}
+	\addConstraint{\tilde{\delta^+},\tilde{\delta^-}}{\geq 0}{}
+\end{mini!}
+
   \subsection{Fuzzy Goal Programming}
   Fuzzy GP is a subset of Goal Programming models that uses fuzzy sets, which were firstly developed by Zadeh\cite{Zadeh_1965}. The main advantage of fuzzy sets is that they can better model the level of imprecision of a particular feature of the model, usually such imprecision deals with the target goal, but this do not mean that fuzzy target goals are the only factors that can be enhanced via fuzzy sets. The fundamental part of a fuzzy GP is the membership function (or in case of multiple fuzzy sets, functions)characterizing the shape of the fuzzy sets, and also how it penalizes values above and below some predetermined thresholds. In fuzzy GP the most common membership functions used are: (1) right-sided, used to penalize positive deviations; (2)left sided, used to penalize negative deviations; (3) triangular shaped, in this case the membership function penalizes both positive and negative deviations;(4) trapezoidal shaped, similar to the triangular shaped, since both positive and negative deviations are penalized, however in this case we allow for an interval of complete satisfaction.
   Recent works of fuzzy GP were made in the field of engineering where fuzzy sets where used to model the perfect selection of wind turbine in order to fully unleash the potential of each particular sites\cite{Rehman2017}; in the field of management, where a case study of wastewater treatment was proposed, combining both fuzzy GP and Stochastic GP\cite{Diaz-Madronero2018}; and in the field of social sciences where fuzzy GP was applied in analyzing environmental and sustainability goals of a country spotting improvement opportunities, requirement of efforts and implementing the sustainable development plans\cite{Nomani2016}.  
@@ -262,39 +276,14 @@ It's worth noting that such model do not implement any support activities, where
 Such activities are a fundamental part on the supply chain that serves as glue with the supply chain steps to the deliver the value to the end-customer. Therefore the hybrid model will looks like this:
 
 \begin{mini}
-  {w,u}{f(w)+ R(w+6x)+ H(100w-x*w/500)}{}{}
-  \breakObjective{-g(w^3-x^2*200+10000*w^5)}
-  \addConstraint{g(w_k)+h(w_k)}{=0,}{k=0,\ldots,N-1}
-  \addConstraint{l(w_k)}{=5u,\quad}{k=0,\ldots,N-1}
+  {x}{\sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k} + \sum_{i=1}^{P^\star} c_i q_i \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A}x_{ij}^{k}}{}{}
+  \addConstraint{\sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k }{=0,}{\forall j \in P, \forall \in K}
+  \addConstraint{\sum_{i=1}^{N} x_{ij}^k}{\geq d_{j}^k,}{\forall j \in C, \forall k \in K}
+\addConstraint{\sum_{j=1}^{N} x_{ij}^{k}}{\leq s_{i}^{k},}{\forall i \in L, \forall k \in K}
+\addConstraint{\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k }{\leq m_j y_i,}{\forall j \in P}
+\addConstraint{\sum_{i=1}^{N^\star} q_{i}^j}{= n_j,}{\forall j \in P}
+\addConstraint{x \in \varmathbb{R}^+ }{,}{}
 \end{mini}
-
-\begin{equation*}
-\begin{aligned}
-	min \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k} + \sum_{i=1}^{P^\star} c_i q_i \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A}x_{ij}^{k} 
-\\
-  \text{Subject to}
-\\
-\end{aligned}
-\end{equation*}
-\begin{equation}
-  \sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k = 0 \quad \forall j \in P, \forall \in K
-\end{equation}
-\begin{equation}
-  \sum_{i=1}^{N} x_{ij}^k \geq d_{j}^k \quad \forall j \in C, \forall k \in K,
-\end{equation}
-\begin{equation}
-  \sum_{j=1}^{N} x_{ij}^{k} \leq s_{i}^{k}  \quad \forall i \in L, \forall k \in K,
-\end{equation}
-\begin{equation}
-	\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k \leq m_j y_i \quad \forall j \in P,
-\end{equation}
-\begin{equation}
-\sum_{i=1}^{N^\star} q_{i}^j = n_j \quad \forall j \in P,
-\end{equation}
-\begin{equation}
-  x \in \varmathbb{R}^+ \quad \quad 
-  y \in Y[0,1] \quad \quad  q \in Q[0,1]
-\end{equation}
 
 In formulating our hybrid model is not taken into account the fixed cost of building a plant, this happened for two reasons. The first reason is the consideration of the cost of building a plant as a sunk cost and therefore it should not influence the economic decision on whether to allocate a particular quantity of goods on a specific plant. Secondly, because the Activity Based Cost method is used the focus will be on the activities that contributes in creating the marginal cost of the good in the supply chain. 
 

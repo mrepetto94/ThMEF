@@ -149,6 +149,54 @@
       \verb http://linkinghub.elsevier.com/retrieve/pii/S0142694X16300631
       \endverb
     \endentry
+    \entry{charnes_optimal_1955}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ea797ecac6dd883ca9aff41d6ca9d722}{%
+           family={Charnes},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=52b0fddd7a3869199ce0fdc53e702085}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={W.\bibnamedelimi W.},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=d30fdc83802be14e3e519f9e34144177}{%
+           family={Ferguson},
+           familyi={F\bibinitperiod},
+           given={R.\bibnamedelimi O.},
+           giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d7a8912f81fd97aa8b6ca9962050cc7}
+      \strng{fullhash}{5d7a8912f81fd97aa8b6ca9962050cc7}
+      \strng{authornamehash}{5d7a8912f81fd97aa8b6ca9962050cc7}
+      \strng{authorfullhash}{5d7a8912f81fd97aa8b6ca9962050cc7}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0025-1909, 1526-5501}
+      \field{journaltitle}{Management Science}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Optimal Estimation of Executive Compensation by Linear Programming}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{volume}{1}
+      \field{year}{1955}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{138\bibrangedash 151}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1287/mnsc.1.2.138
+      \endverb
+      \verb{url}
+      \verb http://pubsonline.informs.org/doi/abs/10.1287/mnsc.1.2.138
+      \endverb
+    \endentry
     \entry{Chern_Hsieh_2007}{article}{}
       \name{author}{2}{}{%
         {{hash=842b19497462adb62d982ad1685f39f4}{%
@@ -182,6 +230,33 @@
       \verb{doi}
       \verb 10.1016/j.cor.2006.02.022
       \endverb
+    \endentry
+    \entry{Contini1968}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5b686765129ed3099e83762bb123d82c}{%
+           family={Contini},
+           familyi={C\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {INFORMS}%
+      }
+      \strng{namehash}{5b686765129ed3099e83762bb123d82c}
+      \strng{fullhash}{5b686765129ed3099e83762bb123d82c}
+      \strng{authornamehash}{5b686765129ed3099e83762bb123d82c}
+      \strng{authorfullhash}{5b686765129ed3099e83762bb123d82c}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Operations Research}
+      \field{number}{3}
+      \field{title}{A stochastic approach to goal programming}
+      \field{volume}{16}
+      \field{year}{1968}
+      \field{pages}{576\bibrangedash 586}
+      \range{pages}{11}
     \endentry
     \entry{Diabat2011}{article}{}
       \name{author}{2}{}{%

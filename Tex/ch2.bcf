@@ -2167,13 +2167,16 @@
     <bcf:citekey order="22">Liang_Cheng_2009</bcf:citekey>
     <bcf:citekey order="23">Gupta_Maranas_2003</bcf:citekey>
     <bcf:citekey order="24">azimian_supply_2017</bcf:citekey>
-    <bcf:citekey order="25">Zadeh_1965</bcf:citekey>
-    <bcf:citekey order="26">Rehman2017</bcf:citekey>
-    <bcf:citekey order="27">Diaz-Madronero2018</bcf:citekey>
-    <bcf:citekey order="28">Nomani2016</bcf:citekey>
-    <bcf:citekey order="29">Santoso_Ahmed_Goetschalckx_Shapiro_2005</bcf:citekey>
-    <bcf:citekey order="30">CompetitiveAdvantage</bcf:citekey>
-    <bcf:citekey order="31">Zadeh_1965</bcf:citekey>
+    <bcf:citekey order="25">charnes_optimal_1955</bcf:citekey>
+    <bcf:citekey order="26">Contini1968</bcf:citekey>
+    <bcf:citekey order="27">azimian_supply_2017</bcf:citekey>
+    <bcf:citekey order="28">Zadeh_1965</bcf:citekey>
+    <bcf:citekey order="29">Rehman2017</bcf:citekey>
+    <bcf:citekey order="30">Diaz-Madronero2018</bcf:citekey>
+    <bcf:citekey order="31">Nomani2016</bcf:citekey>
+    <bcf:citekey order="32">Santoso_Ahmed_Goetschalckx_Shapiro_2005</bcf:citekey>
+    <bcf:citekey order="33">CompetitiveAdvantage</bcf:citekey>
+    <bcf:citekey order="34">Zadeh_1965</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

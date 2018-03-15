@@ -948,15 +948,14 @@
 }
 
 @Article{YolLee2007,
-  author        = {Yol Lee, Su and Rhee, Seung-Kyu},
-  title         = {The change in corporate environmental strategies: a longitudinal empirical study},
-  journal       = {Management Decision},
-  year          = {2007},
-  volume        = {45},
-  number        = {2},
-  pages         = {196--216},
-  __markedentry = {[mrepetto94:]},
-  publisher     = {Emerald Group Publishing Limited},
+  author    = {Yol Lee, Su and Rhee, Seung-Kyu},
+  title     = {The change in corporate environmental strategies: a longitudinal empirical study},
+  journal   = {Management Decision},
+  year      = {2007},
+  volume    = {45},
+  number    = {2},
+  pages     = {196--216},
+  publisher = {Emerald Group Publishing Limited},
 }
 
 @Article{Shan2018,
@@ -967,7 +966,7 @@
   volume        = {10},
   number        = {3},
   pages         = {597},
-  __markedentry = {[mrepetto94:6]},
+  __markedentry = {[mrepetto94:]},
   publisher     = {Multidisciplinary Digital Publishing Institute},
 }
 
@@ -1004,6 +1003,18 @@
   pages     = {443--447},
   doi       = {10.1080/13504851.2016.1200178},
   publisher = {Informa {UK} Limited},
+}
+
+@Article{Charnes1955,
+  author        = {Charnes, Abraham and Cooper, William W and Ferguson, Robert O},
+  title         = {Optimal estimation of executive compensation by linear programming},
+  journal       = {Management science},
+  year          = {1955},
+  volume        = {1},
+  number        = {2},
+  pages         = {138--151},
+  __markedentry = {[mrepetto94:6]},
+  publisher     = {INFORMS},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
