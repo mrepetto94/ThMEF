@@ -1099,6 +1099,47 @@
       \field{title}{Academic Keyword Occurrence}
       \field{year}{2018}
     \endentry
+    \entry{YAGHOOBI2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b252d22f9feafbe1efaef98b06a4ead5}{%
+           family={YAGHOOBI},
+           familyi={Y\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c6f7d31c44eccc9b2414ec2577640522}{%
+           family={JONES},
+           familyi={J\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=5200aa21af9adcb401f3d8b7d1cca11b}{%
+           family={TAMIZ},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Scientific Pub Co Pte Lt}%
+      }
+      \strng{namehash}{21cf1bf8990511085cbea7e87829fa01}
+      \strng{fullhash}{21cf1bf8990511085cbea7e87829fa01}
+      \strng{authornamehash}{21cf1bf8990511085cbea7e87829fa01}
+      \strng{authorfullhash}{21cf1bf8990511085cbea7e87829fa01}
+      \field{sortinit}{Y}
+      \field{sortinithash}{f86c10978eb0c0879609ce6a4f43da7b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Asia-Pacific Journal of Operational Research}
+      \field{month}{10}
+      \field{number}{05}
+      \field{title}{{WEIGHTED} {ADDITIVE} {MODELS} {FOR} {SOLVING} {FUZZY} {GOAL} {PROGRAMMING} {PROBLEMS}}
+      \field{volume}{25}
+      \field{year}{2008}
+      \field{pages}{715\bibrangedash 733}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1142/s0217595908001973
+      \endverb
+    \endentry
     \entry{YolLee2007}{article}{}
       \name{author}{2}{}{%
         {{hash=3a6c475c7a40e4f1351e6e1b78e7eb0f}{%

@@ -959,15 +959,14 @@
 }
 
 @Article{Shan2018,
-  author        = {Shan, Wei and Wang, Jingyi},
-  title         = {Mapping the Landscape and Evolutions of Green Supply Chain Management},
-  journal       = {Sustainability},
-  year          = {2018},
-  volume        = {10},
-  number        = {3},
-  pages         = {597},
-  __markedentry = {[mrepetto94:]},
-  publisher     = {Multidisciplinary Digital Publishing Institute},
+  author    = {Shan, Wei and Wang, Jingyi},
+  title     = {Mapping the Landscape and Evolutions of Green Supply Chain Management},
+  journal   = {Sustainability},
+  year      = {2018},
+  volume    = {10},
+  number    = {3},
+  pages     = {597},
+  publisher = {Multidisciplinary Digital Publishing Institute},
 }
 
 @InProceedings{Rehman2017,
@@ -1006,13 +1005,24 @@
 }
 
 @Article{Charnes1955,
-  author        = {Charnes, Abraham and Cooper, William W and Ferguson, Robert O},
-  title         = {Optimal estimation of executive compensation by linear programming},
-  journal       = {Management science},
-  year          = {1955},
-  volume        = {1},
-  number        = {2},
-  pages         = {138--151},
+  author    = {Charnes, Abraham and Cooper, William W and Ferguson, Robert O},
+  title     = {Optimal estimation of executive compensation by linear programming},
+  journal   = {Management science},
+  year      = {1955},
+  volume    = {1},
+  number    = {2},
+  pages     = {138--151},
+  publisher = {INFORMS},
+}
+
+@Article{Contini1968,
+  author        = {Contini, Bruno},
+  title         = {A stochastic approach to goal programming},
+  journal       = {Operations Research},
+  year          = {1968},
+  volume        = {16},
+  number        = {3},
+  pages         = {576--586},
   __markedentry = {[mrepetto94:6]},
   publisher     = {INFORMS},
 }

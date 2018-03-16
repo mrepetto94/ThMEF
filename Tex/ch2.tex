@@ -197,8 +197,10 @@ Where the goal variable $\tilde{g}$ is said to follow a certain probability dist
   \pagebreak
 
 \section{Model formulation}
-The hybrid model developed is based on the supply chain concept developed by Santoso\cite{Santoso_Ahmed_Goetschalckx_Shapiro_2005}plus the integration of supporting activities as enunciated by Porter\cite{CompetitiveAdvantage}in his concept of value chain. Above the model, a fuzzy goal is created a fuzzy goal programming model that tries to capture the  DM preferences about the target collection rate that should be achieved by the company in order to foster sustainable operations and a Green Supply Chain.
-The model proposed by Santoso is formulated as follow:
+The hybrid model developed is based on the supply chain concept developed by Santoso\cite{Santoso_Ahmed_Goetschalckx_Shapiro_2005}plus the integration of supporting activities as enunciated by Porter\cite{CompetitiveAdvantage}in his concept of value chain. Apart from these features, as the model is built with the concept of Green Supply Chain management seemed necessary to enhance the basic capabilities of a open loop supply chain network with the characteristics of a typical reverse supply chain network (which is intended to be in closed loop fashion). Because of the reverse supply chain network a series of new entities have been introduced, namely the recollection points, which in our case are the same retail stores, and the recycling point that has to comply both with regulation and with management expectation in terms of recycled products. Therefore, a fuzzy goal is created using the fuzzy goal programming formulation developed by the \cite{YAGHOOBI2008}, such formulation, as reported previously, tries to capture the DM preferences about units recycled and the bottom line imposed by regulations.
+\subsection{Open Loop Supply Chain}
+In a very general open loop supply chain model the materials after been purchased pass through a series of entities where the material is transformed into goods (operation activities), then follows the process of outbound logistics when the goods produced has to reach their specific market for satisfying consumer demand, however such last operation is subject to certain cost, such as the sales force and marketing campaigns which are, generally, managed and supervised by the national retail stores in each specific country.
+A general formulation of such model is given by Santoso and is formulated as follows:
 \begin{mini!}
 	{y,x}{\sum_{i=1}^{P} c_i y_i  + \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k}}{}{}
 	\addConstraint{\sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k}{=0,}{\forall j \in P, \forall k \in K}
@@ -208,12 +210,12 @@ The model proposed by Santoso is formulated as follow:
 	\addConstraint{x \in \varmathbb{R}^+}{y \in Y[0,1]}{}
 \end{mini!}
 
-Where the objective function  is to minimize both the variable and fixed costs (here represented by the cost of building a plant) of a particular supply chain.
-The constraint posed in $(1)$ serves to maintain the flow constant in each passage(so called flow conservation); the second and third constraint here represented by $(2)$ and $(3)$ are respectively controlling the volume of the demand (receiver side) and the supply (supplier side) of the supply chain; whereas the fourth constraint is used to control the capacity of each node. Lastly the $x$ variable, indicating the flow of goods to be positive and the variable $y$ indicating the effective construction of the plant to assume a value between 0 and 1. 
+Where the objective function $(3a)$ is to minimize both the variable and fixed costs (here represented by the cost of building a plant) of a particular supply chain network.
+The constraint posed in $(3b)$ serves to maintain the flow constant in each passage(so called flow conservation) it serves to balance the net inflow with the net outflow; the second and third constraint here represented by $(3c)$ and $(3d)$ are respectively controlling the volume of the demand (receiver side) and the supply (supplier side) of the supply chain network; whereas the fourth constraint $(3e)$ is used to control the capacity of each node. Lastly, the $x$ variable, indicating the flow of goods has to be positive and the variable $y$ indicating the effective construction of the plant to assume value that is either 1 or 0, in other terms $y$ is said to be binary. 
 \\
-It's worth noting that such model do not implement any support activities, whereas the Porter model mentions them. Therefore the hybrid model will contain a set of constraint indicating such activities and a new objective function embracing this change.
+However the model is complete from a point of view of supply chain modeling it's worth noting that such model do not implement any support activities, whereas the Porter model mentions them. Therefore the hybrid model will contain a set of constraint indicating such activities and a new objective function embracing this change.
 
-\begin{figure}
+\begin{figure}[ht]
   \centering
 
   \begin{tikzpicture}[scale=0.8, every node/.style={scale=0.8}]
@@ -273,21 +275,34 @@ It's worth noting that such model do not implement any support activities, where
   \caption{Porter's Value Chain}
 \end{figure}
 
-Such activities are a fundamental part on the supply chain that serves as glue with the supply chain steps to the deliver the value to the end-customer. Therefore the hybrid model will looks like this:
+Such activities are a fundamental part on the supply chain that serves as glue with the supply chain steps to the deliver the value to the end-customer. Therefore the hybrid model should take them into account, a revised version then is proposed.
 
-\begin{mini}
-  {x}{\sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k} + \sum_{i=1}^{P^\star} c_i q_i \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A}x_{ij}^{k}}{}{}
+\begin{mini!}
+  {x}{\sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k} + \sum_{i=1}^{N} c_i \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A}x_{ij}^{k}}{}{}
   \addConstraint{\sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k }{=0,}{\forall j \in P, \forall \in K}
   \addConstraint{\sum_{i=1}^{N} x_{ij}^k}{\geq d_{j}^k,}{\forall j \in C, \forall k \in K}
 \addConstraint{\sum_{j=1}^{N} x_{ij}^{k}}{\leq s_{i}^{k},}{\forall i \in L, \forall k \in K}
-\addConstraint{\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k }{\leq m_j y_i,}{\forall j \in P}
-\addConstraint{\sum_{i=1}^{N^\star} q_{i}^j}{= n_j,}{\forall j \in P}
+\addConstraint{\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k }{\leq m_j,}{\forall j \in P}
+\addConstraint{\sum_{i=1}^{N} q_{i}^j}{= n_j,}{\forall j \in P}
 \addConstraint{x \in \varmathbb{R}^+ }{,}{}
-\end{mini}
+\end{mini!}
 
-In formulating our hybrid model is not taken into account the fixed cost of building a plant, this happened for two reasons. The first reason is the consideration of the cost of building a plant as a sunk cost and therefore it should not influence the economic decision on whether to allocate a particular quantity of goods on a specific plant. Secondly, because the Activity Based Cost method is used the focus will be on the activities that contributes in creating the marginal cost of the good in the supply chain. 
+In formulating our hybrid model is not taken into account the fixed cost of building a plant, this happened for two reasons. The first reason is the consideration of the cost of building a plant as a sunk cost and therefore it should not influence the economic decision on whether to allocate a particular quantity of goods on a specific plant. Secondly, the Activity Based Cost method is used therefore  the focus will be on the activities that contributes in creating the marginal cost of the good in the supply chain.
 
-Finally the  implementation of the concept of green supply chain from a point of view of the legislation activated by the EU countries. However since such legislation, especially the WEEE does not impose any quantifiable level to be collected by the firms but is intended to be for the ultimate polluters (meaning the end customers) is necessary a way to proxy the potential of collection of each country in order to forecast the collected quantity that the firm expect to receive each year on the base of what is sold today. Because the electronic waste turns out to be a resource for the firm is necessary to model the fuzziness of such desire expressed by the DM, and therefore the implementation of a Fuzzy set\cite{Zadeh_1965} defined as:
+\subsection{Closed Loop Supply Chain}
+In the previous sections a model of open loop was presented, however in green supply chain something as an open loop supply chain network do not exist, this is becauseof the after life treatment of the products selled by the company. Such procedure is also enforce by hard laws (as analyzed in the specific section). Therefore the revised model will have to capture these features. The open loop supply chain network will be enunciated as follow:
+
+\begin{mini!}
+  {x}{\sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k} + \sum_{i=1}^{N} c_i \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A}x_{ij}^{k}}{}{}
+  \addConstraint{\sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k }{=0,}{\forall j \in P, \forall \in K}
+  \addConstraint{\sum_{i=1}^{N} x_{ij}^k}{\geq d_{j}^k,}{\forall j \in C, \forall k \in K}
+\addConstraint{\sum_{j=1}^{N} x_{ij}^{k}}{\leq s_{i}^{k},}{\forall i \in L, \forall k \in K}
+\addConstraint{\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k }{\leq m_j,}{\forall j \in P}
+\addConstraint{\sum_{i=1}^{N} q_{i}^j}{= n_j,}{\forall j \in P}
+\addConstraint{x \in \varmathbb{R}^+ }{,}{}
+\end{mini!}
+
+The model presented however does not implement any decision maker preferences nor any legal boundaries on which the recycling center has to be submitted. Because the electronic waste turns out to be a resource for the firm is necessary to model the fuzziness of such desire expressed by the DM, and therefore the implementation of a Fuzzy set\cite{Zadeh_1965}, turns out to be the best choice; such set has a membership function defined as:
 $$
 \mu [f_q(x)]=
 \begin{cases}
@@ -296,8 +311,7 @@ $$
 0 & f_q(x) \leq b_q - n_{max}
 \end{cases}
 $$
-Such set penalized the negative deviations from the target demanded by the decision maker. In our case the \textit{ratio} behind this is given by the fact that a very low amount of collected electrical waste may turn out as higher cost of production because of the additional cost of buying new material. Conversely is also important to take
-
+The defined set penalizes the negative occurrences from the target demanded by the decision maker, and at the same time guarantees a bottom line coherent with the local legislation.
 
 \subsection{The Goal Programming model}
 Since the goals of the problem stated before are trying to model a set of different objectives the choices was to opt for the Goal Programming as a multi-criteria analysis tool therefore the resulting model will be set as follow: 
@@ -308,13 +322,33 @@ In this case is possible to see how the two initial commodities are transformed 
 
 \subsubsection{Objective function}
 The objective function that has to be minimized contains all the deviation from the soft constraints contained in equations ... 
-\subsubsection{Constraints}
+\subsubsection{Soft Constraints}
 The hard constraints identified by the equations from ... to ... are summarized below 
+\subsubsection{Hard Constraints}
+
+\subsubsection{Model formulation}
+
+\begin{mini!}
+  {x}{\sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k} + \sum_{i=1}^{N} c_i \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A}x_{ij}^{k}}{}{}
+  \addConstraint{\sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k }{=0,}{\forall j \in P, \forall \in K}
+  \addConstraint{\sum_{i=1}^{N} x_{ij}^k}{\geq d_{j}^k,}{\forall j \in C, \forall k \in K}
+\addConstraint{\sum_{j=1}^{N} x_{ij}^{k}}{\leq s_{i}^{k},}{\forall i \in L, \forall k \in K}
+\addConstraint{\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k }{\leq m_j,}{\forall j \in P}
+\addConstraint{\sum_{i=1}^{N} q_{i}^j}{= n_j,}{\forall j \in P}
+\addConstraint{x \in \varmathbb{R}^+ }{,}{}
+\end{mini!}
 
 \pagebreak
 
 \section{Results and Conclusion}
-In order to test such model a fictitious example is proposed by... Since some more assumptions were included as well as constraints compared to what proposed by the author, such as the fuzzy goal in maintaining a target level of electrical waste collection) additionally some some rules where implemented when defining the additional data, such rules are:
+The model was tested with the data exposed in the table below:
+
+Even if the fuzzy membership functions for the recycling plants where assumed to be given, a sensitivity analysis of the wheights was performed. Such sensitivity analysis is proposed in an ad-hoc section. Addittionally a Analytical Hierarcical Process was run in order to assess the perfect wheight assessment. Then the model was solved using the NEOS servers throug the CPLEX solver. 
+
+\subsection{Sensitivity analysis}
+
+\subsection{Analytical Hierarcical Process for wheight determination}
+
 \begin{itemize}
 	\item
 	\item
