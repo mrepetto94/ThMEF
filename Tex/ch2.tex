@@ -301,8 +301,9 @@ In the previous sections a model of open loop was presented, however in green su
 	\addConstraint{x \in \varmathbb{R}^+ }{,}{}
 \end{mini!}
 The model enunciated minimizes two different flow costs, namely the one implying the forward flow, the one from the production plant to the consumer and the reverse flow that follows the opposite direction, namely from the consumer to the production plant passing thorugh ad-hoch dismantling plants. The constraints applied to such moodel are therefore a combination of both forward flow constraints, mitigated from the classical open loop supply chain, and the reverse flow constraints. The constraint at $1$ is stating that the forward flow must equal the demand of the costumer at a particular retailing site; where instead the constraint at $2$ is enunciating the amount of waste that will not be part of the recycling process. The constraint at $3$ focuses on imposing a threashold in which the units recycled will not be of any advantage for the production plan and therefore will constitute additional waste. Lastly constraint $4$ that states the inequality about the products collected that should not exceed the products delivered at a $k$ general retail store. 
-
-The model presented however does not implement any decision maker preferences nor any legal boundaries on which the recycling center has to be submitted. Because the electronic waste turns out to be a resource for the firm is necessary to model the fuzziness of such desire expressed by the DM, and therefore the implementation of a Fuzzy set\cite{Zadeh_1965}, turns out to be the best choice; such set has a membership function defined as:
+\\
+\\
+The model presented however does not implement any decision maker preferences toward recycling level goals (\lambda is only a crisp value that affect the plant i nor any legal boundaries on which the recycling center has to be submitted. Because the electronic waste turns out to be a resource for the firm is necessary to model the fuzziness of such desire expressed by the DM, and therefore the implementation of a Fuzzy set\cite{Zadeh_1965}, turns out to be the best choice; such set has a membership function defined as:
 $$
 \mu [f_k(x)]=
 \begin{cases}
