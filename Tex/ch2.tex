@@ -293,13 +293,12 @@ In formulating our hybrid model is not taken into account the fixed cost of buil
 In the previous sections a model of open loop was presented, however in green supply chain something as an open loop supply chain network do not exist, this is becauseof the after life treatment of the products selled by the company. Such procedure is also enforce by hard laws (as analyzed in the specific section). Therefore the revised model will have to capture these features. The open loop supply chain network will be enunciated as follow:
 
 \begin{mini!}
-  {x}{\sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k} + \sum_{i=1}^{N} c_i \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A}x_{ij}^{k}}{}{}
-  \addConstraint{\sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k }{=0,}{\forall j \in P, \forall \in K}
-  \addConstraint{\sum_{i=1}^{N} x_{ij}^k}{\geq d_{j}^k,}{\forall j \in C, \forall k \in K}
-\addConstraint{\sum_{j=1}^{N} x_{ij}^{k}}{\leq s_{i}^{k},}{\forall i \in L, \forall k \in K}
-\addConstraint{\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k }{\leq m_j,}{\forall j \in P}
-\addConstraint{\sum_{i=1}^{N} q_{i}^j}{= n_j,}{\forall j \in P}
-\addConstraint{x \in \varmathbb{R}^+ }{,}{}
+	{x}{\sum_{i=1}^{I}\sum_{j=1}^{J}\sum_{k=1}^{K} c^f_{ijk} x^f_{ijk}  + {\sum_{k=1}^{K}\sum_{l=1}^{L}\sum_{i=1}^{I0} c^r_{kli} x^r_{kli}}{}{}
+	\addConstraint{\sum_{i=1}^{I}\sum_{j=1}^{J} x^f_{ijk}{= d_k,}{\forall k \in K}
+	\addConstraint{\sum_{l=1}^{L}(\sum_{i=0}^{I} x^r_{kli} - x^r_{kli})}{= w_k,}{\forall k \in K}
+	\addConstraint{\lambda \sum_{i=1}^{I0} x^r_{kli}}{\leq x^r_{il},}{\forall k \in K ,\forall l \in L}
+	\addConstraint{\sum_{k=1}^{K} \sum_{i=1}^{L} r_k x^r_{kli}}{\leq \sum_{k=1}^{K} d_k,}{\forall i \in I}
+	\addConstraint{x \in \varmathbb{R}^+ }{,}{}
 \end{mini!}
 
 The model presented however does not implement any decision maker preferences nor any legal boundaries on which the recycling center has to be submitted. Because the electronic waste turns out to be a resource for the firm is necessary to model the fuzziness of such desire expressed by the DM, and therefore the implementation of a Fuzzy set\cite{Zadeh_1965}, turns out to be the best choice; such set has a membership function defined as:
