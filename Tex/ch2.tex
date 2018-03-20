@@ -290,7 +290,7 @@ Such activities are a fundamental part on the supply chain that serves as glue w
 In formulating our hybrid model is not taken into account the fixed cost of building a plant, this happened for two reasons. The first reason is the consideration of the cost of building a plant as a sunk cost and therefore it should not influence the economic decision on whether to allocate a particular quantity of goods on a specific plant. Secondly, the Activity Based Cost method is used therefore  the focus will be on the activities that contributes in creating the marginal cost of the good in the supply chain.
 
 \subsection{Closed Loop Supply Chain}
-In the previous sections a model of open loop was presented, however in green supply chain something as an open loop supply chain network do not exist, this is becauseof the after life treatment of the products selled by the company. Such procedure is also enforce by hard laws (as analyzed in the specific section). Therefore the revised model will have to capture these features. The open loop supply chain network will be enunciated as follow:
+In the previous sections a model of open loop was presented, however in green supply chain something as an open loop supply chain network do not exist, this is because of the after life treatment of the products selled by the company. Such procedure is also enforced by hard laws (as analyzed in the specific section). Therefore the revised model will have to capture these features. The closed loop supply chain network will be enunciated as follow:
 
 \begin{mini!}
 	{x}{\sum_{i=1}^{I}\sum_{j=1}^{J}\sum_{k=1}^{K} c^f_{ijk} x^f_{ijk}  + {\sum_{k=1}^{K}\sum_{l=1}^{L}\sum_{i=1}^{I0} c^r_{kli} x^r_{kli}}{}{}
@@ -300,14 +300,15 @@ In the previous sections a model of open loop was presented, however in green su
 	\addConstraint{\sum_{k=1}^{K} \sum_{i=1}^{L} r_k x^r_{kli}}{\leq \sum_{k=1}^{K} d_k,}{\forall i \in I}
 	\addConstraint{x \in \varmathbb{R}^+ }{,}{}
 \end{mini!}
+The model enunciated minimizes two different flow costs, namely the one implying the forward flow, the one from the production plant to the consumer and the reverse flow that follows the opposite direction, namely from the consumer to the production plant passing thorugh ad-hoch dismantling plants. The constraints applied to such moodel are therefore a combination of both forward flow constraints, mitigated from the classical open loop supply chain, and the reverse flow constraints. The constraint at $1$ is stating that the forward flow must equal the demand of the costumer at a particular retailing site; where instead the constraint at $2$ is enunciating the amount of waste that will not be part of the recycling process. The constraint at $3$ focuses on imposing a threashold in which the units recycled will not be of any advantage for the production plan and therefore will constitute additional waste. Lastly constraint $4$ that states the inequality about the products collected that should not exceed the products delivered at a $k$ general retail store. 
 
 The model presented however does not implement any decision maker preferences nor any legal boundaries on which the recycling center has to be submitted. Because the electronic waste turns out to be a resource for the firm is necessary to model the fuzziness of such desire expressed by the DM, and therefore the implementation of a Fuzzy set\cite{Zadeh_1965}, turns out to be the best choice; such set has a membership function defined as:
 $$
-\mu [f_q(x)]=
+\mu [f_k(x)]=
 \begin{cases}
-1 & f_q(x) \geq b_q \\
-1-\frac{b_q-f_q(x)}{n_{max}} & b_q -n{max} \leq f_q(x) \leq b_q \\
-0 & f_q(x) \leq b_q - n_{max}
+1 & f_k(x) \geq b_k \\
+1-\frac{b_k-f_k(x)}{n_{max}} & b_k -n{max} \leq f_k(x) \leq b_k \\
+0 & f_k(x) \leq b_k - n_{max}
 \end{cases}
 $$
 The defined set penalizes the negative occurrences from the target demanded by the decision maker, and at the same time guarantees a bottom line coherent with the local legislation.
