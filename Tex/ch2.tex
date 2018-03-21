@@ -293,17 +293,18 @@ In formulating our hybrid model is not taken into account the fixed cost of buil
 In the previous sections a model of open loop was presented, however in green supply chain something as an open loop supply chain network do not exist, this is because of the after life treatment of the products selled by the company. Such procedure is also enforced by hard laws (as analyzed in the specific section). Therefore the revised model will have to capture these features. The closed loop supply chain network will be enunciated as follow:
 
 \begin{mini!}
-	{x}{\sum_{i=1}^{I}\sum_{j=1}^{J}\sum_{k=1}^{K} c^f_{ijk} x^f_{ijk}  + {\sum_{k=1}^{K}\sum_{l=1}^{L}\sum_{i=1}^{I0} c^r_{kli} x^r_{kli}}{}{}
-	\addConstraint{\sum_{i=1}^{I}\sum_{j=1}^{J} x^f_{ijk}{= d_k,}{\forall k \in K}
-	\addConstraint{\sum_{l=1}^{L}(\sum_{i=0}^{I} x^r_{kli} - x^r_{kli})}{= w_k,}{\forall k \in K}
-	\addConstraint{\lambda \sum_{i=1}^{I0} x^r_{kli}}{\leq x^r_{il},}{\forall k \in K ,\forall l \in L}
-	\addConstraint{\sum_{k=1}^{K} \sum_{i=1}^{L} r_k x^r_{kli}}{\leq \sum_{k=1}^{K} d_k,}{\forall i \in I}
-	\addConstraint{x \in \varmathbb{R}^+ }{,}{}
+	{x}{\sum_{i=1}^{I}\sum_{j=1}^{J}\sum_{k=1}^{K} c^f_{ijk} x^f_{ijk}  + \sum_{k=1}^{K}\sum_{l=1}^{L}\sum_{i=1}^{I0} c^r_{kli} x^r_{kli}}{}{}
+\addConstraint{\sum_{i=1}^{I}\sum_{j=1}^{J} x^f_{ijk}}{= d_k,}{\forall k \in K}
+\addConstraint{\sum_{l=1}^{L}(\sum_{i=0}^{I} x^r_{kli} - x^r_{kli})}{= w_k,}{\forall k \in K}
+\addConstraint{\lambda \sum_{i=1}^{I0} x^r_{kli}}{\leq x^r_{il},}{\forall k \in K ,\forall l \in L}
+\addConstraint{\sum_{k=1}^{K} \sum_{i=1}^{L} r_k x^r_{kli}}{\leq \sum_{k=1}^{K} d_k,}{\forall i \in I}
+\addConstraint{x \in \varmathbb{R}^+ }{,}{}
 \end{mini!}
-The model enunciated minimizes two different flow costs, namely the one implying the forward flow, the one from the production plant to the consumer and the reverse flow that follows the opposite direction, namely from the consumer to the production plant passing thorugh ad-hoch dismantling plants. The constraints applied to such moodel are therefore a combination of both forward flow constraints, mitigated from the classical open loop supply chain, and the reverse flow constraints. The constraint at $1$ is stating that the forward flow must equal the demand of the costumer at a particular retailing site; where instead the constraint at $2$ is enunciating the amount of waste that will not be part of the recycling process. The constraint at $3$ focuses on imposing a threashold in which the units recycled will not be of any advantage for the production plan and therefore will constitute additional waste. Lastly constraint $4$ that states the inequality about the products collected that should not exceed the products delivered at a $k$ general retail store. 
+
+The model enunciated minimizes two different flow costs, namely the one implying the forward flow, the one from the production plant to the consumer and the reverse flow that follows the opposite direction, namely from the consumer to the production plant passing thorugh ad-hoch dismantling plants. The constraints applied to such moodel are therefore a combination of both forward flow constraints, mitigated from the classical open loop supply chain, and the reverse flow constraints. The constraint at $5b$ is stating that the forward flow must equal the demand of the costumer at a particular retailing site; where instead the constraint at $5c$ is enunciating the amount of waste that will not be part of the recycling process. The constraint at $5d$ focuses on imposing a threashold in which the units recycled will not be of any advantage for the production plan and therefore will constitute additional waste. Lastly constraint $5e$ that states the inequality about the products collected that should not exceed the products delivered at a $k$ general retail store. 
 \\
 \\
-The model presented however does not implement any decision maker preferences toward recycling level goals (\lambda is only a crisp value that affect the plant necessity) nor any legal boundaries on which the recycling center has to be submitted. Because the electronic waste turns out to be a resource for the firm is necessary to model the fuzziness of such desire expressed by the DM, and therefore the implementation of a Fuzzy set\cite{Zadeh_1965}, turns out to be the best choice; such set has a membership function defined as:
+The model presented however does not implement any decision maker preferences toward recycling level goals ($\lambda$ is only a crisp value that affect the plant necessity) nor any legal boundaries on which the recycling center has to be submitted. Because the electronic waste turns out to be a resource for the firm is necessary to model the fuzziness of such desire expressed by the DM, and therefore the implementation of a Fuzzy set\cite{Zadeh_1965}, turns out to be the best choice; such set has a membership function defined as:
 $$
 \mu [f_k(x)]=
 \begin{cases}
@@ -312,14 +313,13 @@ $$
 0 & f_k(x) \leq b_k - n_{max}
 \end{cases}
 $$
+
 The defined set penalizes the negative occurrences from the target demanded by the decision maker, and at the same time guarantees a bottom line coherent with the local legislation. The following figure represent the grphichal interpretation of the fuzzy set for a generic dismantling plant, whereas the $n_{max}$ represent the legal boundariy in which any lower achievement will not be tolerated, conversely $b_k$ is the goal sought by the decision maker as optimal, this may be due to some particular public image concernes enacted by the DM. 
 
 \subsection{The Goal Programming model}
 Since we are facing a moltitute of goals; some of them aims at the minimization of the transportation costs of both the forward flow and the recycling flow; some are set in order to controll the supporting activities, and ultimately some are trying to capture the preference and necessities of the DM.
-Because of this moltitude of goals a multi-criteria decision analysis tool was used, namely the Goal Programming approach. In this approach the goal is to minimize a set of deviational variable applied to our goals. Therefore the resulting model will have the following mathemacial formulation:
-\\
-\\ 
-The model enunciated builds from the concept of open loop supply chain (it's possible to see it in the fist soft constraints) taking into account even the support activity costs of each individual step in the value chain. Then the supply chain loop is closed implemnting the controls on the reciclying flow. Additionlly the last soft constraints are a fuzzy adaptation as proposed by \cite{}.
+Because of this moltitude of goals a multi-criteria decision analysis tool was used, namely the Goal Programming approach. In this approach the goal is to minimize a set of deviational variable applied to our goals.
+The model proposed builds from the concept of open loop supply chain (it's possible to see it in the fist soft constraints) taking into account even the support activity costs of each individual step in the value chain. Then the supply chain loop is closed implemnting the controls on the reciclying flow. Additionlly the last soft constraints are an adaptation of the fuzzy set in order to be solved trough lineat programming solvers.
 \\
 \\
 The model proposed takes into account only one product because of simplicity matters however it can be adjusted to allow more than one product by including the transformation process of each production step. One additional limitation is given by the unicity of the production procedure, meaning that production happens only in one plant, whereas in reality may not be the case. The model proposed may be enhanced to support this additional feature, but require the use in the pre model formulation of additional logistics tools more focused on the operational level such as production tree.
@@ -342,17 +342,40 @@ The hard constrainst represent the bundaries in which the solution will not be f
 Lastly the fuzziness membership function value that as to be between 0 and 1, this constrain is imposed by the fuzzy set definition.
 
 \subsubsection{Model formulation}
-
+Given the objective function, the soft constraints and the hard ones, the model is proposed in the follonwing mathematical form:
 
 \begin{mini!}
-  {x}{\sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k} + \sum_{i=1}^{N} c_i \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A}x_{ij}^{k}}{}{}
-  \addConstraint{\sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k }{=0,}{\forall j \in P, \forall \in K}
-  \addConstraint{\sum_{i=1}^{N} x_{ij}^k}{\geq d_{j}^k,}{\forall j \in C, \forall k \in K}
+	{\delta^-,\delta^+}{w^\star_1(\sum_{i=1}^{I} \sum_{j=1}^{J} \sum_{k=1}^{K} \sum_{i=1}^{I0} \delta^-_{ijk}) +
+	w^\star_2(\sum_{i=1}^{I} \delta^-_{i} + \sum_{j=1}^{J} \delta^-_{j} + \sum_{k=1}^{K} \delta^-_{k} + \sum_{i=1}^{I0} \delta^-_{i}) +
+}{}{}
+\addConstraint{\sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k }{=0,}{\forall j \in P, \forall \in K}
+\addConstraint{\sum_{i=1}^{N} x_{ij}^k}{\geq d_{j}^k,}{\forall j \in C, \forall k \in K}
 \addConstraint{\sum_{j=1}^{N} x_{ij}^{k}}{\leq s_{i}^{k},}{\forall i \in L, \forall k \in K}
 \addConstraint{\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k }{\leq m_j,}{\forall j \in P}
 \addConstraint{\sum_{i=1}^{N} q_{i}^j}{= n_j,}{\forall j \in P}
 \addConstraint{x \in \varmathbb{R}^+ }{,}{}
 \end{mini!}
+
+\begin{mini!}
+  {x}{\sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k} + \sum_{i=1}^{N} c_i \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A}x_{ij}^{k}}{}{}
+\addConstraint{\sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k }{=0,}{\forall j \in P, \forall \in K}
+\addConstraint{\sum_{i=1}^{N} x_{ij}^k}{\geq d_{j}^k,}{\forall j \in C, \forall k \in K}
+\addConstraint{\sum_{j=1}^{N} x_{ij}^{k}}{\leq s_{i}^{k},}{\forall i \in L, \forall k \in K}
+\addConstraint{\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k }{\leq m_j,}{\forall j \in P}
+\addConstraint{\sum_{i=1}^{N} q_{i}^j}{= n_j,}{\forall j \in P}
+\addConstraint{x \in \varmathbb{R}^+ }{,}{}
+\end{mini!}
+
+\begin{mini!}
+	{x}{\sum_{i=1}^{I}\sum_{j=1}^{J}\sum_{k=1}^{K} c^f_{ijk} x^f_{ijk}  + \sum_{k=1}^{K}\sum_{l=1}^{L}\sum_{i=1}^{I0} c^r_{kli} x^r_{kli}}{}{}
+\addConstraint{\sum_{i=1}^{I}\sum_{j=1}^{J} x^f_{ijk}}{= d_k,}{\forall k \in K}
+\addConstraint{\sum_{l=1}^{L}(\sum_{i=0}^{I} x^r_{kli} - x^r_{kli})}{= w_k,}{\forall k \in K}
+\addConstraint{\lambda \sum_{i=1}^{I0} x^r_{kli}}{\leq x^r_{il},}{\forall k \in K ,\forall l \in L}
+\addConstraint{\sum_{k=1}^{K} \sum_{i=1}^{L} r_k x^r_{kli}}{\leq \sum_{k=1}^{K} d_k,}{\forall i \in I}
+\addConstraint{x \in \varmathbb{R}^+ }{,}{}
+\end{mini!}
+
+
 
 \pagebreak
 
