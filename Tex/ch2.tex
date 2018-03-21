@@ -329,11 +329,23 @@ In the following sections a deep overview of the objectives, constraints and the
 
 \subsubsection{Objective function}
 The objective function is a function containing all the deviational variables to be minimized, in the case under scope the interest is to minimize a series of costs, namely the cost of transportation of the goods from the production plan $ $ to the consumer $K$, and back from the consumer $k$ to the plant $I$ in the latter passage the waste, in other words the non collected products will be free of costs since won't be subjet to any transortation. Another goal to be minimized is the cost of the supporting activities this activities lies within each step of the value chain and are not part of any tansportation cost, instead they are the cost that sustain the value of the product, a typycal support activity cost may be the cost of a marketing campaing in a specific retail store $K$; such costs has to be mnimized as well and for a matter of order the deviational variable and their relative weights will follow each particular step of the value chain. Apart from costs additional goals may be more subtle; this is the case of demand fullfilment. Another goal not implying any cost is the reduction of the product wasted (meaning not recycled).
-\subsubsection{Soft Constraints}
-The soft constraints are the ones that do not constitues any particular boundary but carries the deviational variables and the goals that are tried to be achieved by te decision maker. The soft contraints are represented by the following equations
 
-  
-  
+\subsubsection{Soft Constraints}
+The soft constraints are the ones that do not constitues any particular boundary but carries the deviational variables and the goals that are tried to be achieved by te decision maker. The first soft contraints are the ones that deals with the transportation cost ofthe goods produced; the fist flow of transportation is the forward flow and its soft constraint is represented as follows:
+$$
+\sum_{i=1}^{I}\sum_{j=1}^{J}\sum_{k=1}^{K} c^f_{ijk} x^f_{ijk} - \delta^+_{ijk}=0}
+$$
+In this case the goal is to minimize the cost of transportation of the good produced till it reaches the customer, the step that the product has to do in order to reach the customer are two, from the production plant to the distribution center and then to the retailcenter (indicated with $k$). The same goal has to be achieved by the recycling flow of products returned by the consumer, the soft constraint is similar to the first one and is represented as follows:
+$$
+\sum_{k=1}^{K}\sum_{q=1}^{Q0}\sum_{i=1}^{I} c^r_{kqi} x^r_{kqi}, - \delta^+_{kqi}=0
+$$
+The peculiarity of this passage is given by the set $Q0$ which is not only the set of possible dismantling plant (the flow now is from consumer $K$ to dismantling plant $Q0$ till the prduction plan$I$), but it also includes the set non-collection entity that contain all the units not collected because not necessary to the recycling process.
+The other set of soft constraint is given by the support activities and its formulated in the following general form:
+ $$
+(o^t_s \cdot x^t_s) - \delta^+_s}{=0,}{\forall s \in S}
+ $$
+ Where the $t$ stands for the type of flow that can be forward $f$ or recycling 
+
 \subsubsection{Hard Constraints}
 The hard constrainst represent the bundaries in which the solution will not be feasible such constraints may be implied by the approach itself, such as the positivity of the deviational variables, or implied by the model itself such as the limit recycled goods that should not be grater thean the goods demanded. In the case under scope the hard constraints ara:
 \begin{itemize}
@@ -347,7 +359,7 @@ Given the objective function, the soft constraints and the hard ones, the model 
 \begin{mini!}
 	{\delta^-,\delta^+}{w^\star_1(\sum_{i=1}^{I} \sum_{j=1}^{J} \sum_{k=1}^{K} \sum_{q=1}^{Q0} \sum_{i=1}^{I} \delta^+_{ijkqi}) + }{}{}
 \breakObjective{w^\star_2(\sum_{i=1}^{I} \delta^+_{i} + \sum_{j=1}^{J} \delta^+_{j} + \sum_{k=1}^{K} \delta^+_{k} + \sum_{q=1}^{Q0} \delta^+_{q} + \sum_{i=1}^{I} \delta^+_{i}) + }
-\breakObjective{w^\star_3(\sum_{k=1}^{K} \delta^-_k) + }
+\breakObjective{w^\star_3(\sum_{k=1}^{K} \tilde{\delta^-_k}) + }
 \breakObjective{w^\star_4(\sum_{q=1}^{Q0} \delta^-_q) + }
 \breakObjective{w^\star_5(\sum_{i=1}^{I} \delta^+_i) + }
 \addConstraint{\sum_{i=1}^{I}\sum_{j=1}^{J}\sum_{k=1}^{K} c^f_{ijk} x^f_{ijk} - \delta^+_{ijk}}{=0}{}
@@ -357,39 +369,17 @@ Given the objective function, the soft constraints and the hard ones, the model 
 \addConstraint{(o_k \cdot x^f_k) - \delta^+_k}{=0,}{\forall k \in K}
 \addConstraint{(o_q \cdot x^r_q) - \delta^+_q}{=0,}{\forall q \in Q0}
 \addConstraint{(o^r_i \cdot x^r_i) - \delta^+_i}{=0,}{\forall i \in I}
-\addConstraint{x_k + \delta^-_k}{= d_{k},}{\forall k \in K}
+\addConstraint{x_k + \tilde{\delta^-_k}}{= EV[d_{k}],}{\forall k \in K}
 \addConstraint{x_q + \delta^-_q}{= b_{k},}{\forall q \in Q0}
 \addConstraint{\mu_q + \frac{\delta^-_q}{n_{max}}}{= b_{k},}{\forall q \in Q0}
 \addConstraint{\sum_{k=1}^{K} (x^f_{k} - x^r_{i}) - \delta^+_i}{= w_i,}{\forall i \in I}
-
-\addConstraint{\sum_{i=1}^{I} x_{i}^f - \sum_{j=1}^{J} x_{j}^f }{=0,}{}
-\addConstraint{\sum_{k=1}^{K} x_{k}^r - \sum_{q=1}^{Q0} x_{q}^r }{=0,}{}
-
-\addConstraint{\sum_{j=1}^{N} x_{ij}^{k}}{\leq s_{i}^{k},}{\forall i \in L, \forall k \in K}
-\addConstraint{\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k }{\leq m_j,}{\forall j \in P}
-\addConstraint{\sum_{i=1}^{N} q_{i}^j}{= n_j,}{\forall j \in P}
+\addConstraint{\sum_{i=1}^{I} x_{i}^f - \sum_{j=1}^{J} x_{j}^f =0 }{,\sum_{k=1}^{K} x_{k}^r - \sum_{q=1}^{Q0} x_{q}^r=0,}{\sum_{q=1}^{Q0} x_{q}^r - \sum_{i=1}^{I} x_{i}^r}
+\addConstraint{\lambda \sum_{i=1}^{I} x^r_{kqi}}{\leq x^r_{iq},}{\forall k \in K ,\forall q \in Q0}
+\addConstraint{\sum_{k=1}^{K} \sum_{j=1}^{J} r_k x^f_{kji}}{\leq \sum_{k=1}^{K} d_k,}{\forall i \in I}
+\addConstraint{r_k x^f_{k}}{=x^r_{k}}{\forall k \in K}
 \addConstraint{x \in \varmathbb{R}^+, \mu \in [1,0] }{,}{}
 \end{mini!}
-
-\begin{mini!}
-  {x}{\sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k} + \sum_{i=1}^{N} c_i \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A}x_{ij}^{k}}{}{}
-\addConstraint{\sum_{i=1}^{N} x_{ij}^k}{\geq d_{j}^k,}{\forall j \in C, \forall k \in K}
-\addConstraint{\sum_{j=1}^{N} x_{ij}^{k}}{\leq s_{i}^{k},}{\forall i \in L, \forall k \in K}
-\addConstraint{\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k }{\leq m_j,}{\forall j \in P}
-\addConstraint{\sum_{i=1}^{N} q_{i}^j}{= n_j,}{\forall j \in P}
-\addConstraint{x \in \varmathbb{R}^+ }{,}{}
-\end{mini!}
-
-\begin{mini!}
-	{x}{\sum_{i=1}^{I}\sum_{j=1}^{J}\sum_{k=1}^{K} c^f_{ijk} x^f_{ijk}  + \sum_{k=1}^{K}\sum_{l=1}^{L}\sum_{i=1}^{I0} c^r_{kli} x^r_{kli}}{}{}
-\addConstraint{\sum_{i=1}^{I}\sum_{j=1}^{J} x^f_{ijk}}{= d_k,}{\forall k \in K}
-
-\addConstraint{\lambda \sum_{i=1}^{I0} x^r_{kli}}{\leq x^r_{il},}{\forall k \in K ,\forall l \in L}
-\addConstraint{\sum_{k=1}^{K} \sum_{i=1}^{L} r_k x^r_{kli}}{\leq \sum_{k=1}^{K} d_k,}{\forall i \in I}
-\addConstraint{x \in \varmathbb{R}^+ }{,}{}
-\end{mini!}
-
-
+In the following section the model wll be suject to a weight sensitivity analysis and then the weights will be assigned using a Analytical Hierarchical Process, subsequently the model will be solved via a linear programming solver and the results will be further analyzed.
 
 \pagebreak
 
