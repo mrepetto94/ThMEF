@@ -345,9 +345,13 @@ Lastly the fuzziness membership function value that as to be between 0 and 1, th
 Given the objective function, the soft constraints and the hard ones, the model is proposed in the follonwing mathematical form:
 
 \begin{mini!}
-	{\delta^-,\delta^+}{w^\star_1(\sum_{i=1}^{I} \sum_{j=1}^{J} \sum_{k=1}^{K} \sum_{i=1}^{I0} \delta^-_{ijk}) +
-	w^\star_2(\sum_{i=1}^{I} \delta^-_{i} + \sum_{j=1}^{J} \delta^-_{j} + \sum_{k=1}^{K} \delta^-_{k} + \sum_{i=1}^{I0} \delta^-_{i}) +
-}{}{}
+	{\delta^-,\delta^+}{w^\star_1(\sum_{i=1}^{I} \sum_{j=1}^{J} \sum_{k=1}^{K} \sum_{q=1}^{Q0} \sum_{i=1}^{I} \delta^+_{ijkqi}) + }{}{}
+\breakObjective{w^\star_2(\sum_{i=1}^{I} \delta^+_{i} + \sum_{j=1}^{J} \delta^+_{j} + \sum_{k=1}^{K} \delta^+_{k} + \sum_{q=1}^{Q0} \delta^+_{q} + \sum_{i=1}^{I} \delta^+_{i}) + }
+\breakObjective{w^\star_3(\sum_{k=1}^{K} \delta^-_k) + }
+\breakObjective{w^\star_4(\sum_{q=1}^{Q0} \delta^-_q) + }
+\breakObjective{w^\star_5(\sum_{i=1}^{I} \delta^+_i) + }
+\addConstraint{\sum_{i=1}^{I}\sum_{j=1}^{J}\sum_{k=1}^{K} c^f_{ijk} x^f_{ijk} - \delta^+_{ijk}}{=0}{}
+\addConstraint{\sum_{k=1}^{K}\sum_{q=1}^{Q0}\sum_{i=1}^{I} c^r_{kqi} x^r_{kqi}, - \delta^+_{kqi}}{=0}{}
 \addConstraint{\sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k }{=0,}{\forall j \in P, \forall \in K}
 \addConstraint{\sum_{i=1}^{N} x_{ij}^k}{\geq d_{j}^k,}{\forall j \in C, \forall k \in K}
 \addConstraint{\sum_{j=1}^{N} x_{ij}^{k}}{\leq s_{i}^{k},}{\forall i \in L, \forall k \in K}
