@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.21)  21 MAR 2018 10:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.21)  21 MAR 2018 10:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -977,13 +977,12 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 \@quotelevel=\count401
 \@quotereset=\count402
-
-No file ch2.aux.
+ (./ch2.aux)
 \openout1 = `ch2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 45.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 45.
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 45.
@@ -1010,7 +1009,8 @@ File: utxexa.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Try loading font information for OT1+txr on input line 45.
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 Package biblatex Info: No input encoding detected.
@@ -1067,10 +1067,6 @@ LaTeX Font Info:    Try loading font information for U+txsyc on input line 53.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-
-LaTeX Warning: Citation 'srivastava_green_2007' on page 1 undefined on input line 62.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 66--70
 
  []
@@ -1078,176 +1074,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--70
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-
-LaTeX Warning: Citation 'Diabat2011' on page 3 undefined on input line 75.
-
-
-LaTeX Warning: Citation 'Strobel18' on page 3 undefined on input line 75.
-
-
-LaTeX Warning: Reference `fig:occurrence' on page 3 undefined on input line 75.
-
-
-LaTeX Warning: Citation 'Shan2018' on page 3 undefined on input line 75.
-
 <Images/occurence.png, id=15, 957.0957pt x 569.4876pt>
 File: Images/occurence.png Graphic file (type png)
 <use Images/occurence.png>
 Package pdftex.def Info: Images/occurence.png  used on input line 77. on input line 77.
 Package pdftex.def Info: Requested size: 345.0pt x 205.28476pt on input line 77.
-
-LaTeX Warning: Citation 'Gilbert2001' on page 3 undefined on input line 82.
-
-
-LaTeX Warning: Citation 'Zsidisin2001' on page 3 undefined on input line 82.
-
-
-LaTeX Warning: Citation 'srivastava_green_2007' on page 3 undefined on input line 85.
-
-
-LaTeX Warning: Citation 'Zhu2008' on page 3 undefined on input line 85.
-
-[3 <./Images/occurence.png>]
+ [3 <./Images/occurence.png>]
 LaTeX Font Info:    Try loading font information for OMS+txr on input line 87.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 87.
-
-
-LaTeX Warning: Citation 'urvashi_green_2013' on page 4 undefined on input line 87.
-
-
-Overfull \hbox (55.99013pt too wide) in paragraph at lines 87--88
-\OT1/txr/m/n/10 re-uti-liz-ing ma-te-rial in the man-u-fac-tur-ing, in or-der to limit waste creation[[]]; 
- []
-
-
-LaTeX Warning: Citation 'ceschin_evolution_2016' on page 4 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'YolLee2007' on page 4 undefined on input line 92.
-
-[4]
-
-LaTeX Warning: Citation 'ongondo_how_2011' on page 5 undefined on input line 140.
-
-[5]
+ [4] [5]
 <Images/heatmap.png, id=27, 492.84125pt x 477.785pt>
 File: Images/heatmap.png Graphic file (type png)
 <use Images/heatmap.png>
 Package pdftex.def Info: Images/heatmap.png  used on input line 150. on input line 150.
 Package pdftex.def Info: Requested size: 276.00105pt x 267.57964pt on input line 150.
  [6 <./Images/heatmap.png>] [7]
-
-LaTeX Warning: Citation 'mula_mathematical_2010' on page 8 undefined on input line 164.
-
-
-LaTeX Warning: Citation 'jung_order_2008' on page 8 undefined on input line 166.
-
-
-LaTeX Warning: Citation 'Oh_Karimi_2006' on page 8 undefined on input line 166.
-
-
-LaTeX Warning: Citation 'Kanyalkar_2005' on page 8 undefined on input line 166.
-
-
-Overfull \hbox (59.10013pt too wide) in paragraph at lines 166--167
-[]\OT1/txr/m/n/10 Linear Pro-gram-ming: or-der quan-tity def-i-ni-tion by means of decentralization[[]],
- []
-
-
-Overfull \hbox (93.1101pt too wide) in paragraph at lines 166--167
-\OT1/txr/m/n/10 pro-duc-tion and dis-tri-bu-tion plan-ning tak-ing into ac-count coun-try spe-cific regulations[[]],
- []
-
-
-LaTeX Warning: Citation 'romo_optimizing_2009' on page 8 undefined on input line 167.
-
-
-LaTeX Warning: Citation 'Rizk_Martel2008' on page 8 undefined on input line 167.
-
-
-Overfull \hbox (117.9701pt too wide) in paragraph at lines 167--168
-[]\OT1/txr/m/n/10 Mixed In-te-ger Lin-ear Pro-gram-ming: net-work op-ti-miza-tion and rout-ing configuration[[]],
- []
-
-
-LaTeX Warning: Citation 'benjamin_analysis_1989' on page 8 undefined on input line 168.
-
-
-Overfull \hbox (106.4801pt too wide) in paragraph at lines 168--169
-[]\OT1/txr/m/n/10 Non Lin-ear Pro-gram-ming: op-ti-miza-tion of pro-duc-tion, trans-port and inventories[[]]; 
- []
-
-
-LaTeX Warning: Citation 'torabi_interactive_2008' on page 8 undefined on input line 169.
-
-
-LaTeX Warning: Citation 'Chern_Hsieh_2007' on page 8 undefined on input line 169.
-
-
-LaTeX Warning: Citation 'Liang_Cheng_2009' on page 8 undefined on input line 170.
-
-
-LaTeX Warning: Citation 'Gupta_Maranas_2003' on page 8 undefined on input line 171.
-
-
 Overfull \hbox (3.83012pt too wide) in paragraph at lines 171--172
 []\OT1/txr/m/n/10 Stochastic Pro-gram-ming: ad-dress-ing de-mand un-cer-tainty ac-count-ing for the prob-
  []
 
-
-LaTeX Warning: Citation 'azimian_supply_2017' on page 8 undefined on input line 176.
-
-[8]
-
-LaTeX Warning: Citation 'charnes_optimal_1955' on page 9 undefined on input line 179.
-
-
-LaTeX Warning: Citation 'Contini1968' on page 9 undefined on input line 179.
-
-
-LaTeX Warning: Citation 'azimian_supply_2017' on page 9 undefined on input line 186.
-
-
-LaTeX Warning: Citation 'Zadeh_1965' on page 9 undefined on input line 195.
-
-
-LaTeX Warning: Citation 'Rehman2017' on page 9 undefined on input line 196.
-
-
-LaTeX Warning: Citation 'Diaz-Madronero2018' on page 9 undefined on input line 196.
-
-
-LaTeX Warning: Citation 'Nomani2016' on page 9 undefined on input line 196.
-
-[9] [10]
-
-LaTeX Warning: Citation 'Santoso_Ahmed_Goetschalckx_Shapiro_2005' on page 11 undefined on input line 200.
-
-
-LaTeX Warning: Citation 'CompetitiveAdvantage' on page 11 undefined on input line 200.
-
-
-LaTeX Warning: Citation 'YAGHOOBI2008' on page 11 undefined on input line 200.
-
-
-Overfull \hbox (212.51012pt too wide) in paragraph at lines 200--201
-\OT1/txr/m/n/10 The hy-brid model de-vel-oped is based on the sup-ply chain con-cept de-vel-oped by Santoso[[]]plus
- []
-
-
-Overfull \hbox (11.12007pt too wide) in paragraph at lines 200--201
-\OT1/txr/m/n/10 the in-te-gra-tion of sup-port-ing ac-tiv-i-ties as enun-ci-ated by Porter[[]]in
- []
-
-[11] [12] [13]
-
-LaTeX Warning: Citation 'Zadeh_1965' on page 14 undefined on input line 307.
-
-
+[8] [9] [10] [11] [12] [13]
 Underfull \hbox (badness 10000) in paragraph at lines 304--308
 
  []
@@ -1262,39 +1112,1424 @@ Underfull \hbox (badness 10000) in paragraph at lines 320--329
 
  []
 
-[15] [16] [17] [18] [19]
+[15]
+./ch2.tex:372: Missing $ inserted.
+<inserted text> 
+                $
+l.372 \end{mini!}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-LaTeX Warning: Empty bibliography on input line 403.
+./ch2.tex:372: Missing } inserted.
+<inserted text> 
+                }
+l.372 \end{mini!}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-(./ch2.aux)
+./ch2.tex:372: Missing } inserted.
+<inserted text> 
+                }
+l.372 \end{mini!}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-LaTeX Warning: There were undefined references.
+./ch2.tex:372: Missing } inserted.
+<inserted text> 
+                }
+l.372 \end{mini!}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./ch2.tex:372: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.372 \end{mini!}
+                 
+I'm guessing that you meant to end an alignment here.
+
+./ch2.tex:372: Missing { inserted.
+<inserted text> 
+                {
+l.372 \end{mini!}
+                 
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./ch2.tex:372: Missing { inserted.
+<inserted text> 
+                {
+l.372 \end{mini!}
+                 
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./ch2.tex:372: Extra }, or forgotten $.
+<recently read> }
+                 
+l.372 \end{mini!}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./ch2.tex:372: Missing $ inserted.
+<inserted text> 
+                $
+l.372 \end{mini!}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./ch2.tex:372: Missing } inserted.
+<inserted text> 
+                }
+l.372 \end{mini!}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+\math@cr@@@ ->&
+               \omit \global \advance \row@ \@ne \ifst@rred \nonumber \fi \i...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced \omit.
+\math@cr@@@ ->&\omit 
+                     \global \advance \row@ \@ne \ifst@rred \nonumber \fi \i...
+l.372 \end{mini!}
+                 
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./ch2.tex:372: Misplaced \cr.
+\math@cr@@@ ... \else \global \@eqnswtrue \fi \cr 
+                                                  
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced \noalign.
+\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
+                                                  {\vskip #1\relax }
+l.372 \end{mini!}
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> \\ &
+               \bodySubjectTo \quad &\sum _{i=1}^{I} x_{i}^f - \sum _{j=1}^{...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Missing $ inserted.
+<inserted text> 
+                $
+l.372 \end{mini!}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> \\ &\bodySubjectTo \quad &
+                                     \sum _{i=1}^{I} x_{i}^f - \sum _{j=1}^{...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> ...x_{i}^f - \sum _{j=1}^{J} x_{j}^f  &
+                                                   =0, 
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced \span.
+\spanit ->\span 
+                \span 
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced \span.
+\spanit ->\span \span 
+                      
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+\math@cr@@@ ->&
+               \omit \global \advance \row@ \@ne \ifst@rred \nonumber \fi \i...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced \omit.
+\math@cr@@@ ->&\omit 
+                     \global \advance \row@ \@ne \ifst@rred \nonumber \fi \i...
+l.372 \end{mini!}
+                 
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./ch2.tex:372: Misplaced \cr.
+\math@cr@@@ ... \else \global \@eqnswtrue \fi \cr 
+                                                  
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced \noalign.
+\math@cr@@ ... \iffalse }\fi \math@cr@@@ \noalign 
+                                                  {\vskip #1\relax }
+l.372 \end{mini!}
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./ch2.tex:372: Missing $ inserted.
+<inserted text> 
+                $
+l.372 \end{mini!}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./ch2.tex:372: Missing } inserted.
+<inserted text> 
+                }
+l.372 \end{mini!}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> ...aultOCPConstraint \spanit \\&\quad &
+                                                  \sum _{k=1}^{K} x_{k}^r - ...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> ..._{k}^r - \sum _{q=1}^{Q0} x_{q}^r  &
+                                                   =0, \togglefalse {previou...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Missing $ inserted.
+<inserted text> 
+                $
+l.372 \end{mini!}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./ch2.tex:372: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.372 \end{mini!}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./ch2.tex:372: Display math should end with $$.
+<to be read again> 
+                   \par 
+l.372 \end{mini!}
+                 
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+./ch2.tex:372: LaTeX Error: There's no line here to end.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.372 \end{mini!}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                ch2
-(biblatex)                and rerun LaTeX afterwards.
+./ch2.tex:372: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-Package logreq Info: Writing requests to 'ch2.run.xml'.
-\openout1 = `ch2.run.xml'.
+./ch2.tex:372: Missing $ inserted.
+<inserted text> 
+                $
+l.372 \end{mini!}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
- ) 
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> \\ &\bodySubjectTo \quad &
+                                     \sum _{j=1}^{N} x_{ij}^{k} & \leq s_{i}...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> ... \quad &\sum _{j=1}^{N} x_{ij}^{k} &
+                                                   \leq s_{i}^{k}, &&\forall...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> ...}^{N} x_{ij}^{k} & \leq s_{i}^{k}, &
+                                                  &\forall i \in L, \forall ...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> ...^{N} x_{ij}^{k} & \leq s_{i}^{k}, &&
+                                                  \forall i \in L, \forall k...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> ...aultOCPConstraint \spanit \\&\quad &
+                                                  \sum _{k=i}^{K} r_{j}^k \c...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> ...}^k \cdot \sum _{i=1}^{N}x_{ij}^k  &
+                                                   \leq m_j, && \forall j \i...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> ...um _{i=1}^{N}x_{ij}^k  & \leq m_j, &
+                                                  & \forall j \in P \togglet...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> ...m _{i=1}^{N}x_{ij}^k  & \leq m_j, &&
+                                                   \forall j \in P \toggletr...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> ...aultOCPConstraint \spanit \\&\quad &
+                                                  \sum _{i=1}^{N} q_{i}^j & ...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> ... \\&\quad &\sum _{i=1}^{N} q_{i}^j &
+                                                   = n_j, && \forall j \in P...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> ... &\sum _{i=1}^{N} q_{i}^j & = n_j, &
+                                                  & \forall j \in P \togglet...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> ...&\sum _{i=1}^{N} q_{i}^j & = n_j, &&
+                                                   \forall j \in P \toggletr...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<recently read> &
+                 
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> ...aultOCPConstraint \spanit \\&\quad &
+                                                  x \in \varmathbb {R}^+, \m...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+<argument> ...n \varmathbb {R}^+, \mu \in [1,0]  &
+                                                   , \togglefalse {previousT...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced \cr.
+\math@cr@@@ ->\cr 
+                  
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+\@tempa ->\endgroup &
+                     &&&&&&&&&
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+\@tempa ->\endgroup &&
+                      &&&&&&&&
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+\@tempa ->\endgroup &&&
+                       &&&&&&&
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+\@tempa ->\endgroup &&&&
+                        &&&&&&
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+\@tempa ->\endgroup &&&&&
+                         &&&&&
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+\@tempa ->\endgroup &&&&&&
+                          &&&&
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+\@tempa ->\endgroup &&&&&&&
+                           &&&
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+\@tempa ->\endgroup &&&&&&&&
+                            &&
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+\@tempa ->\endgroup &&&&&&&&&
+                             &
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced alignment tab character &.
+\@tempa ->\endgroup &&&&&&&&&&
+                              
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Misplaced \cr.
+\measure@ ...olumn@ \z@ \add@amps \maxfields@ \cr 
+                                                  }}\restorecounters@ \ifodd...
+l.372 \end{mini!}
+                 
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./ch2.tex:372: Extra }, or forgotten $.
+\measure@ ...lumn@ \z@ \add@amps \maxfields@ \cr }
+                                                  }\restorecounters@ \ifodd ...
+l.372 \end{mini!}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./ch2.tex:372: Extra }, or forgotten $.
+\measure@ ...umn@ \z@ \add@amps \maxfields@ \cr }}
+                                                  \restorecounters@ \ifodd \...
+l.372 \end{mini!}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ch2.tex:372: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ch2.tex:372: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.372 \end{mini!}
+                 
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 29707 strings out of 492990
- 591243 string characters out of 6135005
- 968048 words of memory out of 5000000
- 32830 multiletter control sequences out of 15000+600000
+ 29780 strings out of 492990
+ 594175 string characters out of 6135005
+ 968776 words of memory out of 5000000
+ 32905 multiletter control sequences out of 15000+600000
  572956 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,18n,76p,10402b,1120s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ch2.pdf (19 pages, 178047 bytes).
-PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+./ch2.tex:372:  ==> Fatal error occurred, no output PDF file produced!

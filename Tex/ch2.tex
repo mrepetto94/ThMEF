@@ -352,17 +352,27 @@ Given the objective function, the soft constraints and the hard ones, the model 
 \breakObjective{w^\star_5(\sum_{i=1}^{I} \delta^+_i) + }
 \addConstraint{\sum_{i=1}^{I}\sum_{j=1}^{J}\sum_{k=1}^{K} c^f_{ijk} x^f_{ijk} - \delta^+_{ijk}}{=0}{}
 \addConstraint{\sum_{k=1}^{K}\sum_{q=1}^{Q0}\sum_{i=1}^{I} c^r_{kqi} x^r_{kqi}, - \delta^+_{kqi}}{=0}{}
-\addConstraint{\sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k }{=0,}{\forall j \in P, \forall \in K}
-\addConstraint{\sum_{i=1}^{N} x_{ij}^k}{\geq d_{j}^k,}{\forall j \in C, \forall k \in K}
+\addConstraint{(o^f_i \cdot x^f_i) - \delta^+_i}{=0,}{\forall i \in I}
+\addConstraint{(o_j \cdot x^f_j) - \delta^+_j}{=0,}{\forall j \in J}
+\addConstraint{(o_k \cdot x^f_k) - \delta^+_k}{=0,}{\forall k \in K}
+\addConstraint{(o_q \cdot x^r_q) - \delta^+_q}{=0,}{\forall q \in Q0}
+\addConstraint{(o^r_i \cdot x^r_i) - \delta^+_i}{=0,}{\forall i \in I}
+\addConstraint{x_k + \delta^-_k}{= d_{k},}{\forall k \in K}
+\addConstraint{x_q + \delta^-_q}{= b_{k},}{\forall q \in Q0}
+\addConstraint{\mu_q + \frac{\delta^-_q}{n_{max}}}{= b_{k},}{\forall q \in Q0}
+\addConstraint{\sum_{k=1}^{K} (x^f_{k} - x^r_{i}) - \delta^+_i}{= w_i,}{\forall i \in I}
+
+\addConstraint{\sum_{i=1}^{I} x_{i}^f - \sum_{j=1}^{J} x_{j}^f }{=0,}{}
+\addConstraint{\sum_{k=1}^{K} x_{k}^r - \sum_{q=1}^{Q0} x_{q}^r }{=0,}{}
+
 \addConstraint{\sum_{j=1}^{N} x_{ij}^{k}}{\leq s_{i}^{k},}{\forall i \in L, \forall k \in K}
 \addConstraint{\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k }{\leq m_j,}{\forall j \in P}
 \addConstraint{\sum_{i=1}^{N} q_{i}^j}{= n_j,}{\forall j \in P}
-\addConstraint{x \in \varmathbb{R}^+ }{,}{}
+\addConstraint{x \in \varmathbb{R}^+, \mu \in [1,0] }{,}{}
 \end{mini!}
 
 \begin{mini!}
   {x}{\sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A} q_{ij}^{k}x_{ij}^{k} + \sum_{i=1}^{N} c_i \sum_{k=1}^{K} \sum_{(i,j)=1,1}^{A}x_{ij}^{k}}{}{}
-\addConstraint{\sum_{i=1}^{N} x_{ij}^k - \sum_{l=1}^{N} x_{jl}^k }{=0,}{\forall j \in P, \forall \in K}
 \addConstraint{\sum_{i=1}^{N} x_{ij}^k}{\geq d_{j}^k,}{\forall j \in C, \forall k \in K}
 \addConstraint{\sum_{j=1}^{N} x_{ij}^{k}}{\leq s_{i}^{k},}{\forall i \in L, \forall k \in K}
 \addConstraint{\sum_{k=i}^{K} r_{j}^k \cdot \sum_{i=1}^{N}x_{ij}^k }{\leq m_j,}{\forall j \in P}
@@ -373,7 +383,7 @@ Given the objective function, the soft constraints and the hard ones, the model 
 \begin{mini!}
 	{x}{\sum_{i=1}^{I}\sum_{j=1}^{J}\sum_{k=1}^{K} c^f_{ijk} x^f_{ijk}  + \sum_{k=1}^{K}\sum_{l=1}^{L}\sum_{i=1}^{I0} c^r_{kli} x^r_{kli}}{}{}
 \addConstraint{\sum_{i=1}^{I}\sum_{j=1}^{J} x^f_{ijk}}{= d_k,}{\forall k \in K}
-\addConstraint{\sum_{l=1}^{L}(\sum_{i=0}^{I} x^r_{kli} - x^r_{kli})}{= w_k,}{\forall k \in K}
+
 \addConstraint{\lambda \sum_{i=1}^{I0} x^r_{kli}}{\leq x^r_{il},}{\forall k \in K ,\forall l \in L}
 \addConstraint{\sum_{k=1}^{K} \sum_{i=1}^{L} r_k x^r_{kli}}{\leq \sum_{k=1}^{K} d_k,}{\forall i \in I}
 \addConstraint{x \in \varmathbb{R}^+ }{,}{}

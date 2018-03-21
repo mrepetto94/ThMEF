@@ -1,5 +1,5 @@
 [0] Config.pm:354> INFO - This is Biber 2.7 (beta)
-[1] Config.pm:357> INFO - Logfile is 'ch2.blg'
-[77] biber:303> INFO - === mer mar 21, 2018, 10:04:30
-[223] Utils.pm:180> ERROR - Cannot find control file 'ch2.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
-[223] Biber.pm:114> INFO - ERRORS: 1
+[0] Config.pm:357> INFO - Logfile is 'ch2.blg'
+[49] biber:303> INFO - === mer mar 21, 2018, 10:57:31
+[71] Utils.pm:180> ERROR - ch2.bcf is malformed, last biblatex run probably failed. Deleted ch2.bbl
+[72] Biber.pm:114> INFO - ERRORS: 1
