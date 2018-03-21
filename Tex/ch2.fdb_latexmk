@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber ch2"] 1521626370 "ch2.bcf" "ch2.bbl" "ch2" 1521629107
+["biber ch2"] 1521626370 "ch2.bcf" "ch2.bbl" "ch2" 1521636790
   "ch1-2.bib" 1521616264 38592 a0cd53bda4d928b43c3904c6edd61a37 ""
-  "ch2.bcf" 1521628699 97742 8b1db5060e7d39de429b306119270afc ""
+  "ch2.bcf" 1521636317 97742 8b1db5060e7d39de429b306119270afc ""
   (generated)
   "ch2.bbl"
-["pdflatex"] 1521629107 "ch2.tex" "ch2.pdf" "ch2" 1521629107
+["pdflatex"] 1521636790 "ch2.tex" "ch2.pdf" "ch2" 1521636790
   "/etc/texmf/web2c/texmf.cnf" 1521588994 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -199,10 +199,10 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1521589145 4125808 70e1dcbfdcc38956ea75f8434af7947c ""
   "Images/heatmap.png" 1521616264 36633 d702794fa345167643691f5ba2c49cc5 ""
   "Images/occurence.png" 1521616264 77219 5dbc02d3f0345ff7b4e122a00740a23a ""
-  "ch2.aux" 1521628699 8787 cd6e86f4a98d74146fab9eac87a92456 ""
+  "ch2.aux" 1521636317 8787 c05e758e8eaf5dc29de648a27c69c9c6 ""
   "ch2.bbl" 1521626372 48413 58e136a2022ba1cea1b73f9b8347caa1 "biber ch2"
-  "ch2.run.xml" 1521628699 2293 9dd5f28039772432aa2cae98e66af9bb ""
-  "ch2.tex" 1521629107 44605 ea6141e056bd5089c7b951be6c333537 ""
+  "ch2.run.xml" 1521636317 2293 9dd5f28039772432aa2cae98e66af9bb ""
+  "ch2.tex" 1521636788 48556 1836a68be9c1226bb05ff54be7ed5caf ""
   (generated)
   "ch2.log"
   "ch2.run.xml"

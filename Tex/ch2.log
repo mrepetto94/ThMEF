@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.21)  21 MAR 2018 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.21)  21 MAR 2018 13:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1131,18 +1131,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[16]
+[16] [17] [18]
 Overfull \vbox (28.15207pt too high) has occurred while \output is active []
 
- [17] [18] [19]
-LaTeX Font Info:    Try loading font information for OT1+txtt on input line 403.
+ [19] [20]
+LaTeX Font Info:    Try loading font information for OT1+txtt on input line 430.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )
-./ch2.tex:404: Misplaced alignment tab character &.
+./ch2.tex:431: Misplaced alignment tab character &.
 <argument> Computers &
                        Operations Research
-l.404 
+l.431 
       
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1151,10 +1151,10 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> \edef \blx@tempa {3491\x 
                                             {FFFD}\x {FFFD}\x {FFFD}3513}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1162,10 +1162,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> ...\blx@tempa {3491\x {FFFD}\x 
                                                   {FFFD}\x {FFFD}3513}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1173,10 +1173,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> ...a {3491\x {FFFD}\x {FFFD}\x 
                                                   {FFFD}3513}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1184,10 +1184,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x
            {FFF%}\x {FFF%}\x {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1195,10 +1195,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x {FFF%}\x
                     {FFF%}\x {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1206,10 +1206,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x {FFF%}\x {FFF%}\x
                              {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1217,10 +1217,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> \edef \blx@tempa {3491\x 
                                             {FFFD}\x {FFFD}\x {FFFD}3513}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1228,10 +1228,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> ...\blx@tempa {3491\x {FFFD}\x 
                                                   {FFFD}\x {FFFD}3513}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1239,10 +1239,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> ...a {3491\x {FFFD}\x {FFFD}\x 
                                                   {FFFD}3513}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1250,10 +1250,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x
            {FFF%}\x {FFF%}\x {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1261,10 +1261,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x {FFF%}\x
                     {FFF%}\x {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1272,10 +1272,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x {FFF%}\x {FFF%}\x
                              {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1283,10 +1283,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <argument> 3491\x 
                   {fffd}\x {fffd}\x {fffd}3513
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1294,10 +1294,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <argument> 3491\x {fffd}\x 
                            {fffd}\x {fffd}3513
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1305,10 +1305,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <argument> 3491\x {fffd}\x {fffd}\x 
                                     {fffd}3513
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1316,10 +1316,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Misplaced alignment tab character &.
+./ch2.tex:431: Misplaced alignment tab character &.
 <argument> Computers &
                        Chemical Engineering
-l.404 
+l.431 
       
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1328,10 +1328,10 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <argument> 8\x 
                {fffd}\x {fffd}\x {fffd}9
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1339,10 +1339,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <argument> 8\x {fffd}\x 
                         {fffd}\x {fffd}9
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1350,10 +1350,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <argument> 8\x {fffd}\x {fffd}\x 
                                  {fffd}9
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1361,10 +1361,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> \edef \blx@tempa {1219\x 
                                             {FFFD}\x {FFFD}\x {FFFD}1227}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1372,10 +1372,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> ...\blx@tempa {1219\x {FFFD}\x 
                                                   {FFFD}\x {FFFD}1227}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1383,10 +1383,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> ...a {1219\x {FFFD}\x {FFFD}\x 
                                                   {FFFD}1227}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1394,10 +1394,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x
            {FFF%}\x {FFF%}\x {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1405,10 +1405,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x {FFF%}\x
                     {FFF%}\x {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1416,10 +1416,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x {FFF%}\x {FFF%}\x
                              {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1427,10 +1427,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> \edef \blx@tempa {1219\x 
                                             {FFFD}\x {FFFD}\x {FFFD}1227}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1438,10 +1438,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> ...\blx@tempa {1219\x {FFFD}\x 
                                                   {FFFD}\x {FFFD}1227}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1449,10 +1449,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> ...a {1219\x {FFFD}\x {FFFD}\x 
                                                   {FFFD}1227}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1460,10 +1460,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x
            {FFF%}\x {FFF%}\x {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1471,10 +1471,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x {FFF%}\x
                     {FFF%}\x {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1482,10 +1482,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x {FFF%}\x {FFF%}\x
                              {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1493,10 +1493,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <argument> 1219\x 
                   {fffd}\x {fffd}\x {fffd}1227
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1504,10 +1504,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <argument> 1219\x {fffd}\x 
                            {fffd}\x {fffd}1227
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1515,10 +1515,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <argument> 1219\x {fffd}\x {fffd}\x 
                                     {fffd}1227
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1526,10 +1526,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> \edef \blx@tempa {4431\x 
                                             {FFFD}\x {FFFD}\x {FFFD}4454}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1537,10 +1537,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> ...\blx@tempa {4431\x {FFFD}\x 
                                                   {FFFD}\x {FFFD}4454}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1548,10 +1548,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> ...a {4431\x {FFFD}\x {FFFD}\x 
                                                   {FFFD}4454}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1559,10 +1559,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x
            {FFF%}\x {FFF%}\x {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1570,10 +1570,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x {FFF%}\x
                     {FFF%}\x {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1581,10 +1581,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x {FFF%}\x {FFF%}\x
                              {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1592,10 +1592,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> \edef \blx@tempa {4431\x 
                                             {FFFD}\x {FFFD}\x {FFFD}4454}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1603,10 +1603,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> ...\blx@tempa {4431\x {FFFD}\x 
                                                   {FFFD}\x {FFFD}4454}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1614,10 +1614,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> ...a {4431\x {FFFD}\x {FFFD}\x 
                                                   {FFFD}4454}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1625,10 +1625,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x
            {FFF%}\x {FFF%}\x {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1636,10 +1636,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x {FFF%}\x
                     {FFF%}\x {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1647,10 +1647,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%%\x {FFF%}\x {FFF%}\x
                              {FFF%}%%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1658,10 +1658,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <argument> 4431\x 
                   {fffd}\x {fffd}\x {fffd}4454
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1669,10 +1669,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <argument> 4431\x {fffd}\x 
                            {fffd}\x {fffd}4454
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1680,768 +1680,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <argument> 4431\x {fffd}\x {fffd}\x 
                                     {fffd}4454
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[20]
-./ch2.tex:404: Undefined control sequence.
-<to be read again> \edef \blx@tempa {3367\x 
-                                            {FFFD}\x {FFFD}\x {FFFD}3377}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> ...\blx@tempa {3367\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}3377}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> ...a {3367\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}3377}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%%%\x
-           {FFF%}\x {FFF%}\x {FFF%}%%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x
-                    {FFF%}\x {FFF%}%%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x {FFF%}\x
-                             {FFF%}%%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> \edef \blx@tempa {3367\x 
-                                            {FFFD}\x {FFFD}\x {FFFD}3377}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> ...\blx@tempa {3367\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}3377}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> ...a {3367\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}3377}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%%%\x
-           {FFF%}\x {FFF%}\x {FFF%}%%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x
-                    {FFF%}\x {FFF%}%%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x {FFF%}\x
-                             {FFF%}%%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<argument> 3367\x 
-                  {fffd}\x {fffd}\x {fffd}3377
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<argument> 3367\x {fffd}\x 
-                           {fffd}\x {fffd}3377
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<argument> 3367\x {fffd}\x {fffd}\x 
-                                    {fffd}3377
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (47.0597pt too wide) in paragraph at lines 404--404
-\OT1/txr/m/n/10 sup-ply chains''. In: \OT1/txr/m/it/10 Ex-pert Sys-tems with Ap-pli-ca-tions \OT1/txr/m/n/10 36.2 (Mar. 2009), 3367fffdfffdfffd3377.
- []
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> \edef \blx@tempa {595\x 
-                                           {FFFD}\x {FFFD}\x {FFFD}610}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> ... \blx@tempa {595\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}610}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> ...pa {595\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}610}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%%\x
-          {FFF%}\x {FFF%}\x {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%%\x {FFF%}\x
-                   {FFF%}\x {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%%\x {FFF%}\x {FFF%}\x
-                            {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> \edef \blx@tempa {595\x 
-                                           {FFFD}\x {FFFD}\x {FFFD}610}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> ... \blx@tempa {595\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}610}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> ...pa {595\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}610}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%%\x
-          {FFF%}\x {FFF%}\x {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%%\x {FFF%}\x
-                   {FFF%}\x {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%%\x {FFF%}\x {FFF%}\x
-                            {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<argument> 595\x 
-                 {fffd}\x {fffd}\x {fffd}610
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<argument> 595\x {fffd}\x 
-                          {fffd}\x {fffd}610
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<argument> 595\x {fffd}\x {fffd}\x 
-                                   {fffd}610
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (0.25845pt too wide) in paragraph at lines 404--404
-[]\OT1/txr/m/n/10 Hong-Choon Oh and I. A. Karimi. ``Global mul-ti-prod-uct production-Distribution
- []
-
-
-Overfull \hbox (28.47968pt too wide) in paragraph at lines 404--404
-\OT1/txr/m/n/10 plan-ning with duty draw-backs''. In: \OT1/txr/m/it/10 AIChE Jour-nal \OT1/txr/m/n/10 52.2 (Feb. 2006), 595fffdfffdfffd610.
- []
-
-./ch2.tex:404: Undefined control sequence.
-<recently read> \mathsemicolon 
-                               
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-\namepartfamily ->D\x 
-                      {fffd}\x {fffd}\x {fffd}Amours
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-\namepartfamily ->D\x {fffd}\x 
-                               {fffd}\x {fffd}Amours
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-\namepartfamily ->D\x {fffd}\x {fffd}\x 
-                                        {fffd}Amours
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<argument> Synchronized production\x 
-                                     {fffd}\x {fffd}\x {fffd}distribution pl...
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<argument> Synchronized production\x {fffd}\x 
-                                              {fffd}\x {fffd}distribution pl...
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<argument> ...ized production\x {fffd}\x {fffd}\x 
-                                                  {fffd}distribution plannin...
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> \edef \blx@tempa {90\x 
-                                          {FFFD}\x {FFFD}\x {FFFD}104}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> ...f \blx@tempa {90\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}104}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> ...mpa {90\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}104}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%\x
-         {FFF%}\x {FFF%}\x {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%\x {FFF%}\x
-                  {FFF%}\x {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%\x {FFF%}\x {FFF%}\x
-                           {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> \edef \blx@tempa {90\x 
-                                          {FFFD}\x {FFFD}\x {FFFD}104}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> ...f \blx@tempa {90\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}104}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> ...mpa {90\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}104}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%\x
-         {FFF%}\x {FFF%}\x {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%\x {FFF%}\x
-                  {FFF%}\x {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%\x {FFF%}\x {FFF%}\x
-                           {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<argument> 90\x 
-                {fffd}\x {fffd}\x {fffd}104
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<argument> 90\x {fffd}\x 
-                         {fffd}\x {fffd}104
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<argument> 90\x {fffd}\x {fffd}\x 
-                                  {fffd}104
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (14.3673pt too wide) in paragraph at lines 404--404
-[]\OT1/txr/m/n/10 N Rizk, A Mar-tel, and S Dfffdfffdfff-dAmours. ``Syn-chro-nized pro-duc-tionfffdfffdfffd-
- []
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> \edef \blx@tempa {96\x 
-                                          {FFFD}\x {FFFD}\x {FFFD}115}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> ...f \blx@tempa {96\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}115}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> ...mpa {96\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}115}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%\x
-         {FFF%}\x {FFF%}\x {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%\x {FFF%}\x
-                  {FFF%}\x {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%\x {FFF%}\x {FFF%}\x
-                           {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> \edef \blx@tempa {96\x 
-                                          {FFFD}\x {FFFD}\x {FFFD}115}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> ...f \blx@tempa {96\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}115}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<to be read again> ...mpa {96\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}115}
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%\x
-         {FFF%}\x {FFF%}\x {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%\x {FFF%}\x
-                  {FFF%}\x {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-l.1 %%\x {FFF%}\x {FFF%}\x
-                           {FFF%}%%%
-l.404 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<argument> 96\x 
-                {fffd}\x {fffd}\x {fffd}115
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<argument> 96\x {fffd}\x 
-                         {fffd}\x {fffd}115
-l.404 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:404: Undefined control sequence.
-<argument> 96\x {fffd}\x {fffd}\x 
-                                  {fffd}115
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2450,14 +1692,772 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [21]
-Overfull \hbox (1.01372pt too wide) in paragraph at lines 404--404
+./ch2.tex:431: Undefined control sequence.
+<to be read again> \edef \blx@tempa {3367\x 
+                                            {FFFD}\x {FFFD}\x {FFFD}3377}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> ...\blx@tempa {3367\x {FFFD}\x 
+                                                  {FFFD}\x {FFFD}3377}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> ...a {3367\x {FFFD}\x {FFFD}\x 
+                                                  {FFFD}3377}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%%%\x
+           {FFF%}\x {FFF%}\x {FFF%}%%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%%%\x {FFF%}\x
+                    {FFF%}\x {FFF%}%%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%%%\x {FFF%}\x {FFF%}\x
+                             {FFF%}%%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> \edef \blx@tempa {3367\x 
+                                            {FFFD}\x {FFFD}\x {FFFD}3377}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> ...\blx@tempa {3367\x {FFFD}\x 
+                                                  {FFFD}\x {FFFD}3377}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> ...a {3367\x {FFFD}\x {FFFD}\x 
+                                                  {FFFD}3377}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%%%\x
+           {FFF%}\x {FFF%}\x {FFF%}%%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%%%\x {FFF%}\x
+                    {FFF%}\x {FFF%}%%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%%%\x {FFF%}\x {FFF%}\x
+                             {FFF%}%%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<argument> 3367\x 
+                  {fffd}\x {fffd}\x {fffd}3377
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<argument> 3367\x {fffd}\x 
+                           {fffd}\x {fffd}3377
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<argument> 3367\x {fffd}\x {fffd}\x 
+                                    {fffd}3377
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (47.0597pt too wide) in paragraph at lines 431--431
+\OT1/txr/m/n/10 sup-ply chains''. In: \OT1/txr/m/it/10 Ex-pert Sys-tems with Ap-pli-ca-tions \OT1/txr/m/n/10 36.2 (Mar. 2009), 3367fffdfffdfffd3377.
+ []
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> \edef \blx@tempa {595\x 
+                                           {FFFD}\x {FFFD}\x {FFFD}610}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> ... \blx@tempa {595\x {FFFD}\x 
+                                                  {FFFD}\x {FFFD}610}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> ...pa {595\x {FFFD}\x {FFFD}\x 
+                                                  {FFFD}610}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%%\x
+          {FFF%}\x {FFF%}\x {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%%\x {FFF%}\x
+                   {FFF%}\x {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%%\x {FFF%}\x {FFF%}\x
+                            {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> \edef \blx@tempa {595\x 
+                                           {FFFD}\x {FFFD}\x {FFFD}610}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> ... \blx@tempa {595\x {FFFD}\x 
+                                                  {FFFD}\x {FFFD}610}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> ...pa {595\x {FFFD}\x {FFFD}\x 
+                                                  {FFFD}610}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%%\x
+          {FFF%}\x {FFF%}\x {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%%\x {FFF%}\x
+                   {FFF%}\x {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%%\x {FFF%}\x {FFF%}\x
+                            {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<argument> 595\x 
+                 {fffd}\x {fffd}\x {fffd}610
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<argument> 595\x {fffd}\x 
+                          {fffd}\x {fffd}610
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<argument> 595\x {fffd}\x {fffd}\x 
+                                   {fffd}610
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (0.25845pt too wide) in paragraph at lines 431--431
+[]\OT1/txr/m/n/10 Hong-Choon Oh and I. A. Karimi. ``Global mul-ti-prod-uct production-Distribution
+ []
+
+
+Overfull \hbox (28.47968pt too wide) in paragraph at lines 431--431
+\OT1/txr/m/n/10 plan-ning with duty draw-backs''. In: \OT1/txr/m/it/10 AIChE Jour-nal \OT1/txr/m/n/10 52.2 (Feb. 2006), 595fffdfffdfffd610.
+ []
+
+./ch2.tex:431: Undefined control sequence.
+<recently read> \mathsemicolon 
+                               
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+\namepartfamily ->D\x 
+                      {fffd}\x {fffd}\x {fffd}Amours
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+\namepartfamily ->D\x {fffd}\x 
+                               {fffd}\x {fffd}Amours
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+\namepartfamily ->D\x {fffd}\x {fffd}\x 
+                                        {fffd}Amours
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<argument> Synchronized production\x 
+                                     {fffd}\x {fffd}\x {fffd}distribution pl...
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<argument> Synchronized production\x {fffd}\x 
+                                              {fffd}\x {fffd}distribution pl...
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<argument> ...ized production\x {fffd}\x {fffd}\x 
+                                                  {fffd}distribution plannin...
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> \edef \blx@tempa {90\x 
+                                          {FFFD}\x {FFFD}\x {FFFD}104}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> ...f \blx@tempa {90\x {FFFD}\x 
+                                                  {FFFD}\x {FFFD}104}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> ...mpa {90\x {FFFD}\x {FFFD}\x 
+                                                  {FFFD}104}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%\x
+         {FFF%}\x {FFF%}\x {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%\x {FFF%}\x
+                  {FFF%}\x {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%\x {FFF%}\x {FFF%}\x
+                           {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> \edef \blx@tempa {90\x 
+                                          {FFFD}\x {FFFD}\x {FFFD}104}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> ...f \blx@tempa {90\x {FFFD}\x 
+                                                  {FFFD}\x {FFFD}104}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> ...mpa {90\x {FFFD}\x {FFFD}\x 
+                                                  {FFFD}104}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%\x
+         {FFF%}\x {FFF%}\x {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%\x {FFF%}\x
+                  {FFF%}\x {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%\x {FFF%}\x {FFF%}\x
+                           {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<argument> 90\x 
+                {fffd}\x {fffd}\x {fffd}104
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<argument> 90\x {fffd}\x 
+                         {fffd}\x {fffd}104
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<argument> 90\x {fffd}\x {fffd}\x 
+                                  {fffd}104
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (14.3673pt too wide) in paragraph at lines 431--431
+[]\OT1/txr/m/n/10 N Rizk, A Mar-tel, and S Dfffdfffdfff-dAmours. ``Syn-chro-nized pro-duc-tionfffdfffdfffd-
+ []
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> \edef \blx@tempa {96\x 
+                                          {FFFD}\x {FFFD}\x {FFFD}115}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> ...f \blx@tempa {96\x {FFFD}\x 
+                                                  {FFFD}\x {FFFD}115}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> ...mpa {96\x {FFFD}\x {FFFD}\x 
+                                                  {FFFD}115}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%\x
+         {FFF%}\x {FFF%}\x {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%\x {FFF%}\x
+                  {FFF%}\x {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%\x {FFF%}\x {FFF%}\x
+                           {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> \edef \blx@tempa {96\x 
+                                          {FFFD}\x {FFFD}\x {FFFD}115}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> ...f \blx@tempa {96\x {FFFD}\x 
+                                                  {FFFD}\x {FFFD}115}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<to be read again> ...mpa {96\x {FFFD}\x {FFFD}\x 
+                                                  {FFFD}115}
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%\x
+         {FFF%}\x {FFF%}\x {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%\x {FFF%}\x
+                  {FFF%}\x {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+l.1 %%\x {FFF%}\x {FFF%}\x
+                           {FFF%}%%%
+l.431 ^^M
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<argument> 96\x 
+                {fffd}\x {fffd}\x {fffd}115
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<argument> 96\x {fffd}\x 
+                         {fffd}\x {fffd}115
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:431: Undefined control sequence.
+<argument> 96\x {fffd}\x {fffd}\x 
+                                  {fffd}115
+l.431 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[22]
+Overfull \hbox (1.01372pt too wide) in paragraph at lines 431--431
 []\OT1/txr/m/n/10 Su Yol Lee and Seung-Kyu Rhee. ``The change in cor-po-rate en-vi-ron-men-tal strate-
  []
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> \edef \blx@tempa {338\x 
                                            {FFFD}\x {FFFD}\x {FFFD}353}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2465,10 +2465,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> ... \blx@tempa {338\x {FFFD}\x 
                                                   {FFFD}\x {FFFD}353}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2476,10 +2476,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> ...pa {338\x {FFFD}\x {FFFD}\x 
                                                   {FFFD}353}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2487,10 +2487,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%\x
           {FFF%}\x {FFF%}\x {FFF%}%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2498,10 +2498,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%\x {FFF%}\x
                    {FFF%}\x {FFF%}%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2509,10 +2509,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%\x {FFF%}\x {FFF%}\x
                             {FFF%}%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2520,10 +2520,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> \edef \blx@tempa {338\x 
                                            {FFFD}\x {FFFD}\x {FFFD}353}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2531,10 +2531,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> ... \blx@tempa {338\x {FFFD}\x 
                                                   {FFFD}\x {FFFD}353}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2542,10 +2542,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <to be read again> ...pa {338\x {FFFD}\x {FFFD}\x 
                                                   {FFFD}353}
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2553,10 +2553,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%\x
           {FFF%}\x {FFF%}\x {FFF%}%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2564,10 +2564,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%\x {FFF%}\x
                    {FFF%}\x {FFF%}%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2575,10 +2575,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 l.1 %%%\x {FFF%}\x {FFF%}\x
                             {FFF%}%%%
-l.404 ^^M
+l.431 ^^M
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2586,10 +2586,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <argument> 338\x 
                  {fffd}\x {fffd}\x {fffd}353
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2597,10 +2597,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <argument> 338\x {fffd}\x 
                           {fffd}\x {fffd}353
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2608,10 +2608,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch2.tex:404: Undefined control sequence.
+./ch2.tex:431: Undefined control sequence.
 <argument> 338\x {fffd}\x {fffd}\x 
                                    {fffd}353
-l.404 
+l.431 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2620,11 +2620,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (38.51328pt too wide) in paragraph at lines 404--404
+Overfull \hbox (38.51328pt too wide) in paragraph at lines 431--431
 []\OT1/txr/m/n/10 L.A. Zadeh. ``Fuzzy sets''. In: \OT1/txr/m/it/10 In-for-ma-tion and Con-trol \OT1/txr/m/n/10 8.3 (June 1965), 338fffdfffdfffd353.
  []
 
-[22] (./ch2.aux)
+[23] (./ch2.aux)
 Package logreq Info: Writing requests to 'ch2.run.xml'.
 \openout1 = `ch2.run.xml'.
 
@@ -2638,10 +2638,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,18n,76p,10402b,1192s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ch2.pdf (22 pages, 199379 bytes).
+Output written on ch2.pdf (23 pages, 203070 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 133 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  29 words of extra memory for PDF output out of 10000 (max. 10000000)
 

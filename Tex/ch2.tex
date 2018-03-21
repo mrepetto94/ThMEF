@@ -344,17 +344,37 @@ The other set of soft constraint is given by the support activities and its form
  $$
 (o^t_s \cdot x^t_s) - \delta^+_s}{=0,}{\forall s \in S}
  $$
- Where the $t$ stands for the type of flow that can be forward $f$ or recycling 
+ Where the $t$ stands for the type of flow that can be forward $f$ or recycling $r$ whreas the index $s$ represent each specific step on the value chain that can be $i$ for a production plant, $j$ for the distribution center, $k$ for the retailing center and $q$ for dismantling plant.
+ COnstitutes a soft constraint also the achievement of the demand by the supplied product, the deriving constraint is reported as follows:
+ $$
+x_k + \tilde{\delta^-_k} = EV[d_{k}],\forall k \in K
+ $$
+ In this case the demand is not a fully determined value, but is determined thorough a stochastic process that; in this case the deterministics equivalent formualation is used by calculating the expected value of the demand of each retailing center.
+ Changing the perspective from the forward flow to the recycling flow some additional soft constraints are necessary; these constraint are respectively the fuzzy preferences of the DM and the minimization of the waste produced. The first soft constraint is given by the following equations:
+ $$
+ x_q + \delta^-_q = b_{k},\forall q \in Q0
+ $$
+ $$
+ \mu_q + \frac{\delta^-_q}{n_{max}}= b_{k},\forall q \in Q0
+ $$
+ Where the $n_max$ represent the legal boundary of each dismantling facility, in case the legal boundary is not respected the flow will not be allocated to the facility but to any other disposable facility. Above the lower limit imposed by the legal constraints we have the goal of the DM that may require a specific target to be achieved by the dismantiling plant. The value $\mu_q$ serves to indicate the achievement of this goal, where 0 stands for not achieved at all and 1 indicates full achievement.
+ Lastly we have the goal of cutting waste, which is defined as the amount capable to be collected but not initiated to the recycling process, the specific equation is farte of the balance of the last node of the supply chain network and is expressed as follows:
+$$
+\sum_{k=1}^{K} (x^r_{k} - x^r_{i}) - \delta^+_i= w_i,\forall i \in I
+$$
 
 \subsubsection{Hard Constraints}
-The hard constrainst represent the bundaries in which the solution will not be feasible such constraints may be implied by the approach itself, such as the positivity of the deviational variables, or implied by the model itself such as the limit recycled goods that should not be grater thean the goods demanded. In the case under scope the hard constraints ara:
+The hard constrainst represent the bundaries in which the solution will not be feasible such constraints may be implied by the approach itself, such as the positivity of the deviational variables, or implied by the model, is an example the limit recycled goods that should not be greater then the goods demanded. In the case under scope the hard constraints are:
 \begin{itemize}
-\item
+\item The conservation of the flow: such constrain is needed in the nodes where is not necessary the use of any deviational variable,is an example the flow of goods from the production plant to the distribution warehouse, in that case there's a need to maintain the balance of the inflow and the outflow to be 0;
+\item The upper limit on the recycled product, which cannot be greater than the delivered product;
+\item The limit on the product to be recycled to an amount sustainable for the production plant, since the return rate are different from each and every retail, is not worht to collect and recycle all the possible product available but just the quantity necessary for the production plant.
+\item The limit on the capacity of each shipment: not every quantity can be shipped from a node to another, this may due to some limitation imposed by the currier service.
 \end{itemize}
-Lastly the fuzziness membership function value that as to be between 0 and 1, this constrain is imposed by the fuzzy set definition.
+From this constraint which are given by the modelled scenario it's necessary to apply other contraints such as the aforementioned positivity of the deviational variables and the value range of the fuzziness membership function value that as to be a number between 0 and 1, this constrain is imposed by the fuzzy set definition.
 
 \subsubsection{Model formulation}
-Given the objective function, the soft constraints and the hard ones, the model is proposed in the follonwing mathematical form:
+Given the objective function, the soft constraints and the hard ones, the model is proposed in its mathematichal form at the end of the following section. In the next section the model wll be suject to a weight sensitivity analysis and then the weights will be assigned using a Analytical Hierarchical Process, subsequently the model will be solved via a linear programming solver and the results, with the weights derived from the AHP will be further analyzed.
 
 \begin{mini!}
 	{\delta^-,\delta^+}{w^\star_1(\sum_{i=1}^{I} \sum_{j=1}^{J} \sum_{k=1}^{K} \sum_{q=1}^{Q0} \sum_{i=1}^{I} \delta^+_{ijkqi}) + }{}{}
@@ -371,24 +391,31 @@ Given the objective function, the soft constraints and the hard ones, the model 
 \addConstraint{(o^r_i \cdot x^r_i) - \delta^+_i}{=0,}{\forall i \in I}
 \addConstraint{x_k + \tilde{\delta^-_k}}{= EV[d_{k}],}{\forall k \in K}
 \addConstraint{x_q + \delta^-_q}{= b_{k},}{\forall q \in Q0}
-\addConstraint{\mu_q + \frac{\delta^-_q}{n_{max}}}{= b_{k},}{\forall q \in Q0}
-\addConstraint{\sum_{k=1}^{K} (x^f_{k} - x^r_{i}) - \delta^+_i}{= w_i,}{\forall i \in I}
+\addConstraint{\mu_q + \frac{\delta^-_q}{n_{max}}}{= 1,}{\forall q \in Q0}
+\addConstraint{\sum_{k=1}^{K} (x^r_{k} - x^r_{i}) - \delta^+_i}{= w_i,}{\forall i \in I}
 \addConstraint{\sum_{i=1}^{I} x_{i}^f - \sum_{j=1}^{J} x_{j}^f =0 }{,\sum_{k=1}^{K} x_{k}^r - \sum_{q=1}^{Q0} x_{q}^r=0,}{\sum_{q=1}^{Q0} x_{q}^r - \sum_{i=1}^{I} x_{i}^r}
 \addConstraint{\lambda \sum_{i=1}^{I} x^r_{kqi}}{\leq x^r_{iq},}{\forall k \in K ,\forall q \in Q0}
 \addConstraint{\sum_{k=1}^{K} \sum_{j=1}^{J} r_k x^f_{kji}}{\leq \sum_{k=1}^{K} d_k,}{\forall i \in I}
 \addConstraint{r_k x^f_{k}}{=x^r_{k}}{\forall k \in K}
 \addConstraint{x \in \varmathbb{R}^+, \mu \in [1,0] }{,}{}
 \end{mini!}
-In the following section the model wll be suject to a weight sensitivity analysis and then the weights will be assigned using a Analytical Hierarchical Process, subsequently the model will be solved via a linear programming solver and the results will be further analyzed.
-
-\pagebreak
 
 \section{Results and Conclusion}
-The model was tested with the data exposed in the table below:
-
-Even if the fuzzy membership functions for the recycling plants where assumed to be given, a sensitivity analysis of the wheights was performed. Such sensitivity analysis is proposed in an ad-hoc section. Addittionally a Analytical Hierarcical Process was run in order to assess the perfect wheight assessment. Then the model was solved using the NEOS servers throug the CPLEX solver. 
+The model was tested with a set of data with the folowing features:
+\begin{itemize}
+	\item N. 1 production plant;
+	\item N. 4 links from production plant to distribution center (NtoN);
+	\item N. 4 distribution center;
+	\item N. x links from distribution center to retail center, in this case the relation were not made nton since each distribution center was allowed to refurnish only some specific retail center and not the entire number of them;
+	\item N. 3x retailing centers;
+	\item N. 3. links from the retailing center to the dismantiling plants and to the "non collection" plant (NtoN);
+	\item N. 4 dismantling plants, including the non collection plant;
+	\item N. 4 links from the simantling plan to the production plant (NtoN).
+\end{itemize}
+The model was solved using the NEOS servers using their API, the data was send with a script built in R and using the R library rneos, since the problem was linear the solver chosen was the CPLEX.
 
 \subsection{Sensitivity analysis}
+In the sensitivity analysis the walue of the weights was premtively determined and the different achivement are reported in the tableat the end of the section. The only constraint given was the unit of the sum of the wheights, meaning tha each weight should be a ratio indicatig the importance of the particular objective where 1 is absolute importance (conversely none of the other objective is important) and 0 is not important at all.
 
 \subsection{Analytical Hierarcical Process for wheight determination}
 
