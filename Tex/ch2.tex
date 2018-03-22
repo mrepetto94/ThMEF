@@ -287,10 +287,10 @@ Such activities are a fundamental part of the supply chain that serves as glue w
 \addConstraint{x \in \varmathbb{R}^+ }{,}{}
 \end{mini!}
 
-In formulating our hybrid model is not taken into account the fixed cost of building a plant, this happened for two reasons. The first reason is the consideration of the cost of building a plant as a sunk cost and therefore it should not influence the economic decision on whether to allocate a particular quantity of goods on a specific plant. Secondly, the Activity Based Cost method is used, therefore the focus will be on the activities that contribute to creating the marginal cost of the good in the supply chain.
+In formulating our hybrid model is not taken into account the fixed cost of building a plant, this happened for two reasons. The first reason is the consideration of the cost of building a plant as a sunk cost and therefore it should not influence the economic decision on whether to allocate a particular quantity of goods on a specific plant. Secondly, since we use the Activity Based Cost method, the focus will be on the activities that contribute to creating the marginal cost of the good in the supply chain.
 
 \subsection{Closed Loop Supply Chain}
-In the previous sections a model of open loop was presented, however in green supply chain something as an open loop supply chain network do not exist, this is because of the after life treatment of the products selled by the company. Such procedure is also enforced by hard laws (as analyzed in the specific section). Therefore the revised model will have to capture these features. The closed loop supply chain network will be enunciated as follow:
+In the previous sections a model of an open loop supply chain was presented, however in green supply chain something as an open loop supply chain network does not exist, this is because of the after-life treatment of the products sold by the company. Such procedure is also enforced by hard laws (as analyzed in the specific section). Therefore the revised model will have to capture these features. The closed loop supply chain network will be enunciated as follow:
 
 \begin{mini!}
 	{x}{\sum_{i=1}^{I}\sum_{j=1}^{J}\sum_{k=1}^{K} c^f_{ijk} x^f_{ijk}  + \sum_{k=1}^{K}\sum_{l=1}^{L}\sum_{i=1}^{I0} c^r_{kli} x^r_{kli}}{}{}
@@ -301,10 +301,10 @@ In the previous sections a model of open loop was presented, however in green su
 \addConstraint{x \in \varmathbb{R}^+ }{,}{}
 \end{mini!}
 
-The model enunciated minimizes two different flow costs, namely the one implying the forward flow, the one from the production plant to the consumer and the reverse flow that follows the opposite direction, namely from the consumer to the production plant passing thorugh ad-hoch dismantling plants. The constraints applied to such moodel are therefore a combination of both forward flow constraints, mitigated from the classical open loop supply chain, and the reverse flow constraints. The constraint at $5b$ is stating that the forward flow must equal the demand of the costumer at a particular retailing site; where instead the constraint at $5c$ is enunciating the amount of waste that will not be part of the recycling process. The constraint at $5d$ focuses on imposing a threashold in which the units recycled will not be of any advantage for the production plan and therefore will constitute additional waste. Lastly constraint $5e$ that states the inequality about the products collected that should not exceed the products delivered at a $k$ general retail store. 
+The model enunciated minimizes two different flow costs, namely the one implying the forward flow, the one from the production plant to the consumer and the reverse flow that follows the opposite direction, namely from the consumer to the production plant passing through ad-hoc dismantling plants. The constraints applied to such models are therefore a combination of both forward flow constraints, mitigated from the classical open loop supply chain, and the reverse flow constraints. The constraint at $5b$ is stating that the forward flow must equal the demand of the customer at a particular retailing site; where instead the constraint at $5c$ is enunciating the amount of waste that will not be part of the recycling process. The constraint at $5d$ focuses on imposing a threshold in which the units recycled will not be of any advantage for the production plan and therefore will constitute an additional waste. Lastly, constraint $5e$ that states the inequality about the products collected that should not exceed the products delivered at a $k$ general retail store. 
 \\
 \\
-The model presented however does not implement any decision maker preferences toward recycling level goals ($\lambda$ is only a crisp value that affect the plant necessity) nor any legal boundaries on which the recycling center has to be submitted. Because the electronic waste turns out to be a resource for the firm is necessary to model the fuzziness of such desire expressed by the DM, and therefore the implementation of a Fuzzy set\cite{Zadeh_1965}, turns out to be the best choice; such set has a membership function defined as:
+The model presented, however, does not implement any decision maker preferences toward recycling level goals ($\lambda$ is only a crisp value that affects the plant necessity) nor any legal boundaries on which the recycling center has to be submitted. Because the electronic waste turns out to be a resource for the firm is necessary to model the fuzziness of such desire expressed by the DM, and therefore the implementation of a Fuzzy set\cite{Zadeh_1965}, turns out to be the best choice; such set has a membership function defined as:
 $$
 \mu [f_k(x)]=
 \begin{cases}
@@ -314,32 +314,32 @@ $$
 \end{cases}
 $$
 
-The defined set penalizes the negative occurrences from the target demanded by the decision maker, and at the same time guarantees a bottom line coherent with the local legislation. The following figure represent the grphichal interpretation of the fuzzy set for a generic dismantling plant, whereas the $n_{max}$ represent the legal boundariy in which any lower achievement will not be tolerated, conversely $b_k$ is the goal sought by the decision maker as optimal, this may be due to some particular public image concernes enacted by the DM. 
+The defined set penalizes the negative occurrences from the target demanded by the decision maker, and at the same time guarantees a bottom line coherent with the local legislation. The following figure represents the graphical interpretation of the fuzzy set for a generic dismantling plant, whereas the $n_{max}$ represent the legal boundaries in which any lower achievement will not be tolerated, conversely $b_k$ is the goal sought by the decision maker as optimal, this may be due to some particular public image concerns enacted by the DM. 
 
 \subsection{The Goal Programming model}
-Since we are facing a moltitute of goals; some of them aims at the minimization of the transportation costs of both the forward flow and the recycling flow; some are set in order to controll the supporting activities, and ultimately some are trying to capture the preference and necessities of the DM.
-Because of this moltitude of goals a multi-criteria decision analysis tool was used, namely the Goal Programming approach. In this approach the goal is to minimize a set of deviational variable applied to our goals.
-The model proposed builds from the concept of open loop supply chain (it's possible to see it in the fist soft constraints) taking into account even the support activity costs of each individual step in the value chain. Then the supply chain loop is closed implemnting the controls on the reciclying flow. Additionlly the last soft constraints are an adaptation of the fuzzy set in order to be solved trough lineat programming solvers.
+Since we are facing a multitude of goals; some of them aims at the minimization of the transportation costs of both the forward flow and the recycling flow; some are set in order to control the supporting activities, and ultimately some are trying to capture the preference and necessities of the DM.
+Because of this multitude of goals a multi-criteria decision analysis tool was used, namely the Goal Programming approach. In this approach, the goal is to minimize a set of deviational variable applied to our desired goals.
+The model proposed builds from the concept of open loop supply chain (it's possible to see it in the first soft constraints) taking into account even the support activity costs of each individual step in the value chain. Then the supply chain loop is closed implementing the controls on the recycling flow. Additionally, the last soft constraints are an adaptation of the fuzzy set in order to be solved trough linear programming solvers.
 \\
 \\
-The model proposed takes into account only one product because of simplicity matters however it can be adjusted to allow more than one product by including the transformation process of each production step. One additional limitation is given by the unicity of the production procedure, meaning that production happens only in one plant, whereas in reality may not be the case. The model proposed may be enhanced to support this additional feature, but require the use in the pre model formulation of additional logistics tools more focused on the operational level such as production tree.
+The model proposed builds from the concept of open loop supply chain (it's possible to see it in the first soft constraints) taking into account even the support activity costs of each individual step in the value chain. Then the supply chain loop is closed implementing the controls on the recycling flow. Additionally, the last soft constraints are an adaptation of the fuzzy set in order to be solved by linear programming solvers.
 \\
 \\
 In the following sections a deep overview of the objectives, constraints and the model itself will be given.
 
 \subsubsection{Objective function}
-The objective function is a function containing all the deviational variables to be minimized, in the case under scope the interest is to minimize a series of costs, namely the cost of transportation of the goods from the production plan $ $ to the consumer $K$, and back from the consumer $k$ to the plant $I$ in the latter passage the waste, in other words the non collected products will be free of costs since won't be subjet to any transortation. Another goal to be minimized is the cost of the supporting activities this activities lies within each step of the value chain and are not part of any tansportation cost, instead they are the cost that sustain the value of the product, a typycal support activity cost may be the cost of a marketing campaing in a specific retail store $K$; such costs has to be mnimized as well and for a matter of order the deviational variable and their relative weights will follow each particular step of the value chain. Apart from costs additional goals may be more subtle; this is the case of demand fullfilment. Another goal not implying any cost is the reduction of the product wasted (meaning not recycled).
+The objective function is a function containing all the deviational variables to be minimized as well as their relative weight, in the case under scope the interest is to minimize a series of costs, namely the cost of transportation of the goods from the production plan $ $ to the consumer $K$, and back from the consumer $k$ to the plant $I$ in the latter passage the waste, in other words, the nation collected products will be free of costs since won't be subject to any transportation. Another goal to be minimized is the cost of the supporting activities, this activities lies within each step of the value chain and are not part of any transportation cost, instead they are the cost that sustains the value of the product, a typical support activity cost may be the cost of a marketing campaign in a specific retail store $K$; such costs have to be minimized as well and for a matter of order the deviational variable and their relative weights will follow each particular step of the value chain. Apart from costs, additional goals may be more subtle; this is the case of demand fulfillment. Another goal not implying any cost is the reduction of the product wasted (meaning not recycled).
 
 \subsubsection{Soft Constraints}
-The soft constraints are the ones that do not constitues any particular boundary but carries the deviational variables and the goals that are tried to be achieved by te decision maker. The first soft contraints are the ones that deals with the transportation cost ofthe goods produced; the fist flow of transportation is the forward flow and its soft constraint is represented as follows:
+The soft constraints are the ones that do not constitute any particular boundary but carries the deviational variables and the goals that are tried to be achieved by the decision maker. The first soft constraints are the ones that deal with the transportation cost of the goods produced; the first flow of transportation is the forward flow and its soft constraint is represented as follows:
 $$
 \sum_{i=1}^{I}\sum_{j=1}^{J}\sum_{k=1}^{K} c^f_{ijk} x^f_{ijk} - \delta^+_{ijk}=0}
 $$
-In this case the goal is to minimize the cost of transportation of the good produced till it reaches the customer, the step that the product has to do in order to reach the customer are two, from the production plant to the distribution center and then to the retailcenter (indicated with $k$). The same goal has to be achieved by the recycling flow of products returned by the consumer, the soft constraint is similar to the first one and is represented as follows:
+In this case, the goal is to minimize the cost of transportation of the good produced till it reaches the customer, the step that the product has to do in order to reach the customer are two, from the production plant to the distribution center and then to the retail center (indicated with $k$). The same goal has to be achieved by the recycling flow of products returned by the consumer, the soft constraint is similar to the first one and is represented as follows:
 $$
 \sum_{k=1}^{K}\sum_{q=1}^{Q0}\sum_{i=1}^{I} c^r_{kqi} x^r_{kqi}, - \delta^+_{kqi}=0
 $$
-The peculiarity of this passage is given by the set $Q0$ which is not only the set of possible dismantling plant (the flow now is from consumer $K$ to dismantling plant $Q0$ till the prduction plan$I$), but it also includes the set non-collection entity that contain all the units not collected because not necessary to the recycling process.
+The peculiarity of this passage is given by the set $Q0$ which is not only the set of possible dismantling plant (the flow now is from consumer $K$ to dismantling plant $Q0$ till the production plan$I$), but it also includes the set non-collection entity that contains all the units not collected because not necessary to the recycling process.
 The other set of soft constraint is given by the support activities and its formulated in the following general form:
  $$
 (o^t_s \cdot x^t_s) - \delta^+_s}{=0,}{\forall s \in S}
@@ -349,32 +349,32 @@ The other set of soft constraint is given by the support activities and its form
  $$
 x_k + \tilde{\delta^-_k} = EV[d_{k}],\forall k \in K
  $$
- In this case the demand is not a fully determined value, but is determined thorough a stochastic process that; in this case the deterministics equivalent formualation is used by calculating the expected value of the demand of each retailing center.
- Changing the perspective from the forward flow to the recycling flow some additional soft constraints are necessary; these constraint are respectively the fuzzy preferences of the DM and the minimization of the waste produced. The first soft constraint is given by the following equations:
+ In this case, the demand is not a fully determined value but is determined through a stochastic process that; in this case, the deterministic equivalent formulation is used by calculating the expected value of the demand of each retailing center.
+ Changing the perspective from the forward flow to the recycling flow some additional soft constraints are necessary; these constraints are respectively the fuzzy preferences of the DM and the minimization of the waste produced. The first soft constraint is given by the following equations:
  $$
  x_q + \delta^-_q = b_{k},\forall q \in Q0
  $$
  $$
  \mu_q + \frac{\delta^-_q}{n_{max}}= b_{k},\forall q \in Q0
  $$
- Where the $n_max$ represent the legal boundary of each dismantling facility, in case the legal boundary is not respected the flow will not be allocated to the facility but to any other disposable facility. Above the lower limit imposed by the legal constraints we have the goal of the DM that may require a specific target to be achieved by the dismantiling plant. The value $\mu_q$ serves to indicate the achievement of this goal, where 0 stands for not achieved at all and 1 indicates full achievement.
- Lastly we have the goal of cutting waste, which is defined as the amount capable to be collected but not initiated to the recycling process, the specific equation is farte of the balance of the last node of the supply chain network and is expressed as follows:
+ Where the $n_max$ represent the legal boundary of each dismantling facility, in case the legal boundary is not respected the flow will not be allocated to the facility but to any other disposable facility. Above the lower limit imposed by the legal constraints, we have the goal of the DM that may require a specific target to be achieved by the dismantling plant. The value $\mu_q$ serves to indicate the achievement of this goal, where 0 stands for not achieved at all and 1 indicates full achievement.
+ Lastly, we have the goal of cutting waste, which is defined as the amount capable to be collected but not initiated to the recycling process, the specific deviational variable is part of the balance equation of the last node of the supply chain network and is expressed as follows:
 $$
 \sum_{k=1}^{K} (x^r_{k} - x^r_{i}) - \delta^+_i= w_i,\forall i \in I
 $$
 
 \subsubsection{Hard Constraints}
-The hard constrainst represent the bundaries in which the solution will not be feasible such constraints may be implied by the approach itself, such as the positivity of the deviational variables, or implied by the model, is an example the limit recycled goods that should not be greater then the goods demanded. In the case under scope the hard constraints are:
+The hard constraints represent the boundaries in which the solution will not be feasible such constraints may be implied by the approach itself, such as the positivity of the deviational variables, or implied by the model, is an example the limit recycled goods that should not be greater then the goods demanded. In the case under scope the hard constraints are:
 \begin{itemize}
-\item The conservation of the flow: such constrain is needed in the nodes where is not necessary the use of any deviational variable,is an example the flow of goods from the production plant to the distribution warehouse, in that case there's a need to maintain the balance of the inflow and the outflow to be 0;
+\item The conservation of the flow: such constraint is needed in the nodes where is not necessary the use of any deviational variable, is an example the flow of goods from the production plant to the distribution warehouse, in that case, there's a need to maintain the balance of the inflow and the outflow to be 0;
 \item The upper limit on the recycled product, which cannot be greater than the delivered product;
-\item The limit on the product to be recycled to an amount sustainable for the production plant, since the return rate are different from each and every retail, is not worht to collect and recycle all the possible product available but just the quantity necessary for the production plant.
-\item The limit on the capacity of each shipment: not every quantity can be shipped from a node to another, this may due to some limitation imposed by the currier service.
+\item The limit on the product to be recycled to an amount sustainable for the production plant, since the return rate is different from each and every retail, is not worth to collect and recycle all the possible product available but just the quantity necessary for the production plant.
+\item The limit on the capacity of each shipment: not every quantity can be shipped from a node to another, this may due to some limitation imposed by the carrier service.
 \end{itemize}
-From this constraint which are given by the modelled scenario it's necessary to apply other contraints such as the aforementioned positivity of the deviational variables and the value range of the fuzziness membership function value that as to be a number between 0 and 1, this constrain is imposed by the fuzzy set definition.
+From this constraint which is given by the modeled scenario it's necessary to apply other constraints such as the aforementioned positivity of the deviational variables and the value range of the fuzziness membership function value that as to be a number between 0 and 1, this constraint is imposed by the fuzzy set definition.
 
 \subsubsection{Model formulation}
-Given the objective function, the soft constraints and the hard ones, the model is proposed in its mathematichal form at the end of the following section. In the next section the model wll be suject to a weight sensitivity analysis and then the weights will be assigned using a Analytical Hierarchical Process, subsequently the model will be solved via a linear programming solver and the results, with the weights derived from the AHP will be further analyzed.
+Given the objective function, the soft constraints and the hard ones, the model is proposed in its mathematical form at the end of the following section. In the next section the model will be subject to a weight sensitivity analysis and then the weights will be assigned using an Analytical Hierarchy Process, subsequently the model will be solved via a linear programming solver and the results, with the weights derived from the AHP will be further analyzed.
 
 \begin{mini!}
 	{\delta^-,\delta^+}{w^\star_1(\sum_{i=1}^{I} \sum_{j=1}^{J} \sum_{k=1}^{K} \sum_{q=1}^{Q0} \sum_{i=1}^{I} \delta^+_{ijkqi}) + }{}{}
@@ -406,16 +406,16 @@ The model was tested with a set of data with the folowing features:
 	\item N. 1 production plant;
 	\item N. 4 links from production plant to distribution center (NtoN);
 	\item N. 4 distribution center;
-	\item N. x links from distribution center to retail center, in this case the relation were not made nton since each distribution center was allowed to refurnish only some specific retail center and not the entire number of them;
-	\item N. 3x retailing centers;
-	\item N. 3. links from the retailing center to the dismantiling plants and to the "non collection" plant (NtoN);
+	\item N. 36 links from distribution center to retail center, in this case the relation were not made nton since each distribution center was allowed to refurnish only some specific retail center and not the entire number of them;
+	\item N. 27 retailing centers;
+	\item N. 108 links from the retailing center to the dismantiling plants and to the "non collection" plant (NtoN);
 	\item N. 4 dismantling plants, including the non collection plant;
 	\item N. 4 links from the simantling plan to the production plant (NtoN).
 \end{itemize}
-The model was solved using the NEOS servers using their API, the data was send with a script built in R and using the R library rneos, since the problem was linear the solver chosen was the CPLEX.
+The model was solved using the NEOS servers using their API with the data sent through a script built in R, using the R library rneos; since the problem was linear the solver chosen was the CPLEX.
 
 \subsection{Sensitivity analysis}
-In the sensitivity analysis the walue of the weights was premtively determined and the different achivement are reported in the tableat the end of the section. The only constraint given was the unit of the sum of the wheights, meaning tha each weight should be a ratio indicatig the importance of the particular objective where 1 is absolute importance (conversely none of the other objective is important) and 0 is not important at all.
+In the sensitivity analysis, the value of the weights was preemptively determined and the different achievements are reported in the table at the end of the section. The only constraint given was the unit of the sum of the weights, meaning that each weight should be a ratio indicating the importance of the particular objective where 1 is absolute importance (conversely none of the other objectives is important) and 0 is not important at all.
 
 \subsection{Analytical Hierarchical Process for weight determination}
 
