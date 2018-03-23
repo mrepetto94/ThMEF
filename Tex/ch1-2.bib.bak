@@ -198,18 +198,18 @@
 	note = {{OCLC}: 988289629}
 }
 
-@collection{greco_multiple_2016,
-	location = {New York, {NY}},
-	title = {Multiple Criteria Decision Analysis},
-	volume = {233},
-	isbn = {978-1-4939-3093-7},
-	url = {http://link.springer.com/10.1007/978-1-4939-3094-4},
-	series = {International Series in Operations Research \& Management Science},
-	publisher = {Springer New York},
-	editor = {Greco, Salvatore and Ehrgott, Matthias and Figueira, José Rui},
-	urldate = {2017-07-23},
-	date = {2016},
-	note = {{DOI}: 10.1007/978-1-4939-3094-4}
+@Collection{greco_multiple_2016,
+  editor    = {Greco, Salvatore and Ehrgott, Matthias and Figueira},
+  title     = {Multiple Criteria Decision Analysis},
+  date      = {2016},
+  volume    = {233},
+  series    = {International Series in Operations Research \& Management Science},
+  publisher = {Springer New York},
+  location  = {New York, {NY}},
+  isbn      = {978-1-4939-3093-7},
+  doi       = {10.1007/978-1-4939-3094-4},
+  url       = {http://link.springer.com/10.1007/978-1-4939-3094-4},
+  urldate   = {2017-07-23},
 }
 
 @Online{OECD_earnings_2017,
@@ -1025,6 +1025,26 @@
   pages         = {576--586},
   __markedentry = {[mrepetto94:6]},
   publisher     = {INFORMS},
+}
+
+@Article{YAGHOOBI2008,
+  author    = {M. A. YAGHOOBI and D. F. JONES and M. TAMIZ},
+  title     = {{WEIGHTED} {ADDITIVE} {MODELS} {FOR} {SOLVING} {FUZZY} {GOAL} {PROGRAMMING} {PROBLEMS}},
+  journal   = {Asia-Pacific Journal of Operational Research},
+  year      = {2008},
+  volume    = {25},
+  number    = {05},
+  month     = {oct},
+  pages     = {715--733},
+  doi       = {10.1142/s0217595908001973},
+  publisher = {World Scientific Pub Co Pte Lt},
+}
+
+@Article{TPguide2017,
+  author    = {OECD},
+  title     = {OECD Transfer Pricing Guidelines for Multinational Enterprises and Tax Administrations 2017},
+  doi       = {10.1787/tpg-2017-en},
+  publisher = {OECD Publishing},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
