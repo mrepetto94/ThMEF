@@ -17,3 +17,11 @@ display waste;
 display nd_fuzzy;
 
 display mu;
+
+display we;
+
+display z;
+
+display sum{i in 1..5} obj[i];
+
+display obj;

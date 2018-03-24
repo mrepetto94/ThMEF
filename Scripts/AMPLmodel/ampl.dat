@@ -269,8 +269,8 @@ ATH LJU         5.88	2000000
 ATH NOCO    	0	10000000;
 
 param: rr_cost  rr_cap 		limit1 		goal :=
-VNO     2.5    	10000000	120000		150000
-TLL     3.5    	10000000	120000		150000
+VNO     2.5    	10000000	30000		150000
+TLL     3.5    	10000000	50000		150000
 LJU	3.0	10000000	120000		150000
 NOCO      0    	10000000	1       	0 	;
 
@@ -285,11 +285,13 @@ param retail_cost :=
 	      	MRS 15.10, LYS 13.09, TLS 14.51, SXF 15.40, MUC 12.17, STR 10.69,
 	      	SZG 10.56, VIE 12.01, DUS 13.05, MAD 13.81, AGP 12.64, LIS 14.13,
 	      	SVQ 9.08,  OPO 15.00, ATH 10.36;
-
+#in case of NOCO is intended the opportunity cost of not using the waste
 param recycle_cost := 
 VNO 6.95, TLL 9.93, LJU 9.89, NOCO 0;
 
 param reuse_cost := 7.26;
+
+param waste_cost := 15.17;
 
 param return_coefficient :=
 		SPL 0.413, BRU 0.529, CGN 0.624, FRA 0.713, RIX 0.843, HEL 0.291,
@@ -297,6 +299,5 @@ param return_coefficient :=
 	      	MRS 0.459, LYS 0.476, TLS 0.268, SXF 0.649, MUC 0.522, STR 0.751,
 	      	SZG 0.597, VIE 0.554, DUS 0.527, MAD 0.593, AGP 0.188, LIS 0.448,
 	      	SVQ 0.377, OPO 0.403, ATH 0.235;
-
 
 

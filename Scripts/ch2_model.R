@@ -14,7 +14,7 @@ getresult <- function (result, name, nc, nr){
   value <- gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", value, perl = TRUE)
   value <- paste(value,collapse=" ")
   mat<-matrix(scan(text= value), nrow = nr, ncol = nc+1, byrow = TRUE)
-  mat<-mat[,-2]
+  mat<-mat[,-1]
   
   return(mat)
 }# The function isolate a specific parameter from the solution response in NEOS
@@ -66,9 +66,21 @@ modf <- paste(paste(readLines("AMPLmodel/ampl.mod"), collapse = "\n"), "\n")
   
 # Run File
 comf <- paste(paste(readLines("AMPLmodel/ampl.run"), collapse = "\n"), "\n")
+x <- (c(9:1)/10)
+y <- (c(1:9)/10)
+obj <- vector(length =length(x))
+greenratio <- vector(length =length(x))
 
-# Data File 
+wefrontier <- matrix(data <- c(x,y), ncol = 2)
+l <- length(wefrontier[,1])
+
+i  <- 1
+for (i in 1:l){
+# Data File and weights 
+we <-c(wefrontier[i,1],wefrontier[i,1],wefrontier[i,2],wefrontier[i,1],wefrontier[i,2])
 datf <- paste(paste(readLines("AMPLmodel/ampl.dat"), collapse = "\n"), "\n")
+weight <- paste(sep="","param we :=\n","\t1\t",we[1],",\t2\t",we[2],",\t3\t",we[3],",\t4\t",we[4],",\t5\t",we[5],";")
+datf <- paste(datf, weight)
 
 #Pass the AMPL files to the server
 argslist <- list(model = modf, data = datf, commands = comf, email = Sys.getenv("NeosMail") ,comments = "")
@@ -79,5 +91,17 @@ xmls <- CreateXmlString(neosxml = template, cdatalist = argslist)
 
 result <- NgetFinalResults(test)
 
-result
+obj[i] <- sum(getresult(result,"obj", 1,5))
+ratio  <- getresult(result,"obj", 1,5)
+greenratio[i] <-(ratio[3]+ratio[5])/(sum(getresult(result,"obj", 1,5)))
+
+}
+
+df <- data.frame(x,y,obj, greenratio)
+save(df, file = "data.Rda")
+ggplot(df, aes(x=x, y=y)) + 
+  geom_point(aes(size=obj, alpha = greenratio)) +
+  scale_fill_grey()
+
+ggsave("tradeoff.png")
 
