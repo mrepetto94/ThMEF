@@ -7,6 +7,7 @@
 \usepackage{array}
 \usepackage{cases}
 \usepackage{tikz}
+\usepackage{booktabs}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage[long]{optidef}
 \usepackage[backend=bibier,
@@ -399,50 +400,79 @@ The simulation of the above-mentioned model was made using LINGO17. Even if the 
 \end{itemize}
 
 Concerning the data, the financials were taken from a company operating mostly in Europe and western countries in general, plus this company tend to produce and store most of its products in Asian countries and tend to have less inventory in its western distribution sites. The company under scope was under performing at the time of this simulation its P/L statement registered a loss of roughly  6.960.502 USD. The revenues registered for the year under the scope were about 88.900.344,00 USD and the employees hired were 2.722,00.
-Ultimately, the weights were chosen in order to value firstly the tax minimization, then the contribution of each entity on the profit made by the company (profit split) and the cost minimization.
 
-\subsection{Conclusions \todo{to be integrated with sensitivity analysis and additional plots on the result when I'll receive the student licence key from LINGO, (some model code will be inserted)}}
-The results produced by the mathematical package are illustrated in the following table:
+\subsection{Sensitivity analysis}
+In the sensitivity analysis, the value of the weights was preemptively determined; since the model represent two different flow of products: delivered to the costumer and recycled the aim of the sensitivity analysis was to measure all the possible frontiers between DM preferece toward greener goal in comparion with the forward flow driven preferences. Therefore the objective were grouped in two different clusters, the first was the cluster of "push" objective in the sense of the supply push of products to the customer, conversely the second cluster was characterized by the pull by the firm for recycling units instead of simpli disposing the after consumer returned them. In the figure represented below is possible to observe the tradeoff concearning the weight calibration by the decision maker preference.
+For the two clusters was given a set of possible weight alternatives folowing the equation reported below:
+$$
+y=1-x, \quad \forall x \in X, X = (0,1)
+$$
+Where $x$ is the preference for a consumer driven preference as we defined as "push", and $y$ stands for the preference of the DM toward greener choice.
+The aftermath was that a greener choice will always result in an increse of the optimal solution resulting in higher costs whereas a "push" driven preferences will accoplish a better result in economical terms but with the other side of the medal, namely a process which barely comply with the legislation, as set by the fuzzy goal posed on the recycling plants.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{Images/tradeoff.png}
+\caption{Tradeoff between different combination of DM preferences}
+\end{figure}
 
-\begin{center}
- \begin{tabular}{||c c c c||}
- \hline
- State & Function & Revenues allocation & Employees allocation \\ [0.5ex]
- \hline\hline
- Cyprus & Distributor & 7.986.031 & 269,2824 \\
- \hline
- Denmark & Manufacturer & 5.464.000 & 57,5619 \\
- \hline
- Latvia & Principal & 64.144.930 & 2.295,3010 \\
- \hline
- Portugal & Principal & 11.305.390 & 99,8544 \\
- \hline
+\subsection{Analytical Hierarchical Process for weight determination}
+Given the knowledge about the tradeoff that DM faces between greener choices with comparison with choices that may satisfies customers in the first place, the option was to choese a robust framework to select the sensitivity of the weights that is consistent with the expectation that the Decision Maker has about the process of Green Supply Chain. The chosen framework was the Analytichal Hierarchy Process \cite{Saaty1980}. The process was three tired:
+\begin{itemize}
+	\item Step 1: given the set of criteria defined in the previus sections the pairwise comparison matrix was computed indicating the importance of each criteria with repsect to the other;
+	\item Step 2: the pairwise matrix elements were normalized and consequently the priority vector was obtained;
+	\item Step 3: the last step consist in the test of the consistency of the value reported and then the validation with respect to a random generated matrix consistency index.
+\end{itemize}
+The resulting table reports the pairwise comparison matrix pre normalization:
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{@{}llllll@{}}
+\toprule
+\textbf{Criteria}     & Transportation & \begin{tabular}[c]{@{}l@{}}Supporting \\ Activities\end{tabular} & \begin{tabular}[c]{@{}l@{}}Recycling \\ Goal\end{tabular} & \begin{tabular}[c]{@{}l@{}}Fulfill \\ Demand\end{tabular} & \begin{tabular}[c]{@{}l@{}}Cut \\ Waste\end{tabular} \\ \midrule
+Transportation        & 1.00           & 2.00                                                             & 3.00                                                      & 0.14                                                      & 0.33                                                 \\
+Supporting Activities & 0.50           & 1.00                                                             & 2.00                                                      & 0.14                                                      & 0.50                                                 \\
+Recycling Goal        & 0.33           & 0.50                                                             & 1.00                                                      & 0.11                                                      & 0.20                                                 \\
+Fulfill Demand        & 7.00           & 7.00                                                             & 9.00                                                      & 1.00                                                      & 4.00                                                 \\
+Cut Waste             & 3.00           & 2.00                                                             & 5.00                                                      & 0.25                                                      & 1.00                                                 \\
+Total                 & \textit{11.83} & \textit{12.50}                                                   & \textit{20.00}                                            & \textit{1.65}                                             & \textit{6.03}                                        \\ \bottomrule
 \end{tabular}
-\end{center}
+\caption{Pairwise comparison matrix}
+\end{table}
 
-The financial data of the company shown an average consolidated tax burden of 21\% where instead using the model a rate of 17\% is achieved the only periods where such a ratio where lesser than the one achieved by the model where the ones in which the company started to register losses (that caused a decrease in the tax burden). This model, fixing the PLI at a positive level doesn't allow any combination to result in an EBIT of 0 consequently the only achievable 0 rate may be in case of a tax haven.
+Then from the normlization the priority vector was obtained:
 
-The deviation variables used registered the following discrepancies:
-
-\begin{center}
-\begin{tabular}{|| L  L L ||}
-\hline
-\text{Variable} & \text{Amount} & \text{Description} \\
-\hline
-\prescript{}{q}{p}_1 & 46.870.020,00 & \text{Consolidated cost of employees} \\
-\hline
-\prescript{}{q}{p}_2 & 7.159.194,00 & \text{Consolidated tax liability} \\
-\hline
-\prescript{}{o}{n}_1 & 0,00 & \text{Distributor profit allocation} \\
-\hline
-\prescript{}{o}{n}_2 & 0,00 & \text{Manufacturer profit allocation} \\
-\hline
-\prescript{}{o}{n}_3 & 0,00 & \text{Principal profit allocation} \\
-\hline
+\begin{table}[]
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Criteria}     & Weight        \\ \midrule
+Transportation        & 0.11          \\
+Supporting Activities & 0.08          \\
+Recycling Goal        & 0.04          \\
+Fulfill Demand        & 0.57          \\
+Cut Waste             & 0.20          \\
+Total                 & \textit{1.00} \\ \bottomrule
 \end{tabular}
-\end{center}
+\caption{Priority vector}
+\end{table}
 
-The model is far from being used as the only tool that decision makers can use to solve problems of business restructuring, however, the result shows that multi criteria analysis and especially goal programming may constitutes one of the best tools that can be used to measure such decision.
+The consistency ratio scored by the following preferences was $0.79\%$. The following priority vector was used to calibrate the weights of the model. After the calibration the model was solved throug the CPLEX algorithm. The objective achievement are reported in the table below.
+\begin{table}[]
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Objective}    & Value         \\ \midrule
+Transportation        & 146689000     \\
+Supporting Activities & 749030000     \\
+Recycling Goal        &    170000     \\
+Fulfill Demand        &         0     \\
+Cut Waste             &         0     \\
+Total                 & \textit{895889000} \\ \bottomrule
+\end{tabular}
+\caption{Objective value according to the model}
+\end{table}
+
+Ñ
 
 
 \newpage

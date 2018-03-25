@@ -1,0 +1,25 @@
+[0] Config.pm:354> INFO - This is Biber 2.7 (beta)
+[0] Config.pm:357> INFO - Logfile is 'ch1.blg'
+[95] biber:303> INFO - === dom mar 25, 2018, 16:16:15
+[189] Biber.pm:360> INFO - Reading 'ch1.bcf'
+[307] Biber.pm:836> INFO - Found 29 citekeys in bib section 0
+[333] Biber.pm:3671> INFO - Processing section 0
+[416] Biber.pm:3841> INFO - Looking for bibtex format file 'ch1-2.bib' for section 0
+[425] bibtex.pm:1424> INFO - Decoding LaTeX character macros into UTF-8
+[458] bibtex.pm:1281> INFO - Found BibTeX data source 'ch1-2.bib'
+[573] Utils.pm:164> WARN - month field 'apr' in entry 'Cui2017' is not an integer - this will probably not sort properly.
+[581] Utils.pm:164> WARN - month field 'aug' in entry 'Schniederjans1995' is not an integer - this will probably not sort properly.
+[587] Utils.pm:164> WARN - month field 'mar' in entry 'Zarandi2011' is not an integer - this will probably not sort properly.
+[602] Utils.pm:164> WARN - month field 'oct' in entry 'Tayi1985' is not an integer - this will probably not sort properly.
+[606] Utils.pm:164> WARN - month field 'jan' in entry 'Welling1977' is not an integer - this will probably not sort properly.
+[609] Utils.pm:164> WARN - month field 'jun' in entry 'Kruger2006' is not an integer - this will probably not sort properly.
+[611] Utils.pm:164> WARN - month field 'jan' in entry 'Gardner1990' is not an integer - this will probably not sort properly.
+[631] Utils.pm:164> WARN - I didn't find a database entry for 'tamiz_goal_1997' (section 0)
+[689] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[689] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[689] Biber.pm:3500> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[689] Biber.pm:3506> INFO - No sort tailoring available for locale 'en-US'
+[766] bbl.pm:608> INFO - Writing 'ch1.bbl' with encoding 'ascii'
+[779] Utils.pm:164> WARN - The entry 'Trenado2014' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[782] bbl.pm:712> INFO - Output to ch1.bbl
+[782] Biber.pm:110> INFO - WARNINGS: 9
