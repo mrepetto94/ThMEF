@@ -12,6 +12,7 @@
 \usepackage{txfonts}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage[long]{optidef}
+\usepackage{booktabs}
 
   \addbibresource{ch1-2.bib}
 
@@ -412,18 +413,78 @@ The model was tested with a set of data with the folowing features:
 	\item N. 4 dismantling plants, including the non collection plant;
 	\item N. 4 links from the simantling plan to the production plant (NtoN).
 \end{itemize}
-The model was solved using the NEOS servers using their API with the data sent through a script built in R, using the R library rneos; since the problem was linear the solver chosen was the CPLEX.
+The model was solved using the NEOS servers using their API with the data sent through a script built in R, using the R library rneos; since the problem was linear the solver chosen was the CPLEX. Further analysis were developed using the tools delivered by R and it's packages.
 
 \subsection{Sensitivity analysis}
-In the sensitivity analysis, the value of the weights was preemptively determined and the different achievements are reported in the table at the end of the section. The only constraint given was the unit of the sum of the weights, meaning that each weight should be a ratio indicating the importance of the particular objective where 1 is absolute importance (conversely none of the other objectives is important) and 0 is not important at all.
+In the sensitivity analysis, the value of the weights was preemptively determined, since the model represent two different flow of products: delivered to the costumer and recycled the aim of the sensitivity analysis was to measure all the possible frontiers between DM preferece toward greener goal in comparion with the forward flow driven preferences. Therefore the objective were grouped in two different clusters, the first was the cluster of "push" objective in the sense of the supply push of products to the customer, conversely the second cluster was characterized by the pull by the firm for recycling units instead of simpli disposing the after consumer returned them. In the figure represented below is possible to observe the tradeoff concearning the weight calibration by the decision maker preference.
+For the two clusters was given a set of possible weight alternatives folowing the equation reported below:
+$$
+y=1-x, \quad \forall x \in X, X = (0,1)
+$$
+Where $x$ is the preference for a consumer driven preference as we defined as "push", and $y$ stands for the preference of the DM toward greener choice.
+The aftermath was that a greener choice will always result in an increse of the optimal solution resulting in higher costs whereas a "push" driven preferences will accoplish a better result in economical terms but with the other side of the medal, namely a process which barely comply with the legislation, as set by the fuzzy goal posed on the recycling plants.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\linewidth]{Images/tradeoff.png}
+\caption{Tradeoff between different combination of DM preferences}
+\end{figure}
 
 \subsection{Analytical Hierarchical Process for weight determination}
-
+Given the knowledge about the tradeoff that DM faces between greener choices with comparison with choices that may satisfies customers in the first place, the option was to choese a robust framework to select the sensitivity of the weights that is consistent with the expectation that the Decision Maker has about the process of Green Supply Chain. The chosen framework was the Analytichal Hierarchy Process \cite{Saaty1980}. The process was three tired:
 \begin{itemize}
-	\item
-	\item
+	\item Step 1: given the set of criteria defined in the previus sections the pairwise comparison matrix was computed indicating the importance of each criteria with repsect to the other;
+	\item Step 2: the pairwise matrix elements were normalized and consequently the priority vector was obtained;
+	\item Step 3: the last step consist in the test of the consistency of the value reported and then the validation with respect to a random generated matrix consistency index.
 \end{itemize}
+The resulting table reports the pairwise comparison matrix pre normalization:
 
+\begin{table}[ht]
+\centering
+\begin{tabular}{@{}llllll@{}}
+\toprule
+\textbf{Criteria}     & Transportation & \begin{tabular}[c]{@{}l@{}}Supporting \\ Activities\end{tabular} & \begin{tabular}[c]{@{}l@{}}Recycling \\ Goal\end{tabular} & \begin{tabular}[c]{@{}l@{}}Fulfill \\ Demand\end{tabular} & \begin{tabular}[c]{@{}l@{}}Cut \\ Waste\end{tabular} \\ \midrule
+Transportation        & 1.00           & 2.00                                                             & 3.00                                                      & 0.14                                                      & 0.33                                                 \\
+Supporting Activities & 0.50           & 1.00                                                             & 2.00                                                      & 0.14                                                      & 0.50                                                 \\
+Recycling Goal        & 0.33           & 0.50                                                             & 1.00                                                      & 0.11                                                      & 0.20                                                 \\
+Fulfill Demand        & 7.00           & 7.00                                                             & 9.00                                                      & 1.00                                                      & 4.00                                                 \\
+Cut Waste             & 3.00           & 2.00                                                             & 5.00                                                      & 0.25                                                      & 1.00                                                 \\
+Total                 & \textit{11.83} & \textit{12.50}                                                   & \textit{20.00}                                            & \textit{1.65}                                             & \textit{6.03}                                        \\ \bottomrule
+\end{tabular}
+\caption{Pairwise comparison matrix}
+\end{table}
+
+Then from the normlization the priority vector was obtained:
+
+\begin{table}[]
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Criteria}     & Weight        \\ \midrule
+Transportation        & 0.11          \\
+Supporting Activities & 0.08          \\
+Recycling Goal        & 0.04          \\
+Fulfill Demand        & 0.57          \\
+Cut Waste             & 0.20          \\
+Total                 & \textit{1.00} \\ \bottomrule
+\end{tabular}
+\caption{Priority vector}
+\end{table}
+
+The consistency ratio scored by the following preferences was $0.79\%$. The following priority vector was used to calibrate the weights of the model. After the calibration the model was solved throug the CPLEX algorithm. The objective achievement are reported in the table below.
+\begin{table}[]
+\centering
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{Objective}    & Value         \\ \midrule
+Transportation        & 146689000     \\
+Supporting Activities & 749030000     \\
+Recycling Goal        &    170000     \\
+Fulfill Demand        &         0     \\
+Cut Waste             &         0     \\
+Total                 & \textit{895889000} \\ \bottomrule
+\end{tabular}
+\caption{Objective value according to the model}
+\end{table}
 
 \newpage 
 

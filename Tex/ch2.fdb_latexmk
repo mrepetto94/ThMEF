@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber ch2"] 1521958532 "ch2.bcf" "ch2.bbl" "ch2" 1521958621
-  "ch1-2.bib" 1521731211 38767 81d984b6191de12a2f1b28df5084d0c9 ""
-  "ch2.bcf" 1521958548 97742 8b1db5060e7d39de429b306119270afc ""
+["biber ch2"] 1521982554 "ch2.bcf" "ch2.bbl" "ch2" 1521986950
+  "ch1-2.bib" 1521980868 38978 be4f4dff2d71183d17be9960e46b95f0 ""
+  "ch2.bcf" 1521986673 97794 6937b54c8f225cdc4d75c181e2752c18 ""
   (generated)
   "ch2.bbl"
   "ch2.blg"
-["pdflatex"] 1521958621 "ch2.tex" "ch2.pdf" "ch2" 1521958621
+["pdflatex"] 1521986950 "ch2.tex" "ch2.pdf" "ch2" 1521986950
   "/etc/texmf/web2c/texmf.cnf" 1521727168 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -139,6 +139,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def" 1481497272 32339 40c0db1534aa21bb990d2a744c2eda2d ""
   "/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx" 1480098822 4570 671595e169f5150223252011dcdbb7c8 ""
   "/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx" 1480098822 35341 61b291a4de5214eaa00b9732e58f50bd ""
+  "/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty" 1480098823 5869 94335281ffcab47f341cf07ea8220e30 ""
   "/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty" 1480098827 4378 f429f0da968c278653359293040a8f52 ""
   "/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1483484472 42324 d951db30d0cb2b811f084fa3f92aec16 ""
   "/usr/share/texlive/texmf-dist/tex/latex/float/float.sty" 1480098828 6749 16d2656a1984957e674b149555f1ea1d ""
@@ -200,10 +201,11 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1521727376 4125846 befe43818c8f4b633fc5d3ee03ba211c ""
   "Images/heatmap.png" 1521695777 36633 d702794fa345167643691f5ba2c49cc5 ""
   "Images/occurence.png" 1521695777 77219 5dbc02d3f0345ff7b4e122a00740a23a ""
-  "ch2.aux" 1521958548 8440 7e3c189e7d6267bc7085073bebaa5f92 ""
-  "ch2.bbl" 1521958537 48413 58e136a2022ba1cea1b73f9b8347caa1 "biber ch2"
-  "ch2.run.xml" 1521958548 2293 9dd5f28039772432aa2cae98e66af9bb ""
-  "ch2.tex" 1521958608 48969 6f7594278231f99d7262c9bc060074fa ""
+  "Images/tradeoff.png" 1521971050 102242 1ff2c936755fa92c9637dedd12fc387c ""
+  "ch2.aux" 1521986673 9179 4cbe6d2a903c76e06a2761f98b95ae92 ""
+  "ch2.bbl" 1521982561 49204 00547294dd40ecc1425699b3e9b05e69 "biber ch2"
+  "ch2.run.xml" 1521986673 2293 9dd5f28039772432aa2cae98e66af9bb ""
+  "ch2.tex" 1521986948 54627 3396839b20335e0da52b29ab22110dd2 ""
   (generated)
   "ch2.pdf"
   "ch2.run.xml"

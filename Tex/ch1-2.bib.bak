@@ -155,7 +155,6 @@
   title     = {After Tax Hedging Report},
   year      = {2013},
   date      = {2013-01-01},
-  url       = {https://www.oecd.org/tax/aggressive/after_tax_hedging_report.pdf},
   urldate   = {2017-07-23},
   file      = {after_tax_hedging_report.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\E552BDK3\\after_tax_hedging_report.pdf:application/pdf},
   publisher = {{OECD} Publishing},
@@ -1023,7 +1022,7 @@
   volume        = {16},
   number        = {3},
   pages         = {576--586},
-  __markedentry = {[mrepetto94:6]},
+  __markedentry = {[mrepetto94:]},
   publisher     = {INFORMS},
 }
 
@@ -1045,6 +1044,14 @@
   title     = {OECD Transfer Pricing Guidelines for Multinational Enterprises and Tax Administrations 2017},
   doi       = {10.1787/tpg-2017-en},
   publisher = {OECD Publishing},
+}
+
+@Article{Saaty1980,
+  author        = {Saaty, TL},
+  title         = {The Analytic Hierarchy Process,},
+  journal       = {McGraw-Hill, New York},
+  year          = {1980},
+  __markedentry = {[mrepetto94:6]},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

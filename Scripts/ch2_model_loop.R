@@ -66,10 +66,18 @@ modf <- paste(paste(readLines("AMPLmodel/ampl.mod"), collapse = "\n"), "\n")
   
 # Run File
 comf <- paste(paste(readLines("AMPLmodel/ampl.run"), collapse = "\n"), "\n")
+x <- (c(99:1)/100)
+y <- (c(1:99)/100)
+obj <- vector(length =length(x))
+greenratio <- vector(length =length(x))
 
+wefrontier <- matrix(data <- c(x,y), ncol = 2)
+l <- length(wefrontier[,1])
+
+i  <- 1
+for (i in 1:l){
 # Data File and weights 
-we <-c(0.11,0.08,0.04,0.57,0.20)
-
+we <-c(wefrontier[i,1],wefrontier[i,1],wefrontier[i,2],wefrontier[i,1],wefrontier[i,2])
 datf <- paste(paste(readLines("AMPLmodel/ampl.dat"), collapse = "\n"), "\n")
 weight <- paste(sep="","param we :=\n","\t1\t",we[1],",\t2\t",we[2],",\t3\t",we[3],",\t4\t",we[4],",\t5\t",we[5],";")
 datf <- paste(datf, weight)
@@ -83,5 +91,12 @@ xmls <- CreateXmlString(neosxml = template, cdatalist = argslist)
 
 result <- NgetFinalResults(test)
 
+obj[i] <- sum(getresult(result,"obj", 1,5))
 ratio  <- getresult(result,"obj", 1,5)
+greenratio[i] <-(ratio[3]+ratio[5])/(sum(getresult(result,"obj", 1,5)))
+
+}
+
+df <- data.frame(x,y,obj, greenratio)
+save(df, file = "data_tradeoff.Rda")
 
