@@ -1,4 +1,4 @@
-PWD /home/mrepetto94/Documents/Git/ThMEF/Tex
+PWD /home/mrepetto94/Documents/git/ThMef/Tex
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -319,12 +319,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txr.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txr.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txb.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txr.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmr.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
 INPUT Images/occurence.png
 INPUT ./Images/occurence.png
 INPUT ./Images/occurence.png

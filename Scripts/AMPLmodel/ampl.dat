@@ -291,7 +291,7 @@ VNO 6.95, TLL 9.93, LJU 9.89, NOCO 0;
 
 param reuse_cost := 7.26;
 
-param waste_cost := 15.17;
+param waste_cost := 13.27;
 
 param return_coefficient :=
 		SPL 0.413, BRU 0.529, CGN 0.624, FRA 0.713, RIX 0.843, HEL 0.291,

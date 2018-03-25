@@ -66,8 +66,8 @@ modf <- paste(paste(readLines("AMPLmodel/ampl.mod"), collapse = "\n"), "\n")
   
 # Run File
 comf <- paste(paste(readLines("AMPLmodel/ampl.run"), collapse = "\n"), "\n")
-x <- (c(9:1)/10)
-y <- (c(1:9)/10)
+x <- (c(99:1)/100)
+y <- (c(1:99)/100)
 obj <- vector(length =length(x))
 greenratio <- vector(length =length(x))
 
