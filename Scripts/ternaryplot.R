@@ -31,5 +31,8 @@ obj <-c(67082550,
 
 
 df  <- data.frame(w1,w2,w3, obj)
-ggtern( data = df, aes(x=w1,y=w2,z=w3, size=obj)) + geom_point()
-
+ggtern( data = df, aes(x=w1,y=w2,z=w3, size=obj)) + 
+	geom_point() +
+	scale_size_continuous(name="Objective") +
+	theme_showarrows()
+ggsave(filename = "ternary.png")

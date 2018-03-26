@@ -280,9 +280,9 @@ INPUT ./Images/Cluster-GNI-CT.png
 INPUT Images/plidist.png
 INPUT ./Images/plidist.png
 INPUT ./Images/plidist.png
-INPUT Images/tradeoff.png
-INPUT ./Images/tradeoff.png
-INPUT ./Images/tradeoff.png
+INPUT Images/ternary.png
+INPUT ./Images/ternary.png
+INPUT ./Images/ternary.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm

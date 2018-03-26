@@ -411,8 +411,8 @@ Where $x$ is the preference for a consumer driven preference as we defined as "p
 The aftermath was that a greener choice will always result in an increse of the optimal solution resulting in higher costs whereas a "push" driven preferences will accoplish a better result in economical terms but with the other side of the medal, namely a process which barely comply with the legislation, as set by the fuzzy goal posed on the recycling plants.
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\linewidth]{Images/tradeoff.png}
-\caption{Tradeoff between different combination of DM preferences}
+\includegraphics[width=0.7\linewidth]{Images/ternary.png}
+\caption{Weight sensitivity analysis}
 \end{figure}
 
 \subsection{Analytical Hierarchical Process for weight determination}
@@ -426,15 +426,13 @@ The resulting table reports the pairwise comparison matrix pre normalization:
 
 \begin{table}[ht]
 \centering
-\begin{tabular}{@{}llllll@{}}
+\begin{tabular}{@{}llll@{}}
 \toprule
-\textbf{Criteria}     & Transportation & \begin{tabular}[c]{@{}l@{}}Supporting \\ Activities\end{tabular} & \begin{tabular}[c]{@{}l@{}}Recycling \\ Goal\end{tabular} & \begin{tabular}[c]{@{}l@{}}Fulfill \\ Demand\end{tabular} & \begin{tabular}[c]{@{}l@{}}Cut \\ Waste\end{tabular} \\ \midrule
-Transportation        & 1.00           & 2.00                                                             & 3.00                                                      & 0.14                                                      & 0.33                                                 \\
-Supporting Activities & 0.50           & 1.00                                                             & 2.00                                                      & 0.14                                                      & 0.50                                                 \\
-Recycling Goal        & 0.33           & 0.50                                                             & 1.00                                                      & 0.11                                                      & 0.20                                                 \\
-Fulfill Demand        & 7.00           & 7.00                                                             & 9.00                                                      & 1.00                                                      & 4.00                                                 \\
-Cut Waste             & 3.00           & 2.00                                                             & 5.00                                                      & 0.25                                                      & 1.00                                                 \\
-Total                 & \textit{11.83} & \textit{12.50}                                                   & \textit{20.00}                                            & \textit{1.65}                                             & \textit{6.03}                                        \\ \bottomrule
+\textbf{Criteria}     & Operation Costs & Tax Burden    & Functional Allocation \\ \midrule
+Operation Costs       & 1.00            & 0.50          & 0.33                  \\
+Tax Burden            & 2.00            & 1.00          & 0.50                  \\
+Functional Allocation & 3.00            & 2.00          & 1.00                  \\
+Total                 & \textit{6.00}   & \textit{3.50} & \textit{1.83}         \\ \bottomrule
 \end{tabular}
 \caption{Pairwise comparison matrix}
 \end{table}
@@ -446,11 +444,9 @@ Then from the normlization the priority vector was obtained:
 \begin{tabular}{@{}ll@{}}
 \toprule
 \textbf{Criteria}     & Weight        \\ \midrule
-Transportation        & 0.11          \\
-Supporting Activities & 0.08          \\
-Recycling Goal        & 0.04          \\
-Fulfill Demand        & 0.57          \\
-Cut Waste             & 0.20          \\
+Operation Costs       & 0.16          \\
+Tax Burden            & 0.30          \\
+Functional Allocation & 0.54          \\
 Total                 & \textit{1.00} \\ \bottomrule
 \end{tabular}
 \caption{Priority vector}
@@ -462,17 +458,13 @@ The consistency ratio scored by the following preferences was $0.79\%$. The foll
 \begin{tabular}{@{}ll@{}}
 \toprule
 \textbf{Objective}    & Value         \\ \midrule
-Transportation        & 146689000     \\
-Supporting Activities & 749030000     \\
-Recycling Goal        &    170000     \\
-Fulfill Demand        &         0     \\
-Cut Waste             &         0     \\
-Total                 & \textit{895889000} \\ \bottomrule
+Operation Costs       & 26143660     \\
+Tax Burden	      & 14796980     \\
+Functional Allocation & 26141910     \\
+Total                 & \textit{67082550} \\ \bottomrule
 \end{tabular}
 \caption{Objective value according to the model}
 \end{table}
-
-Ñ
 
 
 \newpage

@@ -1,0 +1,17 @@
+[0] Config.pm:354> INFO - This is Biber 2.7 (beta)
+[0] Config.pm:357> INFO - Logfile is 'AFROS_Conference_Repetto_Latorre.blg'
+[54] biber:303> INFO - === lun mar 26, 2018, 08:35:24
+[76] Biber.pm:360> INFO - Reading 'AFROS_Conference_Repetto_Latorre.bcf'
+[195] Biber.pm:836> INFO - Found 10 citekeys in bib section 0
+[221] Biber.pm:3671> INFO - Processing section 0
+[243] Biber.pm:3841> INFO - Looking for bibtex format file 'ch1-2.bib' for section 0
+[251] bibtex.pm:1424> INFO - Decoding LaTeX character macros into UTF-8
+[271] bibtex.pm:1281> INFO - Found BibTeX data source 'ch1-2.bib'
+[330] Utils.pm:164> WARN - month field 'apr' in entry 'Cui2017' is not an integer - this will probably not sort properly.
+[382] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[383] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[383] Biber.pm:3500> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[383] Biber.pm:3506> INFO - No sort tailoring available for locale 'en-US'
+[401] bbl.pm:608> INFO - Writing 'AFROS_Conference_Repetto_Latorre.bbl' with encoding 'ascii'
+[407] bbl.pm:712> INFO - Output to AFROS_Conference_Repetto_Latorre.bbl
+[407] Biber.pm:110> INFO - WARNINGS: 1
