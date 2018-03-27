@@ -4,8 +4,8 @@ getresult <- function (ans, name, nc, nr){
   
   var <- paste(name, " ", sep = "")
   resultvec <-unlist(strsplit(ans, "\n"))
-  location <- grep("PD_Ship ", resultvec)
-  value <- resultvec[(location+k):(location+6+k-1)]
+  location <- grep(var, resultvec)
+  value <- resultvec[(location+k):(location+nr+k-1)]
   value <- gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", value, perl = TRUE)
   value <- paste(value,collapse=" ")
   mat<-matrix(unlist(strsplit(value, " ")), ncol = nc+1, nrow = nr, byrow= TRUE)  
@@ -13,55 +13,68 @@ getresult <- function (ans, name, nc, nr){
   return(mat)
 }# The function isolate a specific parameter from the solution response in NEOS
 
-creatematrix <- function(ans)
-	rown <- ans[,1]
-	coln <- ans[,2]
-	data <- ans[1,3:sqrt(length(ans))]
-df<-data.frame(data, row.names(rown), col.names(coln))
-return(df)
+getresultBundle  <- function (ans,name,nc,nr){
+k<-1 
+  var <- paste(name, " ", sep = "")
+  resultvec <-unlist(strsplit(ans, "\n"))
+  location <- grep(var, resultvec)
+  value <- resultvec[(location+k):(location+nr+k-1)]
+  value <- gsub("(?<=[\\s])\\s*|^\\s+|\\s+$", "", value, perl = TRUE)
+  value <- paste(value,collapse=" ")
+  value<- gsub(pattern="[.]", replacement="0", value)
+  mat<-matrix(unlist(strsplit(value, " ")), ncol = nc+2, byrow= TRUE)  
+ return(mat)
 }
+
 library("ggplot2")
 library("maps")
 library("network")
 library("sna")
 library("GGally")
 
-a <- c(0,1,1,1,1,1,1,
-       0,0,0,0,0,0,0,
-       0,0,0,0,0,0,0,
-       0,0,0,0,0,0,0,
-       0,0,0,0,0,0,0,
-       0,0,0,0,0,0,0,
-       0,0,0,0,0,0,0)
-
-names <- c("TPE",
-	   "EBU", "DUB", "DUB", "HAM", "BCN", "BRI") 
-m <- matrix(a, nrow=(sqrt(length(a))), byrow=TRUE)
-colnames(m)<-names
-rownames(m)<-names
-
-m <- as.data.frame(m)
-
 load("result_ch2.Rda")
-PD_Ship <- getresult(ans, "PD_Ship", nc = 1, nr = 6)
 
-m["TPE",] <- c(0,PD_Ship[,2])
+entities <- unlist(strsplit("TPE EBU DUB GOA HAM BCN BRI SPL BRU CGN FRA RIX HEL CPG NTE BIO MXP FCO NAP MRS LYS TLS SXF MUC STR SZG VIE DUS MAD AGP LIS SVQ OPO ATH VNO TLL LJU NOCO", split = " "))
 
-n <- network(m, ignore.eval = FALSE, names.eval="weights")
+data <- matrix(0L, nrow = length(entities), ncol = length(entities))
+df  <- data.frame(data)
+colnames(df)<-entities
+rownames(df)<-entities
 
-ggnet2(n, label = TRUE, arrow.size = 12, arrow.gap = 0.025, edge.label = "weights")
+PD_Ship <- cbind("TPE",getresult(ans, "PD_Ship", nc = 1, nr = 6))
 
-# weighted adjacency matrix
-bip = data.frame(event1 = c(1, 2, 1),
-                 event2 = c(0, 0, 3),
-                 event3 = c(1, 1, 0),
-                 row.names = letters[1:3])
+DW_WW_WR_Ship <- getresultBundle(ans,"DW_Ship", nc = 3, nr = 171)
+DW_Ship  <- DW_WW_WR_Ship[,c(1,2,3)]
+WW_Ship  <- DW_WW_WR_Ship[,c(1,2,5)]
+WR_Ship  <- DW_WW_WR_Ship[,c(1,2,4)]
 
-# weighted bipartite network
-bip = network(bip,
-	      directed = TRUE,
-              matrix.type = "bipartite",
-              ignore.eval = FALSE,
-	      names.eval = "weights")
+RR_Ship <- cbind(getresult(ans, "RR_Ship", nc = 1, nr = 4)[,1],
+		 "TPE",
+		 getresult(ans, "RR_Ship", nc = 1, nr = 4)[,2])
+
+merge <- rbind(PD_Ship,DW_Ship,WR_Ship,RR_Ship)
+
+i<-1
+for(i in 1:dim(merge)[1]){
+	indexS <- merge[i,1]
+	indexR <- merge[i,2]
+	#Assign value
+ 	df[indexS,indexR] <- df[indexS,indexR] + as.numeric(merge[i,3])
+}
 
 
+
+n <- network(df, ignore.eval = FALSE, names.eval="weights")
+
+ggnet2(n,
+       mode = "circle",
+       size = 5,
+       alpha = 0.5,
+       label = TRUE,
+       label.size = 3,
+       arrow.size = 5,
+       arrow.gap = 0.025,
+       edge.label = "weights",
+       edge.size=0.5,
+       edge.label.size=2)
+ggsave(filename="network.png")

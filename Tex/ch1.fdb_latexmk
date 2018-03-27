@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber ch1"] 1521987367 "ch1.bcf" "ch1.bbl" "ch1" 1522009077
-  "ch1-2.bib" 1522004133 38978 be4f4dff2d71183d17be9960e46b95f0 ""
-  "ch1.bcf" 1522009074 97373 118539aa0fc97f3cf1cbbef856eeddc0 ""
+["biber ch1"] 1521987367 "ch1.bcf" "ch1.bbl" "ch1" 1522181181
+  "ch1-2.bib" 1522046266 38978 be4f4dff2d71183d17be9960e46b95f0 ""
+  "ch1.bcf" 1522009082 97373 118539aa0fc97f3cf1cbbef856eeddc0 ""
   (generated)
   "ch1.blg"
   "ch1.bbl"
-["pdflatex"] 1522009077 "ch1.tex" "ch1.pdf" "ch1" 1522009077
+["pdflatex"] 1522009077 "ch1.tex" "ch1.pdf" "ch1" 1522181181
   "/etc/texmf/web2c/texmf.cnf" 1521727168 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -192,13 +192,13 @@
   "Images/GNIworld.png" 1521695777 334847 c0250ee7eb18dcf079dc7c33dd86a997 ""
   "Images/plidist.png" 1521695777 123840 285c4a65d4e83df130d62ea4a4221204 ""
   "Images/ternary.png" 1522007684 83265 e6013cdb6d6514c623c95a263aa2760d ""
-  "ch1.aux" 1522009074 9152 a30c105068e13f879d725ccc62a6635c ""
+  "ch1.aux" 1522009082 9152 a30c105068e13f879d725ccc62a6635c ""
   "ch1.bbl" 1521987376 42814 6a00f2b9562e194a2939b94f68094775 "biber ch1"
-  "ch1.run.xml" 1522009074 2293 e38d23477ba90f8c6a1ca26365980fd0 ""
-  "ch1.tex" 1522009076 44130 e1eba05643ae13d56192aa4bc7f27080 ""
+  "ch1.run.xml" 1522009082 2293 e38d23477ba90f8c6a1ca26365980fd0 ""
+  "ch1.tex" 1522047259 44130 e1eba05643ae13d56192aa4bc7f27080 ""
   (generated)
-  "ch1.bcf"
   "ch1.run.xml"
-  "ch1.log"
-  "ch1.aux"
+  "ch1.bcf"
   "ch1.pdf"
+  "ch1.aux"
+  "ch1.log"
