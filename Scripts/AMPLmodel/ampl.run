@@ -1,26 +1,6 @@
 solve;
 
-display PD_Ship;
-
-display DW_Ship;
-
-display WR_Ship;
-
-display WW_Ship;
-
-display RR_Ship;
-
-display collected;
-
-display waste;
-
-display nd_fuzzy;
-
-display mu;
-
-display we;
-
-display z;
+display PD_Ship, DW_Ship, WR_Ship, WW_Ship, RR_Ship;
 
 display sum{i in 1..5} obj[i];
 
