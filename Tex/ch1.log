@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.22)  29 MAR 2018 09:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.22)  29 MAR 2018 10:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1240,41 +1240,45 @@ File: Images/ternary.png Graphic file (type png)
 <use Images/ternary.png>
 Package pdftex.def Info: Images/ternary.png  used on input line 392. on input line 392.
 Package pdftex.def Info: Requested size: 241.49895pt x 288.7751pt on input line 392.
- [19] [20 <./Images/ternary.png>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19] [20 <./Images/ternary.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 420.
+               Default added (so using `tbp') on input line 422.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 434.
+               Default added (so using `tbp') on input line 436.
 
 [21]
-LaTeX Font Info:    Try loading font information for OT1+txtt on input line 449.
+LaTeX Font Info:    Try loading font information for OT1+txtt on input line 453.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )
-Overfull \hbox (5.70847pt too wide) in paragraph at lines 450--450
+Overfull \hbox (5.70847pt too wide) in paragraph at lines 454--454
 []\OT1/txr/m/n/10 H. Justin David-son and Robert M. True-blood. ``Ac-count-ing for Decision-Making''.
  []
 
 
-Overfull \hbox (3.07915pt too wide) in paragraph at lines 450--450
+Overfull \hbox (3.07915pt too wide) in paragraph at lines 454--454
 \OT1/txr/m/n/10 In: \OT1/txr/m/it/10 The Ac-count-ing Re-view \OT1/txr/m/n/10 36.4 (1961), pp. 577{582. \OT1/txr/m/sc/10 issn\OT1/txr/m/n/10 : 00014826. \OT1/txr/m/sc/10 url\OT1/txr/m/n/10 : $\OT1/txtt/m/n/10 http :
  []
 
-./ch1.tex:450: Missing $ inserted.
+./ch1.tex:454: Missing $ inserted.
 <inserted text> 
                 $
-l.450 \end
+l.454 \end
           {document}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./ch1.tex:450: Extra }, or forgotten $.
+./ch1.tex:454: Extra }, or forgotten $.
 <argument> ...s: Development and Evaluation{\ast }
                                                   
-l.450 \end
+l.454 \end
           {document}
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1282,10 +1286,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./ch1.tex:450: Missing $ inserted.
+./ch1.tex:454: Missing $ inserted.
 <inserted text> 
                 $
-l.450 \end
+l.454 \end
           {document}
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1293,10 +1297,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./ch1.tex:450: Missing } inserted.
+./ch1.tex:454: Missing } inserted.
 <inserted text> 
                 }
-l.450 \end
+l.454 \end
           {document}
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1305,35 +1309,35 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [22]
-Overfull \hbox (58.68025pt too wide) in paragraph at lines 450--450
+Overfull \hbox (58.68025pt too wide) in paragraph at lines 454--454
 []\OT1/txr/m/n/10 OECD. \OT1/txr/m/it/10 Model Tax Con-ven-tion on In-come and on Cap-i-tal 2014\OT1/txr/m/n/10 . DOI: 10.1787/9789264239081-
  []
 
 
-Overfull \hbox (0.57024pt too wide) in paragraph at lines 450--450
+Overfull \hbox (0.57024pt too wide) in paragraph at lines 454--454
 []\OT1/txr/m/n/10 C. Romero. \OT1/txr/m/it/10 Hand-book of Crit-i-cal Is-sues in Goal Pro-gram-ming\OT1/txr/m/n/10 . Perg-a-mon, 2014.
  []
 
 
-Overfull \hbox (6.54893pt too wide) in paragraph at lines 450--450
+Overfull \hbox (6.54893pt too wide) in paragraph at lines 454--454
 \OT1/txr/m/sc/10 isbn\OT1/txr/m/n/10 : 9781483295114. \OT1/txr/m/sc/10 url\OT1/txr/m/n/10 : $\OT1/txtt/m/n/10 https : / / www . amazon . com / Handbook -[] Critical -[]
  []
 
 
-Overfull \hbox (1.74026pt too wide) in paragraph at lines 450--450
+Overfull \hbox (1.74026pt too wide) in paragraph at lines 454--454
 []\OT1/txr/m/n/10 TL Saaty. ``The An-a-lytic Hi-er-ar-chy Pro-cess,'' in: \OT1/txr/m/it/10 McGraw-Hill, New York \OT1/txr/m/n/10 (1980). 
  []
 
 
-Overfull \hbox (14.70494pt too wide) in paragraph at lines 450--450
+Overfull \hbox (14.70494pt too wide) in paragraph at lines 454--454
 []\OT1/txr/m/n/10 Marc J. Schnieder-jans. ``The Life Cy-cle of Goal Pro-gram-ming Re-search as Recorded
  []
 
 [23]
-./ch1.tex:450: Undefined control sequence.
+./ch1.tex:454: Undefined control sequence.
 <argument> ...bility in portfolio selection: A \x 
                                                   {fffd}\x {fffd}\x {fffd}go...
-l.450 \end
+l.454 \end
           {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1341,10 +1345,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch1.tex:450: Undefined control sequence.
+./ch1.tex:454: Undefined control sequence.
 <argument> ... portfolio selection: A \x {fffd}\x 
                                                   {fffd}\x {fffd}goal games\...
-l.450 \end
+l.454 \end
           {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1352,10 +1356,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch1.tex:450: Undefined control sequence.
+./ch1.tex:454: Undefined control sequence.
 <argument> ...o selection: A \x {fffd}\x {fffd}\x 
                                                   {fffd}goal games\x {fffd}\...
-l.450 \end
+l.454 \end
           {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1363,10 +1367,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch1.tex:450: Undefined control sequence.
+./ch1.tex:454: Undefined control sequence.
 <argument> ...fffd}\x {fffd}\x {fffd}goal games\x 
                                                   {fffd}\x {fffd}\x {fffd} a...
-l.450 \end
+l.454 \end
           {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1374,10 +1378,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch1.tex:450: Undefined control sequence.
+./ch1.tex:454: Undefined control sequence.
 <argument> ...fffd}\x {fffd}goal games\x {fffd}\x 
                                                   {fffd}\x {fffd} against na...
-l.450 \end
+l.454 \end
           {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1385,10 +1389,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch1.tex:450: Undefined control sequence.
+./ch1.tex:454: Undefined control sequence.
 <argument> ...fffd}goal games\x {fffd}\x {fffd}\x 
                                                   {fffd} against nature appr...
-l.450 \end
+l.454 \end
           {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1410,7 +1414,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  62i,16n,84p,10395b,1355s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ch1.pdf (24 pages, 677985 bytes).
+Output written on ch1.pdf (24 pages, 678381 bytes).
 PDF statistics:
  140 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream

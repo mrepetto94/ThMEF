@@ -380,21 +380,23 @@ The simulation of the above-mentioned model was made using LINGO17 and specifica
 Concerning the data, the financials were taken from a company operating mostly in Europe and western countries in general, plus this company tend to produce and store most of its products in Asian countries and tend to have less inventory in its western distribution sites. The company under scope was under performing at the time of this simulation its P/L statement registered a loss of roughly  6.000.000 USD. The revenues registered for the year under the scope were about 88.900.344 USD and the employees hired were 2.722.
 
 \subsection{Sensitivity analysis}
-In the sensitivity analysis, the value of the weights was preemptively determined; since the model for the case study has only theree goals , namely the minimization of the operation cost, the minimization of the tax liability and conservation of the functional alloaction. The aim of the sensitivity analysis was to measure all the possible frontiers between DM preferece toward theese choices. Therefore the objective were subjected to different wei, the first was the cluster of "push" objective in the sense of the supply push of products to the customer, conversely the second cluster was characterized by the pull by the firm for recycling units instead of simpli disposing the after consumer returned them. In the figure represented below is possible to observe the tradeoff concearning the weight calibration by the decision maker preference.
-For the two clusters was given a set of possible weight alternatives folowing the equation reported below:
+In the sensitivity analysis, the value of the weights was preemptively determined; since the model for the case study has only theree goals , namely the minimization of the operation cost, the minimization of the tax liability and conservation of the functional alloaction. The aim of the sensitivity analysis was to measure all the possible frontiers between DM preferece toward theese choices. Therefore the objective were subjected to different weights combination, however the combinations didn't inculude any zero weight, this was done in order to avoid any Pareto solution that would result infeasible in reality. For the three objetives was given a set of possible weight alternatives folowing the equation reported below:
 $$
-y=1-x, \quad \forall x \in X, X = (0,1)
+1=x + y + z, \quad \forall x \in X, X = (0,1), \quad \forall y \in Y, Y = (0,1, \quad \forall z \in Z, Z = (0,1),
 $$
-Where $x$ is the preference for a consumer driven preference as we defined as "push", and $y$ stands for the preference of the DM toward greener choice.
-The aftermath was that a greener choice will always result in an increse of the optimal solution resulting in higher costs whereas a "push" driven preferences will accoplish a better result in economical terms but with the other side of the medal, namely a process which barely comply with the legislation, as set by the fuzzy goal posed on the recycling plants.
+Where $x$ is the preference for the minimization of the operational costs($w1$), whereas $y$ stands for the preference of the DM toward the minimization of the tax liability($w2$) and $z$ represents the preference for maintaining the functional characterization of the company($w3$).
+In order to give a better perspective of these different set of preferences a ternary plot was created reprenting some of the possible choice given admitted by the equation defined previously.
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.7\linewidth]{Images/ternary.png}
 \caption{Weight sensitivity analysis}
 \end{figure}
 
+As ptesented by the figure pusuing largely the minimization of the operational cost could not be considered a great objective and the same as to be said by the sole objective of tax minimization, a much solid set of weights should be found taking into account this different outcomes.
+
 \subsection{Analytical Hierarchical Process for weight determination}
-Given the knowledge about the tradeoff that DM faces between greener choices with comparison with choices that may satisfies customers in the first place, the option was to choese a robust framework to select the sensitivity of the weights that is consistent with the expectation that the Decision Maker has about the process of Green Supply Chain. The chosen framework was the Analytichal Hierarchy Process \cite{Saaty1980}. The process was three tired:
+Given the knowledge about the tradeoffs that DM faces, the option was to choese a robust framework to select the sensitivity of the weights that is consistent with the expectation that the Decision Maker has about the process of Green Supply Chain. The chosen framework was the Analytichal Hierarchy Process \cite{Saaty1980}. The process was three tired:
 \begin{itemize}
 	\item Step 1: given the set of criteria defined in the previus sections the pairwise comparison matrix was computed indicating the importance of each criteria with repsect to the other;
 	\item Step 2: the pairwise matrix elements were normalized and consequently the priority vector was obtained;
@@ -443,7 +445,9 @@ Total                 & \textit{67082550} \\ \bottomrule
 \end{tabular}
 \caption{Objective value according to the model}
 \end{table}
+As illustrated by the map
 
+\subsection{Final remarks}
 
 \newpage
 \printbibliography
