@@ -1,39 +1,5 @@
 [0] Config.pm:354> INFO - This is Biber 2.7 (beta)
 [0] Config.pm:357> INFO - Logfile is 'ch2.blg'
-[218] biber:303> INFO - === mar mar 27, 2018, 22:14:25
-[333] Biber.pm:360> INFO - Reading 'ch2.bcf'
-[502] Biber.pm:836> INFO - Found 33 citekeys in bib section 0
-[547] Biber.pm:3671> INFO - Processing section 0
-[646] Biber.pm:3841> INFO - Looking for bibtex format file 'ch1-2.bib' for section 0
-[677] bibtex.pm:1424> INFO - Decoding LaTeX character macros into UTF-8
-[727] bibtex.pm:1281> INFO - Found BibTeX data source 'ch1-2.bib'
-[763] Utils.pm:164> WARN - month field 'apr' in entry 'Diabat2011' is not an integer - this will probably not sort properly.
-[814] Utils.pm:164> WARN - month field 'Feb' in entry 'Oh_Karimi_2006' is not an integer - this will probably not sort properly.
-[821] Utils.pm:164> WARN - month field 'Oct' in entry 'Kanyalkar_2005' is not an integer - this will probably not sort properly.
-[837] Utils.pm:164> WARN - month field 'Jan' in entry 'Rizk_Martel2008' is not an integer - this will probably not sort properly.
-[846] Utils.pm:164> WARN - month field 'Nov' in entry 'Chern_Hsieh_2007' is not an integer - this will probably not sort properly.
-[855] Utils.pm:164> WARN - month field 'Mar' in entry 'Liang_Cheng_2009' is not an integer - this will probably not sort properly.
-[858] Utils.pm:164> WARN - month field 'Sep' in entry 'Gupta_Maranas_2003' is not an integer - this will probably not sort properly.
-[872] Utils.pm:164> WARN - month field 'Jun' in entry 'Zadeh_1965' is not an integer - this will probably not sort properly.
-[875] Utils.pm:164> WARN - month field 'jul' in entry 'Rehman2017' is not an integer - this will probably not sort properly.
-[880] Utils.pm:164> WARN - month field 'apr' in entry 'Diaz-Madronero2018' is not an integer - this will probably not sort properly.
-[883] Utils.pm:164> WARN - month field 'jul' in entry 'Nomani2016' is not an integer - this will probably not sort properly.
-[972] Utils.pm:164> WARN - ISBN '0684841460,9780684841465' in entry 'CompetitiveAdvantage' is invalid - run biber with '--validate_datamodel' for details.
-[975] Utils.pm:164> WARN - month field 'oct' in entry 'YAGHOOBI2008' is not an integer - this will probably not sort properly.
-[1064] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1064] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1064] Biber.pm:3500> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
-[1064] Biber.pm:3506> INFO - No sort tailoring available for locale 'en-US'
-[1168] bbl.pm:608> INFO - Writing 'ch2.bbl' with encoding 'ascii'
-[1174] Utils.pm:164> WARN - The entry 'Chern_Hsieh_2007' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1180] Utils.pm:164> WARN - The entry 'Diaz-Madronero2018' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1184] Utils.pm:164> WARN - The entry 'Gupta_Maranas_2003' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1186] Utils.pm:164> WARN - The entry 'Kanyalkar_2005' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1187] Utils.pm:164> WARN - The entry 'Liang_Cheng_2009' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1190] Utils.pm:164> WARN - The entry 'Nomani2016' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1192] Utils.pm:164> WARN - The entry 'Oh_Karimi_2006' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1196] Utils.pm:164> WARN - The entry 'Rizk_Martel2008' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1200] Utils.pm:164> WARN - The entry 'Santoso_Ahmed_Goetschalckx_Shapiro_2005' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1205] Utils.pm:164> WARN - The entry 'Zadeh_1965' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1206] bbl.pm:712> INFO - Output to ch2.bbl
-[1207] Biber.pm:110> INFO - WARNINGS: 23
+[58] biber:303> INFO - === gio mar 29, 2018, 09:19:30
+[80] Utils.pm:180> ERROR - ch2.bcf is malformed, last biblatex run probably failed. Deleted ch2.bbl
+[81] Biber.pm:114> INFO - ERRORS: 1

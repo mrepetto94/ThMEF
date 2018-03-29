@@ -35,6 +35,7 @@ library("GGally")
 load("result_ch2.Rda")
 
 entities <- unlist(strsplit("TPE EBU DUB GOA HAM BCN BRI SPL BRU CGN FRA RIX HEL CPG NTE BIO MXP FCO NAP MRS LYS TLS SXF MUC STR SZG VIE DUS MAD AGP LIS SVQ OPO ATH VNO TLL LJU NOCO", split = " "))
+type <- ifelse(entities %in% "TPE", "Producer", ifelse(entities %in% c("VNO","TLL","LJU","NOCO"),"Recycler", "Distributor"))
 
 data <- matrix(0L, nrow = length(entities), ncol = length(entities))
 df  <- data.frame(data)
@@ -53,28 +54,29 @@ RR_Ship <- cbind(getresult(ans, "RR_Ship", nc = 1, nr = 4)[,1],
 		 getresult(ans, "RR_Ship", nc = 1, nr = 4)[,2])
 
 merge <- rbind(PD_Ship,DW_Ship,WR_Ship,RR_Ship)
-
+merge <- merge[(merge[,3] != 0),]
 i<-1
 for(i in 1:dim(merge)[1]){
 	indexS <- merge[i,1]
 	indexR <- merge[i,2]
 	#Assign value
- 	df[indexS,indexR] <- df[indexS,indexR] + as.numeric(merge[i,3])
+ 	df[indexS,indexR] <- df[indexS,indexR] + log(as.numeric(merge[i,3]))
 }
 
-
-
+df <- df/25
 n <- network(df, ignore.eval = FALSE, names.eval="weights")
+n %v% "Function" = type
 
 ggnet2(n,
        mode = "circle",
-       size = 5,
-       alpha = 0.5,
+       size = 10,
+       alpha = 0.7,
+       color = "Function",
        label = TRUE,
        label.size = 3,
        arrow.size = 5,
        arrow.gap = 0.025,
-       edge.label = "weights",
-       edge.size=0.5,
+       edge.size="weights",
        edge.label.size=2)
+
 ggsave(filename="network.png")

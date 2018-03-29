@@ -82,7 +82,7 @@ xmls <- CreateXmlString(neosxml = template, cdatalist = argslist)
 (test <- NauthenticatedSubmitJob(xmlstring = xmls, user = Sys.getenv("NeosName"), password = Sys.getenv("NeosPW")))
 
 result <- NgetFinalResults(test)
-ens <- result@ans
+ans <- result@ans
 save(ans,file = "result_ch2.Rda") 
 #ratio  <- getresult(result,"obj", 1,5)
 

@@ -1,52 +1,10 @@
 \documentclass{article}
 
-\usepackage{amsmath}
-\usepackage{mathtools}
-\usepackage{amstext}
-\usepackage{array}
-\usepackage[long]{optidef}
-\usepackage[backend=biber,
-            url=false]{biblatex}
-\usepackage{float}
-\usepackage{tikz}
-\usepackage{txfonts}
-\usepackage[colorinlistoftodos]{todonotes}
-\usepackage[long]{optidef}
-\usepackage{booktabs}
-\usepackage{rotating}
-
-  \addbibresource{ch1-2.bib}
-
-  \usetikzlibrary{calc,matrix,decorations.markings,decorations.pathreplacing}
-  \usetikzlibrary{positioning}
-
-  \definecolor{colone}{gray}{0.7}
-  \definecolor{coltwo}{gray}{0.6}
-  \definecolor{colthree}{gray}{0.5}
-  \definecolor{colfour}{gray}{0.9}
-  \definecolor{colfive}{gray}{0.9}
-  \definecolor{colsix}{gray}{0.9}
-  \definecolor{colseven}{gray}{0.9}
-
-  \tikzset{
-  table/.style={
-  matrix of nodes,
-  row sep=-\pgflinewidth,
-  column sep=-\pgflinewidth,
-  nodes={rectangle,text width=2cm,align=center},
-  text depth=1.25ex,
-  text height=2.5ex,
-  nodes in empty cells}
-  }
-
-  \tikzstyle{startstop} = [rectangle, minimum width=2cm, minimum height=1.5cm,text centered, draw=black]
-  \tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1.5cm, text centered, draw=black]
-  \tikzstyle{blank} = [circle, minimum width=0.1cm, minimum height=0.1cm, text centered, draw=white]
-  \tikzstyle{arrow} = [thick,->,>=stealth]
+\usepackage{style}
 
 \begin{document}
 
-  \title{Chapter 2}
+  \title{A Green Supply Chain transportation model: integrating closed loop logistics features}
 
   \author{M. Repetto}
 
@@ -437,7 +395,7 @@ Given the knowledge about the tradeoff that DM faces between greener choices wit
 	\item Step 2: the pairwise matrix elements were normalized and consequently the priority vector was obtained;
 	\item Step 3: the last step consist in the test of the consistency of the value reported and then the validation with respect to a random generated matrix consistency index.
 \end{itemize}
-The resulting table reports the pairwise comparison matrix pre normalization:
+The resulting table reports the pairwise comparison matrix pre normalization, from such matrix is possible to observe how the attention of the DM is particularly interested in fulfilling the demand in the first place and then cutting potential waste.
 
 \begin{table}[ht]
 \centering
@@ -454,8 +412,7 @@ Total                 & \textit{11.83} & \textit{12.50}                         
 \caption{Pairwise comparison matrix}
 \end{table}
 
-Then from the normlization the priority vector was obtained:
-
+Then from the normlization the priority vector was obtained, as reported from the pairwise matrix the attention of the DM was primarily toward demand fullfillment and waste minimization, however the priority expressed may contain some inconsistency. Therefore, in order to avoid this situation a consistency test was performed with respect to a random pairwise matrix.
 \begin{table}[]
 \centering
 \begin{tabular}{@{}ll@{}}
@@ -471,7 +428,7 @@ Total                 & \textit{1.00} \\ \bottomrule
 \caption{Priority vector}
 \end{table}
 
-The consistency ratio scored by the following preferences was $0.79\%$. The following priority vector was used to calibrate the weights of the model. After the calibration the model was solved throug the CPLEX algorithm. The objective achievement are reported in the table below.
+The consistency ratio scored by the following preferences was $0.79\%$ below the rejection value of $10\%$, therefore the priority vector was accepted. The resulting priority vector was used to calibrate the weights of the model. After the calibration the model was solved throug the CPLEX algorithm. The objective achievement are reported in the table below.
 \begin{table}[]
 \centering
 \begin{tabular}{@{}ll@{}}
@@ -486,13 +443,17 @@ Total                 & \textit{895889000} \\ \bottomrule
 \end{tabular}
 \caption{Objective value according to the model}
 \end{table}
+From the table is noticeble the achievement of the last two objectives which corresponds to the most preferable objectives by the decision maker. Such achievement is better represented by the figure \ref{fig:network} which sees the symbolic NOCO entity scoring zero inflows, meaning that none of the retail store opted for not recycling the WEEE disposed by the consumers. the other first two goals implied non zero value in case of demand fullfillment and finally the recycling goal was achieved only partially because of the lower importance set by the decison maker. 
 
-\begin{sidewaysfigure}
+\begin{sidewaysfigur}[ht]
 \centering
 \includegraphics[width=\textwidth]{Images/network.png}
 \caption{Graphical interpretation of the Green Supply Chain network}
 \label{fig:network}
 \end{sidewaysfigure}
+
+\subsection{Final remarks}
+Green Supply Chain is a very huge and popular topic nowadays and the past reserches on the field show how this topic is a mixture of different objcetives, from forward to backward flow, and last but not least the regulations imposed by the countries that tries to minimize waste risk imposing qualitative and quantitative restrictions. Because of this complex environment, Multi Criteria Decision tools play and will play a fundamental role in this field and probably a new set of researches with the corroboration of the two will take place in the short term. 
 
 \newpage 
 

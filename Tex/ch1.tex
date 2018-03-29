@@ -1,36 +1,14 @@
 \documentclass{article}
 
-\usepackage{amsmath}
-\usepackage{rotating}
-\usepackage{mathtools}
-\usepackage{amstext}
-\usepackage{array}
-\usepackage{cases}
-\usepackage{tikz}
-\usepackage{booktabs}
-\usepackage[colorinlistoftodos]{todonotes}
-\usepackage[long]{optidef}
-\usepackage[backend=bibier,
-		url=false
-		doi=false
-		isbn=false
-		issn=false]{biblatex}
-
-\addbibresource{ch1-2.bib}
-\usetikzlibrary{arrows,positioning}
-
-\def\firstcircle{(-2,6) circle (1.5cm)}
-\def\secondcircle{(2,6) circle (1.5cm)}
-\def\thirdcircle{(0,3.20) circle (1.5cm)}
-\def\fourthcircle{(0,4.5) circle (1.5cm)}
+\usepackage{style}
 
 \begin{document}
 
-\title{Chapter 1}
+\title{Tax planning and BEPS: a transportation model for optimal profit allocation}
 
 \author{M. Repetto}
 
-\date{\today}
+\date{}
 
 \maketitle
 
@@ -391,7 +369,7 @@ Where the equations(4b)(4c)(4d) belong to the first category, where instead (4e)
 \pagebreak
 
 \section{Mathematical simulation: a case study}
-The simulation of the above-mentioned model was made using LINGO17. Even if the mathematical package was able to handle the total amount of data given by the model the simulation was done using a portion of this data, avoiding countries in which the company doesn't operate at all. Other limitations were implemented in order to avoid any possible non-linearity, resulting in an increase of the computational time to obtain a solution, this was possible by avoiding inserting the equation (4d), when instead the correlated constraints, namely (4h) and (4i) were linearized. Other limitations to the model are exposed below:
+The simulation of the above-mentioned model was made using LINGO17 and specifically its linear solver. Even if the mathematical package was able to handle the total amount of data given by the model the simulation was done using a portion of this data, avoiding countries in which the company doesn't operate at all. Other limitations were implemented in order to avoid any possible non-linearity, resulting in an increase of the computational time to obtain a solution, this was possible by avoiding inserting the equation (4d), when instead the correlated constraints, namely (4h) and (4i) were linearized. Other limitations to the model are exposed below:
 \begin{itemize}
     \item The PLI chosen to set the functional range were only 2, ROS and FCMU;
     \item The cost of asset and equity was set to 0, meaning that the only cost driver was employees;
@@ -399,10 +377,10 @@ The simulation of the above-mentioned model was made using LINGO17. Even if the 
     \item The number of employees was assumed to be continuous, meaning that part-time work and non full year worker can be used by the firm.
 \end{itemize}
 
-Concerning the data, the financials were taken from a company operating mostly in Europe and western countries in general, plus this company tend to produce and store most of its products in Asian countries and tend to have less inventory in its western distribution sites. The company under scope was under performing at the time of this simulation its P/L statement registered a loss of roughly  6.960.502 USD. The revenues registered for the year under the scope were about 88.900.344,00 USD and the employees hired were 2.722,00.
+Concerning the data, the financials were taken from a company operating mostly in Europe and western countries in general, plus this company tend to produce and store most of its products in Asian countries and tend to have less inventory in its western distribution sites. The company under scope was under performing at the time of this simulation its P/L statement registered a loss of roughly  6.000.000 USD. The revenues registered for the year under the scope were about 88.900.344 USD and the employees hired were 2.722.
 
 \subsection{Sensitivity analysis}
-In the sensitivity analysis, the value of the weights was preemptively determined; since the model represent two different flow of products: delivered to the costumer and recycled the aim of the sensitivity analysis was to measure all the possible frontiers between DM preferece toward greener goal in comparion with the forward flow driven preferences. Therefore the objective were grouped in two different clusters, the first was the cluster of "push" objective in the sense of the supply push of products to the customer, conversely the second cluster was characterized by the pull by the firm for recycling units instead of simpli disposing the after consumer returned them. In the figure represented below is possible to observe the tradeoff concearning the weight calibration by the decision maker preference.
+In the sensitivity analysis, the value of the weights was preemptively determined; since the model for the case study has only theree goals , namely the minimization of the operation cost, the minimization of the tax liability and conservation of the functional alloaction. The aim of the sensitivity analysis was to measure all the possible frontiers between DM preferece toward theese choices. Therefore the objective were subjected to different wei, the first was the cluster of "push" objective in the sense of the supply push of products to the customer, conversely the second cluster was characterized by the pull by the firm for recycling units instead of simpli disposing the after consumer returned them. In the figure represented below is possible to observe the tradeoff concearning the weight calibration by the decision maker preference.
 For the two clusters was given a set of possible weight alternatives folowing the equation reported below:
 $$
 y=1-x, \quad \forall x \in X, X = (0,1)

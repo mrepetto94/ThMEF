@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.22)  27 MAR 2018 22:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.22)  29 MAR 2018 09:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,7 +23,7 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (./style.sty (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip43
 
@@ -433,229 +433,9 @@ Package: xparse 2017/07/19 L3 Experimental document command parser
 . Defining environment 'argmaxi!' with sig. 'D||{\defaultProblemFormat } O{0}
 . m m m m' on line 650.
 .................................................
-) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
- (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-))) (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count193
- (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\@xs@message=\write3
-\integerpart=\count194
-\decimalpart=\count195
-)
-Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
-)
-\c@tabx@nest=\count196
-\c@listtotal=\count197
-\c@listcount=\count198
-\c@liststart=\count199
-\c@liststop=\count266
-\c@citecount=\count267
-\c@citetotal=\count268
-\c@multicitecount=\count269
-\c@multicitetotal=\count270
-\c@instcount=\count271
-\c@maxnames=\count272
-\c@minnames=\count273
-\c@maxitems=\count274
-\c@minitems=\count275
-\c@citecounter=\count276
-\c@savedcitecounter=\count277
-\c@uniquelist=\count278
-\c@uniquename=\count279
-\c@refsection=\count280
-\c@refsegment=\count281
-\c@maxextratitle=\count282
-\c@maxextratitleyear=\count283
-\c@maxextrayear=\count284
-\c@maxextraalpha=\count285
-\c@abbrvpenalty=\count286
-\c@highnamepenalty=\count287
-\c@lownamepenalty=\count288
-\c@maxparens=\count289
-\c@parenlevel=\count290
-\blx@tempcnta=\count291
-\blx@tempcntb=\count292
-\blx@tempcntc=\count293
-\blx@maxsection=\count294
-\blx@maxsegment@0=\count295
-\blx@notetype=\count296
-\blx@parenlevel@text=\count297
-\blx@parenlevel@foot=\count298
-\blx@sectionciteorder@0=\count299
-\labelnumberwidth=\skip59
-\labelalphawidth=\skip60
-\biblabelsep=\skip61
-\bibitemsep=\skip62
-\bibnamesep=\skip63
-\bibinitsep=\skip64
-\bibparsep=\skip65
-\bibhang=\skip66
-\blx@bcfin=\read1
-\blx@bcfout=\write4
-\c@mincomprange=\count300
-\c@maxcomprange=\count301
-\c@mincompwidth=\count302
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count303
-\c@savedafterword=\count304
-\c@annotator=\count305
-\c@savedannotator=\count306
-\c@author=\count307
-\c@savedauthor=\count308
-\c@bookauthor=\count309
-\c@savedbookauthor=\count310
-\c@commentator=\count311
-\c@savedcommentator=\count312
-\c@editor=\count313
-\c@savededitor=\count314
-\c@editora=\count315
-\c@savededitora=\count316
-\c@editorb=\count317
-\c@savededitorb=\count318
-\c@editorc=\count319
-\c@savededitorc=\count320
-\c@foreword=\count321
-\c@savedforeword=\count322
-\c@holder=\count323
-\c@savedholder=\count324
-\c@introduction=\count325
-\c@savedintroduction=\count326
-\c@namea=\count327
-\c@savednamea=\count328
-\c@nameb=\count329
-\c@savednameb=\count330
-\c@namec=\count331
-\c@savednamec=\count332
-\c@translator=\count333
-\c@savedtranslator=\count334
-\c@shortauthor=\count335
-\c@savedshortauthor=\count336
-\c@shorteditor=\count337
-\c@savedshorteditor=\count338
-\c@labelname=\count339
-\c@savedlabelname=\count340
-\c@institution=\count341
-\c@savedinstitution=\count342
-\c@lista=\count343
-\c@savedlista=\count344
-\c@listb=\count345
-\c@savedlistb=\count346
-\c@listc=\count347
-\c@savedlistc=\count348
-\c@listd=\count349
-\c@savedlistd=\count350
-\c@liste=\count351
-\c@savedliste=\count352
-\c@listf=\count353
-\c@savedlistf=\count354
-\c@location=\count355
-\c@savedlocation=\count356
-\c@organization=\count357
-\c@savedorganization=\count358
-\c@origlocation=\count359
-\c@savedoriglocation=\count360
-\c@origpublisher=\count361
-\c@savedorigpublisher=\count362
-\c@publisher=\count363
-\c@savedpublisher=\count364
-\c@language=\count365
-\c@savedlanguage=\count366
-\c@pageref=\count367
-\c@savedpageref=\count368
-\shorthandwidth=\skip67
-\shortjournalwidth=\skip68
-\shortserieswidth=\skip69
-\shorttitlewidth=\skip70
-\shortauthorwidth=\skip71
-\shorteditorwidth=\skip72
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count369
-\c@textcitetotal=\count370
-\c@textcitemaxnames=\count371
-\c@biburlnumpenalty=\count372
-\c@biburlucpenalty=\count373
-\c@biburllcpenalty=\count374
-\c@smartand=\count375
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count376
-\c@bbx:relatedtotal=\count377
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-)) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count378
+\c@float@type=\count193
 \float@exts=\toks21
 \float@box=\box44
 \@float@everytoks=\toks22
@@ -672,7 +452,8 @@ Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
- (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
@@ -703,17 +484,16 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 \pgf@yb=\dimen163
 \pgf@xc=\dimen164
 \pgf@yc=\dimen165
-\w@pgf@writea=\write5
-\r@pgf@reada=\read2
-\c@pgf@counta=\count379
-\c@pgf@countb=\count380
-\c@pgf@countc=\count381
-\c@pgf@countd=\count382
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count194
+\c@pgf@countb=\count195
+\c@pgf@countc=\count196
+\c@pgf@countd=\count197
 \t@pgf@toka=\toks27
 \t@pgf@tokb=\toks28
 \t@pgf@tokc=\toks29
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
@@ -723,8 +503,8 @@ File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count383
-\pgfsyssoftpath@bigbuffer@items=\count384
+\pgfsyssoftpath@smallbuffer@items=\count198
+\pgfsyssoftpath@bigbuffer@items=\count199
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 )) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -746,13 +526,14 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen166
-\pgfmath@count=\count385
+\pgfmath@count=\count266
 \pgfmath@box=\box47
 \pgfmath@toks=\toks30
 \pgfmath@stack@operand=\toks31
 \pgfmath@stack@operation=\toks32
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count386
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count267
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen167
@@ -773,8 +554,7 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen181
 \pgf@path@lasty=\dimen182
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen183
 \pgf@shorten@start@additional=\dimen184
@@ -783,7 +563,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box48
 \pgf@hbox=\box49
 \pgf@layerbox@main=\box50
-\pgf@picture@serial@count=\count387
+\pgf@picture@serial@count=\count268
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen185
@@ -804,7 +584,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen190
-\pgf@sys@shading@range@num=\count388
+\pgf@sys@shading@range@num=\count269
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
@@ -821,7 +601,8 @@ File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box52
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
-) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen191
 \pgf@nodesepend=\dimen192
@@ -838,7 +619,7 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count389
+\pgf@plot@mark@count=\count270
 \pgfplotmarksize=\dimen195
 )
 \tikz@lastx=\dimen196
@@ -851,17 +632,17 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box54
 \tikz@tempbox=\box55
 \tikz@tempbox@bg=\box56
-\tikztreelevel=\count390
-\tikznumberofchildren=\count391
-\tikznumberofcurrentchild=\count392
-\tikz@fig@count=\count393
+\tikztreelevel=\count271
+\tikznumberofchildren=\count272
+\tikznumberofcurrentchild=\count273
+\tikz@fig@count=\count274
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count394
-\pgfmatrixcurrentcolumn=\count395
-\pgf@matrix@numberofcolumns=\count396
+\pgfmatrixcurrentrow=\count275
+\pgfmatrixcurrentcolumn=\count276
+\pgf@matrix@numberofcolumns=\count277
 )
-\tikz@expandcount=\count397
+\tikz@expandcount=\count278
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 ))) (/usr/share/texlive/texmf-dist/tex/latex/txfonts/txfonts.sty
@@ -948,12 +729,12 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks35
 \XKV@tempa@toks=\toks36
 )
-\XKV@depth=\count398
+\XKV@depth=\count279
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
-\c@@todonotes@numberoftodonotes=\count399
+\c@@todonotes@numberoftodonotes=\count280
 ) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen258
@@ -966,20 +747,266 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen265
 \cmidrulekern=\dimen266
 \defaultaddspace=\dimen267
-\@cmidla=\count400
-\@cmidlb=\count401
+\@cmidla=\count281
+\@cmidlb=\count282
 \@aboverulesep=\dimen268
 \@belowrulesep=\dimen269
-\@thisruleclass=\count402
-\@lastruleclass=\count403
+\@thisruleclass=\count283
+\@lastruleclass=\count284
 \@thisrulewidth=\dimen270
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count404
-\rotFPtop=\skip73
-\rotFPbot=\skip74
+\c@r@tfl@t=\count285
+\rotFPtop=\skip59
+\rotFPbot=\skip60
 \rot@float@box=\box57
 \rot@mess@toks=\toks37
+) (/usr/share/texlive/texmf-dist/tex/latex/cases/cases.sty
+Package: cases 2002/05/02 ver 2.5 
+) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))) (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count286
+ (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write4
+\integerpart=\count287
+\decimalpart=\count288
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count289
+\c@listtotal=\count290
+\c@listcount=\count291
+\c@liststart=\count292
+\c@liststop=\count293
+\c@citecount=\count294
+\c@citetotal=\count295
+\c@multicitecount=\count296
+\c@multicitetotal=\count297
+\c@instcount=\count298
+\c@maxnames=\count299
+\c@minnames=\count300
+\c@maxitems=\count301
+\c@minitems=\count302
+\c@citecounter=\count303
+\c@savedcitecounter=\count304
+\c@uniquelist=\count305
+\c@uniquename=\count306
+\c@refsection=\count307
+\c@refsegment=\count308
+\c@maxextratitle=\count309
+\c@maxextratitleyear=\count310
+\c@maxextrayear=\count311
+\c@maxextraalpha=\count312
+\c@abbrvpenalty=\count313
+\c@highnamepenalty=\count314
+\c@lownamepenalty=\count315
+\c@maxparens=\count316
+\c@parenlevel=\count317
+\blx@tempcnta=\count318
+\blx@tempcntb=\count319
+\blx@tempcntc=\count320
+\blx@maxsection=\count321
+\blx@maxsegment@0=\count322
+\blx@notetype=\count323
+\blx@parenlevel@text=\count324
+\blx@parenlevel@foot=\count325
+\blx@sectionciteorder@0=\count326
+\labelnumberwidth=\skip61
+\labelalphawidth=\skip62
+\biblabelsep=\skip63
+\bibitemsep=\skip64
+\bibnamesep=\skip65
+\bibinitsep=\skip66
+\bibparsep=\skip67
+\bibhang=\skip68
+\blx@bcfin=\read2
+\blx@bcfout=\write5
+\c@mincomprange=\count327
+\c@maxcomprange=\count328
+\c@mincompwidth=\count329
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count330
+\c@savedafterword=\count331
+\c@annotator=\count332
+\c@savedannotator=\count333
+\c@author=\count334
+\c@savedauthor=\count335
+\c@bookauthor=\count336
+\c@savedbookauthor=\count337
+\c@commentator=\count338
+\c@savedcommentator=\count339
+\c@editor=\count340
+\c@savededitor=\count341
+\c@editora=\count342
+\c@savededitora=\count343
+\c@editorb=\count344
+\c@savededitorb=\count345
+\c@editorc=\count346
+\c@savededitorc=\count347
+\c@foreword=\count348
+\c@savedforeword=\count349
+\c@holder=\count350
+\c@savedholder=\count351
+\c@introduction=\count352
+\c@savedintroduction=\count353
+\c@namea=\count354
+\c@savednamea=\count355
+\c@nameb=\count356
+\c@savednameb=\count357
+\c@namec=\count358
+\c@savednamec=\count359
+\c@translator=\count360
+\c@savedtranslator=\count361
+\c@shortauthor=\count362
+\c@savedshortauthor=\count363
+\c@shorteditor=\count364
+\c@savedshorteditor=\count365
+\c@labelname=\count366
+\c@savedlabelname=\count367
+\c@institution=\count368
+\c@savedinstitution=\count369
+\c@lista=\count370
+\c@savedlista=\count371
+\c@listb=\count372
+\c@savedlistb=\count373
+\c@listc=\count374
+\c@savedlistc=\count375
+\c@listd=\count376
+\c@savedlistd=\count377
+\c@liste=\count378
+\c@savedliste=\count379
+\c@listf=\count380
+\c@savedlistf=\count381
+\c@location=\count382
+\c@savedlocation=\count383
+\c@organization=\count384
+\c@savedorganization=\count385
+\c@origlocation=\count386
+\c@savedoriglocation=\count387
+\c@origpublisher=\count388
+\c@savedorigpublisher=\count389
+\c@publisher=\count390
+\c@savedpublisher=\count391
+\c@language=\count392
+\c@savedlanguage=\count393
+\c@pageref=\count394
+\c@savedpageref=\count395
+\shorthandwidth=\skip69
+\shortjournalwidth=\skip70
+\shortserieswidth=\skip71
+\shorttitlewidth=\skip72
+\shortauthorwidth=\skip73
+\shorteditorwidth=\skip74
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
+
+/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty:13031: Package biblatex Error: Option 'backend=bibier' invalid.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13031 \ProcessOptions*
+                        
+The option you have supplied is invalid.
+See the biblatex manual for valid option keys and possible values.
+
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count396
+\c@textcitetotal=\count397
+\c@textcitemaxnames=\count398
+\c@biburlnumpenalty=\count399
+\c@biburlucpenalty=\count400
+\c@biburllcpenalty=\count401
+\c@smartand=\count402
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count403
+\c@bbx:relatedtotal=\count404
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+
+/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty:13053: Package etoolbox Error: Invalid boolean value 'falsedoi'.
+
+See the etoolbox package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13053 \blx@processoptions
+                           
+Valid boolean values are 'true' and 'false'.
+
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
@@ -995,7 +1022,12 @@ File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
 \pgfdecorationsegmentlength=\dimen277
 )
 \tikz@lib@dec@box=\box58
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen278
+)))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1006,60 +1038,47 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
  (./ch2.aux)
 \openout1 = `ch2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 47.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 47.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 5.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 5.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 47.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 47.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 5.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 5.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 47.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 47.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 5.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 5.
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 47.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 47.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 5.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 5.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 47.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 5.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-Package biblatex Info: No input encoding detected.
-(biblatex)             Assuming 'ascii'.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'ascii'.
-\openout4 = `ch2.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'ch2.bbl' found.
- (./ch2.bbl)
-Package biblatex Info: Reference section=0 on input line 47.
-Package biblatex Info: Reference segment=0 on input line 47.
- ABD: EveryShipout initializing macros (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+) ABD: EveryShipout initializing macros (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count408
-\scratchdimen=\dimen278
+\scratchdimen=\dimen279
 \scratchbox=\box59
 \nofMPsegments=\count409
 \nofMParguments=\count410
 \everyMPshowfont=\toks38
 \MPscratchCnt=\count411
-\MPscratchDim=\dimen279
+\MPscratchDim=\dimen280
 \MPnumerator=\count412
 \makeMPintoPDFobject=\count413
 \everyMPtoPDFconversion=\toks39
@@ -1077,25 +1096,36 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Try loading font information for U+txmia on input line 55.
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'ascii'.
+\openout5 = `ch2.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'ch2.bbl' found.
+ (./ch2.bbl)
+Package biblatex Info: Reference section=0 on input line 5.
+Package biblatex Info: Reference segment=0 on input line 5.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 13.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 55.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 13.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 55.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 13.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 55.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 13.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 68--72
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
 
  []
 
@@ -1103,44 +1133,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--72
 <Images/occurence.png, id=15, 957.0957pt x 569.4876pt>
 File: Images/occurence.png Graphic file (type png)
 <use Images/occurence.png>
-Package pdftex.def Info: Images/occurence.png  used on input line 78. on input line 78.
-Package pdftex.def Info: Requested size: 345.0pt x 205.28476pt on input line 78.
+Package pdftex.def Info: Images/occurence.png  used on input line 36. on input line 36.
+Package pdftex.def Info: Requested size: 345.0pt x 205.28476pt on input line 36.
  [3 <./Images/occurence.png>]
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 88.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 46.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 88.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 46.
  [4] [5]
 <Images/heatmap.png, id=27, 492.84125pt x 477.785pt>
 File: Images/heatmap.png Graphic file (type png)
 <use Images/heatmap.png>
-Package pdftex.def Info: Images/heatmap.png  used on input line 151. on input line 151.
-Package pdftex.def Info: Requested size: 276.00105pt x 267.57964pt on input line 151.
+Package pdftex.def Info: Images/heatmap.png  used on input line 109. on input line 109.
+Package pdftex.def Info: Requested size: 276.00105pt x 267.57964pt on input line 109.
  [6 <./Images/heatmap.png>] [7]
-Overfull \hbox (3.83012pt too wide) in paragraph at lines 172--173
+Overfull \hbox (3.83012pt too wide) in paragraph at lines 130--131
 []\OT1/txr/m/n/10 Stochastic Pro-gram-ming: ad-dress-ing de-mand un-cer-tainty ac-count-ing for the prob-
  []
 
 [8] [9] [10] [11] [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 306--310
+Underfull \hbox (badness 10000) in paragraph at lines 264--268
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 322--331
+Underfull \hbox (badness 10000) in paragraph at lines 280--289
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--331
+Underfull \hbox (badness 10000) in paragraph at lines 280--289
 
  []
 
 [15]
-./ch2.tex:338: Extra }, or forgotten $.
-l.338 ...} c^f_{ijk} x^f_{ijk} - \delta^+_{ijk}=0}
+./ch2.tex:296: Extra }, or forgotten $.
+l.296 ...} c^f_{ijk} x^f_{ijk} - \delta^+_{ijk}=0}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1148,8 +1178,8 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./ch2.tex:347: Extra }, or forgotten $.
-l.347 (o^t_s \cdot x^t_s) - \delta^+_s}
+./ch2.tex:305: Extra }, or forgotten $.
+l.305 (o^t_s \cdot x^t_s) - \delta^+_s}
                                        {=0,}{\forall s \in S}
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1164,1544 +1194,123 @@ Overfull \vbox (28.15207pt too high) has occurred while \output is active []
 <Images/tradeoff.png, id=81, 505.6491pt x 505.6491pt>
 File: Images/tradeoff.png Graphic file (type png)
 <use Images/tradeoff.png>
-Package pdftex.def Info: Images/tradeoff.png  used on input line 429. on input line 429.
-Package pdftex.def Info: Requested size: 241.49895pt x 241.49745pt on input line 429.
+Package pdftex.def Info: Images/tradeoff.png  used on input line 387. on input line 387.
+Package pdftex.def Info: Requested size: 241.49895pt x 241.49745pt on input line 387.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [20]
-Overfull \hbox (2.04015pt too wide) in paragraph at lines 444--454
+Overfull \hbox (2.04015pt too wide) in paragraph at lines 402--412
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 459.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 475.
+               Default added (so using `tbp') on input line 416.
 
 [21 <./Images/tradeoff.png>]
-<Images/network.png, id=89, 957.0957pt x 569.4876pt>
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 432.
+
+[22]
+
+./ch2.tex:448: LaTeX Error: Environment sidewaysfigur undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.448 \begin{sidewaysfigur}
+                           [h]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<Images/network.png, id=92, 957.0957pt x 569.4876pt>
 File: Images/network.png Graphic file (type png)
 <use Images/network.png>
-Package pdftex.def Info: Images/network.png  used on input line 492. on input line 492.
-Package pdftex.def Info: Requested size: 550.0pt x 327.26166pt on input line 492.
- [22] [23 <./Images/network.png>]
-LaTeX Font Info:    Try loading font information for OT1+txtt on input line 499.
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
-File: ot1txtt.fd 2000/12/15 v3.1
+Package pdftex.def Info: Images/network.png  used on input line 450. on input line 450.
+Package pdftex.def Info: Requested size: 345.0pt x 205.28476pt on input line 450.
+
+./ch2.tex:451: LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.451 \caption
+              {Graphical interpretation of the Green Supply Chain network}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./ch2.tex:451: Undefined control sequence.
+\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
+                                                  \@captype }
+l.451 \caption
+              {Graphical interpretation of the Green Supply Chain network}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:451: Undefined control sequence.
+\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
+                                                  }
+l.451 \caption
+              {Graphical interpretation of the Green Supply Chain network}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ch2.tex:453: Too many }'s.
+\endminipage ...pagefalse \color@endgroup \egroup 
+                                                  \expandafter \@iiiparbox \...
+l.453 \end{sidewaysfigure}
+                          
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+./ch2.tex:453: Undefined control sequence.
+\endminipage ...\expandafter \@iiiparbox \@mpargs 
+                                                  {\unvbox \@tempboxa }
+l.453 \end{sidewaysfigure}
+                          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 )
-./ch2.tex:500: Misplaced alignment tab character &.
-<argument> Computers &
-                       Operations Research
-l.500 
-      
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> \edef \blx@tempa {3491\x 
-                                            {FFFD}\x {FFFD}\x {FFFD}3513}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...\blx@tempa {3491\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}3513}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...a {3491\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}3513}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x
-           {FFF%}\x {FFF%}\x {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x
-                    {FFF%}\x {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x {FFF%}\x
-                             {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> \edef \blx@tempa {3491\x 
-                                            {FFFD}\x {FFFD}\x {FFFD}3513}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...\blx@tempa {3491\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}3513}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...a {3491\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}3513}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x
-           {FFF%}\x {FFF%}\x {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x
-                    {FFF%}\x {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x {FFF%}\x
-                             {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 3491\x 
-                  {fffd}\x {fffd}\x {fffd}3513
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 3491\x {fffd}\x 
-                           {fffd}\x {fffd}3513
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 3491\x {fffd}\x {fffd}\x 
-                                    {fffd}3513
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Misplaced alignment tab character &.
-<argument> Computers &
-                       Chemical Engineering
-l.500 
-      
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 8\x 
-               {fffd}\x {fffd}\x {fffd}9
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 8\x {fffd}\x 
-                        {fffd}\x {fffd}9
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 8\x {fffd}\x {fffd}\x 
-                                 {fffd}9
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> \edef \blx@tempa {1219\x 
-                                            {FFFD}\x {FFFD}\x {FFFD}1227}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...\blx@tempa {1219\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}1227}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...a {1219\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}1227}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x
-           {FFF%}\x {FFF%}\x {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x
-                    {FFF%}\x {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x {FFF%}\x
-                             {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> \edef \blx@tempa {1219\x 
-                                            {FFFD}\x {FFFD}\x {FFFD}1227}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...\blx@tempa {1219\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}1227}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...a {1219\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}1227}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x
-           {FFF%}\x {FFF%}\x {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x
-                    {FFF%}\x {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x {FFF%}\x
-                             {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 1219\x 
-                  {fffd}\x {fffd}\x {fffd}1227
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 1219\x {fffd}\x 
-                           {fffd}\x {fffd}1227
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 1219\x {fffd}\x {fffd}\x 
-                                    {fffd}1227
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> \edef \blx@tempa {4431\x 
-                                            {FFFD}\x {FFFD}\x {FFFD}4454}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...\blx@tempa {4431\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}4454}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...a {4431\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}4454}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x
-           {FFF%}\x {FFF%}\x {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x
-                    {FFF%}\x {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x {FFF%}\x
-                             {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> \edef \blx@tempa {4431\x 
-                                            {FFFD}\x {FFFD}\x {FFFD}4454}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...\blx@tempa {4431\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}4454}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...a {4431\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}4454}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x
-           {FFF%}\x {FFF%}\x {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x
-                    {FFF%}\x {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x {FFF%}\x
-                             {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 4431\x 
-                  {fffd}\x {fffd}\x {fffd}4454
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 4431\x {fffd}\x 
-                           {fffd}\x {fffd}4454
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 4431\x {fffd}\x {fffd}\x 
-                                    {fffd}4454
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[24]
-./ch2.tex:500: Undefined control sequence.
-<to be read again> \edef \blx@tempa {3367\x 
-                                            {FFFD}\x {FFFD}\x {FFFD}3377}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...\blx@tempa {3367\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}3377}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...a {3367\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}3377}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x
-           {FFF%}\x {FFF%}\x {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x
-                    {FFF%}\x {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x {FFF%}\x
-                             {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> \edef \blx@tempa {3367\x 
-                                            {FFFD}\x {FFFD}\x {FFFD}3377}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...\blx@tempa {3367\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}3377}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...a {3367\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}3377}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x
-           {FFF%}\x {FFF%}\x {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x
-                    {FFF%}\x {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%%\x {FFF%}\x {FFF%}\x
-                             {FFF%}%%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 3367\x 
-                  {fffd}\x {fffd}\x {fffd}3377
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 3367\x {fffd}\x 
-                           {fffd}\x {fffd}3377
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 3367\x {fffd}\x {fffd}\x 
-                                    {fffd}3377
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (47.0597pt too wide) in paragraph at lines 500--500
-\OT1/txr/m/n/10 sup-ply chains''. In: \OT1/txr/m/it/10 Ex-pert Sys-tems with Ap-pli-ca-tions \OT1/txr/m/n/10 36.2 (Mar. 2009), 3367fffdfffdfffd3377.
- []
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> \edef \blx@tempa {595\x 
-                                           {FFFD}\x {FFFD}\x {FFFD}610}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ... \blx@tempa {595\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}610}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...pa {595\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}610}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%\x
-          {FFF%}\x {FFF%}\x {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%\x {FFF%}\x
-                   {FFF%}\x {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%\x {FFF%}\x {FFF%}\x
-                            {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> \edef \blx@tempa {595\x 
-                                           {FFFD}\x {FFFD}\x {FFFD}610}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ... \blx@tempa {595\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}610}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...pa {595\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}610}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%\x
-          {FFF%}\x {FFF%}\x {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%\x {FFF%}\x
-                   {FFF%}\x {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%\x {FFF%}\x {FFF%}\x
-                            {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 595\x 
-                 {fffd}\x {fffd}\x {fffd}610
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 595\x {fffd}\x 
-                          {fffd}\x {fffd}610
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 595\x {fffd}\x {fffd}\x 
-                                   {fffd}610
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (0.25845pt too wide) in paragraph at lines 500--500
-[]\OT1/txr/m/n/10 Hong-Choon Oh and I. A. Karimi. ``Global mul-ti-prod-uct production-Distribution
- []
-
-
-Overfull \hbox (28.47968pt too wide) in paragraph at lines 500--500
-\OT1/txr/m/n/10 plan-ning with duty draw-backs''. In: \OT1/txr/m/it/10 AIChE Jour-nal \OT1/txr/m/n/10 52.2 (Feb. 2006), 595fffdfffdfffd610.
- []
-
-./ch2.tex:500: Undefined control sequence.
-<recently read> \mathsemicolon 
-                               
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-\namepartfamily ->D\x 
-                      {fffd}\x {fffd}\x {fffd}Amours
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-\namepartfamily ->D\x {fffd}\x 
-                               {fffd}\x {fffd}Amours
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-\namepartfamily ->D\x {fffd}\x {fffd}\x 
-                                        {fffd}Amours
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> Synchronized production\x 
-                                     {fffd}\x {fffd}\x {fffd}distribution pl...
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> Synchronized production\x {fffd}\x 
-                                              {fffd}\x {fffd}distribution pl...
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> ...ized production\x {fffd}\x {fffd}\x 
-                                                  {fffd}distribution plannin...
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> \edef \blx@tempa {90\x 
-                                          {FFFD}\x {FFFD}\x {FFFD}104}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...f \blx@tempa {90\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}104}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...mpa {90\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}104}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%\x
-         {FFF%}\x {FFF%}\x {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%\x {FFF%}\x
-                  {FFF%}\x {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%\x {FFF%}\x {FFF%}\x
-                           {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> \edef \blx@tempa {90\x 
-                                          {FFFD}\x {FFFD}\x {FFFD}104}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...f \blx@tempa {90\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}104}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...mpa {90\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}104}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%\x
-         {FFF%}\x {FFF%}\x {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%\x {FFF%}\x
-                  {FFF%}\x {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%\x {FFF%}\x {FFF%}\x
-                           {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 90\x 
-                {fffd}\x {fffd}\x {fffd}104
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 90\x {fffd}\x 
-                         {fffd}\x {fffd}104
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 90\x {fffd}\x {fffd}\x 
-                                  {fffd}104
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (14.3673pt too wide) in paragraph at lines 500--500
-[]\OT1/txr/m/n/10 N Rizk, A Mar-tel, and S Dfffdfffdfff-dAmours. ``Syn-chro-nized pro-duc-tionfffdfffdfffd-
- []
-
-
-Overfull \hbox (1.74026pt too wide) in paragraph at lines 500--500
-[]\OT1/txr/m/n/10 TL Saaty. ``The An-a-lytic Hi-er-ar-chy Pro-cess,'' in: \OT1/txr/m/it/10 McGraw-Hill, New York \OT1/txr/m/n/10 (1980). 
- []
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> \edef \blx@tempa {96\x 
-                                          {FFFD}\x {FFFD}\x {FFFD}115}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...f \blx@tempa {96\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}115}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...mpa {96\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}115}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%\x
-         {FFF%}\x {FFF%}\x {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%\x {FFF%}\x
-                  {FFF%}\x {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%\x {FFF%}\x {FFF%}\x
-                           {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> \edef \blx@tempa {96\x 
-                                          {FFFD}\x {FFFD}\x {FFFD}115}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...f \blx@tempa {96\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}115}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...mpa {96\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}115}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%\x
-         {FFF%}\x {FFF%}\x {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%\x {FFF%}\x
-                  {FFF%}\x {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%\x {FFF%}\x {FFF%}\x
-                           {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 96\x 
-                {fffd}\x {fffd}\x {fffd}115
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 96\x {fffd}\x 
-                         {fffd}\x {fffd}115
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 96\x {fffd}\x {fffd}\x 
-                                  {fffd}115
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[25]
-Overfull \hbox (1.01372pt too wide) in paragraph at lines 500--500
-[]\OT1/txr/m/n/10 Su Yol Lee and Seung-Kyu Rhee. ``The change in cor-po-rate en-vi-ron-men-tal strate-
- []
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> \edef \blx@tempa {338\x 
-                                           {FFFD}\x {FFFD}\x {FFFD}353}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ... \blx@tempa {338\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}353}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...pa {338\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}353}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%\x
-          {FFF%}\x {FFF%}\x {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%\x {FFF%}\x
-                   {FFF%}\x {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%\x {FFF%}\x {FFF%}\x
-                            {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> \edef \blx@tempa {338\x 
-                                           {FFFD}\x {FFFD}\x {FFFD}353}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ... \blx@tempa {338\x {FFFD}\x 
-                                                  {FFFD}\x {FFFD}353}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<to be read again> ...pa {338\x {FFFD}\x {FFFD}\x 
-                                                  {FFFD}353}
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%\x
-          {FFF%}\x {FFF%}\x {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%\x {FFF%}\x
-                   {FFF%}\x {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-l.1 %%%\x {FFF%}\x {FFF%}\x
-                            {FFF%}%%%
-l.500 ^^M
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 338\x 
-                 {fffd}\x {fffd}\x {fffd}353
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 338\x {fffd}\x 
-                          {fffd}\x {fffd}353
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./ch2.tex:500: Undefined control sequence.
-<argument> 338\x {fffd}\x {fffd}\x 
-                                   {fffd}353
-l.500 
-      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (38.51328pt too wide) in paragraph at lines 500--500
-[]\OT1/txr/m/n/10 L.A. Zadeh. ``Fuzzy sets''. In: \OT1/txr/m/it/10 In-for-ma-tion and Con-trol \OT1/txr/m/n/10 8.3 (June 1965), 338fffdfffdfffd353.
- []
-
-[26] (./ch2.aux)
-Package logreq Info: Writing requests to 'ch2.run.xml'.
-\openout1 = `ch2.run.xml'.
-
- ) 
+Runaway argument?
+\@checkend {minipage}\expandafter \endgroup \if@endpe \@doendpe \fi \csuse \ETC.
+! File ended while scanning use of \@iiiparbox.
+<inserted text> 
+                \par 
+<*> ch2.tex
+           
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Emergency stop.
+<*> ch2.tex
+           
+*** (job aborted, no legal \end found)
+
+ 
 Here is how much of TeX's memory you used:
- 29922 strings out of 492990
- 595934 string characters out of 6135005
- 969589 words of memory out of 5000000
- 33027 multiletter control sequences out of 15000+600000
- 574524 words of font info for 121 fonts, out of 8000000 for 9000
+ 30417 strings out of 492990
+ 610056 string characters out of 6135005
+ 983592 words of memory out of 5000000
+ 33520 multiletter control sequences out of 15000+600000
+ 573194 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,18n,70p,10402b,1192s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ch2.pdf (26 pages, 767192 bytes).
-PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 39 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 62i,18n,71p,10395b,1248s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
