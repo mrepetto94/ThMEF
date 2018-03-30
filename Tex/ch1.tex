@@ -416,8 +416,7 @@ Total                 & \textit{6.00}   & \textit{3.50} & \textit{1.83}         
 \end{tabular}
 \caption{Pairwise comparison matrix}
 \end{table}
-
-Then from the normlization the priority vector was obtained:
+In the pairwise matrix is visible the preference of the DM toward maintaining the functional allocation above all other objectives. Subsequently the step 2 of the AHP method was followed, and then the normalized priority vector was obtained, which is represented in the table below.
 
 \begin{table}[]
 \centering
@@ -431,8 +430,9 @@ Total                 & \textit{1.00} \\ \bottomrule
 \end{tabular}
 \caption{Priority vector}
 \end{table}
+The order of importance was therefore functional allocation, followed by tax minimiztion and operational cost minimization. However, the resulting vector may be inconsistent because of differencte choice accoding to the tuples wheigts. Therefore the step 3 was necessary and a consistency check was made in order to assess the goodness of the priority vector.
+The consistency ratio scored by the following preferences was $0.79\%$ and therefore accepted since the treshold suggested by Saaty\cite{Saaty1980} is $10\%$. Then the priority vector obtained was used to calibrate the weights of the model. After the calibration the model was solved throug the LINGO linear solver algorithm. The objective achievement are reported in the table below.
 
-The consistency ratio scored by the following preferences was $0.79\%$. The following priority vector was used to calibrate the weights of the model. After the calibration the model was solved throug the CPLEX algorithm. The objective achievement are reported in the table below.
 \begin{table}[]
 \centering
 \begin{tabular}{@{}ll@{}}
@@ -445,7 +445,8 @@ Total                 & \textit{67082550} \\ \bottomrule
 \end{tabular}
 \caption{Objective value according to the model}
 \end{table}
-As illustrated by the map
+
+The solution is summarized by the figure \ref{}. As 
 
 \subsection{Final remarks}
 

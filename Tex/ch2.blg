@@ -1,5 +1,5 @@
 [0] Config.pm:354> INFO - This is Biber 2.7 (beta)
 [0] Config.pm:357> INFO - Logfile is 'ch2.blg'
-[52] biber:303> INFO - === gio mar 29, 2018, 10:05:51
+[52] biber:303> INFO - === gio mar 29, 2018, 22:35:54
 [75] Utils.pm:180> ERROR - ch2.bcf is malformed, last biblatex run probably failed. Deleted ch2.bbl
 [75] Biber.pm:114> INFO - ERRORS: 1
