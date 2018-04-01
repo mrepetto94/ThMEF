@@ -361,18 +361,20 @@ Given the objective function, the soft constraints and the hard ones, the model 
 \end{mini!}
 
 \section{Results and Conclusion}
-The model was tested with a set of data with the folowing features:
+The model was tested with a set of data with the following features:
+
 \begin{itemize}
-	\item N. 1 production plant;
-	\item N. 4 links from production plant to distribution center (NtoN);
-	\item N. 4 distribution center;
-	\item N. 36 links from distribution center to retail center, in this case the relation were not made nton since each distribution center was allowed to refurnish only some specific retail center and not the entire number of them;
-	\item N. 27 retailing centers;
-	\item N. 108 links from the retailing center to the dismantiling plants and to the "non collection" plant (NtoN);
-	\item N. 4 dismantling plants, including the non collection plant;
-	\item N. 4 links from the simantling plan to the production plant (NtoN).
+    \item N. 1 production plant;
+    \item N. 4 links from the production plant to the distribution centers (1toN);
+    \item N. 4 distribution center;
+    \item N. 36 links from distribution center to retail center, in this case, the relations were not made NtoN since each distribution center was allowed to fill only some specific retail center and not the entire number of them;
+    \item N. 27 retailing centers;
+    \item N. 108 links from the retailing center to the dismantling plants and to the "noncollection" plant (NtoN);
+    \item N. 4 dismantling plants, including the "noncollection" plant;
+    \item N. 4 links from the dismantling plant to the production plant (Nto1).
 \end{itemize}
-The model was solved using the NEOS servers using their API with the data sent through a script built in R, using the R library rneos; since the problem was linear the solver chosen was the CPLEX. Further analysis were developed using the tools delivered by R and it's packages.
+
+The model was solved using the NEOS servers using their API with the data sent through a script built in R, using the R package rneos; since the problem was linear the solver chosen was the CPLEX. Further analysis were developed using the tools delivered by R and it's packages.
 
 \subsection{Sensitivity analysis}
 In the sensitivity analysis, the value of the weights was preemptively determined, since the model represent two different flow of products: delivered to the costumer and recycled the aim of the sensitivity analysis was to measure all the possible frontiers between DM preferece toward greener goal in comparion with the forward flow driven preferences. Therefore the objective were grouped in two different clusters, the first was the cluster of "push" objective in the sense of the supply push of products to the customer, conversely the second cluster was characterized by the pull by the firm for recycling units instead of simpli disposing the after consumer returned them. In the figure represented below is possible to observe the tradeoff concearning the weight calibration by the decision maker preference.
@@ -380,22 +382,21 @@ For the two clusters was given a set of possible weight alternatives folowing th
 $$
 y=1-x, \quad \forall x \in X, X = (0,1)
 $$
-Where $x$ is the preference for a consumer driven preference as we defined as "push", and $y$ stands for the preference of the DM toward greener choice.
-The aftermath was that a greener choice will always result in an increse of the optimal solution resulting in higher costs whereas a "push" driven preferences will accoplish a better result in economical terms but with the other side of the medal, namely a process which barely comply with the legislation, as set by the fuzzy goal posed on the recycling plants.
+Where $x$ is the preference for a consumer-driven preference as we defined as "push", and $y$ stands for the preference of the DM toward greener choice.
+The aftermath was that a greener choice will always result in an increase of the optimal solution resulting in higher costs whereas a "push" driven preferences will accomplish a better result in economic terms but with the other side of the coin, namely a process which barely comply with the legislation, as set by the fuzzy goal applied on the recycling plants.
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.7\linewidth]{Images/tradeoff.png}
 \caption{Tradeoff between different combination of DM preferences}
 \end{figure}
 
-\subsection{Analytical Hierarchical Process for weight determination}
-Given the knowledge about the tradeoff that DM faces between greener choices with comparison with choices that may satisfies customers in the first place, the option was to choese a robust framework to select the sensitivity of the weights that is consistent with the expectation that the Decision Maker has about the process of Green Supply Chain. The chosen framework was the Analytichal Hierarchy Process \cite{Saaty1980}. The process was three tired:
+Given the knowledge about the tradeoff that DM faces between greener choices with comparison with choices that may satisfy customers in the first place, the option was to choose a robust framework to select a set of weights that are consistent with the expectation that the Decision Maker has about the process of Green Supply Chain. The chosen framework was the Analytical Hierarchy Process \cite{Saaty1980}. The process was three tired:
 \begin{itemize}
-	\item Step 1: given the set of criteria defined in the previus sections the pairwise comparison matrix was computed indicating the importance of each criteria with repsect to the other;
-	\item Step 2: the pairwise matrix elements were normalized and consequently the priority vector was obtained;
-	\item Step 3: the last step consist in the test of the consistency of the value reported and then the validation with respect to a random generated matrix consistency index.
+    \item Step 1: given the set of criteria defined in the previous sections the pairwise comparison matrix was computed indicating the importance of each criterion with respect to the other;
+    \item Step 2: the pairwise matrix elements were normalized and consequently the priority vector was obtained;
+    \item Step 3: the last step consists in the test of the consistency of the value reported and then the validation with respect to a randomly generated matrix consistency index.
 \end{itemize}
-The resulting table reports the pairwise comparison matrix pre normalization, from such matrix is possible to observe how the attention of the DM is particularly interested in fulfilling the demand in the first place and then cutting potential waste.
+The resulting table reports the pairwise comparison matrix pre-normalization, from such matrix, is possible to observe how the attention of the DM is particularly interested in fulfilling the demand in the first place and then cutting potential waste.
 
 \begin{table}[ht]
 \centering
@@ -412,7 +413,8 @@ Total                 & \textit{11.83} & \textit{12.50}                         
 \caption{Pairwise comparison matrix}
 \end{table}
 
-Then from the normlization the priority vector was obtained, as reported from the pairwise matrix the attention of the DM was primarily toward demand fullfillment and waste minimization, however the priority expressed may contain some inconsistency. Therefore, in order to avoid this situation a consistency test was performed with respect to a random pairwise matrix.
+Then from the normalization of the priority vector was obtained, as reported from the pairwise matrix the attention of the DM was primarily toward demand fulfillment and waste minimization, however, the priority expressed may contain some inconsistency. Therefore, in order to avoid this situation, a consistency test was performed with respect to a random pairwise matrix.
+
 \begin{table}[]
 \centering
 \begin{tabular}{@{}ll@{}}
@@ -428,7 +430,8 @@ Total                 & \textit{1.00} \\ \bottomrule
 \caption{Priority vector}
 \end{table}
 
-The consistency ratio scored by the following preferences was $3.70\%$ below the rejection value of $10\%$, therefore the priority vector was accepted. The resulting priority vector was used to calibrate the weights of the model. After the calibration the model was solved throug the CPLEX algorithm. The objective achievement are reported in the table below.
+The consistency ratio scored by the following preferences was $3.70\%$ below the rejection value of $10\%$, therefore the priority vector was accepted. The resulting priority vector was used to calibrate the weights of the model. After the calibration, the model was solved through the CPLEX algorithm. The objectives achievement are reported in the table below.
+
 \begin{table}[]
 \centering
 \begin{tabular}{@{}ll@{}}
@@ -443,7 +446,8 @@ Total                 & \textit{895889000} \\ \bottomrule
 \end{tabular}
 \caption{Objective value according to the model}
 \end{table}
-From the table is noticeble the achievement of the last two objectives which corresponds to the most preferable objectives by the decision maker. Such achievement is better represented by the figure \ref{fig:network} which sees the symbolic NOCO entity scoring zero inflows, meaning that none of the retail store opted for not recycling the WEEE disposed by the consumers. the other first two goals implied non zero value in case of demand fullfillment and finally the recycling goal was achieved only partially because of the lower importance set by the decison maker. 
+
+From the table is noticeable the achievement of the last two objectives which corresponds to the preferable objectives by the decision maker. Such achievement is better represented by the figure \ref{fig:network} which sees the symbolic NOCO entity scoring zero inflows, meaning that none of the retail stores opted for not recycling the WEEE disposed of by the consumers. the other first two goals implied non zero value in case of demand fulfillment and finally, the recycling goal was achieved only partially because of the lower importance set by the decision maker. 
 
 \begin{sidewaysfigur}[ht]
 \centering
@@ -453,7 +457,7 @@ From the table is noticeble the achievement of the last two objectives which cor
 \end{sidewaysfigure}
 
 \subsection{Final remarks}
-Green Supply Chain is a very huge and popular topic nowadays and the past reserches on the field show how this topic is a mixture of different objcetives, from forward to backward flow, and last but not least the regulations imposed by the countries that tries to minimize waste risk imposing qualitative and quantitative restrictions. Because of this complex environment, Multi Criteria Decision tools play and will play a fundamental role in this field and probably a new set of researches with the corroboration of the two will take place in the short term. 
+Green Supply Chain is a very huge and popular topic nowadays and the past researchers on the field show how this topic is a mixture of different objectives, from forward to backward flow, and last but not least the regulations imposed by the countries that try to minimize waste risk imposing qualitative and quantitative restrictions. Because of this complex environment, Multi-Criteria Decision tools play and will play a fundamental role in this field and probably a new set of researches with the corroboration of the two will take place in the short term.
 
 \newpage 
 

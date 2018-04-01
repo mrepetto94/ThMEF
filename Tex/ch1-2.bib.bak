@@ -63,15 +63,6 @@
 	file = {Goal programming model for management accounting and auditing.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\IZQK7DKG\\Goal programming model for management accounting and auditing.pdf:application/pdf}
 }
 
-@article{ijiriy._amodel_1971,
-	title = {Amodel for integrating sampling objectives in auditing},
-	pages = {73--87},
-	journaltitle = {Journal of Accounting Research},
-	author = {{Ijiri,Y.,} and {Kaplan, R. S.}},
-	date = {1971},
-	keywords = {{auditGP}}
-}
-
 @Online{PwC_Tax_2018,
   author     = {PricewaterhouseCoopers},
   editor     = {PricewaterhouseCoopers US},
@@ -155,6 +146,7 @@
   title     = {After Tax Hedging Report},
   year      = {2013},
   date      = {2013-01-01},
+  url       = {http://www.oecd.org/ctp/aggressive/after-tax-hedging.htm},
   urldate   = {2017-07-23},
   file      = {after_tax_hedging_report.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\E552BDK3\\after_tax_hedging_report.pdf:application/pdf},
   publisher = {{OECD} Publishing},
@@ -264,55 +256,6 @@
 	urldate = {2017-07-25},
 	date = {1998-12},
 	langid = {english}
-}
-
-@article{charnes_optimal_1955,
-	title = {Optimal Estimation of Executive Compensation by Linear Programming},
-	volume = {1},
-	issn = {0025-1909, 1526-5501},
-	url = {http://pubsonline.informs.org/doi/abs/10.1287/mnsc.1.2.138},
-	doi = {10.1287/mnsc.1.2.138},
-	pages = {138--151},
-	number = {2},
-	journaltitle = {Management Science},
-	author = {Charnes, A. and Cooper, W. W. and Ferguson, R. O.},
-	urldate = {2017-07-25},
-	date = {1955-01},
-	langid = {english}
-}
-
-
-@article{tayi_integration_1985,
-	title = {Integration of Auditor Preferences and Sampling Objectives: A Polynomial Goal-Programming Perspective},
-	volume = {36},
-	issn = {0160-5682, 1476-9360},
-	url = {http://link.springer.com/10.1057/jors.1985.166},
-	doi = {10.1057/jors.1985.166},
-	shorttitle = {Integration of Auditor Preferences and Sampling Objectives},
-	pages = {951--957},
-	number = {10},
-	journaltitle = {Journal of the Operational Research Society},
-	author = {Tayi, Giri Kumar and Gangolly, Jagdish},
-	urldate = {2017-07-29},
-	date = {1985-10},
-	langid = {english}
-}
-
-
-@article{tan_multipleobjective_2008,
-	title = {Multiple‐objective bidding strategy using goal programming technique},
-	volume = {46},
-	issn = {0025-1747},
-	url = {http://www.emeraldinsight.com/doi/10.1108/00251740810865111},
-	doi = {10.1108/00251740810865111},
-	pages = {656--672},
-	number = {4},
-	journaltitle = {Management Decision},
-	author = {Tan, Yongtao and Shen, Liyin and Lu, Weisheng and Shen, Qiping},
-	urldate = {2017-07-29},
-	date = {2008-05-02},
-	langid = {english},
-	file = {tan2008.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\ED792LDB\\tan2008.pdf:application/pdf}
 }
 
 
@@ -809,6 +752,7 @@
 
 @Article{Kwak2003,
   author    = {Wikil Kwak},
+  title     = {Human Resource Allocation in a CPA Firm: A Fuzzy Set Approach},
   journal   = {Review of Quantitative Finance and Accounting},
   year      = {2003},
   volume    = {20},
@@ -829,28 +773,17 @@
 }
 
 @Article{Tan2008,
-  author    = {Tan, Yongtao and Shen, Liyin and Lu, Weisheng and Shen, Qiping},
-  title     = {Multiple-objective bidding strategy using goal programming technique},
-  journal   = {Management decision},
-  year      = {2008},
-  volume    = {46},
-  number    = {4},
-  pages     = {656--672},
-  publisher = {Emerald Group Publishing Limited},
+  author       = {Tan, Yongtao and Shen, Liyin and Lu, Weisheng and Shen, Qiping},
+  title        = {Multiple-objective bidding strategy using goal programming technique},
+  journaltitle = {Management decision},
+  date         = {2008},
+  volume       = {46},
+  number       = {4},
+  pages        = {656--672},
+  publisher    = {Emerald Group Publishing Limited},
 }
 
 @Article{Iranmanesh2008,
-  author    = {Iranmanesh, Hossein and Thomson, Vince},
-  title     = {Competitive advantage by adjusting design characteristics to satisfy cost targets},
-  journal   = {International Journal of Production Economics},
-  year      = {2008},
-  volume    = {115},
-  number    = {1},
-  pages     = {64--71},
-  publisher = {Elsevier},
-}
-
-@Article{Iranmanesh2008a,
   author    = {Iranmanesh, Hossein and Thomson, Vince},
   title     = {Competitive advantage by adjusting design characteristics to satisfy cost targets},
   journal   = {International Journal of Production Economics},
@@ -1042,6 +975,8 @@
 @Article{TPguide2017,
   author    = {OECD},
   title     = {OECD Transfer Pricing Guidelines for Multinational Enterprises and Tax Administrations 2017},
+  journal   = {OECD Publishing},
+  year      = {2017},
   doi       = {10.1787/tpg-2017-en},
   publisher = {OECD Publishing},
 }

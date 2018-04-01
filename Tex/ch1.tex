@@ -370,7 +370,7 @@ Where the equations(4b)(4c)(4d) belong to the first category, where instead (4e)
 \pagebreak
 
 \section{Mathematical simulation: a case study}
-The simulation of the above-mentioned model was made using LINGO17 and specifically its linear solver. Even if the mathematical package was able to handle the total amount of data given by the model the simulation was done using a portion of this data, avoiding countries in which the company doesn't operate at all. Other limitations were implemented in order to avoid any possible non-linearity, resulting in an increase of the computational time to obtain a solution, this was possible by avoiding inserting the equation (4d), when instead the correlated constraints, namely (4h) and (4i) were linearized. Other limitations to the model are exposed below:
+The simulation of the above-mentioned model was made using LINGO17 and specifically its linear solver. Even if the mathematical package was able to handle the total amount of data given by the model the simulation was done using a portion of this data, avoiding countries in which the company doesn't operate at all. Other limitations were implemented in order to avoid any possible non-linearity, resulting in an increase of the computational time to obtain a solution, this was possible by avoiding inserting the equation (4d), when instead the correlated constraints, namely (4h) and (4i) were linearized. Other limitations of the model are exposed below:
 \begin{itemize}
     \item The PLI chosen to set the functional range were only 2, ROS and FCMU;
     \item The cost of asset and equity was set to 0, meaning that the only cost driver was employees;
@@ -378,15 +378,15 @@ The simulation of the above-mentioned model was made using LINGO17 and specifica
     \item The number of employees was assumed to be continuous, meaning that part-time work and non full year worker can be used by the firm.
 \end{itemize}
 
-Concerning the data, the financials were taken from a company operating mostly in Europe and western countries in general, plus this company tend to produce and store most of its products in Asian countries and tend to have less inventory in its western distribution sites. The company under scope was under performing at the time of this simulation its P/L statement registered a loss of roughly  6.000.000 USD. The revenues registered for the year under the scope were about 88.900.344 USD and the employees hired were 2.722.
+Concerning the data, the financials were taken from a company operating mostly in Europe and western countries in general, plus this company tend to produce and store most of its products in Asian countries and tend to have less inventory in its western distribution sites. The company under scope was underperforming at the time of this simulation its P/L statement registered a loss of roughly  6.000.000 USD. The revenues registered for the year under the scope were about 88.900.344 USD and the employees hired were 2.722.
 
 \subsection{Sensitivity analysis}
-In the sensitivity analysis, the value of the weights was preemptively determined; since the model for the case study has only theree goals , namely the minimization of the operation cost, the minimization of the tax liability and conservation of the functional alloaction. The aim of the sensitivity analysis was to measure all the possible frontiers between DM preferece toward theese choices. Therefore the objective were subjected to different weights combination, however the combinations didn't inculude any zero weight, this was done in order to avoid any Pareto solution that would result infeasible in reality. For the three objetives was given a set of possible weight alternatives folowing the equation reported below:
+In the sensitivity analysis, the value of the weights was preemptively determined; since the model for the case study has only three goals, namely the minimization of the operation cost, the minimization of the tax liability and conservation of the functional allocation. The aim of the sensitivity analysis was to measure all the possible frontiers between DM preference toward these choices. Therefore the objectives were subjected to different weights combination, however, the combinations didn't include any zero weight, this was done in order to avoid any Pareto solution that would result infeasible in reality. For the three objectives was given a set of possible weight alternatives following the equation reported below:
 $$
 1=x + y + z, \quad \forall x \in X, X = (0,1), \quad \forall y \in Y, Y = (0,1, \quad \forall z \in Z, Z = (0,1),
 $$
 Where $x$ is the preference for the minimization of the operational costs($w1$), whereas $y$ stands for the preference of the DM toward the minimization of the tax liability($w2$) and $z$ represents the preference for maintaining the functional characterization of the company($w3$).
-In order to give a better perspective of these different set of preferences a ternary plot was created reprenting some of the possible choice given admitted by the equation defined previously.
+In order to give a better perspective of these different set of preferences, a ternary plot was created representing some of the possible choice given admitted by the equation defined previously.
 
 \begin{figure}[h]
 \centering
@@ -394,15 +394,17 @@ In order to give a better perspective of these different set of preferences a te
 \caption{Weight sensitivity analysis}
 \end{figure}
 
-As ptesented by the figure pusuing largely the minimization of the operational cost could not be considered a great objective and the same as to be said by the sole objective of tax minimization, a much solid set of weights should be found taking into account this different outcomes.
+As presented by the figure, pursuing largely the minimization of the operational cost could not be considered a great objective and the same as to be said by the sole objective of tax minimization, a much solid set of weights should be found taking into account these different outcomes.
 
 \subsection{Analytical Hierarchical Process for weight determination}
-Given the knowledge about the tradeoffs that DM faces, the option was to choese a robust framework to select the sensitivity of the weights that is consistent with the expectation that the Decision Maker has about the process of Green Supply Chain. The chosen framework was the Analytichal Hierarchy Process \cite{Saaty1980}. The process was three tired:
+Given the knowledge about the tradeoffs that DM faces, the option was to choose a robust framework to select the sensitivity of the weights that were consistent with the expectation that the Decision Maker has about the process of Green Supply Chain. The chosen framework was the Analytical Hierarchy Process \cite{Saaty1980}. The process was three tired:
+
 \begin{itemize}
-	\item Step 1: given the set of criteria defined in the previus sections the pairwise comparison matrix was computed indicating the importance of each criteria with repsect to the other;
-	\item Step 2: the pairwise matrix elements were normalized and consequently the priority vector was obtained;
-	\item Step 3: the last step consist in the test of the consistency of the value reported and then the validation with respect to a random generated matrix consistency index.
+    \item Step 1: given the set of criteria defined in the previous sections the pairwise comparison matrix was computed indicating the importance of each criterion with respect to the other;
+    \item Step 2: the pairwise matrix elements were normalized and consequently the priority vector was obtained;
+    \item Step 3: the last step consists in the test of the consistency of the value reported and then the validation with respect to a randomly generated matrix consistency index.
 \end{itemize}
+
 The resulting table reports the pairwise comparison matrix pre normalization:
 
 \begin{table}[ht]
@@ -417,6 +419,7 @@ Total                 & \textit{6.00}   & \textit{3.50} & \textit{1.83}         
 \end{tabular}
 \caption{Pairwise comparison matrix}
 \end{table}
+
 In the pairwise matrix is visible the preference of the DM toward maintaining the functional allocation above all other objectives. Subsequently the step 2 of the AHP method was followed, and then the normalized priority vector was obtained, which is represented in the table below.
 
 \begin{table}[]
@@ -431,8 +434,9 @@ Total                 & \textit{1.00} \\ \bottomrule
 \end{tabular}
 \caption{Priority vector}
 \end{table}
-The order of importance was therefore functional allocation, followed by tax minimiztion and operational cost minimization. However, the resulting vector may be inconsistent because of differencte choice accoding to the tuples wheigts. Therefore the step 3 was necessary and a consistency check was made in order to assess the goodness of the priority vector.
-The consistency ratio scored by the following preferences was $0.79\%$ and therefore accepted since the treshold suggested by Saaty\cite{Saaty1980} is $10\%$. Then the priority vector obtained was used to calibrate the weights of the model. After the calibration the model was solved throug the LINGO linear solver algorithm. The objective achievement are reported in the table below.
+
+The order of importance was therefore functional allocation, followed by tax minimization and operational cost minimization. However, the resulting vector may be inconsistent because of different choices according to the tuples. Therefore the step 3 was necessary and a consistency check was made in order to assess the goodness of the priority vector.
+The consistency ratio scored by the following preferences was $0.79\%$ and therefore accepted since the threshold suggested by Saaty\cite{Saaty1980} is $10\%$. Then the priority vector obtained was used to calibrate the weights of the model. After the calibration, the model was solved through the LINGO linear solver algorithm. The objectives achievement are reported in the table below.
 
 \begin{table}[]
 \centering
@@ -447,7 +451,7 @@ Total                 & \textit{67070220} \\ \bottomrule
 \caption{Objective value according to the model}
 \end{table}
 
-The solution is summarized by the figure \ref{fig:allocationmap}. As 
+The solution is summarized in the figure \ref{fig:allocationmap}. The optimal solution was to create two different distribution entities namely one in India and one in Malta and keep the manufacturing in a country with a greater PLI (such as Denmark) because of the great margin between revenues and costs. The greater amount of this margin is possible to see in the principal function (located in Portugal) where this margin is increased because of the importance that such functions perform in the value chain. The solution proposed resulted in an average tax rate below the $20\%$.
 
 \begin{sidewaysfigure}
 \centering
@@ -457,6 +461,7 @@ The solution is summarized by the figure \ref{fig:allocationmap}. As
 \end{sidewaysfigure}
 
 \subsection{Final remarks}
+The model proposed aims at seeking the optimal allocation of profits between the multiple multinational companies in order to be compliant with the transfer pricing regulation and with respect to the business carried by independent companies carrying similar functions. The lack of literature in the tax planning filed may be seen as a promising niche that researchers should pursue in the future. The model proposed apart from the simplistic assumption given in the case study could have been enhanced with other features belonging to the Goal Programming approach such as fuzzy sets to model the PLI range or other features. 
 
 \newpage
 \printbibliography

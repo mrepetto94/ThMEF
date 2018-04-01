@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.22)  1 APR 2018 10:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.22)  1 APR 2018 23:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1108,7 +1108,56 @@ Package biblatex Info: ... file 'ch1.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
+(biblatex)                colapinto_multi-criteria_2017
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                aouni_goal_2017
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                greco_multiple_2016
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                charnes_optimal_1955
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                ijiriy._amodel_1971
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
 (biblatex)                tamiz_goal_1997
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                berman_financial_2013
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                feller_three_2017
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -1153,18 +1202,31 @@ File: omstxr.fd 2000/12/15 v3.1
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 74.
  [3]
+Overfull \hbox (32.1401pt too wide) in paragraph at lines 99--100
+\OT1/txr/m/n/10 to the 50s, firstly in-tro-duced by Abra-ham Charnes and William Cooper[[]]
+ []
+
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ú in font txr!
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ù in font txr!
- [4] [5]
+[4] [5]
 Overfull \hbox (0.33015pt too wide) in paragraph at lines 146--154
-\OT1/txr/m/n/10 there is a great di-ver-sity be-tween tech-niques that ranges from fuzzy sets[24] to weighted
+\OT1/txr/m/n/10 there is a great di-ver-sity be-tween tech-niques that ranges from fuzzy sets[17] to weighted
  []
 
 [6]
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
+[]|\OT1/txr/m/n/10 Ijiri and
+ []
+
+
+Overfull \hbox (6.22002pt too wide) in paragraph at lines 187--187
+\OT1/txr/m/n/10 Kaplan[[]]| 
+ []
+
 Missing character: There is no √ in font txr!
 Missing character: There is no º in font txr!
 
@@ -1247,43 +1309,43 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [19] [20 <./Images/ternary.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 422.
+               Default added (so using `tbp') on input line 425.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 437.
+               Default added (so using `tbp') on input line 441.
 
 <Images/AllocationMap.png, id=88, 957.0957pt x 569.4876pt>
 File: Images/AllocationMap.png Graphic file (type png)
 <use Images/AllocationMap.png>
-Package pdftex.def Info: Images/AllocationMap.png  used on input line 454. on input line 454.
-Package pdftex.def Info: Requested size: 550.0pt x 327.26166pt on input line 454.
-[21] [22 <./Images/AllocationMap.png>]
-LaTeX Font Info:    Try loading font information for OT1+txtt on input line 462.
+Package pdftex.def Info: Images/AllocationMap.png  used on input line 458. on input line 458.
+Package pdftex.def Info: Requested size: 550.0pt x 327.26166pt on input line 458.
+[21] [22 <./Images/AllocationMap.png>] [23]
+LaTeX Font Info:    Try loading font information for OT1+txtt on input line 467.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txtt.fd
 File: ot1txtt.fd 2000/12/15 v3.1
 )
-Overfull \hbox (5.70847pt too wide) in paragraph at lines 463--463
+Overfull \hbox (5.70847pt too wide) in paragraph at lines 468--468
 []\OT1/txr/m/n/10 H. Justin David-son and Robert M. True-blood. ``Ac-count-ing for Decision-Making''.
  []
 
 
-Overfull \hbox (3.07915pt too wide) in paragraph at lines 463--463
+Overfull \hbox (3.07915pt too wide) in paragraph at lines 468--468
 \OT1/txr/m/n/10 In: \OT1/txr/m/it/10 The Ac-count-ing Re-view \OT1/txr/m/n/10 36.4 (1961), pp. 577{582. \OT1/txr/m/sc/10 issn\OT1/txr/m/n/10 : 00014826. \OT1/txr/m/sc/10 url\OT1/txr/m/n/10 : $\OT1/txtt/m/n/10 http :
  []
 
-./ch1.tex:463: Missing $ inserted.
+./ch1.tex:468: Missing $ inserted.
 <inserted text> 
                 $
-l.463 \end
+l.468 \end
           {document}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./ch1.tex:463: Extra }, or forgotten $.
+./ch1.tex:468: Extra }, or forgotten $.
 <argument> ...s: Development and Evaluation{\ast }
                                                   
-l.463 \end
+l.468 \end
           {document}
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1291,10 +1353,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./ch1.tex:463: Missing $ inserted.
+./ch1.tex:468: Missing $ inserted.
 <inserted text> 
                 $
-l.463 \end
+l.468 \end
           {document}
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1302,10 +1364,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./ch1.tex:463: Missing } inserted.
+./ch1.tex:468: Missing } inserted.
 <inserted text> 
                 }
-l.463 \end
+l.468 \end
           {document}
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1313,36 +1375,40 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[23]
-Overfull \hbox (58.68025pt too wide) in paragraph at lines 463--463
+
+Overfull \hbox (6.21968pt too wide) in paragraph at lines 468--468
+\OT1/txr/m/n/10 proach''. In: \OT1/txr/m/it/10 Re-view of Quan-ti-ta-tive Fi-nance and Ac-count-ing \OT1/txr/m/n/10 20.3 (2003), pp. 277{
+ []
+
+
+Overfull \hbox (58.68025pt too wide) in paragraph at lines 468--468
 []\OT1/txr/m/n/10 OECD. \OT1/txr/m/it/10 Model Tax Con-ven-tion on In-come and on Cap-i-tal 2014\OT1/txr/m/n/10 . DOI: 10.1787/9789264239081-
  []
 
 
-Overfull \hbox (0.57024pt too wide) in paragraph at lines 463--463
+Overfull \hbox (0.57024pt too wide) in paragraph at lines 468--468
 []\OT1/txr/m/n/10 C. Romero. \OT1/txr/m/it/10 Hand-book of Crit-i-cal Is-sues in Goal Pro-gram-ming\OT1/txr/m/n/10 . Perg-a-mon, 2014.
  []
 
 
-Overfull \hbox (6.54893pt too wide) in paragraph at lines 463--463
+Overfull \hbox (6.54893pt too wide) in paragraph at lines 468--468
 \OT1/txr/m/sc/10 isbn\OT1/txr/m/n/10 : 9781483295114. \OT1/txr/m/sc/10 url\OT1/txr/m/n/10 : $\OT1/txtt/m/n/10 https : / / www . amazon . com / Handbook -[] Critical -[]
  []
 
-
-Overfull \hbox (1.74026pt too wide) in paragraph at lines 463--463
+[24]
+Overfull \hbox (1.74026pt too wide) in paragraph at lines 468--468
 []\OT1/txr/m/n/10 TL Saaty. ``The An-a-lytic Hi-er-ar-chy Pro-cess,'' in: \OT1/txr/m/it/10 McGraw-Hill, New York \OT1/txr/m/n/10 (1980). 
  []
 
 
-Overfull \hbox (14.70494pt too wide) in paragraph at lines 463--463
+Overfull \hbox (14.70494pt too wide) in paragraph at lines 468--468
 []\OT1/txr/m/n/10 Marc J. Schnieder-jans. ``The Life Cy-cle of Goal Pro-gram-ming Re-search as Recorded
  []
 
-[24]
-./ch1.tex:463: Undefined control sequence.
+./ch1.tex:468: Undefined control sequence.
 <argument> ...bility in portfolio selection: A \x 
                                                   {fffd}\x {fffd}\x {fffd}go...
-l.463 \end
+l.468 \end
           {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1350,10 +1416,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch1.tex:463: Undefined control sequence.
+./ch1.tex:468: Undefined control sequence.
 <argument> ... portfolio selection: A \x {fffd}\x 
                                                   {fffd}\x {fffd}goal games\...
-l.463 \end
+l.468 \end
           {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1361,10 +1427,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch1.tex:463: Undefined control sequence.
+./ch1.tex:468: Undefined control sequence.
 <argument> ...o selection: A \x {fffd}\x {fffd}\x 
                                                   {fffd}goal games\x {fffd}\...
-l.463 \end
+l.468 \end
           {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1372,10 +1438,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch1.tex:463: Undefined control sequence.
+./ch1.tex:468: Undefined control sequence.
 <argument> ...fffd}\x {fffd}\x {fffd}goal games\x 
                                                   {fffd}\x {fffd}\x {fffd} a...
-l.463 \end
+l.468 \end
           {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1383,10 +1449,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch1.tex:463: Undefined control sequence.
+./ch1.tex:468: Undefined control sequence.
 <argument> ...fffd}\x {fffd}goal games\x {fffd}\x 
                                                   {fffd}\x {fffd} against na...
-l.463 \end
+l.468 \end
           {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1394,10 +1460,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./ch1.tex:463: Undefined control sequence.
+./ch1.tex:468: Undefined control sequence.
 <argument> ...fffd}goal games\x {fffd}\x {fffd}\x 
                                                   {fffd} against nature appr...
-l.463 \end
+l.468 \end
           {document}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1411,15 +1477,15 @@ Package logreq Info: Writing requests to 'ch1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30042 strings out of 492990
- 600949 string characters out of 6135005
- 974520 words of memory out of 5000000
- 33129 multiletter control sequences out of 15000+600000
+ 30030 strings out of 492990
+ 600480 string characters out of 6135005
+ 974494 words of memory out of 5000000
+ 33117 multiletter control sequences out of 15000+600000
  577896 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,16n,84p,10395b,1355s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ch1.pdf (25 pages, 1396259 bytes).
+Output written on ch1.pdf (25 pages, 1395126 bytes).
 PDF statistics:
  146 PDF objects out of 1000 (max. 8388607)
  95 compressed objects within 1 object stream
