@@ -416,6 +416,9 @@ INPUT ./Images/plidist.png
 INPUT Images/ternary.png
 INPUT ./Images/ternary.png
 INPUT ./Images/ternary.png
+INPUT Images/AllocationMap.png
+INPUT ./Images/AllocationMap.png
+INPUT ./Images/AllocationMap.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txi.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/txsc.tfm

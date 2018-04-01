@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber ch1"] 1522262717 "ch1.bcf" "ch1.bbl" "ch1" 1522310728
+["biber ch1"] 1522568317 "ch1.bcf" "ch1.bbl" "ch1" 1522570671
   "ch1-2.bib" 1522046266 38978 be4f4dff2d71183d17be9960e46b95f0 ""
-  "ch1.bcf" 1522309893 97373 118539aa0fc97f3cf1cbbef856eeddc0 ""
+  "ch1.bcf" 1522568988 97425 012d5b2958334f27aede4b277fa36a8e ""
   (generated)
-  "ch1.blg"
   "ch1.bbl"
-["pdflatex"] 1522310728 "ch1.tex" "ch1.pdf" "ch1" 1522310728
+  "ch1.blg"
+["pdflatex"] 1522570671 "ch1.tex" "ch1.pdf" "ch1" 1522570671
   "/etc/texmf/web2c/texmf.cnf" 1521727168 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -203,19 +203,20 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503024366 32036 8f10cb8f6ef259fb5791f09c065d3d13 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1521727336 2377213 8bc19c9e6d8db8e1c35694d1be199981 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1521727376 4125846 befe43818c8f4b633fc5d3ee03ba211c ""
+  "Images/AllocationMap.png" 1522568030 739661 ad70cc65bd1ba3b2fc2611bca6c6c4e8 ""
   "Images/CTworld.png" 1521695777 305651 6d967a9afbdaff64f881d148439b393f ""
   "Images/Cluster-GNI-CT.png" 1521695777 60179 6d8aa16074d029f4c5eb821d62386e11 ""
   "Images/GNIworld.png" 1521695777 334847 c0250ee7eb18dcf079dc7c33dd86a997 ""
   "Images/plidist.png" 1521695777 123840 285c4a65d4e83df130d62ea4a4221204 ""
   "Images/ternary.png" 1522007684 83265 e6013cdb6d6514c623c95a263aa2760d ""
-  "ch1.aux" 1522309893 9151 62ca22e9c5f429a916daf8606190491f ""
-  "ch1.bbl" 1522262719 42814 6a00f2b9562e194a2939b94f68094775 "biber ch1"
-  "ch1.run.xml" 1522309893 2293 e38d23477ba90f8c6a1ca26365980fd0 ""
-  "ch1.tex" 1522310728 43767 3d5cab643ac7633b0527c61d2b010d90 ""
+  "ch1.aux" 1522568988 9553 20e25620b95b114b3da715563d38d192 ""
+  "ch1.bbl" 1522568324 42814 6a00f2b9562e194a2939b94f68094775 "biber ch1"
+  "ch1.run.xml" 1522568988 2293 e38d23477ba90f8c6a1ca26365980fd0 ""
+  "ch1.tex" 1522570670 44704 c8682308a67e3585a7641380276d5fae ""
   "style.sty" 1522262159 1526 e4b9cac008e5d48370c20b07210e9758 ""
   (generated)
   "ch1.log"
-  "ch1.bcf"
-  "ch1.run.xml"
   "ch1.aux"
   "ch1.pdf"
+  "ch1.bcf"
+  "ch1.run.xml"
