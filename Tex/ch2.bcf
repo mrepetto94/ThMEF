@@ -2145,37 +2145,69 @@
   <bcf:section number="0">
     <bcf:citekey order="1">srivastava_green_2007</bcf:citekey>
     <bcf:citekey order="2">Diabat2011</bcf:citekey>
-    <bcf:citekey order="3">Strobel18</bcf:citekey>
+    <bcf:citekey order="3">Strobel2018</bcf:citekey>
     <bcf:citekey order="4">Shan2018</bcf:citekey>
     <bcf:citekey order="5">Gilbert2001</bcf:citekey>
     <bcf:citekey order="6">Zsidisin2001</bcf:citekey>
-    <bcf:citekey order="7">srivastava_green_2007</bcf:citekey>
+    <bcf:citekey order="7">Srivastava2007</bcf:citekey>
     <bcf:citekey order="8">Zhu2008</bcf:citekey>
-    <bcf:citekey order="9">urvashi_green_2013</bcf:citekey>
-    <bcf:citekey order="10">ceschin_evolution_2016</bcf:citekey>
+    <bcf:citekey order="9">Urvashi2013</bcf:citekey>
+    <bcf:citekey order="10">Ceschin2016</bcf:citekey>
     <bcf:citekey order="11">YolLee2007</bcf:citekey>
-    <bcf:citekey order="12">ongondo_how_2011</bcf:citekey>
-    <bcf:citekey order="13">mula_mathematical_2010</bcf:citekey>
-    <bcf:citekey order="14">jung_order_2008</bcf:citekey>
-    <bcf:citekey order="15">Oh_Karimi_2006</bcf:citekey>
-    <bcf:citekey order="16">Kanyalkar_2005</bcf:citekey>
-    <bcf:citekey order="17">romo_optimizing_2009</bcf:citekey>
-    <bcf:citekey order="18">Rizk_Martel2008</bcf:citekey>
-    <bcf:citekey order="19">benjamin_analysis_1989</bcf:citekey>
-    <bcf:citekey order="20">torabi_interactive_2008</bcf:citekey>
-    <bcf:citekey order="21">Chern_Hsieh_2007</bcf:citekey>
-    <bcf:citekey order="22">Liang_Cheng_2009</bcf:citekey>
-    <bcf:citekey order="23">Gupta_Maranas_2003</bcf:citekey>
-    <bcf:citekey order="24">azimian_supply_2017</bcf:citekey>
-    <bcf:citekey order="25">charnes_optimal_1955</bcf:citekey>
+    <bcf:citekey order="12">Ongondo2011</bcf:citekey>
+    <bcf:citekey order="13">Mula2010</bcf:citekey>
+    <bcf:citekey order="14">Jung2008</bcf:citekey>
+    <bcf:citekey order="15">Oh2006</bcf:citekey>
+    <bcf:citekey order="16">Kanyalkar2005</bcf:citekey>
+    <bcf:citekey order="17">Romo2009</bcf:citekey>
+    <bcf:citekey order="18">Rizk2008</bcf:citekey>
+    <bcf:citekey order="19">Benjamin1989</bcf:citekey>
+    <bcf:citekey order="20">Torabi2008</bcf:citekey>
+    <bcf:citekey order="21">Chern2007</bcf:citekey>
+    <bcf:citekey order="22">Liang2009</bcf:citekey>
+    <bcf:citekey order="23">Gupta2003</bcf:citekey>
+    <bcf:citekey order="24">Azimian2017</bcf:citekey>
+    <bcf:citekey order="25">Charnes1955</bcf:citekey>
     <bcf:citekey order="26">Contini1968</bcf:citekey>
-    <bcf:citekey order="27">azimian_supply_2017</bcf:citekey>
-    <bcf:citekey order="28">Zadeh_1965</bcf:citekey>
+    <bcf:citekey order="27">Azimian2017</bcf:citekey>
+    <bcf:citekey order="28">Zadeh1965</bcf:citekey>
     <bcf:citekey order="29">Rehman2017</bcf:citekey>
     <bcf:citekey order="30">Diaz-Madronero2018</bcf:citekey>
     <bcf:citekey order="31">Nomani2016</bcf:citekey>
-    <bcf:citekey order="32">Santoso_Ahmed_Goetschalckx_Shapiro_2005</bcf:citekey>
-    <bcf:citekey order="33">CompetitiveAdvantage</bcf:citekey>
-    <bcf:citekey order="34">YAGHOOBI2008</bcf:citekey>
+    <bcf:citekey order="32">Santoso2005</bcf:citekey>
+    <bcf:citekey order="33">Porter1998</bcf:citekey>
+    <bcf:citekey order="34">Yaghobi2008</bcf:citekey>
     <bcf:citekey order="35">Zadeh_1965</bcf:citekey>
     <bcf:citekey order="36">Saaty1980</bcf:citekey>
+  </bcf:section>
+  <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
+  <bcf:sorting>
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem order="2">0</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sorting>
+  </bcf:sortlist>
+</bcf:controlfile>

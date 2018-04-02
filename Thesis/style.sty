@@ -1,0 +1,53 @@
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amstext}
+\usepackage{array}
+\usepackage[long]{optidef}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{txfonts}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[long]{optidef}
+\usepackage{booktabs}
+\usepackage{rotating}
+\usepackage{cases}
+\usepackage[backend=bibier,
+		url=false
+		doi=false
+		isbn=false
+		issn=false]{biblatex}
+
+  \addbibresource{bibliografia}
+
+  \usetikzlibrary{calc,matrix,decorations.markings,decorations.pathreplacing}
+  \usetikzlibrary{arrows,positioning}
+
+  \definecolor{colone}{gray}{0.7}
+  \definecolor{coltwo}{gray}{0.6}
+  \definecolor{colthree}{gray}{0.5}
+  \definecolor{colfour}{gray}{0.9}
+  \definecolor{colfive}{gray}{0.9}
+  \definecolor{colsix}{gray}{0.9}
+  \definecolor{colseven}{gray}{0.9}
+
+  \tikzset{
+  table/.style={
+  matrix of nodes,
+  row sep=-\pgflinewidth,
+  column sep=-\pgflinewidth,
+  nodes={rectangle,text width=2cm,align=center},
+  text depth=1.25ex,
+  text height=2.5ex,
+  nodes in empty cells}
+  }
+
+  \tikzstyle{startstop} = [rectangle, minimum width=2cm, minimum height=1.5cm,text centered, draw=black]
+  \tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1.5cm, text centered, draw=black]
+  \tikzstyle{blank} = [circle, minimum width=0.1cm, minimum height=0.1cm, text centered, draw=white]
+  \tikzstyle{arrow} = [thick,->,>=stealth]
+
+\def\firstcircle{(-2,6) circle (1.5cm)}
+\def\secondcircle{(2,6) circle (1.5cm)}
+\def\thirdcircle{(0,3.20) circle (1.5cm)}
+\def\fourthcircle{(0,4.5) circle (1.5cm)}
+

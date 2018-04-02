@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.22)  1 APR 2018 23:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.22)  2 APR 2018 22:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1104,64 +1104,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ch1.bbl' found.
- (./ch1.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                colapinto_multi-criteria_2017
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                aouni_goal_2017
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                greco_multiple_2016
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                charnes_optimal_1955
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ijiriy._amodel_1971
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                tamiz_goal_1997
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                berman_financial_2013
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                feller_three_2017
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (./ch1.bbl)
 Package biblatex Info: Reference section=0 on input line 5.
 Package biblatex Info: Reference segment=0 on input line 5.
 LaTeX Font Info:    Try loading font information for U+txmia on input line 13.
@@ -1202,31 +1145,18 @@ File: omstxr.fd 2000/12/15 v3.1
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 74.
  [3]
-Overfull \hbox (32.1401pt too wide) in paragraph at lines 99--100
-\OT1/txr/m/n/10 to the 50s, firstly in-tro-duced by Abra-ham Charnes and William Cooper[[]]
- []
-
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ú in font txr!
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ù in font txr!
-[4] [5]
+ [4] [5]
 Overfull \hbox (0.33015pt too wide) in paragraph at lines 146--154
-\OT1/txr/m/n/10 there is a great di-ver-sity be-tween tech-niques that ranges from fuzzy sets[17] to weighted
+\OT1/txr/m/n/10 there is a great di-ver-sity be-tween tech-niques that ranges from fuzzy sets[25] to weighted
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
-[]|\OT1/txr/m/n/10 Ijiri and
- []
-
-
-Overfull \hbox (6.22002pt too wide) in paragraph at lines 187--187
-\OT1/txr/m/n/10 Kaplan[[]]| 
- []
-
 Missing character: There is no √ in font txr!
 Missing character: There is no º in font txr!
 
@@ -1286,12 +1216,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 267--271
 
  []
 
-<Images/plidist.png, id=58, 1966.34625pt x 1105.12875pt>
-File: Images/plidist.png Graphic file (type png)
-<use Images/plidist.png>
-Package pdftex.def Info: Images/plidist.png  used on input line 278. on input line 278.
+<Images/plidist1.png, id=58, 1966.34625pt x 1105.12875pt>
+File: Images/plidist1.png Graphic file (type png)
+<use Images/plidist1.png>
+Package pdftex.def Info: Images/plidist1.png  used on input line 278. on input line 278.
 Package pdftex.def Info: Requested size: 550.0pt x 309.11354pt on input line 278.
-[13] [14 <./Images/plidist.png>] [15] [16] [17]
+[13] [14 <./Images/plidist1.png>] [15] [16] [17]
 Overfull \hbox (15.16014pt too wide) in paragraph at lines 368--369
 []\OT1/txr/m/n/10 Where the equa-tions(4b)(4c)(4d) be-long to the first cat-e-gory, where in-stead (4e)(4f)(4g)
  []
@@ -1375,7 +1305,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-
+[24]
 Overfull \hbox (6.21968pt too wide) in paragraph at lines 468--468
 \OT1/txr/m/n/10 proach''. In: \OT1/txr/m/it/10 Re-view of Quan-ti-ta-tive Fi-nance and Ac-count-ing \OT1/txr/m/n/10 20.3 (2003), pp. 277{
  []
@@ -1395,7 +1325,7 @@ Overfull \hbox (6.54893pt too wide) in paragraph at lines 468--468
 \OT1/txr/m/sc/10 isbn\OT1/txr/m/n/10 : 9781483295114. \OT1/txr/m/sc/10 url\OT1/txr/m/n/10 : $\OT1/txtt/m/n/10 https : / / www . amazon . com / Handbook -[] Critical -[]
  []
 
-[24]
+
 Overfull \hbox (1.74026pt too wide) in paragraph at lines 468--468
 []\OT1/txr/m/n/10 TL Saaty. ``The An-a-lytic Hi-er-ar-chy Pro-cess,'' in: \OT1/txr/m/it/10 McGraw-Hill, New York \OT1/txr/m/n/10 (1980). 
  []
@@ -1405,6 +1335,7 @@ Overfull \hbox (14.70494pt too wide) in paragraph at lines 468--468
 []\OT1/txr/m/n/10 Marc J. Schnieder-jans. ``The Life Cy-cle of Goal Pro-gram-ming Re-search as Recorded
  []
 
+[25]
 ./ch1.tex:468: Undefined control sequence.
 <argument> ...bility in portfolio selection: A \x 
                                                   {fffd}\x {fffd}\x {fffd}go...
@@ -1471,24 +1402,24 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[25] (./ch1.aux)
+[26] (./ch1.aux)
 Package logreq Info: Writing requests to 'ch1.run.xml'.
 \openout1 = `ch1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30030 strings out of 492990
- 600480 string characters out of 6135005
- 974494 words of memory out of 5000000
- 33117 multiletter control sequences out of 15000+600000
+ 29998 strings out of 492990
+ 599934 string characters out of 6135005
+ 973198 words of memory out of 5000000
+ 33085 multiletter control sequences out of 15000+600000
  577896 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,84p,10395b,1355s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,16n,71p,10395b,1355s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ch1.pdf (25 pages, 1395126 bytes).
+Output written on ch1.pdf (26 pages, 1367446 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 149 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

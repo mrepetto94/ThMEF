@@ -1,32 +1,24 @@
 [0] Config.pm:354> INFO - This is Biber 2.7 (beta)
-[0] Config.pm:357> INFO - Logfile is 'ch1.blg'
-[197] biber:303> INFO - === dom apr  1, 2018, 23:18:00
-[364] Biber.pm:360> INFO - Reading 'ch1.bcf'
-[523] Biber.pm:836> INFO - Found 29 citekeys in bib section 0
-[550] Biber.pm:3671> INFO - Processing section 0
-[645] Biber.pm:3841> INFO - Looking for bibtex format file 'ch1-2.bib' for section 0
-[653] bibtex.pm:1424> INFO - Decoding LaTeX character macros into UTF-8
-[694] bibtex.pm:1281> INFO - Found BibTeX data source 'ch1-2.bib'
-[815] Utils.pm:164> WARN - month field 'apr' in entry 'Cui2017' is not an integer - this will probably not sort properly.
-[823] Utils.pm:164> WARN - month field 'aug' in entry 'Schniederjans1995' is not an integer - this will probably not sort properly.
-[827] Utils.pm:164> WARN - month field 'mar' in entry 'Zarandi2011' is not an integer - this will probably not sort properly.
-[846] Utils.pm:164> WARN - month field 'oct' in entry 'Tayi1985' is not an integer - this will probably not sort properly.
-[854] Utils.pm:164> WARN - month field 'jan' in entry 'Welling1977' is not an integer - this will probably not sort properly.
-[857] Utils.pm:164> WARN - month field 'jun' in entry 'Kruger2006' is not an integer - this will probably not sort properly.
-[862] Utils.pm:164> WARN - month field 'jan' in entry 'Gardner1990' is not an integer - this will probably not sort properly.
-[890] Utils.pm:164> WARN - I didn't find a database entry for 'feller_three_2017' (section 0)
-[890] Utils.pm:164> WARN - I didn't find a database entry for 'greco_multiple_2016' (section 0)
-[890] Utils.pm:164> WARN - I didn't find a database entry for 'tamiz_goal_1997' (section 0)
-[890] Utils.pm:164> WARN - I didn't find a database entry for 'charnes_optimal_1955' (section 0)
-[891] Utils.pm:164> WARN - I didn't find a database entry for 'colapinto_multi-criteria_2017' (section 0)
-[891] Utils.pm:164> WARN - I didn't find a database entry for 'aouni_goal_2017' (section 0)
-[891] Utils.pm:164> WARN - I didn't find a database entry for 'ijiriy._amodel_1971' (section 0)
-[891] Utils.pm:164> WARN - I didn't find a database entry for 'berman_financial_2013' (section 0)
-[940] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[940] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[940] Biber.pm:3500> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
-[940] Biber.pm:3506> INFO - No sort tailoring available for locale 'en-US'
-[1006] bbl.pm:608> INFO - Writing 'ch1.bbl' with encoding 'ascii'
-[1022] Utils.pm:164> WARN - The entry 'Trenado2014' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[1027] bbl.pm:712> INFO - Output to ch1.bbl
-[1028] Biber.pm:110> INFO - WARNINGS: 16
+[1] Config.pm:357> INFO - Logfile is 'ch1.blg'
+[60] biber:303> INFO - === lun apr  2, 2018, 21:31:21
+[83] Biber.pm:360> INFO - Reading 'ch1.bcf'
+[210] Biber.pm:836> INFO - Found 29 citekeys in bib section 0
+[239] Biber.pm:3671> INFO - Processing section 0
+[263] Biber.pm:3841> INFO - Looking for bibtex format file 'ch1-2.bib' for section 0
+[273] bibtex.pm:1424> INFO - Decoding LaTeX character macros into UTF-8
+[293] bibtex.pm:1281> INFO - Found BibTeX data source 'ch1-2.bib'
+[363] Utils.pm:164> WARN - month field 'apr' in entry 'Cui2017' is not an integer - this will probably not sort properly.
+[375] Utils.pm:164> WARN - month field 'aug' in entry 'Schniederjans1995' is not an integer - this will probably not sort properly.
+[382] Utils.pm:164> WARN - month field 'mar' in entry 'Zarandi2011' is not an integer - this will probably not sort properly.
+[401] Utils.pm:164> WARN - month field 'oct' in entry 'Tayi1985' is not an integer - this will probably not sort properly.
+[407] Utils.pm:164> WARN - month field 'jan' in entry 'Welling1977' is not an integer - this will probably not sort properly.
+[411] Utils.pm:164> WARN - month field 'jun' in entry 'Kruger2006' is not an integer - this will probably not sort properly.
+[414] Utils.pm:164> WARN - month field 'jan' in entry 'Gardner1990' is not an integer - this will probably not sort properly.
+[506] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[506] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[506] Biber.pm:3500> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[507] Biber.pm:3506> INFO - No sort tailoring available for locale 'en-US'
+[562] bbl.pm:608> INFO - Writing 'ch1.bbl' with encoding 'ascii'
+[577] Utils.pm:164> WARN - The entry 'Trenado2014' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[580] bbl.pm:712> INFO - Output to ch1.bbl
+[580] Biber.pm:110> INFO - WARNINGS: 8

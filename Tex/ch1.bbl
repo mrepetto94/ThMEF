@@ -19,6 +19,189 @@
 
 \refsection{0}
   \sortlist[entry]{nty/global/}
+    \entry{Aouni2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=424320d1c4bc5242a78ad58eb8068c9e}{%
+           family={Aouni},
+           familyi={A\bibinitperiod},
+           given={Belaid},
+           giveni={B\bibinitperiod}}}%
+        {{hash=42fac2f74522bb0a69ae8a6ce3af727e}{%
+           family={{McGillis}},
+           familyi={M\bibinitperiod},
+           given={Sheila},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d6caf85bedfbfa40909b23f27d602c1c}{%
+           family={Abdulkarim},
+           familyi={A\bibinitperiod},
+           given={Mustafa\bibnamedelima Elkasih},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{669646388ba7065e4174a5ab327c2ba4}
+      \strng{fullhash}{669646388ba7065e4174a5ab327c2ba4}
+      \strng{authornamehash}{669646388ba7065e4174a5ab327c2ba4}
+      \strng{authorfullhash}{669646388ba7065e4174a5ab327c2ba4}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0254-5330, 1572-9338}
+      \field{journaltitle}{Annals of Operations Research}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{1}
+      \field{shorttitle}{Goal programming model for management accounting and auditing}
+      \field{title}{Goal programming model for management accounting and auditing: a new typology}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2017}
+      \field{volume}{251}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{41\bibrangedash 54}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/s10479-015-1969-3
+      \endverb
+      \verb{file}
+      \verb Goal programming model for management accounting and auditing.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\IZQK7DKG\\Goal programming model for management accounting and auditing.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10479-015-1969-3
+      \endverb
+      \keyw{{GPmodel}4accounting}
+    \endentry
+    \entry{Berman2013}{book}{}
+      \name{author}{3}{}{%
+        {{hash=bb1ef9e1e81b7789e8a2824ba94b54e2}{%
+           family={Berman},
+           familyi={B\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=11585eb5b301123d664ce0ad9fee8071}{%
+           family={Knight},
+           familyi={K\bibinitperiod},
+           given={Joe},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dea5059644491d5e5ae5248649507fda}{%
+           family={Case},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston, Mass.}%
+      }
+      \list{publisher}{1}{%
+        {Harvard Business Review Press}%
+      }
+      \strng{namehash}{dcd9f088dcb6502010eb8f99d389730e}
+      \strng{fullhash}{dcd9f088dcb6502010eb8f99d389730e}
+      \strng{authornamehash}{dcd9f088dcb6502010eb8f99d389730e}
+      \strng{authorfullhash}{dcd9f088dcb6502010eb8f99d389730e}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{""Inc." magazine calls it one of "the best, clearest guides to the numbers" on the market. Readers agree, saying it's exactly "what I need to know" and calling it a "must-read" for decision makers without expertise in finance. Since its release in 2006, "Financial Intelligence" has become a favorite among managers who need a guided tour through the numbers--helping them to understand not only what the numbers really mean, but also why they matter. This new, completely updated edition brings the numbers up to date and continues to teach the basics of finance to managers who need to use financial data to drive their business. It also addresses issues that have become even more important in recent years--including questions around the financial crisis and those around broader financial and accounting literacy. Accessible, jargon-free, and filled with entertaining stories of real companies, Financial Intelligence gives nonfinancial managers the confidence to understand the nuance beyond the numbers--to help bring everyday work to a new level."--Publisher's website.}
+      \field{isbn}{978-1-4221-4412-1}
+      \field{note}{{OCLC}: 891121337}
+      \field{shorttitle}{Financial intelligence}
+      \field{title}{Financial intelligence: a manager's guide to knowing what the numbers really mean}
+      \field{year}{2013}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Charnes1955}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b913840a5109dfb94a287477baba2497}{%
+           family={Charnes},
+           familyi={C\bibinitperiod},
+           given={Abraham},
+           giveni={A\bibinitperiod}}}%
+        {{hash=24f9fb06d4d5294e9aad8fffa2a4ba9c}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={William\bibnamedelima W},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=cb3781b2011ce2b9ad00375aedcb39cb}{%
+           family={Ferguson},
+           familyi={F\bibinitperiod},
+           given={Robert\bibnamedelima O},
+           giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {INFORMS}%
+      }
+      \strng{namehash}{7497c956c4c5c7b969ca9e2b3146be83}
+      \strng{fullhash}{7497c956c4c5c7b969ca9e2b3146be83}
+      \strng{authornamehash}{7497c956c4c5c7b969ca9e2b3146be83}
+      \strng{authorfullhash}{7497c956c4c5c7b969ca9e2b3146be83}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management science}
+      \field{number}{2}
+      \field{title}{Optimal estimation of executive compensation by linear programming}
+      \field{volume}{1}
+      \field{year}{1955}
+      \field{pages}{138\bibrangedash 151}
+      \range{pages}{14}
+    \endentry
+    \entry{Colapinto2017a}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ee4c6f70079979129517935337b7b3c4}{%
+           family={Colapinto},
+           familyi={C\bibinitperiod},
+           given={Cinzia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f2d44501d4c78fc024d38ee4c372cb38}{%
+           family={Jayaraman},
+           familyi={J\bibinitperiod},
+           given={Raja},
+           giveni={R\bibinitperiod}}}%
+        {{hash=944be478f4c7724c28bffb52680b9c4b}{%
+           family={Marsiglio},
+           familyi={M\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d004315d968494edb12db4857ec3b524}
+      \strng{fullhash}{d004315d968494edb12db4857ec3b524}
+      \strng{authornamehash}{d004315d968494edb12db4857ec3b524}
+      \strng{authorfullhash}{d004315d968494edb12db4857ec3b524}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0254-5330, 1572-9338}
+      \field{journaltitle}{Annals of Operations Research}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{1}
+      \field{shorttitle}{Multi-criteria decision analysis with goal programming in engineering, management and social sciences}
+      \field{title}{Multi-criteria decision analysis with goal programming in engineering, management and social sciences: a state-of-the art review}
+      \field{urlday}{10}
+      \field{urlmonth}{4}
+      \field{urlyear}{2017}
+      \field{volume}{251}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7\bibrangedash 40}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1007/s10479-015-1829-1
+      \endverb
+      \verb{file}
+      \verb Goal programming model for management accounting and auditing.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\BEW5TBXQ\\Goal programming model for management accounting and auditing.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10479-015-1829-1
+      \endverb
+      \keyw{{multicriteriaGP}}
+    \endentry
     \entry{Cui2017}{article}{}
       \name{author}{4}{}{%
         {{hash=81eb6228a879db7d01f1accc61e30a6b}{%
@@ -100,6 +283,50 @@
       \verb http://www.jstor.org/stable/242682
       \endverb
     \endentry
+    \entry{Feller2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b65e1cba9f25104b205f647a3bf2bf72}{%
+           family={Feller},
+           familyi={F\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7359200362271e6753e021685f7d0836}{%
+           family={Schanz},
+           familyi={S\bibinitperiod},
+           given={Deborah},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c5253178e67c27d5ba5797387989a96}
+      \strng{fullhash}{0c5253178e67c27d5ba5797387989a96}
+      \strng{authornamehash}{0c5253178e67c27d5ba5797387989a96}
+      \strng{authorfullhash}{0c5253178e67c27d5ba5797387989a96}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{08239150}
+      \field{journaltitle}{Contemporary Accounting Research}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{1}
+      \field{shorttitle}{The Three Hurdles of Tax Planning}
+      \field{title}{The Three Hurdles of Tax Planning: How Business Context, Aims of Tax Planning, and Tax Manager Power Affect Tax Expense}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{volume}{34}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{494\bibrangedash 524}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1111/1911-3846.12278
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1111/1911-3846.12278
+      \endverb
+    \endentry
     \entry{Gardner1990}{article}{}
       \name{author}{3}{}{%
         {{hash=9e4562aee8539581c1435b2fb69ce03a}{%
@@ -139,6 +366,88 @@
       \range{pages}{17}
       \verb{doi}
       \verb 10.1111/j.1540-5915.1990.tb00322.x
+      \endverb
+    \endentry
+    \entry{Greco2016}{collection}{}
+      \name{editor}{3}{}{%
+        {{hash=e894237f4558028070b82653db8f3561}{%
+           family={Greco},
+           familyi={G\bibinitperiod},
+           given={Salvatore},
+           giveni={S\bibinitperiod}}}%
+        {{hash=dd52f015c9f959c6a328469399e09e4c}{%
+           family={Ehrgott},
+           familyi={E\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9d0a61685cf7f5217c98016356721c8c}{%
+           family={Figueira},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, {NY}}%
+      }
+      \list{publisher}{1}{%
+        {Springer New York}%
+      }
+      \strng{namehash}{a3503c1e5f6e3061b66c7661dd25f027}
+      \strng{fullhash}{a3503c1e5f6e3061b66c7661dd25f027}
+      \strng{editornamehash}{a3503c1e5f6e3061b66c7661dd25f027}
+      \strng{editorfullhash}{a3503c1e5f6e3061b66c7661dd25f027}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4939-3093-7}
+      \field{series}{International Series in Operations Research \& Management Science}
+      \field{title}{Multiple Criteria Decision Analysis}
+      \field{urlday}{23}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{volume}{233}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-1-4939-3094-4
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-1-4939-3094-4
+      \endverb
+    \endentry
+    \entry{Ijiri1971}{article}{}
+      \name{author}{2}{}{%
+        {{hash=18c5aebd992f5682308afb2ad8ef6cbc}{%
+           family={Ijiri},
+           familyi={I\bibinitperiod},
+           given={Yuji},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=15acf99e94cabda458537ab9487ae54f}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Robert\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{e8a6589dc291d783e9bf2422268a3714}
+      \strng{fullhash}{e8a6589dc291d783e9bf2422268a3714}
+      \strng{authornamehash}{e8a6589dc291d783e9bf2422268a3714}
+      \strng{authorfullhash}{e8a6589dc291d783e9bf2422268a3714}
+      \field{sortinit}{I}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Accounting Research}
+      \field{number}{1}
+      \field{title}{A Model for Integrating Sampling Objectives in Auditing}
+      \field{volume}{9}
+      \field{year}{1971}
+      \field{pages}{73}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/2490203
       \endverb
     \endentry
     \entry{Iranmanesh2008}{article}{}
@@ -273,7 +582,7 @@
       \verb 10.1023/a:1023676529552
       \endverb
     \endentry
-    \entry{merville_transfer_1978}{article}{}
+    \entry{Merville1978}{article}{}
       \name{author}{2}{}{%
         {{hash=89a88198ac6d9d76a96a6cd9921e3ec0}{%
            family={Merville},
@@ -488,6 +797,55 @@
       \verb 10.1287/opre.43.4.551
       \endverb
     \endentry
+    \entry{Tamiz1998}{article}{}
+      \name{author}{3}{}{%
+        {{hash=aca2fb1b1cb2bd4e752bb093852afb82}{%
+           family={Tamiz},
+           familyi={T\bibinitperiod},
+           given={Mehrdad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=35785ea56eec6b9b4058827146fee500}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Dylan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=664c819079f5fd85f7ebd65d9733ae15}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d36e88adf00c788803b4a45942aa7cb}
+      \strng{fullhash}{5d36e88adf00c788803b4a45942aa7cb}
+      \strng{authornamehash}{5d36e88adf00c788803b4a45942aa7cb}
+      \strng{authorfullhash}{5d36e88adf00c788803b4a45942aa7cb}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{03772217}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{3}
+      \field{shorttitle}{Goal programming for decision making}
+      \field{title}{Goal programming for decision making: An overview of the current state-of-the-art}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{volume}{111}
+      \field{year}{1998}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{569\bibrangedash 581}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/S0377-2217(97)00317-2
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0377221797003172
+      \endverb
+    \endentry
     \entry{Tan2008}{article}{}
       \name{author}{4}{}{%
         {{hash=37836b26cbb14dc71a1e0de9a903e728}{%
@@ -639,7 +997,7 @@
       \verb 10.1016/0361-3682(77)90020-4
       \endverb
     \endentry
-    \entry{williams_financial_2008}{collection}{}
+    \entry{Williams2008}{collection}{}
       \name{editor}{1}{}{%
         {{hash=c4d66a51b97601bd40ea164dabd562a5}{%
            family={Williams},
@@ -747,14 +1105,6 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{colapinto_multi-criteria_2017}
-  \missing{aouni_goal_2017}
-  \missing{greco_multiple_2016}
-  \missing{charnes_optimal_1955}
-  \missing{ijiriy._amodel_1971}
-  \missing{tamiz_goal_1997}
-  \missing{berman_financial_2013}
-  \missing{feller_three_2017}
 \endrefsection
 \endinput
 

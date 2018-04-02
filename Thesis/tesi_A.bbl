@@ -1,0 +1,15 @@
+\begin{thebibliography}{CA06}
+
+\bibitem[CA06]{caselli}
+Righini~Giovanni Ceselli~Alberto.
+\newblock A branch-and-price algorithm for the multilivel generalized
+  assignment problem.
+\newblock {\em Operations research}, 54:1172--1184, 2006.
+
+\bibitem[PL05]{SCAP}
+A.~Volgenant P.M.D.~Lieshout.
+\newblock A branch-and-bound algorithm for the singly constraind assignement
+  problem.
+\newblock {\em European Journal of Operational Research}, 176:151--164, 2005.
+
+\end{thebibliography}
