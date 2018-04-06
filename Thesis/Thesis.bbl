@@ -1,0 +1,251 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{DMPSSA{\etalchar{+}}18}
+
+\bibitem[AA17]{Azimian2017}
+Alireza Azimian and Belaid Aouni.
+\newblock Supply chain management through the stochastic goal programming
+  model.
+\newblock {\em Annals of Operations Research}, 251(1-2):351--365, April 2017.
+
+\bibitem[AMA]{Aouni2017}
+Belaid Aouni, Sheila {McGillis}, and Mustafa~Elkasih Abdulkarim.
+\newblock Goal programming model for management accounting and auditing: a new
+  typology.
+\newblock 251(1):41--54.
+
+\bibitem[Ben89]{Benjamin1989}
+Julian Benjamin.
+\newblock An {Analysis} of {Inventory} and {Transportation} {Costs} in a
+  {Constrained} {Network}.
+\newblock {\em Transportation Science}, 23(3):177--183, August 1989.
+
+\bibitem[BKC]{Berman2013}
+Karen Berman, Joe Knight, and John Case.
+\newblock {\em Financial intelligence: a manager's guide to knowing what the
+  numbers really mean}.
+\newblock Harvard Business Review Press.
+\newblock {OCLC}: 891121337.
+
+\bibitem[CCF55]{Charnes1955}
+Abraham Charnes, William~W Cooper, and Robert~O Ferguson.
+\newblock Optimal estimation of executive compensation by linear programming.
+\newblock {\em Management science}, 1(2):138--151, 1955.
+
+\bibitem[CG16]{Ceschin2016}
+Fabrizio Ceschin and Idil Gaziulusoy.
+\newblock Evolution of design for sustainability: {From} product design to
+  design for system innovations and transitions.
+\newblock {\em Design Studies}, 47:118--163, November 2016.
+
+\bibitem[CGZH17]{Cui2017}
+Yunfei Cui, Zhiqiang Geng, Qunxiong Zhu, and Yongming Han.
+\newblock Review: Multi-objective optimization methods and application in
+  energy saving.
+\newblock {\em Energy}, 125:681--704, apr 2017.
+
+\bibitem[CH07]{Chern2007}
+C.-C. Chern and J.-S. Hsieh.
+\newblock A heuristic algorithm for master planning that satisfies multiple
+  objectives.
+\newblock {\em Computers \& Operations Research}, 34(11):3491–3513, Nov 2007.
+
+\bibitem[CJM]{Colapinto2017a}
+Cinzia Colapinto, Raja Jayaraman, and Simone Marsiglio.
+\newblock Multi-criteria decision analysis with goal programming in
+  engineering, management and social sciences: a state-of-the art review.
+\newblock 251(1):7--40.
+
+\bibitem[Con68]{Contini1968}
+Bruno Contini.
+\newblock A stochastic approach to goal programming.
+\newblock {\em Operations Research}, 16(3):576--586, 1968.
+
+\bibitem[DG11]{Diabat2011}
+Ali Diabat and Kannan Govindan.
+\newblock An analysis of the drivers affecting the implementation of green
+  supply chain management.
+\newblock {\em Resources, Conservation and Recycling}, 55(6):659--667, apr
+  2011.
+
+\bibitem[DMPSSA{\etalchar{+}}18]{Diaz-Madronero2018}
+Manuel D{\'{\i}}az-Madro{\~{n}}ero, Modesto P{\'{e}}rez-S{\'{a}}nchez,
+  Jos{\'{e}}~R. Satorre-Aznar, Josefa Mula, and P.~Amparo
+  L{\'{o}}pez-Jim{\'{e}}nez.
+\newblock Analysis of a wastewater treatment plant using fuzzy goal programming
+  as a management tool: A case study.
+\newblock {\em Journal of Cleaner Production}, 180:20--33, apr 2018.
+
+\bibitem[DT61]{Davidson1961}
+H.~Justin Davidson and Robert~M. Trueblood.
+\newblock Accounting for decision-making.
+\newblock {\em The Accounting Review}, 36(4):577--582, 1961.
+
+\bibitem[FS]{Feller2017}
+Anna Feller and Deborah Schanz.
+\newblock The three hurdles of tax planning: How business context, aims of tax
+  planning, and tax manager power affect tax expense.
+\newblock 34(1):494--524.
+
+\bibitem[GHL90]{Gardner1990}
+John~C. Gardner, Ronald~J. Huefner, and Vahid Lotfi.
+\newblock A multiperiod audit staff planning model using multiple objectives:
+  Development and evaluation{\ast}.
+\newblock {\em Decision Sciences}, 21(1):154--170, jan 1990.
+
+\bibitem[Gil01]{Gilbert2001}
+Sean Gilbert.
+\newblock Greening supply chain: Enhancing competitiveness through green
+  productivity.
+\newblock {\em Tapei, Taiwan}, 16:1--6, 2001.
+
+\bibitem[GM03]{Gupta2003}
+Anshuman Gupta and Costas~D. Maranas.
+\newblock Managing demand uncertainty in supply chain planning.
+\newblock {\em Computers \& Chemical Engineering}, 27(8–9):1219–1227, Sep
+  2003.
+
+\bibitem[Gre]{Greco2016}
+Multiple criteria decision analysis.
+
+\bibitem[IK71]{Ijiri1971}
+Yuji Ijiri and Robert~S. Kaplan.
+\newblock A model for integrating sampling objectives in auditing.
+\newblock {\em Journal of Accounting Research}, 9(1):73, 1971.
+
+\bibitem[IT08]{Iranmanesh2008}
+Hossein Iranmanesh and Vince Thomson.
+\newblock Competitive advantage by adjusting design characteristics to satisfy
+  cost targets.
+\newblock {\em International Journal of Production Economics}, 115(1):64--71,
+  2008.
+
+\bibitem[KH06]{Kruger2006}
+HA~Kruger and JM~Hattingh.
+\newblock A combined {AHP}-{GP} model to allocate internal auditing time to
+  projects.
+\newblock {\em {ORiON}}, 22(1), jun 2006.
+
+\bibitem[KS73]{Killough1973}
+Larry~N. Killough and Thomas~L. Souders.
+\newblock A goal programming model for public accounting firms.
+\newblock {\em The Accounting Review}, 48(2):268--279, 1973.
+
+\bibitem[Kwa03]{Kwak2003}
+Wikil Kwak.
+\newblock Human resource allocation in a cpa firm: A fuzzy set approach.
+\newblock {\em Review of Quantitative Finance and Accounting}, 20(3):277--290,
+  2003.
+
+\bibitem[NAFA16]{Nomani2016}
+Mohammad~Asim Nomani, Irfan Ali, Armin Fügenschuh, and Aquil Ahmed.
+\newblock A fuzzy goal programming approach to analyse sustainable development
+  goals of india.
+\newblock {\em Applied Economics Letters}, 24(7):443--447, jul 2016.
+
+\bibitem[OEC13]{After_tax_hedging_report_2013}
+OECD.
+\newblock After tax hedging report, 2013.
+
+\bibitem[OEC15]{Model_Tax_Convention_2015}
+OECD.
+\newblock {\em Model Tax Convention on Income and on Capital 2014}.
+\newblock {OECD} Publishing, 2015.
+\newblock {DOI}: 10.1787/9789264239081-en.
+
+\bibitem[OEC17]{OECD_ProfitSplit_2017}
+OECD.
+\newblock Oecd releases beps discussion drafts on attribution of profits to
+  permanent establishments and transactional profit splits.
+\newblock {\em OECD newsfeed}, 2017.
+
+\bibitem[RK17]{Rehman2017}
+Shafiqur Rehman and Salman~A. Khan.
+\newblock Application of fuzzy goal programming to wind turbine selection with
+  multiple criteria {\&}{\#}x2014$\mathsemicolon$ a study of three potential
+  sites in saudi arabia.
+\newblock In {\em 2017 6th {IIAI} International Congress on Advanced Applied
+  Informatics ({IIAI}-{AAI})}. {IEEE}, jul 2017.
+
+\bibitem[Rom14]{Romero2014}
+C.~Romero.
+\newblock {\em Handbook of Critical Issues in Goal Programming}.
+\newblock Pergamon, 2014.
+
+\bibitem[Saa80]{Saaty1980}
+TL~Saaty.
+\newblock The analytic hierarchy process,.
+\newblock {\em McGraw-Hill, New York}, 1980.
+
+\bibitem[Sch95]{Schniederjans1995}
+Marc~J. Schniederjans.
+\newblock The life cycle of goal programming research as recorded in journal
+  articles.
+\newblock {\em Operations Research}, 43(4):551--557, aug 1995.
+
+\bibitem[SW18]{Shan2018}
+Wei Shan and Jingyi Wang.
+\newblock Mapping the landscape and evolutions of green supply chain
+  management.
+\newblock {\em Sustainability}, 10(3):597, 2018.
+
+\bibitem[TG85]{Tayi1985}
+Giri~Kumar Tayi and Jagdish Gangolly.
+\newblock Integration of auditor preferences and sampling objectives: A
+  polynomial goal-programming perspective.
+\newblock {\em Journal of the Operational Research Society}, 36(10):951--957,
+  oct 1985.
+
+\bibitem[TRCR14]{Trenado2014}
+Manuel Trenado, Mar{\'\i}a Romero, Mar{\'\i}a~L Cuadrado, and Carlos Romero.
+\newblock Corporate social responsibility in portfolio selection: A “goal
+  games” against nature approach.
+\newblock {\em Computers \& Industrial Engineering}, 75:260--265, 2014.
+
+\bibitem[TSLS]{Tan2008}
+Yongtao Tan, Liyin Shen, Weisheng Lu, and Qiping Shen.
+\newblock Multiple-objective bidding strategy using goal programming technique.
+\newblock 46(4):656--672.
+
+\bibitem[Wel77]{Welling1977}
+Priscilla Welling.
+\newblock A goal programming model for human resource accounting in a {CPA}
+  firm.
+\newblock {\em Accounting, Organizations and Society}, 2(4):307--316, jan 1977.
+
+\bibitem[YLR07]{YolLee2007}
+Su~Yol~Lee and Seung-Kyu Rhee.
+\newblock The change in corporate environmental strategies: a longitudinal
+  empirical study.
+\newblock {\em Management Decision}, 45(2):196--216, 2007.
+
+\bibitem[Zad65]{Zadeh_1965}
+L.A. Zadeh.
+\newblock Fuzzy sets.
+\newblock {\em Information and Control}, 8(3):338–353, Jun 1965.
+
+\bibitem[ZS01]{Zsidisin2001}
+George~A Zsidisin and Sue~P Siferd.
+\newblock Environmental purchasing: a framework for theory development.
+\newblock {\em European Journal of Purchasing \& Supply Management},
+  7(1):61--73, 2001.
+
+\bibitem[ZSD11]{Zarandi2011}
+Mohammad Hossein~Fazel Zarandi, Ali~Haddad Sisakht, and Soheil Davari.
+\newblock Design of a closed-loop supply chain ({CLSC}) model using an
+  interactive fuzzy goal programming.
+\newblock {\em The International Journal of Advanced Manufacturing Technology},
+  56(5-8):809--821, mar 2011.
+
+\bibitem[ZSL08]{Zhu2008}
+Qinghua Zhu, Joseph Sarkis, and Kee-hung Lai.
+\newblock Confirmation of a measurement model for green supply chain management
+  practices implementation.
+\newblock {\em International journal of production economics}, 111(2):261--273,
+  2008.
+
+\bibitem[ZZ13]{Zamfirescu2013}
+Luminita Zamfirescu and Constantin-Bala Zamfirescu.
+\newblock Goal programming as a decision model for performance-based budgeting.
+\newblock {\em Procedia Computer Science}, 17:426--433, 2013.
+
+\end{thebibliography}

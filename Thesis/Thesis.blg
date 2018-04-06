@@ -1,9 +1,80 @@
-[0] Config.pm:354> INFO - This is Biber 2.7 (beta)
-[0] Config.pm:357> INFO - Logfile is 'Thesis.blg'
-[49] biber:303> INFO - === mer apr  4, 2018, 21:29:10
-[71] Biber.pm:360> INFO - Reading 'Thesis.bcf'
-[190] Biber.pm:836> INFO - Found 61 citekeys in bib section 0
-[216] Biber.pm:3671> INFO - Processing section 0
-[238] Biber.pm:3841> INFO - Looking for bibtex format file 'bibliografia' for section 0
-[349] Utils.pm:180> ERROR - Cannot find 'bibliografia'!
-[349] Biber.pm:114> INFO - ERRORS: 1
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Thesis.aux
+The style file: alpha.bst
+Database file #1: bibliografia.bib
+Warning--entry type for "After_tax_hedging_report_2013" isn't style-file defined
+--line 143 of file bibliografia.bib
+Warning--entry type for "Greco2016" isn't style-file defined
+--line 192 of file bibliografia.bib
+Warning--I didn't find a database entry for "Tamiz1998"
+Warning--I didn't find a database entry for "Merville1978"
+Warning--I didn't find a database entry for "Williams2008"
+Warning--I didn't find a database entry for "Srivastava2007"
+Warning--I didn't find a database entry for "Strobel2018"
+Warning--I didn't find a database entry for "Urvashi2013"
+Warning--I didn't find a database entry for "Ongondo2011"
+Warning--I didn't find a database entry for "Mula2010"
+Warning--I didn't find a database entry for "Jung2008"
+Warning--I didn't find a database entry for "Oh2006"
+Warning--I didn't find a database entry for "Kanyalkar2005"
+Warning--I didn't find a database entry for "Romo2009"
+Warning--I didn't find a database entry for "Rizk2008"
+Warning--I didn't find a database entry for "Torabi2008"
+Warning--I didn't find a database entry for "Liang2009"
+Warning--I didn't find a database entry for "Zadeh1965"
+Warning--I didn't find a database entry for "Santoso2005"
+Warning--I didn't find a database entry for "Porter1998"
+Warning--I didn't find a database entry for "Yaghobi2008"
+Warning--to sort, need author or key in Greco2016
+Warning--empty journal in Aouni2017
+Warning--empty year in Aouni2017
+Warning--empty year in Berman2013
+Warning--empty journal in Colapinto2017a
+Warning--empty year in Colapinto2017a
+Warning--empty journal in Feller2017
+Warning--empty year in Feller2017
+Warning--empty journal in Tan2008
+Warning--empty year in Tan2008
+You've used 42 entries,
+            2543 wiz_defined-function locations,
+            907 strings with 12390 characters,
+and the built_in function-call counts, 16372 in all, are:
+= -- 1654
+> -- 754
+< -- 12
++ -- 264
+- -- 250
+* -- 1291
+:= -- 2714
+add.period$ -- 126
+call.type$ -- 42
+change.case$ -- 253
+chr.to.int$ -- 42
+cite$ -- 53
+duplicate$ -- 595
+empty$ -- 1190
+format.name$ -- 302
+if$ -- 3245
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 43
+newline$ -- 213
+num.names$ -- 123
+pop$ -- 211
+preamble$ -- 1
+purify$ -- 298
+quote$ -- 0
+skip$ -- 486
+stack$ -- 0
+substring$ -- 1064
+swap$ -- 39
+text.length$ -- 12
+text.prefix$ -- 12
+top$ -- 0
+type$ -- 324
+warning$ -- 10
+while$ -- 170
+width$ -- 48
+write$ -- 530
+(There were 31 warnings)
