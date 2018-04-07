@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.21)  6 APR 2018 07:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.21)  7 APR 2018 10:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1028,54 +1028,266 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \arrowsize=\dimen296
-))) (./Thesis.aux)
+))) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+ (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count320
+ (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write4
+\integerpart=\count321
+\decimalpart=\count322
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count323
+\c@listtotal=\count324
+\c@listcount=\count325
+\c@liststart=\count326
+\c@liststop=\count327
+\c@citecount=\count328
+\c@citetotal=\count329
+\c@multicitecount=\count330
+\c@multicitetotal=\count331
+\c@instcount=\count332
+\c@maxnames=\count333
+\c@minnames=\count334
+\c@maxitems=\count335
+\c@minitems=\count336
+\c@citecounter=\count337
+\c@savedcitecounter=\count338
+\c@uniquelist=\count339
+\c@uniquename=\count340
+\c@refsection=\count341
+\c@refsegment=\count342
+\c@maxextratitle=\count343
+\c@maxextratitleyear=\count344
+\c@maxextrayear=\count345
+\c@maxextraalpha=\count346
+\c@abbrvpenalty=\count347
+\c@highnamepenalty=\count348
+\c@lownamepenalty=\count349
+\c@maxparens=\count350
+\c@parenlevel=\count351
+\blx@tempcnta=\count352
+\blx@tempcntb=\count353
+\blx@tempcntc=\count354
+\blx@maxsection=\count355
+\blx@maxsegment@0=\count356
+\blx@notetype=\count357
+\blx@parenlevel@text=\count358
+\blx@parenlevel@foot=\count359
+\blx@sectionciteorder@0=\count360
+\labelnumberwidth=\skip77
+\labelalphawidth=\skip78
+\biblabelsep=\skip79
+\bibitemsep=\skip80
+\bibnamesep=\skip81
+\bibinitsep=\skip82
+\bibparsep=\skip83
+\bibhang=\skip84
+\blx@bcfin=\read2
+\blx@bcfout=\write5
+\c@mincomprange=\count361
+\c@maxcomprange=\count362
+\c@mincompwidth=\count363
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'alphabetic.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count364
+\c@savedafterword=\count365
+\c@annotator=\count366
+\c@savedannotator=\count367
+\c@author=\count368
+\c@savedauthor=\count369
+\c@bookauthor=\count370
+\c@savedbookauthor=\count371
+\c@commentator=\count372
+\c@savedcommentator=\count373
+\c@editor=\count374
+\c@savededitor=\count375
+\c@editora=\count376
+\c@savededitora=\count377
+\c@editorb=\count378
+\c@savededitorb=\count379
+\c@editorc=\count380
+\c@savededitorc=\count381
+\c@foreword=\count382
+\c@savedforeword=\count383
+\c@holder=\count384
+\c@savedholder=\count385
+\c@introduction=\count386
+\c@savedintroduction=\count387
+\c@namea=\count388
+\c@savednamea=\count389
+\c@nameb=\count390
+\c@savednameb=\count391
+\c@namec=\count392
+\c@savednamec=\count393
+\c@translator=\count394
+\c@savedtranslator=\count395
+\c@shortauthor=\count396
+\c@savedshortauthor=\count397
+\c@shorteditor=\count398
+\c@savedshorteditor=\count399
+\c@labelname=\count400
+\c@savedlabelname=\count401
+\c@institution=\count402
+\c@savedinstitution=\count403
+\c@lista=\count404
+\c@savedlista=\count405
+\c@listb=\count406
+\c@savedlistb=\count407
+\c@listc=\count408
+\c@savedlistc=\count409
+\c@listd=\count410
+\c@savedlistd=\count411
+\c@liste=\count412
+\c@savedliste=\count413
+\c@listf=\count414
+\c@savedlistf=\count415
+\c@location=\count416
+\c@savedlocation=\count417
+\c@organization=\count418
+\c@savedorganization=\count419
+\c@origlocation=\count420
+\c@savedoriglocation=\count421
+\c@origpublisher=\count422
+\c@savedorigpublisher=\count423
+\c@publisher=\count424
+\c@savedpublisher=\count425
+\c@language=\count426
+\c@savedlanguage=\count427
+\c@pageref=\count428
+\c@savedpageref=\count429
+\shorthandwidth=\skip85
+\shortjournalwidth=\skip86
+\shortserieswidth=\skip87
+\shorttitlewidth=\skip88
+\shortauthorwidth=\skip89
+\shorteditorwidth=\skip90
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count430
+\c@textcitetotal=\count431
+\c@textcitemaxnames=\count432
+\c@biburlnumpenalty=\count433
+\c@biburlucpenalty=\count434
+\c@biburllcpenalty=\count435
+\c@smartand=\count436
+)
+Package biblatex Info: Trying to load bibliography style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.bbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
+File: alphabetic.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count437
+\c@bbx:relatedtotal=\count438
+))
+Package biblatex Info: Trying to load citation style 'alphabetic'...
+Package biblatex Info: ... file 'alphabetic.cbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/alphabetic.cbx
+File: alphabetic.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+
+/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty:13053: Package xkeyval Error: `issn' undefined in families `blx@opt@pre'.
+
+See the xkeyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13053 \blx@processoptions
+                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+)
+\@quotelevel=\count439
+\@quotereset=\count440
+ (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 7.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 7.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 15.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 7.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 7.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 7.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 7.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 7.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 7.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Try loading font information for T1+txr on input line 7.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count320
+\scratchcounter=\count441
 \scratchdimen=\dimen297
 \scratchbox=\box91
-\nofMPsegments=\count321
-\nofMParguments=\count322
+\nofMPsegments=\count442
+\nofMParguments=\count443
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count323
+\MPscratchCnt=\count444
 \MPscratchDim=\dimen298
-\MPnumerator=\count324
-\makeMPintoPDFobject=\count325
+\MPnumerator=\count445
+\makeMPintoPDFobject=\count446
 \everyMPtoPDFconversion=\toks43
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1089,50 +1301,68 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@lstlisting=\count326
+\c@lstlisting=\count447
 \AtBeginShipoutBox=\box92
-Package hyperref Info: Link coloring ON on input line 7.
+Package hyperref Info: Link coloring ON on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count327
+\c@section@level=\count448
 )
-LaTeX Info: Redefining \ref on input line 7.
-LaTeX Info: Redefining \pageref on input line 7.
-LaTeX Info: Redefining \nameref on input line 7.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
  (./Thesis.out) (./Thesis.out)
-\@outlinefile=\write4
-\openout4 = `Thesis.out'.
+\@outlinefile=\write6
+\openout6 = `Thesis.out'.
 
  ABD: EveryShipout initializing macros
+Package biblatex Info: Input encoding 'latin1' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'latin1'.
+\openout5 = `Thesis.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Thesis.bbl' found.
+ (./Thesis.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Strobel2018
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
+Package biblatex Info: Reference section=0 on input line 15.
+Package biblatex Info: Reference segment=0 on input line 15.
 <centrato_piccolo_nero.jpg, id=131, 537.207pt x 294.1389pt>
 File: centrato_piccolo_nero.jpg Graphic file (type jpg)
 <use centrato_piccolo_nero.jpg>
-Package pdftex.def Info: centrato_piccolo_nero.jpg  used on input line 16. on input line 16.
-Package pdftex.def Info: Requested size: 355.66432pt x 184.94942pt on input line 16.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 16.
+Package pdftex.def Info: centrato_piccolo_nero.jpg  used on input line 24. on input line 24.
+Package pdftex.def Info: Requested size: 355.66432pt x 184.94942pt on input line 24.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 24.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 16.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 24.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 16.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 24.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 16.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 24.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 16.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 24.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 16.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 24.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 ) [1
@@ -1143,20 +1373,20 @@ File: utxsyc.fd 2000/12/15 v3.1
 
 
 ])
-\tf@toc=\write5
-\openout5 = `Thesis.toc'.
+\tf@toc=\write7
+\openout7 = `Thesis.toc'.
 
  [4] (./Thesis.lof)
-\tf@lof=\write6
-\openout6 = `Thesis.lof'.
+\tf@lof=\write8
+\openout8 = `Thesis.lof'.
 
  [5
 
 ] [6
 
 ] (./Thesis.lot)
-\tf@lot=\write7
-\openout7 = `Thesis.lot'.
+\tf@lot=\write9
+\openout9 = `Thesis.lot'.
 
  (./Begin.tex [7] [8
 
@@ -1218,21 +1448,11 @@ If that doesn't work, type  X <return>  to quit.
 ]) (./ch1.tex
 Chapter 1.
 
-LaTeX Warning: Citation `After_tax_hedging_report_2013' on page 11 undefined on input line 6.
-
-
-LaTeX Warning: Citation `Feller2017' on page 11 undefined on input line 6.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11
 
 ]
-
-LaTeX Warning: Citation `Model_Tax_Convention_2015' on page 12 undefined on input line 8.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 35--39
 
  []
@@ -1270,13 +1490,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [14]
-
-LaTeX Warning: Citation `Greco2016' on page 15 undefined on input line 42.
-
-
-LaTeX Warning: Citation `Cui2017' on page 15 undefined on input line 55.
-
-
 Underfull \vbox (badness 6094) has occurred while \output is active []
 
 
@@ -1305,12 +1518,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16]
-
-LaTeX Warning: Citation `Tamiz1998' on page 17 undefined on input line 85.
-
-
-LaTeX Warning: Citation `Charnes1955' on page 17 undefined on input line 85.
-
 
 ./ch1.tex:89: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -1394,22 +1601,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19]
-
-LaTeX Warning: Citation `Romero2014' on page 20 undefined on input line 132.
-
-
-LaTeX Warning: Citation `Schniederjans1995' on page 20 undefined on input line 132.
-
-
-LaTeX Warning: Citation `Colapinto2017a' on page 20 undefined on input line 132.
-
-
-LaTeX Warning: Citation `Zarandi2011' on page 20 undefined on input line 133.
-
-
-LaTeX Warning: Citation `Trenado2014' on page 20 undefined on input line 137.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1420,9 +1611,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [20]
-
-LaTeX Warning: Citation `Davidson1961' on page 21 undefined on input line 164.
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
@@ -1435,29 +1623,14 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
                                                   \fi \fi 
 l.165 
       ]
-
-LaTeX Warning: Citation `Aouni2017' on page 22 undefined on input line 166.
-
-
-LaTeX Warning: Citation `Ijiri1971' on page 22 undefined on input line 173.
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
+[]|\T1/txr/m/n/12 Killough and Soud-
+ []
 
 
-LaTeX Warning: Citation `Tayi1985' on page 22 undefined on input line 175.
-
-
-LaTeX Warning: Citation `Killough1973' on page 22 undefined on input line 177.
-
-
-LaTeX Warning: Citation `Welling1977' on page 22 undefined on input line 179.
-
-
-LaTeX Warning: Citation `Kruger2006' on page 22 undefined on input line 181.
-
-
-LaTeX Warning: Citation `Gardner1990' on page 22 undefined on input line 183.
-
-
-LaTeX Warning: Citation `Kwak2003' on page 22 undefined on input line 185.
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+[]|\T1/txr/m/n/12 Kr√$[]$ger and Hat-
+ []
 
 
 Underfull \hbox (badness 1127) in paragraph at lines 185--186
@@ -1465,11 +1638,8 @@ Underfull \hbox (badness 1127) in paragraph at lines 185--186
  []
 
 
-LaTeX Warning: Citation `Zamfirescu2013' on page 22 undefined on input line 187.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 187--187
-[]|\T1/txr/m/n/12 Zamfirescu and
+[]|\T1/txr/m/n/12 Zamfirescu and Zam-
  []
 
 
@@ -1489,14 +1659,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Tan2008' on page 22 undefined on input line 189.
-
-
-LaTeX Warning: Citation `Iranmanesh2008' on page 22 undefined on input line 191.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 191--191
-[]|\T1/txr/m/n/12 Iranmanesh and
+[]|\T1/txr/m/n/12 Iranmanesh and Thom-
  []
 
 
@@ -1549,9 +1713,6 @@ You need to provide a definition with \DeclareInputText
 or \DeclareInputMath before using this key.
 
 
-LaTeX Warning: Citation `Merville1978' on page 24 undefined on input line 201.
-
-
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
  We now make it that large for the rest of the document.
@@ -1568,12 +1729,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [25]
-<Images/CTworld.png, id=333, 2517.405pt x 1413.28pt>
+<Images/CTworld.png, id=383, 2517.405pt x 1413.28pt>
 File: Images/CTworld.png Graphic file (type png)
 <use Images/CTworld.png>
 Package pdftex.def Info: Images/CTworld.png  used on input line 222. on input line 222.
 Package pdftex.def Info: Requested size: 390.0pt x 218.9483pt on input line 222.
-<Images/GNIworld.png, id=335, 2517.405pt x 1413.28pt>
+<Images/GNIworld.png, id=385, 2517.405pt x 1413.28pt>
 File: Images/GNIworld.png Graphic file (type png)
 <use Images/GNIworld.png>
 Package pdftex.def Info: Images/GNIworld.png  used on input line 230. on input line 230.
@@ -1601,7 +1762,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
                                                   \fi \fi 
 l.237 
        <./Images/CTworld.png>]
-<Images/Cluster-GNI-CT.png, id=346, 1003.75pt x 1003.75pt>
+<Images/Cluster-GNI-CT.png, id=396, 1003.75pt x 1003.75pt>
 File: Images/Cluster-GNI-CT.png Graphic file (type png)
 <use Images/Cluster-GNI-CT.png>
 Package pdftex.def Info: Images/Cluster-GNI-CT.png  used on input line 240. on input line 240.
@@ -1631,10 +1792,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
                                                   \fi \fi 
 l.249 	\item E
               mployees: this element is somehow tied to the revenues expecte... <./Images/Cluster-GNI-CT.png>]
-
-LaTeX Warning: Citation `Williams2008' on page 30 undefined on input line 253.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 253--257
 
  []
@@ -1646,14 +1803,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [30]
-
-LaTeX Warning: Citation `Berman2013' on page 31 undefined on input line 260.
-
-<Images/plidist1.png, id=362, 1966.34625pt x 1105.12875pt>
+<Images/plidist1.png, id=415, 1966.34625pt x 1105.12875pt>
 File: Images/plidist1.png Graphic file (type png)
 <use Images/plidist1.png>
 Package pdftex.def Info: Images/plidist1.png  used on input line 264. on input line 264.
 Package pdftex.def Info: Requested size: 592.0pt x 332.72159pt on input line 264.
+
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
@@ -1701,10 +1856,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [35]
-
-LaTeX Warning: Citation `OECD_ProfitSplit_2017' on page 36 undefined on input line 322.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1761,7 +1912,7 @@ Overfull \hbox (10.76329pt too wide) in paragraph at lines 373--376
 \OML/txmi/m/it/12 y$ \T1/txr/m/n/12 stands for the pref-er-ence of the DM to-ward the min-i-miza-tion of the tax liability($\OML/txmi/m/it/12 w\OT1/txr/m/n/12 2$\T1/txr/m/n/12 )
  []
 
-<Images/ternary.png, id=431, 476.2593pt x 569.4876pt>
+<Images/ternary.png, id=488, 476.2593pt x 569.4876pt>
 File: Images/ternary.png Graphic file (type png)
 <use Images/ternary.png>
 Package pdftex.def Info: Images/ternary.png  used on input line 379. on input line 379.
@@ -1776,9 +1927,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [41]
-
-LaTeX Warning: Citation `Saaty1980' on page 42 undefined on input line 386.
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
@@ -1796,9 +1944,6 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 411.
 
 
-LaTeX Warning: Citation `Saaty1980' on page 43 undefined on input line 425.
-
-
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
  We now make it that large for the rest of the document.
@@ -1814,7 +1959,7 @@ l.426
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 427.
 
-<Images/AllocationMap.png, id=448, 957.0957pt x 569.4876pt>
+<Images/AllocationMap.png, id=507, 957.0957pt x 569.4876pt>
 File: Images/AllocationMap.png Graphic file (type png)
 <use Images/AllocationMap.png>
 Package pdftex.def Info: Images/AllocationMap.png  used on input line 444. on input line 444.
@@ -1861,9 +2006,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 [46]
 Chapter 2.
 
-LaTeX Warning: Citation `Srivastava2007' on page 47 undefined on input line 8.
-
-
 Underfull \vbox (badness 1515) has occurred while \output is active []
 
  [47
@@ -1904,31 +2046,11 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [50]
-
-LaTeX Warning: Citation `Diabat2011' on page 51 undefined on input line 20.
-
-
-LaTeX Warning: Citation `Strobel2018' on page 51 undefined on input line 20.
-
-
-LaTeX Warning: Citation `Shan2018' on page 51 undefined on input line 20.
-
-<Images/occurence.png, id=480, 957.0957pt x 569.4876pt>
+<Images/occurence.png, id=543, 957.0957pt x 569.4876pt>
 File: Images/occurence.png Graphic file (type png)
 <use Images/occurence.png>
 Package pdftex.def Info: Images/occurence.png  used on input line 22. on input line 22.
 Package pdftex.def Info: Requested size: 390.0pt x 232.05763pt on input line 22.
-
-LaTeX Warning: Citation `Gilbert2001' on page 51 undefined on input line 27.
-
-
-LaTeX Warning: Citation `Zsidisin2001' on page 51 undefined on input line 27.
-
-
-LaTeX Warning: Citation `Srivastava2007' on page 51 undefined on input line 30.
-
-
-LaTeX Warning: Citation `Zhu2008' on page 51 undefined on input line 30.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1943,12 +2065,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 l.31   \begin{itemize}
                        <./Images/occurence.png>]
 
-LaTeX Warning: Citation `Urvashi2013' on page 52 undefined on input line 32.
-
-
-LaTeX Warning: Citation `Ceschin2016' on page 52 undefined on input line 33.
-
-
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
  We now make it that large for the rest of the document.
@@ -1956,18 +2072,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 
 [52]
 
-LaTeX Warning: Citation `YolLee2007' on page 53 undefined on input line 37.
-
-
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [53]
-
-LaTeX Warning: Citation `Ongondo2011' on page 54 undefined on input line 85.
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
@@ -1990,11 +2100,11 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
                                                   \fi \fi 
 l.90   $$
          ]
-<Images/heatmap.png, id=507, 492.84125pt x 477.785pt>
+<Images/heatmap.png, id=587, 492.84125pt x 477.785pt>
 File: Images/heatmap.png Graphic file (type png)
 <use Images/heatmap.png>
 Package pdftex.def Info: Images/heatmap.png  used on input line 95. on input line 95.
-Package pdftex.def Info: Requested size: 312.00119pt x 302.48608pt on input line 95.
+Package pdftex.def Info: Requested size: 390.0pt x 378.10214pt on input line 95.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2025,63 +2135,14 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [58]
-
-LaTeX Warning: Citation `Mula2010' on page 59 undefined on input line 109.
-
-
-LaTeX Warning: Citation `Jung2008' on page 59 undefined on input line 111.
-
-
-LaTeX Warning: Citation `Oh2006' on page 59 undefined on input line 111.
-
-
-LaTeX Warning: Citation `Kanyalkar2005' on page 59 undefined on input line 111.
-
-
-Overfull \hbox (6.90677pt too wide) in paragraph at lines 111--112
-[]\T1/txr/m/n/12 Linear Pro-gram-ming: or-der quan-tity def-i-ni-tion by means of decentralization[[]],
- []
-
-
-Overfull \hbox (46.37474pt too wide) in paragraph at lines 111--112
-\T1/txr/m/n/12 pro-duc-tion and dis-tri-bu-tion plan-ning tak-ing into ac-count coun-try spe-cific regulations[[]],
- []
-
-
-LaTeX Warning: Citation `Romo2009' on page 59 undefined on input line 112.
-
-
-LaTeX Warning: Citation `Rizk2008' on page 59 undefined on input line 112.
-
-
-Overfull \hbox (47.76674pt too wide) in paragraph at lines 112--113
-[]\T1/txr/m/n/12 Mixed In-te-ger Lin-ear Pro-gram-ming: net-work op-ti-miza-tion and rout-ing configuration[[]],
- []
-
-
-LaTeX Warning: Citation `Benjamin1989' on page 59 undefined on input line 113.
-
-
-Overfull \hbox (26.40675pt too wide) in paragraph at lines 113--114
-[]\T1/txr/m/n/12 Non Lin-ear Pro-gram-ming: op-ti-miza-tion of pro-duc-tion, trans-port and inventories[[]]; 
- []
-
-
-LaTeX Warning: Citation `Torabi2008' on page 59 undefined on input line 114.
-
-
-LaTeX Warning: Citation `Chern2007' on page 59 undefined on input line 114.
-
-
 Overfull \hbox (6.28273pt too wide) in paragraph at lines 114--115
 []\T1/txr/m/n/12 Multi Ob-jec-tive Pro-gram-ming: re-plen-ish-ment pro-duc-tion and dis-tri-bu-tion plan-
  []
 
 
-LaTeX Warning: Citation `Liang2009' on page 59 undefined on input line 115.
-
-
-LaTeX Warning: Citation `Gupta2003' on page 59 undefined on input line 116.
+Overfull \hbox (11.63475pt too wide) in paragraph at lines 114--115
+\T1/txr/m/n/12 ning with con-flict-ing ob-jec-tives si-mul-ta-ne-ously[[][]TH08[][]], mas-ter plan-ning[[][]CH07[][]]; 
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2091,19 +2152,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 
 [59]
 
-LaTeX Warning: Citation `Azimian2017' on page 60 undefined on input line 121.
-
-
-LaTeX Warning: Citation `Charnes1955' on page 60 undefined on input line 124.
-
-
-LaTeX Warning: Citation `Contini1968' on page 60 undefined on input line 124.
-
-
-Underfull \vbox (badness 2884) has occurred while \output is active []
-
-
-
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
  We now make it that large for the rest of the document.
@@ -2111,27 +2159,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 
 [60]
 
-LaTeX Warning: Citation `Azimian2017' on page 61 undefined on input line 131.
-
-
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [61]
-
-LaTeX Warning: Citation `Zadeh1965' on page 62 undefined on input line 140.
-
-
-LaTeX Warning: Citation `Rehman2017' on page 62 undefined on input line 141.
-
-
-LaTeX Warning: Citation `Diaz-Madronero2018' on page 62 undefined on input line 141.
-
-
-LaTeX Warning: Citation `Nomani2016' on page 62 undefined on input line 141.
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
@@ -2149,19 +2182,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [63]
-
-LaTeX Warning: Citation `Santoso2005' on page 64 undefined on input line 145.
-
-
-LaTeX Warning: Citation `Porter1998' on page 64 undefined on input line 145.
-
-
-LaTeX Warning: Citation `Yaghobi2008' on page 64 undefined on input line 145.
-
-
-Underfull \vbox (badness 2828) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
@@ -2204,10 +2224,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [67]
-
-LaTeX Warning: Citation `Zadeh_1965' on page 68 undefined on input line 253.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 250--254
 
  []
@@ -2306,6 +2322,25 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [74]
+
+./ch2.tex:343: LaTeX Error: \begin{mini*} on input line 325 ended by \end{mini!}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.343 \end{mini!}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (15.94618pt too wide) in paragraph at lines 343--343
+[] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2316,7 +2351,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [75]
-Overfull \vbox (258.63005pt too high) has occurred while \output is active []
+Overfull \vbox (42.26079pt too high) has occurred while \output is active []
 
 
 
@@ -2333,20 +2368,17 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [77]
-<Images/tradeoff.png, id=664, 505.6491pt x 505.6491pt>
+<Images/tradeoff.png, id=766, 505.6491pt x 505.6491pt>
 File: Images/tradeoff.png Graphic file (type png)
 <use Images/tradeoff.png>
-Package pdftex.def Info: Images/tradeoff.png  used on input line 375. on input line 375.
-Package pdftex.def Info: Requested size: 272.99881pt x 273.00786pt on input line 375.
+Package pdftex.def Info: Images/tradeoff.png  used on input line 371. on input line 371.
+Package pdftex.def Info: Requested size: 272.99881pt x 273.00786pt on input line 371.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `Saaty1980' on page 78 undefined on input line 379.
-
-
-Overfull \hbox (0.89612pt too wide) in paragraph at lines 379--380
+Overfull \hbox (0.89612pt too wide) in paragraph at lines 375--376
 []\T1/txr/m/n/12 Given the knowl-edge about the trade-off that DM faces be-tween greener choices
  []
 
@@ -2371,15 +2403,15 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.386 
+l.382 
        <./Images/tradeoff.png>]
-Overfull \hbox (14.44815pt too wide) in paragraph at lines 389--399
+Overfull \hbox (14.44815pt too wide) in paragraph at lines 385--395
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 404.
+               Default added (so using `tbp') on input line 400.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2391,22 +2423,22 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.420 
+l.416 
       pdfTeX warning (ext4): destination with the same identifier (name{table.2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.420 
+l.416 
       ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 421.
+               Default added (so using `tbp') on input line 417.
 
-<Images/network.png, id=681, 957.0957pt x 569.4876pt>
+<Images/network.png, id=783, 957.0957pt x 569.4876pt>
 File: Images/network.png Graphic file (type png)
 <use Images/network.png>
-Package pdftex.def Info: Images/network.png  used on input line 440. on input line 440.
-Package pdftex.def Info: Requested size: 592.0pt x 352.25314pt on input line 440.
+Package pdftex.def Info: Images/network.png  used on input line 436. on input line 436.
+Package pdftex.def Info: Requested size: 592.0pt x 352.25314pt on input line 436.
 ) (./End.tex
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2438,89 +2470,95 @@ l.1 \clearpage
 ] [84
 
 
-]) (./Thesis.bbl [85
+])
+Overfull \hbox (13.90219pt too wide) in paragraph at lines 43--43
+[]\T1/txr/m/n/12 Alireza Az-imian and Be-laid Aouni. ``Sup-ply chain man-age-ment through
+ []
+
+
+Overfull \hbox (2.17816pt too wide) in paragraph at lines 43--43
+[]\T1/txr/m/n/12 Julian Ben-jamin. ``An Anal-y-sis of In-ven-tory and Trans-porta-tion Costs
+ []
+
+
+Overfull \hbox (1.57405pt too wide) in paragraph at lines 43--43
+\T1/txr/m/n/12 in a Con-strained Net-work''. en. In: \T1/txr/m/it/12 Trans-porta-tion Sci-ence \T1/txr/m/n/12 23.3 (Aug.
+ []
+
+[85
 
 ]
 
-./Thesis.bbl:50: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 ...ers \& Operations Research}, 34(11):3491‚Ä
-                                                  ì3513, Nov 2007.
+l.43 
+     
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./Thesis.bbl:50: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 ...rs \& Operations Research}, 34(11):3491‚Äì
-                                                  3513, Nov 2007.
+l.43 
+     
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 53--57
-[]\T1/txr/m/n/12 Cinzia Co-lap-into, Raja Ja-yara-man, and Si-mone Mar-siglio.
+Overfull \hbox (5.23605pt too wide) in paragraph at lines 43--43
+\T1/txr/m/n/12 criteria de-ci-sion anal-y-sis with goal pro-gram-ming in en-gi-neer-ing, man-
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 71--77
-[]\T1/txr/m/n/12 Manuel DÌaz-MadroÒero, Modesto PÈrez-S·nchez, JosÈ R.
+Overfull \hbox (16.57193pt too wide) in paragraph at lines 43--43
+[]\T1/txr/m/n/12 H. Justin David-son and Robert M. True-blood. ``Ac-count-ing for Decision-
  []
 
 [86]
-./Thesis.bbl:92: Missing $ inserted.
+./Thesis.tex:43: Missing $ inserted.
 <inserted text> 
                 $
-l.92   Development and evaluation{\ast
-                                      }.
+l.43 
+     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Thesis.bbl:92: Extra }, or forgotten $.
-l.92   Development and evaluation{\ast}
-                                       .
+./Thesis.tex:43: Extra }, or forgotten $.
+<argument> ...s: Development and Evaluation{\ast }
+                                                  
+l.43 
+     
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-
-LaTeX Font Warning: Command \em invalid in math mode on input line 93.
-
-
-./Thesis.bbl:93: LaTeX Error: Command \itshape invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.93 \newblock {\em
-                    Decision Sciences}, 21(1):154--170, jan 1990.
-Please use the math alphabet \mathit instead of the \itshape command. 
-
-./Thesis.bbl:94: Missing $ inserted.
+./Thesis.tex:43: Missing $ inserted.
 <inserted text> 
                 $
-l.94 
+l.43 
      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-./Thesis.bbl:94: Missing } inserted.
+./Thesis.tex:43: Missing } inserted.
 <inserted text> 
                 }
-l.94 
+l.43 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2529,63 +2567,152 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./Thesis.bbl:104: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 ...omputers \& Chemical Engineering}, 27(8‚Ä
-                                                  ì9):1219‚Äì1227, Sep
+l.43 
+     
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./Thesis.bbl:104: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 ...mputers \& Chemical Engineering}, 27(8‚Äì
-                                                  9):1219‚Äì1227, Sep
+l.43 
+     
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./Thesis.bbl:104: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 ...& Chemical Engineering}, 27(8‚Äì9):1219‚Ä
-                                                  ì1227, Sep
+l.43 
+     
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./Thesis.bbl:104: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 ... Chemical Engineering}, 27(8‚Äì9):1219‚Äì
-                                                  1227, Sep
+l.43 
+     
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[87] [88]
-./Thesis.bbl:164: Undefined control sequence.
+[87]
+
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+Overfull \hbox (6.19336pt too wide) in paragraph at lines 43--43
+\T1/txr/m/n/12 Multi-na-tional Firm''. In: \T1/txr/m/it/12 The Ac-count-ing Re-view \T1/txr/m/n/12 53.4 (1978), pp. 935^^U
+ []
+
+[88]
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 42.
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[89]
+./Thesis.tex:43: Undefined control sequence.
 <recently read> \mathsemicolon 
                                
-l.164 ...ple criteria {\&}{\#}x2014$\mathsemicolon
-                                                  $ a study of three potential
+l.43 
+     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2593,119 +2720,238 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./Thesis.bbl:200: Package inputenc Error: Keyboard character used is undefined
+Overfull \hbox (19.92184pt too wide) in paragraph at lines 43--43
+\T1/txr/m/n/12 Pro-gram-ming to Wind Tur-bine Se-lec-tion with Mul-ti-ple Cri-te-ria &#x2014$$
+ []
+
+
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.200 ...sponsibility in portfolio selection: A ‚Ä
-                                                  úgoal
+l.43 
+     
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./Thesis.bbl:200: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.200 ...ponsibility in portfolio selection: A ‚Äú
-                                                  goal
+l.43 
+     
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./Thesis.bbl:201: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201   games‚Ä
-               ù against nature approach.
+l.43 
+     
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./Thesis.bbl:201: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201   games‚Äù
-                 against nature approach.
+l.43 
+     
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[89]
 
-./Thesis.bbl:224: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.224 ...{\em Information and Control}, 8(3):338‚Ä
-                                                  ì353, Jun 1965.
+l.43 
+     
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./Thesis.bbl:224: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.224 ...\em Information and Control}, 8(3):338‚Äì
-                                                  353, Jun 1965.
+l.43 
+     
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[90]) [91]
 
-./Thesis.tex:37: LaTeX Error: \begin{doublespace} on input line 1 ended by \end{document}.
+Overfull \hbox (5.41748pt too wide) in paragraph at lines 43--43
+\T1/txr/m/it/12 Jour-nal of the Op-er-a-tional Re-search So-ci-ety \T1/txr/m/n/12 59.1 (Jan. 2008), 90‚104. 
+ []
+
+
+Overfull \hbox (1.17589pt too wide) in paragraph at lines 43--43
+[]\T1/txr/m/n/12 C. Romero. \T1/txr/m/it/12 Hand-book of Crit-i-cal Is-sues in Goal Pro-gram-ming\T1/txr/m/n/12 . Perg-
+ []
+
+
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[90]
+Overfull \hbox (22.66937pt too wide) in paragraph at lines 43--43
+\T1/txr/m/n/12 pro-gram-ming tech-nique''. In: \T1/txr/m/it/12 Man-age-ment de-ci-sion \T1/txr/m/n/12 46.4 (2008), pp. 656^^U
+ []
+
+
+Overfull \hbox (8.2072pt too wide) in paragraph at lines 43--43
+\T1/txr/m/n/12 art''. In: \T1/txr/m/it/12 Eu-ro-pean Jour-nal of Op-er-a-tional Re-search \T1/txr/m/n/12 111.3 (Dec. 1998),
+ []
+
+
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[91]
+
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./Thesis.tex:43: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+[92] [93]
+
+./Thesis.tex:45: LaTeX Error: \begin{doublespace} on input line 1 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 \end{document}
+l.45 \end{document}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
 (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: F3EAF83DFDA95A4BADA395DCED789BF6;2399.
+Package logreq Info: Writing requests to 'Thesis.run.xml'.
+\openout1 = `Thesis.run.xml'.
 
-
-Package rerunfilecheck Warning: File `Thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Thesis.out':
-(rerunfilecheck)             Before: F3EAF83DFDA95A4BADA395DCED789BF6;2399
-(rerunfilecheck)             After:  468E4A5E0BE63CC7E2A676796BA3A9A3;2447.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  )
 (\end occurred inside a group at level 2)
 
@@ -2713,18 +2959,18 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
 ### semi simple group (level 1) entered at line 1 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 30468 strings out of 492990
- 584052 string characters out of 6135005
- 639425 words of memory out of 5000000
- 33199 multiletter control sequences out of 15000+600000
- 610148 words of font info for 151 fonts, out of 8000000 for 9000
+ 36610 strings out of 492990
+ 701166 string characters out of 6135005
+ 1101547 words of memory out of 5000000
+ 39293 multiletter control sequences out of 15000+600000
+ 610470 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,18n,71p,10398b,1231s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (91 pages, 2369366 bytes).
+ 62i,18n,71p,10424b,1564s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Thesis.pdf (93 pages, 2364539 bytes).
 PDF statistics:
- 884 PDF objects out of 1000 (max. 8388607)
- 748 compressed objects within 8 object streams
- 279 named destinations out of 1000 (max. 500000)
+ 958 PDF objects out of 1000 (max. 8388607)
+ 818 compressed objects within 9 object streams
+ 276 named destinations out of 1000 (max. 500000)
  322 words of extra memory for PDF output out of 10000 (max. 10000000)
 

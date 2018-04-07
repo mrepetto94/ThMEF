@@ -1,251 +1,2349 @@
-\newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{DMPSSA{\etalchar{+}}18}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[AA17]{Azimian2017}
-Alireza Azimian and Belaid Aouni.
-\newblock Supply chain management through the stochastic goal programming
-  model.
-\newblock {\em Annals of Operations Research}, 251(1-2):351--365, April 2017.
 
-\bibitem[AMA]{Aouni2017}
-Belaid Aouni, Sheila {McGillis}, and Mustafa~Elkasih Abdulkarim.
-\newblock Goal programming model for management accounting and auditing: a new
-  typology.
-\newblock 251(1):41--54.
+\refsection{0}
+  \sortlist[entry]{anyt/global/}
+    \entry{Azimian2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=428ff4c2851f614c4a479cfd3c8bdefb}{%
+           family={Azimian},
+           familyi={A\bibinitperiod},
+           given={Alireza},
+           giveni={A\bibinitperiod}}}%
+        {{hash=424320d1c4bc5242a78ad58eb8068c9e}{%
+           family={Aouni},
+           familyi={A\bibinitperiod},
+           given={Belaid},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e3e9fd91e703b1aa462e933d3ee36b5f}
+      \strng{fullhash}{e3e9fd91e703b1aa462e933d3ee36b5f}
+      \strng{authornamehash}{e3e9fd91e703b1aa462e933d3ee36b5f}
+      \strng{authorfullhash}{e3e9fd91e703b1aa462e933d3ee36b5f}
+      \field{labelalpha}{AA17}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0254-5330, 1572-9338}
+      \field{journaltitle}{Annals of Operations Research}
+      \field{month}{4}
+      \field{number}{1-2}
+      \field{title}{Supply chain management through the stochastic goal programming model}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{251}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{351\bibrangedash 365}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/s10479-015-2007-1
+      \endverb
+      \verb{file}
+      \verb 10.1007-s10479-015-2007-1.pdf:/Users/marcorepetto/Zotero/storage/IRKTU747/10.1007-s10479-015-2007-1.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10479-015-2007-1
+      \endverb
+    \endentry
+    \entry{Aouni2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=424320d1c4bc5242a78ad58eb8068c9e}{%
+           family={Aouni},
+           familyi={A\bibinitperiod},
+           given={Belaid},
+           giveni={B\bibinitperiod}}}%
+        {{hash=42fac2f74522bb0a69ae8a6ce3af727e}{%
+           family={{McGillis}},
+           familyi={M\bibinitperiod},
+           given={Sheila},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d6caf85bedfbfa40909b23f27d602c1c}{%
+           family={Abdulkarim},
+           familyi={A\bibinitperiod},
+           given={Mustafa\bibnamedelima Elkasih},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{669646388ba7065e4174a5ab327c2ba4}
+      \strng{fullhash}{669646388ba7065e4174a5ab327c2ba4}
+      \strng{authornamehash}{669646388ba7065e4174a5ab327c2ba4}
+      \strng{authorfullhash}{669646388ba7065e4174a5ab327c2ba4}
+      \field{labelalpha}{AMA17}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0254-5330, 1572-9338}
+      \field{journaltitle}{Annals of Operations Research}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{1}
+      \field{shorttitle}{Goal programming model for management accounting and auditing}
+      \field{title}{Goal programming model for management accounting and auditing: a new typology}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2017}
+      \field{volume}{251}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{41\bibrangedash 54}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/s10479-015-1969-3
+      \endverb
+      \verb{file}
+      \verb Goal programming model for management accounting and auditing.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\IZQK7DKG\\Goal programming model for management accounting and auditing.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10479-015-1969-3
+      \endverb
+      \keyw{{GPmodel}4accounting}
+    \endentry
+    \entry{Benjamin1989}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7de556081cff62deb67d05092f9ea520}{%
+           family={Benjamin},
+           familyi={B\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{7de556081cff62deb67d05092f9ea520}
+      \strng{fullhash}{7de556081cff62deb67d05092f9ea520}
+      \strng{authornamehash}{7de556081cff62deb67d05092f9ea520}
+      \strng{authorfullhash}{7de556081cff62deb67d05092f9ea520}
+      \field{labelalpha}{Ben89}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0041-1655, 1526-5447}
+      \field{journaltitle}{Transportation Science}
+      \field{month}{8}
+      \field{number}{3}
+      \field{title}{An {Analysis} of {Inventory} and {Transportation} {Costs} in a {Constrained} {Network}}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{23}
+      \field{year}{1989}
+      \field{urldateera}{ce}
+      \field{pages}{177\bibrangedash 183}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1287/trsc.23.3.177
+      \endverb
+      \verb{url}
+      \verb http://pubsonline.informs.org/doi/abs/10.1287/trsc.23.3.177
+      \endverb
+    \endentry
+    \entry{Berman2013}{book}{}
+      \name{author}{3}{}{%
+        {{hash=bb1ef9e1e81b7789e8a2824ba94b54e2}{%
+           family={Berman},
+           familyi={B\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=11585eb5b301123d664ce0ad9fee8071}{%
+           family={Knight},
+           familyi={K\bibinitperiod},
+           given={Joe},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dea5059644491d5e5ae5248649507fda}{%
+           family={Case},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston, Mass.}%
+      }
+      \list{publisher}{1}{%
+        {Harvard Business Review Press}%
+      }
+      \strng{namehash}{dcd9f088dcb6502010eb8f99d389730e}
+      \strng{fullhash}{dcd9f088dcb6502010eb8f99d389730e}
+      \strng{authornamehash}{dcd9f088dcb6502010eb8f99d389730e}
+      \strng{authorfullhash}{dcd9f088dcb6502010eb8f99d389730e}
+      \field{labelalpha}{BKC13}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{""Inc." magazine calls it one of "the best, clearest guides to the numbers" on the market. Readers agree, saying it's exactly "what I need to know" and calling it a "must-read" for decision makers without expertise in finance. Since its release in 2006, "Financial Intelligence" has become a favorite among managers who need a guided tour through the numbers--helping them to understand not only what the numbers really mean, but also why they matter. This new, completely updated edition brings the numbers up to date and continues to teach the basics of finance to managers who need to use financial data to drive their business. It also addresses issues that have become even more important in recent years--including questions around the financial crisis and those around broader financial and accounting literacy. Accessible, jargon-free, and filled with entertaining stories of real companies, Financial Intelligence gives nonfinancial managers the confidence to understand the nuance beyond the numbers--to help bring everyday work to a new level."--Publisher's website.}
+      \field{isbn}{978-1-4221-4412-1}
+      \field{note}{{OCLC}: 891121337}
+      \field{shorttitle}{Financial intelligence}
+      \field{title}{Financial intelligence: a manager's guide to knowing what the numbers really mean}
+      \field{year}{2013}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Charnes1955}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b913840a5109dfb94a287477baba2497}{%
+           family={Charnes},
+           familyi={C\bibinitperiod},
+           given={Abraham},
+           giveni={A\bibinitperiod}}}%
+        {{hash=24f9fb06d4d5294e9aad8fffa2a4ba9c}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={William\bibnamedelima W},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=cb3781b2011ce2b9ad00375aedcb39cb}{%
+           family={Ferguson},
+           familyi={F\bibinitperiod},
+           given={Robert\bibnamedelima O},
+           giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {INFORMS}%
+      }
+      \strng{namehash}{7497c956c4c5c7b969ca9e2b3146be83}
+      \strng{fullhash}{7497c956c4c5c7b969ca9e2b3146be83}
+      \strng{authornamehash}{7497c956c4c5c7b969ca9e2b3146be83}
+      \strng{authorfullhash}{7497c956c4c5c7b969ca9e2b3146be83}
+      \field{labelalpha}{CCF55}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management science}
+      \field{number}{2}
+      \field{title}{Optimal estimation of executive compensation by linear programming}
+      \field{volume}{1}
+      \field{year}{1955}
+      \field{pages}{138\bibrangedash 151}
+      \range{pages}{14}
+    \endentry
+    \entry{Ceschin2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f22fd110b3e40dcd2d6451a3579a6d26}{%
+           family={Ceschin},
+           familyi={C\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=88c7a582371cbd049992464d3701712d}{%
+           family={Gaziulusoy},
+           familyi={G\bibinitperiod},
+           given={Idil},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{38a8572cf418ada3e2905f3496c16c67}
+      \strng{fullhash}{38a8572cf418ada3e2905f3496c16c67}
+      \strng{authornamehash}{38a8572cf418ada3e2905f3496c16c67}
+      \strng{authorfullhash}{38a8572cf418ada3e2905f3496c16c67}
+      \field{labelalpha}{CG16}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0142694X}
+      \field{journaltitle}{Design Studies}
+      \field{month}{11}
+      \field{shorttitle}{Evolution of design for sustainability}
+      \field{title}{Evolution of design for sustainability: {From} product design to design for system innovations and transitions}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{47}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{118\bibrangedash 163}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.1016/j.destud.2016.09.002
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0142694X16300631
+      \endverb
+    \endentry
+    \entry{Chern2007}{article}{}
+      \name{author}{2}{}{%
+        {{hash=842b19497462adb62d982ad1685f39f4}{%
+           family={Chern},
+           familyi={C\bibinitperiod},
+           given={C.-C.},
+           giveni={C\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=080ed464c47c4a6a18c0ad2b8be08d63}{%
+           family={Hsieh},
+           familyi={H\bibinitperiod},
+           given={J.-S.},
+           giveni={J\bibinithyphendelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ef1344601e10d911102ff8b024e8340}
+      \strng{fullhash}{0ef1344601e10d911102ff8b024e8340}
+      \strng{authornamehash}{0ef1344601e10d911102ff8b024e8340}
+      \strng{authorfullhash}{0ef1344601e10d911102ff8b024e8340}
+      \field{labelalpha}{CH07}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03050548}
+      \field{journaltitle}{Computers \& Operations Research}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{A heuristic algorithm for master planning that satisfies multiple objectives}
+      \field{volume}{34}
+      \field{year}{2007}
+      \field{pages}{3491–3513}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.cor.2006.02.022
+      \endverb
+    \endentry
+    \entry{Colapinto2017a}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ee4c6f70079979129517935337b7b3c4}{%
+           family={Colapinto},
+           familyi={C\bibinitperiod},
+           given={Cinzia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f2d44501d4c78fc024d38ee4c372cb38}{%
+           family={Jayaraman},
+           familyi={J\bibinitperiod},
+           given={Raja},
+           giveni={R\bibinitperiod}}}%
+        {{hash=944be478f4c7724c28bffb52680b9c4b}{%
+           family={Marsiglio},
+           familyi={M\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d004315d968494edb12db4857ec3b524}
+      \strng{fullhash}{d004315d968494edb12db4857ec3b524}
+      \strng{authornamehash}{d004315d968494edb12db4857ec3b524}
+      \strng{authorfullhash}{d004315d968494edb12db4857ec3b524}
+      \field{labelalpha}{CJM17}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0254-5330, 1572-9338}
+      \field{journaltitle}{Annals of Operations Research}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{1}
+      \field{shorttitle}{Multi-criteria decision analysis with goal programming in engineering, management and social sciences}
+      \field{title}{Multi-criteria decision analysis with goal programming in engineering, management and social sciences: a state-of-the art review}
+      \field{urlday}{10}
+      \field{urlmonth}{4}
+      \field{urlyear}{2017}
+      \field{volume}{251}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7\bibrangedash 40}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1007/s10479-015-1829-1
+      \endverb
+      \verb{file}
+      \verb Goal programming model for management accounting and auditing.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\BEW5TBXQ\\Goal programming model for management accounting and auditing.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10479-015-1829-1
+      \endverb
+      \keyw{{multicriteriaGP}}
+    \endentry
+    \entry{Contini1968}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5b686765129ed3099e83762bb123d82c}{%
+           family={Contini},
+           familyi={C\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {INFORMS}%
+      }
+      \strng{namehash}{5b686765129ed3099e83762bb123d82c}
+      \strng{fullhash}{5b686765129ed3099e83762bb123d82c}
+      \strng{authornamehash}{5b686765129ed3099e83762bb123d82c}
+      \strng{authorfullhash}{5b686765129ed3099e83762bb123d82c}
+      \field{labelalpha}{Con68}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Operations Research}
+      \field{number}{3}
+      \field{title}{A stochastic approach to goal programming}
+      \field{volume}{16}
+      \field{year}{1968}
+      \field{pages}{576\bibrangedash 586}
+      \range{pages}{11}
+    \endentry
+    \entry{Cui2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=81eb6228a879db7d01f1accc61e30a6b}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Yunfei},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7e6547c28b60a56475f487bfd87728a5}{%
+           family={Geng},
+           familyi={G\bibinitperiod},
+           given={Zhiqiang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=dd33e402ed7804a0d7cd2f444c531be2}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Qunxiong},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=22c4ea57efb1229d1d9908893e60aa53}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Yongming},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{672129824cb97212b326f5a3ca03fa8c}
+      \strng{fullhash}{54739005bf83d43c95620e357ad11313}
+      \strng{authornamehash}{672129824cb97212b326f5a3ca03fa8c}
+      \strng{authorfullhash}{54739005bf83d43c95620e357ad11313}
+      \field{labelalpha}{Cui+17}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy}
+      \field{month}{4}
+      \field{title}{Review: Multi-objective optimization methods and application in energy saving}
+      \field{volume}{125}
+      \field{year}{2017}
+      \field{pages}{681\bibrangedash 704}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1016/j.energy.2017.02.174
+      \endverb
+    \endentry
+    \entry{Diabat2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5b2bffd2ef5c25ee568e45426021350f}{%
+           family={Diabat},
+           familyi={D\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4f682bd3c8fe803d5acb358eab920f26}{%
+           family={Govindan},
+           familyi={G\bibinitperiod},
+           given={Kannan},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{207735d4fb6b02b35213ef37165d53de}
+      \strng{fullhash}{207735d4fb6b02b35213ef37165d53de}
+      \strng{authornamehash}{207735d4fb6b02b35213ef37165d53de}
+      \strng{authorfullhash}{207735d4fb6b02b35213ef37165d53de}
+      \field{labelalpha}{DG11}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Resources, Conservation and Recycling}
+      \field{month}{4}
+      \field{number}{6}
+      \field{title}{An analysis of the drivers affecting the implementation of green supply chain management}
+      \field{volume}{55}
+      \field{year}{2011}
+      \field{pages}{659\bibrangedash 667}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.resconrec.2010.12.002
+      \endverb
+      \verb{file}
+      \verb :/home/mrepetto94/Documents/Biblio/0b61ebadf8a840a66ea705a0f4d038a2db7f.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Diaz-Madronero2018}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7a0dab3167deb7ad56f6609b60825701}{%
+           family={D\'{\i{}}az-Madro\~{n}ero},
+           familyi={D\bibinithyphendelim M\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=49a8f6de18d84e8ffdf7950d20682d54}{%
+           family={P\'{e}rez-S\'{a}nchez},
+           familyi={P\bibinithyphendelim S\bibinitperiod},
+           given={Modesto},
+           giveni={M\bibinitperiod}}}%
+        {{hash=00b2f88aa6247293c44f0f051737e2d9}{%
+           family={Satorre-Aznar},
+           familyi={S\bibinithyphendelim A\bibinitperiod},
+           given={Jos\'{e}\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=1438c5eb19095d385a8c0871304f4ef8}{%
+           family={Mula},
+           familyi={M\bibinitperiod},
+           given={Josefa},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a22f69a854a827f064f2c2610e36bda4}{%
+           family={L\'{o}pez-Jim\'{e}nez},
+           familyi={L\bibinithyphendelim J\bibinitperiod},
+           given={P.\bibnamedelimi Amparo},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{b9277c3e02ec359225deb275e109c6f1}
+      \strng{fullhash}{c66cd4d317e3e76dcd519932eb637dba}
+      \strng{authornamehash}{b9277c3e02ec359225deb275e109c6f1}
+      \strng{authorfullhash}{c66cd4d317e3e76dcd519932eb637dba}
+      \field{labelalpha}{D\'{\i{}}a+18}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Cleaner Production}
+      \field{month}{4}
+      \field{title}{Analysis of a wastewater treatment plant using fuzzy goal programming as a management tool: A case study}
+      \field{volume}{180}
+      \field{year}{2018}
+      \field{pages}{20\bibrangedash 33}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.jclepro.2018.01.129
+      \endverb
+    \endentry
+    \entry{Davidson1961}{article}{}
+      \name{author}{2}{}{%
+        {{hash=27b1c0d4cba4000663a29e97a35af6bf}{%
+           family={Davidson},
+           familyi={D\bibinitperiod},
+           given={H.\bibnamedelimi Justin},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4ece85724d1b2785be7d92d893b5cc25}{%
+           family={Trueblood},
+           familyi={T\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Accounting Association}%
+      }
+      \strng{namehash}{8a095b3003581bf84929eb15652173ff}
+      \strng{fullhash}{8a095b3003581bf84929eb15652173ff}
+      \strng{authornamehash}{8a095b3003581bf84929eb15652173ff}
+      \strng{authorfullhash}{8a095b3003581bf84929eb15652173ff}
+      \field{labelalpha}{DT61}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00014826}
+      \field{journaltitle}{The Accounting Review}
+      \field{number}{4}
+      \field{title}{Accounting for Decision-Making}
+      \field{volume}{36}
+      \field{year}{1961}
+      \field{pages}{577\bibrangedash 582}
+      \range{pages}{6}
+      \verb{url}
+      \verb http://www.jstor.org/stable/242682
+      \endverb
+    \endentry
+    \entry{Feller2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b65e1cba9f25104b205f647a3bf2bf72}{%
+           family={Feller},
+           familyi={F\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7359200362271e6753e021685f7d0836}{%
+           family={Schanz},
+           familyi={S\bibinitperiod},
+           given={Deborah},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c5253178e67c27d5ba5797387989a96}
+      \strng{fullhash}{0c5253178e67c27d5ba5797387989a96}
+      \strng{authornamehash}{0c5253178e67c27d5ba5797387989a96}
+      \strng{authorfullhash}{0c5253178e67c27d5ba5797387989a96}
+      \field{labelalpha}{FS17}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{08239150}
+      \field{journaltitle}{Contemporary Accounting Research}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{1}
+      \field{shorttitle}{The Three Hurdles of Tax Planning}
+      \field{title}{The Three Hurdles of Tax Planning: How Business Context, Aims of Tax Planning, and Tax Manager Power Affect Tax Expense}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{volume}{34}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{494\bibrangedash 524}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1111/1911-3846.12278
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1111/1911-3846.12278
+      \endverb
+    \endentry
+    \entry{Greco2016}{collection}{}
+      \name{editor}{3}{}{%
+        {{hash=e894237f4558028070b82653db8f3561}{%
+           family={Greco},
+           familyi={G\bibinitperiod},
+           given={Salvatore},
+           giveni={S\bibinitperiod}}}%
+        {{hash=dd52f015c9f959c6a328469399e09e4c}{%
+           family={Ehrgott},
+           familyi={E\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9d0a61685cf7f5217c98016356721c8c}{%
+           family={Figueira},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, {NY}}%
+      }
+      \list{publisher}{1}{%
+        {Springer New York}%
+      }
+      \strng{namehash}{a3503c1e5f6e3061b66c7661dd25f027}
+      \strng{fullhash}{a3503c1e5f6e3061b66c7661dd25f027}
+      \strng{editornamehash}{a3503c1e5f6e3061b66c7661dd25f027}
+      \strng{editorfullhash}{a3503c1e5f6e3061b66c7661dd25f027}
+      \field{labelalpha}{GEF16}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4939-3093-7}
+      \field{series}{International Series in Operations Research \& Management Science}
+      \field{title}{Multiple Criteria Decision Analysis}
+      \field{urlday}{23}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{volume}{233}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-1-4939-3094-4
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-1-4939-3094-4
+      \endverb
+    \endentry
+    \entry{Gardner1990}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9e4562aee8539581c1435b2fb69ce03a}{%
+           family={Gardner},
+           familyi={G\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=af3de8e1ea710087b5cd254a1c7959cd}{%
+           family={Huefner},
+           familyi={H\bibinitperiod},
+           given={Ronald\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=3f10a6e12c7f8eecd16fd4a6a5c29d2b}{%
+           family={Lotfi},
+           familyi={L\bibinitperiod},
+           given={Vahid},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-Blackwell}%
+      }
+      \strng{namehash}{bbc4fac9daecfe16014104c49033f7b9}
+      \strng{fullhash}{bbc4fac9daecfe16014104c49033f7b9}
+      \strng{authornamehash}{bbc4fac9daecfe16014104c49033f7b9}
+      \strng{authorfullhash}{bbc4fac9daecfe16014104c49033f7b9}
+      \field{labelalpha}{GHL90}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Decision Sciences}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{A Multiperiod Audit Staff Planning Model Using Multiple Objectives: Development and Evaluation{\ast}}
+      \field{volume}{21}
+      \field{year}{1990}
+      \field{pages}{154\bibrangedash 170}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1111/j.1540-5915.1990.tb00322.x
+      \endverb
+    \endentry
+    \entry{Gilbert2001}{article}{}
+      \name{author}{1}{}{%
+        {{hash=22fc96bb5db4c931187e648b5a2fdf9e}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{22fc96bb5db4c931187e648b5a2fdf9e}
+      \strng{fullhash}{22fc96bb5db4c931187e648b5a2fdf9e}
+      \strng{authornamehash}{22fc96bb5db4c931187e648b5a2fdf9e}
+      \strng{authorfullhash}{22fc96bb5db4c931187e648b5a2fdf9e}
+      \field{labelalpha}{Gil01}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Tapei, Taiwan}
+      \field{title}{Greening supply chain: Enhancing competitiveness through green productivity}
+      \field{volume}{16}
+      \field{year}{2001}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{Gupta2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=12f99fb583327492183593a3e6fb01a1}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Anshuman},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4f2cd81ba21c78d973f08be3b6d8a38a}{%
+           family={Maranas},
+           familyi={M\bibinitperiod},
+           given={Costas\bibnamedelima D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{04f1f4fff9f63c4b9133b7a42d64c1d8}
+      \strng{fullhash}{04f1f4fff9f63c4b9133b7a42d64c1d8}
+      \strng{authornamehash}{04f1f4fff9f63c4b9133b7a42d64c1d8}
+      \strng{authorfullhash}{04f1f4fff9f63c4b9133b7a42d64c1d8}
+      \field{labelalpha}{GM03}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00981354}
+      \field{journaltitle}{Computers \& Chemical Engineering}
+      \field{month}{9}
+      \field{number}{8–9}
+      \field{title}{Managing demand uncertainty in supply chain planning}
+      \field{volume}{27}
+      \field{year}{2003}
+      \field{pages}{1219–1227}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/S0098-1354(03)00048-6
+      \endverb
+    \endentry
+    \entry{Ijiri1971}{article}{}
+      \name{author}{2}{}{%
+        {{hash=18c5aebd992f5682308afb2ad8ef6cbc}{%
+           family={Ijiri},
+           familyi={I\bibinitperiod},
+           given={Yuji},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=15acf99e94cabda458537ab9487ae54f}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={Robert\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{e8a6589dc291d783e9bf2422268a3714}
+      \strng{fullhash}{e8a6589dc291d783e9bf2422268a3714}
+      \strng{authornamehash}{e8a6589dc291d783e9bf2422268a3714}
+      \strng{authorfullhash}{e8a6589dc291d783e9bf2422268a3714}
+      \field{labelalpha}{IK71}
+      \field{sortinit}{I}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Accounting Research}
+      \field{number}{1}
+      \field{title}{A Model for Integrating Sampling Objectives in Auditing}
+      \field{volume}{9}
+      \field{year}{1971}
+      \field{pages}{73}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2307/2490203
+      \endverb
+    \endentry
+    \entry{Iranmanesh2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ab048b9d696b75d519cbc983f50bc849}{%
+           family={Iranmanesh},
+           familyi={I\bibinitperiod},
+           given={Hossein},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0996aa90c6fb524e1b468df57eb9e78c}{%
+           family={Thomson},
+           familyi={T\bibinitperiod},
+           given={Vince},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{9a5810845437110b316847c6f23c2954}
+      \strng{fullhash}{9a5810845437110b316847c6f23c2954}
+      \strng{authornamehash}{9a5810845437110b316847c6f23c2954}
+      \strng{authorfullhash}{9a5810845437110b316847c6f23c2954}
+      \field{labelalpha}{IT08}
+      \field{sortinit}{I}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Production Economics}
+      \field{number}{1}
+      \field{title}{Competitive advantage by adjusting design characteristics to satisfy cost targets}
+      \field{volume}{115}
+      \field{year}{2008}
+      \field{pages}{64\bibrangedash 71}
+      \range{pages}{8}
+    \endentry
+    \entry{Jung2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f47fe3e45e65f6bf49bcfb6ad62ba6b9}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Hosang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1002a59e1694b2b86f5c016bbbbe0fec}{%
+           family={Jeong},
+           familyi={J\bibinitperiod},
+           given={Bongju},
+           giveni={B\bibinitperiod}}}%
+        {{hash=9737529d273b3760ea4fe715cc5a1f77}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Chi-Guhn},
+           giveni={C\bibinithyphendelim G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{bef7a53fd8b352d4aaedd34b1824679f}
+      \strng{fullhash}{bef7a53fd8b352d4aaedd34b1824679f}
+      \strng{authornamehash}{bef7a53fd8b352d4aaedd34b1824679f}
+      \strng{authorfullhash}{bef7a53fd8b352d4aaedd34b1824679f}
+      \field{labelalpha}{JJL08}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09255273}
+      \field{journaltitle}{International Journal of Production Economics}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{An order quantity negotiation model for distributor-driven supply chains}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{111}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{147\bibrangedash 158}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.ijpe.2006.12.054
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0925527307000138
+      \endverb
+    \endentry
+    \entry{Kanyalkar2005}{article}{}
+      \name{author}{2}{}{%
+        {{hash=03ba9c782d665b89a99ec45f3da0250f}{%
+           family={Kanyalkar},
+           familyi={K\bibinitperiod},
+           given={A.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=ed0b207bfa3604dbd6167cf01a2accb7}{%
+           family={Adil\bibnamedelima *},
+           familyi={A\bibinitperiod\bibinitdelim *\bibinitperiod},
+           given={G.\bibnamedelimi K.},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea2a4b19ceba7f0f0b15ee3eca3f22bf}
+      \strng{fullhash}{ea2a4b19ceba7f0f0b15ee3eca3f22bf}
+      \strng{authornamehash}{ea2a4b19ceba7f0f0b15ee3eca3f22bf}
+      \strng{authorfullhash}{ea2a4b19ceba7f0f0b15ee3eca3f22bf}
+      \field{labelalpha}{KA05}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0020-7543, 1366-588X}
+      \field{journaltitle}{International Journal of Production Research}
+      \field{month}{10}
+      \field{number}{20}
+      \field{title}{An integrated aggregate and detailed planning in a multi-site production environment using linear programming}
+      \field{volume}{43}
+      \field{year}{2005}
+      \field{pages}{4431–4454}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1080/00207540500142332
+      \endverb
+    \endentry
+    \entry{Kruger2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=59f56526870fce89519a5b7c903d6194}{%
+           family={Kruger},
+           familyi={K\bibinitperiod},
+           given={HA},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6410eccd34f299ccd581634b1c54ded1}{%
+           family={Hattingh},
+           familyi={H\bibinitperiod},
+           given={JM},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Stellenbosch University}%
+      }
+      \strng{namehash}{64764f2c5ab1dc4bdf83894c1b0d9826}
+      \strng{fullhash}{64764f2c5ab1dc4bdf83894c1b0d9826}
+      \strng{authornamehash}{64764f2c5ab1dc4bdf83894c1b0d9826}
+      \strng{authorfullhash}{64764f2c5ab1dc4bdf83894c1b0d9826}
+      \field{labelalpha}{KH06}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{ORiON}}
+      \field{month}{6}
+      \field{number}{1}
+      \field{title}{A combined {AHP}-{GP} model to allocate internal auditing time to projects}
+      \field{volume}{22}
+      \field{year}{2006}
+      \verb{doi}
+      \verb 10.5784/22-1-33
+      \endverb
+    \endentry
+    \entry{Killough1973}{article}{}
+      \name{author}{2}{}{%
+        {{hash=67814705855375f7cf2571fb383cc15a}{%
+           family={Killough},
+           familyi={K\bibinitperiod},
+           given={Larry\bibnamedelima N.},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=164e54c7eda190dcbccedf26e3782feb}{%
+           family={Souders},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Accounting Association}%
+      }
+      \strng{namehash}{29579230ac75448e878c3e13436d54b5}
+      \strng{fullhash}{29579230ac75448e878c3e13436d54b5}
+      \strng{authornamehash}{29579230ac75448e878c3e13436d54b5}
+      \strng{authorfullhash}{29579230ac75448e878c3e13436d54b5}
+      \field{labelalpha}{KS73}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00014826}
+      \field{journaltitle}{The Accounting Review}
+      \field{number}{2}
+      \field{title}{A Goal Programming Model for Public Accounting Firms}
+      \field{volume}{48}
+      \field{year}{1973}
+      \field{pages}{268\bibrangedash 279}
+      \range{pages}{12}
+      \verb{url}
+      \verb http://www.jstor.org/stable/244917
+      \endverb
+    \endentry
+    \entry{Kwak2003}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0cbb7b4bb829fb63df35cb9f6f7416a5}{%
+           family={Kwak},
+           familyi={K\bibinitperiod},
+           given={Wikil},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{0cbb7b4bb829fb63df35cb9f6f7416a5}
+      \strng{fullhash}{0cbb7b4bb829fb63df35cb9f6f7416a5}
+      \strng{authornamehash}{0cbb7b4bb829fb63df35cb9f6f7416a5}
+      \strng{authorfullhash}{0cbb7b4bb829fb63df35cb9f6f7416a5}
+      \field{labelalpha}{Kwa03}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Quantitative Finance and Accounting}
+      \field{number}{3}
+      \field{title}{Human Resource Allocation in a CPA Firm: A Fuzzy Set Approach}
+      \field{volume}{20}
+      \field{year}{2003}
+      \field{pages}{277\bibrangedash 290}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1023/a:1023676529552
+      \endverb
+    \endentry
+    \entry{Liang2009}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9419fc2e31be73f6fbb5370775b7eb20}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Tien-Fu},
+           giveni={T\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=3ae9d4e53c6edaf41d573ee70cda9995}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Hung-Wen},
+           giveni={H\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca668151ff0273939abc8c25c3342418}
+      \strng{fullhash}{ca668151ff0273939abc8c25c3342418}
+      \strng{authornamehash}{ca668151ff0273939abc8c25c3342418}
+      \strng{authorfullhash}{ca668151ff0273939abc8c25c3342418}
+      \field{labelalpha}{LC09}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09574174}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{Application of fuzzy sets to manufacturing/distribution planning decisions with multi-product and multi-time period in supply chains}
+      \field{volume}{36}
+      \field{year}{2009}
+      \field{pages}{3367–3377}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.eswa.2008.01.002
+      \endverb
+    \endentry
+    \entry{Merville1978}{article}{}
+      \name{author}{2}{}{%
+        {{hash=89a88198ac6d9d76a96a6cd9921e3ec0}{%
+           family={Merville},
+           familyi={M\bibinitperiod},
+           given={Larry\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=53f7e1b5c088ba73215d56c95c1931bf}{%
+           family={Petty},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi William},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b73cd089f9aea61e6d767604443d0a4}
+      \strng{fullhash}{6b73cd089f9aea61e6d767604443d0a4}
+      \strng{authornamehash}{6b73cd089f9aea61e6d767604443d0a4}
+      \strng{authorfullhash}{6b73cd089f9aea61e6d767604443d0a4}
+      \field{labelalpha}{MP78}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There are several aspects of the international business environment which affect the setting of a transfer price. These items include the various methods and rates of income taxation; quotas and duties imposed on imported materials; capital flow restrictions and currency regulations imposed by a host government; and managerial preferences for risk avoidance through consideration of risks associated with foreign exchange rate fluctuations, rates of inflation and nationalization. Also, the behavioral dimension of managerial rewards and controls must be considered in the transfer pricing problem. Since transfer prices usually cannot be set to accomplish all of these goals simultaneously, some means must be devised by which the firm's multiple objectives are optimized. In this vein, the transfer pricing problem is formulated in both a single-objective and a multiple-objective approach for comparison purposes. Specifically, the transfer pricing problem is couched in both a linear programming and a goal programming framework to allow for the optimization of differing tax rates, profit requirements, and exposure and nationalization risks around the world.}
+      \field{issn}{00014826}
+      \field{journaltitle}{The Accounting Review}
+      \field{number}{4}
+      \field{title}{Transfer Pricing for the Multinational Firm}
+      \field{volume}{53}
+      \field{year}{1978}
+      \field{dateera}{ce}
+      \field{pages}{935\bibrangedash 951}
+      \range{pages}{17}
+      \verb{file}
+      \verb Tp for multinationals.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\9W5S8ZPI\\Tp for multinationals.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/246302
+      \endverb
+    \endentry
+    \entry{Mula2010}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1438c5eb19095d385a8c0871304f4ef8}{%
+           family={Mula},
+           familyi={M\bibinitperiod},
+           given={Josefa},
+           giveni={J\bibinitperiod}}}%
+        {{hash=163a13a52e1b2be749e8c031e2d19b3a}{%
+           family={Peidro},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=569f488a41cc3a476f542e808d7ad408}{%
+           family={Daaz-Madroaero},
+           familyi={D\bibinithyphendelim M\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=666549d5bbf4b2850f86a66d0cfaa7f1}{%
+           family={Vicens},
+           familyi={V\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e494ef48eb3b36a928b8c3618d52f19f}
+      \strng{fullhash}{ddfbde0f611f317f0b07401205131940}
+      \strng{authornamehash}{e494ef48eb3b36a928b8c3618d52f19f}
+      \strng{authorfullhash}{ddfbde0f611f317f0b07401205131940}
+      \field{labelalpha}{Mul+10}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03772217}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{month}{8}
+      \field{number}{3}
+      \field{title}{Mathematical programming models for supply chain production and transport planning}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{204}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{377\bibrangedash 390}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.ejor.2009.09.008
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0377221709005694
+      \endverb
+    \endentry
+    \entry{Nomani2016}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5c246f5ddfc7bc078f4aedec47933046}{%
+           family={Nomani},
+           familyi={N\bibinitperiod},
+           given={Mohammad\bibnamedelima Asim},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1f262b8db98b1f765534b157e103f21a}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Irfan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=34721856afecfaede392fe1b9d0c8f9b}{%
+           family={Fügenschuh},
+           familyi={F\bibinitperiod},
+           given={Armin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=edf4b041d1d3a018a34bee5d0c07b39f}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Aquil},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Informa {UK} Limited}%
+      }
+      \strng{namehash}{49249d3c8581a8df6e4f2636061068ca}
+      \strng{fullhash}{a322629fa01d754d54d67cc018c87ad7}
+      \strng{authornamehash}{49249d3c8581a8df6e4f2636061068ca}
+      \strng{authorfullhash}{a322629fa01d754d54d67cc018c87ad7}
+      \field{labelalpha}{Nom+16}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Economics Letters}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{A fuzzy goal programming approach to analyse sustainable development goals of India}
+      \field{volume}{24}
+      \field{year}{2016}
+      \field{pages}{443\bibrangedash 447}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1080/13504851.2016.1200178
+      \endverb
+    \endentry
+    \entry{After_tax_hedging_report_2013}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={OECD},
+           familyi={O\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=301ef831a2dd43885e40c0cedefdb691}{%
+           family={Publishing},
+           familyi={P\bibinitperiod},
+           given={OECD},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{OECD} Publishing}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{editornamehash}{301ef831a2dd43885e40c0cedefdb691}
+      \strng{editorfullhash}{301ef831a2dd43885e40c0cedefdb691}
+      \field{labelalpha}{OEC13}
+      \field{sortinit}{O}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{month}{1}
+      \field{title}{After Tax Hedging Report}
+      \field{urlday}{23}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb after_tax_hedging_report.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\E552BDK3\\after_tax_hedging_report.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://www.oecd.org/ctp/aggressive/after-tax-hedging.htm
+      \endverb
+    \endentry
+    \entry{Model_Tax_Convention_2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={OECD},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{OECD} Publishing}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \field{labelalpha}{OEC15}
+      \field{sortinit}{O}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{30}
+      \field{isbn}{978-92-64-23902-9}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{note}{{DOI}: 10.1787/9789264239081-en}
+      \field{title}{Model Tax Convention on Income and on Capital 2014}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb http://www.oecd-ilibrary.org/taxation/model-tax-convention-on-income-and-on-capital-2015-full-version_9789264239081-en
+      \endverb
+    \endentry
+    \entry{OECD_ProfitSplit_2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={OECD},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \field{labelalpha}{OEC17}
+      \field{sortinit}{O}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{BEPS newsfeed}
+      \field{month}{1}
+      \field{title}{OECD releases BEPS discussion drafts on attribution of profits to permanent establishments and transactional profit splits}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb http://www.oecd.org/ctp/oecd-releases-beps-discussion-drafts-on-attribution-of-profits-to-permanent-establishments-and-transactional-profit-splits.htm
+      \endverb
+    \endentry
+    \entry{Oh2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a989a52a570696bf3ed01699d4d87774}{%
+           family={Oh},
+           familyi={O\bibinitperiod},
+           given={Hong-Choon},
+           giveni={H\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=322a90b1541a67ba2af073e727895333}{%
+           family={Karimi},
+           familyi={K\bibinitperiod},
+           given={I.\bibnamedelimi A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{71004cc8f8529967d9a1b3a5a4b07271}
+      \strng{fullhash}{71004cc8f8529967d9a1b3a5a4b07271}
+      \strng{authornamehash}{71004cc8f8529967d9a1b3a5a4b07271}
+      \strng{authorfullhash}{71004cc8f8529967d9a1b3a5a4b07271}
+      \field{labelalpha}{OK06}
+      \field{sortinit}{O}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-1541, 1547-5905}
+      \field{journaltitle}{AIChE Journal}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Global multiproduct production-Distribution planning with duty drawbacks}
+      \field{volume}{52}
+      \field{year}{2006}
+      \field{pages}{595–610}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1002/aic.10669
+      \endverb
+    \endentry
+    \entry{Ongondo2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=453b2b924a0949ef73520fafa6a26535}{%
+           family={Ongondo},
+           familyi={O\bibinitperiod},
+           given={F.O.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d67b1535c270f3ebf31315a5aaa101ed}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={I.D.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5abeb78e59f41465faae40d3c4291871}{%
+           family={Cherrett},
+           familyi={C\bibinitperiod},
+           given={T.J.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{a30d0fa2838fb3739b225f03571ae37d}
+      \strng{fullhash}{a30d0fa2838fb3739b225f03571ae37d}
+      \strng{authornamehash}{a30d0fa2838fb3739b225f03571ae37d}
+      \strng{authorfullhash}{a30d0fa2838fb3739b225f03571ae37d}
+      \field{labelalpha}{OWC11}
+      \field{sortinit}{O}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0956053X}
+      \field{journaltitle}{Waste Management}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shorttitle}{How are {WEEE} doing?}
+      \field{title}{How are {WEEE} doing? {A} global review of the management of electrical and electronic wastes}
+      \field{urlday}{6}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{31}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{714\bibrangedash 730}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.wasman.2010.10.023
+      \endverb
+      \verb{file}
+      \verb 1-s2.0-S0956053X10005659-main.pdf:/Users/marcorepetto/Zotero/storage/LXM57FT9/1-s2.0-S0956053X10005659-main.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0956053X10005659
+      \endverb
+    \endentry
+    \entry{Porter1998}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0c205deb7feba978abbb85c57f2d0fc0}{%
+           family={Porter},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Free Press}%
+      }
+      \strng{namehash}{0c205deb7feba978abbb85c57f2d0fc0}
+      \strng{fullhash}{0c205deb7feba978abbb85c57f2d0fc0}
+      \strng{authornamehash}{0c205deb7feba978abbb85c57f2d0fc0}
+      \strng{authorfullhash}{0c205deb7feba978abbb85c57f2d0fc0}
+      \field{labelalpha}{Por98}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{isbn}{0684841460,9780684841465}
+      \field{title}{Competitive Advantage: Creating and Sustaining Superior Performance}
+      \field{year}{1998}
+    \endentry
+    \entry{Rehman2017}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=a20aea40a39c78a35669cfbf58bcd233}{%
+           family={Rehman},
+           familyi={R\bibinitperiod},
+           given={Shafiqur},
+           giveni={S\bibinitperiod}}}%
+        {{hash=cbabbf61226fa40a21a8b227f2d3fdfd}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Salman\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2f8de21cd065d82273fba6069bb03a37}
+      \strng{fullhash}{2f8de21cd065d82273fba6069bb03a37}
+      \strng{authornamehash}{2f8de21cd065d82273fba6069bb03a37}
+      \strng{authorfullhash}{2f8de21cd065d82273fba6069bb03a37}
+      \field{labelalpha}{RK17}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 6th {IIAI} International Congress on Advanced Applied Informatics ({IIAI}-{AAI})}
+      \field{month}{7}
+      \field{title}{Application of Fuzzy Goal Programming to Wind Turbine Selection with Multiple Criteria {\&}{\#}x2014$\mathsemicolon$ A Study of Three Potential Sites in Saudi Arabia}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1109/iiai-aai.2017.22
+      \endverb
+    \endentry
+    \entry{Rizk2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=daf35f9a290cba057bf2212b93bf0ffc}{%
+           family={Rizk},
+           familyi={R\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=dc42a525426f82a61c4d7747f7da89c8}{%
+           family={Martel},
+           familyi={M\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0cb78da3348b1a452873934679787984}{%
+           family={D’Amours},
+           familyi={D\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{03adf597079c5d0a27e9fcb5ec363310}
+      \strng{fullhash}{03adf597079c5d0a27e9fcb5ec363310}
+      \strng{authornamehash}{03adf597079c5d0a27e9fcb5ec363310}
+      \strng{authorfullhash}{03adf597079c5d0a27e9fcb5ec363310}
+      \field{labelalpha}{RMD08}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0160-5682, 1476-9360}
+      \field{journaltitle}{Journal of the Operational Research Society}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Synchronized production–distribution planning in a single-plant multi-destination network}
+      \field{volume}{59}
+      \field{year}{2008}
+      \field{pages}{90–104}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1057/palgrave.jors.2602316
+      \endverb
+    \endentry
+    \entry{Romo2009}{article}{}
+      \name{author}{6}{}{%
+        {{hash=98917cce1e8029b453f208db83cbc938}{%
+           family={Romo},
+           familyi={R\bibinitperiod},
+           given={Frode},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e2c23fd5a7944934c43fa100cef3668b}{%
+           family={Tomasgard},
+           familyi={T\bibinitperiod},
+           given={Asgeir},
+           giveni={A\bibinitperiod}}}%
+        {{hash=708693bfc07ed9a8905b8f98b8296935}{%
+           family={Hellemo},
+           familyi={H\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod}}}%
+        {{hash=faf1da29cd44c3b020930986b9256e00}{%
+           family={Fodstad},
+           familyi={F\bibinitperiod},
+           given={Marte},
+           giveni={M\bibinitperiod}}}%
+        {{hash=855a33015a491ce4034fcdf0d8c2a308}{%
+           family={Eidesen},
+           familyi={E\bibinitperiod},
+           given={Bjorgulf\bibnamedelima Haukelidsater},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=1069b90cb51c09c36498c632297bb370}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={Birger},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8f92fe7952923127048256041362296d}
+      \strng{fullhash}{25544f310c1e35efac7bc2ee06ed9ab9}
+      \strng{authornamehash}{8f92fe7952923127048256041362296d}
+      \strng{authorfullhash}{25544f310c1e35efac7bc2ee06ed9ab9}
+      \field{labelalpha}{Rom+09}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0092-2102, 1526-551X}
+      \field{journaltitle}{Interfaces}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Optimizing the Norwegian Natural Gas Production and Transport}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{39}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{46\bibrangedash 56}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1287/inte.1080.0414
+      \endverb
+      \verb{file}
+      \verb Optimizing_the_Norwegian_Natural_Gas_Production_an.pdf:/Users/marcorepetto/Zotero/storage/5ZZS4UWG/Optimizing_the_Norwegian_Natural_Gas_Production_an.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://pubsonline.informs.org/doi/abs/10.1287/inte.1080.0414
+      \endverb
+    \endentry
+    \entry{Romero2014}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f7c92a0bfc8345472f8b2e0d902ec796}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pergamon}%
+      }
+      \strng{namehash}{f7c92a0bfc8345472f8b2e0d902ec796}
+      \strng{fullhash}{f7c92a0bfc8345472f8b2e0d902ec796}
+      \strng{authornamehash}{f7c92a0bfc8345472f8b2e0d902ec796}
+      \strng{authorfullhash}{f7c92a0bfc8345472f8b2e0d902ec796}
+      \field{labelalpha}{Rom14}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781483295114}
+      \field{title}{Handbook of Critical Issues in Goal Programming}
+      \field{year}{2014}
+      \verb{url}
+      \verb https://www.amazon.com/Handbook-Critical-Issues-Goal-Programming-ebook/dp/B01E54DW7E?SubscriptionId=0JYN1NVW651KCA56C102&tag=techkie-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01E54DW7E
+      \endverb
+    \endentry
+    \entry{Saaty1980}{article}{}
+      \name{author}{1}{}{%
+        {{hash=63bf0218e6b0bbe82faa9e6e14032a18}{%
+           family={Saaty},
+           familyi={S\bibinitperiod},
+           given={TL},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{63bf0218e6b0bbe82faa9e6e14032a18}
+      \strng{fullhash}{63bf0218e6b0bbe82faa9e6e14032a18}
+      \strng{authornamehash}{63bf0218e6b0bbe82faa9e6e14032a18}
+      \strng{authorfullhash}{63bf0218e6b0bbe82faa9e6e14032a18}
+      \field{labelalpha}{Saa80}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{McGraw-Hill, New York}
+      \field{title}{The Analytic Hierarchy Process,}
+      \field{year}{1980}
+    \endentry
+    \entry{Santoso2005}{article}{}
+      \name{author}{4}{}{%
+        {{hash=4fccd7d514f9b42ed053eabc2582b6b4}{%
+           family={Santoso},
+           familyi={S\bibinitperiod},
+           given={Tjendera},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f3e9f4082e3ae4e155660e803be71262}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Shabbir},
+           giveni={S\bibinitperiod}}}%
+        {{hash=92119012462811f283b7b823141d08f8}{%
+           family={Goetschalckx},
+           familyi={G\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=79b4f8b2eec1f0cce98adc8a524fc774}{%
+           family={Shapiro},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7107095f8c1ea2ba51dadf0bbbd4b132}
+      \strng{fullhash}{f1967ee4680389ace5c5389552141e0a}
+      \strng{authornamehash}{7107095f8c1ea2ba51dadf0bbbd4b132}
+      \strng{authorfullhash}{f1967ee4680389ace5c5389552141e0a}
+      \field{labelalpha}{San+05}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03772217}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{month}{11}
+      \field{number}{1}
+      \field{title}{A stochastic programming approach for supply chain network design under uncertainty}
+      \field{volume}{167}
+      \field{year}{2005}
+      \field{pages}{96–115}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.ejor.2004.01.046
+      \endverb
+    \endentry
+    \entry{Schniederjans1995}{article}{}
+      \name{author}{1}{}{%
+        {{hash=603a7b15de21d4357339704a808874a7}{%
+           family={Schniederjans},
+           familyi={S\bibinitperiod},
+           given={Marc\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute for Operations Research}%
+        {the Management Sciences ({INFORMS})}%
+      }
+      \strng{namehash}{603a7b15de21d4357339704a808874a7}
+      \strng{fullhash}{603a7b15de21d4357339704a808874a7}
+      \strng{authornamehash}{603a7b15de21d4357339704a808874a7}
+      \strng{authorfullhash}{603a7b15de21d4357339704a808874a7}
+      \field{labelalpha}{Sch95}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Operations Research}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{The Life Cycle of Goal Programming Research as Recorded in Journal Articles}
+      \field{volume}{43}
+      \field{year}{1995}
+      \field{pages}{551\bibrangedash 557}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1287/opre.43.4.551
+      \endverb
+    \endentry
+    \entry{Srivastava2007}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4a3525225c30f57741f0d7cd1afb1be6}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={Samir\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{4a3525225c30f57741f0d7cd1afb1be6}
+      \strng{fullhash}{4a3525225c30f57741f0d7cd1afb1be6}
+      \strng{authornamehash}{4a3525225c30f57741f0d7cd1afb1be6}
+      \strng{authorfullhash}{4a3525225c30f57741f0d7cd1afb1be6}
+      \field{labelalpha}{Sri07}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1460-8545, 1468-2370}
+      \field{journaltitle}{International Journal of Management Reviews}
+      \field{month}{3}
+      \field{number}{1}
+      \field{shorttitle}{Green supply-chain management}
+      \field{title}{Green supply-chain management: {A} state-of-the-art literature review}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{9}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{53\bibrangedash 80}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1111/j.1468-2370.2007.00202.x
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1111/j.1468-2370.2007.00202.x
+      \endverb
+    \endentry
+    \entry{Shan2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=240d28f158cb7d0bb1aaa7695498c962}{%
+           family={Shan},
+           familyi={S\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=3bf3a752e474cb31e74ec87566570269}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jingyi},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{a519dcce42221b84dd85e95afec9df6e}
+      \strng{fullhash}{a519dcce42221b84dd85e95afec9df6e}
+      \strng{authornamehash}{a519dcce42221b84dd85e95afec9df6e}
+      \strng{authorfullhash}{a519dcce42221b84dd85e95afec9df6e}
+      \field{labelalpha}{SW18}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{number}{3}
+      \field{title}{Mapping the Landscape and Evolutions of Green Supply Chain Management}
+      \field{volume}{10}
+      \field{year}{2018}
+      \field{pages}{597}
+      \range{pages}{1}
+    \endentry
+    \entry{Tan2008}{article}{}
+      \name{author}{4}{}{%
+        {{hash=37836b26cbb14dc71a1e0de9a903e728}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Yongtao},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3628d96558fa8afb929027be6cd72089}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Liyin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6e472346ca44ef3b57ea00600db1744a}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Weisheng},
+           giveni={W\bibinitperiod}}}%
+        {{hash=28d64684bd37dd054198fe263960b768}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Qiping},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Group Publishing Limited}%
+      }
+      \strng{namehash}{a29675c491a5a62fca85703bf2fc3b3c}
+      \strng{fullhash}{125762e6daf8f6c8ba8bbfb5b57d44d2}
+      \strng{authornamehash}{a29675c491a5a62fca85703bf2fc3b3c}
+      \strng{authorfullhash}{125762e6daf8f6c8ba8bbfb5b57d44d2}
+      \field{labelalpha}{Tan+08}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management decision}
+      \field{number}{4}
+      \field{title}{Multiple-objective bidding strategy using goal programming technique}
+      \field{volume}{46}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{656\bibrangedash 672}
+      \range{pages}{17}
+    \endentry
+    \entry{Tayi1985}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d428671e7aceb53ece02ff4c47726e13}{%
+           family={Tayi},
+           familyi={T\bibinitperiod},
+           given={Giri\bibnamedelima Kumar},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=575a1a53ec2f9b5c2ab4b12e62527b1a}{%
+           family={Gangolly},
+           familyi={G\bibinitperiod},
+           given={Jagdish},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Informa {UK} Limited}%
+      }
+      \strng{namehash}{831eb5c395a1b30c4e55f5a337b60dd4}
+      \strng{fullhash}{831eb5c395a1b30c4e55f5a337b60dd4}
+      \strng{authornamehash}{831eb5c395a1b30c4e55f5a337b60dd4}
+      \strng{authorfullhash}{831eb5c395a1b30c4e55f5a337b60dd4}
+      \field{labelalpha}{TG85}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Operational Research Society}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Integration of Auditor Preferences and Sampling Objectives: A Polynomial Goal-Programming Perspective}
+      \field{volume}{36}
+      \field{year}{1985}
+      \field{pages}{951\bibrangedash 957}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1057/jors.1985.166
+      \endverb
+    \endentry
+    \entry{Torabi2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9488592e6c5ac0132342f85df1cb08b7}{%
+           family={Torabi},
+           familyi={T\bibinitperiod},
+           given={S.A.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=662312608c94e40e7491c0af86ae32fc}{%
+           family={Hassini},
+           familyi={H\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f5d4ac45130f6a390c35f9081a04b78b}
+      \strng{fullhash}{f5d4ac45130f6a390c35f9081a04b78b}
+      \strng{authornamehash}{f5d4ac45130f6a390c35f9081a04b78b}
+      \strng{authorfullhash}{f5d4ac45130f6a390c35f9081a04b78b}
+      \field{labelalpha}{TH08}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{01650114}
+      \field{journaltitle}{Fuzzy Sets and Systems}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{An interactive possibilistic programming approach for multiple objective supply chain master planning}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{159}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{193\bibrangedash 214}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1016/j.fss.2007.08.010
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0165011407003739
+      \endverb
+    \endentry
+    \entry{Tamiz1998}{article}{}
+      \name{author}{3}{}{%
+        {{hash=aca2fb1b1cb2bd4e752bb093852afb82}{%
+           family={Tamiz},
+           familyi={T\bibinitperiod},
+           given={Mehrdad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=35785ea56eec6b9b4058827146fee500}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Dylan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=664c819079f5fd85f7ebd65d9733ae15}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d36e88adf00c788803b4a45942aa7cb}
+      \strng{fullhash}{5d36e88adf00c788803b4a45942aa7cb}
+      \strng{authornamehash}{5d36e88adf00c788803b4a45942aa7cb}
+      \strng{authorfullhash}{5d36e88adf00c788803b4a45942aa7cb}
+      \field{labelalpha}{TJR98}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{03772217}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{3}
+      \field{shorttitle}{Goal programming for decision making}
+      \field{title}{Goal programming for decision making: An overview of the current state-of-the-art}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2017}
+      \field{volume}{111}
+      \field{year}{1998}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{569\bibrangedash 581}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/S0377-2217(97)00317-2
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0377221797003172
+      \endverb
+    \endentry
+    \entry{Trenado2014}{article}{}
+      \name{author}{4}{}{%
+        {{hash=fa6d32e476bb576123700ca8b698e8fa}{%
+           family={Trenado},
+           familyi={T\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=75b7c3cef6bd0d64e21b9cc6070649b3}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={Mar\'{\i{}}a},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f6b37a1961fc4d3a9f8f949ac9419518}{%
+           family={Cuadrado},
+           familyi={C\bibinitperiod},
+           given={Mar\'{\i{}}a\bibnamedelima L},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=664c819079f5fd85f7ebd65d9733ae15}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f853111776dbb2f1b911701ed34bcb00}
+      \strng{fullhash}{6a3ffb57279f27b8da2c7346c5ed19aa}
+      \strng{authornamehash}{f853111776dbb2f1b911701ed34bcb00}
+      \strng{authorfullhash}{6a3ffb57279f27b8da2c7346c5ed19aa}
+      \field{labelalpha}{Tre+14}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers \& Industrial Engineering}
+      \field{title}{Corporate social responsibility in portfolio selection: A \^{a}��goal games\^{a}�� against nature approach}
+      \field{volume}{75}
+      \field{year}{2014}
+      \field{pages}{260\bibrangedash 265}
+      \range{pages}{6}
+    \endentry
+    \entry{Urvashi2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ef4e75125594e349d7af02053d21924c}{%
+           family={{Urvashi}},
+           familyi={U\bibinitperiod}}}%
+        {{hash=bd38d24989d08b393e5b9c5c335ae67b}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={S.R.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1cf7de4c1345632e07c85cf249de3709}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ae2660788967329aaf610064adf84551}
+      \strng{fullhash}{ae2660788967329aaf610064adf84551}
+      \strng{authornamehash}{ae2660788967329aaf610064adf84551}
+      \strng{authorfullhash}{ae2660788967329aaf610064adf84551}
+      \field{labelalpha}{USS13}
+      \field{sortinit}{U}
+      \field{sortinithash}{1554584e7f69d2b4fe0a645e73d50194}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{22120173}
+      \field{journaltitle}{Procedia Technology}
+      \field{title}{Green {Supply} {Chain} {Model} with {Product} {Remanufacturing} under {Volume} {Flexible} {Environment}}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{volume}{10}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{216\bibrangedash 226}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.protcy.2013.12.355
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S2212017313005094
+      \endverb
+    \endentry
+    \entry{Welling1977}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0301537e771ea4011c44cc2534a95618}{%
+           family={Welling},
+           familyi={W\bibinitperiod},
+           given={Priscilla},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{0301537e771ea4011c44cc2534a95618}
+      \strng{fullhash}{0301537e771ea4011c44cc2534a95618}
+      \strng{authornamehash}{0301537e771ea4011c44cc2534a95618}
+      \strng{authorfullhash}{0301537e771ea4011c44cc2534a95618}
+      \field{labelalpha}{Wel77}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Accounting, Organizations and Society}
+      \field{month}{1}
+      \field{number}{4}
+      \field{title}{A goal programming model for human resource accounting in a {CPA} firm}
+      \field{volume}{2}
+      \field{year}{1977}
+      \field{pages}{307\bibrangedash 316}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/0361-3682(77)90020-4
+      \endverb
+    \endentry
+    \entry{Williams2008}{collection}{}
+      \name{editor}{1}{}{%
+        {{hash=c4d66a51b97601bd40ea164dabd562a5}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Jan\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {{McGraw}-Hill/Irwin}%
+      }
+      \strng{namehash}{c4d66a51b97601bd40ea164dabd562a5}
+      \strng{fullhash}{c4d66a51b97601bd40ea164dabd562a5}
+      \strng{editornamehash}{c4d66a51b97601bd40ea164dabd562a5}
+      \strng{editorfullhash}{c4d66a51b97601bd40ea164dabd562a5}
+      \field{labelalpha}{Wil08}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{14th ed}
+      \field{isbn}{978-0-07-299650-0}
+      \field{note}{{OCLC}: ocm69241493}
+      \field{pagetotal}{1}
+      \field{shorttitle}{Financial \& managerial accounting}
+      \field{title}{Financial \& managerial accounting: the basis for business decisions}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Charles T. Horngren, Walter T. Harrison, M. Suzanne Oliver Financial & Managerial Accounting, Third Edition .pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\UE4JLQJ4\\Charles T. Horngren, Walter T. Harrison, M. Suzanne Oliver Financial & Managerial Accounting, Third Edition .pdf:application/pdf
+      \endverb
+      \keyw{Accounting}
+    \endentry
+    \entry{Yaghoobi2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3ef22915986be153cac8faa57d0ddfb9}{%
+           family={Yaghoobi},
+           familyi={Y\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0b4e40fb99f69af45eb2c168899e6c9b}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=c87371d9e74991196ed6941fad1cbc11}{%
+           family={Tamiz},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Scientific Pub Co Pte Lt}%
+      }
+      \strng{namehash}{255630d4e2d904d052fce7656d7e0f1f}
+      \strng{fullhash}{255630d4e2d904d052fce7656d7e0f1f}
+      \strng{authornamehash}{255630d4e2d904d052fce7656d7e0f1f}
+      \strng{authorfullhash}{255630d4e2d904d052fce7656d7e0f1f}
+      \field{labelalpha}{YJT08}
+      \field{sortinit}{Y}
+      \field{sortinithash}{f86c10978eb0c0879609ce6a4f43da7b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Asia-Pacific Journal of Operational Research}
+      \field{month}{10}
+      \field{number}{05}
+      \field{title}{{Weighted} {Additive} {Models} {For} {Solving} {Fuzzy} {Goal} {Programming} {Problems}}
+      \field{volume}{25}
+      \field{year}{2008}
+      \field{pages}{715\bibrangedash 733}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1142/s0217595908001973
+      \endverb
+    \endentry
+    \entry{YolLee2007}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3a6c475c7a40e4f1351e6e1b78e7eb0f}{%
+           family={Yol\bibnamedelima Lee},
+           familyi={Y\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Su},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7c56fa73a82d270ee4007ce83141afc5}{%
+           family={Rhee},
+           familyi={R\bibinitperiod},
+           given={Seung-Kyu},
+           giveni={S\bibinithyphendelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Emerald Group Publishing Limited}%
+      }
+      \strng{namehash}{1e53cf495cb2ca6744bb569bfdea8aea}
+      \strng{fullhash}{1e53cf495cb2ca6744bb569bfdea8aea}
+      \strng{authornamehash}{1e53cf495cb2ca6744bb569bfdea8aea}
+      \strng{authorfullhash}{1e53cf495cb2ca6744bb569bfdea8aea}
+      \field{labelalpha}{YR07}
+      \field{sortinit}{Y}
+      \field{sortinithash}{f86c10978eb0c0879609ce6a4f43da7b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Management Decision}
+      \field{number}{2}
+      \field{title}{The change in corporate environmental strategies: a longitudinal empirical study}
+      \field{volume}{45}
+      \field{year}{2007}
+      \field{pages}{196\bibrangedash 216}
+      \range{pages}{21}
+    \endentry
+    \entry{Zadeh1965}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e5b8aa9869d6febac84c8802e26a3e2c}{%
+           family={Zadeh},
+           familyi={Z\bibinitperiod},
+           given={L.A.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{e5b8aa9869d6febac84c8802e26a3e2c}
+      \strng{fullhash}{e5b8aa9869d6febac84c8802e26a3e2c}
+      \strng{authornamehash}{e5b8aa9869d6febac84c8802e26a3e2c}
+      \strng{authorfullhash}{e5b8aa9869d6febac84c8802e26a3e2c}
+      \field{labelalpha}{Zad65}
+      \field{sortinit}{Z}
+      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00199958}
+      \field{journaltitle}{Information and Control}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{Fuzzy sets}
+      \field{volume}{8}
+      \field{year}{1965}
+      \field{pages}{338–353}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/S0019-9958(65)90241-X
+      \endverb
+    \endentry
+    \entry{Zsidisin2001}{article}{}
+      \name{author}{2}{}{%
+        {{hash=15469e54d20d020233c11c40c98108a5}{%
+           family={Zsidisin},
+           familyi={Z\bibinitperiod},
+           given={George\bibnamedelima A},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5f4d5505b11582bb9f19e9728bbb29d1}{%
+           family={Siferd},
+           familyi={S\bibinitperiod},
+           given={Sue\bibnamedelima P},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{16497346493190f109285b44c32ac74d}
+      \strng{fullhash}{16497346493190f109285b44c32ac74d}
+      \strng{authornamehash}{16497346493190f109285b44c32ac74d}
+      \strng{authorfullhash}{16497346493190f109285b44c32ac74d}
+      \field{labelalpha}{ZS01}
+      \field{sortinit}{Z}
+      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Purchasing \& Supply Management}
+      \field{number}{1}
+      \field{title}{Environmental purchasing: a framework for theory development}
+      \field{volume}{7}
+      \field{year}{2001}
+      \field{pages}{61\bibrangedash 73}
+      \range{pages}{13}
+    \endentry
+    \entry{Zarandi2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9da0a3e862dd2d4cdcfe212ec89849e4}{%
+           family={Zarandi},
+           familyi={Z\bibinitperiod},
+           given={Mohammad\bibnamedelimb Hossein\bibnamedelima Fazel},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=70830ba592ca5583be101453a3270909}{%
+           family={Sisakht},
+           familyi={S\bibinitperiod},
+           given={Ali\bibnamedelima Haddad},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=5df1e1cc68496cdbb2b0c8cdef12d713}{%
+           family={Davari},
+           familyi={D\bibinitperiod},
+           given={Soheil},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{b6ff5157e4d577ff552e6249ba78875e}
+      \strng{fullhash}{b6ff5157e4d577ff552e6249ba78875e}
+      \strng{authornamehash}{b6ff5157e4d577ff552e6249ba78875e}
+      \strng{authorfullhash}{b6ff5157e4d577ff552e6249ba78875e}
+      \field{labelalpha}{ZSD11}
+      \field{sortinit}{Z}
+      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The International Journal of Advanced Manufacturing Technology}
+      \field{month}{3}
+      \field{number}{5-8}
+      \field{title}{Design of a closed-loop supply chain ({CLSC}) model using an interactive fuzzy goal programming}
+      \field{volume}{56}
+      \field{year}{2011}
+      \field{pages}{809\bibrangedash 821}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/s00170-011-3212-y
+      \endverb
+    \endentry
+    \entry{Zhu2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3c3b58db6aa5d894672acf8ac802b6d8}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Qinghua},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=d5649c7feb18cacda80c49d0b9376674}{%
+           family={Sarkis},
+           familyi={S\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ea1457f8c0538c9eedb2305c57ef2b22}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Kee-hung},
+           giveni={K\bibinithyphendelim h\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{94f03a9540e524a680b747b14574fa0d}
+      \strng{fullhash}{94f03a9540e524a680b747b14574fa0d}
+      \strng{authornamehash}{94f03a9540e524a680b747b14574fa0d}
+      \strng{authorfullhash}{94f03a9540e524a680b747b14574fa0d}
+      \field{labelalpha}{ZSL08}
+      \field{sortinit}{Z}
+      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International journal of production economics}
+      \field{number}{2}
+      \field{title}{Confirmation of a measurement model for green supply chain management practices implementation}
+      \field{volume}{111}
+      \field{year}{2008}
+      \field{pages}{261\bibrangedash 273}
+      \range{pages}{13}
+    \endentry
+    \entry{Zamfirescu2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=01b76fd4deb871d8615eabb758500bb3}{%
+           family={Zamfirescu},
+           familyi={Z\bibinitperiod},
+           given={Luminita},
+           giveni={L\bibinitperiod}}}%
+        {{hash=95f9b51b4115dc44c275bb23a40dc864}{%
+           family={Zamfirescu},
+           familyi={Z\bibinitperiod},
+           given={Constantin-Bala},
+           giveni={C\bibinithyphendelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{c2c5c42ba52d6f53bcfe05d3ae23c432}
+      \strng{fullhash}{c2c5c42ba52d6f53bcfe05d3ae23c432}
+      \strng{authornamehash}{c2c5c42ba52d6f53bcfe05d3ae23c432}
+      \strng{authorfullhash}{c2c5c42ba52d6f53bcfe05d3ae23c432}
+      \field{labelalpha}{ZZ13}
+      \field{sortinit}{Z}
+      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{title}{Goal programming as a decision model for performance-based budgeting}
+      \field{volume}{17}
+      \field{year}{2013}
+      \field{pages}{426\bibrangedash 433}
+      \range{pages}{8}
+    \endentry
+  \endsortlist
+  \missing{Strobel2018}
+\endrefsection
+\endinput
 
-\bibitem[Ben89]{Benjamin1989}
-Julian Benjamin.
-\newblock An {Analysis} of {Inventory} and {Transportation} {Costs} in a
-  {Constrained} {Network}.
-\newblock {\em Transportation Science}, 23(3):177--183, August 1989.
-
-\bibitem[BKC]{Berman2013}
-Karen Berman, Joe Knight, and John Case.
-\newblock {\em Financial intelligence: a manager's guide to knowing what the
-  numbers really mean}.
-\newblock Harvard Business Review Press.
-\newblock {OCLC}: 891121337.
-
-\bibitem[CCF55]{Charnes1955}
-Abraham Charnes, William~W Cooper, and Robert~O Ferguson.
-\newblock Optimal estimation of executive compensation by linear programming.
-\newblock {\em Management science}, 1(2):138--151, 1955.
-
-\bibitem[CG16]{Ceschin2016}
-Fabrizio Ceschin and Idil Gaziulusoy.
-\newblock Evolution of design for sustainability: {From} product design to
-  design for system innovations and transitions.
-\newblock {\em Design Studies}, 47:118--163, November 2016.
-
-\bibitem[CGZH17]{Cui2017}
-Yunfei Cui, Zhiqiang Geng, Qunxiong Zhu, and Yongming Han.
-\newblock Review: Multi-objective optimization methods and application in
-  energy saving.
-\newblock {\em Energy}, 125:681--704, apr 2017.
-
-\bibitem[CH07]{Chern2007}
-C.-C. Chern and J.-S. Hsieh.
-\newblock A heuristic algorithm for master planning that satisfies multiple
-  objectives.
-\newblock {\em Computers \& Operations Research}, 34(11):3491–3513, Nov 2007.
-
-\bibitem[CJM]{Colapinto2017a}
-Cinzia Colapinto, Raja Jayaraman, and Simone Marsiglio.
-\newblock Multi-criteria decision analysis with goal programming in
-  engineering, management and social sciences: a state-of-the art review.
-\newblock 251(1):7--40.
-
-\bibitem[Con68]{Contini1968}
-Bruno Contini.
-\newblock A stochastic approach to goal programming.
-\newblock {\em Operations Research}, 16(3):576--586, 1968.
-
-\bibitem[DG11]{Diabat2011}
-Ali Diabat and Kannan Govindan.
-\newblock An analysis of the drivers affecting the implementation of green
-  supply chain management.
-\newblock {\em Resources, Conservation and Recycling}, 55(6):659--667, apr
-  2011.
-
-\bibitem[DMPSSA{\etalchar{+}}18]{Diaz-Madronero2018}
-Manuel D{\'{\i}}az-Madro{\~{n}}ero, Modesto P{\'{e}}rez-S{\'{a}}nchez,
-  Jos{\'{e}}~R. Satorre-Aznar, Josefa Mula, and P.~Amparo
-  L{\'{o}}pez-Jim{\'{e}}nez.
-\newblock Analysis of a wastewater treatment plant using fuzzy goal programming
-  as a management tool: A case study.
-\newblock {\em Journal of Cleaner Production}, 180:20--33, apr 2018.
-
-\bibitem[DT61]{Davidson1961}
-H.~Justin Davidson and Robert~M. Trueblood.
-\newblock Accounting for decision-making.
-\newblock {\em The Accounting Review}, 36(4):577--582, 1961.
-
-\bibitem[FS]{Feller2017}
-Anna Feller and Deborah Schanz.
-\newblock The three hurdles of tax planning: How business context, aims of tax
-  planning, and tax manager power affect tax expense.
-\newblock 34(1):494--524.
-
-\bibitem[GHL90]{Gardner1990}
-John~C. Gardner, Ronald~J. Huefner, and Vahid Lotfi.
-\newblock A multiperiod audit staff planning model using multiple objectives:
-  Development and evaluation{\ast}.
-\newblock {\em Decision Sciences}, 21(1):154--170, jan 1990.
-
-\bibitem[Gil01]{Gilbert2001}
-Sean Gilbert.
-\newblock Greening supply chain: Enhancing competitiveness through green
-  productivity.
-\newblock {\em Tapei, Taiwan}, 16:1--6, 2001.
-
-\bibitem[GM03]{Gupta2003}
-Anshuman Gupta and Costas~D. Maranas.
-\newblock Managing demand uncertainty in supply chain planning.
-\newblock {\em Computers \& Chemical Engineering}, 27(8–9):1219–1227, Sep
-  2003.
-
-\bibitem[Gre]{Greco2016}
-Multiple criteria decision analysis.
-
-\bibitem[IK71]{Ijiri1971}
-Yuji Ijiri and Robert~S. Kaplan.
-\newblock A model for integrating sampling objectives in auditing.
-\newblock {\em Journal of Accounting Research}, 9(1):73, 1971.
-
-\bibitem[IT08]{Iranmanesh2008}
-Hossein Iranmanesh and Vince Thomson.
-\newblock Competitive advantage by adjusting design characteristics to satisfy
-  cost targets.
-\newblock {\em International Journal of Production Economics}, 115(1):64--71,
-  2008.
-
-\bibitem[KH06]{Kruger2006}
-HA~Kruger and JM~Hattingh.
-\newblock A combined {AHP}-{GP} model to allocate internal auditing time to
-  projects.
-\newblock {\em {ORiON}}, 22(1), jun 2006.
-
-\bibitem[KS73]{Killough1973}
-Larry~N. Killough and Thomas~L. Souders.
-\newblock A goal programming model for public accounting firms.
-\newblock {\em The Accounting Review}, 48(2):268--279, 1973.
-
-\bibitem[Kwa03]{Kwak2003}
-Wikil Kwak.
-\newblock Human resource allocation in a cpa firm: A fuzzy set approach.
-\newblock {\em Review of Quantitative Finance and Accounting}, 20(3):277--290,
-  2003.
-
-\bibitem[NAFA16]{Nomani2016}
-Mohammad~Asim Nomani, Irfan Ali, Armin Fügenschuh, and Aquil Ahmed.
-\newblock A fuzzy goal programming approach to analyse sustainable development
-  goals of india.
-\newblock {\em Applied Economics Letters}, 24(7):443--447, jul 2016.
-
-\bibitem[OEC13]{After_tax_hedging_report_2013}
-OECD.
-\newblock After tax hedging report, 2013.
-
-\bibitem[OEC15]{Model_Tax_Convention_2015}
-OECD.
-\newblock {\em Model Tax Convention on Income and on Capital 2014}.
-\newblock {OECD} Publishing, 2015.
-\newblock {DOI}: 10.1787/9789264239081-en.
-
-\bibitem[OEC17]{OECD_ProfitSplit_2017}
-OECD.
-\newblock Oecd releases beps discussion drafts on attribution of profits to
-  permanent establishments and transactional profit splits.
-\newblock {\em OECD newsfeed}, 2017.
-
-\bibitem[RK17]{Rehman2017}
-Shafiqur Rehman and Salman~A. Khan.
-\newblock Application of fuzzy goal programming to wind turbine selection with
-  multiple criteria {\&}{\#}x2014$\mathsemicolon$ a study of three potential
-  sites in saudi arabia.
-\newblock In {\em 2017 6th {IIAI} International Congress on Advanced Applied
-  Informatics ({IIAI}-{AAI})}. {IEEE}, jul 2017.
-
-\bibitem[Rom14]{Romero2014}
-C.~Romero.
-\newblock {\em Handbook of Critical Issues in Goal Programming}.
-\newblock Pergamon, 2014.
-
-\bibitem[Saa80]{Saaty1980}
-TL~Saaty.
-\newblock The analytic hierarchy process,.
-\newblock {\em McGraw-Hill, New York}, 1980.
-
-\bibitem[Sch95]{Schniederjans1995}
-Marc~J. Schniederjans.
-\newblock The life cycle of goal programming research as recorded in journal
-  articles.
-\newblock {\em Operations Research}, 43(4):551--557, aug 1995.
-
-\bibitem[SW18]{Shan2018}
-Wei Shan and Jingyi Wang.
-\newblock Mapping the landscape and evolutions of green supply chain
-  management.
-\newblock {\em Sustainability}, 10(3):597, 2018.
-
-\bibitem[TG85]{Tayi1985}
-Giri~Kumar Tayi and Jagdish Gangolly.
-\newblock Integration of auditor preferences and sampling objectives: A
-  polynomial goal-programming perspective.
-\newblock {\em Journal of the Operational Research Society}, 36(10):951--957,
-  oct 1985.
-
-\bibitem[TRCR14]{Trenado2014}
-Manuel Trenado, Mar{\'\i}a Romero, Mar{\'\i}a~L Cuadrado, and Carlos Romero.
-\newblock Corporate social responsibility in portfolio selection: A “goal
-  games” against nature approach.
-\newblock {\em Computers \& Industrial Engineering}, 75:260--265, 2014.
-
-\bibitem[TSLS]{Tan2008}
-Yongtao Tan, Liyin Shen, Weisheng Lu, and Qiping Shen.
-\newblock Multiple-objective bidding strategy using goal programming technique.
-\newblock 46(4):656--672.
-
-\bibitem[Wel77]{Welling1977}
-Priscilla Welling.
-\newblock A goal programming model for human resource accounting in a {CPA}
-  firm.
-\newblock {\em Accounting, Organizations and Society}, 2(4):307--316, jan 1977.
-
-\bibitem[YLR07]{YolLee2007}
-Su~Yol~Lee and Seung-Kyu Rhee.
-\newblock The change in corporate environmental strategies: a longitudinal
-  empirical study.
-\newblock {\em Management Decision}, 45(2):196--216, 2007.
-
-\bibitem[Zad65]{Zadeh_1965}
-L.A. Zadeh.
-\newblock Fuzzy sets.
-\newblock {\em Information and Control}, 8(3):338–353, Jun 1965.
-
-\bibitem[ZS01]{Zsidisin2001}
-George~A Zsidisin and Sue~P Siferd.
-\newblock Environmental purchasing: a framework for theory development.
-\newblock {\em European Journal of Purchasing \& Supply Management},
-  7(1):61--73, 2001.
-
-\bibitem[ZSD11]{Zarandi2011}
-Mohammad Hossein~Fazel Zarandi, Ali~Haddad Sisakht, and Soheil Davari.
-\newblock Design of a closed-loop supply chain ({CLSC}) model using an
-  interactive fuzzy goal programming.
-\newblock {\em The International Journal of Advanced Manufacturing Technology},
-  56(5-8):809--821, mar 2011.
-
-\bibitem[ZSL08]{Zhu2008}
-Qinghua Zhu, Joseph Sarkis, and Kee-hung Lai.
-\newblock Confirmation of a measurement model for green supply chain management
-  practices implementation.
-\newblock {\em International journal of production economics}, 111(2):261--273,
-  2008.
-
-\bibitem[ZZ13]{Zamfirescu2013}
-Luminita Zamfirescu and Constantin-Bala Zamfirescu.
-\newblock Goal programming as a decision model for performance-based budgeting.
-\newblock {\em Procedia Computer Science}, 17:426--433, 2013.
-
-\end{thebibliography}

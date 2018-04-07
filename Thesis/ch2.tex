@@ -92,7 +92,7 @@ Since the model proposed it's aimed at setting a Green Supply Chain network of p
 
   \begin{figure}
   \centering
-  \includegraphics[width=0.8\linewidth]{Images/heatmap.png}
+  \includegraphics[width=1\linewidth]{Images/heatmap.png}
   \caption{Kilograms of WEEE collected per capita}
   \end{figure}
 
@@ -142,7 +142,7 @@ Where the goal variable $\tilde{g}$ is said to follow a certain probability dist
   \pagebreak
 
 \section{Model formulation}
-The hybrid model developed is based on the supply chain concept developed by Santoso\cite{Santoso2005}plus the integration of supporting activities as enunciated by Porter\cite{Porter1998}in his concept of the value chain. Apart from these features, as the model is built with the concept of Green Supply Chain management seemed necessary to enhance the basic capabilities of an open loop supply chain network with the characteristics of a typical reverse supply chain network (which is intended to be in closed loop fashion). Because of the reverse supply chain network, a series of new entities have been introduced, namely the recollection points, which in our case are the same retail stores, and the recycling point that has to comply both with regulation and with management expectation in terms of recycled products. Therefore, a fuzzy goal is created using the fuzzy goal programming formulation developed by the \cite{Yaghobi2008}, such formulation, as reported previously, tries to capture the DM preferences about units recycled and the bottom line imposed by regulations.
+The hybrid model developed is based on the supply chain concept developed by Santoso\cite{Santoso2005}plus the integration of supporting activities as enunciated by Porter\cite{Porter1998}in his concept of the value chain. Apart from these features, as the model is built with the concept of Green Supply Chain management seemed necessary to enhance the basic capabilities of an open loop supply chain network with the characteristics of a typical reverse supply chain network (which is intended to be in closed loop fashion). Because of the reverse supply chain network, a series of new entities have been introduced, namely the recollection points, which in our case are the same retail stores, and the recycling point that has to comply both with regulation and with management expectation in terms of recycled products. Therefore, a fuzzy goal is created using the fuzzy goal programming formulation developed by the \cite{Yaghoobi2008}, such formulation, as reported previously, tries to capture the DM preferences about units recycled and the bottom line imposed by regulations.
 
 \subsection{Open Loop Supply Chain}
 In a very general open loop supply chain model the materials after been purchased pass through a series of entities where they are transformed into goods (operation activities), then follows the process of outbound logistics where the goods produced has to reach their specific market for satisfying consumer demand, however, such last operation is subject to certain costs, such as the sales force and marketing campaigns which are, generally, managed and supervised by the national retail stores in each specific country.
@@ -250,7 +250,7 @@ In the previous sections a model of an open loop supply chain was presented, how
 The model enunciated minimizes two different flow costs, namely the one implying the forward flow, the one from the production plant to the consumer and the reverse flow that follows the opposite direction, namely from the consumer to the production plant passing through ad-hoc dismantling plants. The constraints applied to such models are therefore a combination of both forward flow constraints, mitigated from the classical open loop supply chain, and the reverse flow constraints. The constraint at $5b$ is stating that the forward flow must equal the demand of the customer at a particular retailing site; where instead the constraint at $5c$ is enunciating the amount of waste that will not be part of the recycling process. The constraint at $5d$ focuses on imposing a threshold in which the units recycled will not be of any advantage for the production plan and therefore will constitute an additional waste. Lastly, constraint $5e$ that states the inequality about the products collected that should not exceed the products delivered at a $k$ general retail store. 
 \\
 \\
-The model presented, however, does not implement any decision maker preferences toward recycling level goals ($\lambda$ is only a crisp value that affects the plant necessity) nor any legal boundaries on which the recycling center has to be submitted. Because the electronic waste turns out to be a resource for the firm is necessary to model the fuzziness of such desire expressed by the DM, and therefore the implementation of a Fuzzy set\cite{Zadeh_1965}, turns out to be the best choice; such set has a membership function defined as:
+The model presented, however, does not implement any decision maker preferences toward recycling level goals ($\lambda$ is only a crisp value that affects the plant necessity) nor any legal boundaries on which the recycling center has to be submitted. Because the electronic waste turns out to be a resource for the firm is necessary to model the fuzziness of such desire expressed by the DM, and therefore the implementation of a Fuzzy set\cite{Zadeh1965}, turns out to be the best choice; such set has a membership function defined as:
 $$
 \mu [f_k(x)]=
 \begin{cases}
@@ -322,18 +322,14 @@ From this constraint which is given by the modeled scenario it's necessary to ap
 \subsubsection{Model formulation}
 Given the objective function, the soft constraints and the hard ones, the model is proposed in its mathematical form at the end of the following section. In the next section the model will be subject to a weight sensitivity analysis and then the weights will be assigned using an Analytical Hierarchy Process, subsequently the model will be solved via a linear programming solver and the results, with the weights derived from the AHP will be further analyzed.
 
-\begin{mini!}
-	{\delta^-,\delta^+}{w^\star_1(\sum_{i=1}^{I} \sum_{j=1}^{J} \sum_{k=1}^{K} \sum_{q=1}^{Q0} \sum_{i=1}^{I} \delta^+_{ijkqi}) + }{}{}
+\begin{mini*}
+		{\delta^-,\delta^+}{w^\star_1(\sum_{i=1}^{I} \sum_{j=1}^{J} \sum_{k=1}^{K} \sum_{q=1}^{Q0} \sum_{i=1}^{I} \delta^+_{ijkqi}) + }{}{}
 \breakObjective{w^\star_2(\sum_{i=1}^{I} \delta^+_{i} + \sum_{j=1}^{J} \delta^+_{j} + \sum_{k=1}^{K} \delta^+_{k} + \sum_{q=1}^{Q0} \delta^+_{q} + \sum_{i=1}^{I} \delta^+_{i}) + }
-\breakObjective{w^\star_3(\sum_{k=1}^{K} \tilde{\delta^-_k}) + }
-\breakObjective{w^\star_4(\sum_{q=1}^{Q0} \delta^-_q) + }
-\breakObjective{w^\star_5(\sum_{i=1}^{I} \delta^+_i) + }
+\breakObjective{w^\star_3(\sum_{k=1}^{K} \tilde{\delta^-_k}) + w^\star_4(\sum_{q=1}^{Q0} \delta^-_q) + w^\star_5(\sum_{i=1}^{I} \delta^+_i)}
 \addConstraint{\sum_{i=1}^{I}\sum_{j=1}^{J}\sum_{k=1}^{K} c^f_{ijk} x^f_{ijk} - \delta^+_{ijk}}{=0}{}
 \addConstraint{\sum_{k=1}^{K}\sum_{q=1}^{Q0}\sum_{i=1}^{I} c^r_{kqi} x^r_{kqi}, - \delta^+_{kqi}}{=0}{}
-\addConstraint{(o^f_i \cdot x^f_i) - \delta^+_i}{=0,}{\forall i \in I}
-\addConstraint{(o_j \cdot x^f_j) - \delta^+_j}{=0,}{\forall j \in J}
-\addConstraint{(o_k \cdot x^f_k) - \delta^+_k}{=0,}{\forall k \in K}
-\addConstraint{(o_q \cdot x^r_q) - \delta^+_q}{=0,}{\forall q \in Q0}
+\addConstraint{(o^f_i \cdot x^f_i) - \delta^+_i = 0, (o_j \cdot x^f_j) - \delta^+_j}{=0,}{\forall i \in I,\forall j \in J}
+\addConstraint{(o_k \cdot x^f_k) - \delta^+_k=0,(o_q \cdot x^r_q) - \delta^+_q}{=0,}{\forall k \in K,\forall q \in Q0}
 \addConstraint{(o^r_i \cdot x^r_i) - \delta^+_i}{=0,}{\forall i \in I}
 \addConstraint{x_k + \tilde{\delta^-_k}}{= EV[d_{k}],}{\forall k \in K}
 \addConstraint{x_q + \delta^-_q}{= b_{k},}{\forall q \in Q0}

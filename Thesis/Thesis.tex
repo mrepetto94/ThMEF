@@ -3,6 +3,14 @@
 \usepackage{pacchetti}
 \usepackage{macro}
 \usepackage{style}						
+\usepackage[backend=biber,
+		url=false,
+		doi=false,
+		issn=false,
+		isbn=false,
+		style=alphabetic]{biblatex}    
+\usepackage{graphicx}		
+\addbibresource{bibliografia.bib}
 
 \begin{document}  
 \title{Multicriteria analysis: transportation models for value creation}																
@@ -29,9 +37,9 @@
 	%===========================
 	%\appendix	
 
-	\bibliographystyle{alpha}
-	\bibliography{bibliografia}
-	\addcontentsline{toc}{chapter}{References}
+	%\bibliographystyle{plain}
+	%\bibliography{bibliografia}
+	\printbibliography
 
 
 \end{document}

@@ -1,45 +1,89 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Introduzione}{9}{chapter*.4}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Tax planning and BEPS: a transportation model for optimal profit allocation}{11}{chapter.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Introduction}{12}{section.1.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Multi-criteria decision analysis}{15}{section.1.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}A state-of-the-art review: Goal Programming}{20}{section.1.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.1}Application in Accounting}{21}{subsection.1.3.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}Model formulation}{26}{section.1.4}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.1}Data used to formulate the model}{26}{subsection.1.4.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Macroeconomic data}{26}{section*.5}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Target enterprise data}{28}{section*.6}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Global enterprises data}{31}{section*.7}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.2}Objectives}{33}{subsection.1.4.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Cost minimization}{33}{section*.8}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Tax base minimization}{34}{section*.9}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Functional allocation}{35}{section*.10}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.3}Profit split}{36}{subsection.1.4.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.4}Constraints}{37}{subsection.1.4.4}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.5}Goal Programming Model}{37}{subsection.1.4.5}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.5}Mathematical simulation: a case study}{40}{section.1.5}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.5.1}Sensitivity analysis}{41}{subsection.1.5.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.5.2}Analytical Hierarchical Process for weight determination}{42}{subsection.1.5.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.5.3}Final remarks}{46}{subsection.1.5.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}A Green Supply Chain transportation model: integrating closed loop logistics features}{47}{chapter.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Introduction}{48}{section.2.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Green Supply Chain}{51}{section.2.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}The legal framework: a European perspective}{54}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Waste Electrical \& Electronic Equipment}{55}{section*.11}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Restriction on Hazardous Substances}{56}{section*.12}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Ecodesign Requirements for Energy-using Product}{58}{section*.13}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}A state-of-the-art review: mathematical modeling in SCM}{59}{section.2.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Stochastic Optimization: a Goal Programming perspective}{61}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}Fuzzy Goal Programming}{62}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Model formulation}{64}{section.2.4}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.1}Open Loop Supply Chain}{64}{subsection.2.4.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Closed Loop Supply Chain}{68}{subsection.2.4.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.3}The Goal Programming model}{70}{subsection.2.4.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Objective function}{71}{section*.14}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Soft Constraints}{71}{section*.15}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Hard Constraints}{74}{section*.16}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Model formulation}{75}{section*.17}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}Results and Conclusion}{77}{section.2.5}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.1}Sensitivity analysis}{77}{subsection.2.5.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.2}Final remarks}{81}{subsection.2.5.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Conclusion}{83}{chapter*.18}
-\contentsline {chapter}{References}{91}{chapter*.19}
