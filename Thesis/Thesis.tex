@@ -6,10 +6,10 @@
 \usepackage[backend=biber,
 		url=false,
 		doi=false,
-		issn=false,
 		isbn=false,
 		style=alphabetic]{biblatex}    
-\usepackage{graphicx}		
+\usepackage[toc,page]{appendix}
+\usepackage{minted}
 \addbibresource{bibliografia.bib}
 
 \begin{document}  
@@ -35,12 +35,17 @@
 	%===========================
 	\input{End}
 	%===========================
-	%\appendix	
-
-	%\bibliographystyle{plain}
-	%\bibliography{bibliografia}
+	\begin{appendices}
+	\chapter{Profit allocation model code}
+	The following code represent the model as defined in Chapter 1:
+	\inputminted{text}{models/GP.lng}
+	\chapter{Green Supply Chain model code}
+	The following code represent the model as defined in Chapter 2:
+	\inputminted{AMPL}{models/ampl.mod}
+	\end{appendices}
+	%===========================
 	\printbibliography
-
-
+	
+	
 \end{document}
 % Eccetto dove diversamente specificato, i contenuti di questo sito sono rilasciati sotto Licenza Creative Commons Attribuzione 2.5. http://creativecommons.org/licenses/by/2.5/it/

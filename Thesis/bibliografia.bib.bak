@@ -965,9 +965,9 @@
   publisher     = {INFORMS},
 }
 
-@Article{YAGHOOBI2008,
-  author    = {M. A. YAGHOOBI and D. F. JONES and M. TAMIZ},
-  title     = {{WEIGHTED} {ADDITIVE} {MODELS} {FOR} {SOLVING} {FUZZY} {GOAL} {PROGRAMMING} {PROBLEMS}},
+@Article{Yaghoobi2008,
+  author    = {M. A. Yaghoobi and D. F. Jones and M. Tamiz},
+  title     = {{Weighted} {Additive} {Models} {For} {Solving} {Fuzzy} {Goal} {Programming} {Problems}},
   journal   = {Asia-Pacific Journal of Operational Research},
   year      = {2008},
   volume    = {25},

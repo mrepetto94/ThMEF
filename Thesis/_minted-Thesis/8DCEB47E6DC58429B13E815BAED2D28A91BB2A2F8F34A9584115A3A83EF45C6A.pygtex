@@ -1,0 +1,86 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+!Name: GP entity allocation model;
+!Note: PLI constraints linearized and FMCU transformed as a function of ROS;
+
+MODEL:
+
+!Define the sets;
+
+SETS:
+DEVIATION\PYGZus{}SET\PYGZus{}SHORT / 1..2/: P;
+DEVIATION\PYGZus{}SET / 1..3/: NM,PM;
+
+DECISION\PYGZus{}SET / 1..142/:XC,XR;
+DATA\PYGZus{}SET/1..142/:TX,CE,LQ,UQ,MQ,PLI;
+
+ENDSETS
+
+DATA:
+
+rev=@OLE(\PYGZsq{}ExLingo.xlsx\PYGZsq{}, \PYGZsq{}rev\PYGZsq{});
+emp=@OLE(\PYGZsq{}ExLingo.xlsx\PYGZsq{}, \PYGZsq{}emp\PYGZsq{});
+
+PLI=@OLE(\PYGZsq{}ExLingo.xlsx\PYGZsq{}, \PYGZsq{}pli\PYGZsq{});
+TX=@OLE(\PYGZsq{}ExLingo.xlsx\PYGZsq{}, \PYGZsq{}ct\PYGZsq{});
+CE=@OLE(\PYGZsq{}ExLingo.xlsx\PYGZsq{}, \PYGZsq{}gni\PYGZsq{});
+LQ=@OLE(\PYGZsq{}ExLingo.xlsx\PYGZsq{}, \PYGZsq{}pl\PYGZsq{});
+UQ=@OLE(\PYGZsq{}ExLingo.xlsx\PYGZsq{}, \PYGZsq{}pu\PYGZsq{});
+MQ=@OLE(\PYGZsq{}ExLingo.xlsx\PYGZsq{}, \PYGZsq{}pm\PYGZsq{});
+
+w1=0.16;
+w2=0.30;
+w3=0.54;
+
+ENDDATA
+
+MIN = (P(1)*w1)+(P(2)*w2) 
++ (@SUM(DEVIATION\PYGZus{}SET(I): (NM(I)+PM(I)))*w3);
+
+SUM = (P(1))+(P(2)) 
++ (@SUM(DEVIATION\PYGZus{}SET(I): (NM(I)+PM(I))));
+
+
+!Cost minimization;
+@SUM( DECISION\PYGZus{}SET (I) :
+ (XC(I)*CE(I))
+) \PYGZhy{} P(1) =0;
+
+!Tx base min;
+@SUM( DECISION\PYGZus{}SET (I) :
+ ((XR(I) \PYGZhy{} (XC(I)*CE(I))) * TX(I))
+) \PYGZhy{} P(2) =0;
+
+!PLI allocation Linearized;
+@FOR(DECISION\PYGZus{}SET(I):  
+((XR(I) \PYGZhy{} (XC(I)*CE(I))))
+\PYGZgt{}= LQ(I) * XR(I));
+
+
+@FOR(DECISION\PYGZus{}SET(I):  
+((XR(I) \PYGZhy{} (XC(I)*CE(I))))
+\PYGZlt{}= UQ(I) * XR(I));
+
+!Value chain;
+
+0.13*(rev\PYGZhy{}@SUM(DECISION\PYGZus{}SET(I) : XC(I)*CE(I)))=@SUM(DECISION\PYGZus{}SET(I) : 
+@IF(PLI(I) \PYGZsh{}EQ\PYGZsh{} 1, XR(I)\PYGZhy{}XC(I), 0
+))
++NM(1)\PYGZhy{}PM(1);
+
+0.19*(rev\PYGZhy{}@SUM(DECISION\PYGZus{}SET(I) : XC(I)*CE(I)))=@SUM(DECISION\PYGZus{}SET(I) : 
+@IF(PLI(I) \PYGZsh{}EQ\PYGZsh{} 2, XR(I)\PYGZhy{}XC(I), 0
+))
++NM(2)\PYGZhy{}PM(2);
+
+0.68*(rev\PYGZhy{}@SUM(DECISION\PYGZus{}SET(I) : XC(I)*CE(I)))=@SUM(DECISION\PYGZus{}SET(I) : 
+@IF(PLI(I) \PYGZsh{}EQ\PYGZsh{} 3, XR(I)\PYGZhy{}XC(I), 0
+))
++NM(3)\PYGZhy{}PM(3);
+
+@FOR(DEVIATION\PYGZus{}SET\PYGZus{}SHORT(I) : P(I)\PYGZgt{}=0);
+@FOR(DEVIATION\PYGZus{}SET(I) : NM(I)\PYGZgt{}=0);
+@FOR(DEVIATION\PYGZus{}SET(I) : PM(I)\PYGZgt{}=0);
+
+rev = @SUM(DECISION\PYGZus{}SET(I) : XR(I));
+emp = @SUM(DECISION\PYGZus{}SET(I) : XC(I));
+\end{Verbatim}

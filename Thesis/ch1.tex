@@ -2,10 +2,10 @@
 \chapter{Tax planning and BEPS: a transportation model for optimal profit allocation}
 This chapter deals with the problem of multinational entity allocation based on three main factors, namely the costs, the tax pressure and the functional characterization of a certain entity. The solution suggested is a goal programming model that embeds this limitation imposed by the environment and tries to find an optimal solution that permits the Decision Maker to be competitive \textit{vis-à-vis} multinational competitors. The results obtained from such model are many times different from the ones putted into places by multinationals, which tend to focus on minimizing only the tax base without taking into account other information that may result in significant value added from a tax planning perspective. 
 
-\section{Introduction}
+\section{Scope of work}
 After the Great Recession, multinational companies found themselves in a very different environment; thriving to survive with competition on one side and higher restriction imposed by countries running financial crises. This led multinationals with a great challenge which consequently boost cost engineering, in an attempt to survive in this new scenario. Another result was a new form of tax planning, most of the time barely legal in order to exploit the fiscal advantages of certain countries\cite{After_tax_hedging_report_2013}. Such problems forced the G20 to launch an inclusive framework on base erosion and profit shifting called "BEPS", bringing together about 100 countries in order to stop such unlawful tax planning. However, even if this action against such problem highlighted in a more specific way what should be considered as aggressive tax planning the border with legitimate cost engineering seems blurrier than ever\cite{Feller2017}.
 
-In this paper, is proposed Goal Programming model, Figure\ref{fig:flowchart}, that given a set of criteria based on the accounting information of a specific multinational, it tries to perform the best allocation of its entities. The model will use both internal and external data and will follow three main objectives, namely minimize the costs, minimize the tax base and at the same time be compliant with the functional characterization of each and every entity constituting the multinational group. In other words the last objective impose that the multinational entity profitability has to be in line with independent actor in the market\cite{Model_Tax_Convention_2015} and should not be in any case a mere result of aggressive tax planning.
+In this chapter, is proposed Goal Programming model, Figure\ref{fig:flowchart}, that given a set of criteria based on the accounting information of a specific multinational, it tries to perform the best allocation of its entities. The model will use both internal and external data and will follow three main objectives, namely minimize the costs, minimize the tax base and at the same time be compliant with the functional characterization of each and every entity constituting the multinational group. In other words the last objective impose that the multinational entity profitability has to be in line with independent actor in the market\cite{Model_Tax_Convention_2015} and should not be in any case a mere result of aggressive tax planning.
 
 \begin{figure}
 \centering
@@ -36,95 +36,6 @@ The following paper is organized in five sections, apart from the first one whic
 \\
 \\
 Ultimately the model will be run using the LINGO software package. The weights used will be subjected by a sensitivity analysis through different scenarios. Then, a set of weights will be chosen to take into account the decision maker preferences and the results will be compared with the real result obtained by the company in the period under scope, in doing so some limitations of the model will be stated and further analyzed.
-
-\pagebreak 
-\section{Multi-criteria decision analysis}
-Even if the practice of decision-making is old as man, academics tend to date the roots of modern MCDA in the early 60s, where the focus at the time was to find the most preferred solution, or generating an approximation to the entire efficient frontier\cite{Greco2016}.
-\\
-Multi-criteria analysis may be defined as a problem of multiple-objective programming, that differs from a linear one,
-since more objective function are handled; its formulation is the following:
-	$$
-	Min[f_1(x),f_2(x),...,f_k(x)] \quad i=1,...,k \quad where \quad k\geq2
-	$$
-This approach seems to fit better the real world since, in reality, more than one objective is pursued, and most of the time in contrast with one another.
-A solution to a multi-criteria problem would be optimal if it'd respected the Pareto Efficient assumption, namely that no other feasible solution exists that is at least as good with respect to all objectives and strictly better with respect to at least one objective. Mathematically it means that $\left\{x_1,...x_k\right\}$ is a solution if $\not\exists \left\{x'_1,...x'_k\right\}$
-such that:
-	\[
-	g(f_1(x),f_2(x),...,f_k(x)) \leq g(f_1(x'),f_2(x'),...,f_k(x')) \quad \forall n \quad \in  \left\{1...k\right\}
-	\]
-However such increase in complexity given by multiple objectives is both the strength and the weakness of such methodology, this is due to the fact that we have to deal with $N$ trade-offs deriving from the objectives we decided to include in our optimization problem. Because of this problem a lot of approaches and specific intelligent algorithms were proposed\cite{Cui2017}.
-
-Focusing the attention on the approaches suggested, four main categories emerge, namely:
-
-\begin{itemize}
-	\item A Priori methods: such methods are characterized by prior definition of the preference information, this category includes methods such as Weighted Sum Method, Constraints Method, Objective Programming Method, Dictionary Ordering Method and Analytic Ordering Method;   
-	\item Interactive methods: in this particular category the process is iterative, meaning that the decision maker interacts with the preference information he gave in search of the optimal solution, from this category belong two types of methods namely the Normal Boundary Intersection and the Normalized Normal Constraint;
-	\item Pareto-dominated methods: these methods divides the optimal solution seeking in two parts, at first they try to compose the efficient frontier of a given multi-criteria problem, then they try to find the Pareto Dominant\footnote{Given a vector of outcomes $\vec{S}$ that we identified as the Efficient Frontier $\vec{S}[s_1..._n]$ a solution $s^{\star}$ of such vector is Pareto Dominant if $\nexists$ a $s_q$ that is Pareto superior to $s^{\star}$.} solution;
-	\item New Dominance methods: this methods may be considered as an extension of the Pareto-dominated methods, in that they try to build the efficient frontier, then they try to eliminate the Pareto-dominated solutions however they tend to use fuzzy methods and other solutions to avoid the computational drawback of the former one.  
-\end{itemize}
-
-From the set of the A Priori methods belongs the Goal Programming (which develops from the concept of linear programming) and will be used to model the problem of entities allocation proposed on the next chapters.
-\\
-Goal Programming, hereinafter GP, is a multi-criteria decision analysis approach which allows the decision maker to consider simultaneously several conflicting objectives.
-
-The idea behind such method is very simple, and is based on distance minimization; this means that at each objective function is associated a deviation variable that has to be minimized in batch with the other deviation variables coming from the other objective functions.
-
-Such models may be represented algebraically as follows:
-
-\begin{equation*}
-\begin{aligned}
-& \underset{n,p}{\text{minimize}}
-& & a=h(n,p) \\
-& \text{subject to}
-& & f_q(x)+n_q-p_q=b_q \\
-& & & x\in F \\
-& & & n_q,p_q\geq 0 
-\end{aligned}
-\end{equation*}
-
-GP is vastly applied in many sciences\cite{Tamiz1998}. Its origins are dated back to the 50s, firstly introduced by Abraham Charnes and William Cooper\cite{Charnes1955} with an article on the optimal estimation of executive compensation.
-
-In such approach, three main different categories have been identified, namely the lexicographic GP, the weighted GP and the Chebyshev GP.
-
-Lexicographic GP, also named “preemptive” Goal Programming, distinguish itself from the other GP techniques as it has a number of priority levels chosen a priori. The mathematical formulation is the following one:
-
-\begin{equation*}
-\begin{aligned}
-& \underset{n,p}{\text{Lex minimize}}
-& & [h_1(n,p),...,h_L(n,p)] \\
-& \text{subject to}
-& & f_q(x)+n_q-p_q=b_q, \; q=1,...Q \\
-& & & x\in F \\
-& & & n_q,p_q\geq 0, \; q=1,...,Q 
-\end{aligned}
-\end{equation*}
-
-As opposed to LGP, the WGP allows for direct trade-offs between all unwanted deviational variables by using weight that are not putted a priori (as the LGP), as a result WGP is more flexible but as counter-effect it requires more computational power. The mathematical formulation is the following one:
-
-\begin{equation*}
-\begin{aligned}
-& \underset{n,p}{\text{minimize}}
-& & \sum_{q=1}^{Q}(\frac{u_q n_q}{k_q}+\frac{v_q n_q}{k_q}) \\
-& \text{subject to}
-& & f_q(x)+n_q-p_q=b_q, \; q=1,...Q \\
-& & & x\in F \\
-& & & n_q,p_q\geq 0, \; q=1,...,Q 
-\end{aligned}
-\end{equation*}
-
-The last GP variant, presented by Flavell. It differs from the first two variants since it uses the underlying $ L_\infty $ means of measuring distance. Also, called Minmax goal programming it seeks to minimize the maximal deviation from any goal. Therefore, the primary goal of such approach is the balance. The mathematical formulation is the following one:
-
-\begin{equation*}
-\begin{aligned}
-& \underset{\lambda}{\text{minimize}}
-& & \lambda \\
-& \text{subject to}
-& & \frac{u_q n_q}{k_q}+\frac{v_q n_q}{k_q}\leq\lambda, \; q=1,...Q \\
-& & & f_q(x)+n_q-p_q=b_q, \; q=1,...Q \\
-& & & x\in F \\
-& & & n_q,p_q\geq 0, \; q=1,...,Q 
-\end{aligned}
-\end{equation*}
 
 \pagebreak 
 
@@ -178,7 +89,7 @@ Killough and Souders\cite{Killough1973} & The authors apply the GP in the field 
 \hline
 Welling\cite{Welling1977} & The author proposes a GP approach to solve the problem of human resource evaluation using non monetary based parameters. \\
 \hline
-Krüger and Hattingh\cite{Kruger2006} & The authors propose a combination of Analytic Hierarchy Process and Goal Programming in order to address the risk of allocating the hours on several projects. \\
+Kruger and Hattingh\cite{Kruger2006} & The authors propose a combination of Analytic Hierarchy Process and Goal Programming in order to address the risk of allocating the hours on several projects. \\
 \hline
 Gardner et al.\cite{Gardner1990} & The authors use a multi period approach to audit the staff planning through a series of objectives, namely, profit, late completion of work, work declined, staff augmentation, staff reduction, under utilization of the work force, and shortfall in meeting professional development targets. \\
 \hline
@@ -198,7 +109,7 @@ From such table is possible to see how many GP models have been created to solve
 This popularity is due to the fact that GP is easy to understand and to apply, plus it facilitates consideration of trade-off in the decision-making process which is perceived a by the authors proposed as a deal-breaker when facing the decision on whether to use a GP approach.
 \\
 However it's worth mentioning the fact that not every field of accounting gained the same attention by both researchers and practitioner and, aside from its popularity, the interest in international tax planning never arose. This may be due to the typical background that such researchers have on the field. In fact most of the research moved in this field pertain to the legal area, which probably lack from a point of view of mathematical modelling skills. From the other side the field of international taxation involves a great set of laws, both soft and hard, that may result in a great effort by practitioner to model. 
-From an extensive review of the field of study under scope, it’s worth mentioning the work of Merville and Petty\cite{Merville1978} who tried to model an optimal pricing policy which is indeed useful to set a global tax strategy since the TP core is base on that. However, one major problem of such model is given by the fact that it doesn't take into account the novelties introduced by the recent work of the OECD and the increasing importance of new tools at the disposal of multinational companies such as: extensive databases, and newer resource management tools.
+From an extensive review of the field of study under scope, it's worth mentioning the work of Merville and Petty\cite{Merville1978} who tried to model an optimal pricing policy which is indeed useful to set a global tax strategy since the TP core is base on that. However, one major problem of such model is given by the fact that it doesn't take into account the novelties introduced by the recent work of the OECD and the increasing importance of new tools at the disposal of multinational companies such as: extensive databases, and newer resource management tools.
 \\
 Therefore, keeping what proposed by the literature, seems necessary to propose a new type of model which takes into account these new developments and result giving a powerful tool in the hand of the Decision Maker.
 

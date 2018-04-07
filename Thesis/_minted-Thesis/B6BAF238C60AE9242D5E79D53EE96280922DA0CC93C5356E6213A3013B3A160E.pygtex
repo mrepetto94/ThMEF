@@ -1,0 +1,158 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{set} \PYG{n+nv}{D\PYGZus{}CITY}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{}declare the set of distribution center}
+\PYG{k+kd}{set} \PYG{n+nv}{W\PYGZus{}CITY}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{}declare the set of retail center}
+\PYG{k+kd}{set} \PYG{n+nv}{R\PYGZus{}CITY}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{}declare the set of recycling cente}
+
+\PYG{k+kd}{set} \PYG{n+nv}{DW\PYGZus{}LINKS}\PYG{+w}{ }\PYG{k+kr}{within}\PYG{+w}{ }\PYG{p}{(}D\PYGZus{}CITY\PYG{+w}{ }\PYG{k+kr}{cross}\PYG{+w}{ }W\PYGZus{}CITY\PYG{p}{);}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{}declare the links distribution vs retail;}
+\PYG{k+kd}{set} \PYG{n+nv}{WR\PYGZus{}LINKS}\PYG{+w}{ }\PYG{k+kr}{within}\PYG{+w}{ }\PYG{p}{(}W\PYGZus{}CITY\PYG{+w}{ }\PYG{k+kr}{cross}\PYG{+w}{ }R\PYGZus{}CITY\PYG{p}{);}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{}declare the links retail vs recycling}
+\PYG{k+kd}{set} \PYG{n+nv}{WW\PYGZus{}LINKS}\PYG{+w}{ }\PYG{k+kr}{within}\PYG{+w}{ }\PYG{p}{(}W\PYGZus{}CITY\PYG{+w}{ }\PYG{k+kr}{cross}\PYG{+w}{ }W\PYGZus{}CITY\PYG{p}{);}
+
+\PYG{k+kd}{set} \PYG{n+nv}{WEIGHTS}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{o}{..}\PYG{l+m+mi}{5}\PYG{p}{;}
+
+\PYG{k+kd}{param} \PYG{n+nv}{p\PYGZus{}supply}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{}amount produced by the plant in Taipei}
+\PYG{k+kd}{param} \PYG{n+nv}{w\PYGZus{}demand}\PYG{+w}{ }\PYG{p}{\PYGZob{}}W\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{}amount requred at the retail centers}
+\PYG{k+kd}{param} \PYG{n+nv}{r\PYGZus{}demand}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{param} \PYG{n+nv}{we}\PYG{p}{\PYGZob{}}WEIGHTS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{l+m+mi}{1}\PYG{p}{;}
+
+\PYG{c+c1}{\PYGZsh{}check: p\PYGZus{}supply = sum\PYGZob{}j in W\PYGZus{}CITY\PYGZcb{} w\PYGZus{}demand[j]; \PYGZsh{}check that demand do not overflow supply}
+\PYG{c+c1}{\PYGZsh{}check: sum\PYGZob{}j in W\PYGZus{}CITY\PYGZcb{} w\PYGZus{}demand[j] = r\PYGZus{}demand;}
+
+\PYG{k+kd}{param} \PYG{n+nv}{pd\PYGZus{}cost}\PYG{+w}{ }\PYG{p}{\PYGZob{}}D\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{}shipment cost from plant to distribution}
+\PYG{k+kd}{param} \PYG{n+nv}{dw\PYGZus{}cost}\PYG{+w}{ }\PYG{p}{\PYGZob{}}DW\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{}shipment cost from distribution to retail}
+\PYG{k+kd}{param} \PYG{n+nv}{wr\PYGZus{}cost}\PYG{+w}{ }\PYG{p}{\PYGZob{}}WR\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{}shipment cost from retail to recycling}
+\PYG{k+kd}{param} \PYG{n+nv}{rr\PYGZus{}cost}\PYG{+w}{ }\PYG{p}{\PYGZob{}}R\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{}shipment cost from recycling to plant}
+
+\PYG{k+kd}{param} \PYG{n+nv}{pd\PYGZus{}cap}\PYG{+w}{ }\PYG{p}{\PYGZob{}}D\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{}capacities for each entity}
+\PYG{k+kd}{param} \PYG{n+nv}{dw\PYGZus{}cap}\PYG{+w}{ }\PYG{p}{\PYGZob{}}DW\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{param} \PYG{n+nv}{wr\PYGZus{}cap}\PYG{+w}{ }\PYG{p}{\PYGZob{}}WR\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{param} \PYG{n+nv}{rr\PYGZus{}cap}\PYG{+w}{ }\PYG{p}{\PYGZob{}}R\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{c+c1}{\PYGZsh{}cost parameters (node part)}
+\PYG{k+kd}{param} \PYG{n+nv}{production\PYGZus{}cost}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{param} \PYG{n+nv}{distribution\PYGZus{}cost}\PYG{p}{\PYGZob{}}D\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{param} \PYG{n+nv}{retail\PYGZus{}cost}\PYG{p}{\PYGZob{}}W\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{param} \PYG{n+nv}{recycle\PYGZus{}cost}\PYG{p}{\PYGZob{}}R\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{param} \PYG{n+nv}{reuse\PYGZus{}cost}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{c+c1}{\PYGZsh{}recycling part}
+\PYG{k+kd}{param} \PYG{n+nv}{return\PYGZus{}coefficient}\PYG{p}{\PYGZob{}}W\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+
+\PYG{c+c1}{\PYGZsh{}Fuzzy membership function}
+\PYG{k+kd}{param} \PYG{n+nv}{limit1}\PYG{+w}{ }\PYG{p}{\PYGZob{}}R\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{param} \PYG{n+nv}{goal}\PYG{+w}{ }\PYG{p}{\PYGZob{}}R\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+
+\PYG{c+c1}{\PYGZsh{}Opportunity cost of not using the waste}
+\PYG{k+kd}{param} \PYG{n+nv}{waste\PYGZus{}cost}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+
+\PYG{c+c1}{\PYGZsh{}Goalprogramming deviational variables}
+\PYG{k+kd}{var} \PYG{n+nv}{pd\PYGZus{}pdcost}\PYG{p}{\PYGZob{}}D\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{var} \PYG{n+nv}{pd\PYGZus{}dwcost}\PYG{p}{\PYGZob{}}DW\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{var} \PYG{n+nv}{pd\PYGZus{}wrcost}\PYG{p}{\PYGZob{}}WR\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{var} \PYG{n+nv}{pd\PYGZus{}rrcost}\PYG{p}{\PYGZob{}}R\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{var} \PYG{n+nv}{nd\PYGZus{}fuzzy}\PYG{p}{\PYGZob{}}R\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+
+\PYG{k+kd}{var} \PYG{n+nv}{pd\PYGZus{}production}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{var} \PYG{n+nv}{pd\PYGZus{}distribution}\PYG{p}{\PYGZob{}}D\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{var} \PYG{n+nv}{pd\PYGZus{}retail}\PYG{p}{\PYGZob{}}W\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{var} \PYG{n+nv}{pd\PYGZus{}recycle}\PYG{p}{\PYGZob{}}R\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{var} \PYG{n+nv}{pd\PYGZus{}reuse}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+
+\PYG{k+kd}{var} \PYG{n+nv}{pd\PYGZus{}waste}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+
+\PYG{k+kd}{var} \PYG{n+nv}{waste}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{l+m+mi}{0}\PYG{p}{;}
+
+\PYG{k+kd}{var} \PYG{n+nv}{nd\PYGZus{}retail\PYGZus{}demand}\PYG{p}{\PYGZob{}}W\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{c+c1}{\PYGZsh{}}
+\PYG{k+kd}{var} \PYG{n+nv}{collected}\PYG{+w}{ }\PYG{p}{\PYGZob{}}W\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{}variable indicating the collected units per retail}
+
+\PYG{k+kd}{var} \PYG{n+nv}{mu}\PYG{p}{\PYGZob{}}R\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+
+\PYG{k+kd}{var} \PYG{n+nv}{obj}\PYG{p}{\PYGZob{}}WEIGHTS\PYG{p}{\PYGZcb{};}\PYG{+w}{	}
+
+\PYG{k+kd}{minimize} \PYG{n+nv}{z}\PYG{p}{:}\PYG{+w}{ }we\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }D\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }pd\PYGZus{}pdcost\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{            }we\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}(}i\PYG{p}{,}j\PYG{p}{)}\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }DW\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }pd\PYGZus{}dwcost\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{            }we\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}(}i\PYG{p}{,}j\PYG{p}{)}\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }WR\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }pd\PYGZus{}wrcost\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{            }we\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }R\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }pd\PYGZus{}rrcost\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{            }we\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }pd\PYGZus{}production\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{            }we\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }D\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }pd\PYGZus{}distribution\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{            }we\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }W\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }pd\PYGZus{}retail\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{            }we\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }R\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }pd\PYGZus{}recycle\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{	    }we\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }pd\PYGZus{}reuse\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{	    }we\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }R\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }nd\PYGZus{}fuzzy\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{            }we\PYG{p}{[}\PYG{l+m+mi}{4}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }W\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }nd\PYGZus{}retail\PYGZus{}demand\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{            }we\PYG{p}{[}\PYG{l+m+mi}{5}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }pd\PYGZus{}waste\PYG{p}{;}
+
+\PYG{k+kd}{node} \PYG{n+nv}{Plant}\PYG{p}{:}\PYG{+w}{ }\PYG{k+kr}{net\PYGZus{}out}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }p\PYGZus{}supply\PYG{p}{;}
+\PYG{k+kd}{node} \PYG{n+nv}{Dist}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }D\PYGZus{}CITY\PYG{p}{\PYGZcb{};}
+\PYG{k+kd}{node} \PYG{n+nv}{Whse}\PYG{+w}{ }\PYG{p}{\PYGZob{}}j\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }W\PYGZus{}CITY\PYG{p}{\PYGZcb{};}
+\PYG{k+kd}{node} \PYG{n+nv}{Whse\PYGZus{}collection}\PYG{+w}{ }\PYG{p}{\PYGZob{}}j\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }W\PYGZus{}CITY\PYG{p}{\PYGZcb{};}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{}specific nodes for the collection}
+\PYG{k+kd}{node} \PYG{n+nv}{Recy}\PYG{+w}{ }\PYG{p}{\PYGZob{}}k\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }R\PYGZus{}CITY\PYG{p}{\PYGZcb{};}
+\PYG{k+kd}{node} \PYG{n+nv}{Retu}\PYG{p}{:}\PYG{+w}{ }\PYG{k+kr}{net\PYGZus{}in}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }r\PYGZus{}demand\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }waste\PYG{+w}{ }\PYG{p}{;}
+
+\PYG{k+kd}{arc} \PYG{n+nv}{PD\PYGZus{}Ship}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }D\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }pd\PYGZus{}cap\PYG{p}{[}i\PYG{p}{],}
+\PYG{+w}{  }\PYG{k+kr}{from}\PYG{+w}{ }Plant\PYG{p}{,}\PYG{+w}{ }\PYG{k+kr}{to}\PYG{+w}{ }Dist\PYG{p}{[}i\PYG{p}{];}
+
+\PYG{k+kd}{arc} \PYG{n+nv}{DW\PYGZus{}Ship}\PYG{+w}{ }\PYG{p}{\PYGZob{}(}i\PYG{p}{,}j\PYG{p}{)}\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }DW\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{  }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }dw\PYGZus{}cap\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{],}
+\PYG{+w}{  }\PYG{k+kr}{from}\PYG{+w}{ }Dist\PYG{p}{[}i\PYG{p}{],}\PYG{+w}{ }\PYG{k+kr}{to}\PYG{+w}{ }Whse\PYG{+w}{ }\PYG{p}{[}j\PYG{p}{];}
+
+\PYG{k+kd}{arc} \PYG{n+nv}{WW\PYGZus{}Ship}\PYG{+w}{ }\PYG{p}{\PYGZob{}(}i\PYG{p}{,}j\PYG{p}{)}\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }WW\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{,}
+\PYG{+w}{  }\PYG{k+kr}{from}\PYG{+w}{ }Whse\PYG{p}{[}i\PYG{p}{],}\PYG{+w}{ }\PYG{k+kr}{to}\PYG{+w}{ }Whse\PYGZus{}collection\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }return\PYGZus{}coefficient\PYG{p}{[}i\PYG{p}{];}
+
+\PYG{k+kd}{arc} \PYG{n+nv}{WR\PYGZus{}Ship}\PYG{+w}{ }\PYG{p}{\PYGZob{}(}i\PYG{p}{,}j\PYG{p}{)}\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }WR\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{  }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }wr\PYGZus{}cap\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{],}
+\PYG{+w}{  }\PYG{k+kr}{from}\PYG{+w}{ }Whse\PYGZus{}collection\PYG{p}{[}i\PYG{p}{],}\PYG{+w}{ }\PYG{k+kr}{to}\PYG{+w}{ }Recy\PYG{p}{[}j\PYG{p}{];}
+
+\PYG{k+kd}{arc} \PYG{n+nv}{RR\PYGZus{}Ship}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }R\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{+w}{  }\PYG{o}{\PYGZlt{}=}\PYG{+w}{ }rr\PYGZus{}cap\PYG{p}{[}i\PYG{p}{],}
+\PYG{+w}{  }\PYG{k+kr}{from}\PYG{+w}{ }Recy\PYG{p}{[}i\PYG{p}{],}\PYG{+w}{ }\PYG{k+kr}{to}\PYG{+w}{ }Retu\PYG{p}{;}
+
+\PYG{c+c1}{\PYGZsh{}Soft constraints of the arcs in the network}
+\PYG{k+kd}{subject to} \PYG{n+nv}{pd\PYGZus{}obj}\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }D\PYGZus{}CITY\PYG{p}{\PYGZcb{}:}\PYG{+w}{ }
+\PYG{+w}{	}PD\PYGZus{}Ship\PYG{p}{[}i\PYG{p}{]}\PYG{o}{*}pd\PYGZus{}cost\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }pd\PYGZus{}pdcost\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{subject to} \PYG{n+nv}{dw\PYGZus{}obj}\PYG{p}{\PYGZob{}(}i\PYG{p}{,}j\PYG{p}{)}\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }DW\PYGZus{}LINKS\PYG{p}{\PYGZcb{}:}\PYG{+w}{ }
+\PYG{+w}{	}DW\PYGZus{}Ship\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{]}\PYG{o}{*}dw\PYGZus{}cost\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }pd\PYGZus{}dwcost\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{subject to} \PYG{n+nv}{wr\PYGZus{}obj}\PYG{p}{\PYGZob{}(}i\PYG{p}{,}j\PYG{p}{)}\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }WR\PYGZus{}LINKS\PYG{p}{\PYGZcb{}:}\PYG{+w}{ }
+\PYG{+w}{	}WR\PYGZus{}Ship\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{]}\PYG{o}{*}wr\PYGZus{}cost\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }pd\PYGZus{}wrcost\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{subject to} \PYG{n+nv}{rr\PYGZus{}obj}\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }R\PYGZus{}CITY\PYG{p}{\PYGZcb{}:}\PYG{+w}{ }
+\PYG{+w}{	}RR\PYGZus{}Ship\PYG{p}{[}i\PYG{p}{]}\PYG{o}{*}rr\PYGZus{}cost\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }pd\PYGZus{}rrcost\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{c+c1}{\PYGZsh{}Soft constraints of the node (operation costs)}
+\PYG{k+kd}{subject to} \PYG{n+nv}{production}\PYG{p}{:}\PYG{+w}{ }
+\PYG{+w}{	}p\PYGZus{}supply\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }production\PYGZus{}cost\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }pd\PYGZus{}production\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{subject to} \PYG{n+nv}{distribution}\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }D\PYGZus{}CITY\PYG{p}{\PYGZcb{}:}\PYG{+w}{ }
+\PYG{+w}{	}PD\PYGZus{}Ship\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }distribution\PYGZus{}cost\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }pd\PYGZus{}distribution\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{subject to} \PYG{n+nv}{retail}\PYG{p}{\PYGZob{}}j\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }W\PYGZus{}CITY\PYG{p}{\PYGZcb{}:}\PYG{+w}{ }
+\PYG{+w}{	}\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}(}i\PYG{p}{,}j\PYG{p}{)}\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }DW\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }DW\PYGZus{}Ship\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }retail\PYGZus{}cost\PYG{p}{[}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }pd\PYGZus{}retail\PYG{p}{[}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{subject to} \PYG{n+nv}{recycle}\PYG{p}{\PYGZob{}}j\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }R\PYGZus{}CITY\PYG{p}{\PYGZcb{}:}\PYG{+w}{ }
+\PYG{+w}{	}\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}(}i\PYG{p}{,}j\PYG{p}{)}\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }WR\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }WR\PYGZus{}Ship\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }recycle\PYGZus{}cost\PYG{p}{[}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }pd\PYGZus{}recycle\PYG{p}{[}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{k+kd}{subject to} \PYG{n+nv}{reuse}\PYG{p}{:}\PYG{+w}{ }
+\PYG{+w}{	}r\PYGZus{}demand\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }reuse\PYGZus{}cost\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }pd\PYGZus{}reuse\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+\PYG{c+c1}{\PYGZsh{}Soft constraint waste minimization}
+\PYG{k+kd}{subject to} \PYG{n+nv}{wastecontroll}\PYG{p}{:}\PYG{+w}{ }\PYG{p}{(}RR\PYGZus{}Ship\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}NOCO\PYGZdq{}}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }waste\PYGZus{}cost\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }pd\PYGZus{}waste\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}\PYG{+w}{ }
+\PYG{c+c1}{\PYGZsh{}Collection variable (just for showing how many units are collected per retail)}
+\PYG{k+kd}{subject to} \PYG{n+nv}{collection}\PYG{p}{\PYGZob{}}j\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }W\PYGZus{}CITY\PYG{p}{\PYGZcb{}:}\PYG{+w}{ }
+\PYG{+w}{	}\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}(}i\PYG{p}{,}j\PYG{p}{)}\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }DW\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }DW\PYGZus{}Ship\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{*}\PYG{+w}{ }return\PYGZus{}coefficient\PYG{+w}{ }\PYG{p}{[}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }collected\PYG{p}{[}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{0}\PYG{p}{;}
+
+\PYG{c+c1}{\PYGZsh{}Fuzzy goal programming part \PYGZhy{}not working\PYGZhy{}}
+\PYG{k+kd}{subject to} \PYG{n+nv}{fuzzy\PYGZus{}recy}\PYG{p}{\PYGZob{}}j\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }R\PYGZus{}CITY\PYG{p}{\PYGZcb{}:}\PYG{+w}{ }
+\PYG{+w}{	}\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}(}i\PYG{p}{,}j\PYG{p}{)}\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }WR\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }WR\PYGZus{}Ship\PYG{+w}{ }\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }nd\PYGZus{}fuzzy\PYG{p}{[}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{\PYGZgt{}=}\PYG{+w}{ }goal\PYG{p}{[}j\PYG{p}{];}
+\PYG{k+kd}{subject to} \PYG{n+nv}{fuzzy\PYGZus{}recy2}\PYG{p}{\PYGZob{}}j\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }R\PYGZus{}CITY\PYG{p}{\PYGZcb{}:}
+\PYG{+w}{        }\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}(}i\PYG{p}{,}j\PYG{p}{)}\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }WR\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }mu\PYG{p}{[}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{p}{(}nd\PYGZus{}fuzzy\PYG{p}{[}j\PYG{p}{]}\PYG{o}{/}limit1\PYG{p}{[}j\PYG{p}{])}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mi}{1}\PYG{p}{;}
+
+\PYG{k+kd}{subject to} \PYG{n+nv}{dw\PYGZus{}obj\PYGZus{}flow}\PYG{p}{\PYGZob{}}j\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }W\PYGZus{}CITY\PYG{p}{\PYGZcb{}:}
+\PYG{+w}{	}\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}(}i\PYG{p}{,}j\PYG{p}{)}\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }DW\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }DW\PYGZus{}Ship\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }nd\PYGZus{}retail\PYGZus{}demand\PYG{p}{[}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }w\PYGZus{}demand\PYG{p}{[}j\PYG{p}{];}
+
+\PYG{c+c1}{\PYGZsh{}OBJECTIVE definition}
+\PYG{k+kd}{subject to} \PYG{n+nv}{obj1}\PYG{p}{:}\PYG{+w}{ }
+\PYG{+w}{	}\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }D\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }pd\PYGZus{}pdcost\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{	}\PYG{o}{+}
+\PYG{+w}{	}\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}(}i\PYG{p}{,}j\PYG{p}{)}\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }DW\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }pd\PYGZus{}dwcost\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{	}\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}(}i\PYG{p}{,}j\PYG{p}{)}\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }WR\PYGZus{}LINKS\PYG{p}{\PYGZcb{}}\PYG{+w}{ }pd\PYGZus{}wrcost\PYG{p}{[}i\PYG{p}{,}j\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{	}\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }R\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }pd\PYGZus{}rrcost\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kr}{obj}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{];}
+\PYG{k+kd}{subject to} \PYG{n+nv}{obj2}\PYG{p}{:}\PYG{+w}{ }
+\PYG{+w}{	}pd\PYGZus{}production\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{	}\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }D\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }pd\PYGZus{}distribution\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{        }\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }W\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }pd\PYGZus{}retail\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{        }\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }R\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }pd\PYGZus{}recycle\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{+}
+\PYG{+w}{	}pd\PYGZus{}reuse\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kr}{obj}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{];}
+\PYG{k+kd}{subject to} \PYG{n+nv}{obj3}\PYG{p}{:}\PYG{+w}{ }
+\PYG{+w}{	}\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }R\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }nd\PYGZus{}fuzzy\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kr}{obj}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{];}
+\PYG{k+kd}{subject to} \PYG{n+nv}{obj4}\PYG{p}{:}\PYG{+w}{ }
+\PYG{+w}{	}\PYG{k+kr}{sum}\PYG{+w}{ }\PYG{p}{\PYGZob{}}i\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }W\PYGZus{}CITY\PYG{p}{\PYGZcb{}}\PYG{+w}{ }nd\PYGZus{}retail\PYGZus{}demand\PYG{p}{[}i\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kr}{obj}\PYG{p}{[}\PYG{l+m+mi}{4}\PYG{p}{];}
+\PYG{k+kd}{subject to} \PYG{n+nv}{obj5}\PYG{p}{:}\PYG{+w}{ }
+\PYG{+w}{	}pd\PYGZus{}waste\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kr}{obj}\PYG{p}{[}\PYG{l+m+mi}{5}\PYG{p}{];}
+\end{Verbatim}
