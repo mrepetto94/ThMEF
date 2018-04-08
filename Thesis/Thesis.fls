@@ -443,8 +443,8 @@ OUTPUT Thesis.lof
 INPUT Thesis.lot
 INPUT Thesis.lot
 OUTPUT Thesis.lot
-INPUT Begin.tex
-INPUT Begin.tex
+INPUT introduction
+INPUT introduction
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/t1xi.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
@@ -577,8 +577,10 @@ INPUT ./Images/tradeoff.png
 INPUT Images/network.png
 INPUT ./Images/network.png
 INPUT ./Images/network.png
-INPUT End.tex
-INPUT End.tex
+INPUT conclusion
+INPUT conclusion
+INPUT appendix.tex
+INPUT appendix.tex
 INPUT _minted-Thesis/default-pyg-prefix.pygstyle
 INPUT _minted-Thesis/default-pyg-prefix.pygstyle
 INPUT _minted-Thesis/default-pyg-prefix.pygstyle
@@ -607,9 +609,9 @@ INPUT _minted-Thesis/B6BAF238C60AE9242D5E79D53EE96280922DA0CC93C5356E6213A3013B3
 INPUT _minted-Thesis/B6BAF238C60AE9242D5E79D53EE96280922DA0CC93C5356E6213A3013B3A160E.pygtex
 INPUT _minted-Thesis/B6BAF238C60AE9242D5E79D53EE96280922DA0CC93C5356E6213A3013B3A160E.pygtex
 INPUT _minted-Thesis/B6BAF238C60AE9242D5E79D53EE96280922DA0CC93C5356E6213A3013B3A160E.pygtex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xtt.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xbtt.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xttsl.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xtt.tfm
 INPUT Thesis.aux
 INPUT ./Thesis.out
 INPUT ./Thesis.out
