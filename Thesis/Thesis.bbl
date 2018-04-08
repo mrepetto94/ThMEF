@@ -314,8 +314,8 @@
       \field{title}{A heuristic algorithm for master planning that satisfies multiple objectives}
       \field{volume}{34}
       \field{year}{2007}
-      \field{pages}{3491–3513}
-      \range{pages}{-1}
+      \field{pages}{3491\bibrangedash 3513}
+      \range{pages}{23}
       \verb{doi}
       \verb 10.1016/j.cor.2006.02.022
       \endverb
@@ -702,7 +702,7 @@
       \field{journaltitle}{Decision Sciences}
       \field{month}{1}
       \field{number}{1}
-      \field{title}{A Multiperiod Audit Staff Planning Model Using Multiple Objectives: Development and Evaluation{\ast}}
+      \field{title}{A Multiperiod Audit Staff Planning Model Using Multiple Objectives: Development and Evaluation}
       \field{volume}{21}
       \field{year}{1990}
       \field{pages}{154\bibrangedash 170}
@@ -760,12 +760,12 @@
       \field{issn}{00981354}
       \field{journaltitle}{Computers \& Chemical Engineering}
       \field{month}{9}
-      \field{number}{8–9}
+      \field{number}{8-9}
       \field{title}{Managing demand uncertainty in supply chain planning}
       \field{volume}{27}
       \field{year}{2003}
-      \field{pages}{1219–1227}
-      \range{pages}{-1}
+      \field{pages}{1219\bibrangedash 1227}
+      \range{pages}{9}
       \verb{doi}
       \verb 10.1016/S0098-1354(03)00048-6
       \endverb
@@ -896,16 +896,16 @@
            familyi={K\bibinitperiod},
            given={A.\bibnamedelimi P.},
            giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=ed0b207bfa3604dbd6167cf01a2accb7}{%
-           family={Adil\bibnamedelima *},
-           familyi={A\bibinitperiod\bibinitdelim *\bibinitperiod},
+        {{hash=48d5264c76c48af9c3ba06280ad3c5ed}{%
+           family={Adil},
+           familyi={A\bibinitperiod},
            given={G.\bibnamedelimi K.},
            giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
-      \strng{namehash}{ea2a4b19ceba7f0f0b15ee3eca3f22bf}
-      \strng{fullhash}{ea2a4b19ceba7f0f0b15ee3eca3f22bf}
-      \strng{authornamehash}{ea2a4b19ceba7f0f0b15ee3eca3f22bf}
-      \strng{authorfullhash}{ea2a4b19ceba7f0f0b15ee3eca3f22bf}
+      \strng{namehash}{4a91e9af5bc16b943929273f631341bd}
+      \strng{fullhash}{4a91e9af5bc16b943929273f631341bd}
+      \strng{authornamehash}{4a91e9af5bc16b943929273f631341bd}
+      \strng{authorfullhash}{4a91e9af5bc16b943929273f631341bd}
       \field{labelalpha}{KA05}
       \field{sortinit}{K}
       \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
@@ -918,8 +918,8 @@
       \field{title}{An integrated aggregate and detailed planning in a multi-site production environment using linear programming}
       \field{volume}{43}
       \field{year}{2005}
-      \field{pages}{4431–4454}
-      \range{pages}{-1}
+      \field{pages}{4431\bibrangedash 4454}
+      \range{pages}{24}
       \verb{doi}
       \verb 10.1080/00207540500142332
       \endverb
@@ -1334,8 +1334,8 @@
       \field{title}{Global multiproduct production-Distribution planning with duty drawbacks}
       \field{volume}{52}
       \field{year}{2006}
-      \field{pages}{595–610}
-      \range{pages}{-1}
+      \field{pages}{595\bibrangedash 610}
+      \range{pages}{16}
       \verb{doi}
       \verb 10.1002/aic.10669
       \endverb
@@ -1375,7 +1375,7 @@
       \field{month}{4}
       \field{number}{4}
       \field{shorttitle}{How are {WEEE} doing?}
-      \field{title}{How are {WEEE} doing? {A} global review of the management of electrical and electronic wastes}
+      \field{title}{How are {WEEE} doing {A} global review of the management of electrical and electronic wastes}
       \field{urlday}{6}
       \field{urlmonth}{2}
       \field{urlyear}{2018}
@@ -1446,7 +1446,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{2017 6th {IIAI} International Congress on Advanced Applied Informatics ({IIAI}-{AAI})}
       \field{month}{7}
-      \field{title}{Application of Fuzzy Goal Programming to Wind Turbine Selection with Multiple Criteria {\&}{\#}x2014$\mathsemicolon$ A Study of Three Potential Sites in Saudi Arabia}
+      \field{title}{Application of Fuzzy Goal Programming to Wind Turbine Selection with Multiple Criteria: A Study of Three Potential Sites in Saudi Arabia}
       \field{year}{2017}
       \verb{doi}
       \verb 10.1109/iiai-aai.2017.22
@@ -1486,8 +1486,8 @@
       \field{title}{Synchronized production–distribution planning in a single-plant multi-destination network}
       \field{volume}{59}
       \field{year}{2008}
-      \field{pages}{90–104}
-      \range{pages}{-1}
+      \field{pages}{90\bibrangedash 104}
+      \range{pages}{15}
       \verb{doi}
       \verb 10.1057/palgrave.jors.2602316
       \endverb
@@ -1647,8 +1647,8 @@
       \field{title}{A stochastic programming approach for supply chain network design under uncertainty}
       \field{volume}{167}
       \field{year}{2005}
-      \field{pages}{96–115}
-      \range{pages}{-1}
+      \field{pages}{96\bibrangedash 115}
+      \range{pages}{20}
       \verb{doi}
       \verb 10.1016/j.ejor.2004.01.046
       \endverb
@@ -1972,7 +1972,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computers \& Industrial Engineering}
-      \field{title}{Corporate social responsibility in portfolio selection: A \^{a}��goal games\^{a}�� against nature approach}
+      \field{title}{Corporate social responsibility in portfolio selection: A "goal games" against nature approach}
       \field{volume}{75}
       \field{year}{2014}
       \field{pages}{260\bibrangedash 265}
@@ -2191,8 +2191,8 @@
       \field{title}{Fuzzy sets}
       \field{volume}{8}
       \field{year}{1965}
-      \field{pages}{338–353}
-      \range{pages}{-1}
+      \field{pages}{338\bibrangedash 353}
+      \range{pages}{16}
       \verb{doi}
       \verb 10.1016/S0019-9958(65)90241-X
       \endverb

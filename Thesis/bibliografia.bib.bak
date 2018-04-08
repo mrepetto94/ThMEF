@@ -342,7 +342,16 @@
   url          = {http://www.oecd.org/ctp/oecd-releases-beps-discussion-drafts-on-attribution-of-profits-to-permanent-establishments-and-transactional-profit-splits.htm},
 }
 
-@article{tsai_hung_2009, title={A fuzzy goal programming approach for green supply chain optimisation under activity-based costing and performance evaluation with a value-chain structure}, volume={47}, DOI={10.1080/00207540801932498}, number={18}, journal={International Journal of Production Research}, author={Tsai, W.-H. and Hung, Shih-Jieh}, year={2009}, pages={4991–5017}}
+@Article{tsai_hung_2009,
+  author  = {Tsai, W.-H. and Hung, Shih-Jieh},
+  title   = {A fuzzy goal programming approach for green supply chain optimisation under activity-based costing and performance evaluation with a value-chain structure},
+  journal = {International Journal of Production Research},
+  year    = {2009},
+  volume  = {47},
+  number  = {18},
+  pages   = {4991-5017},
+  doi     = {10.1080/00207540801932498},
+}
 
 @Article{Srivastava2007,
   author     = {Srivastava, Samir K.},
@@ -393,7 +402,7 @@
 
 @Article{Ongondo2011,
   author     = {Ongondo, F.O. and Williams, I.D. and Cherrett, T.J.},
-  title      = {How are {WEEE} doing? {A} global review of the management of electrical and electronic wastes},
+  title      = {How are {WEEE} doing {A} global review of the management of electrical and electronic wastes},
   journal    = {Waste Management},
   year       = {2011},
   language   = {en},
@@ -515,7 +524,7 @@
   volume  = {167},
   number  = {1},
   month   = nov,
-  pages   = {96–115},
+  pages   = {96-115},
   issn    = {03772217},
   doi     = {10.1016/j.ejor.2004.01.046},
 }
@@ -537,7 +546,7 @@
   volume  = {8},
   number  = {3},
   month   = {Jun},
-  pages   = {338–353},
+  pages   = {338-353},
   issn    = {00199958},
   doi     = {10.1016/S0019-9958(65)90241-X},
 }
@@ -550,20 +559,20 @@
   volume  = {52},
   number  = {2},
   month   = {Feb},
-  pages   = {595–610},
+  pages   = {595-610},
   issn    = {0001-1541, 1547-5905},
   doi     = {10.1002/aic.10669},
 }
 
 @Article{Kanyalkar2005,
-  author  = {Kanyalkar, A. P. and Adil *, G. K.},
+  author  = {Kanyalkar, A. P. and Adil, G. K.},
   title   = {An integrated aggregate and detailed planning in a multi-site production environment using linear programming},
   journal = {International Journal of Production Research},
   year    = {2005},
   volume  = {43},
   number  = {20},
   month   = {Oct},
-  pages   = {4431–4454},
+  pages   = {4431-4454},
   issn    = {0020-7543, 1366-588X},
   doi     = {10.1080/00207540500142332},
 }
@@ -576,7 +585,7 @@
   volume  = {34},
   number  = {11},
   month   = {Nov},
-  pages   = {3491–3513},
+  pages   = {3491-3513},
   issn    = {03050548},
   doi     = {10.1016/j.cor.2006.02.022},
 }
@@ -589,7 +598,7 @@
   volume  = {59},
   number  = {1},
   month   = {Jan},
-  pages   = {90–104},
+  pages   = {90-104},
   issn    = {0160-5682, 1476-9360},
   doi     = {10.1057/palgrave.jors.2602316},
 }
@@ -613,9 +622,9 @@
   journal = {Computers \& Chemical Engineering},
   year    = {2003},
   volume  = {27},
-  number  = {8–9},
+  number  = {8-9},
   month   = {Sep},
-  pages   = {1219–1227},
+  pages   = {1219-1227},
   issn    = {00981354},
   doi     = {10.1016/S0098-1354(03)00048-6},
 }
@@ -745,7 +754,7 @@
 
 @Article{Gardner1990,
   author    = {John C. Gardner and Ronald J. Huefner and Vahid Lotfi},
-  title     = {A Multiperiod Audit Staff Planning Model Using Multiple Objectives: Development and Evaluation{\ast}},
+  title     = {A Multiperiod Audit Staff Planning Model Using Multiple Objectives: Development and Evaluation},
   journal   = {Decision Sciences},
   year      = {1990},
   volume    = {21},
@@ -813,7 +822,7 @@
 
 @Article{Trenado2014,
   author    = {Trenado, Manuel and Romero, Mar{\'\i}a and Cuadrado, Mar{\'\i}a L and Romero, Carlos},
-  title     = {Corporate social responsibility in portfolio selection: A “goal games” against nature approach},
+  title     = {Corporate social responsibility in portfolio selection: A "goal games" against nature approach},
   journal   = {Computers \& Industrial Engineering},
   year      = {2014},
   volume    = {75},
@@ -909,7 +918,7 @@
 
 @InProceedings{Rehman2017,
   author    = {Shafiqur Rehman and Salman A. Khan},
-  title     = {Application of Fuzzy Goal Programming to Wind Turbine Selection with Multiple Criteria {\&}{\#}x2014$\mathsemicolon$ A Study of Three Potential Sites in Saudi Arabia},
+  title     = {Application of Fuzzy Goal Programming to Wind Turbine Selection with Multiple Criteria: A Study of Three Potential Sites in Saudi Arabia},
   booktitle = {2017 6th {IIAI} International Congress on Advanced Applied Informatics ({IIAI}-{AAI})},
   year      = {2017},
   publisher = {{IEEE}},

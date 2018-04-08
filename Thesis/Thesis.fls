@@ -11,8 +11,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT pacchetti.sty
-INPUT pacchetti.sty
+INPUT macro.sty
+INPUT macro.sty
+INPUT style.sty
+INPUT style.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
@@ -95,10 +97,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-INPUT macro.sty
-INPUT macro.sty
-INPUT style.sty
-INPUT style.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty

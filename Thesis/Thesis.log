@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.21)  8 APR 2018 10:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.21)  8 APR 2018 13:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,7 +24,7 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (./pacchetti.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+) (./macro.sty) (./style.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
@@ -327,9 +327,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip61
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 97.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 97.
-) (./macro.sty) (./style.sty (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package hyperref Info: Option `colorlinks' set `true' on input line 36.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 36.
+ (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2017/05/24 v1.19 mathematical typesetting tools
  (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
@@ -703,11 +703,11 @@ Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
  (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks28
 \pgfkeys@temptoks=\toks29
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks30
 ))
 \pgf@x=\dimen176
@@ -1389,13 +1389,13 @@ runsystem(mkdir -p _minted-Thesis)...disabled (restricted).
 
 
 
-./style.sty:54: Package minted Error: You must invoke LaTeX with the -shell-escape flag.
+./style.sty:90: Package minted Error: You must invoke LaTeX with the -shell-escape flag.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 
+l.90 
      
 Pass the -shell-escape flag to LaTeX. Refer to the minted.sty documentation for more information.
 
@@ -1411,56 +1411,56 @@ runsystem(which pygmentize && touch Thesis.aex)...disabled (restricted).
 
 
 
-./Thesis.tex:9: Package minted Error: You must have `pygmentize' installed to use this package.
+./Thesis.tex:8: Package minted Error: You must have `pygmentize' installed to use this package.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 \begin{document}
+l.8 \begin{document}
                     
 Refer to the installation instructions in the minted documentation for more information.
 
 (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 9.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 9.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 8.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 9.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 9.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 8.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 9.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 9.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 8.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 9.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 9.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 8.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 9.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Try loading font information for T1+txr on input line 9.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1490,7 +1490,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \c@lstlisting=\count474
 \AtBeginShipoutBox=\box99
-Package hyperref Info: Link coloring ON on input line 9.
+Package hyperref Info: Link coloring ON on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1498,9 +1498,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count475
 )
-LaTeX Info: Redefining \ref on input line 9.
-LaTeX Info: Redefining \pageref on input line 9.
-LaTeX Info: Redefining \nameref on input line 9.
+LaTeX Info: Redefining \ref on input line 8.
+LaTeX Info: Redefining \pageref on input line 8.
+LaTeX Info: Redefining \nameref on input line 8.
  (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write8
 \openout8 = `Thesis.out'.
@@ -1522,34 +1522,34 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 9.
-Package biblatex Info: Reference segment=0 on input line 9.
+Package biblatex Info: Reference section=0 on input line 8.
+Package biblatex Info: Reference segment=0 on input line 8.
 <centrato_piccolo_nero.jpg, id=139, 537.207pt x 294.1389pt>
 File: centrato_piccolo_nero.jpg Graphic file (type jpg)
 <use centrato_piccolo_nero.jpg>
-Package pdftex.def Info: centrato_piccolo_nero.jpg  used on input line 18. on input line 18.
-Package pdftex.def Info: Requested size: 355.66432pt x 184.94942pt on input line 18.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 18.
+Package pdftex.def Info: centrato_piccolo_nero.jpg  used on input line 17. on input line 17.
+Package pdftex.def Info: Requested size: 355.66432pt x 184.94942pt on input line 17.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 17.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 18.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 17.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 18.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 17.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 18.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 17.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 18.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 17.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 18.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 17.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 ) [1
@@ -2531,481 +2531,164 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [96])) [97] [98
 
 ]
-Overfull \hbox (13.90219pt too wide) in paragraph at lines 35--35
+Overfull \hbox (13.90219pt too wide) in paragraph at lines 34--34
 []\T1/txr/m/n/12 Alireza Az-imian and Be-laid Aouni. ``Sup-ply chain man-age-ment through
  []
 
 
-Overfull \hbox (2.17816pt too wide) in paragraph at lines 35--35
+Overfull \hbox (2.17816pt too wide) in paragraph at lines 34--34
 []\T1/txr/m/n/12 Julian Ben-jamin. ``An Anal-y-sis of In-ven-tory and Trans-porta-tion Costs
  []
 
 
-Overfull \hbox (1.57405pt too wide) in paragraph at lines 35--35
+Overfull \hbox (1.57405pt too wide) in paragraph at lines 34--34
 \T1/txr/m/n/12 in a Con-strained Net-work''. en. In: \T1/txr/m/it/12 Trans-porta-tion Sci-ence \T1/txr/m/n/12 23.3 (Aug.
  []
 
 [99]
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-Overfull \hbox (5.23605pt too wide) in paragraph at lines 35--35
+Overfull \hbox (5.23605pt too wide) in paragraph at lines 34--34
 \T1/txr/m/n/12 criteria de-ci-sion anal-y-sis with goal pro-gram-ming in en-gi-neer-ing, man-
  []
 
 
-Overfull \hbox (16.57193pt too wide) in paragraph at lines 35--35
+Overfull \hbox (16.57193pt too wide) in paragraph at lines 34--34
 []\T1/txr/m/n/12 H. Justin David-son and Robert M. True-blood. ``Ac-count-ing for Decision-
  []
 
-[100]
-./Thesis.tex:35: Missing $ inserted.
-<inserted text> 
-                $
-l.35 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Thesis.tex:35: Extra }, or forgotten $.
-<argument> ...s: Development and Evaluation{\ast }
-                                                  
-l.35 
-     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./Thesis.tex:35: Missing $ inserted.
-<inserted text> 
-                $
-l.35 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./Thesis.tex:35: Missing } inserted.
-<inserted text> 
-                }
-l.35 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+[100] [101]
+Overfull \hbox (10.52174pt too wide) in paragraph at lines 34--34
+\T1/txr/m/n/12 pro-gram-ming''. In: \T1/txr/m/it/12 In-ter-na-tional Jour-nal of Pro-duc-tion Re-search \T1/txr/m/n/12 43.20
+ []
 
 
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 
+l.34 
      
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 
+l.34 
      
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[101]
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-Overfull \hbox (6.19336pt too wide) in paragraph at lines 35--35
+Overfull \hbox (6.19336pt too wide) in paragraph at lines 34--34
 \T1/txr/m/n/12 Multi-na-tional Firm''. In: \T1/txr/m/it/12 The Ac-count-ing Re-view \T1/txr/m/n/12 53.4 (1978), pp. 935^^U
  []
 
-[102]
+[102] [103]
 
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 
+l.34 
      
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 
+l.34 
      
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
-[103]
-./Thesis.tex:35: Undefined control sequence.
-<recently read> \mathsemicolon 
-                               
-l.35 
+
+./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 
      
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
 
-Overfull \hbox (19.92184pt too wide) in paragraph at lines 35--35
-\T1/txr/m/n/12 Pro-gram-ming to Wind Tur-bine Se-lec-tion with Mul-ti-ple Cri-te-ria &#x2014$$
+./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+Overfull \hbox (2.37093pt too wide) in paragraph at lines 34--34
+\T1/txr/m/it/12 Jour-nal of the Op-er-a-tional Re-search So-ci-ety \T1/txr/m/n/12 59.1 (Jan. 2008), pp. 90^^U
  []
 
 
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-Overfull \hbox (5.41748pt too wide) in paragraph at lines 35--35
-\T1/txr/m/it/12 Jour-nal of the Op-er-a-tional Re-search So-ci-ety \T1/txr/m/n/12 59.1 (Jan. 2008), 90â104. 
- []
-
-
-Overfull \hbox (1.17589pt too wide) in paragraph at lines 35--35
+Overfull \hbox (1.17589pt too wide) in paragraph at lines 34--34
 []\T1/txr/m/n/12 C. Romero. \T1/txr/m/it/12 Hand-book of Crit-i-cal Is-sues in Goal Pro-gram-ming\T1/txr/m/n/12 . Perg-
  []
 
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
 [104]
-Overfull \hbox (22.66937pt too wide) in paragraph at lines 35--35
+Overfull \hbox (22.66937pt too wide) in paragraph at lines 34--34
 \T1/txr/m/n/12 pro-gram-ming tech-nique''. In: \T1/txr/m/it/12 Man-age-ment de-ci-sion \T1/txr/m/n/12 46.4 (2008), pp. 656^^U
  []
 
 
-Overfull \hbox (8.2072pt too wide) in paragraph at lines 35--35
+Overfull \hbox (8.2072pt too wide) in paragraph at lines 34--34
 \T1/txr/m/n/12 art''. In: \T1/txr/m/it/12 Eu-ro-pean Jour-nal of Op-er-a-tional Re-search \T1/txr/m/n/12 111.3 (Dec. 1998),
  []
 
+[105] [106] [107]
 
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[105]
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-./Thesis.tex:35: Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[106] [107]
-
-./Thesis.tex:36: LaTeX Error: \begin{doublespace} on input line 1 ended by \end{document}.
+./Thesis.tex:35: LaTeX Error: \begin{doublespace} on input line 1 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \end{document}
+l.35 \end{document}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
 (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 82A9EB92FFCCE13281CA1257BC231A7B;2505.
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 35.
  )
 (\end occurred inside a group at level 2)
 
@@ -3013,15 +2696,15 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
 ### semi simple group (level 1) entered at line 1 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 39428 strings out of 492990
- 760398 string characters out of 6135005
- 1194514 words of memory out of 5000000
- 42017 multiletter control sequences out of 15000+600000
+ 39421 strings out of 492990
+ 760287 string characters out of 6135005
+ 1194454 words of memory out of 5000000
+ 42013 multiletter control sequences out of 15000+600000
  615440 words of font info for 161 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,18n,71p,10398b,1568s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tcxtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (107 pages, 2399231 bytes).
+Output written on Thesis.pdf (107 pages, 2398852 bytes).
 PDF statistics:
  1049 PDF objects out of 1200 (max. 8388607)
  891 compressed objects within 9 object streams

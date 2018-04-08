@@ -1,4 +1,41 @@
+\usepackage{graphicx}									
+\usepackage{color}						
 \usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[latin1]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}
+\usepackage{makeidx}
+\usepackage{setspace}
+\usepackage{longtable}
+\usepackage{frontespizio}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\rightmark}
+\rhead{\bfseries\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{15pt}
+\fancypagestyle{plain}{\fancyhead{}\renewcommand{\headrulewidth}{0pt}}
+\fancyhead[LE,RO]{\textbf{\thepage}}
+\fancyhead[RE,LO]{\nouppercase{\leftmark}}
+\usepackage{hyperref}
+\hypersetup{
+pdftitle = {MEF Master Thesis},										
+pdfauthor= {Marco Repetto},		
+colorlinks=true,
+linkcolor=black,
+bookmarksopen=true,
+bookmarksopenlevel=0,
+citecolor=black,
+urlcolor=black,
+pdfkeywords= {Thesis, Finance, Economics, Università di Milano}
+}
+
+
 \usepackage{mathtools}
 \usepackage{amstext}
 \usepackage{array}
@@ -10,7 +47,6 @@
 \usepackage[long]{optidef}
 \usepackage{booktabs}
 \usepackage{rotating}
-\usepackage{longtable}
 \usepackage{cases}
   \usetikzlibrary{calc,matrix,decorations.markings,decorations.pathreplacing}
   \usetikzlibrary{arrows,positioning}
