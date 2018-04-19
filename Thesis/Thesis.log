@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.21)  8 APR 2018 13:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.21)  19 APR 2018 07:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1400,9 +1400,27 @@ l.90
 Pass the -shell-escape flag to LaTeX. Refer to the minted.sty documentation for more information.
 
 )
+
+./Thesis.tex:6: LaTeX Error: Option clash for package xcolor.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \addbibresource
+                   {reference.bib}
+The package xcolor has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [gray]
+Adding the global options:
+  ,gray
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
 \@quotelevel=\count466
@@ -1575,7 +1593,7 @@ File: utxsyc.fd 2000/12/15 v3.1
 \tf@lot=\write11
 \openout11 = `Thesis.lot'.
 
- (./introduction [7] [8
+ (./introduction.tex [7] [8
 
 
 ] [9
@@ -1603,7 +1621,7 @@ Overfull \hbox (2.86668pt too wide) in paragraph at lines 44--45
  []
 
 [12] [13]
-Underfull \vbox (badness 6047) has occurred while \output is active []
+Underfull \vbox (badness 3492) has occurred while \output is active []
 
  [14] [15] [16
 
@@ -1755,12 +1773,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [26]
-<Images/CTworld.png, id=402, 2517.405pt x 1413.28pt>
+<Images/CTworld.png, id=404, 2517.405pt x 1413.28pt>
 File: Images/CTworld.png Graphic file (type png)
 <use Images/CTworld.png>
 Package pdftex.def Info: Images/CTworld.png  used on input line 135. on input line 135.
 Package pdftex.def Info: Requested size: 390.0pt x 218.9483pt on input line 135.
-<Images/GNIworld.png, id=404, 2517.405pt x 1413.28pt>
+<Images/GNIworld.png, id=406, 2517.405pt x 1413.28pt>
 File: Images/GNIworld.png Graphic file (type png)
 <use Images/GNIworld.png>
 Package pdftex.def Info: Images/GNIworld.png  used on input line 143. on input line 143.
@@ -1788,7 +1806,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
                                                   \fi \fi 
 l.150 
        <./Images/CTworld.png>]
-<Images/Cluster-GNI-CT.png, id=415, 1003.75pt x 1003.75pt>
+<Images/Cluster-GNI-CT.png, id=417, 1003.75pt x 1003.75pt>
 File: Images/Cluster-GNI-CT.png Graphic file (type png)
 <use Images/Cluster-GNI-CT.png>
 Package pdftex.def Info: Images/Cluster-GNI-CT.png  used on input line 153. on input line 153.
@@ -1829,7 +1847,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [31]
-<Images/plidist1.png, id=435, 1966.34625pt x 1105.12875pt>
+<Images/plidist1.png, id=437, 1966.34625pt x 1105.12875pt>
 File: Images/plidist1.png Graphic file (type png)
 <use Images/plidist1.png>
 Package pdftex.def Info: Images/plidist1.png  used on input line 177. on input line 177.
@@ -1938,7 +1956,7 @@ Overfull \hbox (10.76329pt too wide) in paragraph at lines 286--289
 \OML/txmi/m/it/12 y$ \T1/txr/m/n/12 stands for the pref-er-ence of the DM to-ward the min-i-miza-tion of the tax liability($\OML/txmi/m/it/12 w\OT1/txr/m/n/12 2$\T1/txr/m/n/12 )
  []
 
-<Images/ternary.png, id=507, 476.2593pt x 569.4876pt>
+<Images/ternary.png, id=509, 476.2593pt x 569.4876pt>
 File: Images/ternary.png Graphic file (type png)
 <use Images/ternary.png>
 Package pdftex.def Info: Images/ternary.png  used on input line 292. on input line 292.
@@ -1985,7 +2003,7 @@ l.339
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 340.
 
-<Images/AllocationMap.png, id=526, 957.0957pt x 569.4876pt>
+<Images/AllocationMap.png, id=528, 957.0957pt x 569.4876pt>
 File: Images/AllocationMap.png Graphic file (type png)
 <use Images/AllocationMap.png>
 Package pdftex.def Info: Images/AllocationMap.png  used on input line 357. on input line 357.
@@ -2079,7 +2097,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [52]
-<Images/occurence.png, id=566, 957.0957pt x 569.4876pt>
+<Images/occurence.png, id=568, 957.0957pt x 569.4876pt>
 File: Images/occurence.png Graphic file (type png)
 <use Images/occurence.png>
 Package pdftex.def Info: Images/occurence.png  used on input line 22. on input line 22.
@@ -2133,7 +2151,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
                                                   \fi \fi 
 l.90   $$
          ]
-<Images/heatmap.png, id=611, 492.84125pt x 477.785pt>
+<Images/heatmap.png, id=613, 492.84125pt x 477.785pt>
 File: Images/heatmap.png Graphic file (type png)
 <use Images/heatmap.png>
 Package pdftex.def Info: Images/heatmap.png  used on input line 95. on input line 95.
@@ -2392,7 +2410,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [79]
-<Images/tradeoff.png, id=790, 505.6491pt x 505.6491pt>
+<Images/tradeoff.png, id=792, 505.6491pt x 505.6491pt>
 File: Images/tradeoff.png Graphic file (type png)
 <use Images/tradeoff.png>
 Package pdftex.def Info: Images/tradeoff.png  used on input line 371. on input line 371.
@@ -2402,7 +2420,7 @@ Package pdftex.def Info: Requested size: 272.99881pt x 273.00786pt on input line
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (0.89612pt too wide) in paragraph at lines 375--376
+Overfull \hbox (4.89212pt too wide) in paragraph at lines 375--376
 []\T1/txr/m/n/12 Given the knowl-edge about the trade-off that DM faces be-tween greener choices
  []
 
@@ -2458,12 +2476,12 @@ l.416
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 417.
 
-<Images/network.png, id=806, 957.0957pt x 569.4876pt>
+<Images/network.png, id=808, 957.0957pt x 569.4876pt>
 File: Images/network.png Graphic file (type png)
 <use Images/network.png>
 Package pdftex.def Info: Images/network.png  used on input line 436. on input line 436.
 Package pdftex.def Info: Requested size: 592.0pt x 352.25314pt on input line 436.
-) (./conclusion
+) (./conclusion.tex
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
@@ -2491,10 +2509,9 @@ l.1 \clearpage
 
 
 
-] [86
+] [86]) (./appendix.tex [87
 
 
-]) (./appendix.tex [87
 
 
 ] [88]
@@ -2684,7 +2701,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 82A9EB92FFCCE13281CA1257BC231A7B;2505.
+(rerunfilecheck)             Checksum: 301C6C838B6ADFB76A2AB8E805B013E6;2506.
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
 
@@ -2696,18 +2713,18 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 35.
 ### semi simple group (level 1) entered at line 1 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 39421 strings out of 492990
- 760287 string characters out of 6135005
- 1194454 words of memory out of 5000000
- 42013 multiletter control sequences out of 15000+600000
- 615440 words of font info for 161 fonts, out of 8000000 for 9000
+ 39439 strings out of 492990
+ 760596 string characters out of 6135005
+ 1194477 words of memory out of 5000000
+ 42028 multiletter control sequences out of 15000+600000
+ 620880 words of font info for 175 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,18n,71p,10398b,1568s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,18n,71p,10423b,1563s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tcxtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (107 pages, 2398852 bytes).
+Output written on Thesis.pdf (107 pages, 2399926 bytes).
 PDF statistics:
- 1049 PDF objects out of 1200 (max. 8388607)
- 891 compressed objects within 9 object streams
- 293 named destinations out of 1000 (max. 500000)
+ 1051 PDF objects out of 1200 (max. 8388607)
+ 893 compressed objects within 9 object streams
+ 294 named destinations out of 1000 (max. 500000)
  338 words of extra memory for PDF output out of 10000 (max. 10000000)
 

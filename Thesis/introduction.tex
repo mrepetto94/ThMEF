@@ -10,15 +10,15 @@ Sir Charles Antony Richard Hoare\\
 \begin{doublespace}
 Value and Multinational Firms were probably the pairs of elements that characterized the way business was done in the last centuries, and still, nowadays they are something that cannot be left aside when we talk about the business environment. However, the symbiosis behind the two is something that goes back to the begin of time, humanity and especially proto-capitalistic societies were always interested in creating the greatest value as possible but at the same time cutting any possible cost in order to gain extra profits out of this difference.
 \\
-Because of this interest, different disciplines have created; ranging from management to accounting and from supply chain to logistics (which has its roots in the military planning field). In this dissertation, the scope will be to apply a multi-objective approach, namely the Goal Programming in order to prove the effectiveness of such method and its different flavors in the hand of the Decision Maker. The two model presented deals with the transportation of some particular elements of the firm in order to create additional value for the firm. A firm and especially a multinational firm may be seen as a network of enterprises intertwined between each other in order to exploit the synergies provided by such union, if the framework of logistics is used is possible to discern the flow between two or more of such firms in three different aspects, namely:
+Because of this interest, different disciplines were created; ranging from management to accounting and from supply chain to logistics (which has its roots in the military planning field). In this dissertation, the scope will be to apply a multi-objective approach, namely the Goal Programming in order to prove the effectiveness of such method and its different flavors in the hand of the Decision Maker. The two models presented deal with the transportation of some particular element of the firm in order to create additional value for it. A firm and especially a multinational firm may be seen as a network of enterprises intertwined between each other in order to exploit the synergies provided by such union, if the framework of logistics it's used is possible to discern the flow between two or more of such firms in three different aspects, namely:
 
 \begin{itemize}
- \item Goods: this flow is the most tangible one and may involve the movement of products from the rear line (production plan) to the frontline (retail stores);    
-\item Information: this flow consist of all the information necessary for the network to work, a good example may be the information of the demand that has to move back to the production plan in order to be fulfilled;
-\item Finance: usually the finance flow is, among the information flow the one that permits the day to day operation of the network entities and supports the goods flow; this role is usually undertaken by the headquarter or in more complex groups to ad-hoc financial institution inside the multinational company. 
+ \item Goods: this flow is the most tangible one and may involve the movement of products from the rearline (production plan) to the frontline (retail stores);    
+\item Information: this flow consists of all the information necessary for the network to work, a good example may be the information of the demand that has to move back to the production plan in order to be fulfilled;
+\item Finance: usually the finance flow is, among the information flow the one that permits the day to day operations of the network entities and supports the goods flow; this role is usually undertaken by the headquarter or in more complex groups to ad-hoc financial institution inside the multinational company. 
 \end{itemize}
 
-The following dissertation will be organized into four main blocks where the first block, the introductory one, is devoted in giving an overview of the notions that will be used to model the two different problems proposed in the next chapters and specifically the focus will be about the multi-criteria decision analysis and the general formulation of a Goal Programming model in its three main forms, namely the lexicographic form, the weighted form and the min-max form. In Chapter 1 the model will be a transportation model used to allocate in an efficient way different economic components of the firm in order to achieve different types of goals such as overall tax liability minimization, taking into account the regulatory requirements imposed by the international tax principles (more specifically the regulation on transfer pricing). The problem in Chapter 2 will be more operation oriented and will be about Supply Chain Management and in particular Green Supply Chain Management. The aim of such model will be to fullfill the demand and the same time comply with the different regulatory legislation in terms of recycling electronical waste. Ultimately a general conclusion will be given highlighting the pro and cons of using such approach in modeling different types of transportation problems.
+The following dissertation will be organized into four main blocks: where the first block, the introductory one, is devoted in giving an overview of the notions that will be used to model the two different problems proposed in the next chapters and specifically the focus will be about the multi-criteria decision analysis and the general formulation of a Goal Programming model in its three main forms, namely the lexicographic form, the weighted form and the min-max form. In Chapter 1 the model will be a transportation model used to allocate in an efficient way different economic components of the firm in order to achieve different types of goals such as overall tax liability minimization, taking into account the regulatory requirements imposed by the international tax principles (more specifically the regulation on transfer pricing). The problem in Chapter 2 will be more operation oriented and will be about Supply Chain Management, and in particular Green Supply Chain Management. The aim of such model will be to fullfill the demand and the same time comply with the different regulatory legislation in terms of recycling electronical waste. Ultimately a general conclusion will be given highlighting the pros and cons of using such approach in modeling different types of transportation problems.
 
 \subsubsection{Multi-criteria decision analysis}
 Even if the practice of decision-making is old as man, academics tend to date the roots of modern MCDA in the early 60s, where the focus at the time was to find the most preferred solution, or generating an approximation to the entire efficient frontier\cite{Greco2016}.
@@ -45,7 +45,7 @@ Focusing the attention on the approaches suggested, four main categories emerge,
 	\item New Dominance methods: this methods may be considered as an extension of the Pareto-dominated methods, in that they try to build the efficient frontier, then they try to eliminate the Pareto-dominated solutions however they tend to use fuzzy methods and other solutions to avoid the computational drawback of the former one.  
 \end{itemize}
 
-From the set of the A Priori methods belongs the Goal Programming (which develops from the concept of linear programming) and will be used to model the problem of entities allocation proposed on the next chapters.
+From the set of the A Priori methods belongs the Goal Programming (which develops from the concept of linear programming) and will be used to model the problems of entities allocation and Green Supply Chain Management proposed on the next chapters.
 \\
 Goal Programming, hereinafter GP, is a multi-criteria decision analysis approach which allows the decision maker to consider simultaneously several conflicting objectives.
 
@@ -66,7 +66,7 @@ Such models may be represented algebraically as follows:
 
 GP is vastly applied in many sciences\cite{Tamiz1998}. Its origins are dated back to the 50s, firstly introduced by Abraham Charnes and William Cooper\cite{Charnes1955} with an article on the optimal estimation of executive compensation.
 
-In such approach, three main different categories have been identified, namely the lexicographic GP, the weighted GP and the Chebyshev GP.
+In such approach, three main different categories have been identified, namely the Lexicographic GP, the Weighted GP and the Chebyshev GP.
 
 Lexicographic GP, also named "preemptive" Goal Programming, distinguish itself from the other GP techniques as it has a number of priority levels chosen a priori. The mathematical formulation is the following one:
 
@@ -94,7 +94,7 @@ As opposed to LGP, the WGP allows for direct trade-offs between all unwanted dev
 \end{aligned}
 \end{equation*}
 
-The last GP variant, presented by Flavell. It differs from the first two variants since it uses the underlying $ L_\infty $ means of measuring distance. Also, called Minmax goal programming it seeks to minimize the maximal deviation from any goal. Therefore, the primary goal of such approach is the balance. The mathematical formulation is the following one:
+The last GP variant, presented by Flavell\cite{Flavell1976}. It differs from the first two variants since it uses the underlying $ L_\infty $ means of measuring distance. Also, called Minmax goal programming it seeks to minimize the maximal deviation from any goal. Therefore, the primary goal of such approach is the balance. The mathematical formulation is the following one:
 
 \begin{equation*}
 \begin{aligned}

@@ -576,6 +576,34 @@
       \verb http://www.jstor.org/stable/242682
       \endverb
     \endentry
+    \entry{Flavell1976}{article}{}
+      \name{author}{1}{}{%
+        {{hash=17c20b30b366f764bca4899af6014f43}{%
+           family={Flavell},
+           familyi={F\bibinitperiod},
+           given={RB},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pergamon}%
+      }
+      \strng{namehash}{17c20b30b366f764bca4899af6014f43}
+      \strng{fullhash}{17c20b30b366f764bca4899af6014f43}
+      \strng{authornamehash}{17c20b30b366f764bca4899af6014f43}
+      \strng{authorfullhash}{17c20b30b366f764bca4899af6014f43}
+      \field{labelalpha}{Fla76}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Omega}
+      \field{number}{6}
+      \field{title}{A new goal programming formulation}
+      \field{volume}{4}
+      \field{year}{1976}
+      \field{pages}{731\bibrangedash 732}
+      \range{pages}{2}
+    \endentry
     \entry{Feller2017}{article}{}
       \name{author}{2}{}{%
         {{hash=b65e1cba9f25104b205f647a3bf2bf72}{%

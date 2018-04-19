@@ -43,7 +43,7 @@ Such green operations\cite{Srivastava2007}\cite{Zhu2008} constitutes the substan
   \end{itemize}
 Since the model proposed it's aimed at setting a Green Supply Chain network of products from the procurement sites to the end user market which is stated to be the Euro Zone; it's necessary to highlight the set of norms that characterize such market and in particular a specific attention will be given to the norms concerning electrical products.
 
-  \subsection{The legal framework: a European perspective}
+  \subsection{The legal framework: an European perspective}
   In the market under scope which is the European one, there are several legislations concerning the environmental impact of certain e-Products\footnote{for e-Products, is intended an electrical or electronic equipment such as computers, TV-sets, fridges, cell phones and other electronic appliances}. The most important are:
   \begin{itemize}
     \item Waste Electrical \& Electronic Equipment (WEEE);
@@ -359,7 +359,7 @@ The model was tested with a set of data with the following features:
 The model was solved using the NEOS servers using their API with the data sent through a script built in R, using the R package rneos; since the problem was linear the solver chosen was the CPLEX. Further analysis were developed using the tools delivered by R and it's packages.
 
 \subsection{Sensitivity analysis}
-In the sensitivity analysis, the value of the weights was preemptively determined, since the model represents two different flows of products: delivered to the costumer and recycled the aim of the sensitivity analysis was to measure all the possible frontiers between DM preferece toward greener goal in comparion with the forward flow driven preferences. Therefore the objectives were grouped in two different clusters, the first was the cluster of "push" objective in the sense of the supply push of products to the customer, conversely the second cluster was characterized by the pull by the firm for recycling units instead of simply disposing the after consumer returned them. In the figure represented below is possible to observe the tradeoff concearning the weight calibration by the decision maker preference.
+In the sensitivity analysis, the value of the weights was preemptively determined, since the model represents two different flows of products: delivered to the costumer and recycled the aim of the sensitivity analysis was to measure all the possible frontiers between DM preferece toward greener goal in comparion with the forward flow driven preferences. Therefore the objectives were grouped in two different clusters, the first was the cluster of "push" objective in the sense of the supply push of products to the customer, conversely the second cluster was characterized by the pull by the firm for recycling units instead of simply disposing the after consumer returned them. In the figure represented below is possible to observe the trade-off concearning the weight calibration by the decision maker preference.
 For the two clusters was given a set of possible weight alternatives folowing the equation reported below:
 $$
 y=1-x, \quad \forall x \in X, X = (0,1)
@@ -372,7 +372,7 @@ The aftermath was that a greener choice will always result in an increase of the
 \caption{Tradeoff between different combination of DM preferences}
 \end{figure}
 
-Given the knowledge about the tradeoff that DM faces between greener choices with comparison with choices that may satisfy customers in the first place, the option was to choose a robust framework to select a set of weights that are consistent with the expectation that the Decision Maker has about the process of Green Supply Chain. The chosen framework was the Analytical Hierarchy Process \cite{Saaty1980}. The process was three tired:
+Given the knowledge about the trade-off that DM faces between greener choices with comparison with choices that may satisfy customers in the first place, the option was to choose a robust framework to select a set of weights that are consistent with the expectation that the Decision Maker has about the process of Green Supply Chain. The chosen framework was the Analytical Hierarchy Process \cite{Saaty1980}. The process was three tired:
 \begin{itemize}
     \item Step 1: given the set of criteria defined in the previous sections the pairwise comparison matrix was computed indicating the importance of each criterion with respect to the other;
     \item Step 2: the pairwise matrix elements were normalized and consequently the priority vector was obtained;
