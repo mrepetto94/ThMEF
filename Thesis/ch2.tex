@@ -47,7 +47,7 @@ Since the model proposed it's aimed at setting a Green Supply Chain network of p
   In the market under scope which is the European one, there are several legislations concerning the environmental impact of certain e-Products\footnote{for e-Products, is intended an electrical or electronic equipment such as computers, TV-sets, fridges, cell phones and other electronic appliances}. The most important are:
   \begin{itemize}
     \item Waste Electrical \& Electronic Equipment (WEEE);
-    \item Restriction on Hazardous Substances (RoHS);and
+    \item Restriction on Hazardous Substances (RoHS); and
     \item Ecodesign Requirement for Energy-using Product (EuP).
   \end{itemize}
 
@@ -156,8 +156,8 @@ A general formulation of such model is given by Santoso and is formulated as fol
 	\addConstraint{x \in \varmathbb{R}^+}{y \in Y[0,1]}{}
 \end{mini!}
 
-Where the objective function $(3a)$ is to minimize both the variable and fixed costs (here represented by the cost of building a plant) of a particular supply chain network.
-The constraint posed in $(3b)$ serves to maintain the flow constant in each passage(so-called flow conservation) it serves to balance the net inflow with the net outflow; the second and third constraint here represented by $(3c)$ and $(3d)$ are respectively controlling the volume of the demand (receiver side) and the supply (supplier side) of the supply chain network; whereas the fourth constraint $(3e)$ is used to control the capacity of each node. Lastly, the $x$ variable, indicating the flow of goods has to be positive and the variable $y$ indicating the effective construction of the plant to assume a value that is either 1 or 0, in other terms $y$ is said to be binary. 
+Where the objective function (2.3a) is to minimize both the variable and fixed costs (here represented by the cost of building a plant) of a particular supply chain network.
+The constraint posed in (2.3b) serves to maintain the flow constant in each passage(so-called flow conservation) it serves to balance the net inflow with the net outflow; the second and third constraint here represented by (2.3c) and (2.3d) are respectively controlling the volume of the demand (receiver side) and the supply (supplier side) of the supply chain network; whereas the fourth constraint (2.3e) is used to control the capacity of each node. Lastly, the $x$ variable, indicating the flow of goods has to be positive and the variable $y$ indicating the effective construction of the plant to assume a value that is either 1 or 0, in other terms $y$ is said to be binary. 
 \\
 However the model is complete from a point of view of supply chain modeling it's worth noting that such model does not implement any support activities, whereas the Porter model mentions them. Therefore the hybrid model will contain a set of constraint indicating such activities and a new objective function embracing this change.
 
@@ -247,7 +247,7 @@ In the previous sections a model of an open loop supply chain was presented, how
 \addConstraint{x \in \varmathbb{R}^+ }{,}{}
 \end{mini!}
 
-The model enunciated minimizes two different flow costs, namely the one implying the forward flow, the one from the production plant to the consumer and the reverse flow that follows the opposite direction, namely from the consumer to the production plant passing through ad-hoc dismantling plants. The constraints applied to such models are therefore a combination of both forward flow constraints, mitigated from the classical open loop supply chain, and the reverse flow constraints. The constraint at $5b$ is stating that the forward flow must equal the demand of the customer at a particular retailing site; where instead the constraint at $5c$ is enunciating the amount of waste that will not be part of the recycling process. The constraint at $5d$ focuses on imposing a threshold in which the units recycled will not be of any advantage for the production plan and therefore will constitute an additional waste. Lastly, constraint $5e$ that states the inequality about the products collected that should not exceed the products delivered at a $k$ general retail store. 
+The model enunciated minimizes two different flow costs, namely the one implying the forward flow, the one from the production plant to the consumer and the reverse flow that follows the opposite direction, namely from the consumer to the production plant passing through ad-hoc dismantling plants. The constraints applied to such models are therefore a combination of both forward flow constraints, mitigated from the classical open loop supply chain, and the reverse flow constraints. The constraint at 2.5b is stating that the forward flow must equal the demand of the customer at a particular retailing site; where instead the constraint at 2.5c is enunciating the amount of waste that will not be part of the recycling process. The constraint at 2.5d focuses on imposing a threshold in which the units recycled will not be of any advantage for the production plan and therefore will constitute an additional waste. Lastly, constraint 2.5e that states the inequality about the products collected that should not exceed the products delivered at a $k$ general retail store. 
 \\
 \\
 The model presented, however, does not implement any Decision Maker preferences toward recycling level goals ($\lambda$ is only a crisp value that affects the plant necessity) nor any legal boundaries on which the recycling center has to be submitted. Because the electronic waste turns out to be a resource for the firm is necessary to model the fuzziness of such desire expressed by the DM, and therefore the implementation of a Fuzzy set\cite{Zadeh1965}, turns out to be the best choice; such set has a membership function defined as:
@@ -340,7 +340,7 @@ Given the objective function, the soft constraints and the hard ones, the model 
 \addConstraint{\sum_{k=1}^{K} \sum_{j=1}^{J} r_k x^f_{kji}}{\leq \sum_{k=1}^{K} d_k,}{\forall i \in I}
 \addConstraint{r_k x^f_{k}}{=x^r_{k}}{\forall k \in K}
 \addConstraint{x \in \varmathbb{R}^+, \mu \in [1,0] }{,}{}
-\end{mini!}
+\end{mini*}
 
 \section{Results and Conclusion}
 The model was tested with a set of data with the following features:
