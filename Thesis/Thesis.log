@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.21)  8 MAY 2018 08:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.21)  8 MAY 2018 21:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1542,7 +1542,7 @@ Package biblatex Warning: The following entry could not be found
 )
 Package biblatex Info: Reference section=0 on input line 8.
 Package biblatex Info: Reference segment=0 on input line 8.
-<centrato_piccolo_nero.jpg, id=139, 537.207pt x 294.1389pt>
+<centrato_piccolo_nero.jpg, id=143, 537.207pt x 294.1389pt>
 File: centrato_piccolo_nero.jpg Graphic file (type jpg)
 <use centrato_piccolo_nero.jpg>
 Package pdftex.def Info: centrato_piccolo_nero.jpg  used on input line 17. on input line 17.
@@ -1758,12 +1758,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [25]
-<Images/CTworld.png, id=400, 2517.405pt x 1413.28pt>
+<Images/CTworld.png, id=405, 2517.405pt x 1413.28pt>
 File: Images/CTworld.png Graphic file (type png)
 <use Images/CTworld.png>
 Package pdftex.def Info: Images/CTworld.png  used on input line 136. on input line 136.
 Package pdftex.def Info: Requested size: 390.0pt x 218.9483pt on input line 136.
-<Images/GNIworld.png, id=402, 2517.405pt x 1413.28pt>
+<Images/GNIworld.png, id=407, 2517.405pt x 1413.28pt>
 File: Images/GNIworld.png Graphic file (type png)
 <use Images/GNIworld.png>
 Package pdftex.def Info: Images/GNIworld.png  used on input line 144. on input line 144.
@@ -1791,7 +1791,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
                                                   \fi \fi 
 l.151 
        <./Images/CTworld.png>]
-<Images/Cluster-GNI-CT.png, id=413, 1003.75pt x 1003.75pt>
+<Images/Cluster-GNI-CT.png, id=418, 1003.75pt x 1003.75pt>
 File: Images/Cluster-GNI-CT.png Graphic file (type png)
 <use Images/Cluster-GNI-CT.png>
 Package pdftex.def Info: Images/Cluster-GNI-CT.png  used on input line 154. on input line 154.
@@ -1832,7 +1832,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [30]
-<Images/plidist1.png, id=432, 1966.34625pt x 1105.12875pt>
+<Images/plidist1.png, id=437, 1966.34625pt x 1105.12875pt>
 File: Images/plidist1.png Graphic file (type png)
 <use Images/plidist1.png>
 Package pdftex.def Info: Images/plidist1.png  used on input line 178. on input line 178.
@@ -1941,7 +1941,7 @@ Overfull \hbox (10.76329pt too wide) in paragraph at lines 287--290
 \OML/txmi/m/it/12 y$ \T1/txr/m/n/12 stands for the pref-er-ence of the DM to-ward the min-i-miza-tion of the tax liability($\OML/txmi/m/it/12 w\OT1/txr/m/n/12 2$\T1/txr/m/n/12 )
  []
 
-<Images/ternary.png, id=505, 476.2593pt x 569.4876pt>
+<Images/ternary.png, id=510, 476.2593pt x 569.4876pt>
 File: Images/ternary.png Graphic file (type png)
 <use Images/ternary.png>
 Package pdftex.def Info: Images/ternary.png  used on input line 293. on input line 293.
@@ -1988,7 +1988,7 @@ l.340
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 341.
 
-<Images/AllocationMap.png, id=524, 957.0957pt x 569.4876pt>
+<Images/AllocationMap.png, id=529, 957.0957pt x 569.4876pt>
 File: Images/AllocationMap.png Graphic file (type png)
 <use Images/AllocationMap.png>
 Package pdftex.def Info: Images/AllocationMap.png  used on input line 358. on input line 358.
@@ -2075,7 +2075,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [50]
-<Images/occurence.png, id=560, 957.0957pt x 569.4876pt>
+<Images/occurence.png, id=565, 957.0957pt x 569.4876pt>
 File: Images/occurence.png Graphic file (type png)
 <use Images/occurence.png>
 Package pdftex.def Info: Images/occurence.png  used on input line 22. on input line 22.
@@ -2129,7 +2129,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
                                                   \fi \fi 
 l.90   $$
          ]
-<Images/heatmap.png, id=605, 492.84125pt x 477.785pt>
+<Images/heatmap.png, id=610, 492.84125pt x 477.785pt>
 File: Images/heatmap.png Graphic file (type png)
 <use Images/heatmap.png>
 Package pdftex.def Info: Images/heatmap.png  used on input line 95. on input line 95.
@@ -2374,7 +2374,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [77]
-<Images/tradeoff.png, id=783, 505.6491pt x 505.6491pt>
+<Images/tradeoff.png, id=788, 505.6491pt x 505.6491pt>
 File: Images/tradeoff.png Graphic file (type png)
 <use Images/tradeoff.png>
 Package pdftex.def Info: Images/tradeoff.png  used on input line 371. on input line 371.
@@ -2432,4 +2432,273 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 l.416 
       pdfTeX warning (ext4): destination with the same identifier (name{table.2.2}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipo
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.416 
+      ]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 417.
+
+<Images/network.png, id=805, 957.0957pt x 569.4876pt>
+File: Images/network.png Graphic file (type png)
+<use Images/network.png>
+Package pdftex.def Info: Images/network.png  used on input line 436. on input line 436.
+Package pdftex.def Info: Requested size: 592.0pt x 352.25314pt on input line 436.
+) (./conclusion.tex
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 26.95003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[81pdfTeX warning (ext4): destination with the same identifier (name{table.2.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \clearpage
+              {\pagestyle{empty}\cleardoublepage}]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 26.95003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[82pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \clearpage
+              {\pagestyle{empty}\cleardoublepage} <./Images/network.png>]
+./conclusion.tex:15: Undefined control sequence.
+l.15 	\iten
+            Law related fields resul in abandon.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[83
+
+
+
+] [84]) (./appendix.tex [85
+
+
+
+
+] [86]
+Appendix A.
+(./_minted-Thesis/default-pyg-prefix.pygstyle) (./_minted-Thesis/default.pygstyle) (./_minted-Thesis/8DCEB47E6DC58429B13E815BAED2D28A91BB2A2F8F34A9584115A3A83EF45C6A.pygtex
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 1.
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for TS1+txtt on input line 20.
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txtt.fd
+File: ts1txtt.fd 2000/12/15 v3.1
+) [87
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88]) [89] [90
+
+]
+Appendix B.
+(./_minted-Thesis/B6BAF238C60AE9242D5E79D53EE96280922DA0CC93C5356E6213A3013B3A160E.pygtex
+LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <10> not available
+(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 2.
+ [91]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94])) [95] [96
+
+]
+Overfull \hbox (13.90219pt too wide) in paragraph at lines 34--34
+[]\T1/txr/m/n/12 Alireza Az-imian and Be-laid Aouni. ``Sup-ply chain man-age-ment through
+ []
+
+
+Overfull \hbox (2.17816pt too wide) in paragraph at lines 34--34
+[]\T1/txr/m/n/12 Julian Ben-jamin. ``An Anal-y-sis of In-ven-tory and Trans-porta-tion Costs
+ []
+
+
+Overfull \hbox (1.57405pt too wide) in paragraph at lines 34--34
+\T1/txr/m/n/12 in a Con-strained Net-work''. en. In: \T1/txr/m/it/12 Trans-porta-tion Sci-ence \T1/txr/m/n/12 23.3 (Aug.
+ []
+
+[97]
+Overfull \hbox (5.23605pt too wide) in paragraph at lines 34--34
+\T1/txr/m/n/12 criteria de-ci-sion anal-y-sis with goal pro-gram-ming in en-gi-neer-ing, man-
+ []
+
+
+Overfull \hbox (16.57193pt too wide) in paragraph at lines 34--34
+[]\T1/txr/m/n/12 H. Justin David-son and Robert M. True-blood. ``Ac-count-ing for Decision-
+ []
+
+[98] [99]
+Overfull \hbox (10.52174pt too wide) in paragraph at lines 34--34
+\T1/txr/m/n/12 pro-gram-ming''. In: \T1/txr/m/it/12 In-ter-na-tional Jour-nal of Pro-duc-tion Re-search \T1/txr/m/n/12 43.20
+ []
+
+
+./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+Overfull \hbox (6.19336pt too wide) in paragraph at lines 34--34
+\T1/txr/m/n/12 Multi-na-tional Firm''. In: \T1/txr/m/it/12 The Ac-count-ing Re-view \T1/txr/m/n/12 53.4 (1978), pp. 935^^U
+ []
+
+[100] [101]
+
+./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 
+     
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+Overfull \hbox (2.37093pt too wide) in paragraph at lines 34--34
+\T1/txr/m/it/12 Jour-nal of the Op-er-a-tional Re-search So-ci-ety \T1/txr/m/n/12 59.1 (Jan. 2008), pp. 90^^U
+ []
+
+
+Overfull \hbox (1.17589pt too wide) in paragraph at lines 34--34
+[]\T1/txr/m/n/12 C. Romero. \T1/txr/m/it/12 Hand-book of Crit-i-cal Is-sues in Goal Pro-gram-ming\T1/txr/m/n/12 . Perg-
+ []
+
+[102]
+Overfull \hbox (22.66937pt too wide) in paragraph at lines 34--34
+\T1/txr/m/n/12 pro-gram-ming tech-nique''. In: \T1/txr/m/it/12 Man-age-ment de-ci-sion \T1/txr/m/n/12 46.4 (2008), pp. 656^^U
+ []
+
+
+Overfull \hbox (8.2072pt too wide) in paragraph at lines 34--34
+\T1/txr/m/n/12 art''. In: \T1/txr/m/it/12 Eu-ro-pean Jour-nal of Op-er-a-tional Re-search \T1/txr/m/n/12 111.3 (Dec. 1998),
+ []
+
+[103] [104] [105]
+
+./Thesis.tex:35: LaTeX Error: \begin{doublespace} on input line 1 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
+(./Thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: CF209BF8A64396AAA3EEC18E9A0C78B5;2570.
+Package logreq Info: Writing requests to 'Thesis.run.xml'.
+\openout1 = `Thesis.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 35.
+ )
+(\end occurred inside a group at level 2)
+
+### semi simple group (level 2) entered at line 1 (\begingroup)
+### semi simple group (level 1) entered at line 1 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 39439 strings out of 492990
+ 760604 string characters out of 6135005
+ 1194495 words of memory out of 5000000
+ 42029 multiletter control sequences out of 15000+600000
+ 620880 words of font info for 175 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,18n,71p,10423b,1563s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tcxtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Thesis.pdf (105 pages, 2399454 bytes).
+PDF statistics:
+ 1048 PDF objects out of 1200 (max. 8388607)
+ 892 compressed objects within 9 object streams
+ 293 named destinations out of 1000 (max. 500000)
+ 346 words of extra memory for PDF output out of 10000 (max. 10000000)
+
