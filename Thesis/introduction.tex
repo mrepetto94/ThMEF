@@ -15,10 +15,10 @@ Because of this interest, different disciplines were created; ranging from manag
 \begin{itemize}
  \item Goods: this flow is the most tangible one and may involve the movement of products from the rearline (production plan) to the frontline (retail stores);    
 \item Information: this flow consists of all the information necessary for the network to work, a good example may be the information of the demand that has to move back to the production plan in order to be fulfilled;
-\item Finance: usually the finance flow is, among the information flow the one that permits the day to day operations of the network entities and supports the goods flow; this role is usually undertaken by the headquarter or in more complex groups to ad-hoc financial institution inside the multinational company. 
+\item Finance: usually the finance flow is, among the information flow the one that permits the day to day operations of the network entities and supports the goods flow; this role is usually undertaken by the headquarter or in more complex groups to ad-hoc financial institutions inside the multinational company. 
 \end{itemize}
 
-The following dissertation will be organized into four main blocks: where the first block, the introductory one, is devoted in giving an overview of the notions that will be used to model the two different problems proposed in the next chapters and specifically the focus will be about the multi-criteria decision analysis and the general formulation of a Goal Programming model in its three main forms, namely the lexicographic form, the weighted form and the min-max form. In Chapter 1 the model will be a transportation model used to allocate in an efficient way different economic components of the firm in order to achieve different types of goals such as overall tax liability minimization, taking into account the regulatory requirements imposed by the international tax principles (more specifically the regulation on transfer pricing). The problem in Chapter 2 will be more operation oriented and will be about Supply Chain Management, and in particular Green Supply Chain Management. The aim of such model will be to fullfill the demand and the same time comply with the different regulatory legislation in terms of recycling electronical waste. Ultimately a general conclusion will be given highlighting the pros and cons of using such approach in modeling different types of transportation problems.
+The following dissertation will be organized into four main blocks: where the first block, the introductory one, is devoted in giving an overview of the notions that will be used to model the two different problems proposed in the next chapters and specifically the focus will be about the multi-criteria decision analysis and the general formulation of a Goal Programming model in its three main forms, namely the lexicographic form, the weighted form and the Minmax form. In Chapter 1 the model will be a transportation model used to allocate in an efficient way different economic components of the firm in order to achieve different types of goals such as overall tax liability minimization, taking into account the regulatory requirements imposed by the international tax principles (more specifically the regulation on transfer pricing). The problem in Chapter 2 will be more operation oriented and will be about Supply Chain Management, and in particular Green Supply Chain Management. The aim of such model will be to fullfill the demand and at the same time comply with the different regulatory legislation in terms of recycling electronical waste. Ultimately a general conclusion will be given highlighting the pros and cons of using such approach in modeling different types of transportation problems.
 
 \subsubsection{Multi-criteria decision analysis}
 Even if the practice of decision-making is old as man, academics tend to date the roots of modern MCDA in the early 60s, where the focus at the time was to find the most preferred solution, or generating an approximation to the entire efficient frontier\cite{Greco2016}.
@@ -40,14 +40,14 @@ Focusing the attention on the approaches suggested, four main categories emerge,
 
 \begin{itemize}
 	\item A Priori methods: such methods are characterized by prior definition of the preference information, this category includes methods such as Weighted Sum Method, Constraints Method, Objective Programming Method, Dictionary Ordering Method and Analytic Ordering Method;   
-	\item Interactive methods: in this particular category the process is iterative, meaning that the decision maker interacts with the preference information he gave in search of the optimal solution, from this category belong two types of methods namely the Normal Boundary Intersection and the Normalized Normal Constraint;
+	\item Interactive methods: in this particular category the process is iterative, meaning that the Decision Maker interacts with the preference information he gave in search of the optimal solution, from this category belong two types of methods namely the Normal Boundary Intersection and the Normalized Normal Constraint;
 	\item Pareto-dominated methods: these methods divides the optimal solution seeking in two parts, at first they try to compose the efficient frontier of a given multi-criteria problem, then they try to find the Pareto Dominant\footnote{Given a vector of outcomes $\vec{S}$ that we identified as the Efficient Frontier $\vec{S}[s_1..._n]$ a solution $s^{\star}$ of such vector is Pareto Dominant if $\nexists$ a $s_q$ that is Pareto superior to $s^{\star}$.} solution;
 	\item New Dominance methods: this methods may be considered as an extension of the Pareto-dominated methods, in that they try to build the efficient frontier, then they try to eliminate the Pareto-dominated solutions however they tend to use fuzzy methods and other solutions to avoid the computational drawback of the former one.  
 \end{itemize}
 
 From the set of the A Priori methods belongs the Goal Programming (which develops from the concept of linear programming) and will be used to model the problems of entities allocation and Green Supply Chain Management proposed on the next chapters.
 \\
-Goal Programming, hereinafter GP, is a multi-criteria decision analysis approach which allows the decision maker to consider simultaneously several conflicting objectives.
+Goal Programming, hereinafter GP, is a multi-criteria decision analysis approach which allows the Decision Maker to consider simultaneously several conflicting objectives.
 
 The idea behind such method is very simple, and is based on distance minimization; this means that at each objective function is associated a deviation variable that has to be minimized in batch with the other deviation variables coming from the other objective functions.
 
@@ -81,7 +81,7 @@ Lexicographic GP, also named "preemptive" Goal Programming, distinguish itself f
 \end{aligned}
 \end{equation*}
 
-As opposed to LGP, the WGP allows for direct trade-offs between all unwanted deviational variables by using weight that are not putted a priori (as the LGP), as a result WGP is more flexible but as counter-effect it requires more computational power. The mathematical formulation is the following one:
+As opposed to LGP, the WGP allows for direct trade-offs between all unwanted deviational variables by using weights. As a result, WGP is more flexible but as counter-effect it requires more computational power. The mathematical formulation is the following one:
 
 \begin{equation*}
 \begin{aligned}
@@ -94,7 +94,7 @@ As opposed to LGP, the WGP allows for direct trade-offs between all unwanted dev
 \end{aligned}
 \end{equation*}
 
-The last GP variant, presented by Flavell\cite{Flavell1976}. It differs from the first two variants since it uses the underlying $ L_\infty $ means of measuring distance. Also, called Minmax goal programming it seeks to minimize the maximal deviation from any goal. Therefore, the primary goal of such approach is the balance. The mathematical formulation is the following one:
+The last GP variant, presented by Flavell\cite{Flavell1976}. It differs from the first two variants since it uses the underlying $ L_\infty $ means of measuring distance. Also, called Minmax Goal Programming it seeks to minimize the maximal deviation from any goal. Therefore, the primary goal of such approach is the balance. The mathematical formulation is the following one:
 
 \begin{equation*}
 \begin{aligned}

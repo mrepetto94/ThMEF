@@ -1,6 +1,6 @@
 \begin{doublespace}
 \chapter{Tax planning and BEPS: a transportation model for optimal profit allocation}
-This chapter deals with the problem of multinational entity allocation based on three main factors, namely the costs, the tax pressure and the functional characterization of a certain entity. The solution suggested is a goal programming model that embeds this limitation imposed by the environment and tries to find an optimal solution that permits the Decision Maker to be competitive \textit{vis-à-vis} multinational competitors. The results obtained from such model are many times different from the ones putted into places by multinationals, which tend to focus on minimizing only the tax base without taking into account other information that may result in significant value added from a tax planning perspective. 
+This chapter deals with the problem of multinational entity allocation based on three main factors, namely the costs, the tax pressure and the functional characterization of a certain entity. The solution suggested is a Goal Programming model that embeds these limitations imposed by the environment and tries to find an optimal solution that permits the Decision Maker to be competitive \textit{vis-à-vis} multinational competitors. The results obtained from such model are many times different from the ones putted into places by multinationals, which tend to focus on minimizing only the tax base without taking into account other information that may result in significant value added from a tax planning perspective. 
 
 \section{Scope of work}
 After the Great Recession, multinational companies found themselves in a very different environment; thriving to survive with competition on one side and higher restriction imposed by countries running financial crises. This led multinationals with a great challenge which consequently boost cost engineering, in an attempt to survive in this new scenario. Another result was a new form of tax planning, most of the time barely legal in order to exploit the fiscal advantages of certain countries\cite{After_tax_hedging_report_2013}. Such problems forced the G20 to launch an inclusive framework on base erosion and profit shifting called "BEPS", bringing together about 100 countries in order to stop such unlawful tax planning. However, even if this action against such problem highlighted in a more specific way what should be considered as aggressive tax planning the border with legitimate cost engineering seems blurrier than ever\cite{Feller2017}.
@@ -32,10 +32,12 @@ blanknode/.style={rectangle, draw=white!60, minimum height=0mm, minimum width=10
 \label{fig:flowchart}
 \end{figure}
 
-The following chapter is organized in five sections, apart from the first one which focuses on giving a brief introduction to the topic that is going to be addressed and modelled; the last chapters will be stand-alone sections developing specific parts of the process of model formulation and analysis. Specifically at section two is given an extensive overview of the set of approaches dealing with multi-criteria decision analysis; in particular in this section will be given a theoretical overview of the main categories of multi-criteria analysis and will be further developed the concept of Goal Programming in its common formulation, namely lexicographic, weighted and min-max or Chebyshev Goal Programming. After this high level overview the focus will be set to the goal programming itself and a state-of-the-art review will be given, in order to give a pragmatic point of view to the new development to in the field the state-of-the-art review will take into account three main area of application, and then the focus will be oriented to the cross field of accounting, which is the one where the model belongs. Concluded this overview the formulation of the model will start from the data gathering process, the data will be categorized in three different typologies as highlighted by the flowchart in figure \ref{fig:flowchart}. After the process of data gathering, the full model will be formulated in a goal programming fashion defining, objectives, soft constraints and hard constraints.
+The following chapter is organized in four sections, apart from the first one which focuses on giving a brief introduction to the topic that is going to be addressed and modelled; the last chapters will be stand-alone sections developing specific parts of the process of model formulation and analysis. Specifically at section two a state-of-the-art review will be given, in order to give a pragmatic point of view of the new developments in the field. The state-of-the-art review will take into account three main area of application, and then the focus will be oriented to the cross field of accounting, which is the one where the model belongs. 
+
+Concluded this overview the formulation of the model will start from the data gathering process, the data will be categorized in three different typologies as highlighted by the flowchart in figure \ref{fig:flowchart}. After the process of data gathering, the full model will be formulated in a Goal Programming fashion defining, objectives, soft constraints and hard constraints.
 \\
 \\
-Ultimately the model will be run using the LINGO software package. The weights used will be subjected by a sensitivity analysis through different scenarios. Then, a set of weights will be chosen to take into account the decision maker preferences and the results will be compared with the real result obtained by the company in the period under scope, in doing so some limitations of the model will be stated and further analyzed.
+Ultimately the model will be solved using the LINGO software package. The weights used will be subjected to a sensitivity analysis through different scenarios. Then, a set of weights will be chosen to take into account the Decision Maker preferences and the results will be discussed, in doing so some limitations of the model will be stated and further analyzed.
 
 \pagebreak 
 
@@ -45,7 +47,7 @@ Especially in engineering the GP techniques used the most are the ones involving
 \\
 Quite the opposite occur in the applications of social sciences field, where, in the majority of the case to the field of economics. The last research in which is reported the use of Goal Programming was inherent the sub field of macroeconomics, analyzing the nature of the inter generational equity and sustainable development in order to understand how the players involved can achieve their aim of maximizing social welfare in the short run without compromising the future possibilities. In the case of social science the most used approaches are the plain vanilla ones of GP, ranging from lexicographic GP to weighted GP.
 \\
-Lastly the management field which accounts for a great number of applications, especially in the field of strategic management, portfolio selection and marketing where there is a great diversity between techniques that ranges from fuzzy sets\cite{Trenado2014} to weighted goal programming and hybrid approaches.
+Lastly the management field which accounts for a great number of applications, especially in the field of strategic management, portfolio selection and marketing where there is a great diversity between techniques that ranges from fuzzy sets\cite{Trenado2014} to weighted Goal Programming and hybrid approaches.
 \\
 All the three fields proposed when applied in modeling corporation have a common backbone (as exposed by Figure \ref{fig:accounting})  in which they gather information which is called accounting; embracing significant development particularly in areas dealing with, cost controlling, budgeting and operations planning; such cross literature will be treated in the following section.
 
@@ -72,7 +74,7 @@ All the three fields proposed when applied in modeling corporation have a common
 \end{figure}
 
 \subsection{Application in Accounting}
-The accounting field (where the model proposed belongs), as seen in the following year a brand-new interest among researchers. It's worth starting by defining what is meant for accounting, which may be defined as the process of recording and summarizing business and financial transactions, analyzing and reporting the results. Although this seems as passive process, sometimes accounting has reveled to be a very strong tool on the hands of the decision maker\cite{Davidson1961} to enact decision in the most informed way possible. In fact, because of the nature of accounting which may be seen as a cross organizational field, the DM has the possibility to test particular strategies having a series of objectives belonging from different departments, from the legal to the marketing and from the logistic to the production department.
+The accounting field (where the model proposed belongs), as seen in the following year a brand-new interest among researchers. It's worth starting by defining what is meant for accounting, which may be defined as the process of recording and summarizing business and financial transactions, analyzing and reporting the results. Although this seems as passive process, sometimes accounting has reveled to be a very strong tool on the hands of the Decision Maker\cite{Davidson1961} to enact decision in the most informed way possible. In fact, because of the nature of accounting which may be seen as a cross organizational field, the DM has the possibility to test particular strategies having a series of objectives belonging from different departments, from the legal to the marketing and from the logistic to the production department.
 
 In such situation the GP may turn out to be a very powerful tool, as highlighted by Aouni\cite{Aouni2017}; generally accountants are facing complex decision-making situations where they aggregate simultaneously several conflicting and incommensurable factors. Given this situation a multi criteria analysis tool is, without any doubt the best fit approach possible and GP turns out to be used as framework because of its simplicity of formulation and at the same time the power of the flexibility that it provides. In the following table is proposed a review of the brand-new articles written in the field and their main contribution.
 
@@ -95,7 +97,7 @@ Gardner et al.\cite{Gardner1990} & The authors use a multi period approach to au
 \hline
 Kwak et al.\cite{Kwak2003} & The authors propose one of the first multiple-objective auditing model, combining strategic objectives and human resources allocation using fuzzy set. \\
 \hline
-Zamfirescu and Zamfirescu\cite{Zamfirescu2013} & The authors apply a lexicographic goal programming to enact a performance based budgeting(PBM) on funds allocation in a real public company. \\
+Zamfirescu and Zamfirescu\cite{Zamfirescu2013} & The authors apply a lexicographic Goal Programming to enact a performance based budgeting(PBM) on funds allocation in a real public company. \\
 \w
 Tan et al.\cite{Tan2008} & The authors propose a GP model in order to help contractors to decide the optimal level of resources to be consumed within a set of limitations.  \\
 \hline 
@@ -198,7 +200,7 @@ C(E,A,K)=ce_k\cdot E+ca_k\cdot A+ck_k\cdot K \quad \forall k \in \left\{1...N\ri
 \end{equation}
 
 Where 1.$ce_n$ corresponds to the National Income per Capita, this index was chosen because of its availability through the nations at scope and because it's a good proxy for the cost of labor in each State; 2.$ca_n$ corresponds to the cost of running the assets and is derived as illustrate before by subtracting the wage cost to the operational expenses and then adjusting for the purchasing power; 3.$ck_n$ corresponds to the cost of capital (in our case debt) calculated using data from comparable companies.
-Even if this three variables do not represent the full cost structure of each enterprise (cost of good sold was not mentioned) is helpful for the decision maker to take into account this three driver of cost since this information constitutes the main driver to address value adding activities in the overall value chain.
+Even if this three variables do not represent the full cost structure of each enterprise (cost of good sold was not mentioned) is helpful for the Decision Maker to take into account this three driver of cost since this information constitutes the main driver to address value adding activities in the overall value chain.
 
 \subsubsection{Tax base minimization}
 This objective is the crucial point of this work since an optimal tax strategy can be considered good for profit maximization. However, should be mentioned that this doesn't constitute any avoidance of taxes but a strategy to be competitive in the market. Such allocation result in the consolidated minimization of all the national tax base, which is given by subtracting from the revenues allocated to a particular State ($y_k \cdot R$) the cost allocated to the same State (here expressed as $x_k \cdot C(E, A,K)$. This residual forms the EBIT (namely Earnings Before Interest and Taxes), the fraction of EBIT due to the tax authority is called the tax liability. The tax liability function will look as follows:
@@ -241,7 +243,7 @@ Constraints represent the boundaries where the system will result unfeasible. Su
 \subsection{Goal Programming Model}
 
 This model aims to find the best allocation of costs and budgeted revenue in order to maximize profits minimizing costs and tax base, at the same time the model provides the best multinational functional allocation strategy to achieve such goal using both internal and external data from independent companies.
-The objectives are divided into two categories; the first one is given by three objectives namely cost minimization, tax base minimization, PLI coherence; the second focuses more on the control and limitations that the decision maker wants to implement in the model due to the specific characteristics of its business.
+The objectives are divided into two categories; the first one is given by three objectives namely cost minimization, tax base minimization, PLI coherence; the second focuses more on the control and limitations that the Decision Maker wants to implement in the model due to the specific characteristics of its business.
 
 The overall model algebraically looks as follows:
 
@@ -264,7 +266,7 @@ The overall model algebraically looks as follows:
 	\addConstraint{\prescript{}{o}{p}_i,\prescript{}{o}{n}_i}{\geq 0,}{i=1,...,O}
 \end{mini!}
 
-Where the equations(4b)(4c)(4d) belong to the first category, where instead (4e)(4f)(4g) belong to the second, the latter in fact depend on the strategy of the decision maker and it's not given by any environmental variable.
+Where the equations(4b)(4c)(4d) belong to the first category, where instead (4e)(4f)(4g) belong to the second, the latter in fact depend on the strategy of the Decision Maker and it's not given by any environmental variable.
 
 \pagebreak
 
