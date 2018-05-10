@@ -88,10 +88,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Conclusion}{83}{chapter*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Aknowledgements}{84}{section.2.6}
+\contentsline {subsubsection}{Aknowledgements}{86}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{85}{section*.20}
+\contentsline {chapter}{Appendices}{87}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Profit allocation model code}{87}{Appendix.1.A}
+\contentsline {chapter}{\numberline {A}Profit allocation model code}{89}{Appendix.1.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Green Supply Chain model code}{91}{Appendix.1.B}
+\contentsline {chapter}{\numberline {B}Green Supply Chain model code}{93}{Appendix.1.B}
