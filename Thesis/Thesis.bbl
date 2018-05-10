@@ -402,6 +402,37 @@
       \field{pages}{576\bibrangedash 586}
       \range{pages}{11}
     \endentry
+    \entry{Cunningham2004}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=64d701526a5dd1aaaa05f55750ebefa3}{%
+           family={Cunningham},
+           familyi={C\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ffbce7d719cb473fd22a016e04ab7723}{%
+           family={Schrage},
+           familyi={S\bibinitperiod},
+           given={Linus},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{153b5801967ef48c22d337e19d49fb80}
+      \strng{fullhash}{153b5801967ef48c22d337e19d49fb80}
+      \strng{authornamehash}{153b5801967ef48c22d337e19d49fb80}
+      \strng{authorfullhash}{153b5801967ef48c22d337e19d49fb80}
+      \field{labelalpha}{CS04}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Modeling languages in mathematical optimization}
+      \field{title}{The LINGO algebraic modeling language}
+      \field{year}{2004}
+      \field{pages}{159\bibrangedash 171}
+      \range{pages}{13}
+    \endentry
     \entry{Cui2017}{article}{}
       \name{author}{4}{}{%
         {{hash=81eb6228a879db7d01f1accc61e30a6b}{%
@@ -575,6 +606,39 @@
       \verb{url}
       \verb http://www.jstor.org/stable/242682
       \endverb
+    \endentry
+    \entry{Fourer1997}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=7a91a47936280589f3fc0b3762b2928b}{%
+           family={Fourer},
+           familyi={F\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ec266099e27558af86379279e87b1f1c}{%
+           family={Gay},
+           familyi={G\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3902dcce52559cee240e714983472a28}{%
+           family={Kernighan},
+           familyi={K\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Duxbery Press, Belmont, CA}%
+      }
+      \strng{namehash}{f9edb124f90bb4a32589c8aef167450d}
+      \strng{fullhash}{f9edb124f90bb4a32589c8aef167450d}
+      \strng{authornamehash}{f9edb124f90bb4a32589c8aef167450d}
+      \strng{authorfullhash}{f9edb124f90bb4a32589c8aef167450d}
+      \field{labelalpha}{FGK97}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AMPL: Modeling Language For Mathematical Programing with AMPL Plus 1.6 Student Edition for Microsoft Windows}
+      \field{year}{1997}
     \endentry
     \entry{Flavell1976}{article}{}
       \name{author}{1}{}{%
@@ -796,6 +860,30 @@
       \range{pages}{9}
       \verb{doi}
       \verb 10.1016/S0098-1354(03)00048-6
+      \endverb
+    \endentry
+    \entry{Rsqldf_2017}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=796fc612c1cc27f3010ab158fd29e5fb}{%
+           family={Grothendieck},
+           familyi={G\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{796fc612c1cc27f3010ab158fd29e5fb}
+      \strng{fullhash}{796fc612c1cc27f3010ab158fd29e5fb}
+      \strng{authornamehash}{796fc612c1cc27f3010ab158fd29e5fb}
+      \strng{authorfullhash}{796fc612c1cc27f3010ab158fd29e5fb}
+      \field{labelalpha}{Gro17}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 0.4-11}
+      \field{title}{sqldf: Manipulate R Data Frames Using SQL}
+      \field{year}{2017}
+      \verb{url}
+      \verb https://CRAN.R-project.org/package=sqldf
       \endverb
     \endentry
     \entry{Ijiri1971}{article}{}
@@ -1447,6 +1535,33 @@
       \field{title}{Competitive Advantage: Creating and Sustaining Superior Performance}
       \field{year}{1998}
     \endentry
+    \entry{R_2017}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=a902f7a1275f47f57554b7ea75ccd0bc}{%
+           family={{R Core Team}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{organization}{1}{%
+        {R Foundation for Statistical Computing}%
+      }
+      \strng{namehash}{a902f7a1275f47f57554b7ea75ccd0bc}
+      \strng{fullhash}{a902f7a1275f47f57554b7ea75ccd0bc}
+      \strng{authornamehash}{a902f7a1275f47f57554b7ea75ccd0bc}
+      \strng{authorfullhash}{a902f7a1275f47f57554b7ea75ccd0bc}
+      \field{labelalpha}{R C17}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{year}{2017}
+      \verb{url}
+      \verb https://www.R-project.org/
+      \endverb
+    \endentry
     \entry{Rehman2017}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=a20aea40a39c78a35669cfbf58bcd233}{%
@@ -1713,6 +1828,84 @@
       \verb{doi}
       \verb 10.1287/opre.43.4.551
       \endverb
+    \endentry
+    \entry{Rplotly_2017}{manual}{}
+      \name{author}{7}{}{%
+        {{hash=c63711bd8fa68302eb02c665cf15d9ef}{%
+           family={Sievert},
+           familyi={S\bibinitperiod},
+           given={Carson},
+           giveni={C\bibinitperiod}}}%
+        {{hash=95ff10b3bf1b53805bdc0d6073b65b61}{%
+           family={Parmer},
+           familyi={P\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4caa61c533bd1cebd515f3fcd3007de4}{%
+           family={Hocking},
+           familyi={H\bibinitperiod},
+           given={Toby},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8e795e3a878455bdc19984e4db4e8439}{%
+           family={Chamberlain},
+           familyi={C\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1db1f0b5547d56e4d0007442a1f14a93}{%
+           family={Ram},
+           familyi={R\bibinitperiod},
+           given={Karthik},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5ce45ff74e03fcad8d02ff9e6775ff69}{%
+           family={Corvellec},
+           familyi={C\bibinitperiod},
+           given={Marianne},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e3f9293acd0542f4f285aef0b4d75ba7}{%
+           family={Despouy},
+           familyi={D\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae612094a62e121e4d6cd71be40d15ce}
+      \strng{fullhash}{4441a06d608edcd4803d122945e73bda}
+      \strng{authornamehash}{ae612094a62e121e4d6cd71be40d15ce}
+      \strng{authorfullhash}{4441a06d608edcd4803d122945e73bda}
+      \field{labelalpha}{Sie+17}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 4.7.1}
+      \field{title}{plotly: Create Interactive Web Graphics via 'plotly.js'}
+      \field{year}{2017}
+      \verb{url}
+      \verb https://CRAN.R-project.org/package=plotly
+      \endverb
+    \endentry
+    \entry{Sottinen2009}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7ff35e0024963f864c615e1409775144}{%
+           family={Sottinen},
+           familyi={S\bibinitperiod},
+           given={Tommi},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ff35e0024963f864c615e1409775144}
+      \strng{fullhash}{7ff35e0024963f864c615e1409775144}
+      \strng{authornamehash}{7ff35e0024963f864c615e1409775144}
+      \strng{authorfullhash}{7ff35e0024963f864c615e1409775144}
+      \field{labelalpha}{Sot09}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ORMS}
+      \field{title}{Operations Research with GNU Linear Programming Kit}
+      \field{volume}{1020}
+      \field{year}{2009}
+      \field{pages}{200}
+      \range{pages}{1}
     \endentry
     \entry{Srivastava2007}{article}{}
       \name{author}{1}{}{%
@@ -2084,6 +2277,72 @@
       \verb 10.1016/0361-3682(77)90020-4
       \endverb
     \endentry
+    \entry{Rdplyr}{manual}{}
+      \name{author}{4}{}{%
+        {{hash=1d0f6977ce2d043e298a59a1cd75b7ef}{%
+           family={Wickham},
+           familyi={W\bibinitperiod},
+           given={Hadley},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6c92aec390febcf0ca8a4e7c68c5ea6c}{%
+           family={Francois},
+           familyi={F\bibinitperiod},
+           given={Romain},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4caae9be043b32573c94b11203a4a2fe}{%
+           family={Henry},
+           familyi={H\bibinitperiod},
+           given={Lionel},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2a2cdec3a04e43e22769ccddd50275f9}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Kirill},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0731a35ef88164c57848ecb7ca5f8ca}
+      \strng{fullhash}{ca7807af183f5e77405373c2e0b132b8}
+      \strng{authornamehash}{e0731a35ef88164c57848ecb7ca5f8ca}
+      \strng{authorfullhash}{ca7807af183f5e77405373c2e0b132b8}
+      \field{labelalpha}{Wic+17}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 0.7.4}
+      \field{title}{dplyr: A Grammar of Data Manipulation}
+      \field{year}{2017}
+      \verb{url}
+      \verb https://CRAN.R-project.org/package=dplyr
+      \endverb
+    \endentry
+    \entry{Rggplot2_2009}{book}{}
+      \name{author}{1}{}{%
+        {{hash=1d0f6977ce2d043e298a59a1cd75b7ef}{%
+           family={Wickham},
+           familyi={W\bibinitperiod},
+           given={Hadley},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag New York}%
+      }
+      \strng{namehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{fullhash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{authornamehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{authorfullhash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \field{labelalpha}{Wic09}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-387-98140-6}
+      \field{title}{ggplot2: Elegant Graphics for Data Analysis}
+      \field{year}{2009}
+      \verb{url}
+      \verb http://ggplot2.org
+      \endverb
+    \endentry
     \entry{Williams2008}{collection}{}
       \name{editor}{1}{}{%
         {{hash=c4d66a51b97601bd40ea164dabd562a5}{%
@@ -2371,7 +2630,10 @@
       \range{pages}{8}
     \endentry
   \endsortlist
+  \missing{dolan_2001}
   \missing{Strobel2018}
+  \missing{czyzyk_et_al_1998}
+  \missing{gropp_more_1997}
 \endrefsection
 \endinput
 

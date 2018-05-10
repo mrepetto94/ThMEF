@@ -356,7 +356,7 @@ The model was tested with a set of data with the following features:
     \item N. 4 links from the dismantling plant to the production plant (Nto1).
 \end{itemize}
 
-The model was solved using the NEOS servers using their API with the data sent through a script built in R, using the R package rneos; since the problem was linear the solver chosen was the CPLEX. Further analysis were developed using the tools delivered by R and it's packages.
+The model was solved using the NEOS servers\cite{gropp_more_1997}\cite{dolan_2001}\cite{czyzyk_et_al_1998} by their API with the data sent through a script built in R, using the R\cite{R_2017} package rneos; since the problem was linear the solver chosen was the CPLEX. Further analysis were developed using the tools delivered by R and it's packages.
 
 \subsection{Sensitivity analysis}
 In the sensitivity analysis, the value of the weights was preemptively determined, since the model represents two different flows of products: delivered to the costumer and recycled the aim of the sensitivity analysis was to measure all the possible frontiers between DM preferece toward greener goal in comparion with the forward flow driven preferences. Therefore the objectives were grouped in two different clusters, the first was the cluster of "push" objective in the sense of the supply push of products to the customer, conversely the second cluster was characterized by the pull by the firm for recycling units instead of simply disposing the after consumer returned them. In the figure represented below is possible to observe the trade-off concearning the weight calibration by the Decision Maker preference.

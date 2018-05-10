@@ -33,7 +33,8 @@
     year = {2017},
     url = {https://www.R-project.org/},
 }
-{czyzyk_et_al_1998,
+
+@Article{czyzyk_et_al_1998,
    author = "Joseph {Czyzyk} and Michael P. {Mesnier} and Jorge J. {Mor{\'{e}}}",
    title =“The NEOS Server”,
    journal = "IEEE Journal on Computational Science and Engineering",
@@ -43,32 +44,23 @@
    pages = 68 —- 75
 }
 
-@TechReport{Dolan_2001,
-  author      = {E. D. Dolan},
-  title       = {{NEOS} server 4.0 administrative guide.},
-  institution = {Mathematics and Computer Science Division, Argonne National Laboratory},
-  year        = {2001},
-  type        = {Technical Memorandum},
-  number      = {ANL/MCS-TM-250},
-  month       = {jul},
-  doi         = {10.2172/822567},
-  publisher   = {Office of Scientific and Technical Information ({OSTI})},
+@Article{dolan_2001,
+   author = "Elizabeth D. {Dolan}",
+   title = "The NEOS Server 4.0 Administrative Guide",
+   institution = "Mathematics and Computer Science Division, Argonne National Laboratory",
+   year = 2001,
+   type = "Technical Memorandum",
+   number = "ANL/MCS-TM-250"
 }
 
-@Article{Ferris_2000,
-  author    = {Michael C. Ferris and Michael P. Mesnier and Jorge J. Mor{\'{e}}},
-  title     = {NEOS and Condor: solving optimization problems over the Internet},
-  journal   = {{ACM} Transactions on Mathematical Software},
-  year      = {1997},
-  editor    = {Martin D. {Buhman} and Arieh {Iserles}},
-  volume    = {26},
-  number    = {1},
-  month     = {mar},
-  pages     = {1--18},
-  issn      = {0098-3500},
-  doi       = {10.1145/347837.347842},
-  booktitle = {Approximation Theory and Optimization},
-  publisher = {Association for Computing Machinery ({ACM})},
+@Article{gropp_more_1997,
+   author = "William {Gropp} and Jorge J. {Mor{\'{e}}}",
+   title = "Optimization Environments and the NEOS Server",
+   booktitle="Approximation Theory and Optimization",
+   editor = "Martin D. {Buhman} and Arieh {Iserles}",
+   publisher = "Cambridge University Press",
+   year = 1997,
+   pages = 167 -- 182
 }
 
 @book{oecd_transfer_2015,
@@ -1112,6 +1104,14 @@
   volume  = {18},
   number  = {1},
   pages   = {56--60},
+}
+
+@InProceedings{Yi2012,
+  author    = {Ping Yi},
+  title     = {On models of design optimization with bounded-but-unknown uncertainty},
+  year      = {2012},
+  publisher = {AIP},
+  doi       = {10.1063/1.4756607},
 }
 
 @Article{Elishakoff1994,
