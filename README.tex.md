@@ -10,7 +10,7 @@ Starting from the concept of Multi-criteria optimization, which is defined as:
 $$
 Min[f_1(x),f_2(x),...,f_k(x)] \quad i=1,...,k \quad where \quad k\geq2
 $$
-The general Goal Promming formulation is given, which takes the following optimization form:
+Then the general Goal Promming formulation is given, which takes the following optimization form:
 $$
 \begin{equation*}
 \begin{aligned}
@@ -23,6 +23,8 @@ $$
 \end{aligned}
 \end{equation*}
 $$
+
+The advantage of GP is that can be solved through LP solvers and in its weighted flavor allow for the direct tradeoff between objectives.
 
 ## Author
 * **Marco Repetto**: [LinkedIn](https://www.linkedin.com/in/marco-repetto-256562b3/)
