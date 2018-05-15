@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.21)  10 MAY 2018 21:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.13)  13 MAY 2018 18:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **Thesis.tex
 (./Thesis.tex
 LaTeX2e <2017-04-15>
-Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
@@ -38,7 +38,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
  (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -49,7 +49,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
@@ -227,7 +227,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count121
 \LT@p@ftn=\toks23
 ) (./frontespizio.sty) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
@@ -248,7 +248,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -278,47 +278,45 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 \Hy@linkcounter=\count122
 \Hy@pagecounter=\count123
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count124
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
+Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count125
  (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen129
 \Fld@menulength=\count126
 \Field@Width=\dimen130
 \Fld@charsize=\dimen131
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
 \Hy@abspage=\count127
 \c@Item=\count128
 \c@Hfootnote=\count129
 )
-
-Package hyperref Message: Driver (autodetected): hpdftex.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count130
 \c@bookmark@seq@number=\count131
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
@@ -330,8 +328,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 Package hyperref Info: Option `colorlinks' set `true' on input line 36.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 36.
  (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2017/05/24 v1.19 mathematical typesetting tools
- (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count132
 \calc@Bcount=\count133
@@ -367,7 +366,7 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \extratabsurround=\skip66
 \backup@length=\skip67
 ) (/usr/share/texlive/texmf-dist/tex/latex/optidef/optidef.sty
-Package: optidef 2017/06/21 - version=2.5, Package for defining optimization problems
+Package: optidef 2017/11/29 - version=2.6, Package for defining optimization problems
  (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
  (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
@@ -379,12 +378,12 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 )) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count136
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2017/07/19 L3 programming layer (loader) 
+Package: expl3 2018/02/21 L3 programming layer (loader) 
  (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2017/07/19 L3 programming layer (code)
+Package: expl3 2018/02/21 L3 programming layer (code)
 \c_max_int=\count137
 \l_tmpa_int=\count138
 \l_tmpb_int=\count139
@@ -485,7 +484,7 @@ Package: expl3 2017/07/19 L3 programming layer (code)
 \l__regex_min_submatch_int=\count282
 \l__regex_submatch_int=\count283
 \l__regex_zeroth_submatch_int=\count284
-\g__debug_trace_regex_int=\count285
+\g__regex_trace_regex_int=\count285
 \c_empty_box=\box60
 \l_tmpa_box=\box61
 \l_tmpb_box=\box62
@@ -531,7 +530,7 @@ File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count286
 \l__driver_tmp_box=\box75
 ))
-Package: xparse 2017/07/19 L3 Experimental document command parser
+Package: xparse 2018/02/21 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count287
 \g__xparse_grabber_int=\count288
 \l__xparse_m_args_int=\count289
@@ -542,145 +541,145 @@ Package: xparse 2017/07/19 L3 Experimental document command parser
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \bodyconst with sig. 'm G{}' on line 125.
+. Defining command \bodyconst with sig. 'm G{}' on line 130.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \bodyconstRight with sig. 'm G{} G{}' on line 158.
+. Defining command \bodyconstRight with sig. 'm G{} G{}' on line 163.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \bodyconstOneAlign with sig. 'm G{} G{}' on line 172.
+. Defining command \bodyconstOneAlign with sig. 'm G{} G{}' on line 177.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \bodyconstOneAlignBelow with sig. 'm G{} G{}' on line 187.
+. Defining command \bodyconstOneAlignBelow with sig. 'm G{} G{}' on line 192.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \bodyconstBelow with sig. 'm G{} G{}' on line 213.
+. Defining command \bodyconstBelow with sig. 'm G{} G{}' on line 218.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \bodyconstBelowMult with sig. 'm G{} G{}' on line 239.
+. Defining command \bodyconstBelowMult with sig. 'm G{} G{}' on line 244.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \bodyconstOneAlignBelowMult with sig. 'm G{} G{}' on line
-. 254.
+. 259.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \addConstraint with sig. 'm G{} G{}' on line 299.
+. Defining command \addConstraint with sig. 'm G{} G{}' on line 304.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \standardAddConstraint with sig. 'm G{} G{}' on line 329.
+. Defining command \standardAddConstraint with sig. 'm G{} G{}' on line 340.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \BelowAddConstraint with sig. 'm G{} G{}' on line 354.
+. Defining command \BelowAddConstraint with sig. 'm G{} G{}' on line 366.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \oneAlignAddConstraint with sig. 'm G{} G{}' on line 370.
+. Defining command \oneAlignAddConstraint with sig. 'm G{} G{}' on line 382.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \oneAlignBelowAddConstraint with sig. 'm G{} G{}' on line
-. 386.
+. 398.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \BelowAddConstraintMult with sig. 'm G{} G{}' on line 410.
+. Defining command \BelowAddConstraintMult with sig. 'm G{} G{}' on line 422.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \oneAlignBelowAddConstraintMult with sig. 'm G{} G{}' on
-. line 426.
+. line 438.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
 . Defining environment 'mini' with sig. 'D||{\defaultProblemFormat } O{0} m m
-. m m' on line 548.
+. m m' on line 560.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
 . Defining environment 'argmini' with sig. 'D||{\defaultProblemFormat } O{0} m
-. m m m' on line 556.
+. m m m' on line 568.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
 . Defining environment 'mini*' with sig. 'D||{\defaultProblemFormat } O{0} m m
-. m m' on line 566.
+. m m' on line 578.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'argmini*' with sig. 'D||{l} O{0} m m m m' on line 574.
+. Defining environment 'argmini*' with sig. 'D||{l} O{0} m m m m' on line 586.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
 . Defining environment 'mini!' with sig. 'D||{\defaultProblemFormat } O{0} m m
-. m m' on line 584.
+. m m' on line 596.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
 . Defining environment 'argmini!' with sig. 'D||{\defaultProblemFormat } O{0}
-. m m m m' on line 592.
+. m m m m' on line 604.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
 . Defining environment 'maxi' with sig. 'D||{\defaultProblemFormat } O{0} m m
-. m m' on line 606.
+. m m' on line 618.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
 . Defining environment 'argmaxi' with sig. 'D||{\defaultProblemFormat } O{0} m
-. m m m' on line 614.
+. m m m' on line 626.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
 . Defining environment 'maxi*' with sig. 'D||{\defaultProblemFormat } O{0} m m
-. m m' on line 624.
+. m m' on line 636.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'argmaxi*' with sig. 'D||{l} O{0} m m m m' on line 632.
+. Defining environment 'argmaxi*' with sig. 'D||{l} O{0} m m m m' on line 644.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
 . Defining environment 'maxi!' with sig. 'D||{\defaultProblemFormat } O{0} m m
-. m m' on line 642.
+. m m' on line 654.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
 . Defining environment 'argmaxi!' with sig. 'D||{\defaultProblemFormat } O{0}
-. m m m m' on line 650.
+. m m m m' on line 662.
 .................................................
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -706,8 +705,7 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks28
 \pgfkeys@temptoks=\toks29
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks30
 ))
 \pgf@x=\dimen176
@@ -731,7 +729,8 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
@@ -784,8 +783,7 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@yy=\dimen196
 \pgf@zx=\dimen197
 \pgf@zy=\dimen198
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen199
 \pgf@path@lasty=\dimen256
@@ -793,7 +791,8 @@ File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen257
 \pgf@shorten@start@additional=\dimen258
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box80
 \pgf@hbox=\box81
@@ -842,8 +841,7 @@ Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepend=\dimen266
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen267
@@ -852,7 +850,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 \pgffor@toks=\toks38
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count303
 \pgfplotmarksize=\dimen269
@@ -1022,14 +1021,14 @@ File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
 \pgfdecorationsegmentlength=\dimen295
 )
 \tikz@lib@dec@box=\box90
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \arrowsize=\dimen296
-)) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count320
@@ -1064,7 +1063,7 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \c@refsegment=\count342
 \c@maxextratitle=\count343
 \c@maxextratitleyear=\count344
-\c@maxextrayear=\count345
+\c@maxextradate=\count345
 \c@maxextraalpha=\count346
 \c@abbrvpenalty=\count347
 \c@highnamepenalty=\count348
@@ -1164,8 +1163,10 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedpublisher=\count425
 \c@language=\count426
 \c@savedlanguage=\count427
-\c@pageref=\count428
-\c@savedpageref=\count429
+\c@origlanguage=\count428
+\c@savedoriglanguage=\count429
+\c@pageref=\count430
+\c@savedpageref=\count431
 \shorthandwidth=\skip85
 \shortjournalwidth=\skip86
 \shortserieswidth=\skip87
@@ -1175,35 +1176,35 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+File: blx-compat.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count430
-\c@textcitetotal=\count431
-\c@textcitemaxnames=\count432
-\c@biburlnumpenalty=\count433
-\c@biburlucpenalty=\count434
-\c@biburllcpenalty=\count435
-\c@smartand=\count436
+File: biblatex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count432
+\c@textcitetotal=\count433
+\c@textcitemaxnames=\count434
+\c@biburlnumpenalty=\count435
+\c@biburlucpenalty=\count436
+\c@biburllcpenalty=\count437
+\c@smartand=\count438
 )
 Package biblatex Info: Trying to load bibliography style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.bbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
-File: alphabetic.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+File: alphabetic.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count437
-\c@bbx:relatedtotal=\count438
+File: standard.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count439
+\c@bbx:relatedtotal=\count440
 ))
 Package biblatex Info: Trying to load citation style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.cbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/alphabetic.cbx
-File: alphabetic.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+File: alphabetic.cbx 2017/12/19 v3.10 biblatex citation style (PK/JW/AB)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1221,9 +1222,9 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 )) (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count439
-\c@@ppsavesec=\count440
-\c@@ppsaveapp=\count441
+\c@@pps=\count441
+\c@@ppsavesec=\count442
+\c@@ppsaveapp=\count443
 ) (/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
 Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
  (/usr/share/texlive/texmf-dist/tex/latex/fvextra/fvextra.sty
@@ -1231,11 +1232,11 @@ Package: fvextra 2017/07/08 v1.3.1 fvextra - extensions and patches for fancyvrb
  (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2008/02/07
  Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix <2008/02/07> (tvz)
-\FV@CodeLineNo=\count442
+\FV@CodeLineNo=\count444
 \FV@InFile=\read3
 \FV@TabBox=\box91
-\c@FancyVerbLine=\count443
-\FV@StepNumber=\count444
+\c@FancyVerbLine=\count445
+\FV@StepNumber=\count446
 \FV@OutFile=\write6
 ) (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
@@ -1320,48 +1321,48 @@ Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )) (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count445
+\linenopenalty=\count447
 \output=\toks42
-\linenoprevgraf=\count446
+\linenoprevgraf=\count448
 \linenumbersep=\dimen297
 \linenumberwidth=\dimen298
-\c@linenumber=\count447
-\c@pagewiselinenumber=\count448
-\c@LN@truepage=\count449
-\c@internallinenumber=\count450
-\c@internallinenumbers=\count451
+\c@linenumber=\count449
+\c@pagewiselinenumber=\count450
+\c@LN@truepage=\count451
+\c@internallinenumber=\count452
+\c@internallinenumbers=\count453
 \quotelinenumbersep=\dimen299
 \bframerule=\dimen300
 \bframesep=\dimen301
 \bframebox=\box92
 LaTeX Info: Redefining \\ on input line 3056.
 )
-\c@FV@TrueTabGroupLevel=\count452
-\c@FV@TrueTabCounter=\count453
+\c@FV@TrueTabGroupLevel=\count454
+\c@FV@TrueTabCounter=\count455
 \FV@TabBox@Group=\box93
 \FV@TmpLength=\skip91
-\c@FV@HighlightLinesStart=\count454
-\c@FV@HighlightLinesStop=\count455
-\FV@LoopCount=\count456
+\c@FV@HighlightLinesStart=\count456
+\c@FV@HighlightLinesStop=\count457
+\FV@LoopCount=\count458
 \FV@NCharsBox=\box94
 \FV@BreakIndent=\dimen302
-\FV@BreakIndentNChars=\count457
+\FV@BreakIndentNChars=\count459
 \FV@BreakSymbolSepLeft=\dimen303
-\FV@BreakSymbolSepLeftNChars=\count458
+\FV@BreakSymbolSepLeftNChars=\count460
 \FV@BreakSymbolSepRight=\dimen304
-\FV@BreakSymbolSepRightNChars=\count459
+\FV@BreakSymbolSepRightNChars=\count461
 \FV@BreakSymbolIndentLeft=\dimen305
-\FV@BreakSymbolIndentLeftNChars=\count460
+\FV@BreakSymbolIndentLeftNChars=\count462
 \FV@BreakSymbolIndentRight=\dimen306
-\FV@BreakSymbolIndentRightNChars=\count461
-\c@FancyVerbLineBreakLast=\count462
+\FV@BreakSymbolIndentRightNChars=\count463
+\c@FancyVerbLineBreakLast=\count464
 \FV@LineBox=\box95
 \FV@LineIndentBox=\box96
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 69.
 ) (/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
-Package: ifplatform 2010/10/22 v0.4 Testing for the operating system
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/catchfile.sty
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
@@ -1380,10 +1381,10 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \minted@appexistsfile=\read4
 \minted@bgbox=\box97
 \minted@code=\write7
-\c@minted@FancyVerbLineTemp=\count463
-\c@minted@pygmentizecounter=\count464
+\c@minted@FancyVerbLineTemp=\count465
+\c@minted@pygmentizecounter=\count466
 \@float@every@listing=\toks43
-\c@listing=\count465
+\c@listing=\count467
 )
 runsystem(mkdir -p _minted-Thesis)...disabled (restricted).
 
@@ -1407,8 +1408,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 \addbibresource
-                   {reference.bib}
+l.6 \definecolor
+                {LightGray}{gray}{0.9}
 The package xcolor has already been loaded with options:
   []
 There has now been an attempt to load it with options
@@ -1421,78 +1422,78 @@ Try typing  <return>  to proceed.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count466
-\@quotereset=\count467
+\@quotelevel=\count468
+\@quotereset=\count469
 runsystem(which pygmentize && touch Thesis.aex)...disabled (restricted).
 
 
 
-./Thesis.tex:8: Package minted Error: You must have `pygmentize' installed to use this package.
+./Thesis.tex:10: Package minted Error: You must have `pygmentize' installed to use this package.
 
 See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 \begin{document}
-                    
+l.10 \begin{document}
+                     
 Refer to the installation instructions in the minted documentation for more information.
 
 (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 8.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 8.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 10.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 10.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 8.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 8.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 10.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 10.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 8.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 8.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 10.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 10.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 8.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 8.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 10.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 10.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 8.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 10.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Try loading font information for T1+txr on input line 8.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 10.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count468
+\scratchcounter=\count470
 \scratchdimen=\dimen311
 \scratchbox=\box98
-\nofMPsegments=\count469
-\nofMParguments=\count470
+\nofMPsegments=\count471
+\nofMParguments=\count472
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count471
+\MPscratchCnt=\count473
 \MPscratchDim=\dimen312
-\MPnumerator=\count472
-\makeMPintoPDFobject=\count473
+\MPnumerator=\count474
+\makeMPintoPDFobject=\count475
 \everyMPtoPDFconversion=\toks45
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1506,19 +1507,19 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@lstlisting=\count474
+\c@lstlisting=\count476
 \AtBeginShipoutBox=\box99
-Package hyperref Info: Link coloring ON on input line 8.
+Package hyperref Info: Link coloring ON on input line 10.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count475
+\c@section@level=\count477
 )
-LaTeX Info: Redefining \ref on input line 8.
-LaTeX Info: Redefining \pageref on input line 8.
-LaTeX Info: Redefining \nameref on input line 8.
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
  (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write8
 \openout8 = `Thesis.out'.
@@ -1532,13 +1533,6 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Thesis.bbl' found.
  (./Thesis.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                dolan_2001
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
@@ -1556,39 +1550,46 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
+(biblatex)                dolan_2001
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
 (biblatex)                gropp_more_1997
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 8.
-Package biblatex Info: Reference segment=0 on input line 8.
+Package biblatex Info: Reference section=0 on input line 10.
+Package biblatex Info: Reference segment=0 on input line 10.
 <centrato_piccolo_nero.jpg, id=139, 537.207pt x 294.1389pt>
 File: centrato_piccolo_nero.jpg Graphic file (type jpg)
 <use centrato_piccolo_nero.jpg>
-Package pdftex.def Info: centrato_piccolo_nero.jpg  used on input line 17. on input line 17.
-Package pdftex.def Info: Requested size: 355.66432pt x 184.94942pt on input line 17.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 17.
+Package pdftex.def Info: centrato_piccolo_nero.jpg  used on input line 19.
+(pdftex.def)             Requested size: 355.66432pt x 184.94942pt.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 19.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 17.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 19.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 17.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 19.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 17.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 19.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 17.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 19.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 17.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 19.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 ) [1
@@ -1782,13 +1783,13 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 <Images/CTworld.png, id=400, 2517.405pt x 1413.28pt>
 File: Images/CTworld.png Graphic file (type png)
 <use Images/CTworld.png>
-Package pdftex.def Info: Images/CTworld.png  used on input line 136. on input line 136.
-Package pdftex.def Info: Requested size: 390.0pt x 218.9483pt on input line 136.
+Package pdftex.def Info: Images/CTworld.png  used on input line 136.
+(pdftex.def)             Requested size: 390.0pt x 218.9483pt.
 <Images/GNIworld.png, id=402, 2517.405pt x 1413.28pt>
 File: Images/GNIworld.png Graphic file (type png)
 <use Images/GNIworld.png>
-Package pdftex.def Info: Images/GNIworld.png  used on input line 144. on input line 144.
-Package pdftex.def Info: Requested size: 390.0pt x 218.9483pt on input line 144.
+Package pdftex.def Info: Images/GNIworld.png  used on input line 144.
+(pdftex.def)             Requested size: 390.0pt x 218.9483pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1815,8 +1816,8 @@ l.151
 <Images/Cluster-GNI-CT.png, id=413, 1003.75pt x 1003.75pt>
 File: Images/Cluster-GNI-CT.png Graphic file (type png)
 <use Images/Cluster-GNI-CT.png>
-Package pdftex.def Info: Images/Cluster-GNI-CT.png  used on input line 154. on input line 154.
-Package pdftex.def Info: Requested size: 390.0pt x 390.0059pt on input line 154.
+Package pdftex.def Info: Images/Cluster-GNI-CT.png  used on input line 154.
+(pdftex.def)             Requested size: 390.0pt x 390.0059pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1856,8 +1857,8 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 <Images/plidist1.png, id=432, 1966.34625pt x 1105.12875pt>
 File: Images/plidist1.png Graphic file (type png)
 <use Images/plidist1.png>
-Package pdftex.def Info: Images/plidist1.png  used on input line 178. on input line 178.
-Package pdftex.def Info: Requested size: 592.0pt x 332.72159pt on input line 178.
+Package pdftex.def Info: Images/plidist1.png  used on input line 178.
+(pdftex.def)             Requested size: 592.0pt x 332.72159pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1965,8 +1966,8 @@ Overfull \hbox (10.76329pt too wide) in paragraph at lines 287--290
 <Images/ternary.png, id=505, 476.2593pt x 569.4876pt>
 File: Images/ternary.png Graphic file (type png)
 <use Images/ternary.png>
-Package pdftex.def Info: Images/ternary.png  used on input line 293. on input line 293.
-Package pdftex.def Info: Requested size: 272.99881pt x 326.43613pt on input line 293.
+Package pdftex.def Info: Images/ternary.png  used on input line 293.
+(pdftex.def)             Requested size: 272.99881pt x 326.43613pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2012,9 +2013,9 @@ LaTeX Warning: No positions in optional float specifier.
 <Images/AllocationMap.png, id=525, 957.0957pt x 569.4876pt>
 File: Images/AllocationMap.png Graphic file (type png)
 <use Images/AllocationMap.png>
-Package pdftex.def Info: Images/AllocationMap.png  used on input line 358. on input line 358.
-Package pdftex.def Info: Requested size: 592.0pt x 352.25314pt on input line 358.
-) (./ch2.tex
+Package pdftex.def Info: Images/AllocationMap.png  used on input line 358.
+(pdftex.def)             Requested size: 592.0pt x 352.25314pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2028,13 +2029,13 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2 \chapter
-            {A Green Supply Chain transportation model: integrating closed l...pdfTeX warning (ext4): destination with the same identifier (name{table.1.4}) has been already used, duplicate ignored
+l.365 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.1.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2 \chapter
-            {A Green Supply Chain transportation model: integrating closed l...]
+l.365 
+      ]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
@@ -2045,8 +2046,8 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2 \chapter
-            {A Green Supply Chain transportation model: integrating closed l... <./Images/AllocationMap.png>]
+l.365 
+       <./Images/AllocationMap.png>]) (./ch2.tex
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
@@ -2099,8 +2100,8 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 <Images/occurence.png, id=562, 957.0957pt x 569.4876pt>
 File: Images/occurence.png Graphic file (type png)
 <use Images/occurence.png>
-Package pdftex.def Info: Images/occurence.png  used on input line 22. on input line 22.
-Package pdftex.def Info: Requested size: 390.0pt x 232.05763pt on input line 22.
+Package pdftex.def Info: Images/occurence.png  used on input line 22.
+(pdftex.def)             Requested size: 390.0pt x 232.05763pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2153,8 +2154,8 @@ l.90   $$
 <Images/heatmap.png, id=607, 492.84125pt x 477.785pt>
 File: Images/heatmap.png Graphic file (type png)
 <use Images/heatmap.png>
-Package pdftex.def Info: Images/heatmap.png  used on input line 95. on input line 95.
-Package pdftex.def Info: Requested size: 390.0pt x 378.10214pt on input line 95.
+Package pdftex.def Info: Images/heatmap.png  used on input line 95.
+(pdftex.def)             Requested size: 390.0pt x 378.10214pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2363,8 +2364,8 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [74]
-Overfull \hbox (15.94618pt too wide) in paragraph at lines 343--343
-[] 
+Overfull \hbox (15.94618pt too wide) detected at line 343
+[]
  []
 
 
@@ -2402,8 +2403,8 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 <Images/tradeoff.png, id=787, 505.6491pt x 505.6491pt>
 File: Images/tradeoff.png Graphic file (type png)
 <use Images/tradeoff.png>
-Package pdftex.def Info: Images/tradeoff.png  used on input line 371. on input line 371.
-Package pdftex.def Info: Requested size: 272.99881pt x 273.00786pt on input line 371.
+Package pdftex.def Info: Images/tradeoff.png  used on input line 371.
+(pdftex.def)             Requested size: 272.99881pt x 273.00786pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2468,8 +2469,8 @@ LaTeX Warning: No positions in optional float specifier.
 <Images/network.png, id=804, 957.0957pt x 569.4876pt>
 File: Images/network.png Graphic file (type png)
 <use Images/network.png>
-Package pdftex.def Info: Images/network.png  used on input line 436. on input line 436.
-Package pdftex.def Info: Requested size: 592.0pt x 352.25314pt on input line 436.
+Package pdftex.def Info: Images/network.png  used on input line 436.
+(pdftex.def)             Requested size: 592.0pt x 352.25314pt.
 ) (./conclusion.tex
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2519,7 +2520,12 @@ or  <return>  to continue without it.
 [85]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [86] [87] [88
+ [86]
+Underfull \hbox (badness 10000) in paragraph at lines 39--47
+
+ []
+
+[87] [88
 
 
 ]) (./appendix.tex [89
@@ -2535,213 +2541,222 @@ File: t1txtt.fd 2000/12/15 v3.1
 LaTeX Font Info:    Try loading font information for TS1+txtt on input line 20.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txtt.fd
 File: ts1txtt.fd 2000/12/15 v3.1
-) [91
+))
+Overfull \vbox (1.1093pt too high) detected at line 13
+ []
+
+[91
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 10000) detected at line 13
+ []
 
- [92]) [93] [94
+
+Underfull \vbox (badness 10000) detected at line 13
+ []
+
+[92] [93] [94
 
 ]
 Appendix B.
 (./_minted-Thesis/B6BAF238C60AE9242D5E79D53EE96280922DA0CC93C5356E6213A3013B3A160E.pygtex
 LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <10> not available
 (Font)              Font shape `T1/txtt/m/sl' tried instead on input line 2.
- [95]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+)
+Overfull \vbox (1.20938pt too high) detected at line 26
+ []
 
- [96]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[95]
+Underfull \vbox (badness 10000) detected at line 26
+ []
 
- [97]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [98])) [99] [100
+Underfull \vbox (badness 10000) detected at line 26
+ []
+
+[96]
+Underfull \vbox (badness 10000) detected at line 26
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 26
+ []
+
+[97]
+Underfull \vbox (badness 10000) detected at line 26
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 26
+ []
+
+[98]) [99] [100
 
 ]
-Overfull \hbox (13.90219pt too wide) in paragraph at lines 34--34
+Overfull \hbox (13.90219pt too wide) in paragraph at lines 36--36
 []\T1/txr/m/n/12 Alireza Az-imian and Be-laid Aouni. ``Sup-ply chain man-age-ment through
  []
 
 
-Overfull \hbox (2.17816pt too wide) in paragraph at lines 34--34
+Overfull \hbox (2.17816pt too wide) in paragraph at lines 36--36
 []\T1/txr/m/n/12 Julian Ben-jamin. ``An Anal-y-sis of In-ven-tory and Trans-porta-tion Costs
  []
 
 
-Overfull \hbox (1.57405pt too wide) in paragraph at lines 34--34
+Overfull \hbox (1.57405pt too wide) in paragraph at lines 36--36
 \T1/txr/m/n/12 in a Con-strained Net-work''. en. In: \T1/txr/m/it/12 Trans-porta-tion Sci-ence \T1/txr/m/n/12 23.3 (Aug.
  []
 
-[101]
-Overfull \hbox (5.23605pt too wide) in paragraph at lines 34--34
+
+Overfull \hbox (5.23605pt too wide) in paragraph at lines 36--36
 \T1/txr/m/n/12 criteria de-ci-sion anal-y-sis with goal pro-gram-ming in en-gi-neer-ing, man-
  []
 
-[102]
-Overfull \hbox (16.57193pt too wide) in paragraph at lines 34--34
+[101]
+Overfull \hbox (16.57193pt too wide) in paragraph at lines 36--36
 []\T1/txr/m/n/12 H. Justin David-son and Robert M. True-blood. ``Ac-count-ing for Decision-
  []
 
-[103]
-Overfull \hbox (10.52174pt too wide) in paragraph at lines 34--34
+[102]
+Overfull \hbox (10.52174pt too wide) in paragraph at lines 36--36
 \T1/txr/m/n/12 pro-gram-ming''. In: \T1/txr/m/it/12 In-ter-na-tional Jour-nal of Pro-duc-tion Re-search \T1/txr/m/n/12 43.20
  []
 
-[104]
 
-./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:36: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 
+l.36 
      
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:36: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 
+l.36 
      
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-Overfull \hbox (6.19336pt too wide) in paragraph at lines 34--34
+Overfull \hbox (6.19336pt too wide) in paragraph at lines 36--36
 \T1/txr/m/n/12 Multi-na-tional Firm''. In: \T1/txr/m/it/12 The Ac-count-ing Re-view \T1/txr/m/n/12 53.4 (1978), pp. 935^^U
  []
 
-[105]
+[103]
 
-./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:36: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 
+l.36 
      
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:36: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 
+l.36 
      
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:36: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 
+l.36 
      
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-./Thesis.tex:34: Package inputenc Error: Keyboard character used is undefined
+./Thesis.tex:36: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 
+l.36 
      
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
 
 
-Overfull \hbox (2.37093pt too wide) in paragraph at lines 34--34
+Overfull \hbox (2.37093pt too wide) in paragraph at lines 36--36
 \T1/txr/m/it/12 Jour-nal of the Op-er-a-tional Re-search So-ci-ety \T1/txr/m/n/12 59.1 (Jan. 2008), pp. 90^^U
  []
 
-[106]
-Overfull \hbox (1.17589pt too wide) in paragraph at lines 34--34
+
+Overfull \hbox (1.17589pt too wide) in paragraph at lines 36--36
 []\T1/txr/m/n/12 C. Romero. \T1/txr/m/it/12 Hand-book of Crit-i-cal Is-sues in Goal Pro-gram-ming\T1/txr/m/n/12 . Perg-
  []
 
-
-Overfull \hbox (22.66937pt too wide) in paragraph at lines 34--34
+[104]
+Overfull \hbox (22.66937pt too wide) in paragraph at lines 36--36
 \T1/txr/m/n/12 pro-gram-ming tech-nique''. In: \T1/txr/m/it/12 Man-age-ment de-ci-sion \T1/txr/m/n/12 46.4 (2008), pp. 656^^U
  []
 
-[107]
-Overfull \hbox (8.2072pt too wide) in paragraph at lines 34--34
+
+Overfull \hbox (8.2072pt too wide) in paragraph at lines 36--36
 \T1/txr/m/n/12 art''. In: \T1/txr/m/it/12 Eu-ro-pean Jour-nal of Op-er-a-tional Re-search \T1/txr/m/n/12 111.3 (Dec. 1998),
  []
 
-[108]
-Overfull \hbox (23.91801pt too wide) in paragraph at lines 34--34
+[105]
+Overfull \hbox (23.91801pt too wide) in paragraph at lines 36--36
 []\T1/txr/m/n/12 Hadley Wick-ham. \T1/txr/m/it/12 gg-plot2: El-e-gant Graph-ics for Data Anal-y-sis\T1/txr/m/n/12 . Springer-
  []
 
-[109] [110]
-
-./Thesis.tex:35: LaTeX Error: \begin{doublespace} on input line 1 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 \end{document}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
-(./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
+[106]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
+ (./Thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: E59CAFE98B91C0567DC4D1AD791ACBAD;2506.
 Package logreq Info: Writing requests to 'Thesis.run.xml'.
 \openout1 = `Thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 35.
- )
-(\end occurred inside a group at level 2)
-
-### semi simple group (level 2) entered at line 1 (\begingroup)
-### semi simple group (level 1) entered at line 1 (\begingroup)
-### bottom level 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
+ ) 
 Here is how much of TeX's memory you used:
- 39471 strings out of 492990
- 761431 string characters out of 6135005
- 1194878 words of memory out of 5000000
- 42048 multiletter control sequences out of 15000+600000
+ 39918 strings out of 492982
+ 772430 string characters out of 6134896
+ 1187066 words of memory out of 5000000
+ 42507 multiletter control sequences out of 15000+600000
  620880 words of font info for 175 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,18n,71p,10423b,1554s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,18n,71p,10423b,1511s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tcxtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (110 pages, 2405726 bytes).
+Output written on Thesis.pdf (106 pages, 2404721 bytes).
 PDF statistics:
- 1085 PDF objects out of 1200 (max. 8388607)
- 923 compressed objects within 10 object streams
- 306 named destinations out of 1000 (max. 500000)
+ 1067 PDF objects out of 1200 (max. 8388607)
+ 909 compressed objects within 10 object streams
+ 302 named destinations out of 1000 (max. 500000)
  338 words of extra memory for PDF output out of 10000 (max. 10000000)
 

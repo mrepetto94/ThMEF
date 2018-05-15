@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.8 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \sortlist[entry]{anyt/global/}
+  \datalist[entry]{anyt/global//global/global}
     \entry{Azimian2017}{article}{}
       \name{author}{2}{}{%
         {{hash=428ff4c2851f614c4a479cfd3c8bdefb}{%
@@ -37,11 +37,13 @@
       }
       \strng{namehash}{e3e9fd91e703b1aa462e933d3ee36b5f}
       \strng{fullhash}{e3e9fd91e703b1aa462e933d3ee36b5f}
+      \strng{bibnamehash}{e3e9fd91e703b1aa462e933d3ee36b5f}
+      \strng{authorbibnamehash}{e3e9fd91e703b1aa462e933d3ee36b5f}
       \strng{authornamehash}{e3e9fd91e703b1aa462e933d3ee36b5f}
       \strng{authorfullhash}{e3e9fd91e703b1aa462e933d3ee36b5f}
       \field{labelalpha}{AA17}
       \field{sortinit}{A}
-      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0254-5330, 1572-9338}
@@ -62,6 +64,9 @@
       \endverb
       \verb{file}
       \verb 10.1007-s10479-015-2007-1.pdf:/Users/marcorepetto/Zotero/storage/IRKTU747/10.1007-s10479-015-2007-1.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10479-015-2007-1
       \endverb
       \verb{url}
       \verb http://link.springer.com/10.1007/s10479-015-2007-1
@@ -87,11 +92,13 @@
       }
       \strng{namehash}{669646388ba7065e4174a5ab327c2ba4}
       \strng{fullhash}{669646388ba7065e4174a5ab327c2ba4}
+      \strng{bibnamehash}{669646388ba7065e4174a5ab327c2ba4}
+      \strng{authorbibnamehash}{669646388ba7065e4174a5ab327c2ba4}
       \strng{authornamehash}{669646388ba7065e4174a5ab327c2ba4}
       \strng{authorfullhash}{669646388ba7065e4174a5ab327c2ba4}
       \field{labelalpha}{AMA17}
       \field{sortinit}{A}
-      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{0254-5330, 1572-9338}
@@ -116,6 +123,9 @@
       \verb{file}
       \verb Goal programming model for management accounting and auditing.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\IZQK7DKG\\Goal programming model for management accounting and auditing.pdf:application/pdf
       \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10479-015-1969-3
+      \endverb
       \verb{url}
       \verb http://link.springer.com/10.1007/s10479-015-1969-3
       \endverb
@@ -134,11 +144,13 @@
       }
       \strng{namehash}{7de556081cff62deb67d05092f9ea520}
       \strng{fullhash}{7de556081cff62deb67d05092f9ea520}
+      \strng{bibnamehash}{7de556081cff62deb67d05092f9ea520}
+      \strng{authorbibnamehash}{7de556081cff62deb67d05092f9ea520}
       \strng{authornamehash}{7de556081cff62deb67d05092f9ea520}
       \strng{authorfullhash}{7de556081cff62deb67d05092f9ea520}
       \field{labelalpha}{Ben89}
       \field{sortinit}{B}
-      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0041-1655, 1526-5447}
@@ -156,6 +168,9 @@
       \range{pages}{7}
       \verb{doi}
       \verb 10.1287/trsc.23.3.177
+      \endverb
+      \verb{urlraw}
+      \verb http://pubsonline.informs.org/doi/abs/10.1287/trsc.23.3.177
       \endverb
       \verb{url}
       \verb http://pubsonline.informs.org/doi/abs/10.1287/trsc.23.3.177
@@ -187,11 +202,13 @@
       }
       \strng{namehash}{dcd9f088dcb6502010eb8f99d389730e}
       \strng{fullhash}{dcd9f088dcb6502010eb8f99d389730e}
+      \strng{bibnamehash}{dcd9f088dcb6502010eb8f99d389730e}
+      \strng{authorbibnamehash}{dcd9f088dcb6502010eb8f99d389730e}
       \strng{authornamehash}{dcd9f088dcb6502010eb8f99d389730e}
       \strng{authorfullhash}{dcd9f088dcb6502010eb8f99d389730e}
       \field{labelalpha}{BKC13}
       \field{sortinit}{B}
-      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{""Inc." magazine calls it one of "the best, clearest guides to the numbers" on the market. Readers agree, saying it's exactly "what I need to know" and calling it a "must-read" for decision makers without expertise in finance. Since its release in 2006, "Financial Intelligence" has become a favorite among managers who need a guided tour through the numbers--helping them to understand not only what the numbers really mean, but also why they matter. This new, completely updated edition brings the numbers up to date and continues to teach the basics of finance to managers who need to use financial data to drive their business. It also addresses issues that have become even more important in recent years--including questions around the financial crisis and those around broader financial and accounting literacy. Accessible, jargon-free, and filled with entertaining stories of real companies, Financial Intelligence gives nonfinancial managers the confidence to understand the nuance beyond the numbers--to help bring everyday work to a new level."--Publisher's website.}
@@ -225,11 +242,13 @@
       }
       \strng{namehash}{7497c956c4c5c7b969ca9e2b3146be83}
       \strng{fullhash}{7497c956c4c5c7b969ca9e2b3146be83}
+      \strng{bibnamehash}{7497c956c4c5c7b969ca9e2b3146be83}
+      \strng{authorbibnamehash}{7497c956c4c5c7b969ca9e2b3146be83}
       \strng{authornamehash}{7497c956c4c5c7b969ca9e2b3146be83}
       \strng{authorfullhash}{7497c956c4c5c7b969ca9e2b3146be83}
       \field{labelalpha}{CCF55}
       \field{sortinit}{C}
-      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Management science}
@@ -258,11 +277,13 @@
       }
       \strng{namehash}{38a8572cf418ada3e2905f3496c16c67}
       \strng{fullhash}{38a8572cf418ada3e2905f3496c16c67}
+      \strng{bibnamehash}{38a8572cf418ada3e2905f3496c16c67}
+      \strng{authorbibnamehash}{38a8572cf418ada3e2905f3496c16c67}
       \strng{authornamehash}{38a8572cf418ada3e2905f3496c16c67}
       \strng{authorfullhash}{38a8572cf418ada3e2905f3496c16c67}
       \field{labelalpha}{CG16}
       \field{sortinit}{C}
-      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{0142694X}
@@ -280,6 +301,9 @@
       \range{pages}{46}
       \verb{doi}
       \verb 10.1016/j.destud.2016.09.002
+      \endverb
+      \verb{urlraw}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0142694X16300631
       \endverb
       \verb{url}
       \verb http://linkinghub.elsevier.com/retrieve/pii/S0142694X16300631
@@ -300,11 +324,13 @@
       }
       \strng{namehash}{0ef1344601e10d911102ff8b024e8340}
       \strng{fullhash}{0ef1344601e10d911102ff8b024e8340}
+      \strng{bibnamehash}{0ef1344601e10d911102ff8b024e8340}
+      \strng{authorbibnamehash}{0ef1344601e10d911102ff8b024e8340}
       \strng{authornamehash}{0ef1344601e10d911102ff8b024e8340}
       \strng{authorfullhash}{0ef1344601e10d911102ff8b024e8340}
       \field{labelalpha}{CH07}
       \field{sortinit}{C}
-      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{03050548}
@@ -340,11 +366,13 @@
       }
       \strng{namehash}{d004315d968494edb12db4857ec3b524}
       \strng{fullhash}{d004315d968494edb12db4857ec3b524}
+      \strng{bibnamehash}{d004315d968494edb12db4857ec3b524}
+      \strng{authorbibnamehash}{d004315d968494edb12db4857ec3b524}
       \strng{authornamehash}{d004315d968494edb12db4857ec3b524}
       \strng{authorfullhash}{d004315d968494edb12db4857ec3b524}
       \field{labelalpha}{CJM17}
       \field{sortinit}{C}
-      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{0254-5330, 1572-9338}
@@ -369,6 +397,9 @@
       \verb{file}
       \verb Goal programming model for management accounting and auditing.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\BEW5TBXQ\\Goal programming model for management accounting and auditing.pdf:application/pdf
       \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10479-015-1829-1
+      \endverb
       \verb{url}
       \verb http://link.springer.com/10.1007/s10479-015-1829-1
       \endverb
@@ -387,11 +418,13 @@
       }
       \strng{namehash}{5b686765129ed3099e83762bb123d82c}
       \strng{fullhash}{5b686765129ed3099e83762bb123d82c}
+      \strng{bibnamehash}{5b686765129ed3099e83762bb123d82c}
+      \strng{authorbibnamehash}{5b686765129ed3099e83762bb123d82c}
       \strng{authornamehash}{5b686765129ed3099e83762bb123d82c}
       \strng{authorfullhash}{5b686765129ed3099e83762bb123d82c}
       \field{labelalpha}{Con68}
       \field{sortinit}{C}
-      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Operations Research}
@@ -420,11 +453,13 @@
       }
       \strng{namehash}{153b5801967ef48c22d337e19d49fb80}
       \strng{fullhash}{153b5801967ef48c22d337e19d49fb80}
+      \strng{bibnamehash}{153b5801967ef48c22d337e19d49fb80}
+      \strng{authorbibnamehash}{153b5801967ef48c22d337e19d49fb80}
       \strng{authornamehash}{153b5801967ef48c22d337e19d49fb80}
       \strng{authorfullhash}{153b5801967ef48c22d337e19d49fb80}
       \field{labelalpha}{CS04}
       \field{sortinit}{C}
-      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Modeling languages in mathematical optimization}
@@ -461,11 +496,13 @@
       }
       \strng{namehash}{672129824cb97212b326f5a3ca03fa8c}
       \strng{fullhash}{54739005bf83d43c95620e357ad11313}
+      \strng{bibnamehash}{672129824cb97212b326f5a3ca03fa8c}
+      \strng{authorbibnamehash}{672129824cb97212b326f5a3ca03fa8c}
       \strng{authornamehash}{672129824cb97212b326f5a3ca03fa8c}
       \strng{authorfullhash}{54739005bf83d43c95620e357ad11313}
       \field{labelalpha}{Cui+17}
       \field{sortinit}{C}
-      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Energy}
@@ -497,11 +534,13 @@
       }
       \strng{namehash}{207735d4fb6b02b35213ef37165d53de}
       \strng{fullhash}{207735d4fb6b02b35213ef37165d53de}
+      \strng{bibnamehash}{207735d4fb6b02b35213ef37165d53de}
+      \strng{authorbibnamehash}{207735d4fb6b02b35213ef37165d53de}
       \strng{authornamehash}{207735d4fb6b02b35213ef37165d53de}
       \strng{authorfullhash}{207735d4fb6b02b35213ef37165d53de}
       \field{labelalpha}{DG11}
       \field{sortinit}{D}
-      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Resources, Conservation and Recycling}
@@ -521,28 +560,28 @@
     \endentry
     \entry{Diaz-Madronero2018}{article}{}
       \name{author}{5}{}{%
-        {{hash=7a0dab3167deb7ad56f6609b60825701}{%
-           family={D\'{\i{}}az-Madro\~{n}ero},
-           familyi={D\bibinithyphendelim M\bibinitperiod},
+        {{hash=9111b69e9c5856ab7fb0edc5d5ec9700}{%
+           family={D{\'{\i{}}}az-Madro{\~{n}}ero},
+           familyi={D\bibinitperiod},
            given={Manuel},
            giveni={M\bibinitperiod}}}%
-        {{hash=49a8f6de18d84e8ffdf7950d20682d54}{%
-           family={P\'{e}rez-S\'{a}nchez},
+        {{hash=1808f3bdb0c209a36e60f9cc3efaca46}{%
+           family={P{\'{e}}rez-S{\'{a}}nchez},
            familyi={P\bibinithyphendelim S\bibinitperiod},
            given={Modesto},
            giveni={M\bibinitperiod}}}%
-        {{hash=00b2f88aa6247293c44f0f051737e2d9}{%
+        {{hash=6f270fccc24b8ab044badd41eebca6d2}{%
            family={Satorre-Aznar},
            familyi={S\bibinithyphendelim A\bibinitperiod},
-           given={Jos\'{e}\bibnamedelima R.},
+           given={Jos{\'{e}}\bibnamedelima R.},
            giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
         {{hash=1438c5eb19095d385a8c0871304f4ef8}{%
            family={Mula},
            familyi={M\bibinitperiod},
            given={Josefa},
            giveni={J\bibinitperiod}}}%
-        {{hash=a22f69a854a827f064f2c2610e36bda4}{%
-           family={L\'{o}pez-Jim\'{e}nez},
+        {{hash=1fdbebaddccc32f9e67cd1d8f3132dc1}{%
+           family={L{\'{o}}pez-Jim{\'{e}}nez},
            familyi={L\bibinithyphendelim J\bibinitperiod},
            given={P.\bibnamedelimi Amparo},
            giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
@@ -550,13 +589,15 @@
       \list{publisher}{1}{%
         {Elsevier {BV}}%
       }
-      \strng{namehash}{b9277c3e02ec359225deb275e109c6f1}
-      \strng{fullhash}{c66cd4d317e3e76dcd519932eb637dba}
-      \strng{authornamehash}{b9277c3e02ec359225deb275e109c6f1}
-      \strng{authorfullhash}{c66cd4d317e3e76dcd519932eb637dba}
+      \strng{namehash}{416789fb8f7a243a24d79702a951a4d1}
+      \strng{fullhash}{8eb998a81b851c70a901dc07198e4f30}
+      \strng{bibnamehash}{416789fb8f7a243a24d79702a951a4d1}
+      \strng{authorbibnamehash}{416789fb8f7a243a24d79702a951a4d1}
+      \strng{authornamehash}{416789fb8f7a243a24d79702a951a4d1}
+      \strng{authorfullhash}{8eb998a81b851c70a901dc07198e4f30}
       \field{labelalpha}{D\'{\i{}}a+18}
       \field{sortinit}{D}
-      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Cleaner Production}
@@ -588,11 +629,13 @@
       }
       \strng{namehash}{8a095b3003581bf84929eb15652173ff}
       \strng{fullhash}{8a095b3003581bf84929eb15652173ff}
+      \strng{bibnamehash}{8a095b3003581bf84929eb15652173ff}
+      \strng{authorbibnamehash}{8a095b3003581bf84929eb15652173ff}
       \strng{authornamehash}{8a095b3003581bf84929eb15652173ff}
       \strng{authorfullhash}{8a095b3003581bf84929eb15652173ff}
       \field{labelalpha}{DT61}
       \field{sortinit}{D}
-      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00014826}
@@ -603,6 +646,9 @@
       \field{year}{1961}
       \field{pages}{577\bibrangedash 582}
       \range{pages}{6}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/242682
+      \endverb
       \verb{url}
       \verb http://www.jstor.org/stable/242682
       \endverb
@@ -630,11 +676,13 @@
       }
       \strng{namehash}{f9edb124f90bb4a32589c8aef167450d}
       \strng{fullhash}{f9edb124f90bb4a32589c8aef167450d}
+      \strng{bibnamehash}{f9edb124f90bb4a32589c8aef167450d}
+      \strng{authorbibnamehash}{f9edb124f90bb4a32589c8aef167450d}
       \strng{authornamehash}{f9edb124f90bb4a32589c8aef167450d}
       \strng{authorfullhash}{f9edb124f90bb4a32589c8aef167450d}
       \field{labelalpha}{FGK97}
       \field{sortinit}{F}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{AMPL: Modeling Language For Mathematical Programing with AMPL Plus 1.6 Student Edition for Microsoft Windows}
@@ -653,11 +701,13 @@
       }
       \strng{namehash}{17c20b30b366f764bca4899af6014f43}
       \strng{fullhash}{17c20b30b366f764bca4899af6014f43}
+      \strng{bibnamehash}{17c20b30b366f764bca4899af6014f43}
+      \strng{authorbibnamehash}{17c20b30b366f764bca4899af6014f43}
       \strng{authornamehash}{17c20b30b366f764bca4899af6014f43}
       \strng{authorfullhash}{17c20b30b366f764bca4899af6014f43}
       \field{labelalpha}{Fla76}
       \field{sortinit}{F}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Omega}
@@ -683,11 +733,13 @@
       }
       \strng{namehash}{0c5253178e67c27d5ba5797387989a96}
       \strng{fullhash}{0c5253178e67c27d5ba5797387989a96}
+      \strng{bibnamehash}{0c5253178e67c27d5ba5797387989a96}
+      \strng{authorbibnamehash}{0c5253178e67c27d5ba5797387989a96}
       \strng{authornamehash}{0c5253178e67c27d5ba5797387989a96}
       \strng{authorfullhash}{0c5253178e67c27d5ba5797387989a96}
       \field{labelalpha}{FS17}
       \field{sortinit}{F}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{08239150}
@@ -708,6 +760,9 @@
       \range{pages}{31}
       \verb{doi}
       \verb 10.1111/1911-3846.12278
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.wiley.com/10.1111/1911-3846.12278
       \endverb
       \verb{url}
       \verb http://doi.wiley.com/10.1111/1911-3846.12278
@@ -737,11 +792,13 @@
       }
       \strng{namehash}{a3503c1e5f6e3061b66c7661dd25f027}
       \strng{fullhash}{a3503c1e5f6e3061b66c7661dd25f027}
+      \strng{bibnamehash}{a3503c1e5f6e3061b66c7661dd25f027}
+      \strng{editorbibnamehash}{a3503c1e5f6e3061b66c7661dd25f027}
       \strng{editornamehash}{a3503c1e5f6e3061b66c7661dd25f027}
       \strng{editorfullhash}{a3503c1e5f6e3061b66c7661dd25f027}
       \field{labelalpha}{GEF16}
       \field{sortinit}{G}
-      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{isbn}{978-1-4939-3093-7}
@@ -756,6 +813,9 @@
       \field{urldateera}{ce}
       \verb{doi}
       \verb 10.1007/978-1-4939-3094-4
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-1-4939-3094-4
       \endverb
       \verb{url}
       \verb http://link.springer.com/10.1007/978-1-4939-3094-4
@@ -784,11 +844,13 @@
       }
       \strng{namehash}{bbc4fac9daecfe16014104c49033f7b9}
       \strng{fullhash}{bbc4fac9daecfe16014104c49033f7b9}
+      \strng{bibnamehash}{bbc4fac9daecfe16014104c49033f7b9}
+      \strng{authorbibnamehash}{bbc4fac9daecfe16014104c49033f7b9}
       \strng{authornamehash}{bbc4fac9daecfe16014104c49033f7b9}
       \strng{authorfullhash}{bbc4fac9daecfe16014104c49033f7b9}
       \field{labelalpha}{GHL90}
       \field{sortinit}{G}
-      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Decision Sciences}
@@ -813,11 +875,13 @@
       }
       \strng{namehash}{22fc96bb5db4c931187e648b5a2fdf9e}
       \strng{fullhash}{22fc96bb5db4c931187e648b5a2fdf9e}
+      \strng{bibnamehash}{22fc96bb5db4c931187e648b5a2fdf9e}
+      \strng{authorbibnamehash}{22fc96bb5db4c931187e648b5a2fdf9e}
       \strng{authornamehash}{22fc96bb5db4c931187e648b5a2fdf9e}
       \strng{authorfullhash}{22fc96bb5db4c931187e648b5a2fdf9e}
       \field{labelalpha}{Gil01}
       \field{sortinit}{G}
-      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Tapei, Taiwan}
@@ -842,11 +906,13 @@
       }
       \strng{namehash}{04f1f4fff9f63c4b9133b7a42d64c1d8}
       \strng{fullhash}{04f1f4fff9f63c4b9133b7a42d64c1d8}
+      \strng{bibnamehash}{04f1f4fff9f63c4b9133b7a42d64c1d8}
+      \strng{authorbibnamehash}{04f1f4fff9f63c4b9133b7a42d64c1d8}
       \strng{authornamehash}{04f1f4fff9f63c4b9133b7a42d64c1d8}
       \strng{authorfullhash}{04f1f4fff9f63c4b9133b7a42d64c1d8}
       \field{labelalpha}{GM03}
       \field{sortinit}{G}
-      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00981354}
@@ -872,16 +938,21 @@
       }
       \strng{namehash}{796fc612c1cc27f3010ab158fd29e5fb}
       \strng{fullhash}{796fc612c1cc27f3010ab158fd29e5fb}
+      \strng{bibnamehash}{796fc612c1cc27f3010ab158fd29e5fb}
+      \strng{authorbibnamehash}{796fc612c1cc27f3010ab158fd29e5fb}
       \strng{authornamehash}{796fc612c1cc27f3010ab158fd29e5fb}
       \strng{authorfullhash}{796fc612c1cc27f3010ab158fd29e5fb}
       \field{labelalpha}{Gro17}
       \field{sortinit}{G}
-      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{R package version 0.4-11}
       \field{title}{sqldf: Manipulate R Data Frames Using SQL}
       \field{year}{2017}
+      \verb{urlraw}
+      \verb https://CRAN.R-project.org/package=sqldf
+      \endverb
       \verb{url}
       \verb https://CRAN.R-project.org/package=sqldf
       \endverb
@@ -904,11 +975,13 @@
       }
       \strng{namehash}{e8a6589dc291d783e9bf2422268a3714}
       \strng{fullhash}{e8a6589dc291d783e9bf2422268a3714}
+      \strng{bibnamehash}{e8a6589dc291d783e9bf2422268a3714}
+      \strng{authorbibnamehash}{e8a6589dc291d783e9bf2422268a3714}
       \strng{authornamehash}{e8a6589dc291d783e9bf2422268a3714}
       \strng{authorfullhash}{e8a6589dc291d783e9bf2422268a3714}
       \field{labelalpha}{IK71}
       \field{sortinit}{I}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Accounting Research}
@@ -940,11 +1013,13 @@
       }
       \strng{namehash}{9a5810845437110b316847c6f23c2954}
       \strng{fullhash}{9a5810845437110b316847c6f23c2954}
+      \strng{bibnamehash}{9a5810845437110b316847c6f23c2954}
+      \strng{authorbibnamehash}{9a5810845437110b316847c6f23c2954}
       \strng{authornamehash}{9a5810845437110b316847c6f23c2954}
       \strng{authorfullhash}{9a5810845437110b316847c6f23c2954}
       \field{labelalpha}{IT08}
       \field{sortinit}{I}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Production Economics}
@@ -978,11 +1053,13 @@
       }
       \strng{namehash}{bef7a53fd8b352d4aaedd34b1824679f}
       \strng{fullhash}{bef7a53fd8b352d4aaedd34b1824679f}
+      \strng{bibnamehash}{bef7a53fd8b352d4aaedd34b1824679f}
+      \strng{authorbibnamehash}{bef7a53fd8b352d4aaedd34b1824679f}
       \strng{authornamehash}{bef7a53fd8b352d4aaedd34b1824679f}
       \strng{authorfullhash}{bef7a53fd8b352d4aaedd34b1824679f}
       \field{labelalpha}{JJL08}
       \field{sortinit}{J}
-      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09255273}
@@ -1000,6 +1077,9 @@
       \range{pages}{12}
       \verb{doi}
       \verb 10.1016/j.ijpe.2006.12.054
+      \endverb
+      \verb{urlraw}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0925527307000138
       \endverb
       \verb{url}
       \verb http://linkinghub.elsevier.com/retrieve/pii/S0925527307000138
@@ -1020,11 +1100,13 @@
       }
       \strng{namehash}{4a91e9af5bc16b943929273f631341bd}
       \strng{fullhash}{4a91e9af5bc16b943929273f631341bd}
+      \strng{bibnamehash}{4a91e9af5bc16b943929273f631341bd}
+      \strng{authorbibnamehash}{4a91e9af5bc16b943929273f631341bd}
       \strng{authornamehash}{4a91e9af5bc16b943929273f631341bd}
       \strng{authorfullhash}{4a91e9af5bc16b943929273f631341bd}
       \field{labelalpha}{KA05}
       \field{sortinit}{K}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0020-7543, 1366-588X}
@@ -1058,11 +1140,13 @@
       }
       \strng{namehash}{64764f2c5ab1dc4bdf83894c1b0d9826}
       \strng{fullhash}{64764f2c5ab1dc4bdf83894c1b0d9826}
+      \strng{bibnamehash}{64764f2c5ab1dc4bdf83894c1b0d9826}
+      \strng{authorbibnamehash}{64764f2c5ab1dc4bdf83894c1b0d9826}
       \strng{authornamehash}{64764f2c5ab1dc4bdf83894c1b0d9826}
       \strng{authorfullhash}{64764f2c5ab1dc4bdf83894c1b0d9826}
       \field{labelalpha}{KH06}
       \field{sortinit}{K}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{ORiON}}
@@ -1093,11 +1177,13 @@
       }
       \strng{namehash}{29579230ac75448e878c3e13436d54b5}
       \strng{fullhash}{29579230ac75448e878c3e13436d54b5}
+      \strng{bibnamehash}{29579230ac75448e878c3e13436d54b5}
+      \strng{authorbibnamehash}{29579230ac75448e878c3e13436d54b5}
       \strng{authornamehash}{29579230ac75448e878c3e13436d54b5}
       \strng{authorfullhash}{29579230ac75448e878c3e13436d54b5}
       \field{labelalpha}{KS73}
       \field{sortinit}{K}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00014826}
@@ -1108,6 +1194,9 @@
       \field{year}{1973}
       \field{pages}{268\bibrangedash 279}
       \range{pages}{12}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/244917
+      \endverb
       \verb{url}
       \verb http://www.jstor.org/stable/244917
       \endverb
@@ -1125,11 +1214,13 @@
       }
       \strng{namehash}{0cbb7b4bb829fb63df35cb9f6f7416a5}
       \strng{fullhash}{0cbb7b4bb829fb63df35cb9f6f7416a5}
+      \strng{bibnamehash}{0cbb7b4bb829fb63df35cb9f6f7416a5}
+      \strng{authorbibnamehash}{0cbb7b4bb829fb63df35cb9f6f7416a5}
       \strng{authornamehash}{0cbb7b4bb829fb63df35cb9f6f7416a5}
       \strng{authorfullhash}{0cbb7b4bb829fb63df35cb9f6f7416a5}
       \field{labelalpha}{Kwa03}
       \field{sortinit}{K}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Review of Quantitative Finance and Accounting}
@@ -1158,11 +1249,13 @@
       }
       \strng{namehash}{ca668151ff0273939abc8c25c3342418}
       \strng{fullhash}{ca668151ff0273939abc8c25c3342418}
+      \strng{bibnamehash}{ca668151ff0273939abc8c25c3342418}
+      \strng{authorbibnamehash}{ca668151ff0273939abc8c25c3342418}
       \strng{authornamehash}{ca668151ff0273939abc8c25c3342418}
       \strng{authorfullhash}{ca668151ff0273939abc8c25c3342418}
       \field{labelalpha}{LC09}
       \field{sortinit}{L}
-      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09574174}
@@ -1193,11 +1286,13 @@
       }
       \strng{namehash}{6b73cd089f9aea61e6d767604443d0a4}
       \strng{fullhash}{6b73cd089f9aea61e6d767604443d0a4}
+      \strng{bibnamehash}{6b73cd089f9aea61e6d767604443d0a4}
+      \strng{authorbibnamehash}{6b73cd089f9aea61e6d767604443d0a4}
       \strng{authornamehash}{6b73cd089f9aea61e6d767604443d0a4}
       \strng{authorfullhash}{6b73cd089f9aea61e6d767604443d0a4}
       \field{labelalpha}{MP78}
       \field{sortinit}{M}
-      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{There are several aspects of the international business environment which affect the setting of a transfer price. These items include the various methods and rates of income taxation; quotas and duties imposed on imported materials; capital flow restrictions and currency regulations imposed by a host government; and managerial preferences for risk avoidance through consideration of risks associated with foreign exchange rate fluctuations, rates of inflation and nationalization. Also, the behavioral dimension of managerial rewards and controls must be considered in the transfer pricing problem. Since transfer prices usually cannot be set to accomplish all of these goals simultaneously, some means must be devised by which the firm's multiple objectives are optimized. In this vein, the transfer pricing problem is formulated in both a single-objective and a multiple-objective approach for comparison purposes. Specifically, the transfer pricing problem is couched in both a linear programming and a goal programming framework to allow for the optimization of differing tax rates, profit requirements, and exposure and nationalization risks around the world.}
@@ -1212,6 +1307,9 @@
       \range{pages}{17}
       \verb{file}
       \verb Tp for multinationals.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\9W5S8ZPI\\Tp for multinationals.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/246302
       \endverb
       \verb{url}
       \verb http://www.jstor.org/stable/246302
@@ -1245,11 +1343,13 @@
       }
       \strng{namehash}{e494ef48eb3b36a928b8c3618d52f19f}
       \strng{fullhash}{ddfbde0f611f317f0b07401205131940}
+      \strng{bibnamehash}{e494ef48eb3b36a928b8c3618d52f19f}
+      \strng{authorbibnamehash}{e494ef48eb3b36a928b8c3618d52f19f}
       \strng{authornamehash}{e494ef48eb3b36a928b8c3618d52f19f}
       \strng{authorfullhash}{ddfbde0f611f317f0b07401205131940}
       \field{labelalpha}{Mul+10}
       \field{sortinit}{M}
-      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{03772217}
@@ -1267,6 +1367,9 @@
       \range{pages}{14}
       \verb{doi}
       \verb 10.1016/j.ejor.2009.09.008
+      \endverb
+      \verb{urlraw}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0377221709005694
       \endverb
       \verb{url}
       \verb http://linkinghub.elsevier.com/retrieve/pii/S0377221709005694
@@ -1300,11 +1403,13 @@
       }
       \strng{namehash}{49249d3c8581a8df6e4f2636061068ca}
       \strng{fullhash}{a322629fa01d754d54d67cc018c87ad7}
+      \strng{bibnamehash}{49249d3c8581a8df6e4f2636061068ca}
+      \strng{authorbibnamehash}{49249d3c8581a8df6e4f2636061068ca}
       \strng{authornamehash}{49249d3c8581a8df6e4f2636061068ca}
       \strng{authorfullhash}{a322629fa01d754d54d67cc018c87ad7}
       \field{labelalpha}{Nom+16}
       \field{sortinit}{N}
-      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Economics Letters}
@@ -1337,13 +1442,16 @@
       }
       \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
       \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
       \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
       \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{editorbibnamehash}{301ef831a2dd43885e40c0cedefdb691}
       \strng{editornamehash}{301ef831a2dd43885e40c0cedefdb691}
       \strng{editorfullhash}{301ef831a2dd43885e40c0cedefdb691}
       \field{labelalpha}{OEC13}
       \field{sortinit}{O}
-      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{1}
@@ -1357,6 +1465,9 @@
       \field{urldateera}{ce}
       \verb{file}
       \verb after_tax_hedging_report.pdf:C\:\\Users\\MREPETTO00\\Zotero\\storage\\E552BDK3\\after_tax_hedging_report.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.oecd.org/ctp/aggressive/after-tax-hedging.htm
       \endverb
       \verb{url}
       \verb http://www.oecd.org/ctp/aggressive/after-tax-hedging.htm
@@ -1373,11 +1484,13 @@
       }
       \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
       \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
       \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
       \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
       \field{labelalpha}{OEC15}
       \field{sortinit}{O}
-      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{30}
@@ -1392,6 +1505,9 @@
       \field{year}{2015}
       \field{dateera}{ce}
       \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.oecd-ilibrary.org/taxation/model-tax-convention-on-income-and-on-capital-2015-full-version_9789264239081-en
+      \endverb
       \verb{url}
       \verb http://www.oecd-ilibrary.org/taxation/model-tax-convention-on-income-and-on-capital-2015-full-version_9789264239081-en
       \endverb
@@ -1404,11 +1520,13 @@
       }
       \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
       \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
       \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
       \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
       \field{labelalpha}{OEC17}
       \field{sortinit}{O}
-      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{1}
@@ -1417,6 +1535,9 @@
       \field{title}{OECD releases BEPS discussion drafts on attribution of profits to permanent establishments and transactional profit splits}
       \field{year}{2017}
       \field{dateera}{ce}
+      \verb{urlraw}
+      \verb http://www.oecd.org/ctp/oecd-releases-beps-discussion-drafts-on-attribution-of-profits-to-permanent-establishments-and-transactional-profit-splits.htm
+      \endverb
       \verb{url}
       \verb http://www.oecd.org/ctp/oecd-releases-beps-discussion-drafts-on-attribution-of-profits-to-permanent-establishments-and-transactional-profit-splits.htm
       \endverb
@@ -1436,11 +1557,13 @@
       }
       \strng{namehash}{71004cc8f8529967d9a1b3a5a4b07271}
       \strng{fullhash}{71004cc8f8529967d9a1b3a5a4b07271}
+      \strng{bibnamehash}{71004cc8f8529967d9a1b3a5a4b07271}
+      \strng{authorbibnamehash}{71004cc8f8529967d9a1b3a5a4b07271}
       \strng{authornamehash}{71004cc8f8529967d9a1b3a5a4b07271}
       \strng{authorfullhash}{71004cc8f8529967d9a1b3a5a4b07271}
       \field{labelalpha}{OK06}
       \field{sortinit}{O}
-      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0001-1541, 1547-5905}
@@ -1479,11 +1602,13 @@
       }
       \strng{namehash}{a30d0fa2838fb3739b225f03571ae37d}
       \strng{fullhash}{a30d0fa2838fb3739b225f03571ae37d}
+      \strng{bibnamehash}{a30d0fa2838fb3739b225f03571ae37d}
+      \strng{authorbibnamehash}{a30d0fa2838fb3739b225f03571ae37d}
       \strng{authornamehash}{a30d0fa2838fb3739b225f03571ae37d}
       \strng{authorfullhash}{a30d0fa2838fb3739b225f03571ae37d}
       \field{labelalpha}{OWC11}
       \field{sortinit}{O}
-      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{0956053X}
@@ -1491,7 +1616,7 @@
       \field{month}{4}
       \field{number}{4}
       \field{shorttitle}{How are {WEEE} doing?}
-      \field{title}{How are {WEEE} doing {A} global review of the management of electrical and electronic wastes}
+      \field{title}{How are {WEEE} doing A global review of the management of electrical and electronic wastes}
       \field{urlday}{6}
       \field{urlmonth}{2}
       \field{urlyear}{2018}
@@ -1505,6 +1630,9 @@
       \endverb
       \verb{file}
       \verb 1-s2.0-S0956053X10005659-main.pdf:/Users/marcorepetto/Zotero/storage/LXM57FT9/1-s2.0-S0956053X10005659-main.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0956053X10005659
       \endverb
       \verb{url}
       \verb http://linkinghub.elsevier.com/retrieve/pii/S0956053X10005659
@@ -1523,11 +1651,13 @@
       }
       \strng{namehash}{0c205deb7feba978abbb85c57f2d0fc0}
       \strng{fullhash}{0c205deb7feba978abbb85c57f2d0fc0}
+      \strng{bibnamehash}{0c205deb7feba978abbb85c57f2d0fc0}
+      \strng{authorbibnamehash}{0c205deb7feba978abbb85c57f2d0fc0}
       \strng{authornamehash}{0c205deb7feba978abbb85c57f2d0fc0}
       \strng{authorfullhash}{0c205deb7feba978abbb85c57f2d0fc0}
       \field{labelalpha}{Por98}
       \field{sortinit}{P}
-      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{1}
@@ -1549,15 +1679,20 @@
       }
       \strng{namehash}{a902f7a1275f47f57554b7ea75ccd0bc}
       \strng{fullhash}{a902f7a1275f47f57554b7ea75ccd0bc}
+      \strng{bibnamehash}{a902f7a1275f47f57554b7ea75ccd0bc}
+      \strng{authorbibnamehash}{a902f7a1275f47f57554b7ea75ccd0bc}
       \strng{authornamehash}{a902f7a1275f47f57554b7ea75ccd0bc}
       \strng{authorfullhash}{a902f7a1275f47f57554b7ea75ccd0bc}
       \field{labelalpha}{R C17}
       \field{sortinit}{R}
-      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{R: A Language and Environment for Statistical Computing}
       \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.R-project.org/
+      \endverb
       \verb{url}
       \verb https://www.R-project.org/
       \endverb
@@ -1580,11 +1715,13 @@
       }
       \strng{namehash}{2f8de21cd065d82273fba6069bb03a37}
       \strng{fullhash}{2f8de21cd065d82273fba6069bb03a37}
+      \strng{bibnamehash}{2f8de21cd065d82273fba6069bb03a37}
+      \strng{authorbibnamehash}{2f8de21cd065d82273fba6069bb03a37}
       \strng{authornamehash}{2f8de21cd065d82273fba6069bb03a37}
       \strng{authorfullhash}{2f8de21cd065d82273fba6069bb03a37}
       \field{labelalpha}{RK17}
       \field{sortinit}{R}
-      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2017 6th {IIAI} International Congress on Advanced Applied Informatics ({IIAI}-{AAI})}
@@ -1615,11 +1752,13 @@
       }
       \strng{namehash}{03adf597079c5d0a27e9fcb5ec363310}
       \strng{fullhash}{03adf597079c5d0a27e9fcb5ec363310}
+      \strng{bibnamehash}{03adf597079c5d0a27e9fcb5ec363310}
+      \strng{authorbibnamehash}{03adf597079c5d0a27e9fcb5ec363310}
       \strng{authornamehash}{03adf597079c5d0a27e9fcb5ec363310}
       \strng{authorfullhash}{03adf597079c5d0a27e9fcb5ec363310}
       \field{labelalpha}{RMD08}
       \field{sortinit}{R}
-      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0160-5682, 1476-9360}
@@ -1673,11 +1812,13 @@
       }
       \strng{namehash}{8f92fe7952923127048256041362296d}
       \strng{fullhash}{25544f310c1e35efac7bc2ee06ed9ab9}
+      \strng{bibnamehash}{8f92fe7952923127048256041362296d}
+      \strng{authorbibnamehash}{8f92fe7952923127048256041362296d}
       \strng{authornamehash}{8f92fe7952923127048256041362296d}
       \strng{authorfullhash}{25544f310c1e35efac7bc2ee06ed9ab9}
       \field{labelalpha}{Rom+09}
       \field{sortinit}{R}
-      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0092-2102, 1526-551X}
@@ -1699,6 +1840,9 @@
       \verb{file}
       \verb Optimizing_the_Norwegian_Natural_Gas_Production_an.pdf:/Users/marcorepetto/Zotero/storage/5ZZS4UWG/Optimizing_the_Norwegian_Natural_Gas_Production_an.pdf:application/pdf
       \endverb
+      \verb{urlraw}
+      \verb http://pubsonline.informs.org/doi/abs/10.1287/inte.1080.0414
+      \endverb
       \verb{url}
       \verb http://pubsonline.informs.org/doi/abs/10.1287/inte.1080.0414
       \endverb
@@ -1716,16 +1860,21 @@
       }
       \strng{namehash}{f7c92a0bfc8345472f8b2e0d902ec796}
       \strng{fullhash}{f7c92a0bfc8345472f8b2e0d902ec796}
+      \strng{bibnamehash}{f7c92a0bfc8345472f8b2e0d902ec796}
+      \strng{authorbibnamehash}{f7c92a0bfc8345472f8b2e0d902ec796}
       \strng{authornamehash}{f7c92a0bfc8345472f8b2e0d902ec796}
       \strng{authorfullhash}{f7c92a0bfc8345472f8b2e0d902ec796}
       \field{labelalpha}{Rom14}
       \field{sortinit}{R}
-      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9781483295114}
       \field{title}{Handbook of Critical Issues in Goal Programming}
       \field{year}{2014}
+      \verb{urlraw}
+      \verb https://www.amazon.com/Handbook-Critical-Issues-Goal-Programming-ebook/dp/B01E54DW7E?SubscriptionId=0JYN1NVW651KCA56C102&tag=techkie-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01E54DW7E
+      \endverb
       \verb{url}
       \verb https://www.amazon.com/Handbook-Critical-Issues-Goal-Programming-ebook/dp/B01E54DW7E?SubscriptionId=0JYN1NVW651KCA56C102&tag=techkie-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01E54DW7E
       \endverb
@@ -1740,11 +1889,13 @@
       }
       \strng{namehash}{63bf0218e6b0bbe82faa9e6e14032a18}
       \strng{fullhash}{63bf0218e6b0bbe82faa9e6e14032a18}
+      \strng{bibnamehash}{63bf0218e6b0bbe82faa9e6e14032a18}
+      \strng{authorbibnamehash}{63bf0218e6b0bbe82faa9e6e14032a18}
       \strng{authornamehash}{63bf0218e6b0bbe82faa9e6e14032a18}
       \strng{authorfullhash}{63bf0218e6b0bbe82faa9e6e14032a18}
       \field{labelalpha}{Saa80}
       \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{McGraw-Hill, New York}
@@ -1776,11 +1927,13 @@
       }
       \strng{namehash}{7107095f8c1ea2ba51dadf0bbbd4b132}
       \strng{fullhash}{f1967ee4680389ace5c5389552141e0a}
+      \strng{bibnamehash}{7107095f8c1ea2ba51dadf0bbbd4b132}
+      \strng{authorbibnamehash}{7107095f8c1ea2ba51dadf0bbbd4b132}
       \strng{authornamehash}{7107095f8c1ea2ba51dadf0bbbd4b132}
       \strng{authorfullhash}{f1967ee4680389ace5c5389552141e0a}
       \field{labelalpha}{San+05}
       \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{03772217}
@@ -1810,11 +1963,13 @@
       }
       \strng{namehash}{603a7b15de21d4357339704a808874a7}
       \strng{fullhash}{603a7b15de21d4357339704a808874a7}
+      \strng{bibnamehash}{603a7b15de21d4357339704a808874a7}
+      \strng{authorbibnamehash}{603a7b15de21d4357339704a808874a7}
       \strng{authornamehash}{603a7b15de21d4357339704a808874a7}
       \strng{authorfullhash}{603a7b15de21d4357339704a808874a7}
       \field{labelalpha}{Sch95}
       \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Operations Research}
@@ -1869,16 +2024,21 @@
       }
       \strng{namehash}{ae612094a62e121e4d6cd71be40d15ce}
       \strng{fullhash}{4441a06d608edcd4803d122945e73bda}
+      \strng{bibnamehash}{ae612094a62e121e4d6cd71be40d15ce}
+      \strng{authorbibnamehash}{ae612094a62e121e4d6cd71be40d15ce}
       \strng{authornamehash}{ae612094a62e121e4d6cd71be40d15ce}
       \strng{authorfullhash}{4441a06d608edcd4803d122945e73bda}
       \field{labelalpha}{Sie+17}
       \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{R package version 4.7.1}
       \field{title}{plotly: Create Interactive Web Graphics via 'plotly.js'}
       \field{year}{2017}
+      \verb{urlraw}
+      \verb https://CRAN.R-project.org/package=plotly
+      \endverb
       \verb{url}
       \verb https://CRAN.R-project.org/package=plotly
       \endverb
@@ -1893,11 +2053,13 @@
       }
       \strng{namehash}{7ff35e0024963f864c615e1409775144}
       \strng{fullhash}{7ff35e0024963f864c615e1409775144}
+      \strng{bibnamehash}{7ff35e0024963f864c615e1409775144}
+      \strng{authorbibnamehash}{7ff35e0024963f864c615e1409775144}
       \strng{authornamehash}{7ff35e0024963f864c615e1409775144}
       \strng{authorfullhash}{7ff35e0024963f864c615e1409775144}
       \field{labelalpha}{Sot09}
       \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ORMS}
@@ -1920,11 +2082,13 @@
       }
       \strng{namehash}{4a3525225c30f57741f0d7cd1afb1be6}
       \strng{fullhash}{4a3525225c30f57741f0d7cd1afb1be6}
+      \strng{bibnamehash}{4a3525225c30f57741f0d7cd1afb1be6}
+      \strng{authorbibnamehash}{4a3525225c30f57741f0d7cd1afb1be6}
       \strng{authornamehash}{4a3525225c30f57741f0d7cd1afb1be6}
       \strng{authorfullhash}{4a3525225c30f57741f0d7cd1afb1be6}
       \field{labelalpha}{Sri07}
       \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{1460-8545, 1468-2370}
@@ -1932,7 +2096,7 @@
       \field{month}{3}
       \field{number}{1}
       \field{shorttitle}{Green supply-chain management}
-      \field{title}{Green supply-chain management: {A} state-of-the-art literature review}
+      \field{title}{Green supply-chain management: A state-of-the-art literature review}
       \field{urlday}{5}
       \field{urlmonth}{2}
       \field{urlyear}{2018}
@@ -1943,6 +2107,9 @@
       \range{pages}{28}
       \verb{doi}
       \verb 10.1111/j.1468-2370.2007.00202.x
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.wiley.com/10.1111/j.1468-2370.2007.00202.x
       \endverb
       \verb{url}
       \verb http://doi.wiley.com/10.1111/j.1468-2370.2007.00202.x
@@ -1966,11 +2133,13 @@
       }
       \strng{namehash}{a519dcce42221b84dd85e95afec9df6e}
       \strng{fullhash}{a519dcce42221b84dd85e95afec9df6e}
+      \strng{bibnamehash}{a519dcce42221b84dd85e95afec9df6e}
+      \strng{authorbibnamehash}{a519dcce42221b84dd85e95afec9df6e}
       \strng{authornamehash}{a519dcce42221b84dd85e95afec9df6e}
       \strng{authorfullhash}{a519dcce42221b84dd85e95afec9df6e}
       \field{labelalpha}{SW18}
       \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sustainability}
@@ -2009,11 +2178,13 @@
       }
       \strng{namehash}{a29675c491a5a62fca85703bf2fc3b3c}
       \strng{fullhash}{125762e6daf8f6c8ba8bbfb5b57d44d2}
+      \strng{bibnamehash}{a29675c491a5a62fca85703bf2fc3b3c}
+      \strng{authorbibnamehash}{a29675c491a5a62fca85703bf2fc3b3c}
       \strng{authornamehash}{a29675c491a5a62fca85703bf2fc3b3c}
       \strng{authorfullhash}{125762e6daf8f6c8ba8bbfb5b57d44d2}
       \field{labelalpha}{Tan+08}
       \field{sortinit}{T}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Management decision}
@@ -2043,11 +2214,13 @@
       }
       \strng{namehash}{831eb5c395a1b30c4e55f5a337b60dd4}
       \strng{fullhash}{831eb5c395a1b30c4e55f5a337b60dd4}
+      \strng{bibnamehash}{831eb5c395a1b30c4e55f5a337b60dd4}
+      \strng{authorbibnamehash}{831eb5c395a1b30c4e55f5a337b60dd4}
       \strng{authornamehash}{831eb5c395a1b30c4e55f5a337b60dd4}
       \strng{authorfullhash}{831eb5c395a1b30c4e55f5a337b60dd4}
       \field{labelalpha}{TG85}
       \field{sortinit}{T}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of the Operational Research Society}
@@ -2080,11 +2253,13 @@
       }
       \strng{namehash}{f5d4ac45130f6a390c35f9081a04b78b}
       \strng{fullhash}{f5d4ac45130f6a390c35f9081a04b78b}
+      \strng{bibnamehash}{f5d4ac45130f6a390c35f9081a04b78b}
+      \strng{authorbibnamehash}{f5d4ac45130f6a390c35f9081a04b78b}
       \strng{authornamehash}{f5d4ac45130f6a390c35f9081a04b78b}
       \strng{authorfullhash}{f5d4ac45130f6a390c35f9081a04b78b}
       \field{labelalpha}{TH08}
       \field{sortinit}{T}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{01650114}
@@ -2102,6 +2277,9 @@
       \range{pages}{22}
       \verb{doi}
       \verb 10.1016/j.fss.2007.08.010
+      \endverb
+      \verb{urlraw}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0165011407003739
       \endverb
       \verb{url}
       \verb http://linkinghub.elsevier.com/retrieve/pii/S0165011407003739
@@ -2127,11 +2305,13 @@
       }
       \strng{namehash}{5d36e88adf00c788803b4a45942aa7cb}
       \strng{fullhash}{5d36e88adf00c788803b4a45942aa7cb}
+      \strng{bibnamehash}{5d36e88adf00c788803b4a45942aa7cb}
+      \strng{authorbibnamehash}{5d36e88adf00c788803b4a45942aa7cb}
       \strng{authornamehash}{5d36e88adf00c788803b4a45942aa7cb}
       \strng{authorfullhash}{5d36e88adf00c788803b4a45942aa7cb}
       \field{labelalpha}{TJR98}
       \field{sortinit}{T}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{issn}{03772217}
@@ -2153,6 +2333,9 @@
       \verb{doi}
       \verb 10.1016/S0377-2217(97)00317-2
       \endverb
+      \verb{urlraw}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0377221797003172
+      \endverb
       \verb{url}
       \verb http://linkinghub.elsevier.com/retrieve/pii/S0377221797003172
       \endverb
@@ -2164,15 +2347,15 @@
            familyi={T\bibinitperiod},
            given={Manuel},
            giveni={M\bibinitperiod}}}%
-        {{hash=75b7c3cef6bd0d64e21b9cc6070649b3}{%
+        {{hash=0a300203851f8616dbd5ef28c9bc044e}{%
            family={Romero},
            familyi={R\bibinitperiod},
-           given={Mar\'{\i{}}a},
+           given={Mar{\'{\i{}}}a},
            giveni={M\bibinitperiod}}}%
-        {{hash=f6b37a1961fc4d3a9f8f949ac9419518}{%
+        {{hash=fa187aea341d7ad8ff04f2e975453bb8}{%
            family={Cuadrado},
            familyi={C\bibinitperiod},
-           given={Mar\'{\i{}}a\bibnamedelima L},
+           given={Mar{\'{\i{}}}a\bibnamedelima L},
            giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
         {{hash=664c819079f5fd85f7ebd65d9733ae15}{%
            family={Romero},
@@ -2184,12 +2367,14 @@
         {Elsevier}%
       }
       \strng{namehash}{f853111776dbb2f1b911701ed34bcb00}
-      \strng{fullhash}{6a3ffb57279f27b8da2c7346c5ed19aa}
+      \strng{fullhash}{abd086640a8aa166b6c8d89b2f429ccd}
+      \strng{bibnamehash}{f853111776dbb2f1b911701ed34bcb00}
+      \strng{authorbibnamehash}{f853111776dbb2f1b911701ed34bcb00}
       \strng{authornamehash}{f853111776dbb2f1b911701ed34bcb00}
-      \strng{authorfullhash}{6a3ffb57279f27b8da2c7346c5ed19aa}
+      \strng{authorfullhash}{abd086640a8aa166b6c8d89b2f429ccd}
       \field{labelalpha}{Tre+14}
       \field{sortinit}{T}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computers \& Industrial Engineering}
@@ -2220,11 +2405,13 @@
       }
       \strng{namehash}{ae2660788967329aaf610064adf84551}
       \strng{fullhash}{ae2660788967329aaf610064adf84551}
+      \strng{bibnamehash}{ae2660788967329aaf610064adf84551}
+      \strng{authorbibnamehash}{ae2660788967329aaf610064adf84551}
       \strng{authornamehash}{ae2660788967329aaf610064adf84551}
       \strng{authorfullhash}{ae2660788967329aaf610064adf84551}
       \field{labelalpha}{USS13}
       \field{sortinit}{U}
-      \field{sortinithash}{1554584e7f69d2b4fe0a645e73d50194}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{22120173}
@@ -2240,6 +2427,9 @@
       \range{pages}{11}
       \verb{doi}
       \verb 10.1016/j.protcy.2013.12.355
+      \endverb
+      \verb{urlraw}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S2212017313005094
       \endverb
       \verb{url}
       \verb http://linkinghub.elsevier.com/retrieve/pii/S2212017313005094
@@ -2258,11 +2448,13 @@
       }
       \strng{namehash}{0301537e771ea4011c44cc2534a95618}
       \strng{fullhash}{0301537e771ea4011c44cc2534a95618}
+      \strng{bibnamehash}{0301537e771ea4011c44cc2534a95618}
+      \strng{authorbibnamehash}{0301537e771ea4011c44cc2534a95618}
       \strng{authornamehash}{0301537e771ea4011c44cc2534a95618}
       \strng{authorfullhash}{0301537e771ea4011c44cc2534a95618}
       \field{labelalpha}{Wel77}
       \field{sortinit}{W}
-      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Accounting, Organizations and Society}
@@ -2302,16 +2494,21 @@
       }
       \strng{namehash}{e0731a35ef88164c57848ecb7ca5f8ca}
       \strng{fullhash}{ca7807af183f5e77405373c2e0b132b8}
+      \strng{bibnamehash}{e0731a35ef88164c57848ecb7ca5f8ca}
+      \strng{authorbibnamehash}{e0731a35ef88164c57848ecb7ca5f8ca}
       \strng{authornamehash}{e0731a35ef88164c57848ecb7ca5f8ca}
       \strng{authorfullhash}{ca7807af183f5e77405373c2e0b132b8}
       \field{labelalpha}{Wic+17}
       \field{sortinit}{W}
-      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{R package version 0.7.4}
       \field{title}{dplyr: A Grammar of Data Manipulation}
       \field{year}{2017}
+      \verb{urlraw}
+      \verb https://CRAN.R-project.org/package=dplyr
+      \endverb
       \verb{url}
       \verb https://CRAN.R-project.org/package=dplyr
       \endverb
@@ -2329,16 +2526,21 @@
       }
       \strng{namehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
       \strng{fullhash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{bibnamehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{authorbibnamehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
       \strng{authornamehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
       \strng{authorfullhash}{1d0f6977ce2d043e298a59a1cd75b7ef}
       \field{labelalpha}{Wic09}
       \field{sortinit}{W}
-      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0-387-98140-6}
       \field{title}{ggplot2: Elegant Graphics for Data Analysis}
       \field{year}{2009}
+      \verb{urlraw}
+      \verb http://ggplot2.org
+      \endverb
       \verb{url}
       \verb http://ggplot2.org
       \endverb
@@ -2359,11 +2561,13 @@
       }
       \strng{namehash}{c4d66a51b97601bd40ea164dabd562a5}
       \strng{fullhash}{c4d66a51b97601bd40ea164dabd562a5}
+      \strng{bibnamehash}{c4d66a51b97601bd40ea164dabd562a5}
+      \strng{editorbibnamehash}{c4d66a51b97601bd40ea164dabd562a5}
       \strng{editornamehash}{c4d66a51b97601bd40ea164dabd562a5}
       \strng{editorfullhash}{c4d66a51b97601bd40ea164dabd562a5}
       \field{labelalpha}{Wil08}
       \field{sortinit}{W}
-      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{shorttitle}
       \field{edition}{14th ed}
@@ -2402,11 +2606,13 @@
       }
       \strng{namehash}{255630d4e2d904d052fce7656d7e0f1f}
       \strng{fullhash}{255630d4e2d904d052fce7656d7e0f1f}
+      \strng{bibnamehash}{255630d4e2d904d052fce7656d7e0f1f}
+      \strng{authorbibnamehash}{255630d4e2d904d052fce7656d7e0f1f}
       \strng{authornamehash}{255630d4e2d904d052fce7656d7e0f1f}
       \strng{authorfullhash}{255630d4e2d904d052fce7656d7e0f1f}
       \field{labelalpha}{YJT08}
       \field{sortinit}{Y}
-      \field{sortinithash}{f86c10978eb0c0879609ce6a4f43da7b}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Asia-Pacific Journal of Operational Research}
@@ -2439,11 +2645,13 @@
       }
       \strng{namehash}{1e53cf495cb2ca6744bb569bfdea8aea}
       \strng{fullhash}{1e53cf495cb2ca6744bb569bfdea8aea}
+      \strng{bibnamehash}{1e53cf495cb2ca6744bb569bfdea8aea}
+      \strng{authorbibnamehash}{1e53cf495cb2ca6744bb569bfdea8aea}
       \strng{authornamehash}{1e53cf495cb2ca6744bb569bfdea8aea}
       \strng{authorfullhash}{1e53cf495cb2ca6744bb569bfdea8aea}
       \field{labelalpha}{YR07}
       \field{sortinit}{Y}
-      \field{sortinithash}{f86c10978eb0c0879609ce6a4f43da7b}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Management Decision}
@@ -2464,11 +2672,13 @@
       }
       \strng{namehash}{e5b8aa9869d6febac84c8802e26a3e2c}
       \strng{fullhash}{e5b8aa9869d6febac84c8802e26a3e2c}
+      \strng{bibnamehash}{e5b8aa9869d6febac84c8802e26a3e2c}
+      \strng{authorbibnamehash}{e5b8aa9869d6febac84c8802e26a3e2c}
       \strng{authornamehash}{e5b8aa9869d6febac84c8802e26a3e2c}
       \strng{authorfullhash}{e5b8aa9869d6febac84c8802e26a3e2c}
       \field{labelalpha}{Zad65}
       \field{sortinit}{Z}
-      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00199958}
@@ -2502,11 +2712,13 @@
       }
       \strng{namehash}{16497346493190f109285b44c32ac74d}
       \strng{fullhash}{16497346493190f109285b44c32ac74d}
+      \strng{bibnamehash}{16497346493190f109285b44c32ac74d}
+      \strng{authorbibnamehash}{16497346493190f109285b44c32ac74d}
       \strng{authornamehash}{16497346493190f109285b44c32ac74d}
       \strng{authorfullhash}{16497346493190f109285b44c32ac74d}
       \field{labelalpha}{ZS01}
       \field{sortinit}{Z}
-      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{European Journal of Purchasing \& Supply Management}
@@ -2540,11 +2752,13 @@
       }
       \strng{namehash}{b6ff5157e4d577ff552e6249ba78875e}
       \strng{fullhash}{b6ff5157e4d577ff552e6249ba78875e}
+      \strng{bibnamehash}{b6ff5157e4d577ff552e6249ba78875e}
+      \strng{authorbibnamehash}{b6ff5157e4d577ff552e6249ba78875e}
       \strng{authornamehash}{b6ff5157e4d577ff552e6249ba78875e}
       \strng{authorfullhash}{b6ff5157e4d577ff552e6249ba78875e}
       \field{labelalpha}{ZSD11}
       \field{sortinit}{Z}
-      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The International Journal of Advanced Manufacturing Technology}
@@ -2582,11 +2796,13 @@
       }
       \strng{namehash}{94f03a9540e524a680b747b14574fa0d}
       \strng{fullhash}{94f03a9540e524a680b747b14574fa0d}
+      \strng{bibnamehash}{94f03a9540e524a680b747b14574fa0d}
+      \strng{authorbibnamehash}{94f03a9540e524a680b747b14574fa0d}
       \strng{authornamehash}{94f03a9540e524a680b747b14574fa0d}
       \strng{authorfullhash}{94f03a9540e524a680b747b14574fa0d}
       \field{labelalpha}{ZSL08}
       \field{sortinit}{Z}
-      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International journal of production economics}
@@ -2615,11 +2831,13 @@
       }
       \strng{namehash}{c2c5c42ba52d6f53bcfe05d3ae23c432}
       \strng{fullhash}{c2c5c42ba52d6f53bcfe05d3ae23c432}
+      \strng{bibnamehash}{c2c5c42ba52d6f53bcfe05d3ae23c432}
+      \strng{authorbibnamehash}{c2c5c42ba52d6f53bcfe05d3ae23c432}
       \strng{authornamehash}{c2c5c42ba52d6f53bcfe05d3ae23c432}
       \strng{authorfullhash}{c2c5c42ba52d6f53bcfe05d3ae23c432}
       \field{labelalpha}{ZZ13}
       \field{sortinit}{Z}
-      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Procedia Computer Science}
@@ -2629,10 +2847,10 @@
       \field{pages}{426\bibrangedash 433}
       \range{pages}{8}
     \endentry
-  \endsortlist
-  \missing{dolan_2001}
+  \enddatalist
   \missing{Strobel2018}
   \missing{czyzyk_et_al_1998}
+  \missing{dolan_2001}
   \missing{gropp_more_1997}
 \endrefsection
 \endinput
