@@ -16,7 +16,9 @@ p <- ggplot(dat, aes(time, geo)) + geom_tile(aes(fill = V1), colour = "white") +
 
 base_size <- 9
 
-p +  
+p <- p +  
   labs(x = "", y = "", fill = "Collection rate%") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))+
   theme_grey(base_size = base_size)
+p
+  ggsave("heatmap.png", device="png")
