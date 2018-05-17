@@ -12,15 +12,6 @@ Then the general Goal Promming formulation is given, which takes the following o
 <p align="center"><img src="/tex/501672697bc87933f768ee548aeb40e0.svg?invert_in_darkmode&sanitize=true" align=middle width=233.95697654999998pt height=100.47478319999999pt/></p>
 
 The advantage of GP is that can be solved through LP solvers and in its weighted flavor allow for the direct tradeoff between objectives.
-### Profit allocation model plots
-Sensitivity analysis
-![Ternary tradeoff](/Tex/Images/ternary.png)
-Final results
-![Allocation Map](/Tex/Images/AllocationMap.png)
-### Green Supply Chain Management model plots
-Sensitivity analysis
-![Green tradeoff](/Tex/Images/tradeoff.png)
-Final results
-![Network Map](/Tex/Images/network.png)
+
 ## Author
 * **Marco Repetto**: [LinkedIn](https://www.linkedin.com/in/marco-repetto-256562b3/)
