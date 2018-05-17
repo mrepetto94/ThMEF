@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.13)  13 MAY 2018 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.13)  17 MAY 2018 21:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1532,36 +1532,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Thesis.bbl' found.
- (./Thesis.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Strobel2018
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                czyzyk_et_al_1998
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                dolan_2001
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                gropp_more_1997
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (./Thesis.bbl)
 Package biblatex Info: Reference section=0 on input line 10.
 Package biblatex Info: Reference segment=0 on input line 10.
 <centrato_piccolo_nero.jpg, id=139, 537.207pt x 294.1389pt>
@@ -2097,7 +2068,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [50]
-<Images/occurence.png, id=562, 957.0957pt x 569.4876pt>
+<Images/occurence.png, id=563, 957.0957pt x 569.4876pt>
 File: Images/occurence.png Graphic file (type png)
 <use Images/occurence.png>
 Package pdftex.def Info: Images/occurence.png  used on input line 22.
@@ -2151,11 +2122,11 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
                                                   \fi \fi 
 l.90   $$
          ]
-<Images/heatmap.png, id=607, 492.84125pt x 477.785pt>
+<Images/heatmap.png, id=609, 504.9264pt x 505.1673pt>
 File: Images/heatmap.png Graphic file (type png)
 <use Images/heatmap.png>
 Package pdftex.def Info: Images/heatmap.png  used on input line 95.
-(pdftex.def)             Requested size: 390.0pt x 378.10214pt.
+(pdftex.def)             Requested size: 390.0pt x 390.19792pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2389,10 +2360,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [76]
-Overfull \hbox (118.6041pt too wide) in paragraph at lines 359--360
-[]\T1/txr/m/n/12 The model was solved us-ing the NEOS servers[[]][[]][[]]
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
@@ -2400,7 +2367,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [77]
-<Images/tradeoff.png, id=787, 505.6491pt x 505.6491pt>
+<Images/tradeoff.png, id=794, 505.6491pt x 505.6491pt>
 File: Images/tradeoff.png Graphic file (type png)
 <use Images/tradeoff.png>
 Package pdftex.def Info: Images/tradeoff.png  used on input line 371.
@@ -2466,7 +2433,7 @@ l.416
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 417.
 
-<Images/network.png, id=804, 957.0957pt x 569.4876pt>
+<Images/network.png, id=811, 957.0957pt x 569.4876pt>
 File: Images/network.png Graphic file (type png)
 <use Images/network.png>
 Package pdftex.def Info: Images/network.png  used on input line 436.
@@ -2711,12 +2678,12 @@ Overfull \hbox (2.37093pt too wide) in paragraph at lines 36--36
 \T1/txr/m/it/12 Jour-nal of the Op-er-a-tional Re-search So-ci-ety \T1/txr/m/n/12 59.1 (Jan. 2008), pp. 90^^U
  []
 
-
+[104]
 Overfull \hbox (1.17589pt too wide) in paragraph at lines 36--36
 []\T1/txr/m/n/12 C. Romero. \T1/txr/m/it/12 Hand-book of Crit-i-cal Is-sues in Goal Pro-gram-ming\T1/txr/m/n/12 . Perg-
  []
 
-[104]
+
 Overfull \hbox (22.66937pt too wide) in paragraph at lines 36--36
 \T1/txr/m/n/12 pro-gram-ming tech-nique''. In: \T1/txr/m/it/12 Man-age-ment de-ci-sion \T1/txr/m/n/12 46.4 (2008), pp. 656^^U
  []
@@ -2727,11 +2694,16 @@ Overfull \hbox (8.2072pt too wide) in paragraph at lines 36--36
  []
 
 [105]
+Overfull \hbox (11.27322pt too wide) in paragraph at lines 36--36
+[][]$\T1/txtt/m/n/12 https : / / github . com / Pold87 / academic -[] keyword -[] occurrence$[][]\T1/txr/m/n/12 .
+ []
+
+
 Overfull \hbox (23.91801pt too wide) in paragraph at lines 36--36
 []\T1/txr/m/n/12 Hadley Wick-ham. \T1/txr/m/it/12 gg-plot2: El-e-gant Graph-ics for Data Anal-y-sis\T1/txr/m/n/12 . Springer-
  []
 
-[106]
+[106] [107]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
  (./Thesis.aux)
@@ -2745,18 +2717,18 @@ Package logreq Info: Writing requests to 'Thesis.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 39918 strings out of 492982
- 772430 string characters out of 6134896
- 1187066 words of memory out of 5000000
- 42507 multiletter control sequences out of 15000+600000
+ 39929 strings out of 492982
+ 772774 string characters out of 6134896
+ 1186102 words of memory out of 5000000
+ 42514 multiletter control sequences out of 15000+600000
  620880 words of font info for 175 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,18n,71p,10423b,1511s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tcxtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (106 pages, 2404721 bytes).
+Output written on Thesis.pdf (107 pages, 2438176 bytes).
 PDF statistics:
- 1067 PDF objects out of 1200 (max. 8388607)
- 909 compressed objects within 10 object streams
- 302 named destinations out of 1000 (max. 500000)
+ 1079 PDF objects out of 1200 (max. 8388607)
+ 919 compressed objects within 10 object streams
+ 306 named destinations out of 1000 (max. 500000)
  338 words of extra memory for PDF output out of 10000 (max. 10000000)
 

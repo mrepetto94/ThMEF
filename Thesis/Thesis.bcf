@@ -1957,7 +1957,7 @@
     <bcf:citekey order="32">Cunningham2004</bcf:citekey>
     <bcf:citekey order="33">Srivastava2007</bcf:citekey>
     <bcf:citekey order="34">Diabat2011</bcf:citekey>
-    <bcf:citekey order="35">Strobel2018</bcf:citekey>
+    <bcf:citekey order="35">Strobel18</bcf:citekey>
     <bcf:citekey order="36">Shan2018</bcf:citekey>
     <bcf:citekey order="37">Gilbert2001</bcf:citekey>
     <bcf:citekey order="38">Zsidisin2001</bcf:citekey>
@@ -1990,17 +1990,16 @@
     <bcf:citekey order="65">Porter1998</bcf:citekey>
     <bcf:citekey order="66">Yaghoobi2008</bcf:citekey>
     <bcf:citekey order="67">Zadeh1965</bcf:citekey>
-    <bcf:citekey order="68">gropp_more_1997</bcf:citekey>
-    <bcf:citekey order="69">dolan_2001</bcf:citekey>
-    <bcf:citekey order="70">czyzyk_et_al_1998</bcf:citekey>
-    <bcf:citekey order="71">R_2017</bcf:citekey>
-    <bcf:citekey order="72">Saaty1980</bcf:citekey>
-    <bcf:citekey order="73">Sottinen2009</bcf:citekey>
-    <bcf:citekey order="74">Rsqldf_2017</bcf:citekey>
-    <bcf:citekey order="75">Rdplyr</bcf:citekey>
-    <bcf:citekey order="76">Rggplot2_2009</bcf:citekey>
-    <bcf:citekey order="77">Rplotly_2017</bcf:citekey>
-    <bcf:citekey order="78">Fourer1997</bcf:citekey>
+    <bcf:citekey order="68">Ferris_2000</bcf:citekey>
+    <bcf:citekey order="69">Dolan_2001</bcf:citekey>
+    <bcf:citekey order="70">R_2017</bcf:citekey>
+    <bcf:citekey order="71">Saaty1980</bcf:citekey>
+    <bcf:citekey order="72">Sottinen2009</bcf:citekey>
+    <bcf:citekey order="73">Rsqldf_2017</bcf:citekey>
+    <bcf:citekey order="74">Rdplyr</bcf:citekey>
+    <bcf:citekey order="75">Rggplot2_2009</bcf:citekey>
+    <bcf:citekey order="76">Rplotly_2017</bcf:citekey>
+    <bcf:citekey order="77">Fourer1997</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

@@ -12,11 +12,11 @@ dat<-dat[order(dat$geo),]
 dat <- as.data.table(dat)[, sum(values), by = .(geo, time)]
 dat <- dat[dat$geo != "EU28"]
 
-p <- ggplot(dat, aes(time, geo)) + geom_tile(aes(fill = V1), colour = "white") + scale_fill_gradient(low = "white", high = "indianred4")
+p <- ggplot(dat, aes(time, geo)) + geom_tile(aes(fill = V1), colour = "white") + scale_fill_gradient(low = "white", high = "black")
 
 base_size <- 9
 
-p + 
-  theme_grey(base_size = base_size) + 
+p +  
   labs(x = "", y = "", fill = "Collection rate%") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  theme_grey(base_size = base_size)

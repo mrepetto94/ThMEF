@@ -611,6 +611,42 @@
       \verb 10.1016/j.jclepro.2018.01.129
       \endverb
     \endentry
+    \entry{Dolan_2001}{report}{}
+      \name{author}{1}{}{%
+        {{hash=28c8cbc03be9a1a951b8a489cd0f67a5}{%
+           family={Dolan},
+           familyi={D\bibinitperiod},
+           given={E.\bibnamedelimi D.},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Mathematics}%
+        {Computer Science Division, Argonne National Laboratory}%
+      }
+      \list{publisher}{2}{%
+        {Office of Scientific}%
+        {Technical Information ({OSTI})}%
+      }
+      \strng{namehash}{28c8cbc03be9a1a951b8a489cd0f67a5}
+      \strng{fullhash}{28c8cbc03be9a1a951b8a489cd0f67a5}
+      \strng{bibnamehash}{28c8cbc03be9a1a951b8a489cd0f67a5}
+      \strng{authorbibnamehash}{28c8cbc03be9a1a951b8a489cd0f67a5}
+      \strng{authornamehash}{28c8cbc03be9a1a951b8a489cd0f67a5}
+      \strng{authorfullhash}{28c8cbc03be9a1a951b8a489cd0f67a5}
+      \field{labelalpha}{Dol01}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{number}{ANL/MCS-TM-250}
+      \field{title}{{NEOS} server 4.0 administrative guide.}
+      \field{type}{Technical Memorandum}
+      \field{year}{2001}
+      \verb{doi}
+      \verb 10.2172/822567
+      \endverb
+    \endentry
     \entry{Davidson1961}{article}{}
       \name{author}{2}{}{%
         {{hash=27b1c0d4cba4000663a29e97a35af6bf}{%
@@ -717,6 +753,67 @@
       \field{year}{1976}
       \field{pages}{731\bibrangedash 732}
       \range{pages}{2}
+    \endentry
+    \entry{Ferris_2000}{article}{}
+      \name{author}{3}{}{%
+        {{hash=75ad4e1ab48f0f4550f5b39029e8e841}{%
+           family={Ferris},
+           familyi={F\bibinitperiod},
+           given={Michael\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=65dd560d02f742f69b05428f3a0d0b05}{%
+           family={Mesnier},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=e0d363ca201cd65b9157c81baffa7132}{%
+           family={Mor{é}},
+           familyi={M\bibinitperiod},
+           given={Jorge\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=b896a0fb77ed2d378be8872bf7dd1462}{%
+           family={{Buhman}},
+           familyi={B\bibinitperiod},
+           given={Martin\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4019c324cce7ac7e90081974653774f9}{%
+           family={{Iserles}},
+           familyi={I\bibinitperiod},
+           given={Arieh},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery ({ACM})}%
+      }
+      \strng{namehash}{defddee64f9cebef7e83f2e1db350405}
+      \strng{fullhash}{defddee64f9cebef7e83f2e1db350405}
+      \strng{bibnamehash}{defddee64f9cebef7e83f2e1db350405}
+      \strng{authorbibnamehash}{defddee64f9cebef7e83f2e1db350405}
+      \strng{authornamehash}{defddee64f9cebef7e83f2e1db350405}
+      \strng{authorfullhash}{defddee64f9cebef7e83f2e1db350405}
+      \strng{editorbibnamehash}{46d5bfff93f6023b82a471588f2984ae}
+      \strng{editornamehash}{46d5bfff93f6023b82a471588f2984ae}
+      \strng{editorfullhash}{46d5bfff93f6023b82a471588f2984ae}
+      \field{labelalpha}{FMM97}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Approximation Theory and Optimization}
+      \field{issn}{0098-3500}
+      \field{journaltitle}{{ACM} Transactions on Mathematical Software}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{NEOS and Condor: solving optimization problems over the Internet}
+      \field{volume}{26}
+      \field{year}{1997}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1145/347837.347842
+      \endverb
     \endentry
     \entry{Feller2017}{article}{}
       \name{author}{2}{}{%
@@ -2435,6 +2532,33 @@
       \verb http://linkinghub.elsevier.com/retrieve/pii/S2212017313005094
       \endverb
     \endentry
+    \entry{Strobel18}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c9997c62f5810cb739e5de21abf5ca22}{%
+           family={Volker\bibnamedelima Strobel},
+           familyi={V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Patrick\bibnamedelima Hofmann},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {GitHub}%
+      }
+      \strng{namehash}{c9997c62f5810cb739e5de21abf5ca22}
+      \strng{fullhash}{c9997c62f5810cb739e5de21abf5ca22}
+      \strng{bibnamehash}{c9997c62f5810cb739e5de21abf5ca22}
+      \strng{authorbibnamehash}{c9997c62f5810cb739e5de21abf5ca22}
+      \strng{authornamehash}{c9997c62f5810cb739e5de21abf5ca22}
+      \strng{authorfullhash}{c9997c62f5810cb739e5de21abf5ca22}
+      \field{labelalpha}{Vol18}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/Pold87/academic-keyword-occurrence}}
+      \field{journaltitle}{GitHub repository}
+      \field{title}{Academic Keyword Occurrence}
+      \field{year}{2018}
+    \endentry
     \entry{Welling1977}{article}{}
       \name{author}{1}{}{%
         {{hash=0301537e771ea4011c44cc2534a95618}{%
@@ -2848,10 +2972,6 @@
       \range{pages}{8}
     \endentry
   \enddatalist
-  \missing{Strobel2018}
-  \missing{czyzyk_et_al_1998}
-  \missing{dolan_2001}
-  \missing{gropp_more_1997}
 \endrefsection
 \endinput
 
