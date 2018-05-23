@@ -2,18 +2,21 @@
 
 \usepackage{macro}
 \usepackage{style}						
-\usepackage[gray]{xcolor}
-\definecolor{LightGray}{gray}{0.9}
 
 \addbibresource{reference.bib}
 
+\input{glossary}
+
+\makeindexes
+\makeglossaries
+
 \begin{document}  
-\title{Multicriteria analysis: transportation models for value creation}																
+\title{Transportation model and value creation: A multicriteria decision analysis approach}																
 \author{Marco Repetto \hfill}
 \titolocorso{Economics and Finance}
 \annoaccademico{2017/2018}
 \relatore{Prof. Davide La Torre\hfill}				
-\correlatore{Dr. Danilo Liuzzi\hfill}
+\correlatore{Ing.Dr. Danilo Liuzzi\hfill}
 	
 	\maketitle
 	\salvastmpB
@@ -21,6 +24,9 @@
 	\tableofcontents	
 	\listoffigures		
 	\listoftables	%\lstlistoflistings
+
+	\printglossaries
+
 	%===========================
 	\input{introduction}
 	%===========================
@@ -34,4 +40,5 @@
 	%===========================
 	\printbibliography
 
+	
 \end{document}
