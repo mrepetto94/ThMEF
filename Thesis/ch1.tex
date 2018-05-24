@@ -211,9 +211,9 @@ T(R,E,A,K)= [R-(ce_k\cdot E+ca_k\cdot A+ck_k\cdot K)]\cdot tx_k \quad \forall k 
 \subsubsection{Functional allocation}
 This objective derives from the \gls{tnmm} technique used in accessing \gls{tp} goodness. The method is based on the examination of the net profit relative to an appropriate base (e.g. costs, sales, assets) that a local entity realizes from a controlled transaction (or in our case to the entity itself). Basically, such objective works as a quality control that the overall process of maximization of profits as some confirmation also in the real market, made by independent actors. This is in certain sense a bond that helps the model in giving a solution viable also in an anti avoidance perspective.
 
-In order to achieve this is necessary to identify which Profit Level Indicator to choose; this is an important choice that has to be made taking into account the functional characterization of such entity, that is, if an entity focuses on distribution the best PLI to test such entity is given by the ROS of its functional characteristics, that's because the sales are supposed to be the main element of a distributor (and not cost or assets). The main PLI used by practitioner are: Return on Sales, Full Cost Mark-up, Return on Asset, Return on Investment.
+In order to achieve this is necessary to identify which \gls{pli} to choose; this is an important choice that has to be made taking into account the functional characterization of such entity, that is, if an entity focuses on distribution the best \gls{pli} to test such entity is given by the \gls{ros} of its functional characteristics, that's because the sales are supposed to be the main element of a distributor (and not cost or assets). The main \gls{pli} used by practitioners are: \gls{ros}, \gls{fcmu}, \gls{roa}, \gls{roi}.
 
-After each functional characteristic is matched with its relative PLI it's necessary to find the data of comparable independent entities, in order to asses the profitability range that our entity has to obtain to be in an arm's length position.
+After each functional characteristic is matched with its relative \gls{pli} it's necessary to find the data of comparable independent entities, in order to asses the profitability range that our entity has to obtain to be in an arm's length position.
 
 The objective function returning such objective would be as follows:
 
@@ -233,16 +233,16 @@ f(x)
 The basic idea behind this objective is that for a moment we're forgetting about the group objective (the first and the second) that try to minimize the consolidated cost and tax base. In this case we're focusing on the profitability of each entity.
 
 \subsection{Profit split}
-This objective is represented by the goals (1.4e)(1.4f)(1.4g) and the methodology used to determine this type of split derives from the profit split method used in transfer pricing analysis. In particular the transfer pricing profit split aims at: determining the division of profits that independent enterprises would have expected to realize from engaging in the transaction \cite{OECD_ProfitSplit_2017}. In our case we'll use this method and particularly the contribution analysis to define the effort of each functional category in the value chain. Secondly we'll use this value driver to partition the profits in order to have, at the end, a structure that takes into account the internal value chain of the products and not just the information gained by independent comparable companies.
+This objective is represented by the goals (1.4e)(1.4f)(1.4g) and the methodology used to determine this type of split derives from the profit split method used in transfer pricing analysis. In particular the transfer pricing profit split method aims at: determining the division of profits that independent enterprises would have expected to realize from engaging in the transaction \cite{OECD_ProfitSplit_2017}. In our case we'll use this method and particularly the contribution analysis to define the effort of each functional category in the value chain. Secondly we'll use this value driver to partition the profits in order to have, at the end, a structure that takes into account the internal value chain of the products and not just the information gained by independent comparable companies.
 
 
 \subsection{Constraints}
-Constraints represent the boundaries where the system will result unfeasible. Such constraints are expressed by the equation from (1.4h) to (1.4p); where the first two represent the boundaries on the PLI distribution namely the lower quartile and the upper quartile, outside this range the profitability may not be considered to be arm's length. The constraints (1.4j)(1.4k)(1.4l)(1.4m) represent the frontier of the possible allocable resources given by the company under the scope. The constraints (1.4n), (1.4o) and (1.4p) sets the positiveness of the deviation variables in order to avoid incorrectness of the overall GP model.
+Constraints represent the boundaries where the system will result unfeasible. Such constraints are expressed by the equation from (1.4h) to (1.4p); where the first two represent the boundaries on the \gls{pli} distribution namely the lower quartile and the upper quartile, outside this range the profitability may not be considered to be arm's length. The constraints (1.4j)(1.4k)(1.4l)(1.4m) represent the frontier of the possible allocable resources given by the company under the scope. The constraints (1.4n), (1.4o) and (1.4p) sets the positiveness of the deviation variables in order to avoid incorrectness of the overall \gls{gp} model.
 
 \subsection{Goal Programming Model}
 
 This model aims to find the best allocation of costs and budgeted revenue in order to maximize profits minimizing costs and tax base, at the same time the model provides the best multinational functional allocation strategy to achieve such goal using both internal and external data from independent companies.
-The objectives are divided into two categories; the first one is given by three objectives namely cost minimization, tax base minimization, PLI coherence; the second focuses more on the control and limitations that the Decision Maker wants to implement in the model due to the specific characteristics of its business.
+The objectives are divided into two categories; the first one is given by three objectives namely cost minimization, tax base minimization, \gls{pli} coherence; the second focuses more on the control and limitations that the \gls{dm} wants to implement in the model due to the specific characteristics of its business.
 
 The overall model algebraically looks as follows:
 
@@ -265,14 +265,14 @@ The overall model algebraically looks as follows:
 	\addConstraint{\prescript{}{o}{p}_i,\prescript{}{o}{n}_i}{\geq 0,}{i=1,...,O}
 \end{mini!}
 
-Where the equations(1.4b)(1.4c)(1.4d) belong to the first category, where instead (1.4e)(1.4f)(1.4g) belong to the second, the latter in fact depend on the strategy of the Decision Maker and it's not given by any environmental variable.
+Where the equations(1.4b)(1.4c)(1.4d) belong to the first category, where instead (1.4e)(1.4f)(1.4g) belong to the second, the latter in fact depend on the strategy of the \gls{dm} and it's not given by any environmental variable.
 
 \pagebreak
 
 \section{Mathematical simulation: a case study}
 The simulation of the above-mentioned model was made using LINGO17 and specifically its linear solver. Even if the mathematical package was able to handle the total amount of data given by the model the simulation was done using a portion of this data, avoiding countries in which the company doesn't operate at all. Other limitations were implemented in order to avoid any possible non-linearity, resulting in an increase of the computational time to obtain a solution, this was possible by avoiding inserting the equation (1.4d), when instead the correlated constraints, namely (1.4h) and (1.4i) were linearized. Other limitations of the model are exposed below:
 \begin{itemize}
-    \item The PLI chosen to set the functional range were only 2, ROS and FCMU;
+	\item The \gls{pli} chosen to set the functional range were only 2, \gls{ros} and \gls{fcmu};
     \item The cost of asset and equity was set to 0, meaning that the only cost driver was employees;
     \item The functional characterization was reduced to 3, namely distributor, producer and principal (which acts as an active holding);
     \item The number of employees was assumed to be continuous, meaning that part-time work and non full year worker can be used by the firm.
@@ -281,11 +281,11 @@ The simulation of the above-mentioned model was made using LINGO17 and specifica
 Concerning the data, the financials were taken from a company operating mostly in Europe and western countries in general, plus this company tend to produce and store most of its products in Asian countries and tend to have less inventory in its western distribution sites. The company under scope was underperforming at the time of this simulation its P/L statement registered a loss of roughly  6.000.000 USD. The revenues registered for the year under the scope were about 88.900.344 USD and the employees hired were 2.722.
 
 \subsection{Sensitivity analysis}
-In the sensitivity analysis, the value of the weights was preemptively determined; since the model for the case study has only three goals, namely the minimization of the operation cost, the minimization of the tax liability and conservation of the functional allocation. The aim of the sensitivity analysis was to measure all the possible frontiers between DM preference toward these choices. Therefore the objectives were subjected to different weights combination, however, the combinations didn't include any zero weight, this was done in order to avoid any Pareto solution that would result infeasible in reality. For the three objectives was given a set of possible weight alternatives following the equation reported below:
+In the sensitivity analysis, the value of the weights was preemptively determined; since the model for the case study has only three goals, namely the minimization of the operation cost, the minimization of the tax liability and conservation of the functional allocation. The aim of the sensitivity analysis was to measure all the possible frontiers between \gls{dm} preference toward these choices. Therefore the objectives were subjected to different weights combination, however, the combinations didn't include any zero weight, this was done in order to avoid any Pareto solution that would result infeasible in reality. For the three objectives was given a set of possible weight alternatives following the equation reported below:
 $$
 1=x + y + z, \quad \forall x \in X, X = (0,1), \quad \forall y \in Y, Y = (0,1, \quad \forall z \in Z, Z = (0,1),
 $$
-Where $x$ is the preference for the minimization of the operational costs($w1$), whereas $y$ stands for the preference of the DM toward the minimization of the tax liability($w2$) and $z$ represents the preference for maintaining the functional characterization of the company($w3$).
+Where $x$ is the preference for the minimization of the operational costs($w1$), whereas $y$ stands for the preference of the \gls{dm} toward the minimization of the tax liability($w2$) and $z$ represents the preference for maintaining the functional characterization of the company($w3$).
 In order to give a better perspective of these different set of preferences, a ternary plot was created representing some of the possible choice given admitted by the equation defined previously.
 
 \begin{figure}[h]
@@ -297,7 +297,7 @@ In order to give a better perspective of these different set of preferences, a t
 As presented by the figure, pursuing largely the minimization of the operational cost could not be considered a great objective and the same as to be said by the sole objective of tax minimization, a much solid set of weights should be found taking into account these different outcomes.
 
 \subsection{Analytical Hierarchical Process for weight determination}
-Given the knowledge about the trade-offs that DM faces, the option was to choose a robust framework to select the sensitivity of the weights that were consistent with the expectation that the Decision Maker has about the process of Green Supply Chain. The chosen framework was the Analytical Hierarchy Process \cite{Saaty1980}. The process was three tired:
+Given the knowledge about the trade-offs that \gls{dm} faces, the option was to choose a robust framework to select the sensitivity of the weights that were consistent with the expectation that the \gls{dm} has about the process of profit allocation. The chosen framework was the \gls{ahp}\cite{Saaty1980}. The process was three tired:
 
 \begin{itemize}
     \item Step 1: given the set of criteria defined in the previous sections the pairwise comparison matrix was computed indicating the importance of each criterion with respect to the other;
@@ -320,7 +320,7 @@ Total                 & \textit{6.00}   & \textit{3.50} & \textit{1.83}         
 \caption{Pairwise comparison matrix}
 \end{table}
 
-In the pairwise matrix is visible the preference of the DM toward maintaining the functional allocation above all other objectives. Subsequently the step 2 of the AHP method was followed, and then the normalized priority vector was obtained, which is represented in the table below.
+In the pairwise matrix is visible the preference of the \gls{dm} toward maintaining the functional allocation above all other objectives. Subsequently the step 2 of the \gls{ahp} method was followed, and then the normalized priority vector was obtained, which is represented in the table below.
 
 \begin{table}[]
 \centering
@@ -351,7 +351,7 @@ Total                 & \textit{67070220} \\ \bottomrule
 \caption{Objective value according to the model}
 \end{table}
 
-The solution is summarized in the figure \ref{fig:allocationmap}. The optimal solution was to create two different distribution entities namely one in India and one in Malta and keep the manufacturing in a country with a greater PLI (such as Denmark) because of the great margin between revenues and costs. The greater amount of this margin is possible to see in the principal function (located in Portugal) where this margin is increased because of the importance that such functions perform in the value chain. The solution proposed resulted in an average tax rate below the $20\%$.
+The solution is summarized in the figure \ref{fig:allocationmap}. The optimal solution was to create two different distribution entities namely one in India and one in Malta and keep the manufacturing in a country with a greater \gls{pli} (such as Denmark) because of the great margin between revenues and costs. The greater amount of this margin is possible to see in the principal function (located in Portugal) where this margin is increased because of the importance that such functions perform in the value chain. The solution proposed resulted in an average \gls{ctr} below the $20\%$.
 
 \begin{sidewaysfigure}
 \centering
@@ -361,6 +361,6 @@ The solution is summarized in the figure \ref{fig:allocationmap}. The optimal so
 \end{sidewaysfigure}
 
 \subsection{Final remarks}
-The model proposed aims at seeking the optimal allocation of profits between the multiple multinational companies in order to be compliant with the transfer pricing regulation and with respect to the business carried by independent companies carrying similar functions. The lack of literature in the tax planning filed may be seen as a promising niche that researchers should pursue in the future. The model proposed apart from the simplistic assumption given in the case study could have been enhanced with other features belonging to the Goal Programming approach such as fuzzy sets to model the PLI range or other features. 
+The model proposed aims at seeking the optimal allocation of profits between the multiple multinational companies in order to be compliant with the \gls{tp} regulation and with respect to the business carried by independent companies carrying similar functions. The lack of literature in the tax planning filed may be seen as a promising niche that researchers should pursue in the future. The model proposed apart from the simplistic assumption given in the case study could have been enhanced with other features belonging to the \gls{gp} approach such as fuzzy sets to model the \gls{pli} range or other features. 
 
 \end{doublespace}

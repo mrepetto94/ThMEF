@@ -1,41 +1,41 @@
 [0] Config.pm:302> INFO - This is Biber 2.9
 [0] Config.pm:305> INFO - Logfile is 'Thesis.blg'
-[22] biber:313> INFO - === mer mag 23, 2018, 07:45:04
-[41] Biber.pm:371> INFO - Reading 'Thesis.bcf'
-[99] Biber.pm:857> INFO - Found 71 citekeys in bib section 0
-[111] Biber.pm:3981> INFO - Processing section 0
-[120] Biber.pm:4154> INFO - Looking for bibtex format file 'reference.bib' for section 0
-[126] bibtex.pm:1468> INFO - LaTeX decoding ...
-[257] bibtex.pm:1294> INFO - Found BibTeX data source 'reference.bib'
-[292] Utils.pm:169> WARN - month field 'apr' in entry 'Cui2017' is not an integer - this will probably not sort properly.
-[328] Utils.pm:169> WARN - month field 'aug' in entry 'Schniederjans1995' is not an integer - this will probably not sort properly.
-[340] Utils.pm:169> WARN - month field 'mar' in entry 'Zarandi2011' is not an integer - this will probably not sort properly.
-[368] Utils.pm:169> WARN - month field 'oct' in entry 'Tayi1985' is not an integer - this will probably not sort properly.
-[375] Utils.pm:169> WARN - month field 'jan' in entry 'Welling1977' is not an integer - this will probably not sort properly.
-[380] Utils.pm:169> WARN - month field 'jun' in entry 'Kruger2006' is not an integer - this will probably not sort properly.
-[386] Utils.pm:169> WARN - month field 'jan' in entry 'Gardner1990' is not an integer - this will probably not sort properly.
-[439] Utils.pm:169> WARN - month field 'apr' in entry 'Diabat2011' is not an integer - this will probably not sort properly.
-[498] Utils.pm:169> WARN - month field 'Feb' in entry 'Oh2006' is not an integer - this will probably not sort properly.
-[503] Utils.pm:169> WARN - month field 'Oct' in entry 'Kanyalkar2005' is not an integer - this will probably not sort properly.
-[519] Utils.pm:169> WARN - month field 'Jan' in entry 'Rizk2008' is not an integer - this will probably not sort properly.
-[533] Utils.pm:169> WARN - month field 'Nov' in entry 'Chern2007' is not an integer - this will probably not sort properly.
-[538] Utils.pm:169> WARN - month field 'Mar' in entry 'Liang2009' is not an integer - this will probably not sort properly.
-[543] Utils.pm:169> WARN - month field 'Sep' in entry 'Gupta2003' is not an integer - this will probably not sort properly.
-[554] Utils.pm:169> WARN - month field 'Jun' in entry 'Zadeh1965' is not an integer - this will probably not sort properly.
-[559] Utils.pm:169> WARN - month field 'jul' in entry 'Rehman2017' is not an integer - this will probably not sort properly.
-[568] Utils.pm:169> WARN - month field 'apr' in entry 'Diaz-Madronero2018' is not an integer - this will probably not sort properly.
-[575] Utils.pm:169> WARN - month field 'jul' in entry 'Nomani2016' is not an integer - this will probably not sort properly.
-[586] Utils.pm:169> WARN - ISBN '0684841460,9780684841465' in entry 'Porter1998' is invalid - run biber with '--validate_datamodel' for details.
-[592] Utils.pm:169> WARN - month field 'oct' in entry 'Yaghoobi2008' is not an integer - this will probably not sort properly.
-[602] Utils.pm:169> WARN - month field 'mar' in entry 'Ferris_2000' is not an integer - this will probably not sort properly.
-[605] Utils.pm:169> WARN - month field 'jul' in entry 'Dolan_2001' is not an integer - this will probably not sort properly.
-[642] Utils.pm:169> WARN - BibTeX subsystem: /tmp/8MQOFF7iUc/reference.bib_29063.utf8, line 46, warning: 222 characters of junk seen at toplevel
-[732] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[732] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[732] Biber.pm:3809> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
-[733] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
-[804] bbl.pm:617> INFO - Writing 'Thesis.bbl' with encoding 'latin1'
-[813] Utils.pm:169> WARN - The entry 'Diaz-Madronero2018' has characters which cannot be encoded in 'latin1'. Recoding problematic characters into macros.
-[835] Utils.pm:169> WARN - The entry 'Trenado2014' has characters which cannot be encoded in 'latin1'. Recoding problematic characters into macros.
-[841] bbl.pm:720> INFO - Output to Thesis.bbl
-[842] Biber.pm:110> INFO - WARNINGS: 25
+[25] biber:313> INFO - === gio mag 24, 2018, 13:56:09
+[44] Biber.pm:371> INFO - Reading 'Thesis.bcf'
+[102] Biber.pm:857> INFO - Found 71 citekeys in bib section 0
+[114] Biber.pm:3981> INFO - Processing section 0
+[237] Biber.pm:4154> INFO - Looking for bibtex format file 'reference.bib' for section 0
+[247] bibtex.pm:1468> INFO - LaTeX decoding ...
+[378] bibtex.pm:1294> INFO - Found BibTeX data source 'reference.bib'
+[521] Utils.pm:169> WARN - month field 'apr' in entry 'Cui2017' is not an integer - this will probably not sort properly.
+[556] Utils.pm:169> WARN - month field 'aug' in entry 'Schniederjans1995' is not an integer - this will probably not sort properly.
+[568] Utils.pm:169> WARN - month field 'mar' in entry 'Zarandi2011' is not an integer - this will probably not sort properly.
+[614] Utils.pm:169> WARN - month field 'oct' in entry 'Tayi1985' is not an integer - this will probably not sort properly.
+[621] Utils.pm:169> WARN - month field 'jan' in entry 'Welling1977' is not an integer - this will probably not sort properly.
+[626] Utils.pm:169> WARN - month field 'jun' in entry 'Kruger2006' is not an integer - this will probably not sort properly.
+[632] Utils.pm:169> WARN - month field 'jan' in entry 'Gardner1990' is not an integer - this will probably not sort properly.
+[688] Utils.pm:169> WARN - month field 'apr' in entry 'Diabat2011' is not an integer - this will probably not sort properly.
+[801] Utils.pm:169> WARN - month field 'Feb' in entry 'Oh2006' is not an integer - this will probably not sort properly.
+[805] Utils.pm:169> WARN - month field 'Oct' in entry 'Kanyalkar2005' is not an integer - this will probably not sort properly.
+[820] Utils.pm:169> WARN - month field 'Jan' in entry 'Rizk2008' is not an integer - this will probably not sort properly.
+[833] Utils.pm:169> WARN - month field 'Nov' in entry 'Chern2007' is not an integer - this will probably not sort properly.
+[838] Utils.pm:169> WARN - month field 'Mar' in entry 'Liang2009' is not an integer - this will probably not sort properly.
+[842] Utils.pm:169> WARN - month field 'Sep' in entry 'Gupta2003' is not an integer - this will probably not sort properly.
+[853] Utils.pm:169> WARN - month field 'Jun' in entry 'Zadeh1965' is not an integer - this will probably not sort properly.
+[858] Utils.pm:169> WARN - month field 'jul' in entry 'Rehman2017' is not an integer - this will probably not sort properly.
+[866] Utils.pm:169> WARN - month field 'apr' in entry 'Diaz-Madronero2018' is not an integer - this will probably not sort properly.
+[873] Utils.pm:169> WARN - month field 'jul' in entry 'Nomani2016' is not an integer - this will probably not sort properly.
+[883] Utils.pm:169> WARN - ISBN '0684841460,9780684841465' in entry 'Porter1998' is invalid - run biber with '--validate_datamodel' for details.
+[888] Utils.pm:169> WARN - month field 'oct' in entry 'Yaghoobi2008' is not an integer - this will probably not sort properly.
+[898] Utils.pm:169> WARN - month field 'mar' in entry 'Ferris_2000' is not an integer - this will probably not sort properly.
+[902] Utils.pm:169> WARN - month field 'jul' in entry 'Dolan_2001' is not an integer - this will probably not sort properly.
+[938] Utils.pm:169> WARN - BibTeX subsystem: /tmp/nw9oYPjnB2/reference.bib_11897.utf8, line 46, warning: 222 characters of junk seen at toplevel
+[1028] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1028] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1028] Biber.pm:3809> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
+[1028] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[1158] bbl.pm:617> INFO - Writing 'Thesis.bbl' with encoding 'latin1'
+[1167] Utils.pm:169> WARN - The entry 'Diaz-Madronero2018' has characters which cannot be encoded in 'latin1'. Recoding problematic characters into macros.
+[1189] Utils.pm:169> WARN - The entry 'Trenado2014' has characters which cannot be encoded in 'latin1'. Recoding problematic characters into macros.
+[1195] bbl.pm:720> INFO - Output to Thesis.bbl
+[1196] Biber.pm:110> INFO - WARNINGS: 25
