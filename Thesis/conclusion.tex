@@ -4,20 +4,20 @@
 \addcontentsline{toc}{chapter}{Conclusion}
 
 \begin{doublespace}
-As highlighted by the models proposed, the Goal Programming approach may indeed turn out to be a great tool in the hands of the Decision Maker; because of that is largely applied by Supply Chain professionals and academics to model different problems they may face. Apart from the conclusion exposed previously about each model, from the cross conclusion of both the models proposed a series of eight facts may be identified that range from the advantages of multicriteria analysis to the pitfalls that GP has if implemented badly. In more detail such facts are:
+	As highlighted by the models proposed, the \gls{gp} approach may indeed turn out to be a great tool in the hands of the \gls{dm}; because of that is largely applied by Supply Chain professionals and academics to model different problems they may face. Apart from the conclusion exposed previously about each model, from the cross conclusion of both the models proposed a series of eight facts may be identified that range from the advantages of multicriteria analysis to the pitfalls that \gls{gp} has if implemented badly. In more detail such facts are:
 
 \begin{itemize}
-    \item Multicriteria analysis and Goal Programming, in particular, is a sound tool for decision making in multinational context;
-    \item Goal Programming is very versatile and can be implemented in almost any situation involving linear programming or mixed integer linear programming;
-    \item The software base to solve GP problems can scale with extreme simplicity;
+	\item \gls{mcda} and \gls{gp}, in particular, is a sound tool for decision making in multinational context;
+	\item \gls{gp} is very versatile and can be implemented in almost any situation involving \gls{lp} or mixed integer linear programming;
+	\item The software base to solve \gls{gp} problems can scale with extreme simplicity;
     \item Its simplicity may incur in bad modeling;
     \item The fields of research are not homogeneously developed leaving grey zones that find difficulties to be up to date with the latest changes in the environment;
     \item Operational related fields result in great expansion;
     \item Law related fields result in abandon.
 \end{itemize}
 
-Developing the third point, the scalability may be seen as the advantage that such approach has in its implementation given the software base a Decision Maker has; such advantage may be defined in terms the great number of capabilities that such software base can achieve. An example of such feature can be shown in the difference between the software base used in both the first and the second model to solve the problem given.
-In the first model we had the LINGO software which comes with a built-in Graphical User Interface (GUI) and  with a limited degree of automation, meaning that is not possible to insert such tool in a fully automated workflow although the data gathering process can be automated with certain source of data, such as spreadsheets, which however works only with Excell and on Windows, leaving the problem of implementing such approach in UNIX based system without any use of virtual machines. A more scalable result would have been obtained with the LINDO API (or using directly the solvers API such as the GLPK\cite{Sottinen2009}),  providing bindings for all the major programming languages available such as R and Python. 
+Developing the third point, the scalability may be seen as the advantage that such approach has in its implementation given the software base a \gls{dm} has; such advantage may be defined in terms the great number of capabilities that such software base can achieve. An example of such feature can be shown in the difference between the software base used in both the first and the second model to solve the problem given.
+In the first model we had the LINGO software which comes with a built-in Graphical User Interface and  with a limited degree of automation, meaning that is not possible to insert such tool in a fully automated workflow although the data gathering process can be automated with certain source of data, such as spreadsheets, which however works only with Excell and on Windows, leaving the problem of implementing such approach in UNIX based system without any use of virtual machines. A more scalable result would have been obtained with the LINDO API (or using directly the solvers API such as the GLPK\cite{Sottinen2009}),  providing bindings for all the major programming languages available such as R and Python. 
 In the second model the potential for scalability was higher because we keep separated each step and we used a flexible programming language such as R to handle all the sending process of the model on the solver (in our case the CPLEX in the NEOS server) as well as the process of reading the result an build useful dashboards out of it. 
 However an even more scalable workflow would have been possible if the data related process was even more defined and not just based only on spread spreadsheets, a tentative workflow is given in the following list:
 
@@ -30,13 +30,13 @@ However an even more scalable workflow would have been possible if the data rela
     \item Graphical rendering with specific plotting libraries such as ggplot2\cite{Rggplot2_2009} or the plotly\cite{Rplotly_2017} API (the last one should be intended for a more interactive purpose).
 \end{itemize}
 \\
-Speaking about the last three facts highlighted previously a lot of attention is given to operational problems however the same cannot be said when the topics shifts, and from Supply Chain we start dealing with international tax planning problems, as suggested before this may be due to the specific skills that such practitioner has on this field. Because of that is important to renew the call to action to model in a greater way these problems, which in most of the cases boils down to multi-objective problems that can be solved through Goal Programming.
+Speaking about the last three facts highlighted previously a lot of attention is given to operational problems however the same cannot be said when the topics shifts, and from supply chain we start dealing with international tax planning problems, as suggested before this may be due to the specific skills that such practitioner has on this field. Because of that is important to renew the call to action to model in a greater way these problems, which in most of the cases boils down to multi-objective problems that can be solved through \gls{gp}.
 \\
 Last but not least, is also important to highlight as done before that with such a versatile tool the skills of the modeller are much more needed when the situation gets very complex, leading to unplanned situations that may result in unfeasible solutions or even worse, sub-optimal ones, in such cases a technique that may turn out to be useful for the modeller could be starting with a minimum viable model and then build it up in terms of horizontal complexity (more variables) and vertical complexity (more constraints).
 
 \pagebreak
 \subsubsection{Aknowledgements}
-This thesis wouldn't have been possible without the R project, their packages provided a good link between models built in LINGO and AMPL\cite{Fourer1997} and solved (in case of the Green Supply Chain model) using a cloud server provider of solvers such as NEOS, plus the ease ofuse of such language mixed with the great community supporting it makes it probalby one of the most powerfull language ever created. 
+This thesis wouldn't have been possible without the R project, their packages provided a good link between models built in LINGO and AMPL\cite{Fourer1997} and solved (in case of the \gls{gsc} model) using a cloud server provider of solvers such as NEOS, plus the ease ofuse of such language mixed with the great community supporting it makes it probalby one of the most powerfull language ever created. 
 \\
 The author of this thesis is also grateful to both the Supervisor and Co-Supervisor because of the assistance given to understand the problems faced in a better mathematical perspective, and also for the provision with tips and tricks in modeling some of the occurrences faced along this journey.
 \\
