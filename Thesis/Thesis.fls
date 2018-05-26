@@ -483,10 +483,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xb.tfm
 INPUT Thesis.toc
 INPUT Thesis.toc
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xb.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/t1xb.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmb.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/t1xb.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm
@@ -511,6 +507,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/tcxr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/tcxr.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtcxr.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xb.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/t1xb.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmb.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txmi.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
@@ -592,6 +592,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/t1xi.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxi.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/t1xb.tfm
 INPUT Images/CTworld.png
 INPUT ./Images/CTworld.png
 INPUT ./Images/CTworld.png

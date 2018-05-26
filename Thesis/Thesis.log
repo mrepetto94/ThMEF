@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.13)  25 MAY 2018 08:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.13)  26 MAY 2018 08:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1697,32 +1697,29 @@ No file Thesis.acr.
 
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+txr on input line 16.
+LaTeX Font Info:    Try loading font information for TS1+txr on input line 14.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-) [12]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13]
-Overfull \hbox (12.58484pt too wide) in paragraph at lines 39--40
+) [12] [13]
+Overfull \hbox (12.58484pt too wide) in paragraph at lines 37--38
 []\T1/txr/m/n/12 Focusing the at-ten-tion on the ap-proaches sug-gested, four main cat-e-gories emerge,
  []
 
 
-Overfull \hbox (2.5187pt too wide) in paragraph at lines 43--44
+Overfull \hbox (2.5187pt too wide) in paragraph at lines 41--42
 []\T1/txr/m/n/12 Interactive meth-ods: in this par-tic-u-lar cat-e-gory the pro-cess is it-er-a-tive, mean-
  []
 
 
-Overfull \hbox (2.86668pt too wide) in paragraph at lines 44--45
+Overfull \hbox (2.86668pt too wide) in paragraph at lines 42--43
 []\T1/txr/m/n/12 Pareto-dominated meth-ods: these meth-ods di-vides the op-ti-mal so-lu-tion seek-
  []
 
 [14] [15]
-./introduction.tex:84: Argument of \\@gls has an extra }.
+./introduction.tex:82: Argument of \\@gls has an extra }.
 <inserted text> 
                 \par 
-l.84 ...s by using weights. As a result, \gls[wgp}
+l.82 ...s by using weights. As a result, \gls[wgp}
                                                    is more flexible but as c...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1733,19 +1730,19 @@ your `}' was spurious, just type `2' and it will go away.
 
 Runaway argument?
 wgp
-./introduction.tex:84: Paragraph ended before \\@gls was complete.
+./introduction.tex:82: Paragraph ended before \\@gls was complete.
 <to be read again> 
                    \par 
-l.84 ...s by using weights. As a result, \gls[wgp}
+l.82 ...s by using weights. As a result, \gls[wgp}
                                                    is more flexible but as c...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-./introduction.tex:84: Extra }, or forgotten \endgroup.
+./introduction.tex:82: Extra }, or forgotten \endgroup.
 <recently read> }
                  
-l.84 ...s by using weights. As a result, \gls[wgp}
+l.82 ...s by using weights. As a result, \gls[wgp}
                                                    is more flexible but as c...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1776,18 +1773,8 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
                                                   \fi \fi 
 l.36 
      ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.95003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[21]
-./ch1.tex:45: Undefined control sequence.
-l.45 ...hniques (combining multiple different \gla
+./ch1.tex:43: Undefined control sequence.
+l.43 ...hniques (combining multiple different \gla
                                                   {gp} approaches) and \gls{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1796,6 +1783,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 26.95003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1806,6 +1799,9 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
@@ -1818,30 +1814,30 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
                                                   \fi \fi 
 l.77 
      ]
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]|\T1/txr/m/n/12 Tayi and Gan-
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 87--87
 []|\T1/txr/m/n/12 Killough and Soud-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 []|\T1/txr/m/n/12 Kruger and Hat-
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 97--98
-\T1/txr/m/n/12 jec-tives and hu-man re-sources al-lo-ca-tion us-ing
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\T1/txr/m/n/12 Gardner et
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-[]|\T1/txr/m/n/12 Zamfirescu and Zam-
- []
-
-./ch1.tex:100: Undefined control sequence.
+./ch1.tex:98: Undefined control sequence.
 <recently read> \w 
                    
-l.100 \w
-        
+l.98 \w
+       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1849,17 +1845,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-[]|\T1/txr/m/n/12 Iranmanesh and Thom-
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+[]|\T1/txr/m/n/12 Iranmanesh and
  []
 
 
-Overfull \hbox (11.59998pt too wide) in alignment at lines 81--108
+Overfull \hbox (6.0pt too wide) in alignment at lines 79--106
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 108
+Underfull \vbox (badness 10000) detected at line 106
  []
 
 
@@ -1869,6 +1865,9 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
@@ -1883,8 +1882,16 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [26]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+<Images/CTworld.png, id=406, 2517.405pt x 1413.28pt>
+File: Images/CTworld.png Graphic file (type png)
+<use Images/CTworld.png>
+Package pdftex.def Info: Images/CTworld.png  used on input line 132.
+(pdftex.def)             Requested size: 390.0pt x 218.9483pt.
+<Images/GNIworld.png, id=408, 2517.405pt x 1413.28pt>
+File: Images/GNIworld.png Graphic file (type png)
+<use Images/GNIworld.png>
+Package pdftex.def Info: Images/GNIworld.png  used on input line 140.
+(pdftex.def)             Requested size: 390.0pt x 218.9483pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1893,24 +1900,6 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [27]
-<Images/CTworld.png, id=410, 2517.405pt x 1413.28pt>
-File: Images/CTworld.png Graphic file (type png)
-<use Images/CTworld.png>
-Package pdftex.def Info: Images/CTworld.png  used on input line 136.
-(pdftex.def)             Requested size: 390.0pt x 218.9483pt.
-<Images/GNIworld.png, id=412, 2517.405pt x 1413.28pt>
-File: Images/GNIworld.png Graphic file (type png)
-<use Images/GNIworld.png>
-Package pdftex.def Info: Images/GNIworld.png  used on input line 144.
-(pdftex.def)             Requested size: 390.0pt x 218.9483pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.95003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[28]
 Underfull \vbox (badness 5592) has occurred while \output is active []
 
 
@@ -1920,16 +1909,16 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29pdfTeX warning (ext4): destination with the same identifier (name{figure.1.3}) has been already used, duplicate ignored
+[28pdfTeX warning (ext4): destination with the same identifier (name{figure.1.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.151 
+l.147 
        <./Images/CTworld.png>]
-<Images/Cluster-GNI-CT.png, id=423, 1003.75pt x 1003.75pt>
+<Images/Cluster-GNI-CT.png, id=419, 1003.75pt x 1003.75pt>
 File: Images/Cluster-GNI-CT.png Graphic file (type png)
 <use Images/Cluster-GNI-CT.png>
-Package pdftex.def Info: Images/Cluster-GNI-CT.png  used on input line 154.
+Package pdftex.def Info: Images/Cluster-GNI-CT.png  used on input line 150.
 (pdftex.def)             Requested size: 390.0pt x 390.0059pt.
 
 
@@ -1938,25 +1927,25 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30pdfTeX warning (ext4): destination with the same identifier (name{figure.1.4}) has been already used, duplicate ignored
+[29pdfTeX warning (ext4): destination with the same identifier (name{figure.1.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.163 	\item E
-              mployees: this element is somehow tied to the revenues expecte... <./Images/GNIworld.png>]
+l.157 \begin{itemize}
+                      <./Images/GNIworld.png>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31pdfTeX warning (ext4): destination with the same identifier (name{figure.1.5}) has been already used, duplicate ignored
+[30pdfTeX warning (ext4): destination with the same identifier (name{figure.1.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.163 	\item E
-              mployees: this element is somehow tied to the revenues expecte... <./Images/Cluster-GNI-CT.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 167--171
+l.157 \begin{itemize}
+                      <./Images/Cluster-GNI-CT.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 163--167
 
  []
 
@@ -1966,11 +1955,11 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32]
-<Images/plidist1.png, id=443, 1966.34625pt x 1105.12875pt>
+[31]
+<Images/plidist1.png, id=439, 1966.34625pt x 1105.12875pt>
 File: Images/plidist1.png Graphic file (type png)
 <use Images/plidist1.png>
-Package pdftex.def Info: Images/plidist1.png  used on input line 178.
+Package pdftex.def Info: Images/plidist1.png  used on input line 174.
 (pdftex.def)             Requested size: 592.0pt x 332.72159pt.
 
 
@@ -1979,20 +1968,20 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33]
+[32]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34pdfTeX warning (ext4): destination with the same identifier (name{figure.1.6}) has been already used, duplicate ignored
+[33pdfTeX warning (ext4): destination with the same identifier (name{figure.1.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.185 \subsection
-                 {Objectives} <./Images/plidist1.png>]
-Overfull \hbox (11.75871pt too wide) in paragraph at lines 191--192
+l.180 
+       <./Images/plidist1.png>]
+Overfull \hbox (11.75871pt too wide) in paragraph at lines 187--188
 []\T1/txr/m/n/12 The func-tional char-ac-ter-i-za-tion of each en-tity must fall within a range achieved
  []
 
@@ -2002,8 +1991,15 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+[34]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 26.95003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [35]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7379) has occurred while \output is active []
 
 
 
@@ -2020,17 +2016,11 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [37]
-Underfull \hbox (badness 10000) in paragraph at lines 244--249
+Underfull \hbox (badness 10000) in paragraph at lines 240--245
 
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.95003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2040,7 +2030,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39]
+[38]
 Overfull \vbox (55.0403pt too high) has occurred while \output is active []
 
 
@@ -2050,9 +2040,30 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[39]
 
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 26.95003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40]
+Overfull \hbox (8.36404pt too wide) in paragraph at lines 282--285
+\T1/txr/m/n/12 Where $\OML/txmi/m/it/12 x$ \T1/txr/m/n/12 is the pref-er-ence for the min-i-miza-tion of the op-er-a-tional costs($\OML/txmi/m/it/12 w\OT1/txr/m/n/12 1$\T1/txr/m/n/12 ), whereas
+ []
+
+
+Overfull \hbox (10.76329pt too wide) in paragraph at lines 282--285
+\OML/txmi/m/it/12 y$ \T1/txr/m/n/12 stands for the pref-er-ence of the []DM to-ward the min-i-miza-tion of the tax liability($\OML/txmi/m/it/12 w\OT1/txr/m/n/12 2$\T1/txr/m/n/12 )
+ []
+
+<Images/ternary.png, id=507, 476.2593pt x 569.4876pt>
+File: Images/ternary.png Graphic file (type png)
+<use Images/ternary.png>
+Package pdftex.def Info: Images/ternary.png  used on input line 288.
+(pdftex.def)             Requested size: 272.99881pt x 326.43613pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2067,46 +2078,15 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42]
-Overfull \hbox (8.36404pt too wide) in paragraph at lines 288--291
-\T1/txr/m/n/12 Where $\OML/txmi/m/it/12 x$ \T1/txr/m/n/12 is the pref-er-ence for the min-i-miza-tion of the op-er-a-tional costs($\OML/txmi/m/it/12 w\OT1/txr/m/n/12 1$\T1/txr/m/n/12 ), whereas
- []
-
-
-Overfull \hbox (10.76329pt too wide) in paragraph at lines 288--291
-\OML/txmi/m/it/12 y$ \T1/txr/m/n/12 stands for the pref-er-ence of the []DM to-ward the min-i-miza-tion of the tax liability($\OML/txmi/m/it/12 w\OT1/txr/m/n/12 2$\T1/txr/m/n/12 )
- []
-
-<Images/ternary.png, id=515, 476.2593pt x 569.4876pt>
-File: Images/ternary.png Graphic file (type png)
-<use Images/ternary.png>
-Package pdftex.def Info: Images/ternary.png  used on input line 294.
-(pdftex.def)             Requested size: 272.99881pt x 326.43613pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.95003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[43]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.95003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[44pdfTeX warning (ext4): destination with the same identifier (name{figure.1.7}) has been already used, duplicate ignored
+[42pdfTeX warning (ext4): destination with the same identifier (name{figure.1.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.305     \item S
-                 tep 2: the pairwise matrix elements were normalized and con... <./Images/ternary.png>]
+l.298     \item S
+                 tep 1: given the set of criteria defined in the previous se... <./Images/ternary.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 326.
+               Default added (so using `tbp') on input line 320.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2114,28 +2094,23 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45pdfTeX warning (ext4): destination with the same identifier (name{table.1.2}) has been already used, duplicate ignored
+[43pdfTeX warning (ext4): destination with the same identifier (name{table.1.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.341 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.1.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.341 
+l.335 
       ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 342.
+               Default added (so using `tbp') on input line 336.
 
-<Images/AllocationMap.png, id=535, 957.0957pt x 569.4876pt>
+<Images/AllocationMap.png, id=527, 957.0957pt x 569.4876pt>
 File: Images/AllocationMap.png Graphic file (type png)
 <use Images/AllocationMap.png>
-Package pdftex.def Info: Images/AllocationMap.png  used on input line 359.
+Package pdftex.def Info: Images/AllocationMap.png  used on input line 353.
 (pdftex.def)             Requested size: 592.0pt x 352.25314pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7397) has occurred while \output is active []
 
 
 
@@ -2144,11 +2119,16 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46pdfTeX warning (ext4): destination with the same identifier (name{table.1.4}) has been already used, duplicate ignored
+[44pdfTeX warning (ext4): destination with the same identifier (name{table.1.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.366 
+l.360 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.1.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.360 
       ]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2156,11 +2136,11 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[47pdfTeX warning (ext4): destination with the same identifier (name{figure.1.8}) has been already used, duplicate ignored
+[45pdfTeX warning (ext4): destination with the same identifier (name{figure.1.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.366 
+l.360 
        <./Images/AllocationMap.png>]) (./ch2.tex
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2168,9 +2148,9 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48]
+[46]
 Chapter 2.
-[49
+[47
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 12--16
@@ -2183,7 +2163,13 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50]
+[48]
+<Images/occurence.png, id=556, 957.0957pt x 569.4876pt>
+File: Images/occurence.png Graphic file (type png)
+<use Images/occurence.png>
+Package pdftex.def Info: Images/occurence.png  used on input line 20.
+(pdftex.def)             Requested size: 390.0pt x 232.05763pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2193,24 +2179,18 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51]
-<Images/occurence.png, id=569, 957.0957pt x 569.4876pt>
-File: Images/occurence.png Graphic file (type png)
-<use Images/occurence.png>
-Package pdftex.def Info: Images/occurence.png  used on input line 22.
-(pdftex.def)             Requested size: 390.0pt x 232.05763pt.
-
+[49]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
+[50pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.31   \begin{itemize}
+l.29   \begin{itemize}
                        <./Images/occurence.png>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2218,21 +2198,21 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+[51]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 26.95003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 26.95003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [53]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.95003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[54]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.95003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[55]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2242,18 +2222,37 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
+[54pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.90   $$
+l.88   $$
          ]
-<Images/heatmap.png, id=615, 504.9264pt x 505.1673pt>
+<Images/heatmap.png, id=606, 504.9264pt x 505.1673pt>
 File: Images/heatmap.png Graphic file (type png)
 <use Images/heatmap.png>
-Package pdftex.def Info: Images/heatmap.png  used on input line 95.
+Package pdftex.def Info: Images/heatmap.png  used on input line 93.
 (pdftex.def)             Requested size: 390.0pt x 390.19792pt.
 
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 26.95003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 26.95003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.99 
+      <./Images/heatmap.png>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
@@ -2267,15 +2266,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.101 
-       <./Images/heatmap.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[58]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
@@ -2283,6 +2274,9 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [59]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
@@ -2290,7 +2284,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [60]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1796) has occurred while \output is active []
 
 
 
@@ -2310,7 +2304,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [62]
-Underfull \vbox (badness 1803) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2329,8 +2323,13 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[64]
-Underfull \vbox (badness 4647) has occurred while \output is active []
+[64pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.229 \end{mini!}
+                 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2340,7 +2339,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [65]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 245--249
+
+ []
+
+
+Underfull \vbox (badness 5504) has occurred while \output is active []
 
 
 
@@ -2359,14 +2363,10 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[67pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 261--267
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.234 \end{mini!}
-                 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2375,44 +2375,8 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [68]
-Underfull \hbox (badness 10000) in paragraph at lines 250--254
-
- []
-
-
-Underfull \vbox (badness 5504) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.95003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[69]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.95003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[70]
-Underfull \hbox (badness 10000) in paragraph at lines 266--272
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.95003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[71]
-./ch2.tex:279: Extra }, or forgotten $.
-l.279 ...} c^f_{ijk} x^f_{ijk} - \delta^+_{ijk}=0}
+./ch2.tex:274: Extra }, or forgotten $.
+l.274 ...} c^f_{ijk} x^f_{ijk} - \delta^+_{ijk}=0}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2426,9 +2390,9 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[72]
-./ch2.tex:288: Extra }, or forgotten $.
-l.288 (o^t_s \cdot x^t_s) - \delta^+_s}
+[69]
+./ch2.tex:283: Extra }, or forgotten $.
+l.283 (o^t_s \cdot x^t_s) - \delta^+_s}
                                        {=0,}{\forall s \in S}
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2446,8 +2410,40 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[73]
+[70]
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 26.95003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 26.95003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[72]
+Overfull \hbox (15.94618pt too wide) detected at line 335
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 26.95003pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[73]
+Overfull \vbox (42.26079pt too high) has occurred while \output is active []
 
 
 
@@ -2464,49 +2460,17 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [75]
-Overfull \hbox (15.94618pt too wide) detected at line 340
-[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.95003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[76]
-Overfull \vbox (42.26079pt too high) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.95003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[77]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.95003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[78]
-<Images/tradeoff.png, id=800, 505.6491pt x 505.6491pt>
+<Images/tradeoff.png, id=788, 505.6491pt x 505.6491pt>
 File: Images/tradeoff.png Graphic file (type png)
 <use Images/tradeoff.png>
-Package pdftex.def Info: Images/tradeoff.png  used on input line 368.
+Package pdftex.def Info: Images/tradeoff.png  used on input line 363.
 (pdftex.def)             Requested size: 272.99881pt x 273.00786pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (4.89212pt too wide) in paragraph at lines 372--373
+Overfull \hbox (4.89212pt too wide) in paragraph at lines 367--368
 []\T1/txr/m/n/12 Given the knowl-edge about the trade-off that []DM faces be-tween greener choices
  []
 
@@ -2520,30 +2484,30 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[79]
+[76]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.95003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[80pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
+[77pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.379 
+l.374 
        <./Images/tradeoff.png>]
-Overfull \hbox (14.44815pt too wide) in paragraph at lines 382--392
+Overfull \hbox (14.44815pt too wide) in paragraph at lines 377--387
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 397.
+               Default added (so using `tbp') on input line 392.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 414.
+               Default added (so using `tbp') on input line 409.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2551,21 +2515,21 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[81pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) has been already used, duplicate ignored
+[78pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.427 \end{table}
+l.422 \end{table}
                  pdfTeX warning (ext4): destination with the same identifier (name{table.2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.427 \end{table}
+l.422 \end{table}
                  ]
-<Images/network.png, id=817, 957.0957pt x 569.4876pt>
+<Images/network.png, id=804, 957.0957pt x 569.4876pt>
 File: Images/network.png Graphic file (type png)
 <use Images/network.png>
-Package pdftex.def Info: Images/network.png  used on input line 433.
+Package pdftex.def Info: Images/network.png  used on input line 428.
 (pdftex.def)             Requested size: 592.0pt x 352.25314pt.
 ) (./conclusion.tex
 
@@ -2574,7 +2538,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[82pdfTeX warning (ext4): destination with the same identifier (name{table.2.3}) has been already used, duplicate ignored
+[79pdfTeX warning (ext4): destination with the same identifier (name{table.2.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2586,22 +2550,21 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[83pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been already used, duplicate ignored
+[80pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \clearpage
-              {\pagestyle{empty}\cleardoublepage} <./Images/network.png>] [84
+              {\pagestyle{empty}\cleardoublepage} <./Images/network.png>] [81
 
 
-] [85
 
 ]
 Overfull \hbox (14.93799pt too wide) in paragraph at lines 26--27
 []\T1/txr/m/n/12 Data pars-ing with a script-ing lan-guage such R us-ing pack-ages like sqldf[[][]Gro17[][]]
  []
 
-[86]
+[82]
 
 ./conclusion.tex:33: LaTeX Error: There's no line here to end.
 
@@ -2615,17 +2578,17 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[87]
+[83]
 Underfull \hbox (badness 10000) in paragraph at lines 39--47
 
  []
 
-[88]) (./appendix.tex [89
+[84]) (./appendix.tex [85
 
 
 
 
-] [90]
+] [86]
 Appendix A.
 (./_minted-Thesis/default-pyg-prefix.pygstyle) (./_minted-Thesis/default.pygstyle) (./_minted-Thesis/8DCEB47E6DC58429B13E815BAED2D28A91BB2A2F8F34A9584115A3A83EF45C6A.pygtex
 LaTeX Font Info:    Try loading font information for T1+txtt on input line 1.
@@ -2635,11 +2598,7 @@ File: t1txtt.fd 2000/12/15 v3.1
 LaTeX Font Info:    Try loading font information for TS1+txtt on input line 20.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txtt.fd
 File: ts1txtt.fd 2000/12/15 v3.1
-))
-Underfull \vbox (badness 1122) detected at line 13
- []
-
-[91
+)) [87
 
 ]
 Underfull \vbox (badness 10000) detected at line 13
@@ -2649,18 +2608,22 @@ Underfull \vbox (badness 10000) detected at line 13
 Underfull \vbox (badness 10000) detected at line 13
  []
 
-[92] [93] [94
+[88] [89] [90
 
 ]
 Appendix B.
 (./_minted-Thesis/B6BAF238C60AE9242D5E79D53EE96280922DA0CC93C5356E6213A3013B3A160E.pygtex
 LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <10> not available
 (Font)              Font shape `T1/txtt/m/sl' tried instead on input line 2.
-)
-Underfull \vbox (badness 1092) detected at line 26
+) [91]
+Underfull \vbox (badness 10000) detected at line 26
  []
 
-[95]
+
+Overfull \vbox (10.39789pt too high) detected at line 26
+ []
+
+[92]
 Underfull \vbox (badness 10000) detected at line 26
  []
 
@@ -2668,7 +2631,7 @@ Underfull \vbox (badness 10000) detected at line 26
 Underfull \vbox (badness 10000) detected at line 26
  []
 
-[96]
+[93]
 Underfull \vbox (badness 10000) detected at line 26
  []
 
@@ -2676,15 +2639,7 @@ Underfull \vbox (badness 10000) detected at line 26
 Underfull \vbox (badness 10000) detected at line 26
  []
 
-[97]
-Underfull \vbox (badness 10000) detected at line 26
- []
-
-
-Overfull \vbox (10.39795pt too high) detected at line 26
- []
-
-[98]) [99] [100
+[94]) [95] [96
 
 ]
 Overfull \hbox (13.90219pt too wide) in paragraph at lines 42--42
@@ -2706,12 +2661,12 @@ Overfull \hbox (5.23605pt too wide) in paragraph at lines 42--42
 \T1/txr/m/n/12 criteria de-ci-sion anal-y-sis with goal pro-gram-ming in en-gi-neer-ing, man-
  []
 
-[101]
+[97]
 Overfull \hbox (16.57193pt too wide) in paragraph at lines 42--42
 []\T1/txr/m/n/12 H. Justin David-son and Robert M. True-blood. ``Ac-count-ing for Decision-
  []
 
-[102]
+[98]
 Overfull \hbox (10.52174pt too wide) in paragraph at lines 42--42
 \T1/txr/m/n/12 pro-gram-ming''. In: \T1/txr/m/it/12 In-ter-na-tional Jour-nal of Pro-duc-tion Re-search \T1/txr/m/n/12 43.20
  []
@@ -2747,7 +2702,7 @@ Overfull \hbox (6.19336pt too wide) in paragraph at lines 42--42
 \T1/txr/m/n/12 Multi-na-tional Firm''. In: \T1/txr/m/it/12 The Ac-count-ing Re-view \T1/txr/m/n/12 53.4 (1978), pp. 935^^U
  []
 
-[103]
+[99]
 
 ./Thesis.tex:42: Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -2805,7 +2760,7 @@ Overfull \hbox (2.37093pt too wide) in paragraph at lines 42--42
 \T1/txr/m/it/12 Jour-nal of the Op-er-a-tional Re-search So-ci-ety \T1/txr/m/n/12 59.1 (Jan. 2008), pp. 90^^U
  []
 
-[104]
+[100]
 Overfull \hbox (1.17589pt too wide) in paragraph at lines 42--42
 []\T1/txr/m/n/12 C. Romero. \T1/txr/m/it/12 Hand-book of Crit-i-cal Is-sues in Goal Pro-gram-ming\T1/txr/m/n/12 . Perg-
  []
@@ -2820,7 +2775,7 @@ Overfull \hbox (8.2072pt too wide) in paragraph at lines 42--42
 \T1/txr/m/n/12 art''. In: \T1/txr/m/it/12 Eu-ro-pean Jour-nal of Op-er-a-tional Re-search \T1/txr/m/n/12 111.3 (Dec. 1998),
  []
 
-[105]
+[101]
 Overfull \hbox (11.27322pt too wide) in paragraph at lines 42--42
 [][]$\T1/txtt/m/n/12 https : / / github . com / Pold87 / academic -[] keyword -[] occurrence$[][]\T1/txr/m/n/12 .
  []
@@ -2830,7 +2785,7 @@ Overfull \hbox (23.91801pt too wide) in paragraph at lines 42--42
 []\T1/txr/m/n/12 Hadley Wick-ham. \T1/txr/m/it/12 gg-plot2: El-e-gant Graph-ics for Data Anal-y-sis\T1/txr/m/n/12 . Springer-
  []
 
-[106] [107]
+[102] [103]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
  (./Thesis.aux)
@@ -2843,18 +2798,18 @@ Package logreq Info: Writing requests to 'Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44411 strings out of 492982
- 841864 string characters out of 6134896
- 1298450 words of memory out of 5000000
- 46899 multiletter control sequences out of 15000+600000
- 619530 words of font info for 173 fonts, out of 8000000 for 9000
+ 44408 strings out of 492982
+ 841849 string characters out of 6134896
+ 1298443 words of memory out of 5000000
+ 46900 multiletter control sequences out of 15000+600000
+ 621229 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,18n,71p,10398b,1526s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tcxtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (107 pages, 2437931 bytes).
+Output written on Thesis.pdf (103 pages, 2435590 bytes).
 PDF statistics:
- 1082 PDF objects out of 1200 (max. 8388607)
- 922 compressed objects within 10 object streams
- 308 named destinations out of 1000 (max. 500000)
+ 1065 PDF objects out of 1200 (max. 8388607)
+ 909 compressed objects within 10 object streams
+ 304 named destinations out of 1000 (max. 500000)
  338 words of extra memory for PDF output out of 10000 (max. 10000000)
 

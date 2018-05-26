@@ -32,13 +32,11 @@ blanknode/.style={rectangle, draw=white!60, minimum height=0mm, minimum width=10
 \label{fig:flowchart}
 \end{figure}
 
-The following chapter is organized in four sections, apart from the first one which focuses on giving a brief introduction to the topic that is going to be addressed and modelled; the last chapters will be stand-alone sections developing specific parts of the process of model formulation and analysis. Specifically at section two a state-of-the-art review will be given, in order to give a pragmatic point of view of the new developments in the field. The state-of-the-art review will take into account three main area of application, and then the focus will be oriented to the cross field of accounting, which is the one where the model belongs. 
+The following chapter is organized in four sections, apart from the first one which focuses on giving a brief introduction to the topic that is going to be addressed and modeled; the last chapters will be stand-alone sections developing specific parts of the process of model formulation and analysis. Specifically at section two a state-of-the-art review will be given, in order to give a pragmatic point of view of the new developments in the field. The state-of-the-art review will take into account three main area of application, and then the focus will be oriented to the cross field of accounting, which is the one where the model belongs. 
 
 Concluded this overview the formulation of the model will start from the data gathering process, the data will be categorized in three different typologies as highlighted by the flowchart in figure \ref{fig:flowchart}. After the process of data gathering, the full model will be formulated in a \gls{gp} fashion defining, objectives, soft constraints and hard constraints.
 
 Ultimately the model will be solved using the LINGO software package. The weights used will be subjected to a sensitivity analysis through different scenarios. Then, a set of weights will be chosen to take into account the \gls{dm} preferences and the results will be discussed, in doing so some limitations of the model will be stated and further analyzed.
-
-\pagebreak 
 
 \section{A state-of-the-art review: Goal Programming}
 The \gls{gp} is probably one of the most used tool by academics and practitioners in solving multi criteria optimization problems, even though such preferences do not follow a linear path\cite{Romero2014}\cite{Schniederjans1995}. The main field of research and application of the \gls{gp} are undoubtedly three, namely engineering, social sciences and management\cite{Colapinto2017a}, with the former one leading for the number of its applications.
@@ -78,10 +76,10 @@ The accounting field (where the model proposed belongs), as seen in the followin
 In such situation the \gls{gp} may turn out to be a very powerful tool, as highlighted by Aouni\cite{Aouni2017}; generally accountants are facing complex decision-making situations where they aggregate simultaneously several conflicting and incommensurable factors. Given this situation a \gls{mcda} tool is, without any doubt the best fit approach possible and \gls{gp} turns out to be used as framework because of its simplicity of formulation and at the same time the power of the flexibility that it provides. In the following table is proposed a review of the brand-new articles written in the field and their main contribution.
 
 \begin{center}
-\begin{longtable}{ || m{11em} m{20em}|| }
+\begin{longtable}{  m{9em} m{22em} }
  \hline
- Author & Novelty \\ 
-\hline\hline
+ \textbf{Author} & \textbf{Novelty} \\ 
+\hline
 Ijiri and Kaplan\cite{Ijiri1971} & The authors propose a \gls{wgp} to set a perfect sampling policy in auditing according to four objectives, namely: representative, corrective, protective and preventive sampling. \\
 \hline
 Tayi and Gangolly\cite{Tayi1985} & The authors, building on what proposed in the filed of audit sampling, propose instead of a \gls{wgp}, a sapling based on a new approach, namely a polynomial \gls{gp} which guarantees a better contemplation of the trade-offs between objectives. \\
@@ -96,12 +94,12 @@ Gardner et al.\cite{Gardner1990} & The authors use a multi period approach to au
 \hline
 Kwak et al.\cite{Kwak2003} & The authors propose one of the first multiple-objective auditing model, combining strategic objectives and human resources allocation using fuzzy set. \\
 \hline
-Zamfirescu and Zamfirescu\cite{Zamfirescu2013} & The authors apply a \gls{lgp} to enact a performance based budgeting(PBM) on funds allocation in a real public company. \\
+Zamfirescu and Zamfirescu\cite{Zamfirescu2013} & The authors apply a \gls{lgp} to enact a Performance Based Budgeting on funds allocation in a real public company. \\
 \w
 Tan et al.\cite{Tan2008} & The authors propose a \gls{gp} model in order to help contractors to decide the optimal level of resources to be consumed within a set of limitations.  \\
 \hline 
 Iranmanesh and Thomson\cite{Iranmanesh2008} & The authors develop a model for product design based
-on Quality Function Deployment (QFD) whose aim is to optimize cost and design characteristics during product
+on Quality Function Deployment whose aim is to optimize cost and design characteristics during product
 development. \\
  \hline
  \caption{Application of Goal Programming in accounting: authors and novelties}
@@ -111,12 +109,10 @@ development. \\
 From such table is possible to see how many \gls{gp} models have been created to solve a broad range of accounting topics such as in audit sampling or other fields dealing with management accounting such as pricing, costing, capital budgeting and performance evaluation.
 This popularity is due to the fact that \gls{gp} is easy to understand and to apply, plus it facilitates consideration of trade-off in the decision-making process which is perceived by the authors proposed as a deal-breaker when facing the decision on whether to use a \gls{gp} approach.
 \\
-However it's worth mentioning the fact that not every field of accounting gained the same attention by both researchers and practitioner and, aside from its popularity, the interest in international tax planning never arose. This may be due to the typical background that such researchers have on the field. In fact most of the research moved in this field pertain to the legal area, which probably lack from a point of view of mathematical modelling skills. From the other side the field of international taxation involves a great set of laws, both soft and hard, that may result in a great effort by practitioner to model. 
+However it's worth mentioning the fact that not every field of accounting gained the same attention by both researchers and practitioner and, aside from its popularity, the interest in international tax planning never arose. This may be due to the typical background that such researchers have on the field. In fact most of the research moved in this field pertain to the legal area, which probably lack from a point of view of mathematical modeling skills. From the other side the field of international taxation involves a great set of laws, both soft and hard, that may result in a great effort by practitioner to model. 
 From an extensive review of the field of study under scope, it's worth mentioning the work of Merville and Petty\cite{Merville1978} who tried to model an optimal pricing policy which is indeed useful to set a global tax strategy since the \gls{tp} core is base on that. However, one major problem of such model is given by the fact that it doesn't take into account the novelties introduced by the recent work of the \gls{oecd} and the increasing importance of new tools at the disposal of multinational companies such as: extensive databases, and newer resource management tools.
 \\
 Therefore, keeping what proposed by the literature, seems necessary to propose a new type of model which takes into account these new developments and result giving a powerful tool in the hand of the \gls{dm}.
-
-\pagebreak
 
 \section{Model formulation}
 
@@ -152,14 +148,15 @@ The result were five clusters with the one highlighted by the circle indicating 
 \begin{figure}
 \centering
 \includegraphics[width=1\linewidth]{Images/Cluster-GNI-CT.png}
-\caption{K-mean cluster on standardized Corporate Tax and GNI per capita}
+\caption{K-mean cluster on standardized Corporate Tax and GNI per Capita}
+
 \end{figure}
 
 \subsubsection{Target enterprise data}
 
 This data includes the information from our enterprise (the one in which we're going to reallocate the entities). Even though, the data that can be extracted from the enterprise are enormous, the decision was to depict the most valuable information on the enterprise keeping under control the numerosity of such parameters. The parameter identified are: 
 \begin{itemize}
-	\item Revenues: they represent the upper limit that, whether crossed, our strategy will result not profitable, this element can be either forecasted or in case of a constant flow of revenues over the years, obtained through historical data;
+	\item Revenues: they represent the upper limit that, whether crossed, our strategy will result not profitable, this element can be either forecast or in case of a constant flow of revenues over the years, obtained through historical data;
 	\item Employees: this element is somehow tied to the revenues expected, plus some limitations dictated by the labor unions depending by the countries (which were not modeled);
 	\item Cost of running the asset: this is a very crucial factor in case of business that rely heavily on machinery and industrial plant activities, in fact such parameter may be neglected or, take a secondary position in the decision process, in case of a business relying heavily on employees, as for example a software company or a consulting firm.
 \end{itemize}
@@ -209,7 +206,7 @@ T(R,E,A,K)= [R-(ce_k\cdot E+ca_k\cdot A+ck_k\cdot K)]\cdot tx_k \quad \forall k 
 \end{equation}
 
 \subsubsection{Functional allocation}
-This objective derives from the \gls{tnmm} technique used in accessing \gls{tp} goodness. The method is based on the examination of the net profit relative to an appropriate base (e.g. costs, sales, assets) that a local entity realizes from a controlled transaction (or in our case to the entity itself). Basically, such objective works as a quality control that the overall process of maximization of profits as some confirmation also in the real market, made by independent actors. This is in certain sense a bond that helps the model in giving a solution viable also in an anti avoidance perspective.
+This objective derives from the \gls{tnmm} technique used in accessing \gls{tp} goodness. The method is based on the examination of the net profit relative to an appropriate base (e.g., costs, sales, assets) that a local entity realizes from a controlled transaction (or in our case to the entity itself). Basically, such objective works as a quality control that the overall process of maximization of profits as some confirmation also in the real market, made by independent actors. This is in certain sense a bond that helps the model in giving a solution viable also in an anti avoidance perspective.
 
 In order to achieve this is necessary to identify which \gls{pli} to choose; this is an important choice that has to be made taking into account the functional characterization of such entity, that is, if an entity focuses on distribution the best \gls{pli} to test such entity is given by the \gls{ros} of its functional characteristics, that's because the sales are supposed to be the main element of a distributor (and not cost or assets). The main \gls{pli} used by practitioners are: \gls{ros}, \gls{fcmu}, \gls{roa}, \gls{roi}.
 
@@ -268,8 +265,6 @@ The overall model algebraically looks as follows:
 
 Where the equations(1.4b)(1.4c)(1.4d) belong to the first category, where instead (1.4e)(1.4f)(1.4g) belong to the second, the latter in fact depend on the strategy of the \gls{dm} and it's not given by any environmental variable.
 
-\pagebreak
-
 \section{Mathematical simulation: a case study}
 The simulation of the above-mentioned model was made using LINGO17 and specifically its linear solver. Even if the mathematical package was able to handle the total amount of data given by the model the simulation was done using a portion of this data, avoiding countries in which the company doesn't operate at all. Other limitations were implemented in order to avoid any possible non-linearity, resulting in an increase of the computational time to obtain a solution, this was possible by avoiding inserting the equation (1.4d), when instead the correlated constraints, namely (1.4h) and (1.4i) were linearized. Other limitations of the model are exposed below:
 \begin{itemize}
@@ -282,7 +277,7 @@ The simulation of the above-mentioned model was made using LINGO17 and specifica
 Concerning the data, the financials were taken from a company operating mostly in Europe and western countries in general, plus this company tend to produce and store most of its products in Asian countries and tend to have less inventory in its western distribution sites. The company under scope was underperforming at the time of this simulation its P/L statement registered a loss of roughly  6.000.000 USD. The revenues registered for the year under the scope were about 88.900.344 USD and the employees hired were 2.722.
 
 \subsection{Sensitivity analysis}
-In the sensitivity analysis, the value of the weights was preemptively determined; since the model for the case study has only three goals, namely the minimization of the operation cost, the minimization of the tax liability and conservation of the functional allocation. The aim of the sensitivity analysis was to measure all the possible frontiers between \gls{dm} preference toward these choices. Therefore the objectives were subjected to different weights combination, however, the combinations didn't include any zero weight, this was done in order to avoid any Pareto solution that would result infeasible in reality. For the three objectives was given a set of possible weight alternatives following the equation reported below:
+In the sensitivity analysis, the value of the weights was preemptively determined; since the model for the case study has only three goals, namely the minimization of the operation cost, the minimization of the tax liability and conservation of the functional allocation. The aim of the sensitivity analysis was to measure all the possible frontiers between \gls{dm} preference toward these choices. Therefore the objectives were subjected to different weights combination, however, the combinations didn't include any zero weight, this was done in order to avoid any Pareto solution that would result unfeasible in reality. For the three objectives was given a set of possible weight alternatives following the equation reported below:
 $$
 1=x + y + z, \quad \forall x \in X, X = (0,1), \quad \forall y \in Y, Y = (0,1, \quad \forall z \in Z, Z = (0,1),
 $$
