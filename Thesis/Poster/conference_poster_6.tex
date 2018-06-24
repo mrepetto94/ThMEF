@@ -1,0 +1,212 @@
+\documentclass[a0,portrait]{a0poster}
+
+\usepackage{multicol} % This is so we can have multiple columns of text side-by-side
+\columnsep=100pt % This is the amount of white space between the columns in the poster
+\columnseprule=3pt % This is the thickness of the black line between the columns in the poster
+
+\usepackage[svgnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
+
+\usepackage{graphicx} % Required for including images
+\graphicspath{{figures/}} % Location of the graphics files
+\usepackage{booktabs} % Top and bottom rules for table
+\usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
+\usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
+\usepackage{wrapfig} % Allows wrapping text around tables and figures
+\usepackage[utf8x]{inputenc}
+
+\begin{document}
+
+\begin{minipage}[b]{0.75\linewidth}
+\veryHuge \textbf{Transportation model and value
+creation:} \color{Black}\\ % Title
+\Huge\textit{ A multicriteria decision
+analysis approach}\\[2cm] % Subtitle
+\huge \textbf{Marco Repetto}\\[0.5cm] % Author(s)
+\huge Università degli Studi di Milano\\[0.4cm] % University/organization
+\Large Faculty of Political, Economic and Social Sciences\\[0.4cm]
+\Large \texttt{marco.repetto@studenti.unimi.it}\\
+\end{minipage}
+%
+\begin{minipage}[b]{0.25\linewidth}
+\includegraphics[width=20cm]{logo}\\
+\end{minipage}
+
+\vspace{1cm} % A bit of extra whitespace between the header and poster content
+
+%----------------------------------------------------------------------------------------
+
+\begin{multicols}{2} % This is how many columns your poster will be broken into, a portrait poster is generally split into 2 columns
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\color{Navy} % Navy color for the abstract
+
+\begin{abstract}
+	In the poster is proposed a review of the multicriteria decision anlysis tool with particular attention on the Goal Programmin approach. In order to show its potential two practical cases are taken into account. In the first case is solved a problem of optimal income allocation between multinational entities under several contraints derived from the field of transfer pricing. In the second case the problem is stated as an optimization of the goods/trash flow in a Green Supply Chain network involving a closed loop setting. Both the cases used wheights to identify the propensity of the decision maker toward a certain choice, therefore in order to support such decision and avoid any possible mistake in evaluating them an Analytic Hierarchy Process is set.
+
+\end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\color{SaddleBrown} % SaddleBrown color for the introduction
+
+\section*{Introduction}
+
+Value and MNE were probably the pairs of elements that charact rized the way business was done in the last centuries, and still, nowadays they are something that cannot be left aside when we talk about the business environment. Because of this interest, different disciplines were created; ranging from management to accounting and from supply chain to logistics (which has its roots in the military planning field). In this dissertation, the scope will be to apply a multi-objective approach, namely the GP in order to prove the effectiveness of such method and its different flavors in the hand of the DM. The two models presented deal with the transportation of some particular element of the firm in order to create additional value for it. 
+%----------------------------------------------------------------------------------------
+%	OBJECTIVES
+%----------------------------------------------------------------------------------------
+
+\color{DarkSlateGray} % DarkSlateGray color for the rest of the content
+
+\section*{Main Objectives}
+
+A firm and especially a MNE may be seen as a network of enterprises intertwined between each other in order to exploit the synergies provided by such union, if the framework of logistics it's used is possible to discern the flow between two or more of such firms in three different aspects, namely:
+
+\begin{itemize}
+ \item Goods: this flow is the most tangible one and may involve the movement of products from the rear line (production plan) to the front line (retail stores);    
+\item Information: this flow consists of all the information necessary for the network to work, a good example may be the information of the demand that has to move back to the production plan in order to be fulfilled;
+\item Finance: usually the finance flow is, among the information flow the one that permits the day to day operations of the network entities and supports the goods flow; this role is usually undertaken by the headquarter or in more complex groups to ad-hoc financial institutions inside the multinational company. 
+\end{itemize}
+In this setting the goal of the decision maker is to minimize the cost of each and every different aspects achieving the goal as effectively as possible.
+
+%----------------------------------------------------------------------------------------
+%	MATERIALS AND METHODS
+%----------------------------------------------------------------------------------------
+
+\section*{Materials and Methods}
+Even if the practice of decision-making is old as man, academics tend to date the roots of modern MCDA in the early 60s, where the focus at the time was to find the most preferred solution, or generating an approximation to the entire efficient frontier\cite{Greco2016}.
+\
+
+%------------------------------------------------
+
+\subsection*{Mathematical Section}
+
+The multicriteria decision problem formulation is the following: 
+$$
+Min[f_1(x),f_2(x),...,f_k(x)] \quad i=1,...,k \quad where \quad k\geq2
+$$
+	
+
+A solution to a MCP would be optimal if it'd respected the Pareto Efficient assumption, namely that no other feasible solution exists that is at least as good with respect to all objectives and strictly better with respect to at least one objective. Mathematically it means that $\left\{x_1,...x_k\right\}$ is a solution if $\not\exists \left\{x'_1,...x'_k\right\}$
+such that:
+	\[
+	g(f_1(x),f_2(x),...,f_k(x)) \leq g(f_1(x'),f_2(x'),...,f_k(x')) \quad \forall n \quad \in  \left\{1...k\right\}
+	\]
+
+	From the field of MCDA belongs the GP, such approach allows the DM to consider simultaneously several conflicting objectives. The idea behind such method is very simple, and is based on distance minimization; this means that at each objective function is associated a deviation variable that has to be minimized in batch with the other deviation variables coming from the other objective functions. Such models may be represented algebraically as follows:
+
+\begin{equation*}
+\begin{aligned}
+& \underset{n,p}{\text{minimize}}
+& & a=h(n,p) \\
+& \text{subject to}
+& & f_q(x)+n_q-p_q=b_q \\
+& & & x\in F \\
+& & & n_q,p_q\geq 0 
+\end{aligned}
+\end{equation*}
+
+GP is vastly applied in many sciences\cite{Tamiz1998}. Its origins are dated back to the 50s, firstly introduced by Abraham Charnes and William Cooper\cite{Charnes1955} with an article on the optimal estimation of executive compensation. In such approach, three main different categories have been identified, namely the LGP, the WGP and the CGP.
+In particular, the WGP allows for direct trade-offs between all unwanted deviational variables by using weights. As a result, WGP is more flexible but as counter-effect it requires more computational power. The mathematical formulation is the following one:
+
+\begin{equation*}
+\begin{aligned}
+& \underset{n,p}{\text{minimize}}
+& & \sum_{q=1}^{Q}(\frac{u_q n_q}{k_q}+\frac{v_q n_q}{k_q}) \\
+& \text{subject to}
+& & f_q(x)+n_q-p_q=b_q, \; q=1,...Q \\
+& & & x\in F \\
+& & & n_q,p_q\geq 0, \; q=1,...,Q 
+\end{aligned}
+\end{equation*}
+
+
+%----------------------------------------------------------------------------------------
+%	RESULTS 
+%----------------------------------------------------------------------------------------
+
+\section*{Results}
+In calculting the priority vector of the two different occurences modelled the Analytic Hierarchy Process\cite{Saaty1980} was used.
+\\
+\begin{tabular}{l l l}
+\toprule
+\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
+\midrule
+Treatment 1 & 0.0003262 & 0.562 \\
+Treatment 2 & 0.0015681 & 0.910 \\
+Treatment 3 & 0.0009271 & 0.296 \\
+\bottomrule
+\end{tabular}
+\captionof{table}{\color{Green} Table caption}
+
+Phasellus imperdiet, tortor vitae congue bibendum, felis enim sagittis lorem, et volutpat ante orci sagittis mi. Morbi rutrum laoreet semper. Morbi accumsan enim nec tortor consectetur non commodo nisi sollicitudin. Proin sollicitudin. Pellentesque eget orci eros. Fusce ultricies, tellus et pellentesque fringilla, ante massa luctus libero, quis tristique purus urna nec nibh.
+
+\begin{center}\vspace{1cm}
+\includegraphics[width=0.8\linewidth]{allocation_map.png}
+\captionof{figure}{\color{Green} Costs and revenues allocation according to to the model}
+\end{center}\vspace{1cm}
+
+In hac habitasse platea dictumst. Etiam placerat, risus ac.
+
+Adipiscing lectus in magna blandit:
+
+\begin{center}\vspace{1cm}
+\begin{tabular}{l l l l}
+\toprule
+\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2} \\
+\midrule
+Treatment 1 & 0.0003262 & 0.562 \\
+Treatment 2 & 0.0015681 & 0.910 \\
+Treatment 3 & 0.0009271 & 0.296 \\
+\bottomrule
+\end{tabular}
+\captionof{table}{\color{Green} Table caption}
+\end{center}\vspace{1cm}
+
+Vivamus sed nibh ac metus tristique tristique a vitae ante. Sed lobortis mi ut arcu fringilla et adipiscing ligula rutrum. Aenean turpis velit, placerat eget tincidunt nec, ornare in nisl. In placerat.
+
+\begin{center}\vspace{1cm}
+\includegraphics[width=0.8\linewidth]{network.png}
+\captionof{figure}{\color{Green} Graphical interpretation of the Green Supply Chain network}
+\end{center}\vspace{1cm}
+
+%----------------------------------------------------------------------------------------
+%	CONCLUSIONS
+%----------------------------------------------------------------------------------------
+
+\color{SaddleBrown} % SaddleBrown color for the conclusions to make them stand out
+
+\section*{Conclusions}
+
+\begin{itemize}
+\item MCDA and GP, in particular, is a sound tool for decision making in multi national context;
+\item GP is very versatile and can be implemented in almost any situation involving LP or mixed integer linear programming;
+\item The software base to solve GP problems can scale with extreme simplicity;
+\item Its simplicity may incurr in bad modelling;
+\item The fields of research are not homogeneously developed leaving gray zones that find difficulties to be up to date with the latest changes in the environment;
+\item Operational related fields result in great expansion;
+\item Law related fields result in abandon.
+\end{itemize}
+
+\color{DarkSlateGray} % Set the color back to DarkSlateGray for the rest of the content
+
+%----------------------------------------------------------------------------------------
+%	FORTHCOMING RESEARCH
+%----------------------------------------------------------------------------------------
+
+\section*{Forthcoming Research}
+
+ %----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+
+\bibliographystyle{plain} % Plain referencing style
+\bibliography{reference.bib}
+
+\end{multicols}
+\end{document}
