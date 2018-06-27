@@ -1,12 +1,13 @@
 # Fdb version 3
-["bibtex conference_poster_6"] 1529854038 "conference_poster_6.aux" "conference_poster_6.bbl" "conference_poster_6" 1529854124
+["bibtex conference_poster_6"] 1530076389 "conference_poster_6.aux" "conference_poster_6.bbl" "conference_poster_6" 1530079411
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1480098433 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "conference_poster_6.aux" 1529854124 766 3eae11b8d1af6ff6a039a79c478c6835 ""
+  "conference_poster_6.aux" 1530079411 794 893689bc7101691bdb1c60f6bba56007 ""
   "conference_poster_6.bcf" 0 -1 0 ""
   "reference.bib" 1529829216 44472 766f10981714ab7f42213439472c80cc ""
   (generated)
   "conference_poster_6.bbl"
-["pdflatex"] 1529854122 "conference_poster_6.tex" "conference_poster_6.pdf" "conference_poster_6" 1529854124
+  "conference_poster_6.blg"
+["pdflatex"] 1530079409 "conference_poster_6.tex" "conference_poster_6.pdf" "conference_poster_6" 1530079411
   "/etc/texmf/web2c/texmf.cnf" 1521588994 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1480098698 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -78,9 +79,9 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1526226744 4126755 728a7c903946a81710c4eee9517d1e08 ""
   "a0poster.cls" 1371907556 6176 37402c6052502599d35b9e16a21767aa ""
   "a0size.sty" 1297933626 7728 3b92cf7fd22bdf46734222814afe7554 ""
-  "conference_poster_6.aux" 1529854124 766 3eae11b8d1af6ff6a039a79c478c6835 ""
-  "conference_poster_6.bbl" 1529854038 692 7d29dd86a99d47dbda64c5719cbd3138 "bibtex conference_poster_6"
-  "conference_poster_6.tex" 1529854122 11762 d279b5b36f742366ee7bdfe55a599cb6 ""
+  "conference_poster_6.aux" 1530079411 794 893689bc7101691bdb1c60f6bba56007 ""
+  "conference_poster_6.bbl" 1530076389 692 7d29dd86a99d47dbda64c5719cbd3138 "bibtex conference_poster_6"
+  "conference_poster_6.tex" 1530079409 9935 937e15b42c3c825fd3211de9e2b6e2a8 ""
   "figures/allocation_map.png" 1522940422 739661 ad70cc65bd1ba3b2fc2611bca6c6c4e8 ""
   "figures/logo.jpg" 1522940422 265665 28e278d981474b24cd1f4ebb33be4e89 ""
   "figures/network.png" 1522940422 520711 8e497220a11ff7c9b4edb3c3096d5cbd ""

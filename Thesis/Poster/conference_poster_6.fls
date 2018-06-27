@@ -140,6 +140,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT figures/allocation_map.png
 INPUT ./figures/allocation_map.png
 INPUT ./figures/allocation_map.png
@@ -148,7 +149,6 @@ INPUT ./figures/network.png
 INPUT ./figures/network.png
 INPUT conference_poster_6.bbl
 INPUT conference_poster_6.bbl
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT conference_poster_6.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb

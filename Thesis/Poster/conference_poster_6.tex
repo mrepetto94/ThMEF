@@ -31,35 +31,22 @@ analysis approach}\\[2cm] % Subtitle
 \includegraphics[width=20cm]{logo}\\
 \end{minipage}
 
-\vspace{1cm} % A bit of extra whitespace between the header and poster content
-
-%----------------------------------------------------------------------------------------
+\vspace{1cm} % A bit of extra white space between the header and poster content
 
 \begin{multicols}{2} % This is how many columns your poster will be broken into, a portrait poster is generally split into 2 columns
-
-%----------------------------------------------------------------------------------------
-%	ABSTRACT
-%----------------------------------------------------------------------------------------
 
 \color{Navy} % Navy color for the abstract
 
 \begin{abstract}
-	In the poster is proposed a review of the multicriteria decision anlysis tool with particular attention on the Goal Programmin approach. In order to show its potential two practical cases are taken into account. In the first case is solved a problem of optimal income allocation between multinational entities under several contraints derived from the field of transfer pricing. In the second case the problem is stated as an optimization of the goods/trash flow in a Green Supply Chain network involving a closed loop setting. Both the cases used wheights to identify the propensity of the decision maker toward a certain choice, therefore in order to support such decision and avoid any possible mistake in evaluating them an Analytic Hierarchy Process is set.
+In the poster is proposed a review of the multicriteria decision analysis tool with particular attention on the Goal Programming approach. In order to show its potential two practical cases are taken into account. In the first case is solved a problem of optimal income allocation between multinational entities under several constraints derived from the field of transfer pricing. In the second case the problem is stated as an optimization of the goods/trash flow in a Green Supply Chain network involving a closed loop setting. Both the cases used weights to identify the propensity of the decision maker toward a certain choice, therefore in order to support such decision and avoid any possible mistake in evaluating them an Analytic Hierarchy Process is set.
 
 \end{abstract}
-
-%----------------------------------------------------------------------------------------
-%	INTRODUCTION
-%----------------------------------------------------------------------------------------
 
 \color{SaddleBrown} % SaddleBrown color for the introduction
 
 \section*{Introduction}
+Value and MNE were probably the pairs of elements that characterized the way business was done in the last centuries, and still, nowadays they are something that cannot be left aside when we talk about the business environment. Because of this interest, different disciplines were created; ranging from management to accounting and from supply chain to logistics (which has its roots in the military planning field). In this dissertation, the scope will be to apply a multi-objective approach, namely the GP in order to prove the effectiveness of such method and its different flavors in the hand of the DM. The two models presented deal with the transportation of some particular element of the firm in order to create additional value for it. 
 
-Value and MNE were probably the pairs of elements that charact rized the way business was done in the last centuries, and still, nowadays they are something that cannot be left aside when we talk about the business environment. Because of this interest, different disciplines were created; ranging from management to accounting and from supply chain to logistics (which has its roots in the military planning field). In this dissertation, the scope will be to apply a multi-objective approach, namely the GP in order to prove the effectiveness of such method and its different flavors in the hand of the DM. The two models presented deal with the transportation of some particular element of the firm in order to create additional value for it. 
-%----------------------------------------------------------------------------------------
-%	OBJECTIVES
-%----------------------------------------------------------------------------------------
 
 \color{DarkSlateGray} % DarkSlateGray color for the rest of the content
 
@@ -74,15 +61,9 @@ A firm and especially a MNE may be seen as a network of enterprises intertwined 
 \end{itemize}
 In this setting the goal of the decision maker is to minimize the cost of each and every different aspects achieving the goal as effectively as possible.
 
-%----------------------------------------------------------------------------------------
-%	MATERIALS AND METHODS
-%----------------------------------------------------------------------------------------
-
 \section*{Materials and Methods}
 Even if the practice of decision-making is old as man, academics tend to date the roots of modern MCDA in the early 60s, where the focus at the time was to find the most preferred solution, or generating an approximation to the entire efficient frontier\cite{Greco2016}.
-\
 
-%------------------------------------------------
 
 \subsection*{Mathematical Section}
 
@@ -125,86 +106,73 @@ In particular, the WGP allows for direct trade-offs between all unwanted deviati
 \end{aligned}
 \end{equation*}
 
-
-%----------------------------------------------------------------------------------------
-%	RESULTS 
-%----------------------------------------------------------------------------------------
-
 \section*{Results}
-In calculting the priority vector of the two different occurences modelled the Analytic Hierarchy Process\cite{Saaty1980} was used.
-\\
-\begin{tabular}{l l l}
+In calculating the priority vector of the two different occurrences modeled the Analytic Hierarchy Process\cite{Saaty1980} was used.
+
+\begin{wrapfigure}{l}{0.15\textwidth}
+\begin{tabular}{l l}
 \toprule
-\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
+\textbf{Criteria} & \textbf{Weight} \\
 \midrule
-Treatment 1 & 0.0003262 & 0.562 \\
-Treatment 2 & 0.0015681 & 0.910 \\
-Treatment 3 & 0.0009271 & 0.296 \\
+Operation Costs & 0.16 \\a0poster.cls
+Tax Burden & 0.30 \\
+Functional Allocation & 0.54 \\
+Total & \textit{1.00} \\
 \bottomrule
 \end{tabular}
-\captionof{table}{\color{Green} Table caption}
+\captionof{table}{\color{Green} First model priority vector}
+\end{wrapfigure}
 
-Phasellus imperdiet, tortor vitae congue bibendum, felis enim sagittis lorem, et volutpat ante orci sagittis mi. Morbi rutrum laoreet semper. Morbi accumsan enim nec tortor consectetur non commodo nisi sollicitudin. Proin sollicitudin. Pellentesque eget orci eros. Fusce ultricies, tellus et pellentesque fringilla, ante massa luctus libero, quis tristique purus urna nec nibh.
-
+The allocation resulted in four main area, namely: Denmark as unique manufacturer, Portugal as principal in charge of the management and holder of the know-how and intellectual properties and ultimately Cyprus and India as mere distributors.
+\\
+\\
+\\
 \begin{center}\vspace{1cm}
 \includegraphics[width=0.8\linewidth]{allocation_map.png}
 \captionof{figure}{\color{Green} Costs and revenues allocation according to to the model}
 \end{center}\vspace{1cm}
 
-In hac habitasse platea dictumst. Etiam placerat, risus ac.
+The priority vector of the second model was more complex having a greater number of objectives, however such objectives may be divided into two big categories, namely customer oriented choices and green choices. 
 
-Adipiscing lectus in magna blandit:
-
-\begin{center}\vspace{1cm}
-\begin{tabular}{l l l l}
+\begin{wrapfigure}{l}{0.15\textwidth}
+\begin{tabular}{l l}
 \toprule
-\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2} \\
+\textbf{Criteria} & \textbf{Weight} \\
 \midrule
-Treatment 1 & 0.0003262 & 0.562 \\
-Treatment 2 & 0.0015681 & 0.910 \\
-Treatment 3 & 0.0009271 & 0.296 \\
+Transportation & 0.16 \\
+Supporting Activities & 0.30 \\
+Recycling Goal & 0.54 \\
+Fulfill Demand & 0.16 \\
+Cut Waste & 0.30 \\
+Total & \textit{1.00} \\
 \bottomrule
 \end{tabular}
-\captionof{table}{\color{Green} Table caption}
-\end{center}\vspace{1cm}
+\captionof{table}{\color{Green} First model priority vector}
+\end{wrapfigure}
 
-Vivamus sed nibh ac metus tristique tristique a vitae ante. Sed lobortis mi ut arcu fringilla et adipiscing ligula rutrum. Aenean turpis velit, placerat eget tincidunt nec, ornare in nisl. In placerat.
-
+The result achieved both the goal of cutting the overall waste made by the retail side constituted by disposed goods (NOCO) and fulfill the demand of goods by the costumers meaning that every retail point was reached. However the recycling goal was not fully achieved due to scarcity of disposed goods.
+\\
+\\
+\\
+\\
 \begin{center}\vspace{1cm}
 \includegraphics[width=0.8\linewidth]{network.png}
 \captionof{figure}{\color{Green} Graphical interpretation of the Green Supply Chain network}
 \end{center}\vspace{1cm}
-
-%----------------------------------------------------------------------------------------
-%	CONCLUSIONS
-%----------------------------------------------------------------------------------------
 
 \color{SaddleBrown} % SaddleBrown color for the conclusions to make them stand out
 
 \section*{Conclusions}
 
 \begin{itemize}
-\item MCDA and GP, in particular, is a sound tool for decision making in multi national context;
-\item GP is very versatile and can be implemented in almost any situation involving LP or mixed integer linear programming;
+\item GP is a sound tool for decision making in multi national context;
+\item GP is very versatile and can be implemented in almost any situation involving LP or MILP;
 \item The software base to solve GP problems can scale with extreme simplicity;
-\item Its simplicity may incurr in bad modelling;
-\item The fields of research are not homogeneously developed leaving gray zones that find difficulties to be up to date with the latest changes in the environment;
-\item Operational related fields result in great expansion;
-\item Law related fields result in abandon.
+\item The fields of research are not homogeneously developed leaving gray zones;
+\item Operational related fields result in great expansion (as opposed to law related fields).
 \end{itemize}
 
-\color{DarkSlateGray} % Set the color back to DarkSlateGray for the rest of the content
-
-%----------------------------------------------------------------------------------------
-%	FORTHCOMING RESEARCH
-%----------------------------------------------------------------------------------------
-
-\section*{Forthcoming Research}
-
- %----------------------------------------------------------------------------------------
-%	REFERENCES
-%----------------------------------------------------------------------------------------
-
+\color{DarkSlateGray}
 \bibliographystyle{plain} % Plain referencing style
 \bibliography{reference.bib}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.13)  24 JUN 2018 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.5.13)  27 JUN 2018 08:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -353,50 +353,111 @@ Overfull \hbox (19.9113pt too wide) in paragraph at lines 19--33
 [][] [] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 71.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 58.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <24.88> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
-LaTeX Font Info:    Try loading font information for U+msa on input line 90.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
+LaTeX Font Info:    Try loading font information for U+msa on input line 71.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 90.
+LaTeX Font Info:    Try loading font information for U+msb on input line 71.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Overfull \hbox (37.35805pt too wide) in paragraph at lines 113--123
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
+\OT1/cmr/m/n/24.88 ci-pal in charge of the man-age-ment and holder
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
+\OT1/cmr/m/n/24.88 of the know-how and in-tel-lec-tual prop-er-ties and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
+\OT1/cmr/m/n/24.88 ul-ti-mately Cyprus and In-dia as mere dis-trib-u-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
+
+ []
+
 <figures/allocation_map.png, id=2, 957.0957pt x 569.4876pt>
 File: figures/allocation_map.png Graphic file (type png)
 <use figures/allocation_map.png>
-Package pdftex.def Info: figures/allocation_map.png  used on input line 150.
+Package pdftex.def Info: figures/allocation_map.png  used on input line 131.
 (pdftex.def)             Requested size: 801.74945pt x 477.06287pt.
+
+Overfull \hbox (8.22806pt too wide) in paragraph at lines 138--150
+[][] 
+ []
+
+
+Underfull \hbox (badness 5475) in paragraph at lines 153--158
+\OT1/cmr/m/n/24.88 over-all waste made by the re-tail side con-sti-tuted
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--158
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--158
+
+ []
+
 <figures/network.png, id=3, 957.0957pt x 569.4876pt>
 File: figures/network.png Graphic file (type png)
 <use figures/network.png>
-Package pdftex.def Info: figures/network.png  used on input line 174.
+Package pdftex.def Info: figures/network.png  used on input line 159.
 (pdftex.def)             Requested size: 801.74945pt x 477.06287pt.
- (./conference_poster_6.bbl)
-Overfull \vbox (39.7635pt too high) has occurred while \output is active []
-
- [1
+(./conference_poster_6.bbl) [1
 
 
-Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/logo.jpg> <./figures/allocation_map.png> <./figures/network.png>] [2] (./conference_poster_6.aux) ) 
+Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/logo.jpg> <./figures/allocation_map.png> <./figures/network.png>] (./conference_poster_6.aux) ) 
 Here is how much of TeX's memory you used:
- 5187 strings out of 492982
- 76399 string characters out of 6134896
- 216659 words of memory out of 5000000
- 8667 multiletter control sequences out of 15000+600000
+ 5189 strings out of 492982
+ 76431 string characters out of 6134896
+ 208775 words of memory out of 5000000
+ 8669 multiletter control sequences out of 15000+600000
  12477 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,39p,789b,599s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,39p,790b,599s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on conference_poster_6.pdf (2 pages, 1553195 bytes).
+Output written on conference_poster_6.pdf (1 page, 1553380 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
