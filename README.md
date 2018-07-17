@@ -14,7 +14,7 @@ Then the general Goal Promming formulation is given, which takes the following o
 The advantage of GP is that can be solved through LP solvers and in its weighted flavor allow for the direct tradeoff between objectives.
 
 ## Research Poster
-<p align="center"><img src="/Poster/conference_poster_6.jpg" align=middle width=398.11708035pt height=16.438356pt/></p>
+<p align="center"><img src="/Poster/conference_poster_6.jpg" align=middle></p>
 
 ## Author
 * **Marco Repetto**: [LinkedIn](https://www.linkedin.com/in/marco-repetto-256562b3/)
